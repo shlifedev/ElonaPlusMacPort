@@ -1,0 +1,7 @@
+; bmpsave into a directory that exists only in the game root (user\graphic2).
+exedir = dirinfo(1) + "\\"
+buffer 1, 4, 4
+color 1, 2, 3
+boxf 0, 0, 3, 3
+bmpsave exedir + "user\\graphic2\\shot.bmp"
+end 7

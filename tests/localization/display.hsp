@@ -1,0 +1,14 @@
+screen 0,320,120
+font "MS Gothic",18
+value="Starting Menu"
+pos 8,8
+mes value
+; A renderer translation must never change the VM string or saved bytes.
+if value!="Starting Menu" : end 51
+notesel value
+notesave "vm-value.txt"
+pos 8,50
+mesbox value,250,24,1
+await 10
+if value!="Starting Menu" : end 52
+end

@@ -1,0 +1,6 @@
+screen 0,16,16
+redraw 0
+color 17,34,51
+boxf 0,0,15,15
+redraw 1
+stop

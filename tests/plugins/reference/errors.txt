@@ -1,0 +1,6 @@
+# Observed legacy DLL error behaviour, run plugins-claude-07
+exrand_err_range error err=38
+exrand_err_seed error err=38
+gz_err_write_null error err=38
+gz_err_write_readhandle error err=38
+hmm_audio_mastervol error err=38

@@ -1,0 +1,9 @@
+# Module actually loaded in each fixture process (GetModuleFileNameA), run plugins-claude-07
+exrand_vectors exrand.dll fb99c1443797646428c705740ae0a93aacfe9cd76e3341b0e24970fb061a0b23 exrand.dll case-local
+gz_contract z.hpi 92aa68357593af607ae813b978298484003befac59cc5b4d66b31380210c9bee z.hpi case-local
+hmm_audio_init hmm.dll 5eed0341f3399b833d56402bf4b9c67bae6469e099ee0b802e9ebee428550565 hmm.dll case-local
+hmm_audio_uninit hmm.dll 5eed0341f3399b833d56402bf4b9c67bae6469e099ee0b802e9ebee428550565 hmm.dll case-local
+hmm_bits hmm.dll 5eed0341f3399b833d56402bf4b9c67bae6469e099ee0b802e9ebee428550565 hmm.dll case-local
+hspda_cases hspda.dll a1fcd341def560bd1aa57e63708d487b722a4fc95f2d8edd14e7a5461ea5eb08 hspda.dll case-local
+hspda_sortnote_edges hspda.dll a1fcd341def560bd1aa57e63708d487b722a4fc95f2d8edd14e7a5461ea5eb08 hspda.dll case-local
+hspda_xnote hspda.dll a1fcd341def560bd1aa57e63708d487b722a4fc95f2d8edd14e7a5461ea5eb08 hspda.dll case-local

@@ -1,0 +1,236 @@
+id	domain	ja	en	ko	legacy_aliases	context	source_ref	status	rationale
+god.001	god	無のエイス	Eyth of Infidel	무의 에이스	무신앙의 에이쓰	신앙·신명	2.335:start.hsp:275653	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.002	god	機械のマニ	Mani of Machine	기계의 마니	기계의 마니	신앙·신명	2.335:start.hsp:275654	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.003	god	風のルルウィ	Lulwy of Wind	바람의 룰위	바람의 룰위	신앙·신명	2.335:start.hsp:275655	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.004	god	元素のイツパロトル	Itzpalt of Element	원소의 이츠파로틀	원소의 이츠펄트	신앙·신명	2.335:start.hsp:275656	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.005	god	幸運のエヘカトル	Ehekatl of Luck	행운의 에헤카틀	행운의 에헤카틀	신앙·신명	2.335:start.hsp:275657	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.006	god	地のオパートス	Opatos of Earth	대지의 오파토스	대지의 오퍼토스	신앙·신명	2.335:start.hsp:275658	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.007	god	癒しのジュア	Jure of Healing	치유의 주아	치유의 쥬아	신앙·신명	2.335:start.hsp:275659	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.008	god	収穫のクミロミ	Kumiromi of Harvest	수확의 쿠미로미	농사의 쿠미로미	신앙·신명	2.335:start.hsp:275660	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+god.009	god	富のヤカテクト	Yacatect of Wealth	부의 야카테크트		신앙·신명	2.335:start.hsp:275661	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.010	race	イェルス	Yerles	이에르스	옐레스 | 이에르스	캐릭터 종족	2.335:start.hsp:434525	reviewed-proposed	기존 사전에서 이에르스/옐레스가 혼용됨. 이에르스를 대표 표기로 고정한다. 영어식 표기를 지명·종족 전체에 일관되게 적용.
+race.011	race	エウダーナ	Eulderna	에우데르나	에우데르나	캐릭터 종족	2.335:start.hsp:434671	reviewed-proposed	기존 한국어 사전의 에우데르나를 유지한다. 일본어 エウダーナ의 에우다나 음역은 검색 별칭으로만 취급.
+race.012	race	ジューア	Juere	주아	쥬아	캐릭터 종족	2.335:start.hsp:435105	reviewed-proposed	종족 ジューア와 신 ジュア는 한국어에서 모두 주아가 된다. 종족 선택/서술에서는 주아족, 신은 치유의 주아로 구분한다. 쥬아는 옛 표기.
+race.013	race	エレア	Elea	엘레아	엘레아	캐릭터 종족	2.335:start.hsp:435261	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.014	race	丘の民	Dwarf	언덕의 민족	난쟁이	캐릭터 종족	2.335:start.hsp:435036	reviewed-proposed	종족 고유 자칭 丘の民을 보존한다. 일반 판타지 드워프와 완전히 같은 설정으로 단정하지 않는다.
+race.015	race	妖精	Fairy	요정	요정	캐릭터 종족	2.335:start.hsp:270697	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.016	race	カオスシェイプ	Mutant	카오스 셰이프	돌연변이	캐릭터 종족	2.335:start.hsp:438881	reviewed-proposed	선택 가능한 종족은 일본어 고유명 카오스 셰이프. 일반 돌연변이 상태·특성과 구분한다.
+race.017	race	ノーランド	Norland	노랜드	놀란드 | 북구인	캐릭터 종족	2.335:start.hsp:434598	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.018	race	ローラン	Roran	로란	로란	캐릭터 종족	2.335:start.hsp:438125	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.019	race	ザナン	Zanan	자난		캐릭터 종족	2.335:start.hsp:437763	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.020	race	カルーン	Karune	카룬		캐릭터 종족	2.335:start.hsp:437212	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.021	race	かたつむり	Snail	달팽이	달팽이 | 얼굴모양의 집을 짊어진 달팽이	캐릭터 종족	2.335:start.hsp:267226	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.022	race	ゴーレム	Golem	골렘	골렘	캐릭터 종족	2.335:start.hsp:437625	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.023	race	リッチ	Lich	리치	리치	캐릭터 종족	2.335:start.hsp:268201	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.024	race	イーク	Yeek	이이크	이크	캐릭터 종족	2.335:start.hsp:267577	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.025	race	ケモビト	Catsister	수인	냥이인간	캐릭터 종족	2.335:start.hsp:438813	reviewed-proposed	일본어 종족명 ケモビト의 의미인 수인을 우선한다. 영어 식별자 catsister는 변경하지 않는다.
+race.026	race	神の化身	Servant	신의 화신	신의 화신 | 행정관	캐릭터 종족	2.335:start.hsp:439089	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+race.027	race	クイックリング	Quickling	퀵클링	날쌘돌이	캐릭터 종족	2.335:start.hsp:271074	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.028	class	戦士	Warrior	전사	전사	캐릭터 직업	2.335:start.hsp:268058	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.029	class	遺跡荒らし	Thief	유적 약탈자	도둑 | 도적	캐릭터 직업	2.335:start.hsp:291704	reviewed-proposed	일본어 직업명은 유적 약탈자. 일반 도둑 NPC 및 절도 기술과 구분한다.
+class.030	class	魔法使い	Wizard	마법사	마법사	캐릭터 직업	2.335:start.hsp:291707	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.031	class	農民	Farmer	농부	농부	캐릭터 직업	2.335:start.hsp:291710	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.032	class	プレデター	Predator	프레데터		캐릭터 직업	2.335:start.hsp:291713	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.033	class	狩人	Archer	사냥꾼	궁수 | 사수	캐릭터 직업	2.335:start.hsp:291716	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.034	class	魔法戦士	Warmage	마법전사	마법전사	캐릭터 직업	2.335:start.hsp:291719	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.035	class	観光客	Tourist	관광객	여행자	캐릭터 직업	2.335:start.hsp:270138	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.036	class	ピアニスト	Pianist	피아니스트	피아니스트	캐릭터 직업	2.335:start.hsp:291725	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.037	class	機工兵	Gunner	기공병		캐릭터 직업	2.335:start.hsp:291728	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.038	class	プリースト	Priest	사제	성직자	캐릭터 직업	2.335:start.hsp:291731	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+class.039	class	クレイモア	Claymore	클레이모어	클레이모어	캐릭터 직업	2.335:start.hsp:291734	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.040	place	ノースティリス	North Tyris	북부 티리스	북부 티리스	지도·지명	2.335:start.hsp:12496	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.041	place	ヴェルニース	Vernis	베르니스	베르니스	지도·지명	2.335:start.hsp:12499	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.042	place	ポート・カプール	Port Kapul	카풀 항	카풀항	지도·지명	2.335:start.hsp:12502	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.043	place	ヨウィン	Yowyn	요우윈	요우윈	지도·지명	2.335:start.hsp:10256	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.044	place	ダルフィ	Derphy	데르피	데르피	지도·지명	2.335:start.hsp:10262	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.045	place	パルミア	Palmia	팔미아	팔미아	지도·지명	2.335:start.hsp:12511	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.046	place	レシマス	Lesimas	레시마스	레시마스	지도·지명	2.335:start.hsp:12529	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.047	place	わが家	Your Home	우리 집	당신의 집	지도·지명	2.335:start.hsp:12523	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.048	place	すくつ	the Void	허무의 공간	허무의 던전	지도·지명	2.335:start.hsp:12532	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.049	place	野外	Wilderness	야외	황야	지도·지명	2.335:start.hsp:12535	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.050	place	灼熱の塔	the Tower of Fire	작열의 탑		지도·지명	2.335:start.hsp:12514	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.051	place	古城	the Ancient Castle	고성		지도·지명	2.335:start.hsp:12520	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.052	place	竜窟	the Dragon's Nest	용의 둥지	드래곤의 둥지	지도·지명	2.335:start.hsp:12544	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.053	place	神々の休戦地	the Truce Ground	신들의 휴전지		지도·지명	2.335:start.hsp:12547	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.054	place	アクリ・テオラ	Cyber Dome	아크리 테올라	사이버 돔	지도·지명	2.335:start.hsp:12550	reviewed-proposed	일본어 고유 지명 아크리 테올라를 채택. Cyber Dome은 원문 영어 검색명으로 보존한다.
+place.055	place	パルミア大使館	the Embassy	팔미아 대사관		지도·지명	2.335:start.hsp:12589	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.056	place	闘技場	Arena	투기장	투기장	지도·지명	2.335:start.hsp:12541	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.057	place	コロシアム	Pet Arena	동료 투기장		지도·지명	2.335:start.hsp:12562	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.058	place	シェルター	Shelter	대피소	대피소	지도·지명	2.335:start.hsp:12586	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.059	place	牧場	Ranch	목장	목장	지도·지명	2.335:start.hsp:12580	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+place.060	place	倉庫	Storage House	창고	창고	지도·지명	2.335:start.hsp:12577	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+npc.061	npc	ラーネイレ	Larnneire	라네이레		고유 인명	2.335:start.hsp:10223	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+npc.062	npc	ゼーム	Zeome	제옴		고유 인명	2.335:start.hsp:10166	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.063	item	青い草	Blue weed	푸른 풀	푸른 잡초	제작 재료	2.335:start.hsp:39208	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.064	item	赤い草	Red weed	붉은 풀	붉은 잡초	제작 재료	2.335:start.hsp:39203	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.065	item	聖なる草	Holy weed	신성한 풀	신성한 잡초	제작 재료	2.335:start.hsp:39233	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.066	item	呪いの草	Curse weed	저주받은 풀	저주받은 잡초	제작 재료	2.335:start.hsp:39213	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.067	item	唸る草	Howling weed	울부짖는 풀	흐느끼는 잡초	제작 재료	2.335:start.hsp:39198	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.068	item	混沌の石	Chaos stone	혼돈의 돌	혼돈의 돌	제작 재료	2.335:start.hsp:39193	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.069	item	冷凍石	Ice stone	빙석	빙석	제작 재료	2.335:start.hsp:39168	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.070	item	エーテルの欠片	Ether fragment	에테르 조각	에테르 조각	제작 재료	2.335:start.hsp:39183	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.071	item	魔法のインク	Magic ink	마법의 잉크	마법의 잉크	제작 재료	2.335:start.hsp:39113	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.072	item	世界樹の樹液	Sap of Yaggdrasil	세계수의 수액	유그드라실의 수액	제작 재료	2.335:start.hsp:39243	reviewed-proposed	최신 일본어는 世界樹. 영문 오자 Yaggdrasil을 근거로 유그드라실 신화를 임의 덧붙이지 않는다.
+item.073	item	海水	Seawater	바닷물	바닷물	제작 재료	2.335:start.hsp:39118	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+item.074	item	お湯	Hot water	뜨거운 물	뜨거운 물	제작 재료	2.335:start.hsp:39133	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.075	ui	特徴	Feat	특성	재능	화면 표시	2.335:start.hsp:38889	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.076	ui	技能	Skill	기술	기술	화면 표시	2.335:start.hsp:38894	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.077	ui	魔法	Spell	주문	주문	화면 표시	2.335:start.hsp:38894	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.078	ui	日誌	Journal	일지	저널 정보	화면 표시	2.335:start.hsp:38899	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.079	ui	装備	Wear	장비	착용	화면 표시	2.335:start.hsp:38889	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.080	ui	名声	Fame	명성	명성	화면 표시	2.335:start.hsp:297449	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.081	ui	カルマ	Karma	카르마	업보	화면 표시	2.335:start.hsp:297449	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.082	ui	狂気度	InSAN	광기		화면 표시	2.335:start.hsp:297449	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.083	ui	レベル	Level	레벨	레벨	화면 표시	2.335:start.hsp:290336	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.084	ui	重さ	Weight	무게	몸무게	화면 표시	2.335:start.hsp:299455	reviewed-proposed	체중과 물품 무게가 동일 영어 키다. 문맥키로 분리하고 전역 치환에서는 중립적인 무게만 사용한다.
+ui.085	ui	体重	Weight	체중	몸무게	화면 표시	2.335:start.hsp:297434	reviewed-proposed	체중과 물품 무게가 동일 영어 키다. 문맥키로 분리하고 전역 치환에서는 중립적인 무게만 사용한다.
+ui.086	ui	年齢	Age	나이	나이	화면 표시	2.335:start.hsp:297434	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+ui.087	ui	身長	Height	키	키	화면 표시	2.335:start.hsp:297434	reviewed-proposed	2.335 원문 대조. 관용 고유명은 기존 한국어 사전과 비교하고 뜻을 바꾸지 않는 표기를 유지.
+attribute.088	attribute	生命力	Life	생명력	생명력	attribute; skill id 2	2.335:start.hsp:1733	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.089	attribute	マナ	Mana	마나	마력	attribute; skill id 3	2.335:start.hsp:1739	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.090	attribute	筋力	Strength	근력	힘	attribute; skill id 10	2.335:start.hsp:1745	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.091	attribute	耐久	Constitution	내구	건강	attribute; skill id 11	2.335:start.hsp:1751	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.092	attribute	器用	Dexterity	기교	민첩	attribute; skill id 12	2.335:start.hsp:1757	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.093	attribute	感覚	Perception	지각	감각	attribute; skill id 13	2.335:start.hsp:1763	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.094	attribute	習得	Learning	학습	학습	attribute; skill id 14	2.335:start.hsp:1769	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.095	attribute	意志	Will	의지	의지 | 의지력	attribute; skill id 15	2.335:start.hsp:1775	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.096	attribute	魔力	Magic	마력	마법	attribute; skill id 16	2.335:start.hsp:1781	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.097	attribute	魅力	Charisma	매력	매력	attribute; skill id 17	2.335:start.hsp:1787	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.098	attribute	速度	Speed	속도	속도 | 신속 | 신속의	attribute; skill id 18	2.335:start.hsp:1793	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+attribute.099	attribute	運勢	Luck	행운	행운	attribute; skill id 19	2.335:start.hsp:1799	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.100	skill	長剣	Long Sword	장검	장검	skill; skill id 100	2.335:start.hsp:1805	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.101	skill	短剣	Short Sword	단검	단검	skill; skill id 101	2.335:start.hsp:1811	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.102	skill	斧	Axe	도끼	도끼	skill; skill id 102	2.335:start.hsp:1817	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.103	skill	鈍器	Blunt	둔기	둔기	skill; skill id 103	2.335:start.hsp:1823	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.104	skill	槍	Polearm	창	장창	skill; skill id 104	2.335:start.hsp:1829	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.105	skill	杖	Stave	지팡이	지팡이	skill; skill id 105	2.335:start.hsp:1835	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.106	skill	鎌	Scythe	낫	낫	skill; skill id 107	2.335:start.hsp:1841	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.107	skill	弓	Bow	활	활	skill; skill id 108	2.335:start.hsp:1847	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.108	skill	クロスボウ	Crossbow	석궁	쇠뇌	skill; skill id 109	2.335:start.hsp:1853	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.109	skill	銃器	Firearm	총기	총기	skill; skill id 110	2.335:start.hsp:1859	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.110	skill	投擲	Throwing	투척	투척	skill; skill id 111	2.335:start.hsp:1865	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.111	skill	格闘	Martial Arts	격투	격투	skill; skill id 106	2.335:start.hsp:1871	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.112	skill	盾	Shield	방패	방패	skill; skill id 168	2.335:start.hsp:1877	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.113	skill	回避	Evasion	회피	회피 | 회피술	skill; skill id 173	2.335:start.hsp:1883	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.114	skill	二刀流	Dual Wield	쌍수 무기	연속 공격 | 이중 공격	skill; skill id 166	2.335:start.hsp:1889	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.115	skill	両手持ち	Two Hand	양손 무기	양손 무기	skill; skill id 167	2.335:start.hsp:1895	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.116	element	火炎	fire	화염	발사 | 화염	element; skill id 50	2.335:start.hsp:1901	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.117	element	冷気	cold	냉기	추위	element; skill id 51	2.335:start.hsp:1907	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.118	element	電撃	lightning	전격	전기	element; skill id 52	2.335:start.hsp:1913	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.119	element	暗黒	darkness	암흑	암흑	element; skill id 53	2.335:start.hsp:1919	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.120	element	幻惑	mind	환혹	정신	element; skill id 54	2.335:start.hsp:1925	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.121	element	地獄	nether	지옥		element; skill id 56	2.335:start.hsp:1931	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.122	element	毒	poison	독	독	element; skill id 55	2.335:start.hsp:1937	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.123	element	音	sound	음파		element; skill id 57	2.335:start.hsp:1943	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.124	element	混沌	chaos	혼돈	혼돈	element; skill id 59	2.335:start.hsp:1949	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.125	element	神経	nerve	신경		element; skill id 58	2.335:start.hsp:1955	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.126	element	魔法	magic	마법	마법	element; skill id 60	2.335:start.hsp:1961	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+element.127	element	出血	cut	출혈		element; skill id 61	2.335:start.hsp:1967	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.128	skill	重量挙げ	Weight Lifting	역도	역도	skill; skill id 153	2.335:start.hsp:1973	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.129	skill	戦術	Tactics	전술	전술	skill; skill id 152	2.335:start.hsp:1979	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.130	skill	射撃	Marksman	사격	저격술	skill; skill id 189	2.335:start.hsp:1985	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.131	skill	治癒	Healing	치유	치유	skill; skill id 154	2.335:start.hsp:1991	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.132	skill	採掘	Mining	채굴	채광	skill; skill id 163	2.335:start.hsp:1997	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.133	skill	工作	Carpentry	목공	목공술	skill; skill id 176	2.335:start.hsp:2003	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.134	skill	重装備	Heavy Armor	중갑	무거운 갑옷	skill; skill id 169	2.335:start.hsp:2009	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.135	skill	中装備	Medium Armor	중형 갑옷	보통 갑옷	skill; skill id 170	2.335:start.hsp:2015	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.136	skill	軽装備	Light Armor	경갑	가벼운 갑옷	skill; skill id 171	2.335:start.hsp:2021	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.137	skill	鍵開け	Lock Picking	자물쇠 따기	자물쇠 따기	skill; skill id 158	2.335:start.hsp:2027	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.138	skill	罠の知識	Disarm Trap	함정 해제	함정해체	skill; skill id 175	2.335:start.hsp:2033	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.139	skill	裁縫	Tailoring	재봉	재봉술	skill; skill id 177	2.335:start.hsp:2039	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.140	skill	宝石細工	Jeweler	보석 세공	보석 세공	skill; skill id 179	2.335:start.hsp:2045	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.141	skill	窃盗	Pickpocket	절도	소매치기	skill; skill id 300	2.335:start.hsp:2051	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.142	skill	着衣水泳	Swimming	착의 수영		skill; skill id 190	2.335:start.hsp:2057	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.143	skill	隠密	Stealth	은밀	은신	skill; skill id 157	2.335:start.hsp:2063	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.144	skill	探知	Detection	탐지	감지	skill; skill id 159	2.335:start.hsp:2069	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.145	skill	分析	Analysis	분석		skill; skill id 162	2.335:start.hsp:2075	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.146	skill	心眼	Eye of Mind	심안	마음의 눈	skill; skill id 186	2.335:start.hsp:2081	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.147	skill	釣り	Fishing	낚시	낚시	skill; skill id 185	2.335:start.hsp:2087	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.148	skill	見切り	Greater Evasion	간파	전문 회피	skill; skill id 187	2.335:start.hsp:2093	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.149	skill	解剖学	Anatomy	해부학	해부학	skill; skill id 161	2.335:start.hsp:2099	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.150	skill	読書	Literacy	독서	독서	skill; skill id 150	2.335:start.hsp:2105	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.151	skill	暗記	Memorization	암기	주문 암기	skill; skill id 165	2.335:start.hsp:2111	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.152	skill	錬金術	Alchemy	연금술	연금술	skill; skill id 178	2.335:start.hsp:2117	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.153	skill	栽培	Gardening	재배	원예술	skill; skill id 180	2.335:start.hsp:2123	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.154	skill	生化学	Gene engineer	생화학	유전공학	skill; skill id 151	2.335:start.hsp:2129	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.155	skill	料理	Cooking	요리	요리	skill; skill id 184	2.335:start.hsp:2135	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.156	skill	瞑想	Meditation	명상	명상	skill; skill id 155	2.335:start.hsp:2141	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.157	skill	魔道具	Magic Device	마도구	마법 도구 | 마법 장비 사용	skill; skill id 174	2.335:start.hsp:2147	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.158	skill	詠唱	Casting	시전	주문 시전 | 주문시전	skill; skill id 172	2.335:start.hsp:2153	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.159	skill	魔力制御	Control Magic	마력 제어	마법 제어 | 마법 집중	skill; skill id 188	2.335:start.hsp:2159	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.160	skill	魔力の限界	Magic Capacity	마력의 한계	마법 수용	skill; skill id 164	2.335:start.hsp:2165	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.161	skill	信仰	Faith	신앙	신앙 | 신앙심	skill; skill id 181	2.335:start.hsp:2171	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.162	skill	旅歩き	Traveling	여행	여행	skill; skill id 182	2.335:start.hsp:2177	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.163	skill	乗馬	Riding	승마	승마	skill; skill id 301	2.335:start.hsp:2183	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.164	skill	交渉	Negotiation	교섭	교섭 | 협상	skill; skill id 156	2.335:start.hsp:2189	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.165	skill	投資	Investing	투자	투자 | 투자관리	skill; skill id 160	2.335:start.hsp:2195	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.166	skill	演奏	Performer	연주	악기 연주	skill; skill id 183	2.335:start.hsp:2201	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+spell.167	spell	軽傷治癒	Heal Light	경상 치유	가벼운 치료	spell; skill id 400	2.335:start.hsp:2207	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+spell.168	spell	致命傷治癒	Heal Critical	치명상 치유	강력한 치료	spell; skill id 401	2.335:start.hsp:2213	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+spell.169	spell	エリスの癒し	Cure of Eris	에리스의 치유	<에리스>의 회복	spell; skill id 402	2.335:start.hsp:2219	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+spell.170	spell	ジュアの癒し	Cure of Jua	주아의 치유	<쥬아>의 회복	spell; skill id 403	2.335:start.hsp:2225	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+spell.171	spell	癒しの手	Healing Touch	치유의 손길	치유의 손길	spell; skill id 405	2.335:start.hsp:2231	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+spell.172	spell	清浄なる光	Holy Light	성스러운 빛	신성한 빛	spell; skill id 406	2.335:start.hsp:2237	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+skill.173	skill	首狩り攻撃	Decapitation	참수	참수 | 파면	skill; skill id 658	2.335:start.hsp:3329	reviewed-proposed	2.335 일본어 의미를 우선하고 영어 문맥을 대조한 독립 번역.
+status.174	status	餓死中	Starving!	굶어 죽는 중	아사직전!	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8947	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.175	status	飢　餓	Starving	기아	아사직전	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8947	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.176	status	空　腹	Hungry	배고픔	공복 | 배고픈	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8947	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.177	status	満　腹	Satisfied	배부름	포식	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8947	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.178	status	食過ぎ	Bloated	과식	과식	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8947	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.179	status	脱水症	Drying!	탈수		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8953	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.180	status	渇　き	Drying	갈증		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8953	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.181	status	重　荷	Burden	무거운 짐	무거움	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8965	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.182	status	圧　迫	Burden!	압박	무거움!	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8965	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.183	status	超　過	Overweight	중량 초과	무게초과 | 무게초과!	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8965	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.184	status	潰れ中	Overweight!	짓눌리는 중		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8965	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.185	status	睡眠可	Sleepy	수면 가능	졸음기	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8971	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.186	status	要睡眠	Need Sleep	수면 필요	수면부족	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8971	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.187	status	　毒	Poisoned	중독	중독	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8983	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.188	status	猛　毒	Poisoned Bad!	맹독	심각한중독!	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8983	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.189	status	侵　蝕	Erosion	침식		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8989	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.190	status	朦　朧	Dim	몽롱	띵함	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8995	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.191	status	混　濁	Muddled	의식 혼탁	몽롱함	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8995	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.192	status	気　絶	Unconscious	기절	무의식	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:8995	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.193	status	激　怒	Fury	격노		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9001	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.194	status	狂　乱	Berserk	광란		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9001	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.195	status	寄　生	Parasite	기생		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9013	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.196	status	洗　脳	Brainwash	세뇌		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9079	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.197	status	怯　み	Wince	경직		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9085	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.198	status	震　え	Chills	떨림		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9091	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.199	status	出　血	Bleeding	출혈	출혈	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9097	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.200	status	大出血	Hemorrhage	대출혈	대출혈!	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9097	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.201	status	不安定	Unsteady	불안정	불안함	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9103	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.202	status	狂　気	Insane	광기	공황	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9103	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.203	status	崩　壊	Paranoia	정신 붕괴	편집증	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9103	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.204	status	酔払い	Drunk	취함	취함	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9109	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.205	status	行動不能	Incapable	행동 불능		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9115	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.206	status	濡　れ	Wet	젖음	젖음	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9121	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.207	status	転　倒	Invert	넘어짐		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9133	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.208	status	睡　眠	Sleep	수면	수면 | 잠	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9145	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.209	status	爆　睡	Deep Sleep	깊은 수면	깊은 수면	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9145	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.210	status	盲　目	Blinded	실명	눈멈	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9151	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.211	status	麻　痺	Paralyzed	마비	마비	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9157	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.212	status	呼吸困難	Dyspnea	호흡 곤란		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9163	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.213	status	窒　息	Choked	질식		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9163	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.214	status	混　乱	Confused	혼란	혼란	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9169	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.215	status	恐　怖	Fear	공포	공포	HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9175	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.216	status	畏　縮	Atrophy	위축		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9181	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.217	status	束　縛	Bind	속박		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9187	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+status.218	status	不　動	Immobility	이동 불가		HUD 상태. 전각 공백은 JP 표시 문자열에 속하므로 source key에서 보존.	2.335:start.hsp:9187	reviewed-proposed	2.335 상태 배열의 같은 index를 대조. 문학적 표현보다 플레이에 필요한 상태 차이를 보존.
+lore.219	lore	イルヴァ	Ylva / Irva	이르바		세계관 고유어; substring occurrence evidence, not an automatic runtime key	2.335:start.hsp:360	reviewed-proposed	일본어 고유어를 의미 단위로 추출. Irva/Ylva 영문 흔들림은 같은 세계명; 게임 식별자를 고치지 않는다.
+lore.220	lore	ネフィア	Nefia	네피아		세계관 고유어; substring occurrence evidence, not an automatic runtime key	2.335:start.hsp:358	reviewed-proposed	고유명·세계관 용어를 통일. 에테르 노출과 질병 진행, 지역과 유적의 문맥을 구별.
+lore.221	lore	エーテル風	Etherwind	에테르 바람	에테르 폭풍	세계관 고유어; substring occurrence evidence, not an automatic runtime key	2.335:start.hsp:86837	reviewed-proposed	고유명·세계관 용어를 통일. 에테르 노출과 질병 진행, 지역과 유적의 문맥을 구별.
+lore.222	lore	エーテル病	Ether disease	에테르병		세계관 고유어; substring occurrence evidence, not an automatic runtime key	2.335:start.hsp:5994	reviewed-proposed	고유명·세계관 용어를 통일. 에테르 노출과 질병 진행, 지역과 유적의 문맥을 구별.
+npc.223	npc	ロミアス	Lomias	로미아스		세계관 고유어; substring occurrence evidence, not an automatic runtime key	2.335:start.hsp:26555	reviewed-proposed	고유명·세계관 용어를 통일. 에테르 노출과 질병 진행, 지역과 유적의 문맥을 구별.
+consensus.001	skill-description	魔法による味方のまきこみを軽減する	Prevents your allies to get hit by your spells.	주문으로 인한 동료의 피해를 줄인다.		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:2160	reviewed-proposed	calcmagiccontrol(318618–318653)은 피해 0과 피해량 감소 분기가 모두 있다. 위험이나 확률만 줄인다고 한정하지 않고 피해 감소로 표현한다.
+consensus.002	skill	ルルウィの憑依	Lulwy's Trick	룰위의 빙의		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:2819	reviewed-proposed	憑依는 힘이 몸에 깃드는 빙의다. 강림은 신이 현신한다는 다른 장면을 암시하므로 빙의로 통일한다.
+consensus.003	skill	スウォーム	Swarm	휩쓸기		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3719	reviewed-proposed	명칭은 근접 범위 공격을 나타내는 휩쓸기로 통일한다. 전방위 공격은 기술명보다 효과 설명에 가까우며, 원문 설명은 인접 대상 일반 근접 공격이다.
+consensus.004	skill	エーテルの眼差し	Eye of Ether	에테르의 응시		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3581	reviewed-proposed	전투 기술 眼差し 계열은 응시로 통일한다.
+consensus.005	skill-description	対象エーテル侵食	Corrupt target	대상을 에테르로 침식		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3582	reviewed-proposed	대상에게 가하는 효과 설명이다. 조사와 목적어를 밝혀 대상 자체가 에테르라는 오독을 피한다.
+consensus.006	skill-description	エーテルの発生	Create ether grounds	에테르 지대 생성		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:2616	reviewed-proposed	같은 정의의 skillname634 エーテルの海와 영어 grounds를 함께 확인했다. 지대를 만드는 설명으로 구체화한다.
+consensus.007	skill	スリの指	Suspicious Hand	소매치기의 손가락		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3311	reviewed-proposed	일본어 指의 신체 이미지를 보존한다. 손길은 손 전체의 움직임으로 의미가 넓어지므로 손가락으로 통일한다.
+consensus.008	skill-description	盗み	Steal from target	훔치기		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3312	reviewed-proposed	원문은 짧은 동작 명사다. 대상 선택이 있는 기술 설명임을 확인하고 훔치기로 간결하게 표기한다.
+consensus.009	skill-description	狂気回復の球	Cure insane area	광기 치유 구체		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:2514	reviewed-proposed	광기 치유의 비의 구체 범위 효과다. 球를 보존하고 광기를 회복한다는 오독을 막기 위해 치유를 쓴다.
+consensus.010	skill-description	盗んで食べる	Steal food	훔쳐 먹기		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3318	reviewed-proposed	盗む와 食べる 두 동작을 모두 보존하는 자연스러운 연결형으로 통일한다.
+consensus.011	skill	マナの眼差し	Eye of Mana	마나의 응시		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3599	reviewed-proposed	전투 기술 眼差し 계열은 응시로 통일한다.
+consensus.012	skill-description	退却する	Escape self.	퇴각한다.		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3648	reviewed-proposed	원문에 없는 현재 지역이라는 목적지를 덧붙이지 않는다. 해당 행동의 실제 이동 경로는 번역에서 추정하지 않는다.

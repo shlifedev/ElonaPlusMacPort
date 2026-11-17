@@ -1,0 +1,43 @@
+; End-to-end file command fixture for the platform adapter (UTF-8 source,
+; converted to CP932 before compiling). Output lines are compared exactly.
+exedir = dirinfo(1) + "\\"
+mes "root=" + exedir
+exist exedir + "original\\config.txt" : mes "exist_original=" + strsize
+exist exedir + "config.txt" : mes "exist_config_before=" + strsize
+bcopy exedir + "original\\config.txt", exedir + "config.txt"
+exist exedir + "config.txt" : mes "exist_config_after=" + strsize
+dim a, 4
+a(0) = 0 : a(1) = -1 : a(2) = 0x80000000 : a(3) = 0x12345678
+bsave exedir + "save\\int.s1", a
+exist exedir + "save\\int.s1" : mes "int_size=" + strsize
+dim b, 4
+bload exedir + "save\\int.s1", b
+mes "ints=" + b(0) + "," + b(1) + "," + b(2) + "," + b(3)
+sdim t, 64
+t = "表ソA"
+notesel t
+notesave exedir + "user\\表.txt"
+sdim u, 64
+notesel u
+noteload exedir + "user\\表.txt"
+mes "note=" + u + " len=" + strlen(u)
+sdim s, 256
+dirlist s, exedir + "user\\*.txt"
+mes "dirlist_txt=" + stat
+mes s, 1
+delete exedir + "user\\lastwords.txt"
+exist exedir + "user\\lastwords.txt" : mes "deleted=" + strsize
+mkdir exedir + "save\\p1"
+dirlist s, exedir + "save\\*", 5
+mes "dirs=" + stat + " " + s, 1
+dirlist s, exedir + "save\\*", 1
+mes "files=" + stat
+sdim w, 64
+notesel w
+noteload "scene1.hsp"
+mes "packed=" + w
+exist exedir + "\\graphic\\Item.bmp" : mes "double_sep=" + strsize
+bsave exedir + "save\\int.s1", a, 4, 2
+bload exedir + "save\\int.s1", b, 8
+mes "patched=" + b(0) + "," + b(1)
+end 7

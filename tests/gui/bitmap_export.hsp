@@ -1,0 +1,5 @@
+buffer 1,8,8
+color 17,34,51
+boxf 0,0,7,7
+bmpsave "fixture-buffer.bmp"
+end

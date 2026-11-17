@@ -1,0 +1,10 @@
+; expected to stop with an HSP error
+onerror goto *on_err
+mes "before"
+mkdir "d"
+delete "d"
+mes "after"
+end 3
+*on_err
+mes "hsp_error=" + wparam + " line=" + lparam
+end 9

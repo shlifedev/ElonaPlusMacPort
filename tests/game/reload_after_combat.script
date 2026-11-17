@@ -1,0 +1,12 @@
+# Input: field_combat_loot save. Load and inspect inventory, save without moving.
+# Compare saved coordinates, inventory, skills and map after process restart.
+320 key A
+420 key A
+700 screenshot shots/loaded-field.bmp
+740 key X
+820 screenshot shots/loaded-inventory.bmp
+860 key ESCAPE
+940 key ESCAPE
+1000 key A
+1100 screenshot shots/saved.bmp
+1140 key RETURN

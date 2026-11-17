@@ -1,0 +1,28 @@
+# Input: home_to_world save. Enter grassland west of home, fight flying frog,
+# kill, step onto loot, pick it up, inspect inventory, then save and quit.
+# Deterministic seed/world state required; not a generic player-save macro.
+320 key A
+420 key A
+700 screenshot shots/world.bmp
+740 key LEFT
+800 text >
+1000 screenshot shots/field.bmp
+1040 key LEFT
+1100 screenshot shots/first-contact.bmp
+1140 key B
+1180 key LEFT
+1260 screenshot shots/bash.bmp
+1300 key LEFT
+1380 screenshot shots/combat.bmp
+1420 key LEFT
+1460 key LEFT
+1520 screenshot shots/kill-and-step.bmp
+1540 key G
+1620 screenshot shots/pickup.bmp
+1700 key X
+1780 screenshot shots/inventory-loot.bmp
+1820 key ESCAPE
+1900 key ESCAPE
+1960 key A
+2060 screenshot shots/saved.bmp
+2100 key RETURN

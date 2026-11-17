@@ -1,0 +1,9 @@
+# restart with the user root of the new-game run -> Restore an Adventurer -> map
+100 screenshot shots/l0100.bmp
+300 screenshot shots/l0300.bmp
+320 key A
+400 screenshot shots/l0400.bmp
+420 key A
+520 screenshot shots/l0520.bmp
+700 screenshot shots/l0700.bmp
+1000 screenshot shots/l1000.bmp

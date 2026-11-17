@@ -1,0 +1,4 @@
+; chdir is explicitly rejected (2.335 never uses it).
+chdir dirinfo(1) + "\\user"
+mes "after"
+end

@@ -1,0 +1,253 @@
+diff --git a/src/hsp3/hsp3int.cpp b/src/hsp3/hsp3int.cpp
+index 66fc2e0..e2efe35 100644
+--- a/src/hsp3/hsp3int.cpp
++++ b/src/hsp3/hsp3int.cpp
+@@ -4,6 +4,9 @@
+ //	(内蔵コマンド・関数処理)
+ //	onion software/onitama 2004/6
+ //
++#ifdef ELONA_LEGACY_RNG
++#include "legacy_rng.h"
++#endif
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
+@@ -1067,7 +1070,9 @@ static int cmdfunc_intcmd( int cmd )
+ 		p2 = (int)time(0);			// Windows以外のランダムシード値
+ #endif
+ 		p1 = code_getdi( p2 );
+-#ifdef HSPRANDMT
++#ifdef ELONA_LEGACY_RNG
++		elona_legacy_srand(static_cast<std::uint32_t>(p1));
++#elif defined(HSPRANDMT)
+ 		mt.seed( p1 );
+ #else
+ 		srand( p1 );
+@@ -1422,7 +1427,9 @@ static void *reffunc_intfunc( int *type_res, int arg )
+ 	case 0x001:								// rnd
+ 		ival = code_geti();
+ 		if ( ival == 0 ) throw HSPERR_DIVIDED_BY_ZERO;
+-#ifdef HSPRANDMT
++#ifdef ELONA_LEGACY_RNG
++		reffunc_intfunc_ivalue = elona_legacy_rand() % ival;
++#elif defined(HSPRANDMT)
+ 		{
+ 			std::uniform_int_distribution<int> dist( 0, ival - 1 );
+ 			reffunc_intfunc_ivalue = dist( mt );
+diff --git a/src/hsp3/linux/supio_linux.cpp b/src/hsp3/linux/supio_linux.cpp
+index 5de86e2..951543b 100644
+--- a/src/hsp3/linux/supio_linux.cpp
++++ b/src/hsp3/linux/supio_linux.cpp
+@@ -7,6 +7,9 @@
+ //	http://hspdev-wiki.net/?OpenHSP%2FLinux%2Fhsp3
+ //
+ //
++#ifdef ELONA_LEGACY_CP932
++#include "legacy_logical_path.h"
++#endif
+ #include "../hsp3config.h"
+ 
+ #include <stdio.h>
+@@ -31,6 +34,14 @@
+ #include "../dpmread.h"
+ #include "../strbuf.h"
+ 
++// Explicit legacy game mode. Keep the upstream UTF-8 default unchanged.
++#ifdef ELONA_LEGACY_CP932
++static bool elona_cp932_lead(unsigned char byte)
++{
++	return (byte >= 0x81 && byte <= 0x9f) || (byte >= 0xe0 && byte <= 0xfc);
++}
++#endif
++
+ #ifndef _MAX_PATH
+ #define _MAX_PATH	256
+ #endif
+@@ -191,6 +202,9 @@ size_t utf8strlen( const char *target )
+ 	while(1) {
+ 		a1=*p;if ( a1==0 ) break;
+ 		p++;							// 検索位置を移動
++#ifdef ELONA_LEGACY_CP932
++		if (elona_cp932_lead(a1) && *p != 0) p++;
++#else
+ 		if (a1>=128) {					// 多バイト文字チェック
+ 			if (a1>=192) p++;
+ 			if (a1>=224) p++;
+@@ -198,6 +212,7 @@ size_t utf8strlen( const char *target )
+ 			if (a1>=248) p++;
+ 			if (a1>=252) p++;
+ 		}
++#endif
+ 	}
+ 	return (size_t)(p-base);
+ }
+@@ -214,6 +229,9 @@ void strcase( char *target )
+ 		a1=*p;if ( a1==0 ) break;
+ 		*p=tolower(a1);
+ 		p++;							// 検索位置を移動
++#ifdef ELONA_LEGACY_CP932
++		if (elona_cp932_lead(a1) && *p != 0) p++;
++#else
+ 		if (a1>=128) {					// 多バイト文字チェック
+ 			if (a1>=192) p++;
+ 			if (a1>=224) p++;
+@@ -221,6 +239,7 @@ void strcase( char *target )
+ 			if (a1>=248) p++;
+ 			if (a1>=252) p++;
+ 		}
++#endif
+ 	}
+ }
+ 
+@@ -281,6 +300,9 @@ char *strstr2( char *target, char *src )
+ 			if (a2!=a3) break;
+ 		}
+ 		p++;							// 検索位置を移動
++#ifdef ELONA_LEGACY_CP932
++		if (elona_cp932_lead(a1) && *p != 0) p++;
++#else
+ 		if (a1>=128) {					// 多バイト文字チェック
+ 			if ((a1>=192)&&(*p!=0)) p++;
+ 			if ((a1>=224)&&(*p!=0)) p++;
+@@ -288,6 +310,7 @@ char *strstr2( char *target, char *src )
+ 			if ((a1>=248)&&(*p!=0)) p++;
+ 			if ((a1>=252)&&(*p!=0)) p++;
+ 		}
++#endif
+ 	}
+ 	return NULL;
+ }
+@@ -306,6 +329,9 @@ char *strchr2( char *target, char code )
+ 		a1=*p;if ( a1==0 ) break;
+ 		if ( a1==code ) res=(char *)p;
+ 		p++;							// 検索位置を移動
++#ifdef ELONA_LEGACY_CP932
++		if (elona_cp932_lead(a1) && *p != 0) p++;
++#else
+ 		if (a1>=128) {					// 多バイト文字チェック
+ 			if ((a1>=192)&&(*p!=0)) p++;
+ 			if ((a1>=224)&&(*p!=0)) p++;
+@@ -313,6 +339,7 @@ char *strchr2( char *target, char code )
+ 			if ((a1>=248)&&(*p!=0)) p++;
+ 			if ((a1>=252)&&(*p!=0)) p++;
+ 		}
++#endif
+ 	}
+ 	return res;
+ }
+@@ -320,6 +347,10 @@ char *strchr2( char *target, char code )
+ 
+ void getpath( char *stmp, char *outbuf, int p2 )
+ {
++#ifdef ELONA_LEGACY_CP932
++	elona_legacy_getpath(stmp, outbuf, p2);
++	return;
++#endif
+ 	char *p;
+ 	char tmp[_MAX_PATH];
+ 	char p_drive[_MAX_PATH];
+@@ -514,6 +545,9 @@ int strsp_get( char *srcstr, char *dststr, char splitchr, int len )
+ 		a1=srcstr[splc];
+ 		if (a1==0) break;
+ 		splc++;
++#ifdef ELONA_LEGACY_CP932
++		if (elona_cp932_lead(a1)) utf8cnt = 1;
++#else
+ 		if (a1>=128) {					// 多バイト文字チェック
+ 			if (a1>=192) utf8cnt++;
+ 			if (a1>=224) utf8cnt++;
+@@ -521,6 +555,7 @@ int strsp_get( char *srcstr, char *dststr, char splitchr, int len )
+ 			if (a1>=248) utf8cnt++;
+ 			if (a1>=252) utf8cnt++;
+ 		}
++#endif
+ 
+ 		if (a1==splitchr) break;
+ 		if (a1==13) {
+@@ -651,6 +686,9 @@ char *strchr3( char *target, int code, int sw, char **findptr )
+ 
+ 	while(1) {
+ 		a1=*p;if ( a1==0 ) break;
++#ifdef ELONA_LEGACY_CP932
++		if (a1 == code1 && (!elona_cp932_lead(a1) || p[1] == code2)) res = (char *)p;
++#else
+ 		if ( a1==code1 ) {
+ 			if ( a1 <128 ) {
+ 				res=(char *)p;
+@@ -680,7 +718,11 @@ char *strchr3( char *target, int code, int sw, char **findptr )
+ 				}
+ 			}
+ 		}
++#endif
+ 		p++;							// 検索位置を移動
++#ifdef ELONA_LEGACY_CP932
++		if (elona_cp932_lead(a1) && *p != 0) p++;
++#else
+ 		if (a1>=128) {					// 多バイト文字チェック
+ 			if (a1>=192) p++;
+ 			if (a1>=224) p++;
+@@ -688,6 +730,7 @@ char *strchr3( char *target, int code, int sw, char **findptr )
+ 			if (a1>=248) p++;
+ 			if (a1>=252) p++;
+ 		}
++#endif
+ 		if ( res != NULL ) { *findptr = res; pres = (char *)p; res = NULL; }
+ 
+ 		switch( sw ) {
+@@ -798,6 +841,9 @@ char *ReplaceStr( char *repstr )
+ 		if ( a1 == 0 ) break;
+ 
+ 		utf8cnt=0;
++#ifdef ELONA_LEGACY_CP932
++		if (elona_cp932_lead(a1)) utf8cnt = 1;
++#else
+ 		if (a1>=128) {					// 多バイト文字チェック
+ 			if (a1>=192) utf8cnt++;
+ 			if (a1>=224) utf8cnt++;
+@@ -805,6 +851,7 @@ char *ReplaceStr( char *repstr )
+ 			if (a1>=248) utf8cnt++;
+ 			if (a1>=252) utf8cnt++;
+ 		}
++#endif
+ 
+ 		//	比較する
+ 		psize = 0; csize = 1;
+diff --git a/src/hsp3/strnote.cpp b/src/hsp3/strnote.cpp
+index 5d99d8b..5834f0d 100644
+--- a/src/hsp3/strnote.cpp
++++ b/src/hsp3/strnote.cpp
+@@ -8,7 +8,8 @@
+ #include "hsp3config.h"
+ #include "strnote.h"
+ 
+-#if defined(HSPLINUX) || defined(HSPMAC) || defined(HSPIOS) || defined(HSPNDK) || defined(HSPEMSCRIPTEN)
++// Legacy Windows notes use CRLF and treat a bare LF as data on every host.
++#if !defined(ELONA_LEGACY_CP932) && (defined(HSPLINUX) || defined(HSPMAC) || defined(HSPIOS) || defined(HSPNDK) || defined(HSPEMSCRIPTEN))
+ // LFを改行として扱う
+ #define MATCH_LF
+ #define CRSTR "\n"
+diff --git a/src/hsp3/win32gui/supio_win.cpp b/src/hsp3/win32gui/supio_win.cpp
+index 9a995c6..2260680 100644
+--- a/src/hsp3/win32gui/supio_win.cpp
++++ b/src/hsp3/win32gui/supio_win.cpp
+@@ -4,6 +4,9 @@
+ 
+ #ifndef HSPUTF8
+ 
++#ifdef ELONA_LEGACY_CP932
++#include "legacy_logical_path.h"
++#endif
+ #include "../hsp3config.h"
+ 
+ #ifdef HSPWIN
+@@ -154,6 +157,10 @@ char *strchr2( char *target, char code )
+ 
+ void getpath( char *stmp, char *outbuf, int p2 )
+ {
++#ifdef ELONA_LEGACY_CP932
++	elona_legacy_getpath(stmp, outbuf, p2);
++	return;
++#endif
+ 	//	getpath
+ 	// 
+ 	//	0 : 文字列のコピー(操作なし)

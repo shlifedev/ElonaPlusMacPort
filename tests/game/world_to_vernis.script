@@ -1,0 +1,40 @@
+# Input: home_to_world save (North Tyris 22,21). Walk to Vernis, enter,
+# finish town tutorial, choose dog, inspect menus, then save and quit.
+# Script text > supplies punctuation directly; key SHIFT does not synthesize it.
+320 key A
+420 key A
+700 screenshot shots/loaded-world.bmp
+740 key RIGHT
+790 key RIGHT
+840 key RIGHT
+890 key RIGHT
+940 key DOWN
+990 key DOWN
+1060 screenshot shots/at-town.bmp
+1100 text >
+1300 screenshot shots/entered-town.bmp
+1320 key RETURN
+1420 key RETURN
+1520 screenshot shots/vernis.bmp
+1540 key A
+1620 screenshot shots/pet-choice.bmp
+1640 key RETURN
+1720 screenshot shots/after-pet1.bmp
+1740 key RETURN
+1820 screenshot shots/after-pet2.bmp
+1840 key W
+1900 screenshot shots/equipment.bmp
+1940 key ESCAPE
+2000 key X
+2060 screenshot shots/inventory.bmp
+2100 key ESCAPE
+2160 key C
+2220 screenshot shots/character.bmp
+2260 key ESCAPE
+2320 key J
+2380 screenshot shots/journal.bmp
+2420 key ESCAPE
+2500 key ESCAPE
+2560 key A
+2660 screenshot shots/saved.bmp
+2700 key RETURN

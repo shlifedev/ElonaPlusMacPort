@@ -1,0 +1,1633 @@
+{
+  "input_entries": 2870,
+  "runtime_keys": 4887,
+  "conflicts": {
+    "ありがとう！": [
+      "고마워!",
+      "고마워요!"
+    ],
+    "Thanks!": [
+      "고마워!",
+      "고마워요!"
+    ],
+    "うざい": [
+      "성가셔.",
+      "성가심"
+    ]
+  },
+  "omitted": [
+    {
+      "source": "Weight",
+      "reason": "context_required"
+    },
+    {
+      "source": "Journal",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Attack circle",
+      "reason": "context_required"
+    },
+    {
+      "source": "Decapitation",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Alright, I'll see what I can do.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "It's nothing.",
+      "reason": "context_required"
+    },
+    {
+      "source": "Come on!",
+      "reason": "context_required"
+    },
+    {
+      "source": "Sorry for you.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "beetle",
+      "reason": "context_required"
+    },
+    {
+      "source": "Level",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "male",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "female",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Reroll",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Proceed",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Race",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Class",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Attributes",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": " ",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": ".",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": " ",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": " ",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "If you exit without saving of ESC key, ",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "then you will receive a penalty at load time.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Exit",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Cancel",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your searching attempt fails.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your searching attempt fails.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Yes.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "No.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Journal",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Name",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Race",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Class",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Weight",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Weight",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Level",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Life",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Speed",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "I think not.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Melee",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Alias List",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Alias List",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Alias Selection",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Alias Selection",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Detail",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Appearence",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Appearence",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Appearence",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Mine",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "begin",
+      "reason": "context_required"
+    },
+    {
+      "source": "wear",
+      "reason": "context_required"
+    },
+    {
+      "source": "get",
+      "reason": "context_required"
+    },
+    {
+      "source": "get",
+      "reason": "context_required"
+    },
+    {
+      "source": "Regeneration",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "start",
+      "reason": "context_required"
+    },
+    {
+      "source": "obtain",
+      "reason": "context_required"
+    },
+    {
+      "source": "wore",
+      "reason": "context_required"
+    },
+    {
+      "source": "Speed",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "speed",
+      "reason": "context_required"
+    },
+    {
+      "source": "slow",
+      "reason": "context_required"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "shift",
+      "reason": "context_required"
+    },
+    {
+      "source": "pour",
+      "reason": "context_required"
+    },
+    {
+      "source": "shift",
+      "reason": "context_required"
+    },
+    {
+      "source": "get",
+      "reason": "context_required"
+    },
+    {
+      "source": "shine",
+      "reason": "context_required"
+    },
+    {
+      "source": "represent",
+      "reason": "context_required"
+    },
+    {
+      "source": "copy",
+      "reason": "context_required"
+    },
+    {
+      "source": "put",
+      "reason": "context_required"
+    },
+    {
+      "source": "accel",
+      "reason": "context_required"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "surrounded",
+      "reason": "context_required"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "lose",
+      "reason": "context_required"
+    },
+    {
+      "source": "receive",
+      "reason": "context_required"
+    },
+    {
+      "source": "start",
+      "reason": "context_required"
+    },
+    {
+      "source": "start",
+      "reason": "context_required"
+    },
+    {
+      "source": "Punishment",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "incur",
+      "reason": "context_required"
+    },
+    {
+      "source": "repeat",
+      "reason": "context_required"
+    },
+    {
+      "source": "start",
+      "reason": "context_required"
+    },
+    {
+      "source": "receive",
+      "reason": "context_required"
+    },
+    {
+      "source": "gain",
+      "reason": "context_required"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "became",
+      "reason": "context_required"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "Luck",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "feel",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "enters",
+      "reason": "context_required"
+    },
+    {
+      "source": "sharpen",
+      "reason": "context_required"
+    },
+    {
+      "source": "'s body",
+      "reason": "context_required"
+    },
+    {
+      "source": "'s body",
+      "reason": "context_required"
+    },
+    {
+      "source": "charged",
+      "reason": "context_required"
+    },
+    {
+      "source": "bring out",
+      "reason": "context_required"
+    },
+    {
+      "source": "bring out",
+      "reason": "context_required"
+    },
+    {
+      "source": "bring out",
+      "reason": "context_required"
+    },
+    {
+      "source": "bring out",
+      "reason": "context_required"
+    },
+    {
+      "source": "optimized",
+      "reason": "context_required"
+    },
+    {
+      "source": "taken into",
+      "reason": "context_required"
+    },
+    {
+      "source": "joined",
+      "reason": "context_required"
+    },
+    {
+      "source": "bring out",
+      "reason": "context_required"
+    },
+    {
+      "source": "began to",
+      "reason": "context_required"
+    },
+    {
+      "source": "stabilize",
+      "reason": "context_required"
+    },
+    {
+      "source": "Form Shift",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "shine",
+      "reason": "context_required"
+    },
+    {
+      "source": "Form Shift",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "change",
+      "reason": "context_required"
+    },
+    {
+      "source": "was chained",
+      "reason": "context_required"
+    },
+    {
+      "source": "gained",
+      "reason": "context_required"
+    },
+    {
+      "source": "Enhance Eye of Mind,Add absorption to Eye-skills",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Increases Evasion, and add　counterattack",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Add attribute to martial",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Life",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "",
+      "reason": "context_required"
+    },
+    {
+      "source": "Magic",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Speed",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Luck",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "fire",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "darkness",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "magic",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "cut",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Meditation",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Riding",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Teleport self",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Teleport self",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Surround(Sound)",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Summon spirit",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Summon spirit",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Create mist",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Create mist",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Return",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Return",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Punishment",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "MP Breath",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "MP Breath",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Fire Breath",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Paralyze target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "ShikiOrigami-Yakko",
+      "reason": "context_required"
+    },
+    {
+      "source": "Create allies/Consume spell book and MP",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "ShikiOrigami-Teller",
+      "reason": "context_required"
+    },
+    {
+      "source": "Create allies/Consume spell book and MP",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Create allies/Consume spell book and MP",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Create allies/Consume book and MP",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "ShikiOrigami-Airplane",
+      "reason": "context_required"
+    },
+    {
+      "source": "Create allies/Consume book and MP",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Wire World",
+      "reason": "context_required"
+    },
+    {
+      "source": "Kill target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Decapitation",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Decapitation",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Kill target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Mana slash",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Kill target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Mana slash",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Kill target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Zero shoot2",
+      "reason": "context_required"
+    },
+    {
+      "source": "Hitting the target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Paralyze target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Assimilate",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Assimilate",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Over Boost",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Over Boost",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Enhance Eye of Mind,Add absorption to Eye-skills",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Line attack.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Line attack.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Attack circle",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Attack circle",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Strengthen allies",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Attack and reduce the defense/gauge25",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Attack and reduce the defense/gauge25",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Zero shoot",
+      "reason": "context_required"
+    },
+    {
+      "source": "Hitting the target",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Strengthen allies",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Divine Stream",
+      "reason": "context_required"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Knockout",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Death for surrounding.",
+      "reason": "context_required"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Summon chaos",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Summon chaos",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Add attribute to martial",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Increases Evasion, and add　counterattack",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Surround(Sound)",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Ensemble",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Ensemble",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Reading Party",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Reading Party",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Knockout",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Fire Breath",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "you",
+      "reason": "context_required"
+    },
+    {
+      "source": "something",
+      "reason": "context_required"
+    },
+    {
+      "source": "male",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "male",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "female",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "female",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": ":",
+      "reason": "context_required"
+    },
+    {
+      "source": ":",
+      "reason": "context_required"
+    },
+    {
+      "source": " Sec",
+      "reason": "context_required"
+    },
+    {
+      "source": "大嫌い",
+      "reason": "Japanese alias disabled by contextual review"
+    },
+    {
+      "source": "Normal",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": " casts a spell.",
+      "reason": "context_required"
+    },
+    {
+      "source": " splits cobweb.",
+      "reason": "context_required"
+    },
+    {
+      "source": " spreads body fluid.",
+      "reason": "context_required"
+    },
+    {
+      "source": " puts out a tentacle.",
+      "reason": "context_required"
+    },
+    {
+      "source": " gazes.",
+      "reason": "context_required"
+    },
+    {
+      "source": " scatters spores.",
+      "reason": "context_required"
+    },
+    {
+      "source": " vibrates.",
+      "reason": "context_required"
+    },
+    {
+      "source": " expands a magical circle.",
+      "reason": "context_required"
+    },
+    {
+      "source": " sprays the powder.",
+      "reason": "context_required"
+    },
+    {
+      "source": " shoots the vicious mind.",
+      "reason": "context_required"
+    },
+    {
+      "source": "starving",
+      "reason": "context_required"
+    },
+    {
+      "source": "rotten",
+      "reason": "context_required"
+    },
+    {
+      "source": "fearful",
+      "reason": "context_required"
+    },
+    {
+      "source": "silky",
+      "reason": "context_required"
+    },
+    {
+      "source": "numb",
+      "reason": "context_required"
+    },
+    {
+      "source": "poisonous",
+      "reason": "context_required"
+    },
+    {
+      "source": "burning",
+      "reason": "context_required"
+    },
+    {
+      "source": "icy",
+      "reason": "context_required"
+    },
+    {
+      "source": "electric",
+      "reason": "context_required"
+    },
+    {
+      "source": "psychic",
+      "reason": "context_required"
+    },
+    {
+      "source": "shivering",
+      "reason": "context_required"
+    },
+    {
+      "source": "infernal",
+      "reason": "context_required"
+    },
+    {
+      "source": "chaotic",
+      "reason": "context_required"
+    },
+    {
+      "source": "gloomy",
+      "reason": "context_required"
+    },
+    {
+      "source": "cut",
+      "reason": "context_required"
+    },
+    {
+      "source": "ether",
+      "reason": "context_required"
+    },
+    {
+      "source": "lastwords-e.txt",
+      "reason": "context_required"
+    },
+    {
+      "source": "Finally!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "It's a matter of course.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Woooooo!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Finally!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "It's a matter of course.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Woooooo!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Attacked technically [depending on opponent's DEX]",
+      "reason": "context_required"
+    },
+    {
+      "source": "Attacked in whispering [depending on opponent's PER]",
+      "reason": "context_required"
+    },
+    {
+      "source": "Attacked in a niche way [depending on opponent's LER]",
+      "reason": "context_required"
+    },
+    {
+      "source": "Attacked persistently [depending on opponent's WIL]",
+      "reason": "context_required"
+    },
+    {
+      "source": "Attacked using magic [depending on opponent's MAG]",
+      "reason": "context_required"
+    },
+    {
+      "source": "Attacked while pleading [depending on opponent's CHR]",
+      "reason": "context_required"
+    },
+    {
+      "source": "emerald",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "rubynus",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sage's magic stone",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Red",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "cold hound",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "darkness hound",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "sister",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Which is correct name of turtle in Valm?",
+      "reason": "context_required"
+    },
+    {
+      "source": "<Leiki>",
+      "reason": "context_required"
+    },
+    {
+      "source": "<Renki>",
+      "reason": "context_required"
+    },
+    {
+      "source": "<Lenki>",
+      "reason": "context_required"
+    },
+    {
+      "source": "<Leike>",
+      "reason": "context_required"
+    },
+    {
+      "source": "Ankh of sun",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Ruoza",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Fool's magic stone",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "King's magic stone",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Cancel",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Cancel",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Prohibit the eating pick up",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Prohibit the eating pick up",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Cancel",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Cancel",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Goods shop",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Food shop",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Magic shop",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Blacksmith",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Inn shop",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Decorative arts shop",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Junk shop",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "大嫌い",
+      "reason": "Japanese alias disabled by contextual review"
+    },
+    {
+      "source": "Riding",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Fire",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Magic",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "It's nothing.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "END",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "hand",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Beginner's ",
+      "reason": "context_required"
+    },
+    {
+      "source": "Safe ",
+      "reason": "context_required"
+    },
+    {
+      "source": "Adventurer's",
+      "reason": "context_required"
+    },
+    {
+      "source": "Exciting ",
+      "reason": "context_required"
+    },
+    {
+      "source": "Dangerous ",
+      "reason": "context_required"
+    },
+    {
+      "source": "Servant's ",
+      "reason": "context_required"
+    },
+    {
+      "source": "Fearful ",
+      "reason": "context_required"
+    },
+    {
+      "source": "Shadow ",
+      "reason": "context_required"
+    },
+    {
+      "source": "King's ",
+      "reason": "context_required"
+    },
+    {
+      "source": "Chaotic ",
+      "reason": "context_required"
+    },
+    {
+      "source": "",
+      "reason": "context_required"
+    },
+    {
+      "source": "You see Port Kapul. The port is crowded with merchants.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You see old shrines. Sacred air surrounds the ground.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "the Mountain Pass",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "****",
+      "reason": "context_required"
+    },
+    {
+      "source": "Sea",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Mirage Tower",
+      "reason": "context_required"
+    },
+    {
+      "source": "You see old shrines. Sacred air surrounds the ground.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Ruoza",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You see Port Kapul. The port is crowded with merchants.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "the Mountain Pass",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Mine",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "fish",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "EN",
+      "reason": "context_required"
+    },
+    {
+      "source": "junks",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to join forces of investigation in the  Rehmido.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to join forces of investigation in the  Rehmido.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should return to ground.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should return to ground.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should return to ground.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should contact Gavela in the lab of Melugas.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should research in LostIrva.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should research in LostIrva.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should aim for the bottom of Cradle of Chaos.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I need to bring information of the silver bear to Eristia at once.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should aim for the bottom of Cradle of Chaos.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should aim for the bottom of Cradle of Chaos.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I should aim for the bottom of Cradle of Chaos.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "If I become a spare time, I will do request of Norne.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "If I become a spare time, I will do request of Norne.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Under development.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I have to visit the master of the guild that I belong to report.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Fool's magic stone",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "King's magic stone",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sage's magic stone",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Ankh of sun",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": " and ",
+      "reason": "context_required"
+    },
+    {
+      "source": "-",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "d",
+      "reason": "context_required"
+    },
+    {
+      "source": " (Now ",
+      "reason": "context_required"
+    },
+    {
+      "source": " points",
+      "reason": "context_required"
+    },
+    {
+      "source": "",
+      "reason": "context_required"
+    },
+    {
+      "source": "",
+      "reason": "context_required"
+    },
+    {
+      "source": "",
+      "reason": "context_required"
+    },
+    {
+      "source": "",
+      "reason": "context_required"
+    },
+    {
+      "source": "North Tyris is a continent in the western hemisphere of Irva. Lots of merchants and travelers set foot on North Tyris' soil with the dream of making a fortune in the ancient ruins of Nefia.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "{player_name}, Don't look so sad. I have things to do in this country, so I'm sure we'll meet again.",
+      "reason": "template_reviewed"
+    },
+    {
+      "source": "Farewell..until we meet again. May the blessing of Lulwy be with you.",
+      "reason": "template_reviewed"
+    },
+    {
+      "source": "Alright.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Kill them all.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Let's learn a little history of North Tyris. This sacred land governed by Palmia is known for ancient ruins <<Nefia>>. Occasionally new ruins are found and lost by erratic movements of the earths crust.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "(You've finished the tutorial!)",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You...you scum!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "{speaker_name} gets furious!",
+      "reason": "template_reviewed"
+    },
+    {
+      "source": "{player_name} is right. The time left for us is scarce. We need to depart, Lomias.",
+      "reason": "template_reviewed"
+    },
+    {
+      "source": "It's a little, but I'll leave some items, so please use it. Farewell..until we meet again. May the blessing of Lulwy be with you.",
+      "reason": "template_reviewed"
+    },
+    {
+      "source": "Okay. Wait here.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Uggghhh!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "...yes, it's a bad habit of mine. Well, {player_name}...",
+      "reason": "template_reviewed"
+    }
+  ],
+  "coverage": "Exact displayed strings only. This is not whole-game translation coverage."
+}

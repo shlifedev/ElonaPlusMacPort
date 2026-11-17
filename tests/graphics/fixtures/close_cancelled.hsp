@@ -1,0 +1,9 @@
+; A handled close is not necessarily a termination request: the script can
+; return and continue. The diagnostic must record it without forcing exit.
+onexit gosub *close_handler
+repeat 12
+wait 1
+loop
+end 7
+*close_handler
+return

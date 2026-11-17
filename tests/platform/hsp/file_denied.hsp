@@ -1,0 +1,6 @@
+; Writing outside the writable set must stop with an HSP file I/O error.
+exedir = dirinfo(1) + "\\"
+mes "before"
+bsave exedir + "data\\x.bin", exedir
+mes "after"
+end

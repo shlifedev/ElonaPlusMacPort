@@ -1,0 +1,18 @@
+; mes/font/await/redraw: CP932 text rendered through the UI boundary codec
+screen 0,200,60
+redraw 0
+color 255,255,255
+boxf
+color 0,0,0
+font "ＭＳ ゴシック",14,0
+pos 4,4
+mes "Elona あいう 漢字"
+pos 4,24
+mes "line2"
+if ginfo(15)!=14 : end 21
+redraw 1
+await 16
+repeat 3
+	await 16
+loop
+end

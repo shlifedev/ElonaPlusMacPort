@@ -1,0 +1,4 @@
+screen 0,16,16
+color 17,34,51
+boxf 0,0,15,15
+stop

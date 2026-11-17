@@ -1,0 +1,10 @@
+; DPM member scene1.hsp must be readable by bare name (original filepack order).
+exedir = dirinfo(1) + "\\"
+sdim w, 256
+notesel w
+noteload "scene1.hsp"
+sdim r, 256
+r = "dpm_len=" + strlen(w) + "\n"
+notesel r
+notesave exedir + "user\\dpm_result.txt"
+end 7

@@ -1,0 +1,15 @@
+# Restore a copied Ari test profile, inspect inventory, save without moving.
+# Screenshots plus the newly written compressed arrays are evidence; no VM
+# state mutation is performed by this script.
+320 key A
+420 key A
+700 screenshot shots/restored-map.bmp
+740 key X
+800 screenshot shots/restored-inventory.bmp
+840 key ESCAPE
+900 screenshot shots/map-after-inventory.bmp
+940 key ESCAPE
+1000 screenshot shots/save-prompt.bmp
+1020 key A
+1130 screenshot shots/saved.bmp
+1150 key RETURN

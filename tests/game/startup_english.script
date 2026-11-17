@@ -1,0 +1,7 @@
+# Deterministic startup path for the original 2.335 AX (language select -> title).
+100 screenshot shots/f0100-language.bmp
+120 key DOWN
+140 key RETURN
+400 screenshot shots/f0400.bmp
+800 screenshot shots/f0800.bmp
+1500 screenshot shots/f1500.bmp

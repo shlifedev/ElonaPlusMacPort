@@ -1,0 +1,30 @@
+screen 0,360,90
+sdim value,64
+value="A"
+pos 4,4
+mesbox value,350,26,1,6
+repeat 55
+    await 16
+    frame=cnt+2
+    if frame=6 {
+        getkey held,13
+        if held!=0 : end 51
+    }
+    if frame=7 : if value!="A" : end 52
+    if frame=9 : if value!="A" : end 53
+    if frame=10 : if value!="A日本" : end 54
+    if frame=13 : if value!="A日" : end 55
+    if frame=14 : if value!="A" : end 56
+    if frame=17 : if value!="A" : end 57
+    if frame=20 : if value!="A日本" : end 58
+    if frame=24 : if value!="Z日本" : end 59
+    if frame=27 : if value!="Z日本" : end 60
+    if frame=28 : if value!="日本" : end 61
+    if frame=35 : if value!="X日本" : end 62
+    if frame=37 : if value!="X日本" : end 63
+    if frame=40 : objprm 0,""
+    if frame=42 : if value!="が" : end 64
+    if frame=44 : if value!="" : end 65
+    if frame=48 : if value!="Z" : end 66
+loop
+end

@@ -1,0 +1,23 @@
+screen 0,16,16
+redraw 0
+buffer 1,16,16
+color 17,34,51
+boxf 0,0,15,15
+gsel 0
+pos 0,0
+gmode 0
+gcopy 1,0,0,16,16
+pget 0,0
+if ginfo(16)!=17 : end 11
+if ginfo(17)!=34 : end 12
+if ginfo(18)!=51 : end 13
+gsel 1
+color 0,0,0
+boxf 0,0,15,15
+pos 0,0
+gcopy 0,0,0,16,16
+pget 0,0
+if ginfo(16)!=17 : end 21
+if ginfo(17)!=34 : end 22
+if ginfo(18)!=51 : end 23
+end

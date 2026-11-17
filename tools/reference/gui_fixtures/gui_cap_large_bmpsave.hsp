@@ -1,0 +1,7 @@
+screen 0,160,64
+redraw 0
+color 17,34,51
+boxf 0,0,159,63
+bmpsave "cap-large.bmp"
+redraw 1
+stop

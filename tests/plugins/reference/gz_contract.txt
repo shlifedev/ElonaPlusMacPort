@@ -1,0 +1,59 @@
+# Observed z.hpi stat lines, run plugins-claude-07
+w orig_0.gz 0 open=0 hnz=1 0 close=0
+w orig_1.gz 1 open=0 hnz=1 1 close=0
+w orig_4.gz 4 open=0 hnz=1 4 close=0
+w orig_16384.gz 16384 open=0 hnz=1 4096 4096 4096 4096 close=0
+w orig_16385.gz 16385 open=0 hnz=1 4096 4096 4096 4096 1 close=0
+w orig_100000.gz 100000 open=0 hnz=1 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 1696 close=0
+w orig_whole_100000.gz 100000 open=0 100000 close=0
+w orig_rand_100000.gz 100000 open=0 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 1696 close=0
+r orig_rand_100000.gz 4096 open=0 hnz=1 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 1696 0 again=0 close=0 total=100000 bad=0
+r orig_rand_100000.gz 16385 open=0 hnz=1 16385 16385 16385 16385 16385 16385 1690 0 again=0 close=0 total=100000 bad=0
+r native_rand_100000.gz 4096 open=0 hnz=1 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 1696 0 again=0 close=0 total=100000 bad=0
+r native_rand_100000.gz 16385 open=0 hnz=1 16385 16385 16385 16385 16385 16385 1690 0 again=0 close=0 total=100000 bad=0
+r native_rand_100000.gz 100000 open=0 hnz=1 100000 0 again=0 close=0 total=100000 bad=0
+r orig_0.gz 4096 open=0 hnz=1 0 again=0 close=0 total=0 bad=0
+r native_0.gz 4096 open=0 hnz=1 0 again=0 close=0 total=0 bad=0
+r native_0.gz 16385 open=0 hnz=1 0 again=0 close=0 total=0 bad=0
+r orig_1.gz 4096 open=0 hnz=1 1 0 again=0 close=0 total=1 bad=0
+r native_1.gz 4096 open=0 hnz=1 1 0 again=0 close=0 total=1 bad=0
+r native_1.gz 16385 open=0 hnz=1 1 0 again=0 close=0 total=1 bad=0
+r orig_4.gz 4096 open=0 hnz=1 4 0 again=0 close=0 total=4 bad=0
+r native_4.gz 4096 open=0 hnz=1 4 0 again=0 close=0 total=4 bad=0
+r native_4.gz 16385 open=0 hnz=1 4 0 again=0 close=0 total=4 bad=0
+r orig_16384.gz 4096 open=0 hnz=1 4096 4096 4096 4096 0 again=0 close=0 total=16384 bad=0
+r native_16384.gz 4096 open=0 hnz=1 4096 4096 4096 4096 0 again=0 close=0 total=16384 bad=0
+r native_16384.gz 16385 open=0 hnz=1 16384 0 again=0 close=0 total=16384 bad=0
+r orig_16385.gz 4096 open=0 hnz=1 4096 4096 4096 4096 1 0 again=0 close=0 total=16385 bad=0
+r native_16385.gz 4096 open=0 hnz=1 4096 4096 4096 4096 1 0 again=0 close=0 total=16385 bad=0
+r native_16385.gz 16385 open=0 hnz=1 16385 0 again=0 close=0 total=16385 bad=0
+r orig_100000.gz 4096 open=0 hnz=1 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 1696 0 again=0 close=0 total=100000 bad=0
+r native_100000.gz 4096 open=0 hnz=1 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 1696 0 again=0 close=0 total=100000 bad=0
+r native_100000.gz 16385 open=0 hnz=1 16385 16385 16385 16385 16385 16385 1690 0 again=0 close=0 total=100000 bad=0
+r orig_4.gz 1 open=0 hnz=1 1 1 1 1 0 again=0 close=0 total=4 bad=0
+r native_4.gz 1 open=0 hnz=1 1 1 1 1 0 again=0 close=0 total=4 bad=0
+r orig_whole_100000.gz 100000 open=0 hnz=1 100000 0 again=0 close=0 total=100000 bad=0
+r crc.gz 50000 open=0 hnz=1 40000 0 again=0 close=1 total=40000 bad=0
+r truncated.gz 50000 open=0 hnz=1 7179 0 again=0 close=1 total=7179 bad=0
+r plain.bin 3000 open=0 hnz=1 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 1000 0 again=0 close=0 total=40000 bad=0
+r empty.bin 10 open=0 hnz=1 0 again=0 close=0 total=0 bad=0
+r cat.gz 1024 open=0 hnz=1 1024 1024 1024 1024 1024 1024 1024 832 0 again=0 close=0 total=8000 bad=0
+r header.gz 7777 open=0 hnz=1 7777 7777 7777 7777 7777 1115 0 again=0 close=0 total=40000 bad=0
+r badmethod.gz 100 open=0 hnz=1 0 again=0 close=1 total=0 bad=0
+r rand_crc.gz 4096 open=0 hnz=1 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 1696 0 again=0 close=1 total=100000 bad=0
+r rand_trunc.gz 4096 open=0 hnz=1 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 4096 3810 0 again=0 close=1 total=48866 bad=0
+missing open=1 h=0
+dir open=1 h=0
+null read=0
+null close=1
+wr open=0 read_on_w=0 write0=0 write8=8 close=0
+rd open=0 read0=0 read64=8 data=6162636465666768 again=0 again2=0 close=0
+lv 54 open=0 write=5000 close=0
+r lv_0.gz 1000 open=0 hnz=1 1000 1000 1000 1000 1000 0 again=0 close=0 total=5000 bad=0
+lv 56 open=0 write=5000 close=0
+r lv_1.gz 1000 open=0 hnz=1 1000 1000 1000 1000 1000 0 again=0 close=0 total=5000 bad=0
+lv -48 open=0 write=5000 close=0
+r lv_2.gz 1000 open=0 hnz=1 1000 1000 1000 1000 1000 0 again=0 close=0 total=5000 bad=0
+lv 259 open=0 write=5000 close=0
+r lv_3.gz 1000 open=0 hnz=1 1000 1000 1000 1000 1000 0 again=0 close=0 total=5000 bad=0
+end

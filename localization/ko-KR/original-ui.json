@@ -1,0 +1,1524 @@
+[
+  {
+    "source": "None",
+    "source_ja": "なし",
+    "target": "없음",
+    "source_ref": [
+      "2.335:start.hsp:384",
+      "2.335:start.hsp:288111",
+      "2.335:start.hsp:288119",
+      "2.335:start.hsp:297542"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "none",
+    "source_ja": "なし",
+    "target": "없음",
+    "source_ref": [
+      "2.335:start.hsp:8429",
+      "2.335:start.hsp:8497",
+      "2.335:start.hsp:8570",
+      "2.335:start.hsp:9754",
+      "2.335:start.hsp:224407",
+      "2.335:start.hsp:229378",
+      "2.335:start.hsp:229382",
+      "2.335:start.hsp:229383",
+      "2.335:start.hsp:290416",
+      "2.335:start.hsp:290448",
+      "2.335:start.hsp:297585",
+      "2.335:start.hsp:365485",
+      "2.335:start.hsp:365507",
+      "2.335:start.hsp:365529",
+      "2.335:start.hsp:365558",
+      "2.335:start.hsp:365944",
+      "2.335:start.hsp:366647",
+      "2.335:start.hsp:367369",
+      "2.335:start.hsp:367387",
+      "2.335:start.hsp:367405",
+      "2.335:start.hsp:367749",
+      "2.335:start.hsp:367771",
+      "2.335:start.hsp:368423",
+      "2.335:start.hsp:431349"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "male",
+    "source_ja": "自称男性",
+    "target": "남성이라고 주장함",
+    "source_ref": [
+      "2.335:start.hsp:8437",
+      "2.335:start.hsp:8505",
+      "2.335:start.hsp:8578",
+      "2.335:start.hsp:365485",
+      "2.335:start.hsp:365507",
+      "2.335:start.hsp:365529",
+      "2.335:start.hsp:365558",
+      "2.335:start.hsp:365944",
+      "2.335:start.hsp:366647",
+      "2.335:start.hsp:367369",
+      "2.335:start.hsp:367387",
+      "2.335:start.hsp:367405",
+      "2.335:start.hsp:367749",
+      "2.335:start.hsp:367771",
+      "2.335:start.hsp:368423"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "bisexual",
+    "source_ja": "両性具有",
+    "target": "양성구유",
+    "source_ref": [
+      "2.335:start.hsp:8445",
+      "2.335:start.hsp:8513",
+      "2.335:start.hsp:8586",
+      "2.335:start.hsp:9751",
+      "2.335:start.hsp:9752",
+      "2.335:start.hsp:222842",
+      "2.335:start.hsp:223703",
+      "2.335:start.hsp:223741",
+      "2.335:start.hsp:224403",
+      "2.335:start.hsp:224404",
+      "2.335:start.hsp:229371",
+      "2.335:start.hsp:229372",
+      "2.335:start.hsp:290413",
+      "2.335:start.hsp:290414",
+      "2.335:start.hsp:290445",
+      "2.335:start.hsp:290446",
+      "2.335:start.hsp:365493",
+      "2.335:start.hsp:365515",
+      "2.335:start.hsp:365537",
+      "2.335:start.hsp:365566",
+      "2.335:start.hsp:365952",
+      "2.335:start.hsp:365966",
+      "2.335:start.hsp:366085",
+      "2.335:start.hsp:366099",
+      "2.335:start.hsp:366113",
+      "2.335:start.hsp:366346",
+      "2.335:start.hsp:366619",
+      "2.335:start.hsp:366661",
+      "2.335:start.hsp:367377",
+      "2.335:start.hsp:367395",
+      "2.335:start.hsp:367413",
+      "2.335:start.hsp:367757",
+      "2.335:start.hsp:367779",
+      "2.335:start.hsp:368431",
+      "2.335:start.hsp:431346",
+      "2.335:start.hsp:431347"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다. DB 원문·용어 대조 결과로 정합성을 교정했다."
+  },
+  {
+    "source": "female",
+    "source_ja": "自称女性",
+    "target": "여성이라고 주장함",
+    "source_ref": [
+      "2.335:start.hsp:8453",
+      "2.335:start.hsp:8521",
+      "2.335:start.hsp:8594",
+      "2.335:start.hsp:365493",
+      "2.335:start.hsp:365515",
+      "2.335:start.hsp:365537",
+      "2.335:start.hsp:365566",
+      "2.335:start.hsp:365952",
+      "2.335:start.hsp:365966",
+      "2.335:start.hsp:366085",
+      "2.335:start.hsp:366099",
+      "2.335:start.hsp:366113",
+      "2.335:start.hsp:366346",
+      "2.335:start.hsp:366619",
+      "2.335:start.hsp:366661",
+      "2.335:start.hsp:367377",
+      "2.335:start.hsp:367395",
+      "2.335:start.hsp:367413",
+      "2.335:start.hsp:367757",
+      "2.335:start.hsp:367779",
+      "2.335:start.hsp:368431"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "unknown",
+    "source_ja": "性別不明",
+    "target": "성별 불명",
+    "source_ref": [
+      "2.335:start.hsp:9755",
+      "2.335:start.hsp:223704",
+      "2.335:start.hsp:223746",
+      "2.335:start.hsp:224406",
+      "2.335:start.hsp:290417",
+      "2.335:start.hsp:290449",
+      "2.335:start.hsp:297586",
+      "2.335:start.hsp:431350"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다. DB 원문·용어 대조 결과로 정합성을 교정했다."
+  },
+  {
+    "source": "male?",
+    "source_ja": "自称男性",
+    "target": "남성이라고 주장함",
+    "source_ref": [
+      "2.335:start.hsp:9763",
+      "2.335:start.hsp:9764",
+      "2.335:start.hsp:223701",
+      "2.335:start.hsp:223731",
+      "2.335:start.hsp:224397",
+      "2.335:start.hsp:224398",
+      "2.335:start.hsp:229342",
+      "2.335:start.hsp:229350",
+      "2.335:start.hsp:290425",
+      "2.335:start.hsp:290426",
+      "2.335:start.hsp:290457",
+      "2.335:start.hsp:290458",
+      "2.335:start.hsp:431358",
+      "2.335:start.hsp:431359"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "female?",
+    "source_ja": "自称女性",
+    "target": "여성이라고 주장함",
+    "source_ref": [
+      "2.335:start.hsp:9766",
+      "2.335:start.hsp:9767",
+      "2.335:start.hsp:223702",
+      "2.335:start.hsp:223736",
+      "2.335:start.hsp:224400",
+      "2.335:start.hsp:224401",
+      "2.335:start.hsp:229341",
+      "2.335:start.hsp:229345",
+      "2.335:start.hsp:229353",
+      "2.335:start.hsp:290428",
+      "2.335:start.hsp:290429",
+      "2.335:start.hsp:290460",
+      "2.335:start.hsp:290461",
+      "2.335:start.hsp:372298",
+      "2.335:start.hsp:431361",
+      "2.335:start.hsp:431362"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Reroll",
+    "source_ja": "再抽選",
+    "target": "다시 굴리기",
+    "source_ref": [
+      "2.335:start.hsp:223267",
+      "2.335:start.hsp:224002"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Proceed",
+    "source_ja": "決定する",
+    "target": "결정",
+    "source_ref": [
+      "2.335:start.hsp:223340",
+      "2.335:start.hsp:223999"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Welcome traveler, I've been looking for you.",
+    "source_ja": "種族によっては装備箇所に制限があったりするから注意だよ。",
+    "target": "종족에 따라 장비할 수 있는 부위가 제한되기도 하니 주의해야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:223479"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Race Selection",
+    "source_ja": "種族の選択",
+    "target": "종족 선택",
+    "source_ref": [
+      "2.335:start.hsp:223526"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Race",
+    "source_ja": "選択できる種族",
+    "target": "종족",
+    "source_ref": [
+      "2.335:start.hsp:223535"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Detail",
+    "source_ja": "種族の説明",
+    "target": "종족 설명",
+    "source_ref": [
+      "2.335:start.hsp:223536"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Will you change name of race?",
+    "source_ja": "種族名を変更する？",
+    "target": "종족 이름을 바꾸시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:223619"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Yes",
+    "source_ja": "はい",
+    "target": "예",
+    "source_ref": [
+      "2.335:start.hsp:223621",
+      "2.335:start.hsp:223879",
+      "2.335:start.hsp:224446"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "No",
+    "source_ja": "いいえ",
+    "target": "아니요",
+    "source_ref": [
+      "2.335:start.hsp:223623",
+      "2.335:start.hsp:223881",
+      "2.335:start.hsp:224448"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "What's a new name of race?",
+    "source_ja": "新しい種族は？",
+    "target": "새 종족 이름을 입력하세요.",
+    "source_ref": [
+      "2.335:start.hsp:223647"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "What's your gender?",
+    "source_ja": "性別による能力の違いはない。",
+    "target": "성별에 따른 능력 차이는 없다.",
+    "source_ref": [
+      "2.335:start.hsp:223674"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Gender Selection",
+    "source_ja": "性別の選択",
+    "target": "성별 선택",
+    "source_ref": [
+      "2.335:start.hsp:223690"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Gender",
+    "source_ja": "性別の候補",
+    "target": "성별",
+    "source_ref": [
+      "2.335:start.hsp:223698"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Your class and race determine growth rate of your skills and attributes.",
+    "source_ja": "職業や種族は、初期の能力だけでなく、成長の方向性に影響するんだ。",
+    "target": "직업과 종족은 초기 능력뿐 아니라 앞으로의 성장 방향에도 영향을 준다.",
+    "source_ref": [
+      "2.335:start.hsp:223771"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Class Selection",
+    "source_ja": "職業の選択",
+    "target": "직업 선택",
+    "source_ref": [
+      "2.335:start.hsp:223797"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Class",
+    "source_ja": "選択できる職業",
+    "target": "직업",
+    "source_ref": [
+      "2.335:start.hsp:223806"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Detail",
+    "source_ja": "職業の説明",
+    "target": "직업 설명",
+    "source_ref": [
+      "2.335:start.hsp:223807"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Will you change name of class?",
+    "source_ja": "職業名を変更する？",
+    "target": "직업 이름을 바꾸시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:223877"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "What's a new name of class?",
+    "source_ja": "新しい職業は？",
+    "target": "새 직업 이름을 입력하세요.",
+    "source_ref": [
+      "2.335:start.hsp:223905"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "I want you to tell me one of your notable skill.",
+    "source_ja": "君の特筆すべき才能を1つ、教えてほしいな。＊がついているのは種族・職業と被っているものだね。",
+    "target": "자신 있는 재능을 하나 고른다. ＊ 표시는 종족이나 직업의 재능과 겹친다는 뜻이다.",
+    "source_ref": [
+      "2.335:start.hsp:223932"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "You should prepare well, if you want to survive long enough in Irva.",
+    "source_ja": "死にたくないなら、ある程度の能力は必要だね。",
+    "target": "살아남으려면 어느 정도 실력은 갖춰야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:223972"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Attb Reroll",
+    "source_ja": "能力のロール",
+    "target": "능력치 다시 굴리기",
+    "source_ref": [
+      "2.335:start.hsp:224016"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Attributes",
+    "source_ja": "能力",
+    "target": "능력치",
+    "source_ref": [
+      "2.335:start.hsp:224024"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Locks left: ",
+    "source_ja": "残りロック: ",
+    "target": "남은 고정 횟수: ",
+    "source_ref": [
+      "2.335:start.hsp:224031"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Choose your feats wisely.",
+    "source_ja": "フィートとは、君の持っている有益な特徴だ。3つまで選べるよ。",
+    "target": "특성은 캐릭터가 지닌 유용한 자질이다. 세 가지까지 고를 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:224112"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "What you look like? Don't worry, you can change them later.",
+    "source_ja": "君の見た目を知っておきたいな。まあ、後からいつでも変えられるけどね。",
+    "target": "캐릭터의 모습을 정한다. 나중에도 언제든 바꿀 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:224137"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Balance Selection",
+    "source_ja": "モードの選択",
+    "target": "게임 모드 선택",
+    "source_ref": [
+      "2.335:start.hsp:224184"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Mode",
+    "source_ja": "モードの候補",
+    "target": "모드",
+    "source_ref": [
+      "2.335:start.hsp:224186",
+      "2.335:start.hsp:415909"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Detail",
+    "source_ja": "各モードの説明",
+    "target": "모드 설명",
+    "source_ref": [
+      "2.335:start.hsp:224187",
+      "2.335:start.hsp:415910"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "You can choose any way.",
+    "source_ja": "あえて険しい道を行くのも君の自由だ。",
+    "target": "굳이 험난한 길을 택하는 것도 자유다.",
+    "source_ref": [
+      "2.335:start.hsp:224188"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Essential is normal mode.",
+    "source_ja": "★Essentialモードはこのソフトの本質的なモードで、",
+    "target": "★에센셜은 이 게임의 기본 모드로,",
+    "source_ref": [
+      "2.335:start.hsp:224207",
+      "2.335:start.hsp:415931"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": " ",
+    "source_ja": "他のゲームモードは全てこれがベースになっています。",
+    "target": "다른 모든 모드의 바탕이 됩니다.",
+    "source_ref": [
+      "2.335:start.hsp:224210",
+      "2.335:start.hsp:415934"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": ".",
+    "source_ja": "システム面の穴を埋め同格要素の差を縮める方向で調整が常に行われており、",
+    "target": "시스템의 허점을 메우고 같은 급의 요소들 간 격차를 줄이도록 꾸준히 조정합니다.",
+    "source_ref": [
+      "2.335:start.hsp:224213",
+      "2.335:start.hsp:415937"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": " ",
+    "source_ja": "バランス変動が多い反面、ロールプレイとある程度の実益を両立したい人、",
+    "target": "밸런스 변화는 잦지만, 역할 연기와 실익을 함께 추구하거나",
+    "source_ref": [
+      "2.335:start.hsp:224216",
+      "2.335:start.hsp:415940"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": " ",
+    "source_ja": "育成に力を入れたい人におすすめです。",
+    "target": "캐릭터 육성에 힘을 쏟고 싶은 사람에게 권합니다.",
+    "source_ref": [
+      "2.335:start.hsp:224219",
+      "2.335:start.hsp:415943"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Loss is another hard mode.",
+    "source_ja": "★Lossモードはデータ喪失の危険性が非常に高いモードです。",
+    "target": "★로스는 저장 데이터를 잃을 위험이 매우 높은 모드입니다.",
+    "source_ref": [
+      "2.335:start.hsp:224224",
+      "2.335:start.hsp:415953"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "If you die even once, then you will not be able to revive.",
+    "source_ja": "一度死ねば、這い上がることはできずそこで終了。",
+    "target": "한 번 죽으면 되살아날 수 없으며, 그 자리에서 모험이 끝납니다.",
+    "source_ref": [
+      "2.335:start.hsp:224227",
+      "2.335:start.hsp:415956"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "You will not read again the save data.",
+    "source_ja": "そのセーブデータを読み込めなくなるのが特徴です。",
+    "target": "그 저장 데이터는 더 이상 불러올 수 없습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224230",
+      "2.335:start.hsp:415959"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "If you exit without saving of ESC key, ",
+    "source_ja": "さらにEscキーかSでのセーブで終了しないとロード時にペナルティがあります。",
+    "target": "또한 Esc나 S로 저장하고 종료하지 않으면 불러올 때 불이익을 받습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224233",
+      "2.335:start.hsp:415962"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "then you will receive a penalty at load time.",
+    "source_ja": "ローグライク本格派の人以外にはおすすめできません。",
+    "target": "정통 로그라이크를 즐기는 사람이 아니라면 권하지 않습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224236",
+      "2.335:start.hsp:415965"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Hit the enter key to reroll your personal history.",
+    "source_ja": "決定ｷｰを押すことで、年齢・体格を再抽選できる。",
+    "target": "결정 키를 누르면 나이와 체격을 다시 정할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:224381"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Are you satisfied now?",
+    "source_ja": "満足できたかな？",
+    "target": "이대로 결정하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:224444"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Restart",
+    "source_ja": "最初から",
+    "target": "처음부터",
+    "source_ref": [
+      "2.335:start.hsp:224450"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Last question. What's your name?",
+    "source_ja": "最後の質問だ。君の名前は？",
+    "target": "마지막으로 캐릭터의 이름을 입력하세요.",
+    "source_ref": [
+      "2.335:start.hsp:224468"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Sorry, but the name is already taken.",
+    "source_ja": "あいにく、その名前の冒険者はすでに存在する。",
+    "target": "그 이름을 쓰는 모험가가 이미 있다.",
+    "source_ref": [
+      "2.335:start.hsp:224498"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Race: ",
+    "source_ja": "種族: ",
+    "target": "종족: ",
+    "source_ref": [
+      "2.335:start.hsp:224583"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Attribute Bonus",
+    "source_ja": "能力ボーナス",
+    "target": "능력치 보너스",
+    "source_ref": [
+      "2.335:start.hsp:224607"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Trained Skill",
+    "source_ja": "獲得技能",
+    "target": "습득 기술",
+    "source_ref": [
+      "2.335:start.hsp:224676"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "You appraise some items.",
+    "source_ja": "バックパックの中のいくつかのアイテムの詳細が判明した。",
+    "target": "가방 속 물건 몇 가지의 정체를 알아냈다.",
+    "source_ref": [
+      "2.335:start.hsp:226981"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "From the start",
+    "source_ja": "最初から",
+    "target": "처음부터",
+    "source_ref": [
+      "2.335:start.hsp:284203"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Exit",
+    "source_ja": "はい",
+    "target": "예",
+    "source_ref": [
+      "2.335:start.hsp:304602"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "종료 확인의 JPはい는 예지만 EN Exit를 예로 전역 번역하면 타이틀 종료 항목이 오역된다. JP 별칭만 사용.",
+    "english_enabled": false
+  },
+  {
+    "source": "Cancel",
+    "source_ja": "いいえ",
+    "target": "아니요",
+    "source_ref": [
+      "2.335:start.hsp:304604"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "The game is not saved in this map.",
+    "source_ja": "ここではセーブされない。",
+    "target": "이곳에서는 저장할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:308416"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "The program is already running.",
+    "source_ja": "二重起動のため終了します。",
+    "target": "이미 게임이 실행 중입니다.",
+    "source_ref": [
+      "2.335:start.hsp:309827"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Your mining attempt fails.",
+    "source_ja": "採掘に失敗した。",
+    "target": "채광에 실패했다.",
+    "source_ref": [
+      "2.335:start.hsp:309947"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Your fishing attempt fails.",
+    "source_ja": "釣りに失敗した。",
+    "target": "낚시에 실패했다.",
+    "source_ref": [
+      "2.335:start.hsp:309965"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Your searching attempt fails.",
+    "source_ja": "採取に失敗した。",
+    "target": "채집에 실패했다.",
+    "source_ref": [
+      "2.335:start.hsp:309982"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Your searching attempt fails.",
+    "source_ja": "回収に失敗した。",
+    "target": "회수에 실패했다.",
+    "source_ref": [
+      "2.335:start.hsp:309999"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "What's a new race?",
+    "source_ja": "新しい種族は？",
+    "target": "새 종족 이름을 입력하세요.",
+    "source_ref": [
+      "2.335:start.hsp:361263"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "What's a new class?",
+    "source_ja": "新しい職業は？",
+    "target": "새 직업 이름을 입력하세요.",
+    "source_ref": [
+      "2.335:start.hsp:362970"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Yes.",
+    "source_ja": "はい",
+    "target": "예",
+    "source_ref": [
+      "2.335:start.hsp:384309"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "No.",
+    "source_ja": "いいえ",
+    "target": "아니요",
+    "source_ref": [
+      "2.335:start.hsp:384312"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Kill you.",
+    "source_ja": "はい",
+    "target": "예",
+    "source_ref": [
+      "2.335:start.hsp:385424"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus2.335 Japanese original"
+    },
+    "review_reason": "일본어 원문 기준 독자 번역. 현행 영어가 다른 뜻이면 일본어를 따른다."
+  },
+  {
+    "source": "Starting Menu",
+    "target": "모험의 이정표",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "冒険の道標",
+    "target": "모험의 이정표",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Restore an Adventurer",
+    "target": "모험 이어 하기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Restore an adventurer",
+    "target": "모험 이어 하기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "冒険を再開する",
+    "target": "모험 이어 하기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Generate an Adventurer",
+    "target": "새 모험가 만들기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Generate an adventurer",
+    "target": "새 모험가 만들기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "新しい冒険者を作成する",
+    "target": "새 모험가 만들기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Incarnate an Adventurer",
+    "target": "모험가 계승",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Incarnate an adventurer",
+    "target": "모험가 계승",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "冒険者の引継ぎ",
+    "target": "모험가 계승",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "View the Homepage",
+    "target": "홈페이지 보기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "View the homepage",
+    "target": "홈페이지 보기",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "本家Elonaホームページ",
+    "target": "원작 Elona 홈페이지",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Options",
+    "target": "설정",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Configure",
+    "target": "설정",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "設定の変更",
+    "target": "설정 변경",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Exit",
+    "target": "종료",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "終了",
+    "target": "종료",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Choose your language and press the enter key",
+    "target": "원문 언어를 고르고 Enter 키를 누르세요.",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "言語を選びエンターキーを押してください。",
+    "target": "언어를 고르고 Enter 키를 누르세요.",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Japanese",
+    "target": "일본어",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "English",
+    "target": "영어",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Equipment",
+    "target": "장비",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Inventory",
+    "target": "소지품",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Character Sheet",
+    "target": "캐릭터 정보",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Journal",
+    "target": "모험 일지",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Essential",
+    "target": "에센셜",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Loss",
+    "target": "로스",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Overdose",
+    "target": "오버도즈",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Natural",
+    "target": "내추럴",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Abnormal",
+    "target": "어브노멀",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Purge",
+    "target": "퍼지",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Locked items will",
+    "target": "고정한 능력치는",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "not change.",
+    "target": "바뀌지 않습니다.",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "ロックされた能力は",
+    "target": "고정한 능력치는",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "変化しません",
+    "target": "바뀌지 않습니다",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 title/menu UI"
+    },
+    "review_reason": "표시 전용 메뉴 번역. 게임 식별자 및 저장 문자열은 바꾸지 않는다."
+  },
+  {
+    "source": "Cursor [Select]  ",
+    "target": "방향키 [선택]  ",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation"
+    },
+    "review_reason": "실제 타이틀 표시 문자열 확인. 뒤 공백 유지."
+  }
+]

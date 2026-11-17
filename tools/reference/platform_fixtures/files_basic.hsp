@@ -1,0 +1,53 @@
+; File-command semantics baseline. All paths are under w\ inside the dedicated
+; case directory so helper logs do not appear in listings.
+onerror goto *on_err
+mkdir "w"
+mkdir "w\\d1"
+exist "w\\d1" : mes "exist_dir=" + strsize
+exist "w\\nofile" : mes "exist_missing=" + strsize
+sdim b, 16 : b = "abc"
+bsave "w\\f1.bin", b, 3
+mes "bsave_strsize=" + strsize
+exist "w\\f1.bin" : mes "size=" + strsize
+bsave "w\\f1.bin", b, 2, 5
+exist "w\\f1.bin" : mes "size_after_gap=" + strsize
+sdim c, 16
+bload "w\\f1.bin", c, 16, 0 : mes "bload_strsize=" + strsize + " gap=" + peek(c,3) + "," + peek(c,4) + "," + peek(c,5)
+bload "w\\f1.bin", c, 4, 10 : mes "bload_past_eof_strsize=" + strsize
+mkdir "w\\d1\\sub"
+bcopy "w\\f1.bin", "w\\d1\\f2.bin"
+exist "w\\d1\\f2.bin" : mes "bcopy_size=" + strsize
+sdim n, 16 : n = "x"
+notesel n : notesave "w\\n.txt"
+exist "w\\n.txt" : mes "notesave_size=" + strsize
+bsave "w\\Zeta.txt", b, 1
+bsave "w\\alpha.TXT", b, 1
+bsave "w\\_u.txt", b, 1
+bsave "w\\noext", b, 1
+mkdir "w\\Beta"
+sdim s, 1024
+repeat 8
+	dirlist s, "w\\*", cnt
+	mes "mode" + cnt + "=" + stat
+	mes s
+loop
+dirlist s, "w\\*.*", 0 : mes "star_dot_star=" + stat
+dirlist s, "w\\noext.*", 0 : mes "noext_dot_star=" + stat
+dirlist s, "w\\f1.*", 0 : mes "f1_dot_star=" + stat
+dirlist s, "w\\*.txt", 0 : mes "star_txt=" + stat
+mes s
+dirlist s, "w\\d1\\", 0 : mes "trailing_sep=" + stat
+dirlist s, "w\\nodir\\*", 0 : mes "missing_dir=" + stat
+dirlist s, "w\\F1.BIN", 0 : mes "case=" + stat + ":" + s
+exist "w\\F1.BIN" : mes "exist_case=" + strsize
+exist "w\\d1\\..\\f1.bin" : mes "exist_dotdot=" + strsize
+exist "w//d1//sub//..\\..\\f1.bin" : mes "exist_double_sep=" + strsize
+exist "w\\f1.bin." : mes "exist_trailing_dot=" + strsize
+exist "w\\f1.bin " : mes "exist_trailing_space=" + strsize
+exist "w\\*.bin" : mes "exist_wildcard=" + strsize
+delete "w\\d1\\f2.bin"
+exist "w\\d1\\f2.bin" : mes "after_delete=" + strsize
+end 5
+*on_err
+mes "hsp_error=" + wparam + " line=" + lparam
+end 9

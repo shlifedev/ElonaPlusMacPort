@@ -1,0 +1,18 @@
+screen 0,16,16
+redraw 0
+buffer 1,16,16
+color 0,0,0
+boxf 0,0,15,15
+color 255,0,0
+boxf 0,0,7,15
+gsel 0
+color 0,0,255
+boxf 0,0,15,15
+pos 0,0
+gmode 2
+gcopy 1,0,0,16,16
+pget 0,0
+if ginfo(16)!=255 : end 11
+pget 15,0
+if ginfo(18)!=255 : end 12
+end

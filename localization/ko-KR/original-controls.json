@@ -1,0 +1,1113 @@
+[
+  {
+    "id": "controls.d896e617f5cd669e0eca",
+    "source_ja": "名前",
+    "source": "Name",
+    "target": "이름",
+    "source_ref": [
+      "2.335:start.hsp:295044",
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.c5bec10879425940c972",
+    "source_ja": "異名",
+    "source": "Aka",
+    "target": "이명",
+    "source_ref": [
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.dbfb39002aeccf76c86d",
+    "source_ja": "年齢",
+    "source": "Age",
+    "target": "나이",
+    "source_ref": [
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.feb7ffaed4376d9b47ee",
+    "source_ja": "性別",
+    "source": "Sex",
+    "target": "성별",
+    "source_ref": [
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.6945c45a8352dab6c5e5",
+    "source_ja": "種族",
+    "source": "Race",
+    "target": "종족",
+    "source_ref": [
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.e4a932e111852a103228",
+    "source_ja": "職業",
+    "source": "Class",
+    "target": "직업",
+    "source_ref": [
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.236db45909ad13295b17",
+    "source_ja": "身長",
+    "source": "Height",
+    "target": "키",
+    "source_ref": [
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.91029dab41ffc22ea52a",
+    "source_ja": "体重",
+    "source": "Weight",
+    "target": "체중",
+    "source_ref": [
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.d32b4632e8853e818fe5",
+    "source_ja": "重さ",
+    "source": "Weight",
+    "target": "무게",
+    "source_ref": [
+      "2.335:start.hsp:299455",
+      "2.335:start.hsp:300962"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.fdc8a3f50d228a0405df",
+    "source_ja": "レベル",
+    "source": "Level",
+    "target": "레벨",
+    "source_ref": [
+      "2.335:start.hsp:290336",
+      "2.335:start.hsp:297424",
+      "2.335:start.hsp:297427"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.d310cf6cac28df2a041c",
+    "source_ja": "必要値",
+    "source": "Next Lv",
+    "target": "다음 레벨",
+    "source_ref": [
+      "2.335:start.hsp:297424",
+      "2.335:start.hsp:297427"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.3fa23adea856245754c8",
+    "source_ja": "信仰",
+    "source": "Faith",
+    "target": "신앙",
+    "source_ref": [
+      "2.335:start.hsp:2171"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.f9fe3c6bd855abe849ac",
+    "source_ja": "信仰",
+    "source": "God",
+    "target": "신앙",
+    "source_ref": [
+      "2.335:start.hsp:297424",
+      "2.335:start.hsp:297427"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.21dc9a6648ef5686d876",
+    "source_ja": "所属",
+    "source": "Guild",
+    "target": "소속",
+    "source_ref": [
+      "2.335:start.hsp:297424"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.041f8ff28d534d6be55c",
+    "source_ja": "成長力",
+    "source": "Grow Rate",
+    "target": "성장력",
+    "source_ref": [
+      "2.335:start.hsp:297424"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.eca86f156ded48262ad4",
+    "source_ja": "能力(元の値)  - 潜在能力",
+    "source": "Attributes(Org) - Potential",
+    "target": "능력(기본값) - 잠재력",
+    "source_ref": [
+      "2.335:start.hsp:297351"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.01168509b3ee403121c9",
+    "source_ja": "Essentialモード",
+    "source": "Essential Mode",
+    "target": "에센셜 모드",
+    "source_ref": [
+      "2.335:start.hsp:297353"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.53d061f75cb64d136042",
+    "source_ja": "Abnormalモード",
+    "source": "Abnormal Mode",
+    "target": "어브노멀 모드",
+    "source_ref": [
+      "2.335:start.hsp:297356"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.a07435a64b4d5c010e1a",
+    "source_ja": "Overdoseモード",
+    "source": "Overdose Mode",
+    "target": "오버도즈 모드",
+    "source_ref": [
+      "2.335:start.hsp:297359"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.ffcff7e1e28c01dc4a42",
+    "source_ja": "Lossモード",
+    "source": "Loss Mode",
+    "target": "로스 모드",
+    "source_ref": [
+      "2.335:start.hsp:297362"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.f5091c565b709d72b596",
+    "source_ja": "Naturalモード",
+    "source": "Natural Mode",
+    "target": "내추럴 모드",
+    "source_ref": [
+      "2.335:start.hsp:297365"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.818a1b4dc09f3fa3154f",
+    "source_ja": "Purgeモード",
+    "source": "Purge Mode",
+    "target": "퍼지 모드",
+    "source_ref": [
+      "2.335:start.hsp:297368"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.e904a27e1ebf98c59a90",
+    "source_ja": "各種修正",
+    "source": "Combat Rolls",
+    "target": "전투 보정",
+    "source_ref": [
+      "2.335:start.hsp:297370"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.ad86a806081c97cc8e86",
+    "source_ja": "その他",
+    "source": "Extra Info",
+    "target": "기타 정보",
+    "source_ref": [
+      "2.335:start.hsp:297371"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.38b039c9fae2d530467e",
+    "source_ja": "その他",
+    "source": "Other advice.",
+    "target": "기타 정보",
+    "source_ref": [
+      "2.335:start.hsp:414870"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.4cda21291ea084e6459a",
+    "source_ja": "祝福と呪い",
+    "source": "Blessing and Hex",
+    "target": "축복과 저주",
+    "source_ref": [
+      "2.335:start.hsp:297372"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.d953df5bc935d7771b96",
+    "source_ja": "プロフィール",
+    "source": "Profile",
+    "target": "프로필",
+    "source_ref": [
+      "2.335:start.hsp:297373"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.cc23b3f230baa73d3b9b",
+    "source_ja": "生命力",
+    "source": "Life",
+    "target": "생명력",
+    "source_ref": [
+      "2.335:start.hsp:1733",
+      "2.335:start.hsp:297449",
+      "2.335:start.hsp:297452"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.4272fa3d61e2fb29f8d7",
+    "source_ja": "マナ",
+    "source": "Mana",
+    "target": "마나",
+    "source_ref": [
+      "2.335:start.hsp:1739",
+      "2.335:start.hsp:297449",
+      "2.335:start.hsp:297452"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.ff92263f0d830dfb881a",
+    "source_ja": "狂気度",
+    "source": "InSAN",
+    "target": "광기",
+    "source_ref": [
+      "2.335:start.hsp:297449",
+      "2.335:start.hsp:297452"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.5a113000cb18192dd617",
+    "source_ja": "速度",
+    "source": "Speed",
+    "target": "속도",
+    "source_ref": [
+      "2.335:start.hsp:1793",
+      "2.335:start.hsp:297449",
+      "2.335:start.hsp:297452"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.acef89cb54ec9816104c",
+    "source_ja": "名声",
+    "source": "Fame",
+    "target": "명성",
+    "source_ref": [
+      "2.335:start.hsp:297449",
+      "2.335:start.hsp:297452"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.4366d397bec4ae0ab96a",
+    "source_ja": "名声",
+    "source": "I think not.",
+    "target": "명성",
+    "source_ref": [
+      "2.335:start.hsp:395686"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.aebbc9f1089aedd47390",
+    "source_ja": "カルマ",
+    "source": "Karma",
+    "target": "카르마",
+    "source_ref": [
+      "2.335:start.hsp:297449"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.a21e6a0875f3a5ded2f8",
+    "source_ja": "戦力評価",
+    "source": "Rating",
+    "target": "전투력",
+    "source_ref": [
+      "2.335:start.hsp:297449"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.cebe70fb37789a19d684",
+    "source_ja": "打撃修正",
+    "source": "Melee",
+    "target": "근접 보정",
+    "source_ref": [
+      "2.335:start.hsp:297449"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.1760eea085d259de4ddb",
+    "source_ja": "射撃修正",
+    "source": "Shoot",
+    "target": "사격 보정",
+    "source_ref": [
+      "2.335:start.hsp:297449"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.97b75eeb43d75d6a42e0",
+    "source_ja": "荷車重量",
+    "source": "Cargo Wt",
+    "target": "화물 무게",
+    "source_ref": [
+      "2.335:start.hsp:297459"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.4c81a7ba4c426ba361f8",
+    "source_ja": "荷車限界",
+    "source": "Cargo Lmt",
+    "target": "화물 한도",
+    "source_ref": [
+      "2.335:start.hsp:297459"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.c91121305e45cc698303",
+    "source_ja": "装備重量",
+    "source": "Equip Wt",
+    "target": "장비 무게",
+    "source_ref": [
+      "2.335:start.hsp:297459"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.733ca2c7d369b3fff706",
+    "source_ja": "ターン",
+    "source": " turns",
+    "target": "턴",
+    "source_ref": [
+      "2.335:start.hsp:283445"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.d87edca287f88849d0c4",
+    "source_ja": "ターン",
+    "source": "Turns",
+    "target": "턴",
+    "source_ref": [
+      "2.335:start.hsp:297459"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.969e9b33f61ef2439313",
+    "source_ja": "ターン",
+    "source": " Turns",
+    "target": "턴",
+    "source_ref": [
+      "2.335:start.hsp:297686"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.2189fe824a589dad3a52",
+    "source_ja": "総時間",
+    "source": "Time",
+    "target": "총 시간",
+    "source_ref": [
+      "2.335:start.hsp:297459"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.5ed9f0541a233d862fd4",
+    "source_ja": "まずは君の通り名を教えてくれるかい。",
+    "source": "Choose your Alias.",
+    "target": "모험가의 이명을 선택한다.",
+    "source_ref": [
+      "2.335:start.hsp:223223"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.b696757ec543c4f2378e",
+    "source_ja": "異名の候補",
+    "source": "Alias List",
+    "target": "이명 후보",
+    "source_ref": [
+      "2.335:start.hsp:223252"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.9ebe79243506d862026d",
+    "source_ja": "名前の候補",
+    "source": "Alias List",
+    "target": "이름 후보",
+    "source_ref": [
+      "2.335:start.hsp:291381"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.032f2686e28595cba234",
+    "source_ja": "異名の選択",
+    "source": "Alias Selection",
+    "target": "이명 선택",
+    "source_ref": [
+      "2.335:start.hsp:223243"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.1bb27f1a215f4eb603e3",
+    "source_ja": "名前の選択",
+    "source": "Alias Selection",
+    "target": "이름 선택",
+    "source_ref": [
+      "2.335:start.hsp:291375",
+      "2.335:start.hsp:291378"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.1cfc56859f9c1350751d",
+    "source_ja": "種族の説明",
+    "source": "Detail",
+    "target": "종족 설명",
+    "source_ref": [
+      "2.335:start.hsp:223536"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.f10dbda14746dbf62b8e",
+    "source_ja": "職業の説明",
+    "source": "Detail",
+    "target": "직업 설명",
+    "source_ref": [
+      "2.335:start.hsp:223807"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.34517a9793c6450e224c",
+    "source_ja": "各モードの説明",
+    "source": "Detail",
+    "target": "모드 설명",
+    "source_ref": [
+      "2.335:start.hsp:224187",
+      "2.335:start.hsp:415910"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.b350a0bb88c034fb4cb1",
+    "source_ja": "能力の効果",
+    "source": "Detail",
+    "target": "능력 효과",
+    "source_ref": [
+      "2.335:start.hsp:292553",
+      "2.335:start.hsp:292794"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.50ab6beedbf31dcf17e6",
+    "source_ja": "効果",
+    "source": "Effect",
+    "target": "효과",
+    "source_ref": [
+      "2.335:start.hsp:295743"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.67b9ef7bdb2bd017c947",
+    "source_ja": "効果",
+    "source": "Detail",
+    "target": "효과",
+    "source_ref": [
+      "2.335:start.hsp:297739"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.bd2607be42a9e05aba88",
+    "source_ja": "項目",
+    "source": "Category",
+    "target": "항목",
+    "source_ref": [
+      "2.335:start.hsp:298665",
+      "2.335:start.hsp:298881"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.c4c339a077c93a05812c",
+    "source_ja": "項目",
+    "source": "Part",
+    "target": "항목",
+    "source_ref": [
+      "2.335:start.hsp:299116"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.5e0d7388cec87a639d96",
+    "source_ja": "項目",
+    "source": "Topic",
+    "target": "항목",
+    "source_ref": [
+      "2.335:start.hsp:603572"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.2b279546fe0d78ba62f4",
+    "source_ja": "項目",
+    "source": "Menu",
+    "target": "항목",
+    "source_ref": [
+      "2.335:start.hsp:607328"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.045a2d79951cbef7d837",
+    "source_ja": "着替えさせる",
+    "source": "Appearence",
+    "target": "외형 변경",
+    "source_ref": [
+      "2.335:start.hsp:293434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.d495f04a386973ca483c",
+    "source_ja": "個別画像の変更",
+    "source": "Appearence",
+    "target": "캐릭터 이미지 변경",
+    "source_ref": [
+      "2.335:start.hsp:298662"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.b0c82556ca1e9a7ebfed",
+    "source_ja": "肖像の変更",
+    "source": "Appearence",
+    "target": "초상화 변경",
+    "source_ref": [
+      "2.335:start.hsp:298878"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.3bbbc918898638739aa4",
+    "source_ja": "★初心者向け基本操作（初期設定）（大文字コマンドはshift押しながら入力）",
+    "source": "Basic operation for beginners (initial settings) (Press Shift while entering uppercase commands) ",
+    "target": "초보자를 위한 기본 조작 (기본 설정) — 대문자 명령은 Shift를 누른 채 입력",
+    "source_ref": [
+      "2.335:start.hsp:609520"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.8456ffae613fee860f7d",
+    "source_ja": "※このウインドウを閉じると連動してゲームも閉じます。設定からこのウインドウが出ないようにもできます。",
+    "source": "*Closing this window will also close the game. You can disable this window in the settings.",
+    "target": "이 창을 닫으면 게임도 종료된다. 설정에서 이 안내 창을 끌 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:609523"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.957091556a9a37e14a26",
+    "source_ja": "←↑↓→:移動　enter:決定　shift:キャンセル　space:汎用　?:ヘルプを表示(その他操作方法もここ)",
+    "source": "Arrow:move /Enter:confirm /Shift:cancel /Space:general /?:help (Other operation methods are also here) ",
+    "target": "방향키: 이동 / Enter: 결정 / Shift: 취소 / Space: 상황별 행동 / ?: 도움말과 조작법",
+    "source_ref": [
+      "2.335:start.hsp:609526"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.e5b1dd99e51f96f7547d",
+    "source_ja": "q:quaff(飲む)　w:wear(装備)　e:eat(食べる)　r:read(読む)　t:tool(使う)　　 i:interact(干渉する)　o:open(開く)　",
+    "source": "q:quaff /w:wear /e:eat /r:read /t:tool /i:interact /o:open",
+    "target": "q: 마시기 / w: 장비 / e: 먹기 / r: 읽기 / t: 도구 사용 / i: 상호작용 / o: 열기",
+    "source_ref": [
+      "2.335:start.hsp:609529"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.36c84581c64d16c8e398",
+    "source_ja": "　　　　　　　 W:WideApply(広域能力を使う)　R:Rest(休息)　T:Throw(投げる)　I:Itemstack(アイテムスタック)",
+    "source": "W:WideApply /R:Rest /T:Throw /I:Itemstack ",
+    "target": "W: 광역 능력 / R: 휴식 / T: 던지기 / I: 아이템 합치기",
+    "source_ref": [
+      "2.335:start.hsp:609532"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.033709026e2155da2413",
+    "source_ja": "a:apply(能力を使う)　s:search(調べる)　　　d:drop(置く)　　 f:fire(射撃)　g:get(取る)　h:hijump(ハイジャンプ)　",
+    "source": "a:apply /s:search /d:drop /f:fire /g:get /h:hijump",
+    "target": "a: 능력 사용 / s: 탐색 / d: 내려놓기 / f: 사격 / g: 줍기 / h: 높이뛰기",
+    "source_ref": [
+      "2.335:start.hsp:609535"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.e4b65e8c4f3d102466dd",
+    "source_ja": "A:Ammo(特殊弾切替)　 S:Save(セーブ・設定)　D:Dig(穴を掘る)　F:Feat(特徴)　j:journal(日誌)　*:ターゲット指定",
+    "source": "A:Ammo /S:Save /D:Dig /F:Feat /j:journal /*:Target selection",
+    "target": "A: 특수탄 전환 / S: 저장·설정 / D: 땅 파기 / F: 특성 / j: 일지 / *: 표적 지정",
+    "source_ref": [
+      "2.335:start.hsp:609538"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.4cd6902f6b2e5c9f7236",
+    "source_ja": "z:行動選択　x:アイテム調べる　c:chara(キャラ情報)　v:魔法を唱える　b:bash(体当たり)　m:material(所持マテリアル)",
+    "source": "z:Action choices /x:Examine items /c:chara /v:cast spells /b:bash /m:material",
+    "target": "z: 행동 선택 / x: 아이템 조사 / c: 캐릭터 정보 / v: 주문 시전 / b: 몸통박치기 / m: 재료",
+    "source_ref": [
+      "2.335:start.hsp:609541"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.fc418655adde5ef916eb",
+    "source_ja": "Z:Zap(杖を振る)　　　　　　　 C:close(ドアを閉める)　　　　　　　　B:Blend(調合)　",
+    "source": "Z:Zap rods /C:Close door /B:Blend ",
+    "target": "Z: 마법봉 사용 / C: 문 닫기 / B: 조합",
+    "source_ref": [
+      "2.335:start.hsp:609544"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문과 캐릭터 정보·조작 안내의 실제 표시 문맥을 대조한 독자 번역. 영어 동음 키는 컴파일러에서 보류한다."
+  },
+  {
+    "id": "controls.f1-help",
+    "source": "Press F1 to show help.",
+    "target": "F1: 도움말",
+    "source_ref": [
+      "2.335:start.hsp:223228"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 English-only literal"
+    }
+  },
+  {
+    "id": "controls.native-help-close",
+    "source": "*Closing this help window keeps the game running. You can disable it in the settings.",
+    "source_ja": "この案内ウインドウを閉じてもゲームは続行します。設定で非表示にできます。",
+    "target": "이 안내 창을 닫아도 게임은 계속된다. 설정에서 안내 창을 끌 수 있다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "native:src/app/gui_host.cpp:auxiliary-close-hide"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "native host help-window behavior"
+    },
+    "review_reason": "안내 창 닫기 동작에 맞는 호스트 표시 문구. 원본 경고와 구분한다."
+  }
+]

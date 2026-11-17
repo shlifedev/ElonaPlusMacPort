@@ -1,0 +1,26 @@
+; Mirrors ElonaPlus key_check: a hidden mesbox collects WM_CHAR text, the
+; program takes the first character and clears it with objprm.
+screen 0,64,32
+sdim keylog, 20
+pos -40, -40
+mesbox keylog, 0, 0, 1, 10
+got = ""
+repeat 40
+	await 16
+	objsel 0
+	if keylog != "" {
+		c = peek(keylog, 0)
+		if c = 13 {
+			got = got + "E"
+		} else {
+			got = got + strmid(keylog, 0, 1)
+		}
+		keylog = ""
+		objprm 0, ""
+	}
+loop
+if got != "abE" : end 41
+; objprm sets the text and the variable immediately (Object_SetInputMesBox)
+objprm 0, "xyz"
+if keylog != "xyz" : end 42
+end

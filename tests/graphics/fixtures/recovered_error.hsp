@@ -1,0 +1,8 @@
+onerror goto *recover
+a=1/0
+*after_recovery
+wait 1
+end 7
+*recover
+onerror 0
+goto *after_recovery

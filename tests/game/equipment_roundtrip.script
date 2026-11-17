@@ -1,0 +1,17 @@
+# Input: world_to_vernis save. Remove bronze helm, select empty head slot,
+# equip it again, then save and quit. Screenshots show DV/PV 1/9 then 1/10.
+320 key A
+420 key A
+700 key W
+740 key A
+800 screenshot shots/helmet-removed.bmp
+840 key A
+900 screenshot shots/helmet-selection.bmp
+920 key A
+1000 screenshot shots/helmet-restored.bmp
+1040 key ESCAPE
+1100 screenshot shots/back-to-map.bmp
+1200 key ESCAPE
+1260 key A
+1360 screenshot shots/saved.bmp
+1400 key RETURN

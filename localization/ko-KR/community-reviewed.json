@@ -1,0 +1,2418 @@
+[
+  {
+    "source": "Meeewmew!",
+    "target": "뮤뮤!",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:291540"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "This defender can use Lay on hand to heal a deadly wounded ally. The ability becomes re-useable after sleeping.",
+    "target": "이 수호자는 안수로 치명상을 입은 동료를 회복시킬 수 있다. 잠을 자면 안수를 다시 사용할 수 있다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:276381"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "この防衛者は致死ダメージを受けた仲間をレイハンドで回復できるようだ。レイハンドは眠るたびに再使用可能になる。",
+    "source_ja_line": 276381
+  },
+  {
+    "source": "Network Setting",
+    "target": "네트워크 설정",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:607183",
+      "2.335:start.hsp:607218"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Message & Log",
+    "target": "메시지 및 기록",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:607183"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Use Network",
+    "target": "네트워크 사용",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:607219"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Welcome traveler, I've been looking for you.",
+    "target": "종족에 따라 장비할 수 있는 부위가 제한되기도 하니 주의해야 한다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:223479"
+    ],
+    "review_reason": "2.335 일본어는 종족별 장비 부위 제한 안내다. 구판 영문/번역이 남아 있어 일본어 의미로 전면 교정.",
+    "source_ja": "種族によっては装備箇所に制限があったりするから注意だよ。",
+    "source_ja_line": 223479
+  },
+  {
+    "source": "Prevents your allies to get hit by your spells.",
+    "target": "주문으로 인한 동료의 피해를 줄인다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:2160"
+    ],
+    "review_reason": "calcmagiccontrol(318618–318653)은 피해 0과 피해량 감소 분기가 모두 있다. 위험이나 확률만 줄인다고 한정하지 않고 피해 감소로 표현한다.",
+    "source_ja": "魔法による味方のまきこみを軽減する",
+    "source_ja_line": 2160
+  },
+  {
+    "source": "Years of training strengthens your stamina.",
+    "target": "오랜 특훈의 성과로 스태미나가 높아진다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:5085"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정. 현행 DB 대조: 스태미나·회계 기술 설명을 정합화했다.",
+    "source_ja": "長年の特訓の成果がスタミナを高める",
+    "source_ja_line": 5085
+  },
+  {
+    "source": "Working as an accountant reduces your tax payment.",
+    "target": "회계 기술을 갈고닦아 세금을 줄인다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:5250"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정. 현행 DB 대조: 스태미나·회계 기술 설명을 정합화했다.",
+    "source_ja": "会計の技能を磨き税金を減らす",
+    "source_ja_line": 5250
+  },
+  {
+    "source": "Strong",
+    "target": "강함",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9220"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Weak",
+    "target": "약함",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9220"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Criticaly Weak",
+    "target": "매우 약함",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9220"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Hit the enter key to reroll your personal history.",
+    "target": "결정 키를 누르면 나이와 체격을 다시 정할 수 있다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:224381"
+    ],
+    "review_reason": "최신 일본어는 나이·체격 재추첨. 장비까지 바뀐다는 구판 번역을 제거.",
+    "source_ja": "決定ｷｰを押すことで、年齢・体格を再抽選できる。",
+    "source_ja_line": 224381
+  },
+  {
+    "source": "Sorry, but the name is already taken.",
+    "target": "그 이름을 쓰는 모험가가 이미 있다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:224498"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "あいにく、その名前の冒険者はすでに存在する。",
+    "source_ja_line": 224498
+  },
+  {
+    "source": "Weight",
+    "target": "무게",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "context_required",
+    "source_ref": [
+      "2.335:start.hsp:297434",
+      "2.335:start.hsp:299455",
+      "2.335:start.hsp:300962"
+    ],
+    "review_reason": "체중과 물품 무게의 동일 영어 키. 문맥별 표시를 먼저 지원해야 한다.",
+    "source_ja_candidates": [
+      "体重",
+      "重さ"
+    ]
+  },
+  {
+    "source": "Superb",
+    "target": "탁월함",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9220",
+      "2.335:start.hsp:297615"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "No save files found",
+    "target": "저장된 게임이 없습니다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308714"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Examine",
+    "target": "살펴보기",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9304"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Journal",
+    "target": "일지",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:38899",
+      "2.335:start.hsp:289831",
+      "2.335:start.hsp:603226"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja_candidates": [
+      "日誌",
+      "ジャーナル"
+    ]
+  },
+  {
+    "source": "Feat",
+    "target": "특성",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:38889"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "特徴",
+    "source_ja_line": 38889
+  },
+  {
+    "source": "Offer",
+    "target": "제물 바치기",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9304"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Trade",
+    "target": "거래",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9304"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Contains iron.",
+    "target": "철이 함유된 광석 조각.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39159"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "鉄分を含んだ鉱石の欠片",
+    "source_ja_line": 39159
+  },
+  {
+    "source": "Somehow it's not cooling down.",
+    "target": "어째서인지 식지 않는다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39134"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "なぜか冷めない",
+    "source_ja_line": 39134
+  },
+  {
+    "source": "Contains mithril.",
+    "target": "미스릴이 함유된 광석 조각.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39154"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ミスリルを含んだ鉱石の欠片",
+    "source_ja_line": 39154
+  },
+  {
+    "source": "Contains ether.",
+    "target": "에테르가 함유된 광석 조각.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39184"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "エーテルを含んだ鉱石の欠片",
+    "source_ja_line": 39184
+  },
+  {
+    "source": "Hard to gather.",
+    "target": "신비로운 빛을 내는 눈물.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39129"
+    ],
+    "review_reason": "최신 일본어는 신비로운 빛을 내는 눈물. 영어의 획득 난도 설명을 우선하지 않음.",
+    "source_ja": "不思議な輝きを放つ涙",
+    "source_ja_line": 39129
+  },
+  {
+    "source": "Very salty.",
+    "target": "짠물.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39119"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "しょっぱい水",
+    "source_ja_line": 39119
+  },
+  {
+    "source": "A faintly reddish weed.",
+    "target": "은은하게 붉은 풀.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39204"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ほんのり赤い草",
+    "source_ja_line": 39204
+  },
+  {
+    "source": "A faintly blueish weed.",
+    "target": "은은하게 푸른 풀.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39209"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ほんのり青い草",
+    "source_ja_line": 39209
+  },
+  {
+    "source": "A cursed weed.",
+    "target": "저주받은 풀.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39214"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "呪われた草",
+    "source_ja_line": 39214
+  },
+  {
+    "source": "It won't melt somehow.",
+    "target": "어째서인지 녹지 않는다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39144"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "なぜか溶けない",
+    "source_ja_line": 39144
+  },
+  {
+    "source": "Elemental.",
+    "target": "바람을 가르는 신비로운 돌.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39189"
+    ],
+    "review_reason": "최신 일본어 風を裂く不思議な石 의미를 복원.",
+    "source_ja": "風を裂く不思議な石",
+    "source_ja_line": 39189
+  },
+  {
+    "source": "This is cool.",
+    "target": "차가운 돌.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39169"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "冷たい石",
+    "source_ja_line": 39169
+  },
+  {
+    "source": "Magical paper.",
+    "target": "마력을 품은 종이.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39109"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "魔力を秘めた紙",
+    "source_ja_line": 39109
+  },
+  {
+    "source": "Wizards love to use it.",
+    "target": "마력을 품은 잉크.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39114"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "魔力を秘めたインク",
+    "source_ja_line": 39114
+  },
+  {
+    "source": "Slightly cures wounds.",
+    "target": "상처를 조금 치유한다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39224"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "少し傷を癒す",
+    "source_ja_line": 39224
+  },
+  {
+    "source": "This is magical.",
+    "target": "마력이 깃들어 있다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39059",
+      "2.335:start.hsp:39149"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "魔力が込められている",
+    "source_ja_line": 39059
+  },
+  {
+    "source": "Chaotic.",
+    "target": "혼돈의 힘이 봉인된 돌.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39194"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "混沌の力が封じられた石",
+    "source_ja_line": 39194
+  },
+  {
+    "source": "A good quality stone.",
+    "target": "상태가 좋은 돌.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39179"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "状態の良い石",
+    "source_ja_line": 39179
+  },
+  {
+    "source": "It's sticky.",
+    "target": "끈적거린다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39094"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ネトネトしている",
+    "source_ja_line": 39094
+  },
+  {
+    "source": "It's blessed.",
+    "target": "축복받은 풀.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39234"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "祝福された草",
+    "source_ja_line": 39234
+  },
+  {
+    "source": "It's as black as coal.",
+    "target": "새까만 안개.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39239"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "真っ黒な霧",
+    "source_ja_line": 39239
+  },
+  {
+    "source": "It's electrified.",
+    "target": "전기를 띤 돌.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39174"
+    ],
+    "review_reason": "전력 공급이 필요하다는 구판 오역을 교정. 電気を帯びた石.",
+    "source_ja": "電気を帯びた石",
+    "source_ja_line": 39174
+  },
+  {
+    "source": "It's pretty rare.",
+    "target": "어떤 상처든 치유하는 수액.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39244"
+    ],
+    "review_reason": "최신 일본어 どんな傷も癒す樹液 의미를 복원.",
+    "source_ja": "どんな傷も癒す樹液",
+    "source_ja_line": 39244
+  },
+  {
+    "source": "It's making a whining sound.",
+    "target": "이상한 소리를 내는 풀.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39199"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "変な音を出す草",
+    "source_ja_line": 39199
+  },
+  {
+    "source": "Restore MP",
+    "target": "마나 회복",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:2832"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "マナ回復",
+    "source_ja_line": 2832
+  },
+  {
+    "source": "Absorb Magic",
+    "target": "마력 흡수",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3011"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "魔力の吸収",
+    "source_ja_line": 3011
+  },
+  {
+    "source": "Lulwy's Trick",
+    "target": "룰위의 빙의",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:517",
+      "2.335:start.hsp:2819"
+    ],
+    "review_reason": "憑依는 힘이 몸에 깃드는 빙의다. 강림은 신이 현신한다는 다른 장면을 암시하므로 빙의로 통일한다.",
+    "source_ja": "ルルウィの憑依",
+    "source_ja_line": 517
+  },
+  {
+    "source": "Draw Charge",
+    "target": "마력 추출",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3707"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "魔力の抽出",
+    "source_ja_line": 3707
+  },
+  {
+    "source": "Fill Charge",
+    "target": "마력 충전",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3713"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "魔力の充填",
+    "source_ja_line": 3713
+  },
+  {
+    "source": "Swarm",
+    "target": "휩쓸기",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3719"
+    ],
+    "review_reason": "명칭은 근접 범위 공격을 나타내는 휩쓸기로 통일한다. 전방위 공격은 기술명보다 효과 설명에 가까우며, 원문 설명은 인접 대상 일반 근접 공격이다.",
+    "source_ja": "スウォーム",
+    "source_ja_line": 3719
+  },
+  {
+    "source": "Attack circle",
+    "target": "인접한 적 공격",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "context_required",
+    "source_ref": [
+      "2.335:start.hsp:3720",
+      "2.335:start.hsp:3726"
+    ],
+    "review_reason": "인접 일반 근접 공격과 경직 부여 공격의 다른 설명이 동일 영어 키다. 기능 설명 누락을 피하기 위해 문맥 처리까지 보류.",
+    "source_ja_candidates": [
+      "隣接対象通常近接攻撃",
+      "隣接対象攻撃/怯み付与"
+    ]
+  },
+  {
+    "source": "Eye of Ether",
+    "target": "에테르의 응시",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3581"
+    ],
+    "review_reason": "전투 기술 眼差し 계열은 응시로 통일한다.",
+    "source_ja": "エーテルの眼差し",
+    "source_ja_line": 3581
+  },
+  {
+    "source": "Corrupt target",
+    "target": "대상을 에테르로 침식",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3582"
+    ],
+    "review_reason": "대상에게 가하는 효과 설명이다. 조사와 목적어를 밝혀 대상 자체가 에테르라는 오독을 피한다.",
+    "source_ja": "対象エーテル侵食",
+    "source_ja_line": 3582
+  },
+  {
+    "source": "Create ether grounds",
+    "target": "에테르 지대 생성",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:2616"
+    ],
+    "review_reason": "같은 정의의 skillname634 エーテルの海와 영어 grounds를 함께 확인했다. 지대를 만드는 설명으로 구체화한다.",
+    "source_ja": "エーテルの発生",
+    "source_ja_line": 2616
+  },
+  {
+    "source": "Suspicious Hand",
+    "target": "소매치기의 손가락",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3311"
+    ],
+    "review_reason": "일본어 指의 신체 이미지를 보존한다. 손길은 손 전체의 움직임으로 의미가 넓어지므로 손가락으로 통일한다.",
+    "source_ja": "スリの指",
+    "source_ja_line": 3311
+  },
+  {
+    "source": "Steal from target",
+    "target": "훔치기",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3312"
+    ],
+    "review_reason": "원문은 짧은 동작 명사다. 대상 선택이 있는 기술 설명임을 확인하고 훔치기로 간결하게 표기한다.",
+    "source_ja": "盗み",
+    "source_ja_line": 3312
+  },
+  {
+    "source": "Rain of sanity",
+    "target": "광기 치유의 비",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:2513"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "狂気治癒の雨",
+    "source_ja_line": 2513
+  },
+  {
+    "source": "Cure insane area",
+    "target": "광기 치유 구체",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:2514"
+    ],
+    "review_reason": "광기 치유의 비의 구체 범위 효과다. 球를 보존하고 광기를 회복한다는 오독을 막기 위해 치유를 쓴다.",
+    "source_ja": "狂気回復の球",
+    "source_ja_line": 2514
+  },
+  {
+    "source": "Steal food",
+    "target": "훔쳐 먹기",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3318"
+    ],
+    "review_reason": "盗む와 食べる 두 동작을 모두 보존하는 자연스러운 연결형으로 통일한다.",
+    "source_ja": "盗んで食べる",
+    "source_ja_line": 3318
+  },
+  {
+    "source": "Eye of Mana",
+    "target": "마나의 응시",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3599"
+    ],
+    "review_reason": "전투 기술 眼差し 계열은 응시로 통일한다.",
+    "source_ja": "マナの眼差し",
+    "source_ja_line": 3599
+  },
+  {
+    "source": "Vanish",
+    "target": "퇴각",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3647"
+    ],
+    "review_reason": "일본어 退却. 소멸이 아닌 퇴각 능력.",
+    "source_ja": "退却",
+    "source_ja_line": 3647
+  },
+  {
+    "source": "Escape self.",
+    "target": "퇴각한다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3648"
+    ],
+    "review_reason": "원문에 없는 현재 지역이라는 목적지를 덧붙이지 않는다. 해당 행동의 실제 이동 경로는 번역에서 추정하지 않는다.",
+    "source_ja": "退却する",
+    "source_ja_line": 3648
+  },
+  {
+    "source": "Decapitation",
+    "target": "참수",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:3329",
+      "2.335:start.hsp:3335"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja_candidates": [
+      "首狩り攻撃",
+      "首狩り"
+    ]
+  },
+  {
+    "source": "Holy Veil",
+    "target": "신성한 장막",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:505",
+      "2.335:start.hsp:2753"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ホーリーヴェイル",
+    "source_ja_line": 505
+  },
+  {
+    "source": "Hemorrhage",
+    "target": "대출혈",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9100"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Muddled",
+    "target": "의식 혼탁",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:8998"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Deep Sleep",
+    "target": "깊은 수면",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9148"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "...what was that sound? ...Lomias, are you alright?",
+    "target": "…방금 무슨 소리죠? …로미아스, 괜찮아요?",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:418661"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "…今の音は？ …ロミアス、大丈夫？",
+    "source_ja_line": 418661
+  },
+  {
+    "source": "Leave me alone.",
+    "target": "저리 가 주게…",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:372692"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "よそへいってくれ…",
+    "source_ja_line": 372692
+  },
+  {
+    "source": "You are...quite attractive. I'll buy you.",
+    "target": "몸이 꽤 쓸 만하군… 좋아, 사겠어.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:426387"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "I just wanted to say hi.",
+    "target": "그냥 인사하러 왔어.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:371178",
+      "2.335:start.hsp:371296"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "You may have heard of this story before...",
+    "target": "이런 이야기를 들어 본 적이 있나요…?",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:373580"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "あなたは、こんな話を聞いたことがあるかしら。",
+    "source_ja_line": 373580
+  },
+  {
+    "source": "Your items have already been identified.",
+    "target": "감정할 물품이 없군.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:421651"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Allies in your home",
+    "target": "집에 머무는 동료",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:236295"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "仲間の滞在",
+    "source_ja_line": 236295
+  },
+  {
+    "source": "You already have too many guests in your home.",
+    "target": "집이 이미 사람들로 가득하다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:238062"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "家はすでに人であふれかえっている。",
+    "source_ja_line": 238062
+  },
+  {
+    "source": "You are about to be burried...",
+    "target": "곧 매장당할 것 같다…",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:613248"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "あともう少しで埋葬される…",
+    "source_ja_line": 613248
+  },
+  {
+    "source": "Crawl up",
+    "target": "기어 올라오기(명성을 조금 잃고 복귀)",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:613259"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "這い上がる(名声を少し失うが復帰)",
+    "source_ja_line": 613259
+  },
+  {
+    "source": "Lie on your back",
+    "target": "묻히기(저장한 시점부터 다시 시작)",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:613267"
+    ],
+    "review_reason": "埋まる는 무덤에 눕는 자세가 아닌 매장을 받아들이는 선택. static JP의 저장 지점부터 다시 시작한다는 설명도 보존.",
+    "source_ja": "埋まる(保存したところから)",
+    "source_ja_line": 613267
+  },
+  {
+    "source": "I surrender.",
+    "target": "항복한다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:383120"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "降参する",
+    "source_ja_line": 383120
+  },
+  {
+    "source": "Alright, I'll see what I can do.",
+    "target": "좋아요. 도와드리죠.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:379877",
+      "2.335:start.hsp:379889",
+      "2.335:start.hsp:380742"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja_candidates": [
+      "自分が実験を手伝う",
+      "ああ",
+      "手伝う"
+    ]
+  },
+  {
+    "source": "Don't mock me you filthy wretch.",
+    "target": "헛소리하지 마라.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:378007"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ふざけるな",
+    "source_ja_line": 378007
+  },
+  {
+    "source": "It's nothing.",
+    "target": "별일 아니에요.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "context_required",
+    "source_ref": [
+      "2.335:start.hsp:11835",
+      "2.335:start.hsp:422224"
+    ],
+    "review_reason": "현재 JP キャンセル/当然のことだ가 같은 영어 키다. 전역 치환 금지.",
+    "source_ja_candidates": [
+      "キャンセル",
+      "当然のことだ"
+    ]
+  },
+  {
+    "source": "Thanks!",
+    "target": "고마워요!",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:11705",
+      "2.335:start.hsp:282067",
+      "2.335:start.hsp:282154",
+      "2.335:start.hsp:324772",
+      "2.335:start.hsp:372434",
+      "2.335:start.hsp:421765",
+      "2.335:start.hsp:424052",
+      "2.335:start.hsp:424172",
+      "2.335:start.hsp:424386",
+      "2.335:start.hsp:426200",
+      "2.335:start.hsp:426276",
+      "2.335:start.hsp:426325",
+      "2.335:start.hsp:426377",
+      "2.335:start.hsp:429810",
+      "2.335:start.hsp:430137",
+      "2.335:start.hsp:430166"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ありがとう！",
+    "source_ja_line": 11705
+  },
+  {
+    "source": "Come on!",
+    "target": "덤벼라!",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "context_required",
+    "source_ref": [
+      "2.335:start.hsp:371656",
+      "2.335:start.hsp:371687",
+      "2.335:start.hsp:371730",
+      "2.335:start.hsp:426397",
+      "2.335:start.hsp:426457",
+      "2.335:start.hsp:599080",
+      "2.335:start.hsp:599095",
+      "2.335:start.hsp:615888"
+    ],
+    "review_reason": "현재 JP おやおや/うふふ/来いッ！가 같은 영어 키다. 전역 치환 금지.",
+    "source_ja_candidates": [
+      "おやおや",
+      "うふふ",
+      "来いッ！"
+    ]
+  },
+  {
+    "source": "You stumble over a stone and find a platinum coin.",
+    "target": "아래를 보며 걷다가 운 좋게 백금화를 발견했다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:280997"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "下を向いて歩いていると、幸運にもプラチナ硬貨を見つけた。",
+    "source_ja_line": 280997
+  },
+  {
+    "source": "Woohoo!",
+    "target": "와아!",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:278245",
+      "2.335:start.hsp:280668",
+      "2.335:start.hsp:280688",
+      "2.335:start.hsp:280707"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "ワァオー",
+    "source_ja_line": 278245
+  },
+  {
+    "source": "Sorry for you.",
+    "target": "명복을 빕니다.",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:277214",
+      "2.335:start.hsp:277502"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja_candidates": [
+      "南無",
+      "なむ…"
+    ]
+  },
+  {
+    "source": "beetle",
+    "target": "딱정벌레",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "context_required",
+    "source_ref": [
+      "2.335:start.hsp:215187",
+      "2.335:start.hsp:224844",
+      "2.335:start.hsp:268084",
+      "2.335:start.hsp:281323",
+      "2.335:start.hsp:380045",
+      "2.335:start.hsp:380482",
+      "2.335:start.hsp:433570",
+      "2.335:start.hsp:433903",
+      "2.335:start.hsp:435730",
+      "2.335:start.hsp:435741",
+      "2.335:start.hsp:435754",
+      "2.335:start.hsp:440878",
+      "2.335:start.hsp:440911",
+      "2.335:start.hsp:440944",
+      "2.335:start.hsp:448669",
+      "2.335:start.hsp:448702",
+      "2.335:start.hsp:448735",
+      "2.335:start.hsp:448768",
+      "2.335:start.hsp:448801",
+      "2.335:start.hsp:448834",
+      "2.335:start.hsp:455566",
+      "2.335:start.hsp:455599",
+      "2.335:start.hsp:455632",
+      "2.335:start.hsp:460813",
+      "2.335:start.hsp:461407",
+      "2.335:start.hsp:461440",
+      "2.335:start.hsp:464182",
+      "2.335:start.hsp:465340",
+      "2.335:start.hsp:470932",
+      "2.335:start.hsp:480741",
+      "2.335:start.hsp:480780",
+      "2.335:start.hsp:480818",
+      "2.335:start.hsp:480854",
+      "2.335:start.hsp:480898",
+      "2.335:start.hsp:480933",
+      "2.335:start.hsp:502370",
+      "2.335:start.hsp:502406",
+      "2.335:start.hsp:502445",
+      "2.335:start.hsp:502480",
+      "2.335:start.hsp:502518",
+      "2.335:start.hsp:502554",
+      "2.335:start.hsp:502593",
+      "2.335:start.hsp:502629",
+      "2.335:start.hsp:502675",
+      "2.335:start.hsp:502711",
+      "2.335:start.hsp:502756",
+      "2.335:start.hsp:502792",
+      "2.335:start.hsp:522255",
+      "2.335:start.hsp:522290",
+      "2.335:start.hsp:522325",
+      "2.335:start.hsp:522361",
+      "2.335:start.hsp:522406",
+      "2.335:start.hsp:522442",
+      "2.335:start.hsp:538408",
+      "2.335:start.hsp:538444",
+      "2.335:start.hsp:540337",
+      "2.335:start.hsp:540376",
+      "2.335:start.hsp:540456",
+      "2.335:start.hsp:540496",
+      "2.335:start.hsp:549506",
+      "2.335:start.hsp:549544",
+      "2.335:start.hsp:553061",
+      "2.335:start.hsp:553097",
+      "2.335:start.hsp:571358",
+      "2.335:start.hsp:571367",
+      "2.335:start.hsp:571397",
+      "2.335:start.hsp:571402",
+      "2.335:start.hsp:616179"
+    ],
+    "review_reason": "종족·일반 벌레와 고유 적 이름 ヘラクレス가 같은 영어 키다. 전역 치환 금지.",
+    "source_ja_candidates": [
+      "ヘラクレス",
+      "かぶと虫"
+    ]
+  },
+  {
+    "source": "Black",
+    "target": "검정",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:272540"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "黒",
+    "source_ja_line": 272540
+  },
+  {
+    "source": "corpse",
+    "target": "시체",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:190775"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Jure",
+    "target": "주아",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:184011"
+    ],
+    "review_reason": "item 686 JP ジュア像. 영어 조립 전 이름 부분만 주아. 신과 종족 표기를 구분할 문맥은 유지."
+  },
+  {
+    "source": "cure corruption",
+    "target": "에테르 항체",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:185874"
+    ],
+    "review_reason": "동일 item 559의 JP エーテル抗体のポーション 확인. 재료명 부분만 에테르 항체로 번역; 영어 item assembly와 구분."
+  },
+  {
+    "source": "Blue weed",
+    "target": "푸른 풀",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39208"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "青い草",
+    "source_ja_line": 39208
+  },
+  {
+    "source": "Chaos stone",
+    "target": "혼돈의 돌",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39193"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "混沌の石",
+    "source_ja_line": 39193
+  },
+  {
+    "source": "Curse weed",
+    "target": "저주받은 풀",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39213"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "呪いの草",
+    "source_ja_line": 39213
+  },
+  {
+    "source": "dye",
+    "target": "염색약",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:186410"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "Ether fragment",
+    "target": "에테르 조각",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39183"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "エーテルの欠片",
+    "source_ja_line": 39183
+  },
+  {
+    "source": "evolution",
+    "target": "진화",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:183647"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  },
+  {
+    "source": "gain attribute",
+    "target": "능력 획득",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:190240"
+    ],
+    "review_reason": "능력 획득을 기술 획득으로 잘못 옮긴 구판을 교정."
+  },
+  {
+    "source": "Holy weed",
+    "target": "신성한 풀",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39233"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "聖なる草",
+    "source_ja_line": 39233
+  },
+  {
+    "source": "Hot water",
+    "target": "뜨거운 물",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39133"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "お湯",
+    "source_ja_line": 39133
+  },
+  {
+    "source": "Howling weed",
+    "target": "울부짖는 풀",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39198"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "唸る草",
+    "source_ja_line": 39198
+  },
+  {
+    "source": "Ice stone",
+    "target": "빙석",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39168"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "冷凍石",
+    "source_ja_line": 39168
+  },
+  {
+    "source": "Level",
+    "target": "레벨",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:289373",
+      "2.335:start.hsp:290336",
+      "2.335:start.hsp:295045",
+      "2.335:start.hsp:297424",
+      "2.335:start.hsp:297427"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja_candidates": [
+      "レベル",
+      "Level"
+    ]
+  },
+  {
+    "source": "Magic ink",
+    "target": "마법의 잉크",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39113"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "魔法のインク",
+    "source_ja_line": 39113
+  },
+  {
+    "source": "Red weed",
+    "target": "붉은 풀",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39203"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "赤い草",
+    "source_ja_line": 39203
+  },
+  {
+    "source": "Sap of Yaggdrasil",
+    "target": "세계수의 수액",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39243"
+    ],
+    "review_reason": "최신 일본어 世界樹の樹液를 우선. 영문 오자로 신화명 추가하지 않는다.",
+    "source_ja": "世界樹の樹液",
+    "source_ja_line": 39243
+  },
+  {
+    "source": "Seawater",
+    "target": "바닷물",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:39118"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "source_ja": "海水",
+    "source_ja_line": 39118
+  },
+  {
+    "source": "weakness",
+    "target": "허약",
+    "origin": {
+      "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
+      "license": "CC-BY-SA-3.0",
+      "source_hash": "a119d0f4f16fa7f027e3c7dbc5640ca4df9e2be706947c35bbdc9b2d6654d54f",
+      "capture_kind": "web-search-index-text",
+      "retrieved": "2026-11-18",
+      "revision_id": null,
+      "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
+      "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
+    },
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:188304",
+      "2.335:start.hsp:188334"
+    ],
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정."
+  }
+]

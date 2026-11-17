@@ -1,0 +1,33 @@
+5 compose 0 1 日本
+6 key RETURN
+7 key BACKSPACE
+8 compose 1 1 日本
+9 capture composition.bmp
+10 text 日本
+12 key LEFT
+13 key DELETE
+14 key BACKSPACE
+16 compose 0 1 漢字
+17 compose 0 0
+18 key END
+19 text 日本
+20 text 語
+22 key HOME
+23 key DELETE
+24 text Z
+26 compose 0 1 語
+27 text 語
+28 key BACKSPACE
+30 compose 0 1 語
+32 focus lost
+33 focus gained
+34 key HOME
+35 text X
+37 text 😀
+38 capture rejected.bmp
+41 compose 0 2 が
+42 text が
+44 key BACKSPACE
+46 compose 0 1 仮
+47 key ESCAPE
+48 text Z

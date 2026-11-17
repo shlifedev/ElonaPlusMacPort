@@ -1,0 +1,20 @@
+; Deterministic input: keys come from input_script.script, never the real keyboard.
+screen 0,32,32
+onkey gosub *on_key
+k = 0 : s = 0 : hits = 0 : mx = 0
+repeat 30
+	await 16
+	getkey a, 13
+	if a : k = 1
+	stick st, 0
+	if st & 16 : s = 1
+	if mousex = 7 : mx = 1
+loop
+if k = 0 : end 31
+if s = 0 : end 32
+if hits < 1 : end 33
+if mx = 0 : end 34
+end
+*on_key
+	if wparam = 13 : hits++
+	return

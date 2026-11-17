@@ -1,0 +1,16 @@
+screen 0,800,190
+onexit goto *closed
+original="*Closing this window will also close the game. You can disable this window in the settings."
+mes original
+bmpsave "main.bmp"
+screen 20,800,190
+mes original
+bmpsave "help.bmp"
+notesel original
+notesave "vm-original.txt"
+gsel 0
+repeat
+await 1
+loop
+*closed
+end 23

@@ -1,0 +1,38 @@
+#cmpopt varname 1
+screen 0,400,120
+title "Elona Modal Fixture - private test"
+onexit gosub *closed
+closed_count=0
+await 1
+sdim log,4096
+notesel log
+dialog "Fixture 1/4: press OK. This must return stat 1.",0,"Elona Modal Fixture"
+v=stat
+noteadd "ok="+v
+notesave "modal-results.txt"
+if v!=1 : end 11
+dialog "Fixture 2/4: press Yes. This must return stat 6.",2,"Elona Modal Fixture"
+v=stat
+noteadd "yes="+v
+notesave "modal-results.txt"
+if v!=6 : end 12
+dialog "Fixture 3/4: press No. This must return stat 7.",3,"Elona Modal Fixture"
+v=stat
+noteadd "no="+v
+notesave "modal-results.txt"
+if v!=7 : end 13
+dialog "Fixture 4/4: warning OK. Closing this popup must not close the game.",1,"Elona Modal Fixture"
+v=stat
+noteadd "warning_ok="+v
+notesave "modal-results.txt"
+if v!=1 : end 14
+repeat 8
+await 20
+loop
+noteadd "onexit_count="+closed_count
+notesave "modal-results.txt"
+if closed_count!=0 : end 15
+end 0
+*closed
+closed_count++
+return

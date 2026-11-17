@@ -1,0 +1,5 @@
+# <frame> <op> [args]   frames count wait/await/stop entries
+5 key RETURN
+10 key SPACE
+12 mouse 7 9
+20 screenshot input-frame20.bmp

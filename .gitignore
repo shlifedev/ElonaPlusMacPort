@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+/elonaplus*/
+/elonaplus*.zip
+/.cache/
+/work/
+/build/
+/out/
+/local/
+/save/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+/CMakeUserPresets.json

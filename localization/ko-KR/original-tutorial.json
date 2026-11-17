@@ -1,0 +1,3523 @@
+[
+  {
+    "id": "home.hsp.373565",
+    "source_ja": "旅の目的",
+    "source": "What's your mission?",
+    "target": "여행의 목적을 묻는다.",
+    "source_ref": [
+      "2.335:start.hsp:373565"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373568",
+    "source_ja": "ノースティリスについて",
+    "source": "Tell me about North Tyris.",
+    "target": "북부 티리스에 관해 묻는다.",
+    "source_ref": [
+      "2.335:start.hsp:373568"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373571",
+    "source_ja": "獣に変えられた王子の童話",
+    "source": "You mentioned a fairy tale.",
+    "target": "짐승으로 변한 왕자의 이야기를 듣는다.",
+    "source_ref": [
+      "2.335:start.hsp:373571"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373576",
+    "source_ja": "無事に意識が戻ってよかったわ。あなたを最初に見たときは、もう手遅れかと思ったほどだもの。",
+    "source": "I'm glad you got well again. I thought you were a goner until just a few minutes ago.",
+    "target": "무사히 정신을 차려서 다행이에요. 처음 당신을 봤을 때는 이미 늦은 줄 알았거든요.",
+    "source_ref": [
+      "2.335:start.hsp:373576"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373580",
+    "source_ja": "あなたは、こんな話を聞いたことがあるかしら。",
+    "source": "You may have heard of this story before...",
+    "target": "이런 이야기를 들어 본 적이 있나요…?",
+    "source_ref": [
+      "2.335:start.hsp:373580"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373593",
+    "source_ja": "あるところに、魔法によって醜い獣のような姿に変えられた 王子がいた…彼は自分の姿に絶望し、国を捨て森の中の小屋で暮らしたの。",
+    "source": "There was once a prince who had his shape changed into that of an ugly beast by a witch. Desparing of his bloodcurdling appearince, he hid himself in a forest far from his kingdom.",
+    "target": "옛날에 마법으로 흉측한 짐승의 모습이 된 왕자가 있었어요… 왕자는 자신의 모습에 절망한 나머지 나라를 떠나 숲속 오두막에서 살았지요.",
+    "source_ref": [
+      "2.335:start.hsp:373593"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373606",
+    "source_ja": "ある日、狼に襲われ傷ついた女が、小屋に駆け込み倒れこんだ。王子は迷いながらも女を介抱した。彼女はもちろん男の姿におびえて泣いたわ。",
+    "source": "One day a woman rushed into his hut and passed out, having been badly wounded by a pack of wolves. He treated her with the knowledge and fear that his ugly body might scare her. This fear turned into reality soon enough for she cried out as she woke up.",
+    "target": "어느 날, 늑대에게 습격당해 다친 여인이 오두막으로 뛰어들어와 쓰러졌어요. 왕자는 망설이다가도 여인을 보살폈지요. 여인은 물론 왕자의 모습을 보고 겁에 질려 울었어요.",
+    "source_ref": [
+      "2.335:start.hsp:373606"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373619",
+    "source_ja": "でも、何日もたち彼女は男の優しさに気付いた。彼の誠実さに、抱える葛藤に、心を打たれたの。怪我の癒えた女は、男のささえとなり共に暮らすことを決心した…",
+    "source": "However, as days passed by and she regained her health, the woman had come to recognize the kindness and generosity that was within the heart of this beast. She decided to live with him.",
+    "target": "하지만 며칠이 지나자 여인은 그의 다정함을 알게 됐어요. 그의 진실한 마음과 그가 겪는 갈등에 마음이 움직인 거예요. 상처가 나은 여인은 그의 버팀목이 되어 함께 살기로 했지요…",
+    "source_ref": [
+      "2.335:start.hsp:373619"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373632",
+    "source_ja": "二人は様々な困難を力を合わせ乗り越えて、最後には王子にかけられた呪いがとけ、二人が結婚して幸せな結末を迎えるの。どこにでもある物語ね。",
+    "source": "They surmounted various difficulties throughout their lives and the story comes to an end when the curse set upon the prince finally breaks and the beast returned to his former shape, that of a flawlessly handsome prince. The two of them got along very well from that time on. A happy ending... although just an ordinary story, don't you agree?",
+    "target": "두 사람은 힘을 합쳐 온갖 어려움을 이겨 냈고, 마침내 왕자에게 걸린 저주가 풀렸어요. 둘은 결혼해서 행복하게 살았답니다. 어디서나 들을 수 있는 이야기지요.",
+    "source_ref": [
+      "2.335:start.hsp:373632"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373645",
+    "source_ja": "わたしは、小さい頃聞かされたこのおとぎ話が、どうしても好きになれなかった。きっと、醜い姿の男に対する愛が、どこかに置き去りにされた気がしたのね。",
+    "source": "The elders of Vindale used to tell me this kind of story. But I never liked this one. Perhaps it is because I felt like the beast that she loved despite the fact that his ugliness had been left behind somewhere.",
+    "target": "어릴 때 들은 그 이야기를 저는 도무지 좋아할 수가 없었어요. 아마 흉측한 모습의 남자를 향한 사랑이 어딘가에 버려진 것처럼 느껴졌기 때문이겠지요.",
+    "source_ref": [
+      "2.335:start.hsp:373645"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373661",
+    "source_ja": "アセリア大陸から大洋を隔たち、ティリス大陸の北に位置するのがノースティリスよ。自由と平和の国パルミアの統治の下、古代の遺跡群ネフィアを巡り、多くの旅人や商人がこの地を訪れるの。あなたも、そんな旅人の一人かしら？",
+    "source": "North Tyris is a continent in the western hemisphere of Irva. Lots of merchants and travelers set foot on North Tyris' soil with the dream of making a fortune in the ancient ruins of Nefia.",
+    "target": "아세리아 대륙과 큰 바다를 사이에 두고, 티리스 대륙 북쪽에 자리한 곳이 북부 티리스예요. 자유와 평화의 나라 팔미아가 다스리는 이 땅에는 고대 유적군 네피아를 찾아 많은 여행자와 상인이 찾아오지요. 당신도 그런 여행자 중 한 사람인가요?",
+    "source_ref": [
+      "2.335:start.hsp:373661"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "JP is northern region of Tyris separated from Aseria by ocean; EN calls North Tyris a western hemisphere continent.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373674",
+    "source_ja": "目的が決まっていないのなら、南の炭鉱街ヴェルニースに行くといいわ。あなたの探しているものが、見つかるかもしれない。",
+    "source": "If you haven't set your destination yet, you might want to visit Vernis. It's a mining town located south of here.",
+    "target": "아직 목적지를 정하지 않았다면 남쪽의 탄광 마을 베르니스로 가 보세요. 당신이 찾는 것이 그곳에 있을지도 몰라요.",
+    "source_ref": [
+      "2.335:start.hsp:373674"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373690",
+    "source_ja": "私達はヴィンデールの森からの使者。公正なるジャビ王と会見し、森とエレアの民に降りかかる嫌疑を晴らすために、王都パルミアに向かっているの。",
+    "source": "We are messengers from Vindale. Our journey ends here in North Tyris at the great city of Palmia where we're supposed to have a talk with King Xabi, a man of fairness and compassion.",
+    "target": "우리는 빈데일 숲의 사절이에요. 공정하신 자비 왕을 만나 숲과 엘레아 민족에 씌워진 혐의를 벗기 위해 왕도 팔미아로 가고 있지요.",
+    "source_ref": [
+      "2.335:start.hsp:373690"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373797",
+    "source_ja": "…もう出歩けるほどに回復したのか？時間が経つのは早いものだ。我々もそろそろ出発するとしよう。",
+    "source": "…Have you recovered enough to go out? Time flies. We should also leave now.",
+    "target": "…벌써 돌아다닐 만큼 회복했나? 시간 참 빠르군. 우리도 슬슬 출발해야겠어.",
+    "source_ref": [
+      "2.335:start.hsp:373797"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373810",
+    "source_ja": "そんなに残念そうな顔をしないで、{player_name}。私達はこの国に用事があるから…きっとまた会えるわ。",
+    "source": "{player_name}, Don't look so sad. I have things to do in this country, so I'm sure we'll meet again.",
+    "target": "그렇게 아쉬운 표정 짓지 말아요, {player_name}. 우리는 이 나라에 볼일이 있으니… 분명 다시 만날 수 있을 거예요.",
+    "source_ref": [
+      "2.335:start.hsp:373810"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "template",
+    "review_status": "template_reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 동적 변수는 명명된 자리표시자로 보존. 현재 exact-display 런타임에 적용하지 않음.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    },
+    "placeholders": {
+      "player_name": "cdatan(0, 0)"
+    },
+    "source_expression": "buff = lang(\"そんなに残念そうな顔をしないで、\" + cdatan(0, 0) + \"。私達はこの国に用事があるから…きっとまた会えるわ。\", \"\" + cdatan(0, 0) + \", Don't look so sad. I have things to do in this country, so I'm sure we'll meet again.\")"
+  },
+  {
+    "id": "home.hsp.373826",
+    "source_ja": "クエストアイテム[古びたお守り]を手に入れた。クエストアイテムはジャーナル(jキー)で確認できる。",
+    "source": "You obtain an old talisman! Quest items can be checked in the journal (j key).",
+    "target": "퀘스트 아이템 [낡은 부적]을 얻었다. 퀘스트 아이템은 일지(j 키)에서 확인할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:373826"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373830",
+    "source_ja": "そうね…。このお守り、持っていて。いつか役立つ時が来るかもしれない。",
+    "source": "Hmm...Please keep this amulet. It may come in handy someday.",
+    "target": "그러고 보니… 이 부적을 가지고 있어요. 언젠가 도움이 될지도 모르니까요.",
+    "source_ref": [
+      "2.335:start.hsp:373830"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373843",
+    "source_ja": "我々にもあまり余裕はないが、使えそうなアイテムをいくつか置いていく。わざわざ旅を中断してまで救助したのだ、簡単に野垂れ死んでもらっては困る。",
+    "source": "I will leave some items that you can use. We purposely interrupted our trip to rescue you. I don't want you to die easily.",
+    "target": "우리도 여유가 있지는 않지만 쓸 만한 물건 몇 가지를 두고 가겠네. 일부러 여행까지 중단하고 자네를 구했으니, 쉽게 객사해 버리면 곤란하지.",
+    "source_ref": [
+      "2.335:start.hsp:373843"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373856",
+    "source_ja": "…それじゃあ、また巡り会う時まで、{player_title}、あなたに風の加護のあらんことを。",
+    "source": "Farewell..until we meet again. May the blessing of Lulwy be with you.",
+    "target": "…그럼 다시 만날 때까지, {player_title}. 당신에게 바람의 가호가 함께하기를.",
+    "source_ref": [
+      "2.335:start.hsp:373856"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "template",
+    "review_status": "template_reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 동적 변수는 명명된 자리표시자로 보존. 현재 exact-display 런타임에 적용하지 않음.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    },
+    "placeholders": {
+      "player_title": "cdatan(1, 0)"
+    },
+    "source_expression": "buff = lang(\"…それじゃあ、また巡り会う時まで、\" + cdatan(1, 0) + \"、あなたに風の加護のあらんことを。\", \"Farewell..until we meet again. May the blessing of Lulwy be with you.\")"
+  },
+  {
+    "id": "home.hsp.373873",
+    "source_ja": "二人は荷物をまとめ洞窟を後にした。",
+    "source": "Lomias and Larnneire leave the cave.",
+    "target": "두 사람은 짐을 챙겨 동굴을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:373873"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373878",
+    "source_ja": "何かが足元に転がってきた。",
+    "source": "Something is put on the ground.",
+    "target": "무언가가 발밑으로 굴러왔다.",
+    "source_ref": [
+      "2.335:start.hsp:373878",
+      "2.335:start.hsp:373993",
+      "2.335:start.hsp:374125",
+      "2.335:start.hsp:374257",
+      "2.335:start.hsp:374347",
+      "2.335:start.hsp:374464",
+      "2.335:start.hsp:374524"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373901",
+    "source_ja": "見たところ君はノースティリスの人間ではないようだ。余計な世話でなければ、我々が旅を再開する前に、この土地での生活の知恵を授ける程度の時間は割けるのだが。",
+    "source": "It looks like you aren't familiar with this land. Before we leave, I can spare a moment to teach you a few lessons.",
+    "target": "보아하니 자네는 북부 티리스 사람이 아닌 듯하군. 쓸데없는 참견이 아니라면, 우리가 다시 길을 떠나기 전에 이곳에서 살아갈 요령 정도는 가르쳐 줄 시간이 있네만.",
+    "source_ref": [
+      "2.335:start.hsp:373901"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373903",
+    "source_ja": "チュートリアルを開始する",
+    "source": "I would like to play the tutorial.",
+    "target": "튜토리얼을 시작한다.",
+    "source_ref": [
+      "2.335:start.hsp:373903"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373906",
+    "source_ja": "余計な世話だ",
+    "source": "I can take care of myself.",
+    "target": "쓸데없는 참견이다.",
+    "source_ref": [
+      "2.335:start.hsp:373906"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373911",
+    "source_ja": "移動方法はもうわかっているだろうが、もしカーソルキーを使っているのならば、できるだけテンキーでの移動に変えたほうがいいだろう。テンキーの周りには、床のアイテムを取得する0キー、その場で足踏みする5キー、そして射撃などのターゲットを指定できる*キーがあるからな。",
+    "source": "Pray tell me at least you know how to move. Sure, pressing cursor keys will do. But it's better to use a key pad if you have one. By using a key pad, you can easily acceess keys which are used frequently. Like [0] for picking up stuff, [5] for passing a turn and [*] for targeting.",
+    "target": "이동하는 법쯤은 알겠지. 다만 방향키를 쓰고 있다면 가급적 숫자 키패드를 쓰는 편이 좋겠네. 그 주변에는 바닥의 물건을 줍는 0 키, 제자리에서 한 턴을 보내는 5 키, 사격 등의 대상을 지정하는 * 키가 있으니까.",
+    "source_ref": [
+      "2.335:start.hsp:373911"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373924",
+    "source_ja": "全ての行動はz,x,cの三つのキーから選択できる。zキーでは主に魔法やスキルなどの動作、xキーではアイテムの操作、cキーでは能力の確認や装備の変更ができるぞ。",
+    "source": "Although there're many actions you can perform, basically you can access them by using only 3 keys, [z],[x] and [c].",
+    "target": "모든 행동은 z, x, c 세 키로 선택할 수 있네. z 키는 주로 주문이나 기술 같은 행동, x 키는 아이템 조작, c 키는 능력 확인이나 장비 변경에 쓰지.",
+    "source_ref": [
+      "2.335:start.hsp:373924"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373937",
+    "source_ja": "まずはxキーを使って、最も基本的で重要な行動である食事をしてみよう。注意しておけ、空腹になると体力の回復速度が下がり、餓死寸前になると当然体力は減って行くからな。食料は店で買ったり、栽培したり、たまに敵が残す死体を食べることもできる。",
+    "source": "Let's try them now. First, you need food to live. If your stomach is empty, you will lose Hp and your action speed slows down. Make sure you always have enough food in your inventory.",
+    "target": "우선 x 키로 가장 기본적이고도 중요한 행동인 식사를 해 보세. 잘 들어 두게. 배가 고프면 체력이 회복되는 속도가 느려지고, 굶어 죽기 직전에는 당연히 체력이 줄어들지. 식량은 가게에서 사거나 직접 기를 수 있고, 가끔 적이 남긴 시체를 먹어도 되네.",
+    "source_ref": [
+      "2.335:start.hsp:373937"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373949",
+    "source_ja": "君の足元に食料を置いた。xキーを押して、テンキーを使い「食べる」のメニューに移動して、足元のものを選択するんだ。",
+    "source": "Here, you can have this meat. Press [x], then press [9] a few times to select the <Eat> menu. Once there, select the meat on the ground.",
+    "target": "자네 발밑에 음식을 놓았네. x 키를 누르고 숫자 키패드로 「먹기」 메뉴로 이동한 뒤, 발밑의 음식을 고르게.",
+    "source_ref": [
+      "2.335:start.hsp:373949"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373951",
+    "source_ja": "わかった",
+    "source": "Alright.",
+    "target": "알겠다.",
+    "source_ref": [
+      "2.335:start.hsp:373951"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 같은 영어가 다른 일본어 문맥에도 대응하므로 영어 전역 키는 비활성화.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373954",
+    "source_ja": "食べた",
+    "source": "I ate it.",
+    "target": "먹었다.",
+    "source_ref": [
+      "2.335:start.hsp:373954"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373959",
+    "source_ja": "zキーでは、魔法やスキルを使用したり、体当たりや採掘など、やや特殊な行動を行うことができる。体当たりは、鍵のかかったドアを壊したり、果実を木から落としたい時に実行するといい。",
+    "source": "You can perform skills or other actions including bashing and digging by pressing [z]. Here's a tip. You can bash doors to break locks and trees to get some fruits. It can be used to wake someone, but surely they won't be happy.",
+    "target": "z 키로는 주문과 기술을 사용하거나 몸통박치기, 채굴 같은 특수한 행동을 할 수 있네. 잠긴 문을 부수거나 나무에서 열매를 떨어뜨리고 싶을 때는 몸통박치기를 해 보게.",
+    "source_ref": [
+      "2.335:start.hsp:373959"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373972",
+    "source_ja": "zキーの他にも、スペースキーの活用法を覚えておこう。スペースキーは、足元にあるものに応じて自動的に行動を選択してくれるキーだ。例えば足元に階段があれば昇り降りを、宝箱があれば「開く」を、祭壇があれば「捧げる」をなど、自動的に選択してくれる便利なキーだ。",
+    "source": "Also, remember that [space] key is a very useful key. When there's an object under your foot, it automatically chooses a suitable action for you.",
+    "target": "z 키뿐 아니라 스페이스 키를 쓰는 법도 기억해 두게. 발밑에 무엇이 있는지에 따라 알맞은 행동을 자동으로 골라 주지. 계단이 있으면 오르내리기, 보물 상자가 있으면 「열기」, 제단이 있으면 「제물 바치기」를 선택하는 편리한 키라네.",
+    "source_ref": [
+      "2.335:start.hsp:373972"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373984",
+    "source_ja": "そうだな… 「穴掘り」実際に試してみようか。穴掘りは、道を短縮したり、鉱石を採掘したり、家のレイアウトを変える時に使う。とりあえず適当な壁の前に立ち、zキーを押して穴を掘ってみてくれ。",
+    "source": "Let's try it now. Try digging some walls by pressing [z] and choosing <dig>.",
+    "target": "그럼… 「땅 파기」를 직접 해 볼까. 길을 줄이거나 광석을 캐고, 집의 구조를 바꾸는 데 쓰는 행동이지. 우선 아무 벽 앞에나 서서 z 키를 누르고 파 보게.",
+    "source_ref": [
+      "2.335:start.hsp:373984"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373986",
+    "source_ja": "わかった",
+    "source": "Okay.",
+    "target": "알겠다.",
+    "source_ref": [
+      "2.335:start.hsp:373986"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.373999",
+    "source_ja": "どうやら何かを掘り当てたようだな。",
+    "source": "Looks like you found something.",
+    "target": "뭔가 파낸 모양이군.",
+    "source_ref": [
+      "2.335:start.hsp:373999"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374015",
+    "source_ja": "多くのアイテムは、その本当の価値を知るためには「鑑定」をする必要がある。街にいる魔術士に頼んだり、鑑定の巻物や、魔法を唱えることで鑑定はできる。未鑑定の品は店での売価が低くなり、中には呪われた装備、危険な効果のポーションや巻物もあるので注意が必要だ。",
+    "source": "Many items need to be identified before you can know what exactly they are. You can identify items by reading some scrolls or asking a wizard in a town. Remember that using unidentified potions or scrolls is very dangerous. ",
+    "target": "대부분의 아이템은 진짜 가치를 알려면 「감정」을 해야 하네. 마을의 마술사에게 맡기거나 감정의 두루마리를 읽고, 주문을 써서 감정할 수 있지. 감정하지 않은 물건은 가게에서 제값을 받지 못하네. 저주받은 장비나 위험한 물약, 두루마리도 있으니 주의하게.",
+    "source_ref": [
+      "2.335:start.hsp:374015"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374028",
+    "source_ja": "武器や防具は、長い間所持していると簡単な鑑定がされるが、 装備の持つ魔力や本当の性能を知るためには、やはり鑑定が必要だ。強力な力を秘めたアイテムの中には、上位の鑑定を必要とするものもあるので、未判明のまま店に売ってしまうことは賢明ではないだろう。",
+    "source": "Weapons and armor also need to be identified. If you carry them long enough, you will get a hunch as to how good they are. But to gain full knowledge of the items, you need to identify them.",
+    "target": "무기와 방어구는 오래 가지고 다니면 대강 감정되지만, 깃든 마력이나 진짜 성능을 알려면 역시 제대로 감정해야 하네. 강한 힘을 품은 물건은 더 높은 수준의 감정이 필요하기도 하지. 정체도 모른 채 가게에 팔아 버리는 건 현명하지 못할 걸세.",
+    "source_ref": [
+      "2.335:start.hsp:374028"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374040",
+    "source_ja": "では、今足元に置いた鑑定の巻物をxキーで読み、その金塊を鑑定してみるんだ。",
+    "source": "Now I'll give you a scroll of identify. Read it by using [x] and identify the gold bar you just found.",
+    "target": "자, 방금 발밑에 놓은 감정의 두루마리를 x 키로 읽고 그 금괴를 감정해 보게.",
+    "source_ref": [
+      "2.335:start.hsp:374040"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374042",
+    "source_ja": "結果は想像がつくが、やってみるか…",
+    "source": "Alright, I will try.",
+    "target": "결과는 짐작이 가지만 해 볼까…",
+    "source_ref": [
+      "2.335:start.hsp:374042"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374045",
+    "source_ja": "鑑定した",
+    "source": "Done...",
+    "target": "감정했다.",
+    "source_ref": [
+      "2.335:start.hsp:374045"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374049",
+    "source_ja": "アイテムを装備するには、cキーから装備画面を呼び出せばいい。呪われたアイテムを装備してしまうと、装備が外せなくなるだけではなく、様々な悪い効果が発生する。その弓も呪われているので、解呪の巻物で呪いをといてくれ。",
+    "source": "To equip weapons or armor, press [c] and press [9] to select [Wear]. Note that if you wear cursed equipment, they can't be removed normally and cause some unwelcome effects. That bow is cursed. Use this scroll of uncurse to uncurse it.",
+    "target": "아이템을 장비하려면 c 키로 장비 화면을 열면 되네. 저주받은 물건은 장비하면 벗을 수 없을 뿐 아니라 여러 해로운 효과까지 일어나지. 그 활도 저주받았으니 저주 해제의 두루마리로 저주를 풀게.",
+    "source_ref": [
+      "2.335:start.hsp:374049"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374051",
+    "source_ja": "わかった",
+    "source": "Will do.",
+    "target": "알겠다.",
+    "source_ref": [
+      "2.335:start.hsp:374051"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374054",
+    "source_ja": "装備も解呪も終わった",
+    "source": "All done.",
+    "target": "장비하고 저주도 풀었다.",
+    "source_ref": [
+      "2.335:start.hsp:374054"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374061",
+    "source_ja": "どうした？ まだプチを倒していないぞ。",
+    "source": "Kill them all.",
+    "target": "뭘 하고 있나? 아직 푸팃를 쓰러뜨리지 않았잖나.",
+    "source_ref": [
+      "2.335:start.hsp:374061"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 같은 영어가 다른 일본어 문맥에도 대응하므로 영어 전역 키는 비활성화.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374076",
+    "source_ja": "上出来だ。",
+    "source": "Well done.",
+    "target": "잘했네.",
+    "source_ref": [
+      "2.335:start.hsp:374076"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374092",
+    "source_ja": "ノースティリスの地理について少し説明しよう。シエラ・テールには幾多の国が存在するが、ノースティリスはどの国の支配も受けておらず、《ネフィア》と呼ばれる迷宮群が存在する特殊な場所だ。この地では、地殻変動とともに新しい迷宮がしばしば生成される。",
+    "source": "Let's learn a little history of North Tyris. This sacred land governed by Palmia is known for ancient ruins <<Nefia>>. Occasionally new ruins are found and lost by erratic movements of the earths crust.",
+    "target": "북부 티리스의 지리를 조금 설명하지. 시에라 테르에는 여러 나라가 있지만, 북부 티리스는 어느 나라의 지배도 받지 않으며 《네피아》라는 미궁들이 존재하는 특별한 곳이네. 이곳에서는 지각 변동과 함께 새로운 미궁이 종종 생겨나지.",
+    "source_ref": [
+      "2.335:start.hsp:374092"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "JP says no country rules North Tyris; EN says governed by Palmia. Preserve JP, flag source inconsistency with Larnneire.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374105",
+    "source_ja": "迷宮の主を倒すと貴重な物資や財宝が手に入るため、冒険者にとっては格好の収入源になるわけだ。迷宮に辿り着くと、その場所の危険度が表示される。危険度が自分の適正より高い場所を探索することは、まず避けたほうがいいだろう。",
+    "source": "A lord lives at the lowest layer of these ruins, protecting great treasures and therefore attracts numerous adventurers. However, avoid those ruins which exceed your current level. You may gain a lot, but you may lose your life.",
+    "target": "미궁의 주인을 쓰러뜨리면 귀한 물자와 보물을 얻을 수 있으니 모험가에게는 훌륭한 돈벌이가 되는 셈이지. 미궁에 도착하면 그곳의 위험도가 표시되네. 감당할 수 있는 수준보다 위험한 곳은 일단 피하는 게 좋겠지.",
+    "source_ref": [
+      "2.335:start.hsp:374105"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374128",
+    "source_ja": "迷宮に落ちている宝箱の開け方を知っておく必要があるな。足元に宝箱を置くので、xキー、またはスペースキーで開けてみるんだ。",
+    "source": "You might find chests containing loot in ruins. There's one nearby, open it.",
+    "target": "미궁에서 발견한 보물 상자를 여는 법도 알아야겠군. 발밑에 상자를 놓을 테니 x 키나 스페이스 키로 열어 보게.",
+    "source_ref": [
+      "2.335:start.hsp:374128"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374145",
+    "source_ja": "鍵が掛かっているだろう？宝箱の鍵は、ロックピックを所持していて、鍵開けの技術が開錠に必要な値に達していないと、解除することはできない。君の技量では、おそらくその宝箱を開けることはできないな。宝箱はダンジョンに落ちていることもあるが、生憎と重い代物なので、開けられない時は諦めるしかないだろう。気をつけろ…宝箱に押しつぶされて無様な死をさらした冒険者を、私は何度となく見てきている。",
+    "source": "Notice the chest has a lock? Locked chests require sufficient lockpick skill and lockpicks to open. You need to practice to open that chest. Be aware, those chests are heavy and trust me, give up if you can't open them when you're in dungeons. I saw a fool running around with a chest on his back and he got killed.",
+    "target": "잠겨 있지? 잠긴 보물 상자를 열려면 자물쇠따개가 있어야 하고, 자물쇠 따기 기술도 충분해야 하네. 자네 실력으로는 아마 그 상자를 열지 못할 걸세. 던전에서도 보물 상자를 발견할 수 있지만 유감스럽게도 아주 무거우니, 열 수 없다면 포기하는 수밖에 없겠지. 조심하게… 나는 보물 상자에 깔려 꼴사납게 죽은 모험가를 한두 번 본 게 아니라네.",
+    "source_ref": [
+      "2.335:start.hsp:374145"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374158",
+    "source_ja": "宝箱に限らず、荷物を持ちすぎると速度にペナルティが課せられるため注意が必要だな。必要のないアイテムは、家に保管しておくといい。",
+    "source": "As you explore dungeons, your backpack may get heavier. Remember to leave stuff you don't need in your house. Overweight will slow your movement.",
+    "target": "보물 상자뿐 아니라 짐을 너무 많이 들면 행동이 느려지니 주의하게. 필요 없는 물건은 집에 보관해 두는 게 좋겠지.",
+    "source_ref": [
+      "2.335:start.hsp:374158"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374171",
+    "source_ja": "最後に、家について説明しておこう。家はアイテムを保管したり、安全に魔法を学んだり、また単に装飾して楽しむために利用できる。家の権利書を購入できるようになれば、ノースティリスの好きな場所に家を建てることができるだろう。ただし、家は一つしか持てない。",
+    "source": "Finally, I'm going to explain a bit about your house. As you already know, you can safely store items in your house. And the salary chest periodically gets filled with some gold and items. Eventually you might be able to buy a new house.",
+    "target": "마지막으로 집을 설명하지. 집에서는 아이템을 보관하거나 안전하게 마법을 배우고, 그저 장식하는 즐거움을 누릴 수도 있네. 집 권리서를 살 형편이 되면 북부 티리스에서 원하는 곳에 집을 지을 수 있겠지. 다만 집은 하나만 가질 수 있네.",
+    "source_ref": [
+      "2.335:start.hsp:374171"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374184",
+    "source_ja": "家の中にあるハウスボードを使うことで、壁を作ったり、床の模様を変えたり、滞在者を募ったりできるぞ。後で試してみるといい。",
+    "source": "You can do several things by using a house board in your house. Try it later.",
+    "target": "집 안의 주택 관리판을 사용하면 벽을 세우고, 바닥 무늬를 바꾸고, 머물 사람을 받을 수도 있네. 나중에 해 보게.",
+    "source_ref": [
+      "2.335:start.hsp:374184"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374200",
+    "source_ja": "よくやった。これでノースティリスで生活するための、基本的な知識は身に付いたわけだ。自分の状態を把握し、慎重に行動すれば、瀕死の状態を高慢なエレアに拾われ、講釈をたれられることも、もうないだろう（ロミアスはニヤリと笑った）。",
+    "source": "Alright, we're finished. You should already know how to survive in North Tyris by now.",
+    "target": "잘했네. 이걸로 북부 티리스에서 살아갈 기본 지식은 익힌 셈이군. 자신의 상태를 살피고 신중하게 행동한다면, 다시는 빈사 상태로 거만한 엘레아에게 주워져 훈계나 듣는 꼴은 되지 않겠지. (로미아스가 씩 웃었다.)",
+    "source_ref": [
+      "2.335:start.hsp:374200"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374213",
+    "source_ja": "まだ目的が定まっていないのなら、南のヴェルニースを訪れるといい。ネフィアの迷宮群を巡るのも、貴重な経験になるだろう。この世界で何を見て、如何な足跡を残すか決めるのは、君自身だ。",
+    "source": "(You've finished the tutorial!)",
+    "target": "아직 목적을 정하지 않았다면 남쪽의 베르니스를 찾아가 보게. 네피아의 미궁들을 돌아보는 것도 값진 경험이 되겠지. 이 세상에서 무엇을 보고 어떤 발자취를 남길지는 자네 자신이 결정하는 걸세.",
+    "source_ref": [
+      "2.335:start.hsp:374213"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "EN is only tutorial-complete meta text; JP contains actual farewell advice.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374229",
+    "source_ja": "まだ、何か用があるのか？",
+    "source": "What?",
+    "target": "아직 볼일이 남았나?",
+    "source_ref": [
+      "2.335:start.hsp:374229"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374231",
+    "source_ja": "何も",
+    "source": "Nothing.",
+    "target": "아무것도 아니다.",
+    "source_ref": [
+      "2.335:start.hsp:374231"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374238",
+    "source_ja": "賢明な判断だな。まずは最も基本的な動作から教えよう。",
+    "source": "A wise choice. I will start from the beginning.",
+    "target": "현명한 선택이군. 가장 기본적인 행동부터 가르쳐 주겠네.",
+    "source_ref": [
+      "2.335:start.hsp:374238"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374267",
+    "source_ja": "ラーネイレ…？ どこにいったんだ？ まさか貴様！",
+    "source": "You...you scum!",
+    "target": "라네이레…? 어디로 간 거지? 설마 네놈이!",
+    "source_ref": [
+      "2.335:start.hsp:374267"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "EN omits Larnneire missing and accusation context; no global generic insult alias.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374285",
+    "source_ja": "{speaker_name}は激昂した。",
+    "source": "{speaker_name} gets furious!",
+    "target": "{speaker_name}의 분노가 폭발했다.",
+    "source_ref": [
+      "2.335:start.hsp:374285"
+    ],
+    "speaker": "narrator",
+    "match_kind": "template",
+    "review_status": "template_reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 동적 변수는 명명된 자리표시자로 보존. 현재 exact-display 런타임에 적용하지 않음.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    },
+    "placeholders": {
+      "speaker_name": "name(tc)"
+    },
+    "source_expression": "txt_select lang(name(tc) + \"は激昂した。\", name(tc) + \" gets furious!\"), \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\""
+  },
+  {
+    "id": "home.hsp.374293",
+    "source_ja": "{player_name}の言うとおり、私達に残されている時間は少ないわ。こうしている間にも、新王国のかの者の計画は着実に進んでいる… 出発しよう、ロミアス。",
+    "source": "{player_name} is right. The time left for us is scarce. We need to depart, Lomias.",
+    "target": "{player_name}의 말이 맞아요. 우리에게 남은 시간은 얼마 없어요. 이러는 동안에도 신왕국에 있는 그자의 계획은 착착 진행되고 있겠지요… 출발해요, 로미아스.",
+    "source_ref": [
+      "2.335:start.hsp:374293"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "template",
+    "review_status": "template_reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 동적 변수는 명명된 자리표시자로 보존. 현재 exact-display 런타임에 적용하지 않음.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    },
+    "placeholders": {
+      "player_name": "cdatan(0, 0)"
+    },
+    "source_expression": "buff = lang(\"\" + cdatan(0, 0) + \"の言うとおり、私達に残されている時間は少ないわ。こうしている間にも、新王国のかの者の計画は着実に進んでいる… 出発しよう、ロミアス。\", \"\" + cdatan(0, 0) + \" is right. The time left for us is scarce. We need to depart, Lomias.\")"
+  },
+  {
+    "id": "home.hsp.374306",
+    "source_ja": "ああ、わかった。パルミアまでは長い旅路だ。一時であれ休息をとれて良かったのかも知れないな。",
+    "source": "Yes. Palmia is still far away. Perhaps, It was fortunate that we could have a little rest before everything begins.",
+    "target": "그래, 알겠네. 팔미아까지는 아직 먼 길이지. 잠깐이나마 쉬어 간 게 다행이었을지도 모르겠군.",
+    "source_ref": [
+      "2.335:start.hsp:374306"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374319",
+    "source_ja": "少ないけれど、いくつかアイテムを残していくから役立てて。…それじゃあ、また巡り会う時まで、{player_title}、あなたに風の加護のあらんことを。",
+    "source": "It's a little, but I'll leave some items, so please use it. Farewell..until we meet again. May the blessing of Lulwy be with you.",
+    "target": "얼마 안 되지만 물건 몇 가지를 두고 갈 테니 잘 써요. …그럼 다시 만날 때까지, {player_title}. 당신에게 바람의 가호가 함께하기를.",
+    "source_ref": [
+      "2.335:start.hsp:374319"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "template",
+    "review_status": "template_reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 동적 변수는 명명된 자리표시자로 보존. 현재 exact-display 런타임에 적용하지 않음.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    },
+    "placeholders": {
+      "player_title": "cdatan(1, 0)"
+    },
+    "source_expression": "buff = lang(\"少ないけれど、いくつかアイテムを残していくから役立てて。…それじゃあ、また巡り会う時まで、\" + cdatan(1, 0) + \"、あなたに風の加護のあらんことを。\", \"It's a little, but I'll leave some items, so please use it. Farewell..until we meet again. May the blessing of Lulwy be with you.\")"
+  },
+  {
+    "id": "home.hsp.374336",
+    "source_ja": "二人は荷物をまとめ洞窟を後にした。",
+    "source": "Lomias and Larnneire leave the cave.",
+    "target": "두 사람은 짐을 챙겨 동굴을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:374336"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374341",
+    "source_ja": "クエストを達成した！",
+    "source": "You have completed the quest!",
+    "target": "퀘스트를 완료했다!",
+    "source_ref": [
+      "2.335:start.hsp:374341"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374368",
+    "source_ja": "…本当に食べてしまったのか？",
+    "source": "...err..you really ate that thing? Oh well..",
+    "target": "…정말로 먹어 버린 건가?",
+    "source_ref": [
+      "2.335:start.hsp:374368"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374371",
+    "source_ja": "えー",
+    "source": "What!",
+    "target": "뭐라고?",
+    "source_ref": [
+      "2.335:start.hsp:374371"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374381",
+    "source_ja": "食料以外のアイテムも、同様にxキーで操作することになる。例えば巻物や魔法書は「読む」のメニューから、杖は「振る」のメニューから使用できる。",
+    "source": "You can also use other items by pressing [x]. For example, if you want to read a book, press [x], hit [9] a few times to select the <Read> menu, then choose a book you want to read.",
+    "target": "음식 말고 다른 아이템도 마찬가지로 x 키로 다루면 되네. 이를테면 두루마리와 마법서는 「읽기」 메뉴에서, 마법봉은 「휘두르기」 메뉴에서 사용할 수 있지.",
+    "source_ref": [
+      "2.335:start.hsp:374381"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374394",
+    "source_ja": "足元のアイテムはget…gキーで拾え、手持ちのアイテムはdrop…dキーで足元に落とすことができる。所持制限があるので、使用頻度の低いアイテムは持ち歩かない方がいいだろう。",
+    "source": "You can pick up items at your feet with the get...pressing [g], and drop items you're holding with the drop...pressing [d]. There is a carrying limit, so it's best not to carry around items you don't use often.",
+    "target": "발밑의 아이템은 get… g 키로 줍고, 가진 아이템은 drop… d 키로 발밑에 내려놓을 수 있네. 소지할 수 있는 양에 한계가 있으니 자주 쓰지 않는 물건은 들고 다니지 않는 게 좋겠지.",
+    "source_ref": [
+      "2.335:start.hsp:374394"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374408",
+    "source_ja": "次はzキーでの行動について説明しよう。",
+    "source": "",
+    "target": "다음은 z 키로 하는 행동을 설명하겠네.",
+    "source_ref": [
+      "2.335:start.hsp:374408"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "English branch is empty. 같은 영어가 다른 일본어 문맥에도 대응하므로 영어 전역 키는 비활성화.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374426",
+    "source_ja": "（ロミアスはにやりと笑った。どうやら、この偽物の金塊は彼がいつの間にか埋めたらしい…）",
+    "source": "(Lomias grins. Looks like he buried it unnoticed.)",
+    "target": "(로미아스가 씩 웃었다. 아무래도 이 가짜 금괴는 그가 어느 틈엔가 묻어 둔 모양이다…)",
+    "source_ref": [
+      "2.335:start.hsp:374426"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374439",
+    "source_ja": "次は戦闘について教えるが、戦う前にまずアイテムを装備し、準備を整えなければならない。使い古しだが、君のために弓と矢を用意した。射撃武器は手スロットにも装備できるが、遠隔攻撃をする場合は遠隔スロットに装備してくれ。また、対応した矢や弾を矢弾スロットに装備する必要がある。",
+    "source": "Okay, I will now tell you how to fight. Before the combat starts, you need to equip weapons. Take my old bow and arrows and equip them.",
+    "target": "다음은 전투를 가르쳐 주지. 싸우기 전에는 먼저 장비를 갖추고 준비해야 하네. 낡기는 했지만 자네를 위해 활과 화살을 마련했지. 사격 무기를 손 부위에 장비할 수도 있지만, 원거리 공격을 하려면 원거리 부위에 장비하게. 그 무기에 맞는 화살이나 탄환도 탄약 부위에 장비해야 하네.",
+    "source_ref": [
+      "2.335:start.hsp:374439"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374471",
+    "source_ja": "…よし、いよいよ戦闘の説明だ。",
+    "source": "Good. Now listen carefully.",
+    "target": "…좋아, 이제 전투를 설명하지.",
+    "source_ref": [
+      "2.335:start.hsp:374471"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374484",
+    "source_ja": "相手を打撃で攻撃するには、単に相手の方向のキーを押すだけだ。射撃も、zキーから射撃を選択するだけで、一番近くの敵を自動的に攻撃する。攻撃する敵を予め指定したいときは*キーを押せばいい。",
+    "source": "By moving towards a target, you automatically attack it with your close range weapon. To use your long range weapon, you can either press [z] and choose [Shoot] or simply press [f] (Fire). You will shoot a nearby enemy. If you want to change your target, press [*].",
+    "target": "근접 공격은 상대가 있는 방향의 키를 누르기만 하면 되네. 사격도 z 키에서 사격을 선택하면 가장 가까운 적을 자동으로 공격하지. 공격할 적을 미리 정하고 싶다면 * 키를 누르면 되네.",
+    "source_ref": [
+      "2.335:start.hsp:374484"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374497",
+    "source_ja": "では、訓練用のモンスターを召喚するぞ。可能なら、使い勝手を知るために射撃で倒してみてくれ。ただし、弓は近接して打っても威力が低いので注意が必要だ。危なくなった時のために、治療薬を足元に置いておこう…必要ないとは思うが。ポーションの飲み方はわかるな？…そう、xキーだ。",
+    "source": "Get ready. I will summon some weak monsters. Kill them with your bow if possible. Try to stay away from the enemies as bows aren't effective in close range. I've dropped a few potions in case you get hurt. You know how to use them right? Yes, use [x] key.",
+    "target": "그럼 훈련용 몬스터를 소환하겠네. 가능하면 사격으로 쓰러뜨려서 사용법을 익혀 보게. 다만 활은 적에게 바짝 붙어 쏘면 위력이 떨어지니 조심하게. 위험해질 때를 대비해 발밑에 치료약을 놓아 두지… 필요할 것 같지는 않지만. 물약을 마시는 법은 알겠지? …그래, x 키라네.",
+    "source_ref": [
+      "2.335:start.hsp:374497"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.374513",
+    "source_ja": "ロミアスは隠し持っていたプチを放った。",
+    "source": "Lomias releases a tiny cute creature.",
+    "target": "로미아스가 숨겨 두었던 푸팃를 풀어놓았다.",
+    "source_ref": [
+      "2.335:start.hsp:374513"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418614",
+    "source_ja": "この洞窟…雨をしのぐにはちょうどいいわ。ロミアス、危険がないか奥を調べて来て。",
+    "source": "This cave...it's a good place to keep out the rain. Lomias, check the inner chamber to be sure there is no danger lurking here.",
+    "target": "이 동굴… 비를 피하기에는 알맞겠어요. 로미아스, 안쪽에 위험한 것이 없는지 살펴봐 줘요.",
+    "source_ref": [
+      "2.335:start.hsp:418614"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418627",
+    "source_ja": "わかった。ここで待っていろ",
+    "source": "Okay. Wait here.",
+    "target": "알겠네. 여기서 기다리게.",
+    "source_ref": [
+      "2.335:start.hsp:418627"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 같은 영어가 다른 일본어 문맥에도 대응하므로 영어 전역 키는 비활성화.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418646",
+    "source_ja": "何かは殺された。",
+    "source": "Something is killed.",
+    "target": "무언가가 죽었다.",
+    "source_ref": [
+      "2.335:start.hsp:418646"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418651",
+    "source_ja": "「ぐわぁ」",
+    "source": "Uggghhh!",
+    "target": "「끄아악」",
+    "source_ref": [
+      "2.335:start.hsp:418651"
+    ],
+    "speaker": "unseen_victim",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418661",
+    "source_ja": "…今の音は？ …ロミアス、大丈夫？",
+    "source": "...what was that sound? ...Lomias, are you alright?",
+    "target": "…방금 무슨 소리죠? …로미아스, 괜찮아요?",
+    "source_ref": [
+      "2.335:start.hsp:418661"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418674",
+    "source_ja": "ああ、問題ない。どうやらこの洞窟は昔、誰かが住んでいたようだな。奥を見て来たが、今はもう使われていないようだ。",
+    "source": "It's nothing. Looks like this cave is long abandoned. It's a good place to stay.",
+    "target": "그래, 문제없네. 예전에는 누군가 살았던 동굴인 모양이군. 안쪽을 보고 왔는데 지금은 쓰지 않는 듯하네.",
+    "source_ref": [
+      "2.335:start.hsp:418674"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418687",
+    "source_ja": "そう、ならば都合がいいわ。…あら、あなた何を持っているの？ …キャーッ、プチじゃない！",
+    "source": "I see, that's convenient for us...wait Lomias, what arey you carrying?...Argh! Putit!",
+    "target": "그렇다면 잘됐네요. …어머, 손에 든 건 뭐예요? …꺄악, 푸팃잖아요!",
+    "source_ref": [
+      "2.335:start.hsp:418687"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418700",
+    "source_ja": "こいつか？心配する必要はない。以前、人間にペットとして飼われていたのだろう、ふふ…私によくなついているようだ。",
+    "source": "Don't worry. It appears this putit had been kept as pet by someone. It is kind of...cute.",
+    "target": "이 녀석 말인가? 걱정할 것 없네. 전에 누군가가 애완동물로 길렀겠지. 후후… 나를 꽤 따르는 모양이군.",
+    "source_ref": [
+      "2.335:start.hsp:418700"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418713",
+    "source_ja": "うふ！あなたにも優しいところがあるのね。…来て。どうやら怪我人が意識を取り戻したみたいよ。",
+    "source": "Huh, sounds like even you have a soft spot...Come here, the injured is about to wake up.",
+    "target": "후후! 당신에게도 다정한 구석이 있네요. …이리 와 봐요. 다친 분이 정신을 차린 것 같아요.",
+    "source_ref": [
+      "2.335:start.hsp:418713"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418737",
+    "source_ja": " 夢…か… ",
+    "source": "It was...a dream...?",
+    "target": "꿈…이었나…",
+    "source_ref": [
+      "2.335:start.hsp:418737"
+    ],
+    "speaker": "player",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418746",
+    "source_ja": "あなたは意識をとりもどした。",
+    "source": "You regain consciousness.",
+    "target": "의식을 되찾았다.",
+    "source_ref": [
+      "2.335:start.hsp:418746"
+    ],
+    "speaker": "narrator",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418755",
+    "source_ja": "…意識が…もう戻ったのか？ 驚いたな。君の回復を待つために、我々の急を要する旅がいつまで中断されるのか、気を揉んでいたのだが。",
+    "source": "...you...you're awake already? Remarkable. I was beginning to worry that nursing a lowly adventurer would bring our urgent travel to a halt.",
+    "target": "…정신이… 벌써 들었나? 놀랍군. 자네가 회복하길 기다리느라 우리의 급한 여행이 얼마나 더 늦어질지 걱정하던 참이었는데.",
+    "source_ref": [
+      "2.335:start.hsp:418755",
+      "2.335:start.hsp:418822"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418768",
+    "source_ja": "君は重傷を負い川辺に倒れていた。宵闇が辺りを覆う前に、癒し手の力を持つ我々に発見されたのは、全くよくできた偶然だ。",
+    "source": "You were badly wounded, passing out on the bank of a river. It was fortunate that we found you before the dark mantle of night enveloped this whole valley, almost as if Ehekatl, the goddess of luck herself had her eyes upon you.",
+    "target": "자네는 크게 다친 채 강가에 쓰러져 있었네. 저녁 어둠이 일대를 뒤덮기 전에 치유의 힘을 지닌 우리에게 발견되다니, 참 절묘한 우연이지.",
+    "source_ref": [
+      "2.335:start.hsp:418768",
+      "2.335:start.hsp:418835"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418781",
+    "source_ja": " …そんな物珍しげな顔をするな。君の察する通り、我々は異形の森の民だ。エレアは…シエラ・テールの高潔なる異端者は、他種族の詮索に付き合う無駄な時間をあいにく持ち合わせていないが、君は、我々に拾われた幸運をもっと素直に喜ぶべきだな。瀕死の君を回復させることは、ここにいるラーネイレ以外の何者にも不可能だっただろう。なにせ彼女はエレアの…",
+    "source": "...stop your curious eyes. Yes, we are sons of Vindale whom they call the irreverent forest. Though we Eleas, noble but blameless \"heretics\", aren't keen to spend idle time responding to every senseless question about our race, you should be more thankful for your fate. If it weren't the lady Larnneire who cured your mortal wound, you wouldn't be hearing my tirade. For the lady is no ordinary Elea and only she can...",
+    "target": "…그렇게 신기한 것 보듯 쳐다보지 말게. 짐작대로 우리는 이형의 숲에 사는 민족이네. 엘레아는… 시에라 테르의 고결한 이단자들은, 유감스럽게도 다른 종족의 캐묻기에 어울려 줄 한가한 시간이 없지. 그래도 자네는 우리에게 발견된 행운을 좀 더 순순히 기뻐해야 할 걸세. 죽어 가던 자네를 살릴 수 있는 이는 여기 있는 라네이레 말고는 없었을 테니까. 무엇보다 그녀는 엘레아의…",
+    "source_ref": [
+      "2.335:start.hsp:418781",
+      "2.335:start.hsp:418848"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418794",
+    "source_ja": "ロミアス、喋りすぎよ。たとえ意識の朦朧とした怪我人が相手だとしても。",
+    "source": "You talk too much Lomias, even though the one injured before you is still dazed.",
+    "target": "로미아스, 말이 너무 많아요. 상대가 정신도 제대로 들지 않은 부상자라고 해도요.",
+    "source_ref": [
+      "2.335:start.hsp:418794",
+      "2.335:start.hsp:418861"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "home.hsp.418807",
+    "source_ja": "…そうだな。私の悪い癖だ、わかってはいる。…さて、{player_name}といったな、",
+    "source": "...yes, it's a bad habit of mine. Well, {player_name}...",
+    "target": "…그렇군. 내 나쁜 버릇이지. 나도 알고 있네. …그런데, {player_name}이라고 했나?",
+    "source_ref": [
+      "2.335:start.hsp:418807",
+      "2.335:start.hsp:418874"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "template",
+    "review_status": "template_reviewed",
+    "english_enabled": false,
+    "review_reason": "일본어 원문과 해당 분기의 영어를 대조한 독자 번역. 화자·행동·기술 효과를 보존. 동적 변수는 명명된 자리표시자로 보존. 현재 exact-display 런타임에 적용하지 않음.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    },
+    "placeholders": {
+      "player_name": "cdatan(0, 0)"
+    },
+    "source_expression": "buff = \"…そうだな。私の悪い癖だ、わかってはいる。…さて、\" + cdatan(0, 0) + \"といったな、\""
+  },
+  {
+    "id": "exhelp.1.line.1",
+    "source_ja": "家を出る前にまずは簡単なヒント。",
+    "source": "",
+    "target": "집을 나서기 전에 간단한 요령부터 알려 줄게.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:7"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 1,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.1.line.2",
+    "source_ja": "アイテムには<emp1>重さ<def>があり、持ちすぎると行動速度が遅くなってしまう。家に置いたアイテムは安全に保管されるので、時々荷下ろしをした方がいいよ。",
+    "source": "",
+    "target": "아이템에는 <emp1>무게<def>가 있어서 너무 많이 들고 다니면 행동이 느려져. 집에 내려놓은 아이템은 안전하게 보관되니까 가끔 짐을 내려놓는 게 좋아.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:8"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 1,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.1.line.4",
+    "source_ja": "また、難しい魔法書を読むと、予期しないアクシデントが起こることもあるから、魔法書を家の中で読むのはやめておこう。",
+    "source": "",
+    "target": "또 어려운 마법서를 읽다가 뜻밖의 사고가 생길 수도 있으니, 집 안에서는 마법서를 읽지 않는 게 좋아.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:10"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 1,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.1.line.5",
+    "source_ja": "他にも、野菜やハーブを栽培したり、詠唱の練習をしたり、色々と活用できる。",
+    "source": "",
+    "target": "그 밖에도 채소나 허브를 기르고, 주문 시전을 연습하는 등 집을 여러모로 활용할 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:11"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 1,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.1",
+    "source_ja": "君が今いる場所は<emp1>ワールドマップ<def>だ。ワールドマップでは、時間は数十倍の速度で進み、一部のアイテムや魔法などを使うことができない。",
+    "source": "",
+    "target": "지금 네가 있는 곳은 <emp1>세계 지도<def>야. 세계 지도에서는 시간이 수십 배 빠르게 흐르고, 일부 아이템이나 주문을 사용할 수 없어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:39"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.2",
+    "source_ja": "アイテムを使いたいときは<emp2>スペースキー<def>を押すと、いつでも<emp1>ローカルマップ<def>に入ることができるよ。",
+    "source": "",
+    "target": "아이템을 쓰고 싶다면 <emp2>스페이스 키<def>를 눌러 봐. 언제든 <emp1>지역 지도<def>로 들어갈 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:40"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.4",
+    "source_ja": "そうそう、<emp2>スペースキー<def>はとても便利なキーだよ。足元の物を判断して、適切なキーを選んでくれるんだ。",
+    "source": "",
+    "target": "참, <emp2>스페이스 키<def>는 아주 편리한 키야. 발밑에 무엇이 있는지 판단해서 알맞은 행동을 골라 주거든.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:42"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.5",
+    "source_ja": "キーが思い出せなかったり、何の動作をすればいいか判らないときは、<emp2>スペースキー<def>を押してみよう。",
+    "source": "",
+    "target": "단축키가 생각나지 않거나 무엇을 해야 할지 모르겠다면 <emp2>스페이스 키<def>를 눌러 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:43"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.7",
+    "source_ja": "ワールドマップやその他のことについてわからないことがあれば、<emp2>ヘルプキー<def>を押せば、いつでも<emp1>ヘルプを読む<def>ことができる。",
+    "source": "",
+    "target": "세계 지도든 다른 것이든 궁금한 게 있다면 <emp2>도움말 키<def>를 눌러 언제든 <emp1>도움말을 읽을<def> 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:45"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 3,
+    "block_line": 7,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.8",
+    "source_ja": "ボクのアドバイスも、だいたいは<emp1>ヘルプ<def>にのっているんだ。だけど、重要なことは繰り返し確認して、きちんと覚えないとね。",
+    "source": "",
+    "target": "내가 해 주는 조언도 대부분 <emp1>도움말<def>에 나와 있어. 그래도 중요한 건 되풀이해서 확인하고 제대로 기억해 둬야겠지.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:46"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 3,
+    "block_line": 8,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.10",
+    "source_ja": "まだ駆け出しの君は、ワールドマップでは<emp1>街道<def>を歩いたほうがいい。",
+    "source": "",
+    "target": "아직 초보 모험가인 너는 세계 지도에서 <emp1>도로<def>를 따라 다니는 게 좋아.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:48"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 4,
+    "block_line": 10,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.2.line.11",
+    "source_ja": "街道では遭遇する敵も弱いし、その機会も少ないんだ。たまに行商人と出会うこともあるけど、彼らの売り物は高いから、まだまだ無縁だね。",
+    "source": "",
+    "target": "도로에서는 적과 마주칠 일도 적고, 나타나는 적도 약하거든. 가끔 행상인을 만날 수도 있지만 물건값이 비싸니까 아직은 너와 인연이 없겠네.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:49"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 2,
+    "page": 4,
+    "block_line": 11,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.3.line.1",
+    "source_ja": "街だー！人の往来で辺りに活気があるね。",
+    "source": "",
+    "target": "마을이다! 오가는 사람들 덕분에 활기가 넘치네.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:74"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 3,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.3.line.2",
+    "source_ja": "街にいる人は<emp1>こちらから攻撃しない限り<def>襲ってこないから安心だよ。",
+    "source": "",
+    "target": "마을 사람들은 <emp1>네가 먼저 공격하지 않는 한<def> 덤벼들지 않으니 안심해도 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:75"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 3,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.3.line.4",
+    "source_ja": "アイテムの売買、訓練、交易、賭博、依頼、回復、街には色々なサービスが揃っている。",
+    "source": "",
+    "target": "아이템 매매, 훈련, 교역, 도박, 의뢰, 회복까지, 마을에는 다양한 시설과 서비스가 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:77"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 3,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.3.line.5",
+    "source_ja": "それぞれどんな役割を持つかは、冒険を進めながらゆっくり覚えていけばいい。なにしろ、君はまだサービスを受けるお金さえもっていないんだからね。",
+    "source": "",
+    "target": "각각 무슨 일을 하는지는 모험하면서 천천히 익히면 돼. 어차피 지금은 이용할 돈조차 없잖아.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:78"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 3,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.3.line.7",
+    "source_ja": "もしお金や装備が必要なら、<emp1>依頼掲示板<def>を覗いて見るといいよ。でっかい掲示板だから、すぐにわかるさ。",
+    "source": "",
+    "target": "돈이나 장비가 필요하다면 <emp1>의뢰 게시판<def>을 살펴봐. 커다란 게시판이라 금방 찾을 수 있을 거야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:80"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 3,
+    "page": 3,
+    "block_line": 7,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.4.line.1",
+    "source_ja": "この掲示板には、街の人々からの依頼が掲載されているんだ。",
+    "source": "",
+    "target": "이 게시판에는 마을 사람들이 맡긴 의뢰가 올라와 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:99"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 4,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.4.line.2",
+    "source_ja": "依頼を受けるときは、依頼の内容と報酬をよく確認してからにしよう。",
+    "source": "",
+    "target": "의뢰를 받기 전에 내용과 보상을 꼼꼼히 확인해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:100"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 4,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.4.line.4",
+    "source_ja": "依頼の★マークと左の数値は、<emp1>依頼の難易度<def>を表しているよ。",
+    "source": "",
+    "target": "의뢰의 ★ 표시와 왼쪽 숫자는 <emp1>의뢰의 난이도<def>를 나타내.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:102"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 4,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.4.line.5",
+    "source_ja": "依頼の難易度は、だいたい<emp1>君のレベルと同じもの<def>を選ぶといい。もし、難易度が高いものしかなかったら、日数が経ってから覗くと、また違う依頼が掲載されているはずだ。",
+    "source": "",
+    "target": "난이도가 대략 <emp1>네 레벨과 비슷한 의뢰<def>를 고르면 돼. 너무 어려운 것만 있다면 며칠 뒤에 다시 살펴봐. 다른 의뢰가 올라와 있을 거야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:103"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 4,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.5.line.1",
+    "source_ja": "君が立っている場所は、<emp1>採取スポット<def>だ。",
+    "source": "",
+    "target": "네가 서 있는 곳은 <emp1>채집 지점<def>이야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:120"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 5,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.5.line.2",
+    "source_ja": "<emp1>採取スポット<def>では、<emp2>スペースキー<def>を押すことで、探索や採取ができるよ。",
+    "source": "",
+    "target": "<emp1>채집 지점<def>에서는 <emp2>스페이스 키<def>를 눌러 탐색하거나 채집할 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:121"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 5,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.5.line.4",
+    "source_ja": "探索で主に得られるのは<emp1>マテリアル<def>と呼ばれる物質だ。",
+    "source": "",
+    "target": "탐색하면 주로 <emp1>재료<def>라고 부르는 물질을 얻을 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:123"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 5,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.5.line.5",
+    "source_ja": "<emp1>マテリアル<def>はアイテムの生産や、カジノやガシャポンに使用できる。幾らでも持てるので、後々のためにもこまめに採取スポットを探索しておこう。",
+    "source": "",
+    "target": "<emp1>재료<def>는 아이템 제작이나 카지노, 캡슐 뽑기에 쓸 수 있어. 얼마든지 가지고 다닐 수 있으니 나중을 위해 틈틈이 채집 지점을 탐색해 둬.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:124"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 5,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.5.line.6",
+    "source_ja": "採取を行うことで、対応するスキルにも経験値が入るんだ。",
+    "source": "",
+    "target": "채집하면 그에 해당하는 기술의 경험치도 쌓여.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:125"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 5,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.6.line.1",
+    "source_ja": "君が今いる場所には、<emp1>ランダムエリア<def>がある。",
+    "source": "",
+    "target": "지금 네가 있는 곳에는 <emp1>무작위 지역<def>이 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:145"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 6,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.6.line.2",
+    "source_ja": "<emp1>ランダムエリア<def>に入るときは、<emp1>危険度<def>に注意しよう。<emp1>危険度<def>は、○階相当で表示されるよ。○階が自分のレベルより高い所は危険だと考えていい。",
+    "source": "",
+    "target": "<emp1>무작위 지역<def>에 들어갈 때는 <emp1>위험도<def>를 살펴봐. <emp1>위험도<def>는 몇 층에 해당하는지로 표시돼. 그 층수가 네 레벨보다 높다면 위험한 곳이라고 생각하면 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:146"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 6,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.6.line.4",
+    "source_ja": "エリアの最深部には主がいて、倒すと褒章がもらえるんだ。もちろん簡単にはいかないけど、慣れてくれば腕を磨くにはもってこいの場所だよ。",
+    "source": "",
+    "target": "가장 깊은 곳에는 그 지역의 주인이 있어. 쓰러뜨리면 보상을 받을 수 있지. 물론 쉽지는 않겠지만 익숙해지면 실력을 기르기에 아주 좋은 곳이야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:148"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 6,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.7.line.1",
+    "source_ja": "宿屋では食事をとることができるよ。最初のうちは宿屋で食事をとるのは金銭的につらいかもね。あまりお腹は膨れないけれど、簡単な食料は野外でも拾えるから探してみるといいかもね。",
+    "source": "",
+    "target": "여관에서는 식사를 할 수 있어. 초반에는 여관에서 매번 밥을 사 먹기가 부담스러울지도 몰라. 별로 배가 차지는 않겠지만 야외에서도 간단한 먹거리를 주울 수 있으니 찾아보는 것도 좋겠네.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:167"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 7,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.7.line.3",
+    "source_ja": "悪天候やエーテル風の時には、<emp1>シェルター<def>を無料で開放しているよ。遠慮なく利用しよう。",
+    "source": "",
+    "target": "날씨가 나쁘거나 에테르 바람이 불면 <emp1>대피소<def>를 무료로 개방해. 사양하지 말고 이용해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:169"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 7,
+    "page": 2,
+    "block_line": 3,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.8.line.1",
+    "source_ja": "トレイナーからは、新しいスキルを学んだり、知っているスキルを鍛えたりできる。",
+    "source": "",
+    "target": "훈련사에게는 새로운 기술을 배우거나 이미 아는 기술을 훈련할 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:187"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 8,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.8.line.2",
+    "source_ja": "訓練を受けるには<emp1>プラチナ硬貨<def>が必要だよ。<emp1>プラチナ硬貨<def>はなかなか手に入らないから、どのスキルを学んで鍛えるか、十分に考えてね。",
+    "source": "",
+    "target": "훈련을 받으려면 <emp1>백금화<def>가 필요해. <emp1>백금화<def>는 구하기 어려우니 어떤 기술을 배우고 훈련할지 신중하게 생각해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:188"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 8,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.9.line.1",
+    "source_ja": "おや、眠そうな顔だね。",
+    "source": "",
+    "target": "어라, 졸려 보이네.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:206"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 9,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.9.line.2",
+    "source_ja": "君はもちろん、<emp1>定期的に睡眠をとる必要がある。<def>画面の左下に<emp1>睡眠可<def>という表示がある時は、特に眠らなくても影響はないけど、いつでも寝ようと思えば眠れる状態だ。",
+    "source": "",
+    "target": "당연히 너도 <emp1>주기적으로 잠을 자야 해.<def> 화면 왼쪽 아래에 <emp1>수면 가능<def>이라고 표시될 때는 아직 자지 않아도 불이익은 없어. 다만 원한다면 언제든 잠들 수 있는 상태라는 뜻이지.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:207"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 9,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.9.line.4",
+    "source_ja": "表示が<emp1>要睡眠<def>に変わったら、できるだけ早く休んだほうがいい。そうしないと、どんどん疲労はたまるし、<emp1>体力やマナの回復も止まって<def>しまうんだ。",
+    "source": "",
+    "target": "표시가 <emp1>수면 필요<def>로 바뀌면 되도록 빨리 쉬는 게 좋아. 그렇지 않으면 피로가 계속 쌓이고 <emp1>체력과 마나도 회복되지 않아.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:209"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 9,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.9.line.5",
+    "source_ja": "眠りたい時は、ベッドや寝袋を<emp2>使用(スペースキー)<def>すればいい。とても眠い時には、<emp2>休息(Rキー)<def>をとると勝手に寝込んじゃうこともある。",
+    "source": "",
+    "target": "잠을 자려면 침대나 침낭을 <emp2>사용(스페이스 키)<def>하면 돼. 아주 졸릴 때는 <emp2>휴식(R 키)<def>을 취하다가 저절로 잠들기도 해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:210"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 9,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.9.line.7",
+    "source_ja": "睡眠をとると、それまでに獲得した経験値に基いて、僅かだけど<emp1>主能力の潜在能力が上昇<def>するよ。",
+    "source": "",
+    "target": "잠을 자면 그때까지 쌓은 경험치에 따라 조금씩 <emp1>주요 능력치의 잠재력이 올라가.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:212"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 9,
+    "page": 3,
+    "block_line": 7,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.9.line.8",
+    "source_ja": "それ以外にも、睡眠中には色んなことが起こるんだ。ただし、ちゃんと寝具を使って寝ないと、良い効果は半減しちゃうかもね。",
+    "source": "",
+    "target": "그 밖에도 자는 동안 여러 가지 일이 생겨. 하지만 제대로 된 침구를 사용하지 않으면 좋은 효과가 반으로 줄어들지도 몰라.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:213"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 9,
+    "page": 3,
+    "block_line": 8,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.10.line.1",
+    "source_ja": "お腹が減ってきたかい？",
+    "source": "",
+    "target": "슬슬 배가 고프니?",
+    "source_ref": [
+      "2.335:data/exhelp.txt:233"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 10,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.10.line.2",
+    "source_ja": "食料の確保はとても重要だよ。君は長い間食事をとらないと、次第に弱っていき、終いには<emp1>餓死<def>してしまう。そうならないためにも、食料を蓄えてお腹が減ったら食事をとろう。",
+    "source": "",
+    "target": "먹을 것을 확보하는 건 아주 중요해. 오랫동안 먹지 않으면 점점 쇠약해지다가 결국 <emp1>굶어 죽고 말아.<def> 그러지 않도록 식량을 챙겨 두고 배가 고프면 밥을 먹어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:234"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 10,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.10.line.4",
+    "source_ja": "食べ物の種類によって、君の能力値が少し鍛えられる。ほとんどの場合それはほんのちょっとだけど、塵も積もればなんとやら。",
+    "source": "",
+    "target": "먹는 음식의 종류에 따라 능력치가 조금씩 단련돼. 대부분은 아주 조금이지만 티끌 모아 태산이라잖아.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:236"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 10,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.10.line.5",
+    "source_ja": "倒した生物の肉を食べることもできる。中には能力値を大幅に鍛えたり、耐性を得られたりするものもあるけど、その逆の効果をもつものもあるから、注意して食べよう。",
+    "source": "",
+    "target": "쓰러뜨린 생물의 고기도 먹을 수 있어. 어떤 고기는 능력치를 크게 높이거나 저항력을 주기도 하지만, 반대 효과가 있는 것도 있으니 조심해서 먹어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:237"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 10,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.11.line.1",
+    "source_ja": "ひえー…どしゃぶりだ！",
+    "source": "",
+    "target": "으아… 비가 쏟아진다!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:259"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 11,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.11.line.2",
+    "source_ja": "こんなに天気が悪い時に外に出るのは賢明じゃないね。雨の時にはワールドマップの移動に通常よりも時間がかかるよ。",
+    "source": "",
+    "target": "이렇게 날씨가 나쁠 때 밖으로 나가는 건 현명하지 못해. 비가 오면 세계 지도에서 이동하는 데 평소보다 오래 걸려.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:260"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 11,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.11.line.4",
+    "source_ja": "雷雨の時なんかはアクシデントも起こるから、目的地に着くまで倍以上時間がかかるかもしれない。道に迷ってしまうこともあるんだ。",
+    "source": "",
+    "target": "뇌우가 칠 때는 뜻밖의 사고도 생기니 목적지에 도착하는 데 두 배 이상 걸릴지도 몰라. 길을 잃어버릴 때도 있거든.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:262"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 11,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.11.line.5",
+    "source_ja": "食料が少ないときや、依頼の期限が迫っている時は、天候にも十分注意しよう。",
+    "source": "",
+    "target": "식량이 부족하거나 의뢰 기한이 얼마 남지 않았다면 날씨에도 주의를 기울여야 해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:263"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 11,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.11.line.7",
+    "source_ja": "そうそう、悪天候の時は、<emp1>街の宿屋の主に話しかければシェルターに移動できるよ。<def>上手く利用するといいね。",
+    "source": "",
+    "target": "참, 날씨가 나쁠 때는 <emp1>마을의 여관 주인에게 말을 걸면 대피소로 갈 수 있어.<def> 잘 활용해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:265"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 11,
+    "page": 3,
+    "block_line": 7,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.12.line.1",
+    "source_ja": "雪だよー！",
+    "source": "",
+    "target": "눈이다!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:282"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.12.line.2",
+    "source_ja": "旅人にとって雪は厄介な代物だね。深い雪に覆われた場所を進むのは大変だ。雪がふっている間は、ワールドマップの移動にもの凄く時間がかかるよ。",
+    "source": "",
+    "target": "여행자에게 눈은 참 성가신 존재야. 눈이 깊이 쌓인 곳을 지나기는 힘들지. 눈이 오는 동안에는 세계 지도에서 이동하는 데 엄청나게 오래 걸려.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:283"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.12.line.4",
+    "source_ja": "幸い、ノースティリスでは降雪が長く続くことはそんなにない。雪が降り出したら、止むまでのんびり待つといいかもしれないね。",
+    "source": "",
+    "target": "다행히 북부 티리스에서는 눈이 오래 내리는 일이 드물어. 눈이 내리기 시작하면 그칠 때까지 느긋하게 기다려도 좋겠네.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:285"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 12,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.12.line.5",
+    "source_ja": "ただし、配達などの依頼を受けているときは、期限に注意しよう。",
+    "source": "",
+    "target": "다만 배달 같은 의뢰를 맡았다면 기한을 잊지 마.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:286"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 12,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.12.line.7",
+    "source_ja": "そうそう、悪天候の時は、<emp1>街の宿屋の主に話しかければシェルターに移動できるよ。<def>上手く利用するといいね。",
+    "source": "",
+    "target": "참, 날씨가 나쁠 때는 <emp1>마을의 여관 주인에게 말을 걸면 대피소로 갈 수 있어.<def> 잘 활용해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:288"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 12,
+    "page": 3,
+    "block_line": 7,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.13.line.1",
+    "source_ja": "エーテルの風だ…",
+    "source": "",
+    "target": "에테르 바람이야…",
+    "source_ref": [
+      "2.335:data/exhelp.txt:315"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.13.line.2",
+    "source_ja": "この風はとても厄介な影響を及ぼすんだ。風にさらされると一定の確率で<emp1>突然変異してしまう<def>し、何より<emp1>エーテル病の侵食が早まってしまう。<def>街道以外の野外では、変異した危険なモンスターに遭遇する確率も高まるんだ。",
+    "source": "",
+    "target": "이 바람은 아주 성가신 영향을 끼쳐. 바람을 맞으면 일정 확률로 <emp1>돌연변이가 일어나고<def>, 무엇보다 <emp1>에테르병의 진행이 빨라져.<def> 도로를 벗어난 야외에서는 변이한 위험한 몬스터와 마주칠 확률도 높아져.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:316"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.13.line.4",
+    "source_ja": "ただし、エーテルの風が吹く時期は決まっているから、回避するのは難しくない。<emp1>風は3の倍数の月の1日から10日の間に吹くんだ。<def>絶対に覚えておいた方がいいよ！",
+    "source": "",
+    "target": "하지만 에테르 바람이 부는 시기는 정해져 있으니 피하기는 어렵지 않아. <emp1>3의 배수인 달의 1일부터 10일 사이에 불어.<def> 꼭 기억해 둬!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:318"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 13,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.13.line.6",
+    "source_ja": "他の悪天候とは違い、エーテルの風が吹いているときはワールドマップで通常より速く移動できる。変異や病の侵食を抑える手段さえあれば、風を有効利用できるかもね。",
+    "source": "",
+    "target": "다른 궂은 날씨와 달리 에테르 바람이 불 때는 세계 지도에서 평소보다 빨리 이동할 수 있어. 변이와 에테르병의 진행을 막을 방법만 있다면 이 바람도 유용하게 쓸 수 있겠지.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:320"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 13,
+    "page": 3,
+    "block_line": 6,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.13.line.8",
+    "source_ja": "そうそう、悪天候の時は、<emp1>街の宿屋の主に話しかければシェルターに移動できるよ。<def>上手く利用するといいね。",
+    "source": "",
+    "target": "참, 날씨가 나쁠 때는 <emp1>마을의 여관 주인에게 말을 걸면 대피소로 갈 수 있어.<def> 잘 활용해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:322"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 13,
+    "page": 4,
+    "block_line": 8,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.14.line.1",
+    "source_ja": "シェルターについて少し説明するね。",
+    "source": "",
+    "target": "대피소에 관해 조금 설명해 줄게.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:355"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 14,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.14.line.2",
+    "source_ja": "シェルターは、エーテルの風や雷雨などの悪天候から避難するための施設なんだ。",
+    "source": "",
+    "target": "대피소는 에테르 바람이나 뇌우 같은 궂은 날씨를 피하기 위한 시설이야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:356"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 14,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.14.line.4",
+    "source_ja": "シェルター内では、<emp1>外が悪天候の時に限り<def>、時間が通常の数十倍の速さで進み、食事を自動的に取るよ。",
+    "source": "",
+    "target": "대피소 안에서는 <emp1>밖의 날씨가 나쁠 때에만<def> 시간이 평소보다 수십 배 빠르게 흐르고, 자동으로 식사를 하게 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:358"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 14,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.14.line.5",
+    "source_ja": "天候が回復したら、時間は通常通り進みだし、食事も供給されないから注意しよう。",
+    "source": "",
+    "target": "날씨가 좋아지면 시간도 평소처럼 흐르고 식사도 더는 제공되지 않으니 주의해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:359"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 14,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.15.line.1",
+    "source_ja": "君もとうとう病におかされてしまったか…",
+    "source": "",
+    "target": "결국 너도 병에 걸리고 말았구나…",
+    "source_ref": [
+      "2.335:data/exhelp.txt:381"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 15,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.15.line.2",
+    "source_ja": "驚くことはない。何もしないでも、エーテルの侵食は時間と供に緩やかに進んでいくんだ。君の症状はまだまだ無視してかまわない程度だけど、病気を放っておくと、症状はどんどん悪化していってしまう。",
+    "source": "",
+    "target": "놀랄 건 없어. 아무것도 하지 않아도 시간이 흐르면 에테르는 조금씩 몸을 침식하거든. 지금 네 증상은 무시해도 될 만큼 가볍지만 내버려 두면 점점 더 나빠질 거야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:382"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 15,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.15.line.4",
+    "source_ja": "病は２０段階に分かれ進行するよ。段階ごとに新たな症状が発症して、最後には命を奪ってしまうんだ…病を遅らせる何らかの方法を見つけなくてはね。",
+    "source": "",
+    "target": "에테르병은 20단계에 걸쳐 진행돼. 단계가 바뀔 때마다 새로운 증상이 나타나고, 끝내 목숨을 앗아 가지… 진행을 늦출 방법을 찾아야겠지.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:384"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 15,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.15.line.6",
+    "source_ja": "心配しないでも大丈夫。時間はたっぷりあるさ。ただ、<emp1>エーテルの風<def>にだけは、気をつけなければいけないよ。あの風は、エーテルの侵食を急激な速度で進めてしまうから。",
+    "source": "",
+    "target": "너무 걱정하지 않아도 돼. 시간은 충분하니까. 다만 <emp1>에테르 바람<def>만은 꼭 조심해야 해. 그 바람을 맞으면 에테르의 침식이 급격히 빨라지거든.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:386"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 15,
+    "page": 3,
+    "block_line": 6,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.15.line.8",
+    "source_ja": "エーテルの風が吹いた時は、すぐに屋内に避難すればいい。<emp1>各街には無料のシェルターがあり、宿屋の主人に話しかければ中に入れてもらえるよ。<def>覚えておこう。",
+    "source": "",
+    "target": "에테르 바람이 불면 바로 실내로 피하면 돼. <emp1>마을마다 무료 대피소가 있으니 여관 주인에게 말을 걸면 들여보내 줄 거야.<def> 기억해 둬.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:388"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 15,
+    "page": 4,
+    "block_line": 8,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.16.line.1",
+    "source_ja": "待ちに待った給料日♪",
+    "source": "",
+    "target": "기다리고 기다리던 급료일♪",
+    "source_ref": [
+      "2.335:data/exhelp.txt:414"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 16,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.16.line.2",
+    "source_ja": "毎月1日と15日は給料日だ。ランクや名声に応じて、給料や支給品をもらえるよ。",
+    "source": "",
+    "target": "매달 1일과 15일은 급료일이야. 등급과 명성에 따라 급료와 보급품을 받을 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:415"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 16,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.16.line.4",
+    "source_ja": "給料は家の給料箱にふりこまれ、給料箱を開けることで獲得できる。ランクや、だいたいの給料の目安を知りたいときは、ジャーナルを確認しよう。",
+    "source": "",
+    "target": "급료는 집의 급료 상자에 들어와. 상자를 열면 받을 수 있지. 자신의 등급이나 급료가 대략 얼마나 되는지 알고 싶다면 일지를 확인해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:417"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 16,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.16.line.6",
+    "source_ja": "給料のほかに、毎月1日には<emp1>請求書<def>が送られてくるよ。請求書は、パルミアのすぐ北にある建物の中の納税箱に収めることができる。すぐに払う必要はないけど、4ヶ月も5ヶ月も滞納すると、犯罪者になってしまうから気をつけよう。",
+    "source": "",
+    "target": "급료와 별개로 매달 1일에는 <emp1>청구서<def>도 도착해. 청구서는 팔미아 바로 북쪽 건물 안에 있는 납세함에 넣어 납부할 수 있어. 당장 낼 필요는 없지만 4개월, 5개월씩 밀리면 범죄자가 되고 마니 조심해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:419"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 16,
+    "page": 3,
+    "block_line": 6,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.17.line.1",
+    "source_ja": "ぉお～ゲートだ…",
+    "source": "",
+    "target": "오오~ 게이트다…",
+    "source_ref": [
+      "2.335:data/exhelp.txt:443"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 17,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.17.line.2",
+    "source_ja": "ゲートは他の冒険者、大抵は経験を積んだ魔法使いが、移動のために召喚するんだ。ゲートが閉じるまでには時間がかかるから、後を追おうと思えばいつでも行けるんだけど…",
+    "source": "",
+    "target": "게이트는 다른 모험가, 대개는 숙련된 마법사가 이동하려고 소환하는 거야. 닫히기까지 시간이 좀 걸리니 따라가려면 언제든 갈 수 있지만…",
+    "source_ref": [
+      "2.335:data/exhelp.txt:444"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 17,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.17.line.4",
+    "source_ja": "でもね、たまによくない噂を聞くんだ。ふらっと飛び込んだ先が<emp1>火の海<def>だったり、かわいい子のお尻を追いかけていったら、ごろつきが<emp1>ゲートを取り囲んで待ち伏せていたり<def>、果ては辺境の地に飛ばされて<emp1>二度と帰って来れなくなったり。<def>",
+    "source": "",
+    "target": "그런데 가끔 안 좋은 소문도 들려. 무심코 뛰어들었더니 <emp1>불바다<def>였다거나, 귀여운 사람의 꽁무니를 따라갔더니 불량배들이 <emp1>게이트를 에워싸고 매복해 있었다거나<def>. 심지어 변방으로 날아가 <emp1>두 번 다시 돌아오지 못했다거나.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:446"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 17,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.17.line.6",
+    "source_ja": "ふふ、なんてね。おどかしてごめんごめん！悪い人なんてめったにいないから、暇ができたら覗いてみるのもいいかもね。",
+    "source": "",
+    "target": "후후, 농담이야. 겁줘서 미안, 미안! 나쁜 사람은 좀처럼 없으니 한가할 때 한번 들여다봐도 좋겠네.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:448"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 17,
+    "page": 3,
+    "block_line": 6,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.18.line.1",
+    "source_ja": "フィーバー！！",
+    "source": "",
+    "target": "열광이다!!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:462"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.18.line.2",
+    "source_ja": "ランダムネフィアは3の倍数じゃない月の15日から月末までの間に熱狂状態になるんだ。<emp1>固定ネフィアには効果がない<emp1>から気をつけて。熱狂状態では<emp1>レベルの高いアイテムやマテリアル採取スポットが出やすくなるよ。<def>",
+    "source": "",
+    "target": "무작위 네피아는 3의 배수가 아닌 달의 15일부터 월말 사이에 열광 상태가 돼. <emp1>고정 네피아에는 효과가 없으니<emp1> 주의해. 열광 상태에서는 <emp1>레벨이 높은 아이템이나 재료 채집 지점이 잘 나타나.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:463"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.18.line.4",
+    "source_ja": "アイテムを集めるのに役立つから、時計に赤い火が灯ったらネフィアに行ってみよう。<emp1>熱狂状態は4、5日で終わっちゃう<def>から、挑戦するネフィアを探してうろうろし過ぎないようにね。",
+    "source": "",
+    "target": "아이템을 모으기에 좋으니 시계에 붉은 불이 켜지면 네피아로 가 봐. <emp1>열광 상태는 4~5일이면 끝나니까<def> 도전할 네피아를 찾느라 너무 오래 돌아다니지는 마.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:465"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 18,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.18.line.6",
+    "source_ja": "ああ、熱狂状態でもネフィアにいるモンスターの強さは変わらないよ。安心だね。",
+    "source": "",
+    "target": "아, 열광 상태라고 해서 네피아의 몬스터가 강해지지는 않아. 안심해도 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:467"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": false,
+    "block_id": 18,
+    "page": 3,
+    "block_line": 6,
+    "review_reason": "일본어 도움말 전체를 독자 번역. EN은 페이지·행 분할과 내용이 달라 자동 alias를 만들지 않음. 강조 태그와 원문 페이지 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt JP; EN cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.title",
+    "source_ja": "- ノルンの冒険ガイド -",
+    "source": "- Norne's travel guide -",
+    "target": "- 노른의 모험 안내 -",
+    "source_ref": [
+      "2.335:start.hsp:603469"
+    ],
+    "speaker": "UI",
+    "match_kind": "exact",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "review_reason": "외부 도움말 제목의 static lang 호출을 확인한 독자 번역.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  }
+]

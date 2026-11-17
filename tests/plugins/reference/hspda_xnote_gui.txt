@@ -1,0 +1,13 @@
+# Observed bundled hspda.dll xnote in HSP 3.4 hsp3.exe, run plugins-claude-07
+xnote sel1 0 -
+xnote add1 0 73776f72640d0a
+xnote add2 1 73776f72640d0a736869656c640d0a
+xnote add3 0 73776f72640d0a736869656c640d0a
+xnote add4 2 73776f72640d0a736869656c640d0a0d0a
+xnote add5 2 73776f72640d0a736869656c640d0a0d0a
+xnote sel2 0 610a62
+xnote add6 0 610a62630d0a
+xnote add7 0 67616d650d0a
+xnote add8 0 67616d650d0a
+xnote sel3 1 -
+end

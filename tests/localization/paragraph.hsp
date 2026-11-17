@@ -1,0 +1,13 @@
+#regcmd 48
+#cmd native_ko_gmes $00
+screen 0, 320, 240
+color 245,240,230 : boxf
+original = "<emp1>Read<def> a spellbook."
+native_ko_gmes original,20,20,84,1,0,0,0
+if stat <= 18 : end 91
+if original != "<emp1>Read<def> a spellbook." : end 92
+notesel original : notesave "user\\vm-paragraph.txt"
+native_ko_gmes "Untranslated paragraph",20,150,200,0,0,0,0
+if stat != -1 : end 93
+await 1
+end 0

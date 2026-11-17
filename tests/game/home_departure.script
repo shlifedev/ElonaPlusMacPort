@@ -1,0 +1,26 @@
+# Input: baseline newgame_english save (Ari at 12,17 in Your Home).
+# Walk through south boundary, finish five goodbye pages. Map autosave is the
+# checkpoint; stop bounded at the home tutorial. Do not use this on player saves.
+320 key A
+420 key A
+700 screenshot shots/loaded.bmp
+740 key DOWN
+760 key DOWN
+780 key RIGHT
+840 key DOWN
+860 key DOWN
+880 key DOWN
+900 key DOWN
+920 key DOWN
+940 key DOWN
+1100 screenshot shots/lomias-goodbye.bmp
+1120 key A
+1220 key A
+1320 key A
+1420 key A
+1520 key A
+1600 screenshot shots/after-goodbye.bmp
+1620 key DOWN
+1660 screenshot shots/exit-prompt.bmp
+1680 key Y
+1800 screenshot shots/home-tutorial.bmp

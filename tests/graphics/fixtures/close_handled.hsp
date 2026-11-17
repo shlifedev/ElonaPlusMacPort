@@ -1,0 +1,6 @@
+onexit goto *close_handler
+repeat
+wait 1
+loop
+*close_handler
+end 23

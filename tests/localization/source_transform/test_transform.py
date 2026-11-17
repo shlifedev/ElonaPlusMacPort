@@ -1,0 +1,81 @@
+"""Verify that the opt-in display transform cannot change unrelated game bytes."""
+import importlib.util
+from pathlib import Path
+import struct
+import tempfile
+import unittest
+from unittest.mock import patch
+
+ROOT = Path(__file__).resolve().parents[3]
+spec = importlib.util.spec_from_file_location("prepare_korean_game", ROOT / "tools/prepare_korean_game.py")
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+
+
+class TransformTests(unittest.TestCase):
+    def fixture(self):
+        # 0x815c contains a CP932 trail backslash. A Unicode round trip is not
+        # needed; the check concerns preservation of every opaque source byte.
+        return b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + b"\treturn\r\n"
+
+    def transform_fixture(self, data):
+        with patch.object(module, "SOURCE_SHA256", module.digest(data)):
+            return module.transform(data)
+
+    def test_removing_inserted_spans_recovers_every_original_byte(self):
+        source = self.fixture()
+        output, changes = self.transform_fixture(source)
+        body = output[len(module.DECLARATIONS):]
+        offset = changes[1]["input_byte_offset"]
+        self.assertEqual(body[:offset] + body[offset + len(module.HOOK):], source)
+        self.assertEqual(output.count(b"native_ko_gmes"), 2)
+        self.assertIn(b"\t\treturn 0\r\n", output)
+
+    def test_unknown_source_hash_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, "SHA-256"):
+            module.transform(self.fixture())
+
+    def test_missing_duplicate_or_changed_anchor_is_rejected(self):
+        for source in (b"no function", self.fixture() + module.ANCHOR,
+                       self.fixture().replace(b'\tm@m111 = ""', b'\tm@m111 = "changed"')):
+            with self.subTest(source=source), self.assertRaisesRegex(ValueError, "anchor"):
+                self.transform_fixture(source)
+
+    def test_existing_native_declaration_is_rejected(self):
+        for declaration in (b"#regcmd 49\r\n", b"native_ko_gmes\r\n"):
+            with self.assertRaisesRegex(ValueError, "already declares"):
+                self.transform_fixture(declaration + self.fixture())
+
+    def test_output_cannot_escape_work_or_overwrite_existing(self):
+        with self.assertRaisesRegex(ValueError, "below work"):
+            module.check_output_path(ROOT / "localization/generated-game")
+        with self.assertRaisesRegex(ValueError, "already exists"):
+            module.check_output_path(ROOT / "work/localization")
+
+    def test_output_symlink_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            link = Path(tmp) / "link"
+            link.symlink_to(ROOT / "work", target_is_directory=True)
+            with self.assertRaisesRegex(ValueError, "symlinks"):
+                module.check_output_path(link / "new")
+
+    @staticmethod
+    def object(code):
+        header = bytearray(112)
+        struct.pack_into("<4s5I", header, 0, b"HSP3", 0x360, 0, 112 + len(code), 112, len(code))
+        return bytes(header) + code
+
+    def test_counts_opcode_tokens_not_byte_patterns_in_values(self):
+        code = bytes((48, 0x20, 0, 0, 4, 0x80, 48, 0, 0, 0, 11, 0x20, 0, 0, 2, 0))
+        result = module.command_counts(self.object(code))
+        self.assertEqual(result["type48_commands"], {"0": 1})
+        self.assertEqual(result["total_tokens"], 3)
+
+    def test_truncated_or_bad_token_stream_is_rejected(self):
+        for code in (bytes((48, 0x80, 0, 0)), bytes((48, 1, 0, 0)), bytes((11, 0x20, 0, 0))):
+            with self.subTest(code=code), self.assertRaises(ValueError):
+                module.command_counts(self.object(code))
+
+
+if __name__ == "__main__":
+    unittest.main()

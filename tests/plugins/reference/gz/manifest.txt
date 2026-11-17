@@ -1,0 +1,12 @@
+orig_0.gz 0 p
+orig_1.gz 1 p
+orig_4.gz 4 p
+orig_16384.gz 16384 p
+orig_16385.gz 16385 p
+orig_100000.gz 100000 p
+orig_whole_100000.gz 100000 p
+lv_0.gz 5000 p
+lv_1.gz 5000 p
+lv_2.gz 5000 p
+lv_3.gz 5000 p
+orig_rand_100000.gz 100000 r

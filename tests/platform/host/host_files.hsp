@@ -1,0 +1,42 @@
+; elona_gui_host --game regression: file commands through GameFileSystem with
+; non-ASCII native roots. Results go to user\host_result.txt (mes is not stdout).
+exedir = dirinfo(1) + "\\"
+sdim r, 4096
+r = "root=" + exedir + "\n"
+exist exedir + "original\\config.txt" : r += "exist_original=" + strsize + "\n"
+exist exedir + "config.txt" : r += "config_before=" + strsize + "\n"
+bcopy exedir + "original\\config.txt", exedir + "config.txt"
+exist exedir + "config.txt" : r += "config_after=" + strsize + "\n"
+bcopy exedir + "original\\export.txt", exedir + "user\\export.txt"
+exist exedir + "user\\export.txt" : r += "user_export=" + strsize + "\n"
+bcopy exedir + "original\\face1.bmp", exedir + "user\\graphic\\face1.bmp"
+exist exedir + "user\\graphic\\face1.bmp" : r += "face=" + strsize + "\n"
+dim a, 4
+a = 0, -1, 0x80000000, 0x12345678
+bsave exedir + "save\\int.s1", a
+dim b, 4
+bload exedir + "save\\int.s1", b
+r += "ints=" + b(0) + "," + b(1) + "," + b(2) + "," + b(3) + "\n"
+sdim t, 64
+t = "表ソA"
+notesel t
+notesave exedir + "user\\表.txt"
+sdim u, 64
+notesel u
+noteload exedir + "user\\表.txt"
+r += "note=" + u + " len=" + strlen(u) + "\n"
+sdim s, 1024
+dirlist s, exedir + "user\\*.txt"
+r += "dirlist_txt=" + stat + "\n" + s
+delete exedir + "user\\lastwords.txt"
+exist exedir + "user\\lastwords.txt" : r += "deleted=" + strsize + "\n"
+mkdir exedir + "save\\p1"
+dirlist s, exedir + "save\\*", 5
+r += "dirs=" + stat + " " + s
+buffer 2, 4, 4
+picload exedir + "graphic\\表.bmp", 1
+pget 1, 1
+r += "picload=" + ginfo(16) + "," + ginfo(17) + "," + ginfo(18) + "\n"
+notesel r
+notesave exedir + "user\\host_result.txt"
+end 7

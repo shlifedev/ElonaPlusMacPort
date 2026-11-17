@@ -1,0 +1,18 @@
+; Observation variant of tests/gui/color_key.hsp (gmode 2, black is transparent).
+screen 0,16,16
+redraw 0
+buffer 1,16,16
+color 0,0,0
+boxf 0,0,15,15
+color 255,0,0
+boxf 0,0,7,15
+bmpsave "ck-buffer1.bmp"
+gsel 0
+color 0,0,255
+boxf 0,0,15,15
+pos 0,0
+gmode 2
+gcopy 1,0,0,16,16
+bmpsave "ck-screen0.bmp"
+redraw 1
+stop

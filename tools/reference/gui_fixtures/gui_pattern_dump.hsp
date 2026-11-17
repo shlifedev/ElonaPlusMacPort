@@ -1,0 +1,38 @@
+; Per-pixel pattern baseline: pset, gmode 0 copy, gmode 2 color-key copy over white,
+; nearest gzoom 2x, pget probes (notesave) and bmpsave of both surfaces.
+screen 0,48,48
+redraw 0
+color 255,255,255
+boxf 0,0,47,47
+buffer 1,16,16
+repeat 16
+	y = cnt
+	repeat 16
+		color cnt*17, y*17, (cnt+y)*8
+		pset cnt, y
+	loop
+loop
+bmpsave "pt-buffer1.bmp"
+gsel 0
+gmode 0
+pos 0,0
+gcopy 1,0,0,16,16
+gmode 2
+pos 16,0
+gcopy 1,0,0,16,16
+gmode 0
+pos 0,16
+gzoom 32,32,1,0,0,16,16,0
+dim px,9 : dim py,9
+px = 0,1,16,17,15,31,0,1,31
+py = 0,0,0,0,15,15,16,17,47
+sdim out,4096
+repeat 9
+	pget px(cnt), py(cnt)
+	out = out + px(cnt) + "," + py(cnt) + "," + ginfo(16) + "," + ginfo(17) + "," + ginfo(18) + "\n"
+loop
+notesel out
+notesave "pt-pget.txt"
+bmpsave "pt-screen0.bmp"
+redraw 1
+stop

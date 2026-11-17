@@ -1,0 +1,6 @@
+screen 0,320,100
+sdim text,64
+mesbox text,240,26,1,32
+objprm 0,"あA"
+objsel 0
+stop

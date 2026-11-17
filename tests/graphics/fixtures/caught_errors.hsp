@@ -1,0 +1,9 @@
+; Three ordinary errors are handled by the script, then end 0 is intentional.
+; The native report must retain the errors without changing recovery behavior.
+onerror goto *caught_error
+a=1/0
+end 99
+*caught_error
+errcount++
+if errcount<3 : a=1/0
+end

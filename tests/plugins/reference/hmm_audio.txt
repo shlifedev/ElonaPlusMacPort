@@ -1,0 +1,37 @@
+# Observed hmm.dll audio/input exports in HSP 3.4 hsp3.exe (session 0 over SSH), run plugins-claude-07
+# uninit: no DSINIT/DMINIT/DIINIT call. env: real init in this Windows session (environment-dependent).
+uninit DSSTOP 13 stat=0
+uninit DSSTOP 1025 stat=0
+uninit DSRELEASE 13 stat=1
+uninit DSRELEASE 1025 stat=1
+uninit DSSETVOLUME 13, 50 stat=0
+uninit DSSETVOLUME 13, 101 stat=0
+uninit CHECKPLAY 7 stat=0
+uninit CHECKPLAY 32 stat=0
+uninit DSPLAY 13, 0 stat=0
+uninit DMSTOP stat=0
+uninit DMPLAY 1, 0 stat=0
+uninit DIGETJOYNUM stat=0
+uninit DSEND stat=1
+uninit DMEND stat=1
+end
+mastervol_uninit error err=38
+env DSINIT stat=1
+env DMINIT stat=1
+env DIINIT stat=1
+env DSGETMASTERVOLUME stat=100
+env DSSTOP 13 stat=0
+env DSSTOP 1025 stat=0
+env DSRELEASE 13 stat=1
+env DSRELEASE 1025 stat=1
+env DSSETVOLUME 13, 50 stat=1
+env DSSETVOLUME 13, 101 stat=0
+env CHECKPLAY 7 stat=0
+env CHECKPLAY 32 stat=0
+env DSPLAY 13, 0 stat=0
+env DMSTOP stat=1
+env DMPLAY 1, 0 stat=0
+env DIGETJOYNUM stat=0
+env DSEND stat=1
+env DMEND stat=1
+end

@@ -1,0 +1,4 @@
+; mci (MCI command strings) is not implemented and must stop with an explicit diagnostic
+screen 0,32,32
+mci "open cdaudio"
+end
