@@ -215,8 +215,8 @@
     },
     "community_reviewed": {
       "path": "localization/ko-KR/community-reviewed.json",
-      "bytes": 116021,
-      "sha256": "4e346db57a4a70ebfd90d0506a0012bb7295ef4a9978d3835b8830b3a428246a"
+      "bytes": 116230,
+      "sha256": "2c4e3d27f127f162d6759e449928ad90636b321913a4d8ac9ac2bf67c0918804"
     },
     "style_guide": "localization/ko-KR/style-guide.md"
   },

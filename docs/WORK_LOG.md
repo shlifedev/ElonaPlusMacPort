@@ -22,9 +22,19 @@
 
 ## 2026-11-18 — 화면·대화상자 조사 체크포인트
 
+기록된 커밋: `d268dff` — `Document resolution, fullscreen startup failure and dialog research`.
+
 `docs/DISPLAY_UX_RESEARCH.md`에 소스/설정/실측 근거를 모았다. 원본 메뉴의 최대 해상도는1280×768이며, 현재 Retina 출력도 낮은 논리 해상도의 글자 이미지를 확대한다. 일반 라이선스·확인 OS 팝업은 원본 `dialog`에서 비롯된다. `msg_box.=1`은 전체 팝업 억제가 아니라 이름 입력 방식만 바꾼다. 정수 배율·고밀도 글자·게임 내부 모달 및 전체 화면 구현의 영향과 검사 항목을 제안했으나, 요청대로 구현/설정 변경은 하지 않았다. 사용자 설정 해시 불변이다.
 
 Windows의 외부 캡처 실패는 `docs/WINDOWS_GUI.md`에 정정했다. 단순 지연으로 단정했던 중간 판단은 철회했고, CPU/SDL readback과 PrintWindow의 차이는 미해결 상태로 남긴다.
+
+## 2026-11-18 — 한국어 DB 검수·실제 도움말 표시
+
+- DB 2,406개 중 검수2,263/문맥 보류143. 종족76·직업12 이름과 실제 표시 소스를 확인한 별칭23개를 추가했다. `God`는 종교 항목과 종족이 충돌하여 잘못된 별칭을 제거했다. 화자별 감사 인사, 관계 라벨/대사, 동명 종족/아이템도 문맥 없는 치환을 제외했다.
+- 최종 생성물5,058개 표시 키, 충돌0. SHA-256 `dc65f3548b0bcbaabfc655c23c05c90e84650434ef55115a676f9c5d7a32b613`. 각 키의 입력 파일·항목·출처·라이선스를 `runtime.sources.json`에서 추적한다. JP/EN 두 키가 같은 번역일 수 있으므로5,058문장을 번역했다고 표현하지 않는다.
+- 최신 Mac Release CTest11/11, 최종 모든 키의 실제 lookup/한글 글리프 렌더5058/5058, 미번역 fallback·원본 VM 문자열 유지 검사 통과. `work/root-korean-paragraph-ctest.log`, `work/localization-font-audit-release-final.log`.
+- JP 기준 AX와 한국어 관리 AX의 신규게임·저장 재로드·집 탈출/북부 티리스 진입6/6 통과. 세 단계 저장154/154·154/154·162/162 압축 해제 파일 동일, 턴 차이0. 실제 노른 안내6페이지를 한국어로 확인했고 전체48페이지 별도 레이아웃 fixture의 넘침도0이다. `work/localization/japanese-gate-final-01/summary.json` 및 [문단 경계 문서](KOREAN_RENDER_BOUNDARY.md).
+- 일반 한국어 런처는 아직 원본 AX의 고정 표시 catalog 미리보기다. 관리 문단 AX는 별도 개발 실행 경로로 유지한다. 긴 대사·동적 문장·사용자 작성 이름과 전역 키의 충돌 방지·범위 밖 본문은 남아 있다. Windows 최신 문단 검증은 별도 진행 중이다.
 
 ### 다음 작업
 

@@ -1768,7 +1768,7 @@
       "attribution": "Elona Wiki contributors; named sections: 카파, 노힐부득; corrections: Evildragon",
       "license_basis": "Fandom Help:Licensing default text license; same Korean wiki home footer confirms CC-BY-SA. No exception shown in captured patch article. Full edit history unavailable."
     },
-    "review_status": "reviewed",
+    "review_status": "context_required",
     "source_ref": [
       "2.335:start.hsp:11705",
       "2.335:start.hsp:282067",
@@ -1787,9 +1787,11 @@
       "2.335:start.hsp:430137",
       "2.335:start.hsp:430166"
     ],
-    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정.",
+    "review_reason": "2.335 원문·문맥 대조 후 한국어 표기, 문체, 기능 설명을 교정. 동일 JP/EN이 플레이어 대사에서는 반말, 다른 화자에서는 존댓말이므로 문맥 없는 전역 치환을 보류한다.",
     "source_ja": "ありがとう！",
-    "source_ja_line": 11705
+    "source_ja_line": 11705,
+    "japanese_enabled": false,
+    "english_enabled": false
   },
   {
     "source": "Come on!",

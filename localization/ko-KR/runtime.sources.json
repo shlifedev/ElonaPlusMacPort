@@ -3,7 +3,7 @@
   "inputs": [
     {
       "path": "localization/ko-KR/community-reviewed.json",
-      "sha256": "4e346db57a4a70ebfd90d0506a0012bb7295ef4a9978d3835b8830b3a428246a"
+      "sha256": "2c4e3d27f127f162d6759e449928ad90636b321913a4d8ac9ac2bf67c0918804"
     },
     {
       "path": "localization/ko-KR/original-ui.json",
@@ -15,7 +15,11 @@
     },
     {
       "path": "localization/ko-KR/original-database.json",
-      "sha256": "9884fe8984bb4244e619980cc48075cfba48a9c618ec3938e164a3a9468db5b5"
+      "sha256": "fa2dba353d0e43fbdb096b49395cca926301b8e92054b6fa9a4e12980960f453"
+    },
+    {
+      "path": "localization/ko-KR/original-races-classes.json",
+      "sha256": "9b44d0cc1022352a799e7d684d7f38dd33c2166806b9d0913e172a561726a2bb"
     },
     {
       "path": "localization/ko-KR/original-tutorial.json",
@@ -1468,6 +1472,13 @@
         "entry_id": "d8ff82700b741255ba1b"
       }
     ],
+    "Archer": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 81,
+        "entry_id": "class.label.archer"
+      }
+    ],
     "Are you satisfied now?": [
       {
         "path": "localization/ko-KR/original-ui.json",
@@ -2620,6 +2631,13 @@
       {
         "path": "localization/ko-KR/original-ui.json",
         "entry_index": 22
+      }
+    ],
+    "Claymore": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 87,
+        "entry_id": "class.label.claymore"
       }
     ],
     "Clear Mind": [
@@ -3984,6 +4002,13 @@
         "entry_id": "e9138c2deb0429b9d90c"
       }
     ],
+    "Dwarf": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 12,
+        "entry_id": "race.label.dwarf"
+      }
+    ],
     "Dynamic Yell": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -4059,6 +4084,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1686,
         "entry_id": "5f49debf27afd3fff3aa"
+      }
+    ],
+    "Elea": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 15,
+        "entry_id": "race.label.elea"
       }
     ],
     "Electric Shock": [
@@ -4363,6 +4395,13 @@
         "license": "CC-BY-SA-3.0"
       }
     ],
+    "Eulderna": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 7,
+        "entry_id": "race.label.eulderna"
+      }
+    ],
     "Eulderna blimp": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -4547,6 +4586,13 @@
         "entry_id": "758d7f08001a1c781f1a"
       }
     ],
+    "Fairy": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 8,
+        "entry_id": "race.label.fairy"
+      }
+    ],
     "Faith": [
       {
         "path": "localization/ko-KR/original-controls.json",
@@ -4578,6 +4624,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1454,
         "entry_id": "9e9919653ed447c4a5c7"
+      }
+    ],
+    "Farmer": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 79,
+        "entry_id": "class.label.farmer"
       }
     ],
     "Fascination Dance": [
@@ -5007,6 +5060,13 @@
         "entry_id": "952ea49b4f1b8b240c3c"
       }
     ],
+    "Goblin": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 38,
+        "entry_id": "race.label.goblin"
+      }
+    ],
     "God": [
       {
         "path": "localization/ko-KR/original-controls.json",
@@ -5047,6 +5107,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 928,
         "entry_id": "d76a48e3958e01addf16"
+      }
+    ],
+    "Golem": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 49,
+        "entry_id": "race.label.golem"
       }
     ],
     "Good. Now listen carefully.": [
@@ -5292,6 +5359,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2301,
         "entry_id": "fbd2648e46d9f706c0d6"
+      }
+    ],
+    "Gunner": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 85,
+        "entry_id": "class.label.gunner"
       }
     ],
     "HPMP consumption/gauge diminishing invalid": [
@@ -6064,13 +6138,6 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2137,
         "entry_id": "e3cb97696962e184cab3"
-      }
-    ],
-    "I need to wait the mission from Arasiel.": [
-      {
-        "path": "localization/ko-KR/original-database.json",
-        "entry_index": 2340,
-        "entry_id": "251b80078cb603c621b9"
       }
     ],
     "I poured the melting chocolate into a mold.": [
@@ -7229,6 +7296,13 @@
         "entry_id": "42e794cad8c5276cefa9"
       }
     ],
+    "Juere": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 13,
+        "entry_id": "race.label.juere"
+      }
+    ],
     "Jumping Drop": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -7477,6 +7551,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2370,
         "entry_id": "150a18d5aba63c97272e"
+      }
+    ],
+    "Lich": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 26,
+        "entry_id": "race.label.lich"
       }
     ],
     "Lie on your back": [
@@ -8805,6 +8886,13 @@
         "entry_id": "7ee797923c18ec426500"
       }
     ],
+    "Mutant": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 67,
+        "entry_id": "race.label.mutant"
+      }
+    ],
     "Mutate self": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -9498,6 +9586,13 @@
         "entry_id": "645d586b20c47744f7c2"
       }
     ],
+    "Pianist": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 84,
+        "entry_id": "class.label.pianist"
+      }
+    ],
     "Pick out the side buds": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -9715,6 +9810,13 @@
         "entry_id": "f217dedf383a38101cb8"
       }
     ],
+    "Predator": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 80,
+        "entry_id": "class.label.predator"
+      }
+    ],
     "Preincess Silvia behavior is something strange. For the time being, I decided to take another attractive man once again.It will be enough if charm is over 150.": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -9760,6 +9862,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 358,
         "entry_id": "274598f8c391bc3ed15a"
+      }
+    ],
+    "Priest": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 86,
+        "entry_id": "class.label.priest"
       }
     ],
     "Princess Silvia is mentally deranged and it seems she cannot distinguish between people.If I speak to her now, may be mistaken for someone. ": [
@@ -10984,6 +11093,13 @@
         "entry_id": "37da9ae407222db9114a"
       }
     ],
+    "Snail": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 20,
+        "entry_id": "race.label.snail"
+      }
+    ],
     "Somehow ask for forgiveness": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -12111,6 +12227,13 @@
         "entry_id": "b6efb985ea46a7840cc1"
       }
     ],
+    "Thief": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 77,
+        "entry_id": "class.label.thief"
+      }
+    ],
     "Thieves Guild": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -12326,6 +12449,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 616,
         "entry_id": "20b32616060fd7ac0bab"
+      }
+    ],
+    "Tourist": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 83,
+        "entry_id": "class.label.tourist"
       }
     ],
     "Tower": [
@@ -12720,6 +12850,20 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 508,
         "entry_id": "fb0bd1b33690c1065e7f"
+      }
+    ],
+    "Warmage": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 82,
+        "entry_id": "class.label.warmage"
+      }
+    ],
+    "Warrior": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 76,
+        "entry_id": "class.label.warrior"
       }
     ],
     "Waste compartment": [
@@ -13187,6 +13331,13 @@
         "entry_id": "790b9fe18b4eca21c9f3"
       }
     ],
+    "Wizard": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 78,
+        "entry_id": "class.label.wizard"
+      }
+    ],
     "Wizard's Harvest": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -13251,6 +13402,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1061,
         "entry_id": "34ca4c07f07776fe2eff"
+      }
+    ],
+    "Yerles": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 5,
+        "entry_id": "race.label.yerles"
       }
     ],
     "Yes": [
@@ -15805,11 +15963,32 @@
         "entry_id": "498cfc3df7d9ae500dbd"
       }
     ],
+    "armor": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 40,
+        "entry_id": "race.label.armor"
+      }
+    ],
+    "asura": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 9,
+        "entry_id": "race.label.asura"
+      }
+    ],
     "attack down": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 887,
         "entry_id": "b0eee32104d10c2232c0"
+      }
+    ],
+    "bacteria": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 27,
+        "entry_id": "race.label.bacteria"
       }
     ],
     "bartender": [
@@ -15819,11 +15998,32 @@
         "entry_id": "fc3bc6f857630cef0515"
       }
     ],
+    "bat": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 24,
+        "entry_id": "race.label.bat"
+      }
+    ],
+    "bear": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 39,
+        "entry_id": "race.label.bear"
+      }
+    ],
     "beast": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2092,
         "entry_id": "7106fb0a12427a8f100e"
+      }
+    ],
+    "bird": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 64,
+        "entry_id": "race.label.bird"
       }
     ],
     "bisexual": [
@@ -15970,11 +16170,32 @@
         "entry_id": "a4072058f43d3fc13e68"
       }
     ],
+    "cat": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 54,
+        "entry_id": "race.label.cat"
+      }
+    ],
     "cat zombie + mummy": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1724,
         "entry_id": "bef5ed2ac4157702fd9d"
+      }
+    ],
+    "catgod": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 59,
+        "entry_id": "race.label.catgod"
+      }
+    ],
+    "catsister": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 66,
+        "entry_id": "race.label.catsister"
       }
     ],
     "chaos": [
@@ -16017,6 +16238,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2111,
         "entry_id": "b42e7cb8b6f69971a3df"
+      }
+    ],
+    "claymore": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 87,
+        "entry_id": "class.label.claymore"
       }
     ],
     "cold": [
@@ -16117,6 +16345,48 @@
         "entry_id": "ad046524f5960d2d05b6"
       }
     ],
+    "dinosaur": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 46,
+        "entry_id": "race.label.dinosaur"
+      }
+    ],
+    "dog": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 55,
+        "entry_id": "race.label.dog"
+      }
+    ],
+    "doggod": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 11,
+        "entry_id": "race.label.doggod"
+      }
+    ],
+    "dragon": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 45,
+        "entry_id": "race.label.dragon"
+      }
+    ],
+    "drake": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 37,
+        "entry_id": "race.label.drake"
+      }
+    ],
+    "dwarf": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 12,
+        "entry_id": "race.label.dwarf"
+      }
+    ],
     "dye": [
       {
         "path": "localization/ko-KR/community-reviewed.json",
@@ -16129,6 +16399,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1585,
         "entry_id": "35098d23f2b37d3773ad"
+      }
+    ],
+    "elea": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 15,
+        "entry_id": "race.label.elea"
       }
     ],
     "enhances power of magical devices.": [
@@ -16194,6 +16471,20 @@
         "entry_id": "9aa8368f170840e641e6"
       }
     ],
+    "ent": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 25,
+        "entry_id": "race.label.ent"
+      }
+    ],
+    "eulderna": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 7,
+        "entry_id": "race.label.eulderna"
+      }
+    ],
     "evolution": [
       {
         "path": "localization/ko-KR/community-reviewed.json",
@@ -16208,11 +16499,32 @@
         "entry_id": "bbb36b7a027935105c6b"
       }
     ],
+    "eye": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 30,
+        "entry_id": "race.label.eye"
+      }
+    ],
+    "fairy": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 8,
+        "entry_id": "race.label.fairy"
+      }
+    ],
     "farm deed": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1642,
         "entry_id": "d26c60904e4efff5ec9a"
+      }
+    ],
+    "farmer": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 79,
+        "entry_id": "class.label.farmer"
       }
     ],
     "female?": [
@@ -16247,6 +16559,13 @@
         "entry_id": "b27ffed2b18ba9da8e76"
       }
     ],
+    "frog": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 18,
+        "entry_id": "race.label.frog"
+      }
+    ],
     "fruit": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16275,6 +16594,34 @@
         "entry_id": "0c03876da5bf919d2380"
       }
     ],
+    "ghost": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 28,
+        "entry_id": "race.label.ghost"
+      }
+    ],
+    "giant": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 33,
+        "entry_id": "race.label.giant"
+      }
+    ],
+    "goblin": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 38,
+        "entry_id": "race.label.goblin"
+      }
+    ],
+    "god": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 72,
+        "entry_id": "race.label.god"
+      }
+    ],
     "gold bar": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16287,6 +16634,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1623,
         "entry_id": "7c908a1e0b6af420072e"
+      }
+    ],
+    "golem": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 49,
+        "entry_id": "race.label.golem"
       }
     ],
     "grants you knowledge of alchemy.": [
@@ -16359,6 +16713,13 @@
         "entry_id": "9c2283361496d85dfb9a"
       }
     ],
+    "gunner": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 85,
+        "entry_id": "class.label.gunner"
+      }
+    ],
     "head architect": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16401,6 +16762,13 @@
         "entry_id": "3a2cb30a73b6deae2256"
       }
     ],
+    "horse": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 71,
+        "entry_id": "race.label.horse"
+      }
+    ],
     "illusion hound": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16413,6 +16781,27 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 317,
         "entry_id": "64f6dd3d54ae669f9283"
+      }
+    ],
+    "juere": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 13,
+        "entry_id": "race.label.juere"
+      }
+    ],
+    "karune": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 43,
+        "entry_id": "race.label.karune"
+      }
+    ],
+    "kobolt": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 0,
+        "entry_id": "race.label.kobolt"
       }
     ],
     "lemon": [
@@ -16429,6 +16818,13 @@
         "entry_id": "e2c5c9305586d71f6e36"
       }
     ],
+    "lich": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 26,
+        "entry_id": "race.label.lich"
+      }
+    ],
     "lich + doll": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16441,6 +16837,20 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 244,
         "entry_id": "30735d713481dc7b1fcf"
+      }
+    ],
+    "machine": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 62,
+        "entry_id": "race.label.machine"
+      }
+    ],
+    "machinegod": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 60,
+        "entry_id": "race.label.machinegod"
       }
     ],
     "magic ammos": [
@@ -16566,6 +16976,13 @@
         "entry_id": "cfa400eb3ee78f2354d8"
       }
     ],
+    "mandrake": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 21,
+        "entry_id": "race.label.mandrake"
+      }
+    ],
     "mareilon": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16580,6 +16997,13 @@
         "entry_id": "30618be630cd5b98928d"
       }
     ],
+    "mazin": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 31,
+        "entry_id": "race.label.mazin"
+      }
+    ],
     "meat spaghetti": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16587,11 +17011,25 @@
         "entry_id": "cedd30d97c6141a2e254"
       }
     ],
+    "medusa": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 41,
+        "entry_id": "race.label.medusa"
+      }
+    ],
     "melon flavored bread": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2112,
         "entry_id": "e05badbba50433f040b9"
+      }
+    ],
+    "metal": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 74,
+        "entry_id": "race.label.metal"
       }
     ],
     "mika": [
@@ -16606,6 +17044,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 248,
         "entry_id": "83ff45526639b893e137"
+      }
+    ],
+    "minotaur": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 4,
+        "entry_id": "race.label.minotaur"
       }
     ],
     "mithril golem": [
@@ -16627,6 +17072,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1641,
         "entry_id": "6247dde746b48d91f90d"
+      }
+    ],
+    "mushroom": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 23,
+        "entry_id": "race.label.mushroom"
       }
     ],
     "nerve": [
@@ -16661,6 +17113,13 @@
         "entry_id": "46bc9892fd4aa873915b"
       }
     ],
+    "norland": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 6,
+        "entry_id": "race.label.norland"
+      }
+    ],
     "normal": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16672,6 +17131,13 @@
       {
         "path": "localization/ko-KR/original-ui.json",
         "entry_index": 105
+      }
+    ],
+    "orc": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 1,
+        "entry_id": "race.label.orc"
       }
     ],
     "ores": [
@@ -16702,6 +17168,13 @@
         "entry_id": "6d275a5bce9d8e1192a8"
       }
     ],
+    "pianist": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 84,
+        "entry_id": "class.label.pianist"
+      }
+    ],
     "piercing ammos": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16730,11 +17203,23 @@
         "entry_id": "dc6bedab01b40c9b38f3"
       }
     ],
+    "predator": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 80,
+        "entry_id": "class.label.predator"
+      }
+    ],
     "priest": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 6,
         "entry_id": "4844473f7c709003332a"
+      },
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 86,
+        "entry_id": "class.label.priest"
       }
     ],
     "q:quaff /w:wear /e:eat /r:read /t:tool /i:interact /o:open": [
@@ -16749,6 +17234,20 @@
         "path": "localization/ko-KR/original-controls.json",
         "entry_index": 65,
         "entry_id": "controls.e5b1dd99e51f96f7547d"
+      }
+    ],
+    "quickling": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 73,
+        "entry_id": "race.label.quickling"
+      }
+    ],
+    "rabbit": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 16,
+        "entry_id": "race.label.rabbit"
       }
     ],
     "ramen": [
@@ -16786,6 +17285,13 @@
         "entry_id": "b20c5433179202f53412"
       }
     ],
+    "rat": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 57,
+        "entry_id": "race.label.rat"
+      }
+    ],
     "remains": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16805,6 +17311,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2117,
         "entry_id": "36669eb9967cf89beb51"
+      }
+    ],
+    "roran": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 56,
+        "entry_id": "race.label.roran"
       }
     ],
     "salad pasta": [
@@ -16863,11 +17376,32 @@
         "entry_id": "f25cb769d84eb00544e6"
       }
     ],
+    "seamonster": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 65,
+        "entry_id": "race.label.seamonster"
+      }
+    ],
+    "sheep": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 17,
+        "entry_id": "race.label.sheep"
+      }
+    ],
     "shop deed": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1643,
         "entry_id": "28bb80eb2278e17b82c9"
+      }
+    ],
+    "skeleton": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 52,
+        "entry_id": "race.label.skeleton"
       }
     ],
     "skeleton + dead-eyes": [
@@ -16891,6 +17425,27 @@
         "entry_id": "cc28823764e2f12791db"
       }
     ],
+    "slime": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 10,
+        "entry_id": "race.label.slime"
+      }
+    ],
+    "snail": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 20,
+        "entry_id": "race.label.snail"
+      }
+    ],
+    "snake": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 36,
+        "entry_id": "race.label.snake"
+      }
+    ],
     "soba": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -16912,11 +17467,11 @@
         "entry_id": "1e1ce7ee501702dee9d5"
       }
     ],
-    "spider": [
+    "spirit": [
       {
-        "path": "localization/ko-KR/original-database.json",
-        "entry_index": 1626,
-        "entry_id": "790a1869bda6a5dc91e2"
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 29,
+        "entry_id": "race.label.spirit"
       }
     ],
     "steel golem": [
@@ -17101,6 +17656,13 @@
         "entry_id": "65d9d67f699af22c4f85"
       }
     ],
+    "undeadgod": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 61,
+        "entry_id": "race.label.undeadgod"
+      }
+    ],
     "unknown": [
       {
         "path": "localization/ko-KR/original-ui.json",
@@ -17126,11 +17688,39 @@
         "entry_id": "2b3bbcdf17579b8939cd"
       }
     ],
+    "vehicle": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 75,
+        "entry_id": "race.label.vehicle"
+      }
+    ],
     "walnut bread": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2106,
         "entry_id": "17cd65a4e6dd8c048285"
+      }
+    ],
+    "warmage": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 82,
+        "entry_id": "class.label.warmage"
+      }
+    ],
+    "warrior": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 76,
+        "entry_id": "class.label.warrior"
+      }
+    ],
+    "wasp": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 32,
+        "entry_id": "race.label.wasp"
       }
     ],
     "weakness": [
@@ -17147,6 +17737,48 @@
         "entry_id": "db1bafc24e9d9adbc6d6"
       }
     ],
+    "wisp": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 63,
+        "entry_id": "race.label.wisp"
+      }
+    ],
+    "wizard": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 78,
+        "entry_id": "class.label.wizard"
+      }
+    ],
+    "worm": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 19,
+        "entry_id": "race.label.worm"
+      }
+    ],
+    "yeek": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 68,
+        "entry_id": "race.label.yeek"
+      }
+    ],
+    "yerles": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 5,
+        "entry_id": "race.label.yerles"
+      }
+    ],
+    "yith": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 69,
+        "entry_id": "race.label.yith"
+      }
+    ],
     "z:Action choices /x:Examine items /c:chara /v:cast spells /b:bash /m:material": [
       {
         "path": "localization/ko-KR/original-controls.json",
@@ -17159,6 +17791,20 @@
         "path": "localization/ko-KR/original-controls.json",
         "entry_index": 69,
         "entry_id": "controls.4cd6902f6b2e5c9f7236"
+      }
+    ],
+    "zanan": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 51,
+        "entry_id": "race.label.zanan"
+      }
+    ],
+    "zombie": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 14,
+        "entry_id": "race.label.zombie"
       }
     ],
     "zombie + dragon zombie": [
@@ -19502,6 +20148,13 @@
         "entry_id": "1ecd624ec5468cf26f2e"
       }
     ],
+    "かたつむり": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 20,
+        "entry_id": "race.label.snail"
+      }
+    ],
     "かなり質のいい皮がとれそうだ": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -19542,6 +20195,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1486,
         "entry_id": "9c1b587faf243de226f8"
+      }
+    ],
+    "きのこ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 23,
+        "entry_id": "race.label.mushroom"
       }
     ],
     "きのこたちを滅ぼした。あとはルオザでたけのこに報告するだけだ。": [
@@ -19952,6 +20612,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1236,
         "entry_id": "ab86fd22ba3063d1840b"
+      }
+    ],
+    "ねずみ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 57,
+        "entry_id": "race.label.rat"
       }
     ],
     "ねちっこく攻める　（自身の意志依存）": [
@@ -20402,6 +21069,13 @@
         "entry_id": "1bcef372025877853cc1"
       }
     ],
+    "イェルス": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 5,
+        "entry_id": "race.label.yerles"
+      }
+    ],
     "イェルスの防衛軍を殲滅しなければならない。": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -20472,6 +21146,13 @@
         "entry_id": "f11d21c58c96258e1126"
       }
     ],
+    "イーク": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 68,
+        "entry_id": "race.label.yeek"
+      }
+    ],
     "イークの洞窟": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -20498,6 +21179,20 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 494,
         "entry_id": "86b51566736d1b36ff40"
+      }
+    ],
+    "ウィスプ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 63,
+        "entry_id": "race.label.wisp"
+      }
+    ],
+    "ウサギ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 16,
+        "entry_id": "race.label.rabbit"
       }
     ],
     "ウールム・レゾン": [
@@ -20556,6 +21251,13 @@
         "entry_id": "bdcb3d339f71bdcd3456"
       }
     ],
+    "エウダーナ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 7,
+        "entry_id": "race.label.eulderna"
+      }
+    ],
     "エウダーナの悪魔の討伐をエリステアに報告しよう。 160階相当": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -20605,6 +21307,13 @@
         "entry_id": "d021402383dc39718e56"
       }
     ],
+    "エレア": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 15,
+        "entry_id": "race.label.elea"
+      }
+    ],
     "エレメンティア": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -20617,6 +21326,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 647,
         "entry_id": "44a207edcf7fd9b0169b"
+      }
+    ],
+    "エント": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 25,
+        "entry_id": "race.label.ent"
       }
     ],
     "エーテルの欠片": [
@@ -20706,6 +21422,13 @@
         "entry_id": "61e60fd67f96acbef9c5"
       }
     ],
+    "オーク": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 1,
+        "entry_id": "race.label.orc"
+      }
+    ],
     "オーバーブースト": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -20718,6 +21441,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1677,
         "entry_id": "6a75925ca9944e193ea8"
+      }
+    ],
+    "カオスシェイプ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 67,
+        "entry_id": "race.label.mutant"
       }
     ],
     "カオスボルト": [
@@ -20811,6 +21541,13 @@
         "entry_id": "c9d5e3ea6a19e0a6e205"
       }
     ],
+    "カルーン": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 43,
+        "entry_id": "race.label.karune"
+      }
+    ],
     "カレーパン": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -20893,6 +21630,13 @@
         "entry_id": "fbd2648e46d9f706c0d6"
       }
     ],
+    "クイックリング": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 73,
+        "entry_id": "race.label.quickling"
+      }
+    ],
     "クエストの達成": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -20947,6 +21691,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2060,
         "entry_id": "ff96af5f0863de518611"
+      }
+    ],
+    "クレイモア": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 87,
+        "entry_id": "class.label.claymore"
       }
     ],
     "クロスボウ": [
@@ -21005,6 +21756,13 @@
         "entry_id": "5771ac7c7f1b3ad0f408"
       }
     ],
+    "ケモビト": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 66,
+        "entry_id": "race.label.catsister"
+      }
+    ],
     "ゲージ30％消費し助けを求める": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -21033,6 +21791,20 @@
         "entry_id": "exhelp.17.line.2"
       }
     ],
+    "コウモリ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 24,
+        "entry_id": "race.label.bat"
+      }
+    ],
+    "コボルト": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 0,
+        "entry_id": "race.label.kobolt"
+      }
+    ],
     "コロシアム": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -21054,6 +21826,13 @@
         "entry_id": "7b1e3733e54abe3727c8"
       }
     ],
+    "ゴブリン": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 38,
+        "entry_id": "race.label.goblin"
+      }
+    ],
     "ゴールドゴーレム": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -21066,6 +21845,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 975,
         "entry_id": "26eb0ca73df28578dbe3"
+      }
+    ],
+    "ゴーレム": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 49,
+        "entry_id": "race.label.golem"
       }
     ],
     "サイキックウェーブ": [
@@ -21204,6 +21990,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1594,
         "entry_id": "8fd0cf7be10251a8eb53"
+      }
+    ],
+    "ザナン": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 51,
+        "entry_id": "race.label.zanan"
       }
     ],
     "シェルター": [
@@ -21352,6 +22145,13 @@
         "entry_id": "a339e08bc1ff64aa0be4"
       }
     ],
+    "ジューア": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 13,
+        "entry_id": "race.label.juere"
+      }
+    ],
     "ジューアのくせに生意気だ 50階相当": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -21462,6 +22262,13 @@
         "entry_id": "221b3e59f154c1db31e6"
       }
     ],
+    "スライム": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 10,
+        "entry_id": "race.label.slime"
+      }
+    ],
     "スラン": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -21500,6 +22307,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1592,
         "entry_id": "860d901140e24a64fb1f"
+      }
+    ],
+    "ゾンビ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 14,
+        "entry_id": "race.label.zombie"
       }
     ],
     "ゾンビ　 ＋ ドラゴンゾンビ": [
@@ -21788,6 +22602,13 @@
         "entry_id": "7f22023a65d07c08dc29"
       }
     ],
+    "ドラゴン": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 45,
+        "entry_id": "race.label.dragon"
+      }
+    ],
     "ナイトメア": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -21914,6 +22735,13 @@
         "entry_id": "862d943ed165a05d88d0"
       }
     ],
+    "ノーランド": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 6,
+        "entry_id": "race.label.norland"
+      }
+    ],
     "ハイドロボルト": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -21940,6 +22768,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 126,
         "entry_id": "6be050ce99d057499aaf"
+      }
+    ],
+    "バクテリア": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 27,
+        "entry_id": "race.label.bacteria"
       }
     ],
     "バックパックの中のいくつかのアイテムの詳細が判明した。": [
@@ -22073,6 +22908,13 @@
         "entry_id": "232995e3892966a243d9"
       }
     ],
+    "ピアニスト": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 84,
+        "entry_id": "class.label.pianist"
+      }
+    ],
     "ピラミッド": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -22170,6 +23012,13 @@
         "entry_id": "d84d364c24ad80c26a99"
       }
     ],
+    "プリースト": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 86,
+        "entry_id": "class.label.priest"
+      }
+    ],
     "プレイヤー駆逐": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -22182,6 +23031,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 936,
         "entry_id": "160ad400af0b998cff53"
+      }
+    ],
+    "プレデター": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 80,
+        "entry_id": "class.label.predator"
       }
     ],
     "プロフィール": [
@@ -22410,6 +23266,13 @@
         "entry_id": "2174e2ef53b91cb049a4"
       }
     ],
+    "マンドレイク": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 21,
+        "entry_id": "race.label.mandrake"
+      }
+    ],
     "マーキング": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -22443,6 +23306,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1622,
         "entry_id": "458bff081f0326d46775"
+      }
+    ],
+    "ミノタウロス": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 4,
+        "entry_id": "race.label.minotaur"
       }
     ],
     "ミノタウロスの王 24階相当": [
@@ -22487,6 +23357,13 @@
         "entry_id": "b12758e43a94318160e0"
       }
     ],
+    "メタル": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 74,
+        "entry_id": "race.label.metal"
+      }
+    ],
     "メタルコート": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -22499,6 +23376,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 538,
         "entry_id": "2fa27811e563a3d498ba"
+      }
+    ],
+    "メデューサ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 41,
+        "entry_id": "race.label.medusa"
       }
     ],
     "メモリーデリート": [
@@ -22777,6 +23661,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 24,
         "entry_id": "0aa4ac887523925189da"
+      }
+    ],
+    "リッチ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 26,
+        "entry_id": "race.label.lich"
       }
     ],
     "リッチ　 ＋ ネクロドール": [
@@ -23111,11 +24002,32 @@
         "entry_index": 47
       }
     ],
+    "ローラン": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 56,
+        "entry_id": "race.label.roran"
+      }
+    ],
     "ワァオー": [
       {
         "path": "localization/ko-KR/community-reviewed.json",
         "entry_index": 87,
         "license": "CC-BY-SA-3.0"
+      }
+    ],
+    "ワスプ": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 32,
+        "entry_id": "race.label.wasp"
+      }
+    ],
+    "ワーム": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 19,
+        "entry_id": "race.label.worm"
       }
     ],
     "ワールドマップやその他のことについてわからないことがあれば、<emp2>ヘルプキー<def>を押せば、いつでも<emp1>ヘルプを読む<def>ことができる。": [
@@ -23530,6 +24442,13 @@
         "entry_id": "82d0bb90d7cb26a0b1ed"
       }
     ],
+    "丘の民": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 12,
+        "entry_id": "race.label.dwarf"
+      }
+    ],
     "両性具有": [
       {
         "path": "localization/ko-KR/original-ui.json",
@@ -23623,6 +24542,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1780,
         "entry_id": "0e928b46be4dc936f21b"
+      }
+    ],
+    "乗用機械": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 75,
+        "entry_id": "race.label.vehicle"
       }
     ],
     "乗馬": [
@@ -23753,6 +24679,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 847,
         "entry_id": "61ca51422957182f874d"
+      }
+    ],
+    "亜竜": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 37,
+        "entry_id": "race.label.drake"
       }
     ],
     "交渉": [
@@ -25874,6 +26807,13 @@
         "entry_id": "05f50f3c3ac0b65908b6"
       }
     ],
+    "天使": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 42,
+        "entry_id": "race.label.cupid"
+      }
+    ],
     "天候が回復したら、時間は通常通り進みだし、食事も供給されないから注意しよう。": [
       {
         "path": "localization/ko-KR/original-tutorial.json",
@@ -25979,6 +26919,13 @@
         "entry_id": "6216b719f3ea17a5d00a"
       }
     ],
+    "妖精": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 8,
+        "entry_id": "race.label.fairy"
+      }
+    ],
     "妹の館": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -26061,13 +27008,6 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1110,
         "entry_id": "beaad8b367ba185d4c07"
-      }
-    ],
-    "宇宙生物の排除が完了した。陽牢の塔にいるガージンドに報告しよう。": [
-      {
-        "path": "localization/ko-KR/original-database.json",
-        "entry_index": 2322,
-        "entry_id": "12295e591d2341080672"
       }
     ],
     "守衛長": [
@@ -26535,6 +27475,13 @@
         "entry_id": "e7b2988a4be3ea781cb5"
       }
     ],
+    "巨人": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 33,
+        "entry_id": "race.label.giant"
+      }
+    ],
     "巨城への登り坂のふもとに神殿がある。": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -26554,6 +27501,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2030,
         "entry_id": "78cce451dbd5ab8c7355"
+      }
+    ],
+    "巨獣": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 2,
+        "entry_id": "race.label.largeanimal"
       }
     ],
     "巻物": [
@@ -26743,6 +27697,20 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 249,
         "entry_id": "b37562c5e090cc99842e"
+      }
+    ],
+    "幻獣": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 47,
+        "entry_id": "race.label.beast"
+      }
+    ],
+    "幽霊": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 28,
+        "entry_id": "race.label.ghost"
       }
     ],
     "幾百もの世を越えて 20階相当": [
@@ -27208,6 +28176,13 @@
         "entry_id": "64e4e55679c7fadf7c32"
       }
     ],
+    "恐竜": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 46,
+        "entry_id": "race.label.dinosaur"
+      }
+    ],
     "恨みと憎しみを込める": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -27248,6 +28223,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1662,
         "entry_id": "573932c2bafcf95e6fe0"
+      }
+    ],
+    "悪魔": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 34,
+        "entry_id": "race.label.imp"
       }
     ],
     "悪魔の討伐をガベラに報告しよう。 180階相当": [
@@ -27411,6 +28393,13 @@
         "entry_id": "389efe1a5bea4513579a"
       }
     ],
+    "戦士": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 76,
+        "entry_id": "class.label.warrior"
+      }
+    ],
     "戦士の絆": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -27526,6 +28515,11 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1927,
         "entry_id": "8a5285eefa8a7ae3b7e4"
+      },
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 35,
+        "entry_id": "race.label.hand"
       }
     ],
     "手に装備した盾で攻撃を弾き転倒させる": [
@@ -27989,6 +28983,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2346,
         "entry_id": "428df5f8e185cc2e0b05"
+      }
+    ],
+    "昆虫": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 22,
+        "entry_id": "race.label.beetle"
       }
     ],
     "明鏡止水": [
@@ -28523,6 +29524,27 @@
         "entry_id": "9cb17a243dc40f62d4a0"
       }
     ],
+    "機工兵": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 85,
+        "entry_id": "class.label.gunner"
+      }
+    ],
+    "機械": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 62,
+        "entry_id": "race.label.machine"
+      }
+    ],
+    "機械の神": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 60,
+        "entry_id": "race.label.machinegod"
+      }
+    ],
     "機械要塞": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -28637,6 +29659,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1599,
         "entry_id": "446f251ef9e0194d5bdc"
+      }
+    ],
+    "死霊の神": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 61,
+        "entry_id": "race.label.undeadgod"
       }
     ],
     "残りカス": [
@@ -29024,6 +30053,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2279,
         "entry_id": "c309517860cc09c8b2ce"
+      }
+    ],
+    "海魔": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 65,
+        "entry_id": "race.label.seamonster"
       }
     ],
     "消耗したマナを回復させる": [
@@ -29648,6 +30684,13 @@
         "entry_id": "6aadd2f385a96a241f98"
       }
     ],
+    "熊": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 39,
+        "entry_id": "race.label.bear"
+      }
+    ],
     "熟愛": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -29807,11 +30850,25 @@
         "entry_id": "c51a6c35ddd1a5d9a888"
       }
     ],
+    "犬": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 55,
+        "entry_id": "race.label.dog"
+      }
+    ],
     "犬の尻尾 150階相当": [
       {
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2308,
         "entry_id": "321b04c585b9856d2ce4"
+      }
+    ],
+    "犬の神": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 11,
+        "entry_id": "race.label.doggod"
       }
     ],
     "犬神の森": [
@@ -29880,6 +30937,13 @@
         "entry_id": "ede9d89d89af6d939416"
       }
     ],
+    "狩人": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 81,
+        "entry_id": "class.label.archer"
+      }
+    ],
     "猛毒の嵐": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -29892,6 +30956,20 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 577,
         "entry_id": "a12b40dc6a1b783f31a8"
+      }
+    ],
+    "猫": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 54,
+        "entry_id": "race.label.cat"
+      }
+    ],
+    "猫の神": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 59,
+        "entry_id": "race.label.catgod"
       }
     ],
     "猫を召喚する": [
@@ -30017,6 +31095,13 @@
         "entry_id": "1b2f1b3a3ab3c3ce7732"
       }
     ],
+    "甲殻": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 58,
+        "entry_id": "race.label.shell"
+      }
+    ],
     "男性": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -30064,6 +31149,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2067,
         "entry_id": "fe599a283f06d8251fb6"
+      }
+    ],
+    "異星主": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 69,
+        "entry_id": "race.label.yith"
       }
     ],
     "異次元の手": [
@@ -30200,6 +31292,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1436,
         "entry_id": "b95c2f3f1ac25dacce1a"
+      }
+    ],
+    "目": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 30,
+        "entry_id": "race.label.eye"
       }
     ],
     "目標レベル以上の敵モンスターを倒した。レオルドに報告しよう。": [
@@ -30564,6 +31663,13 @@
         "entry_id": "acc473c81d7263ea962a"
       }
     ],
+    "神": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 72,
+        "entry_id": "race.label.god"
+      }
+    ],
     "神々の休戦地": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -30590,6 +31696,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 364,
         "entry_id": "01a21140517f8d8e28f6"
+      }
+    ],
+    "神の化身": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 70,
+        "entry_id": "race.label.servant"
       }
     ],
     "神は死んだ": [
@@ -30903,6 +32016,13 @@
         "entry_id": "09ea66519b54161b661e"
       }
     ],
+    "竜人": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 3,
+        "entry_id": "race.label.lizardman"
+      }
+    ],
     "竜巻召喚": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -31004,6 +32124,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 761,
         "entry_id": "5de50d2e76294e790a76"
+      }
+    ],
+    "精霊": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 29,
+        "entry_id": "race.label.spirit"
       }
     ],
     "精霊を召喚する": [
@@ -31134,6 +32261,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 809,
         "entry_id": "42507d0d4d054db4efc1"
+      }
+    ],
+    "羊": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 17,
+        "entry_id": "race.label.sheep"
       }
     ],
     "美声": [
@@ -31764,6 +32898,27 @@
         "entry_id": "3fd7d89346aa093acdb3"
       }
     ],
+    "蛇": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 36,
+        "entry_id": "race.label.snake"
+      }
+    ],
+    "蛙": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 18,
+        "entry_id": "race.label.frog"
+      }
+    ],
+    "蜘蛛": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 48,
+        "entry_id": "race.label.spider"
+      }
+    ],
     "蜘蛛の巣": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -32145,6 +33300,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1455,
         "entry_id": "cabe8edb83ba9cc17619"
+      }
+    ],
+    "観光客": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 83,
+        "entry_id": "class.label.tourist"
       }
     ],
     "解剖学": [
@@ -32565,6 +33727,13 @@
         "entry_id": "77d7ec677a4714b4dbe0"
       }
     ],
+    "農民": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 79,
+        "entry_id": "class.label.farmer"
+      }
+    ],
     "迅雷脚": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -32879,6 +34048,13 @@
         "entry_id": "a074ea8473e421715365"
       }
     ],
+    "遺跡荒らし": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 77,
+        "entry_id": "class.label.thief"
+      }
+    ],
     "邪魔": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -33184,6 +34360,13 @@
         "entry_id": "6ed60740b0cb6642ca12"
       }
     ],
+    "鉱物": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 50,
+        "entry_id": "race.label.rock"
+      }
+    ],
     "鉱石": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -33273,6 +34456,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 221,
         "entry_id": "f53c238548e2ca485a04"
+      }
+    ],
+    "鎧": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 40,
+        "entry_id": "race.label.armor"
       }
     ],
     "鑑定": [
@@ -33441,6 +34631,13 @@
         "entry_id": "555f43f3e2e871189ab8"
       }
     ],
+    "阿修羅": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 9,
+        "entry_id": "race.label.asura"
+      }
+    ],
     "降り注ぐ胞子": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -33460,27 +34657,6 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2272,
         "entry_id": "5964572b645038ff5364"
-      }
-    ],
-    "陽牢の塔にいるガージンドから基地の宇宙生物の排除を頼まれている。基地は塔から南東にあるらしい。": [
-      {
-        "path": "localization/ko-KR/original-database.json",
-        "entry_index": 2321,
-        "entry_id": "69dde0e61f14d9a7f409"
-      }
-    ],
-    "陽牢の塔にいるガージンドに依頼の詳細を聞こう。": [
-      {
-        "path": "localization/ko-KR/original-database.json",
-        "entry_index": 2320,
-        "entry_id": "2a6724b7db328cc3cb07"
-      }
-    ],
-    "陽牢の塔にいるラシエルからの指令を待とう。": [
-      {
-        "path": "localization/ko-KR/original-database.json",
-        "entry_index": 2340,
-        "entry_id": "251b80078cb603c621b9"
       }
     ],
     "階層依存放射/ゲージ100％消費": [
@@ -34037,11 +35213,11 @@
         "entry_id": "0a82c1a2882a33205fc4"
       }
     ],
-    "馬": [
+    "駒": [
       {
-        "path": "localization/ko-KR/original-database.json",
-        "entry_index": 1822,
-        "entry_id": "11241ce75ad5f2ed91c0"
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 53,
+        "entry_id": "race.label.piece"
       }
     ],
     "駒を召喚する": [
@@ -34077,6 +35253,13 @@
         "path": "localization/ko-KR/original-tutorial.json",
         "entry_index": 154,
         "entry_id": "exhelp.15.line.2"
+      }
+    ],
+    "骸骨": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 52,
+        "entry_id": "race.label.skeleton"
       }
     ],
     "骸骨戦士 ＋ デッドアイズ": [
@@ -34161,6 +35344,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1021,
         "entry_id": "1602c9dc61e286a37d25"
+      }
+    ],
+    "魔人": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 31,
+        "entry_id": "race.label.mazin"
       }
     ],
     "魔儀迦": [
@@ -34463,6 +35653,13 @@
         "entry_id": "0ec2d8154b60b693df7a"
       }
     ],
+    "魔法使い": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 78,
+        "entry_id": "class.label.wizard"
+      }
+    ],
     "魔法使用不可": [
       {
         "path": "localization/ko-KR/original-database.json",
@@ -34503,6 +35700,13 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 1762,
         "entry_id": "23c0a36d7fd7574b409c"
+      }
+    ],
+    "魔法戦士": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 82,
+        "entry_id": "class.label.warmage"
       }
     ],
     "魔法攻撃への抵抗": [
@@ -34629,6 +35833,18 @@
         "path": "localization/ko-KR/original-database.json",
         "entry_index": 2113,
         "entry_id": "014a73c94df6df276f74"
+      },
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 64,
+        "entry_id": "race.label.bird"
+      }
+    ],
+    "鳥人": [
+      {
+        "path": "localization/ko-KR/original-races-classes.json",
+        "entry_index": 44,
+        "entry_id": "race.label.harpy"
       }
     ],
     "鷹の目": [

@@ -1,20 +1,7 @@
 {
-  "input_entries": 2870,
-  "runtime_keys": 4887,
-  "conflicts": {
-    "ありがとう！": [
-      "고마워!",
-      "고마워요!"
-    ],
-    "Thanks!": [
-      "고마워!",
-      "고마워요!"
-    ],
-    "うざい": [
-      "성가셔.",
-      "성가심"
-    ]
-  },
+  "input_entries": 2958,
+  "runtime_keys": 5058,
+  "conflicts": {},
   "omitted": [
     {
       "source": "Weight",
@@ -38,6 +25,10 @@
     },
     {
       "source": "It's nothing.",
+      "reason": "context_required"
+    },
+    {
+      "source": "Thanks!",
       "reason": "context_required"
     },
     {
@@ -925,6 +916,10 @@
       "reason": "Japanese alias disabled by contextual review"
     },
     {
+      "source": "うざい",
+      "reason": "Japanese alias disabled by contextual review"
+    },
+    {
       "source": "Normal",
       "reason": "English alias disabled by contextual review"
     },
@@ -1101,6 +1096,10 @@
       "reason": "English alias disabled by contextual review"
     },
     {
+      "source": "spider",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
       "source": "cold hound",
       "reason": "English alias disabled by contextual review"
     },
@@ -1205,6 +1204,14 @@
       "reason": "Japanese alias disabled by contextual review"
     },
     {
+      "source": "うざい",
+      "reason": "Japanese alias disabled by contextual review"
+    },
+    {
+      "source": "馬",
+      "reason": "Japanese alias disabled by contextual review"
+    },
+    {
       "source": "Riding",
       "reason": "English alias disabled by contextual review"
     },
@@ -1214,6 +1221,14 @@
     },
     {
       "source": "Magic",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "ありがとう！",
+      "reason": "Japanese alias disabled by contextual review"
+    },
+    {
+      "source": "Thanks!",
       "reason": "English alias disabled by contextual review"
     },
     {
@@ -1478,7 +1493,15 @@
     },
     {
       "source": "The guild master told me to assassinate the master of either of the other two guilds.",
-      "reason": "English alias disabled by contextual review"
+      "reason": "context_required"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "context_required"
+    },
+    {
+      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
+      "reason": "context_required"
     },
     {
       "source": "The guild master told me to assassinate the master of either of the other two guilds.",
@@ -1489,12 +1512,8 @@
       "reason": "English alias disabled by contextual review"
     },
     {
-      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
-      "reason": "English alias disabled by contextual review"
-    },
-    {
-      "source": "The guild master told me to assassinate the master of either of the other two guilds.",
-      "reason": "English alias disabled by contextual review"
+      "source": "I need to wait the mission from Arasiel.",
+      "reason": "context_required"
     },
     {
       "source": "The guild master told me to assassinate the master of either of the other two guilds.",
@@ -1571,6 +1590,78 @@
     {
       "source": "",
       "reason": "context_required"
+    },
+    {
+      "source": "largeanimal",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "lizardman",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "beetle",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "imp",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "hand",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "cupid",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "harpy",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "beast",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "spider",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "rock",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "piece",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "shell",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "mutant",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "servant",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "馬",
+      "reason": "Japanese alias disabled by contextual review"
+    },
+    {
+      "source": "thief",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "archer",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "tourist",
+      "reason": "English maps to multiple Japanese meanings"
     },
     {
       "source": "North Tyris is a continent in the western hemisphere of Irva. Lots of merchants and travelers set foot on North Tyris' soil with the dream of making a fortune in the ancient ruins of Nefia.",

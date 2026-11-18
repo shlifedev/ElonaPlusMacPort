@@ -1,0 +1,1712 @@
+[
+  {
+    "id": "race.label.kobolt",
+    "source": "kobolt",
+    "source_ja": "コボルト",
+    "target": "코볼트",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434185"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.orc",
+    "source": "orc",
+    "source_ja": "オーク",
+    "target": "오크",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434253"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.largeanimal",
+    "source": "largeanimal",
+    "source_ja": "巨獣",
+    "target": "거대 짐승",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434321"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.lizardman",
+    "source": "lizardman",
+    "source_ja": "竜人",
+    "target": "용인",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434389"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.minotaur",
+    "source": "minotaur",
+    "source_ja": "ミノタウロス",
+    "target": "미노타우로스",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434457"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.yerles",
+    "source": "yerles",
+    "source_ja": "イェルス",
+    "target": "이에르스",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434525"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Yerles"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433818",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.norland",
+    "source": "norland",
+    "source_ja": "ノーランド",
+    "target": "노랜드",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434598"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.eulderna",
+    "source": "eulderna",
+    "source_ja": "エウダーナ",
+    "target": "에우데르나",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434671"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Eulderna"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433828",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.fairy",
+    "source": "fairy",
+    "source_ja": "妖精",
+    "target": "요정",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434744"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Fairy"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433833",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.asura",
+    "source": "asura",
+    "source_ja": "阿修羅",
+    "target": "아수라",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434832"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.slime",
+    "source": "slime",
+    "source_ja": "スライム",
+    "target": "슬라임",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434901"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.doggod",
+    "source": "doggod",
+    "source_ja": "犬の神",
+    "target": "개의 신",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:434969"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.dwarf",
+    "source": "dwarf",
+    "source_ja": "丘の民",
+    "target": "언덕의 민족",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435036"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Dwarf"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433853",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.juere",
+    "source": "juere",
+    "source_ja": "ジューア",
+    "target": "주아",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435105"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Juere"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433858",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.zombie",
+    "source": "zombie",
+    "source_ja": "ゾンビ",
+    "target": "좀비",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435178"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.elea",
+    "source": "elea",
+    "source_ja": "エレア",
+    "target": "엘레아",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435261"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Elea"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433868",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.rabbit",
+    "source": "rabbit",
+    "source_ja": "ウサギ",
+    "target": "토끼",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435334"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.sheep",
+    "source": "sheep",
+    "source_ja": "羊",
+    "target": "양",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435402"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.frog",
+    "source": "frog",
+    "source_ja": "蛙",
+    "target": "개구리",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435470"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.worm",
+    "source": "worm",
+    "source_ja": "ワーム",
+    "target": "웜",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435538"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.snail",
+    "source": "snail",
+    "source_ja": "かたつむり",
+    "target": "달팽이",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435606"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Snail"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433893",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.mandrake",
+    "source": "mandrake",
+    "source_ja": "マンドレイク",
+    "target": "맨드레이크",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435672"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.beetle",
+    "source": "beetle",
+    "source_ja": "昆虫",
+    "target": "곤충",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435741"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.mushroom",
+    "source": "mushroom",
+    "source_ja": "きのこ",
+    "target": "버섯",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435809"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.bat",
+    "source": "bat",
+    "source_ja": "コウモリ",
+    "target": "박쥐",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435877"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.ent",
+    "source": "ent",
+    "source_ja": "エント",
+    "target": "엔트",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:435952"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.lich",
+    "source": "lich",
+    "source_ja": "リッチ",
+    "target": "리치",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436020"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Lich"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433923",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.bacteria",
+    "source": "bacteria",
+    "source_ja": "バクテリア",
+    "target": "박테리아",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436104"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.ghost",
+    "source": "ghost",
+    "source_ja": "幽霊",
+    "target": "유령",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436173"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.spirit",
+    "source": "spirit",
+    "source_ja": "精霊",
+    "target": "정령",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436257"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.eye",
+    "source": "eye",
+    "source_ja": "目",
+    "target": "눈",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436325"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.mazin",
+    "source": "mazin",
+    "source_ja": "魔人",
+    "target": "마인",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436393"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.wasp",
+    "source": "wasp",
+    "source_ja": "ワスプ",
+    "target": "말벌",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436461"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.giant",
+    "source": "giant",
+    "source_ja": "巨人",
+    "target": "거인",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436529"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.imp",
+    "source": "imp",
+    "source_ja": "悪魔",
+    "target": "악마",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436597"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.hand",
+    "source": "hand",
+    "source_ja": "手",
+    "target": "손",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436665"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.snake",
+    "source": "snake",
+    "source_ja": "蛇",
+    "target": "뱀",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436733"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.drake",
+    "source": "drake",
+    "source_ja": "亜竜",
+    "target": "아룡",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436801"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.goblin",
+    "source": "goblin",
+    "source_ja": "ゴブリン",
+    "target": "고블린",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436869"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Goblin"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:433983",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.bear",
+    "source": "bear",
+    "source_ja": "熊",
+    "target": "곰",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:436938"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.armor",
+    "source": "armor",
+    "source_ja": "鎧",
+    "target": "갑옷",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437006"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.medusa",
+    "source": "medusa",
+    "source_ja": "メデューサ",
+    "target": "메두사",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437075"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.cupid",
+    "source": "cupid",
+    "source_ja": "天使",
+    "target": "천사",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437143"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.karune",
+    "source": "karune",
+    "source_ja": "カルーン",
+    "target": "카룬",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437212"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.harpy",
+    "source": "harpy",
+    "source_ja": "鳥人",
+    "target": "조인",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437285"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.dragon",
+    "source": "dragon",
+    "source_ja": "ドラゴン",
+    "target": "드래곤",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437353"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.dinosaur",
+    "source": "dinosaur",
+    "source_ja": "恐竜",
+    "target": "공룡",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437421"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.beast",
+    "source": "beast",
+    "source_ja": "幻獣",
+    "target": "환수",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437489"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.spider",
+    "source": "spider",
+    "source_ja": "蜘蛛",
+    "target": "거미",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437557"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 퀴즈·몬스터명의 まだら蜘蛛도 spider를 사용하므로 영어 전역 키를 비활성화한다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.golem",
+    "source": "golem",
+    "source_ja": "ゴーレム",
+    "target": "골렘",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437625"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Golem"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:434038",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "race.label.rock",
+    "source": "rock",
+    "source_ja": "鉱物",
+    "target": "광물",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437694"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.zanan",
+    "source": "zanan",
+    "source_ja": "ザナン",
+    "target": "자난",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437763"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.skeleton",
+    "source": "skeleton",
+    "source_ja": "骸骨",
+    "target": "해골",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437836"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.piece",
+    "source": "piece",
+    "source_ja": "駒",
+    "target": "체스 말",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437920",
+      "2.335:start.hsp:266895",
+      "2.335:start.hsp:269495",
+      "2.335:start.hsp:269560"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다. 고성의 체스 말에 관한 캐릭터 카드 설명을 대조해 동물 말과 구분한다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.cat",
+    "source": "cat",
+    "source_ja": "猫",
+    "target": "고양이",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:437989"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.dog",
+    "source": "dog",
+    "source_ja": "犬",
+    "target": "개",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438057"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.roran",
+    "source": "roran",
+    "source_ja": "ローラン",
+    "target": "로란",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438125"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.rat",
+    "source": "rat",
+    "source_ja": "ねずみ",
+    "target": "쥐",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438198"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.shell",
+    "source": "shell",
+    "source_ja": "甲殻",
+    "target": "갑각류",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438266",
+      "2.335:start.hsp:269911"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다. 카드의 소라게/갑각류 설명을 대조했다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.catgod",
+    "source": "catgod",
+    "source_ja": "猫の神",
+    "target": "고양이의 신",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438336"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.machinegod",
+    "source": "machinegod",
+    "source_ja": "機械の神",
+    "target": "기계의 신",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438404"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.undeadgod",
+    "source": "undeadgod",
+    "source_ja": "死霊の神",
+    "target": "사령의 신",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438472"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.machine",
+    "source": "machine",
+    "source_ja": "機械",
+    "target": "기계",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438539"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.wisp",
+    "source": "wisp",
+    "source_ja": "ウィスプ",
+    "target": "위스프",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438609"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.bird",
+    "source": "bird",
+    "source_ja": "鳥",
+    "target": "새",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438677"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.seamonster",
+    "source": "seamonster",
+    "source_ja": "海魔",
+    "target": "바다 마물",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438745"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.catsister",
+    "source": "catsister",
+    "source_ja": "ケモビト",
+    "target": "수인",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438813"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.mutant",
+    "source": "mutant",
+    "source_ja": "カオスシェイプ",
+    "target": "카오스 셰이프",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438881"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "source_aliases": [
+      "Mutant"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:434128",
+        "2.335:start.hsp:223490",
+        "2.335:start.hsp:223502",
+        "2.335:start.hsp:223547"
+      ],
+      "context": "기본 종족 목록(val=0)의 ID → dbmode=2 racename의 lang/ cnven → 종족 선택 목록 cs_list. 사용자 종족명 변경 입력 이전의 원본 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    },
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.yeek",
+    "source": "yeek",
+    "source_ja": "イーク",
+    "target": "이이크",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:438953"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.yith",
+    "source": "yith",
+    "source_ja": "異星主",
+    "target": "외계의 지배자",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439021",
+      "2.335:start.hsp:259173"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 무형 괴물의 부모인 외계 지배자를 가리키는 카드 문맥을 대조했다. 영문 식별자에서 신화 설정을 추가하지 않는다."
+  },
+  {
+    "id": "race.label.servant",
+    "source": "servant",
+    "source_ja": "神の化身",
+    "target": "신의 화신",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439089"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "english_enabled": false
+  },
+  {
+    "id": "race.label.horse",
+    "source": "horse",
+    "source_ja": "馬",
+    "target": "말",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439165"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 탑승 대상 선택 레이블 馬는 말 이외의 탈것도 가리키므로 일본어 전역 키를 비활성화한다.",
+    "japanese_enabled": false
+  },
+  {
+    "id": "race.label.god",
+    "source": "god",
+    "source_ja": "神",
+    "target": "신",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439233"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 표시 기록의 God는 캐릭터 시트의 신앙 항목(297424/297427행)이므로 종족 별칭으로 사용하지 않는다. 종족 신의 실제 선택 표시는 추가 종족 목록에서 (extra)God가 되며 이번 실행의 God 관측과 구분한다."
+  },
+  {
+    "id": "race.label.quickling",
+    "source": "quickling",
+    "source_ja": "クイックリング",
+    "target": "퀵클링",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439319"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.metal",
+    "source": "metal",
+    "source_ja": "メタル",
+    "target": "메탈",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439394"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "race.label.vehicle",
+    "source": "vehicle",
+    "source_ja": "乗用機械",
+    "target": "탑승 기계",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439469"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+  },
+  {
+    "id": "class.label.warrior",
+    "source": "warrior",
+    "source_ja": "戦士",
+    "target": "전사",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439570",
+      "2.335:start.hsp:439573"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Warrior"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439531",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.thief",
+    "source": "thief",
+    "source_ja": "遺跡荒らし",
+    "target": "유적 약탈자",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439628",
+      "2.335:start.hsp:439631"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "source_aliases": [
+      "Thief"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439533",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    },
+    "english_enabled": false
+  },
+  {
+    "id": "class.label.wizard",
+    "source": "wizard",
+    "source_ja": "魔法使い",
+    "target": "마법사",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439683",
+      "2.335:start.hsp:439686"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Wizard"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439535",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.farmer",
+    "source": "farmer",
+    "source_ja": "農民",
+    "target": "농부",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439737",
+      "2.335:start.hsp:439740"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Farmer"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439537",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.predator",
+    "source": "predator",
+    "source_ja": "プレデター",
+    "target": "프레데터",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439790",
+      "2.335:start.hsp:439793"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Predator"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439539",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.archer",
+    "source": "archer",
+    "source_ja": "狩人",
+    "target": "사냥꾼",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439842",
+      "2.335:start.hsp:439845"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
+    "source_aliases": [
+      "Archer"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439541",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    },
+    "english_enabled": false
+  },
+  {
+    "id": "class.label.warmage",
+    "source": "warmage",
+    "source_ja": "魔法戦士",
+    "target": "마법전사",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439897",
+      "2.335:start.hsp:439900"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Warmage"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439543",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.tourist",
+    "source": "tourist",
+    "source_ja": "観光客",
+    "target": "관광객",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439952",
+      "2.335:start.hsp:439955"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Tourist"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439545",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.pianist",
+    "source": "pianist",
+    "source_ja": "ピアニスト",
+    "target": "피아니스트",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:439998",
+      "2.335:start.hsp:440001"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Pianist"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439547",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.gunner",
+    "source": "gunner",
+    "source_ja": "機工兵",
+    "target": "기공병",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:440051",
+      "2.335:start.hsp:440054"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Gunner"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439549",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.priest",
+    "source": "priest",
+    "source_ja": "プリースト",
+    "target": "사제",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:440105",
+      "2.335:start.hsp:440108"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Priest"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439551",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  },
+  {
+    "id": "class.label.claymore",
+    "source": "claymore",
+    "source_ja": "クレイモア",
+    "target": "클레이모어",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:440160",
+      "2.335:start.hsp:440163"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
+    "source_aliases": [
+      "Claymore"
+    ],
+    "alias_evidence": {
+      "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
+      "source_ref": [
+        "2.335:start.hsp:265",
+        "2.335:start.hsp:439553",
+        "2.335:start.hsp:223781",
+        "2.335:start.hsp:223787",
+        "2.335:start.hsp:223818",
+        "2.335:start.hsp:223820"
+      ],
+      "context": "직업 DB 기본 목록 ID → 일본어 classname 또는 영어 cnven(ID) → 직업 선택 목록 cs_list. 사용자 직업명 변경과 별개인 기본 레이블이다.",
+      "review_status": "source-context-reviewed"
+    }
+  }
+]

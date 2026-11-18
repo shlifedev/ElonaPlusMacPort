@@ -106,13 +106,50 @@ python3 -m unittest discover -s tests/localization/source_transform -p 'test_*.p
 
 증거는 `work/localization/managed-gmes-v1-01/game-check/summary.json`, 재현 절차는 `work/localization/check_managed_game.py`다. 여기의 `original` 경로 이름은 비교 도구의 기준 쪽 이름이며, 실제 AX는 **무수정 native 재컴파일본**임을 `argv.json`으로 확인할 수 있다. 원본 normalized AX와 native 재컴파일본 비교는 관문 1의 별도 결과다.
 
+## 관문 4: 노른 18블록·48페이지의 한국어 레이아웃
+
+`work/localization/check_tutorial_layout.py`는 번역 JSON에서 JP 도움말 79행을 읽어 private HSP fixture를 만든다. 게임과 같은 480×175 표면, x=120/y=55/폭=330의 본문과 기존 48페이지 경계를 사용해 type48/$00를 직접 호출했다. 호스트 SHA는 `f6f4d974d73c3cc4aba084c346c47261060128d04a042c2ca8eabd5bd49c3c90`이다.
+
+결과는 **79/79 문단 매치, exit 0, 48/48페이지 높이 초과 없음**이다. 반환 높이를 누적한 최대 다음 y는 171(10블록 2페이지)이다. BMP의 실제 잉크 픽셀도 48개 모두 본문 폭 안에 있었으며 최대 x=448, y=166이었다. `b01-p01`, 가장 긴 `b10-p02`, 반복된 원문 강조 태그가 있는 `b18-p01` PNG를 열어 한글·태그·줄바꿈을 확인했다. 본문 축약이나 페이지 삭제 없이 통과했다.
+
+증거: `work/localization/tutorial-layout-01/summary.json`, `pixel-bounds.json`, `user/user/layout.csv`와 48개 BMP. 이 fixture는 **실제 전체 게임의 도움말 창을 실행한 것이 아니며**, 현재 JP-only 도움말 번역이 EN 게임 모드에서도 적용된다는 뜻이 아니다. Windows의 다른 글꼴과 실제 게임 배경/초상화/키 입력도 별도 관문이다.
+
+## 관문 5: 실제 일본어 기반 게임에서 한국어 도움말·저장 대조
+
+공개 재현 도구 [run_game_gate.py](../tests/localization/source_transform/run_game_gate.py)는 기존 영어 신규 게임 스크립트에서 첫 언어 선택의 `DOWN` 한 번만 제거해 JP 기반 새 프로필 두 개를 만든다. 한쪽은 무수정 native reference AX, 다른 쪽은 관리 변환 AX와 고정 복사한 한국어 catalog를 사용한다. 각 프로필을 새 프로세스로 불러온 뒤 집을 나가 노른 안내를 읽고 북부 티리스에서 저장한다.
+
+`work/localization/japanese-gate-final-01/summary.json`의 **6/6 실행 통과** 결과:
+
+| 단계 | 양쪽 프레임·종료 | 원문/한국어 세이브 대조 |
+|---|---|---|
+| 타이틀→캐릭터 생성→집→이동→저장 | 4358, `end/0` | 154/154 압축 해제 파일 동일 |
+| 새 프로세스 불러오기→인벤토리→재저장 | 1158, `end/0` | 154/154 동일 |
+| 로미아스·라네이레 작별→노른 안내→북부 티리스→저장 | 3008, `end/0` | 162/162 동일 |
+
+세 단계 모두 이름·좌표·레벨·맵·전체 인벤토리·기술 필드 불변, 양쪽 턴 차이 0, 오류·미지원 0이다. 한국어 표시에 의해 화면은 달라졌다. 원본 트리/ZIP과 사용 host 해시는 불변이었다. 이 실행에서 사용한 catalog SHA-256은 `300ba300ee71dc733705857b131dc8d5373de26a1b8aba2eeb3e33d8010f2862`이며, 이후 추가되는 번역까지 검증됐다는 뜻은 아니다.
+
+실제 게임의 노른 **집 안내 2페이지와 세계 지도 안내 4페이지**, 원문 문단 **12개**가 native gmes로 표시됐다. 실제 배경·초상화·강조·다음 페이지 표식을 포함한 `norne-home-1.png`, `norne-world-4.png`를 열어 확인했다. 각 BMP는 `korean/world/cwd/shots/` 아래 있으며, 최종 저장 위치는 북부 티리스(맵 4), 좌표 (22,21)이다.
+
+```sh
+python3 tests/localization/source_transform/run_game_gate.py \
+  --host build/localization-check/elona_gui_host \
+  --reference-ax work/localization/cp932-full-reference-01/start.ax \
+  --managed-ax work/localization/managed-gmes-v1-01/start.ax \
+  --catalog localization/ko-KR/runtime.tsv \
+  --work work/localization/japanese-gate-final-01
+```
+
+새 실행에는 새 `--work` 이름이 필요하다. 이 도구는 재사용 가능한 실험용 경로이며 개인 세이브를 받지 않는다. 검증된 JP 프로필은 집의 (11,13)에서 시작하므로 기존 EN의 (12,17)용 탈출 스크립트를 그대로 쓰면 벽에 막혔다. 최종 [japanese_home_to_world.script](../tests/localization/source_transform/japanese_home_to_world.script)는 실제 맵을 읽기 전용으로 확인한 뒤 키 입력만 조정했다. 초기 실패 probe의 `gmes=0`은 도움말 통과로 세지 않는다. 검증용 맵·저장 배열이나 게임 규칙을 바꾸지는 않았다.
+
+이번 관문은 Mac의 결정적 헤드리스 게임 표시다. 실제 키보드로 장시간 플레이하거나 Windows에서 이 관리 AX를 실행한 결과는 아니다. 긴 NPC 대사의 `talk_conv` 경계, 미번역 UI·로그, 동적 문장 등은 여전히 남는다.
+
 ## 다음 통합 관문
 
 호스트 type48 구현과 UTF-8 문단 렌더는 별도 담당이다. 준비 도구가 생성한 AX를 아직 기본/한국어 런처가 사용하도록 바꾸지 않는다.
 
-1. locale off/catalog miss에서 변환 AX와 무변환 AX의 픽셀·저장·입력 결과가 같아야 한다.
+1. locale off 비교와 JP 기반 한국어 실제 게임의 저장·입력 경로는 관문 3/5에서 통과했다. 이후 번역/호스트 변경 시 같은 재현 도구로 필요한 회귀를 수행한다.
 2. 짧은 문단 fixture에서 강조 태그·줄바꿈·그림자·반환 높이·다음 표시 위치와 `stat=0`을 확인한다.
-3. 노른 18블록/48개 원문 페이지를 실제 창에 그려 330px 본문 폭과 175px 창의 높이 초과 여부를 검사한다. gmes 한 줄 훅은 페이지 전체 높이 문제를 자동으로 해결하지 않는다.
+3. 노른 18블록/48개 원문 페이지의 native fixture, 실제 게임의 초기 6페이지는 관문 4/5를 통과했다. 나머지 실제 게임 맥락과 Windows에서 같은 경계를 검사한다. gmes 한 줄 훅은 임의의 추가 번역에 대한 페이지 높이를 자동으로 보장하지 않는다.
 4. 첫 집 대화는 `talk_conv` 이전 전체 `buff` 캡처와 본문 루프 경계가 별도로 필요하다. 이번 gmes 훅만으로 첫 집 91개 항목 전체가 표시된다고 보고하지 않는다.
 5. 6개 동적 템플릿은 이름·호칭을 정해진 인수로 넘기는 후속 문맥 API가 필요하다. 완성된 이름에 정규식 치환을 걸지 않는다.
 
