@@ -47,15 +47,22 @@ def main():
     dense.eval().to(device)
 
     def encode(texts):
-        x = tokenizer(texts, return_tensors='pt', padding=True, truncation=True, max_length=256)
-        cls_vectors = model(**x.to(device)).last_hidden_state[:, 0, :]
-        return torch.nn.functional.normalize(torch.tanh(dense(cls_vectors)))
+        x = tokenizer(texts, return_tensors='pt', padding=True, truncation=True, max_length=257)
+        within_limit = x.attention_mask.sum(dim=1) <= 256
+        inputs = {key: value[:, :256].to(device) for key, value in x.items()}
+        cls_vectors = model(**inputs).last_hidden_state[:, 0, :]
+        embeddings = torch.nn.functional.normalize(torch.tanh(dense(cls_vectors)))
+        return embeddings, within_limit.to(device)
 
     with torch.inference_mode():
         for start in range(0, len(pending), 64):
             batch = pending[start:start + 64]
             jp, ko = zip(*batch)
-            cosine = (encode(list(jp)) * encode(list(ko))).sum(dim=-1)
+            source_vectors, source_fits = encode(list(jp))
+            target_vectors, target_fits = encode(list(ko))
+            cosine = (source_vectors * target_vectors).sum(dim=-1)
+            # A shared prefix cannot certify the unseen tail of a longer text.
+            cosine = cosine.masked_fill(~(source_fits & target_fits), 0)
             scores.update({pair_hash(*pair): round(value, 6)
                            for pair, value in zip(batch, cosine.tolist(), strict=True)})
     args.scores.write_text(json.dumps(scores, sort_keys=True), encoding='utf-8')
