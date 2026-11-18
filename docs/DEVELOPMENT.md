@@ -101,7 +101,26 @@ python3 tools/prepare_korean_game.py --output work/localization/managed-creation
 GitHub Actions는 `main`과 `dev` 브랜치를 대상으로 한다. 원본 게임이 없는 환경이므로 저장소만으로 검증 가능한 범위만 실행한다. `tests/game` 실제 플레이 시나리오와 세이브 왕복은 포함하지 않는다.
 
 - `.github/workflows/ci.yml` — push/PR(`main`, `dev`): Python 단위 테스트, macOS arm64 legacy-cp932 debug 빌드와 CTest, Windows x64 legacy-cp932 debug 빌드와 CTest(`tools/windows_build.ps1`과 같이 Python 기반 fixture 제외).
-- `.github/workflows/cd.yml` — `main` push: macOS Release 빌드와 CTest 후 `elona_gui_host`, `elona_hspcmp`를 14일 보존 workflow artifact로 올린다. 앱 패키지나 공개 릴리스가 아니며 실행에는 원본 2.335와 준비된 작업공간이 필요하다.
+- `.github/workflows/release.yml` — `main` push: macOS `.dmg`와 Windows `.zip`을 만들어 `build-<번호>` release(Latest, 버전 `0.1.<번호>`)로 올린다. 자동 빌드 release는 최근 5개만 남긴다. 게임 코드 입력용 `game-data-2.335`는 prerelease로 둔다.
+
+## 배포 패키지
+
+`launcher/`는 Tauri 2 런처다. 게임 폴더 선택(elonaplus.exe SHA-256 확인), 언어 선택, 실행만 한다. 실행은 `tools/play_game.py`와 같은 인자로 `elona_gui_host`를 띄우고, 세이브·설정은 OS 데이터 폴더의 `ElonaPlus Native/`(`user/`, `sessions/play-*`, `launcher.cfg`)에 둔다. 같은 프로필을 두 번 여는 것은 `user/.native-player.lock` 잠금으로 막는다.
+
+`tools/package_release.py`가 패키지를 만든다.
+
+- mac: 호스트 rpath를 `@executable_path/../Frameworks`로 바꾸고 SDL 프레임워크와 `data/`를 `launcher/stage/`에 모은다. 그다음 Tauri로 `.app`(ad-hoc 서명)을 만들고 `hdiutil`로 `.dmg`를 만든다.
+- windows: `tauri build --no-bundle`로 만든 `ElonaPlus.exe`, `elona_gui_host.exe`, SDL DLL, `data/`를 `.zip`으로 묶는다. SDL VC 패키지는 `tools/reference/windows_gui_deps.py --extract .cache/windows-gui`로 준비하고, 호스트는 `windows-x64-legacy-cp932-release` preset으로 빌드한다.
+
+패키지에 넣는 게임 코드는 `packaging/game-data.json`의 파일 네 개(정규화 원본 AX, 한국어 AX, scene1/2.hsp)뿐이다. 그래픽·음악·효과음·맵은 넣지 않는다. CI에는 원본이 없으므로 이 파일들은 GitHub release `game-data-2.335`에 올려 두고 SHA-256으로 확인한다. 한국어 AX가 바뀌면 로컬에서 다시 만들고 다음 순서로 갱신한다.
+
+```sh
+cp work/localization/<새 AX 폴더>/start.ax /tmp/start-ko.ax
+gh release upload game-data-2.335 /tmp/start-ko.ax --clobber
+# packaging/game-data.json 해시와 tools/play_game.py의 MANAGED_*를 함께 갱신
+```
+
+로컬 확인: `python3 tools/package_release.py --platform mac --build-dir build/native-macos-arm64-legacy-cp932-release`(기본 입력은 로컬 `work/`). Developer ID 서명과 공증은 하지 않는다.
 
 ## 배포물 구분
 

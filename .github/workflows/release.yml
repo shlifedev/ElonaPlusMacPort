@@ -1,0 +1,116 @@
+name: Release
+
+# Every push to main builds the macOS .dmg and Windows .zip and publishes them
+# as the latest release. Prebuilt game code comes from the `game-data-2.335` release
+# (see packaging/game-data.json); graphics, sound and maps are never bundled.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+env:
+  VERSION: 0.1.${{ github.run_number }}
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  mac:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install ninja
+      - uses: actions/cache@v4
+        with:
+          path: |
+            .cache/upstream/OpenHSP
+            .cache/audio
+            .cache/macos-gui
+          key: mac-release-${{ hashFiles('tools/bootstrap_*.py', 'patches/**') }}
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            launcher/target
+          key: tauri-mac-${{ hashFiles('launcher/Cargo.lock') }}
+      - name: Build host
+        run: |
+          python3 tools/bootstrap_openhsp.py
+          python3 tools/bootstrap_audio.py
+          python3 tools/bootstrap_macos_gui.py
+          cmake --preset macos-arm64-legacy-cp932-release
+          cmake --build --preset macos-arm64-legacy-cp932-release
+          ctest --test-dir build/native-macos-arm64-legacy-cp932-release --output-on-failure --no-tests=error
+      - name: Package
+        run: |
+          gh release download game-data-2.335 -D work/game-data
+          python3 tools/package_release.py --platform mac --build-dir build/native-macos-arm64-legacy-cp932-release --game-data work/game-data --version "$VERSION"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mac
+          path: build/package/*.dmg
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+      - uses: actions/cache@v4
+        with:
+          path: |
+            .cache/upstream/OpenHSP
+            .cache/audio
+            .cache/downloads/windows-gui
+          key: win-release-${{ hashFiles('tools/bootstrap_*.py', 'tools/reference/windows_gui_deps*', 'patches/**') }}
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            launcher/target
+          key: tauri-win-${{ hashFiles('launcher/Cargo.lock') }}
+      - name: Build host
+        run: |
+          python tools/bootstrap_openhsp.py
+          python tools/bootstrap_audio.py
+          python tools/reference/windows_gui_deps.py --extract .cache/windows-gui
+          cmake --preset windows-x64-legacy-cp932-release
+          cmake --build --preset windows-x64-legacy-cp932-release --target elona_gui_host
+      - name: Package
+        shell: bash
+        run: |
+          gh release download game-data-2.335 -D work/game-data
+          python tools/package_release.py --platform windows --build-dir build/native-windows-x64-legacy-cp932-release --game-data work/game-data --sdl-root .cache/windows-gui --version "$VERSION"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: build/package/*.zip
+
+  publish:
+    needs: [mac, windows]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Create release
+        run: |
+          gh release create "build-${{ github.run_number }}" dist/* \
+            -R "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --latest \
+            --title "ElonaPlus $VERSION" \
+            --notes "Automatic build of ${GITHUB_SHA::7}. You need your own ElonaPlus 2.335; see README.txt inside the package."
+      - name: Keep the latest 5 automatic builds
+        run: |
+          gh release list -R "$GITHUB_REPOSITORY" --limit 100 --json tagName -q '.[].tagName' \
+            | grep '^build-' | sort -t- -k2 -n -r | tail -n +6 \
+            | xargs -r -I{} gh release delete {} -R "$GITHUB_REPOSITORY" --yes --cleanup-tag

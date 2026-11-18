@@ -13,3 +13,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 /CMakeUserPresets.json
+/launcher/target/
+/launcher/stage/
+/launcher/gen/

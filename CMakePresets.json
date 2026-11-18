@@ -51,6 +51,21 @@
         "SDL3_DIR": "${sourceDir}/.cache/macos-gui/SDL3-3.4.20/SDL3.framework/Resources/CMake",
         "SDL3_ttf_DIR": "${sourceDir}/.cache/macos-gui/SDL3_ttf-3.2.2/SDL3_ttf.framework/Resources/CMake"
       }
+    },
+    {
+      "name": "windows-x64-legacy-cp932-release",
+      "inherits": "windows-x64-legacy-cp932-debug",
+      "binaryDir": "${sourceDir}/build/native-windows-x64-legacy-cp932-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "BUILD_TESTING": "OFF",
+        "ELONA_GUI": "ON",
+        "ELONA_TEXT_TTF": "ON",
+        "CMAKE_PREFIX_PATH": "${sourceDir}/.cache/windows-gui/SDL3-3.4.20;${sourceDir}/.cache/windows-gui/SDL3_ttf-3.2.2",
+        "CMAKE_DISABLE_FIND_PACKAGE_Python3": "TRUE",
+        "CMAKE_FIND_USE_PACKAGE_REGISTRY": "OFF",
+        "CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY": "OFF"
+      }
     }
   ],
   "buildPresets": [
@@ -73,6 +88,10 @@
     {
       "name": "macos-arm64-legacy-cp932-release",
       "configurePreset": "macos-arm64-legacy-cp932-release"
+    },
+    {
+      "name": "windows-x64-legacy-cp932-release",
+      "configurePreset": "windows-x64-legacy-cp932-release"
     }
   ],
   "testPresets": [

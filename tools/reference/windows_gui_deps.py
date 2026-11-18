@@ -80,8 +80,20 @@ def fetch(pin_missing: bool):
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--pin", action="store_true", help="record SHA-256 for deps without a pinned value")
+    ap.add_argument("--extract", type=Path, metavar="DIR",
+                    help="also unpack the verified packages into DIR (CI/packaging; CMAKE_PREFIX_PATH roots)")
     args = ap.parse_args()
     deps = fetch(args.pin)
+    if args.extract:
+        args.extract.mkdir(parents=True, exist_ok=True)
+        for d in deps:
+            with zipfile.ZipFile(CACHE / d["name"]) as z:
+                for member in z.namelist():
+                    target = (args.extract / member).resolve()
+                    if not target.is_relative_to(args.extract.resolve()):
+                        raise SystemExit(f"{d['name']}: unsafe member path {member}")
+                z.extractall(args.extract)
+        print("extracted:", ", ".join(sorted(p.name for p in args.extract.iterdir() if p.is_dir())))
     print(json.dumps([{k: d[k] for k in ("name", "sha256", "bytes", "sha256_source")} for d in deps], indent=1))
     for d in deps:
         print(d["name"], "notices:", ", ".join(d["notices_in_package"][:12]))

@@ -1,0 +1,11 @@
+{
+  "bundle": {
+    "externalBin": ["stage/elona_gui_host"],
+    "resources": { "stage/data/": "data/" },
+    "macOS": {
+      "frameworks": ["stage/Frameworks/SDL3.framework", "stage/Frameworks/SDL3_ttf.framework"],
+      "minimumSystemVersion": "13.0",
+      "signingIdentity": "-"
+    }
+  }
+}

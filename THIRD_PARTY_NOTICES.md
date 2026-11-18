@@ -18,6 +18,7 @@
 | [TinySoundFont](https://github.com/schellingb/TinySoundFont) | `a3621a19c6504885cd9583e6e26c35bc954fc8ec` | MIDI 신시사이저 | [MIT](licenses/TinySoundFont.txt) |
 | [dr_mp3](https://github.com/mackron/dr_libs) | v0.7.4, `aec2dd20667f54acfdb66031217df6d240f56c52` | MP3 디코더(minimp3 기반) | [Public Domain / MIT-0 및 minimp3 CC0](licenses/dr_mp3.txt) |
 | [GeneralUser GS](https://github.com/mrbumpy409/GeneralUser-GS) | v2.0.3, `684543d5e5efaef08d02be50dcda8d552478fa60` | MIDI 음색용 SoundFont; 개발 캐시에 별도 보관 | [GeneralUser GS License v2.0](licenses/GeneralUser-GS.txt) |
+| [Tauri](https://github.com/tauri-apps/tauri) | 2.12.5 (`launcher/Cargo.lock`) | 배포 패키지 런처 | MIT / Apache-2.0; 패키지의 `licenses/rust-crates.txt`에 런처에 링크된 crate 고지를 모은다 |
 | [ElonaPlusCustom-GX](https://github.com/JianmengYu/ElonaPlusCustom-GX) | `aebe0d8b1941ec2b664bbad87659e54cc3b8eb35` | 프로젝트 방식 참고; 게임 소스를 이 저장소에 복사하지 않음 | upstream 고지 참조 |
 | HSP 3.4 SDK | `hsp34a.zip`, SHA-256 `2b841c71bbe4efad0dce1bed88bdd72bfd4ebe5e5671689b4a5833c105b278cf` | Windows x86 참조 컴파일·작은 fixture 실행 | SDK 내부 원본 고지 보존; 개발 캐시에만 저장 |
 | ElonaPlus 2.335 | 입력 해시는 `docs/PLAN.md` 참조 | 로컬 원본 비교와 사용자 자산 | 원본 동봉 고지 유지; 배포물·추출물은 git 제외 |
