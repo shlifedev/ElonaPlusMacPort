@@ -2,7 +2,7 @@
 
 ElonaPlus **2.335**의 게임 규칙과 데이터를 보존하면서 **macOS ARM64 / Windows x64**에서 네이티브로 실행하기 위한 이식 프로젝트다. Custom-GX는 코드 복원과 유지보수 방식의 참고 자료이며 초기 기능 기준은 원본 2.335다.
 
-**현재 실험용 개발 빌드다.** macOS ARM64와 Windows x64에서 자동 입력으로 신규 게임, 맵 이동, 저장 후 새 프로세스에서 불러오기를 확인했다. Mac에서는 실제 SDL 창과 CoreAudio 음악·효과음 출력을 확인했다. 최근 Windows 검증에서 내부 렌더러는 타이틀을 그렸지만 외부 창 캡처에는 앞선 언어 선택 화면이 남았다. 전체 화면 설정으로 시작하면 현재 호스트가 종료된다. 장시간 수동 플레이와 OS 입력기를 통한 입력은 추가 검증이 필요하다. [Astra 6.2 검수 기록](docs/ASTRA_62_REVIEW.md)
+**현재 실험용 개발 빌드다.** macOS ARM64와 Windows x64에서 자동 입력으로 신규 게임, 맵 이동, 저장 후 새 프로세스에서 불러오기를 확인했다. Mac에서는 1280×768 전체 화면 설정으로 시작했고, Windows에서는 실제 게임 창의 타이틀을 외부 캡처와 대조했다. Mac 음악과 효과음은 CoreAudio 장치 경로를 사용한다. 장시간 수동 플레이와 OS 입력기를 통한 입력은 추가 검증이 필요하다. [검수 및 수정 기록](docs/ASTRA_62_REVIEW.md)
 
 ## 에이전트와 개발자 시작점
 
@@ -69,14 +69,11 @@ Mac에서 준비된 Release 실행물을 사용하려면 루트의 **`Play Elona
   원본은 이 창의 닫기도 전체 종료로 처리한다. 직접 호스트를 실행해 이 개선을 사용할 때는
   `--auxiliary-close-hide`를 지정한다. 본 게임 창을 닫는 동작은 그대로다.
 
-Mac Release를 다시 빌드할 때는 `cmake --preset macos-arm64-legacy-cp932-release`와
-`cmake --build --preset macos-arm64-legacy-cp932-release`를 사용한다. 실제 창에는 SDL3/SDL3_ttf가 필요하다.
+Mac Release는 최초 한 번 `python3 tools/bootstrap_macos_gui.py`로 공식 SDL3 및 SDL3_ttf 프레임워크를 프로젝트 캐시에 준비한다. 이후 `cmake --preset macos-arm64-legacy-cp932-release`와 `cmake --build --preset macos-arm64-legacy-cp932-release`로 더블클릭 런처가 사용하는 실행물을 빌드한다.
 일본어 텍스트는 표시 가능하지만 게임 문자열은 원본 CP932이므로 한국어/이모지 입력 지원을 의미하지 않는다.
 
 한국어 표시의 개발 중인 미리보기는 **`Play ElonaPlus Korean.command`** 또는
-`python3 tools/play_game.py --language ko`로 실행한다. 아직 전체 한글 패치가 아니며,
-검수한 고정 문구만 적용한다. 분할 출력되는 대사·튜토리얼, 동적 아이템 이름과 메시지에는
-원문이 남아 있다. 이름 입력과 저장 데이터는 원본 형식을 유지한다.
+`python3 tools/play_game.py --language ko`로 실행한다. 검수한 메뉴·고정 문구를 번역하며, 일본어 기반 게임에서는 준비된 관리 AX로 노른의 도움말 본문도 번역한다. 새 작업공간에서 문단 번역을 준비할 때는 위의 소스 복원·빌드 후 `python3 tools/prepare_korean_game.py --output work/localization/managed-gmes-v1-01 --compile`을 한 번 실행한다. 미번역 대사와 동적 메시지에는 원문이 남아 있다. 이름 입력과 저장 데이터는 원본 형식을 유지한다.
 [번역 출처](docs/KOREAN_SOURCES.md), [용어집](localization/ko-KR/glossary.tsv),
 [번역 지침](localization/ko-KR/style-guide.md)을 함께 관리한다.
 `--audit-translation`을 추가하면 해당 세션 폴더에 미번역 표시 문자열을 기록한다.

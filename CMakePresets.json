@@ -44,7 +44,12 @@
       "inherits": "macos-arm64-legacy-cp932-debug",
       "binaryDir": "${sourceDir}/build/native-macos-arm64-legacy-cp932-release",
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "ELONA_MACOS_PINNED_GUI": "ON",
+        "ELONA_GUI": "ON",
+        "ELONA_TEXT_TTF": "ON",
+        "SDL3_DIR": "${sourceDir}/.cache/macos-gui/SDL3-3.4.20/SDL3.framework/Resources/CMake",
+        "SDL3_ttf_DIR": "${sourceDir}/.cache/macos-gui/SDL3_ttf-3.2.2/SDL3_ttf.framework/Resources/CMake"
       }
     }
   ],

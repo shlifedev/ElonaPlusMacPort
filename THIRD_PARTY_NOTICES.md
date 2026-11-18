@@ -26,7 +26,7 @@
 
 Portions of this software are copyright © The FreeType Project (www.freetype.org). All rights reserved. FreeType에는 FTL을 선택한다. Windows SDL_ttf의 추가 고지는 공식 `release-3.2.2` 소스 트리의 고정 submodule에서 수집했다. 공식 VC 바이너리를 이 소스로 재현 빌드했다는 뜻은 아니다.
 
-Mac 개발 빌드는 기존 Homebrew SDL3/SDL3_ttf와 그 동적 의존성을 링크한다. 위 FreeType/HarfBuzz submodule 버전은 Windows 패키지의 소스 구성 기준이며 현재 Mac dylib 버전을 뜻하지 않는다. 앱 패키지 제작 시 실제 포함하는 dylib와 전이 의존성의 버전·고지를 다시 고정해야 한다. macOS/Windows 설치 글꼴은 시스템에서 읽으며 복사·재배포하지 않는다. GeneralUser GS의 고유 라이선스와 샘플 출처에 관한 원문 설명도 그대로 보존한다.
+Mac ARM64 Release는 SDL 공식 DMG에서 macOS 프레임워크와 동봉 고지를 개발 캐시로 복사한다. DMG와 바이너리 SHA-256은 준비 도구에 고정했다. 다른 개발 구성은 시스템에 설치된 SDL을 사용할 수 있다. 앱 패키지 제작 시 실제 포함하는 구성 요소와 고지를 확인해야 한다. macOS/Windows 설치 글꼴은 시스템에서 읽는다. GeneralUser GS의 라이선스와 샘플 출처 원문도 보존한다. [Mac 준비 도구](tools/bootstrap_macos_gui.py), [SDL 3.4.20](https://github.com/libsdl-org/SDL/releases/tag/release-3.4.20), [SDL_ttf 3.2.2](https://github.com/libsdl-org/SDL_ttf/releases/tag/release-3.2.2)
 
 ## 한국어 커뮤니티 번역
 
