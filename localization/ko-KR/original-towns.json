@@ -1,0 +1,1816 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 built-in data/talk.txt, exact original before dialect expansion"
+  },
+  "entries": [
+    {
+      "id": "town.117",
+      "source": "@town/ヴェルニースへようこそ。",
+      "target": "베르니스에 온 걸 환영해!",
+      "source_ref": "2.335:data/talk.txt:117",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.118",
+      "source": "@town/鉱山のおかげでこの街は潤っている{のだ}。",
+      "target": "광산 덕분에 이 마을이 살림 좀 펴고 살지.",
+      "source_ref": "2.335:data/talk.txt:118",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.119",
+      "source": "@town/ヴェルニースは歴史ある炭鉱街{だ}。",
+      "target": "베르니스는 역사가 깊은 탄광 마을이야.",
+      "source_ref": "2.335:data/talk.txt:119",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.120",
+      "source": "@town/あのバーでピアノを弾くのは、やめたほうがいい{よ}。",
+      "target": "저 술집에선 피아노 안 치는 게 좋아.",
+      "source_ref": "2.335:data/talk.txt:120",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.121",
+      "source": "@town/イェルスとエウダーナの戦争に巻き込まれるのは、ごめん{だ}。",
+      "target": "이에르스와 에우데르나의 전쟁에 휘말리는 건 딱 질색이야.",
+      "source_ref": "2.335:data/talk.txt:121",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.122",
+      "source": "@town/レシマスで何かが見つかったらしい{よ}。\t\t",
+      "target": "레시마스에서 뭔가 발견됐다더군.",
+      "source_ref": "2.335:data/talk.txt:122",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.123",
+      "source": "@town/新たなスキルを得る方法があるらしい{よ}。",
+      "target": "새로운 기술을 배우는 방법이 있다더라.",
+      "source_ref": "2.335:data/talk.txt:123",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.124",
+      "source": "@town/荷物の持ち過ぎには、注意したほうがいい{な}。",
+      "target": "짐을 너무 많이 지고 다니지 마.",
+      "source_ref": "2.335:data/talk.txt:124",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.125",
+      "source": "@town/お墓の傍にいる人？ああ、あの薬中とは関わっちゃいけない{よ}。",
+      "target": "무덤 옆에 있는 사람? 아, 그 약쟁이하고는 엮이지 마.",
+      "source_ref": "2.335:data/talk.txt:125",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.126",
+      "source": "@town/ミシェスはぬいぐるみマニア{だ}。",
+      "target": "미셰스는 봉제 인형이라면 사족을 못 써.",
+      "source_ref": "2.335:data/talk.txt:126",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.127",
+      "source": "@town/王都パルミアまでは、道をひたすら東にすすめばいい{よ}。",
+      "target": "왕도 팔미아에 가려면 길을 따라 쭉 동쪽으로 가.",
+      "source_ref": "2.335:data/talk.txt:127",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.128",
+      "source": "@town/シーナの尻は最高{だ}。",
+      "target": "시나 엉덩이가 최고지.",
+      "source_ref": "2.335:data/talk.txt:128",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.129",
+      "source": "@town/最近は、盗賊団なる輩がいて困る{よ}。",
+      "target": "요새 도적단인지 뭔지 하는 놈들 때문에 골치 아파.",
+      "source_ref": "2.335:data/talk.txt:129",
+      "section": "AREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.133",
+      "source": "@town/Welcome to Vernis!",
+      "target": "베르니스에 온 걸 환영해!",
+      "source_ref": "2.335:data/talk.txt:133",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.134",
+      "source": "@town/The mines around Vernis have brought a lot of money into our small community.  We are thriving thanks to the mines!",
+      "target": "베르니스 근처 광산에서 돈이 얼마나 들어오는지 알아? 이 작은 마을이 다 광산 덕에 먹고산다고!",
+      "source_ref": "2.335:data/talk.txt:134",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.135",
+      "source": "@town/Vernis may just be a coal mining town, but we have a long and notable history.",
+      "target": "탄광 마을이라고 우습게 보지 마. 베르니스는 유서 깊은 곳이니까.",
+      "source_ref": "2.335:data/talk.txt:135",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.136",
+      "source": "@town/If I were you, I wouldn't dare play the piano in the bar while Loyter is hanging out in there.  Don't say I didn't warn you.",
+      "target": "로이터가 술집에 죽치고 있는 동안엔 절대 피아노 치지 마. 경고는 했다?",
+      "source_ref": "2.335:data/talk.txt:136",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.137",
+      "source": "@town/We're caught in the crossfire of the war between the Yerles and the Eulderna for some time now.",
+      "target": "이에르스와 에우데르나의 전쟁에 끼어 양쪽에서 얻어맞은 지도 꽤 됐어.",
+      "source_ref": "2.335:data/talk.txt:137",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.138",
+      "source": "@town/Rumor has it that something of great value has been found in Lesimas.",
+      "target": "레시마스에서 굉장한 보물이 나왔다는 소문이 있어.",
+      "source_ref": "2.335:data/talk.txt:138",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.139",
+      "source": "@town/It seems there is a way to obtain new skills. See the trainer to the east of the town center.",
+      "target": "새 기술을 배우고 싶나? 마을 중심에서 동쪽으로 가면 훈련사가 있어.",
+      "source_ref": "2.335:data/talk.txt:139",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.140",
+      "source": "@town/Be careful about carrying too much stuff.  You should sell off anything you don't actually need.",
+      "target": "짐을 너무 많이 지면 고생이야. 당장 안 쓰는 건 팔아 버려.",
+      "source_ref": "2.335:data/talk.txt:140",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.141",
+      "source": "@town/That weirdo near the graveyard? Don't pay any attention to that bum. He's a hopeless junkie and I'm pretty sure he's an alcoholic too.",
+      "target": "묘지 옆의 괴짜 말이야? 그 건달은 신경 쓰지 마. 약에 절어 사는 데다 술까지 달고 사는 것 같더라고.",
+      "source_ref": "2.335:data/talk.txt:141",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.142",
+      "source": "@town/Miches is nuts about stuffed animals.  She's completely obsessed with collecting them.",
+      "target": "미셰스는 봉제 인형에 푹 빠졌어. 모으는 데 아주 정신이 없다니까.",
+      "source_ref": "2.335:data/talk.txt:142",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.143",
+      "source": "@town/The road to the east leads to the capital city of Palmia.",
+      "target": "동쪽 길을 따라가면 왕도 팔미아가 나와.",
+      "source_ref": "2.335:data/talk.txt:143",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.144",
+      "source": "@town/You could bounce a quarter off of Shena's ass.  How does she stay in such great shape?",
+      "target": "시나 엉덩이에 동전을 던지면 튕겨 나온다니까. 대체 어떻게 관리하는 거래?",
+      "source_ref": "2.335:data/talk.txt:144",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.145",
+      "source": "@town/We've had a lot of trouble with thieves recently.",
+      "target": "요새 도둑들 때문에 말썽이 많아.",
+      "source_ref": "2.335:data/talk.txt:145",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.146",
+      "source": "@town/The people in that live in the Cyber Dome are so strange.  What a bunch of freaks!",
+      "target": "사이버 돔에 사는 사람들 말이야, 어쩜 그리 하나같이 별난지!",
+      "source_ref": "2.335:data/talk.txt:146",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.147",
+      "source": "@town/Vernis is the only known source of coal in the entirety of North Tyris.  We're making a killing.",
+      "target": "북부 티리스에서 석탄이 나는 곳은 여기 베르니스뿐이야. 떼돈을 벌고 있지.",
+      "source_ref": "2.335:data/talk.txt:147",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.148",
+      "source": "@town/You're going to Palmia?  Just follow the road to the east.",
+      "target": "팔미아에 간다고? 동쪽 길만 쭉 따라가.",
+      "source_ref": "2.335:data/talk.txt:148",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.149",
+      "source": "@town/Everyone loves Shena's ass.",
+      "target": "시나 엉덩이를 싫어할 사람이 어디 있어.",
+      "source_ref": "2.335:data/talk.txt:149",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.150",
+      "source": "@town/Rogue attacks are becoming more frequent these days.",
+      "target": "요즘 들어 도적들이 더 자주 습격해 와.",
+      "source_ref": "2.335:data/talk.txt:150",
+      "section": "AREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.154",
+      "source": "@town/昔は炭鉱で栄えていたが、鉱山が全部地殻変動で潰れてしまった{のだ}。",
+      "target": "예전엔 탄광 덕에 잘살았지. 지각 변동으로 광산이 죄다 무너졌어.",
+      "source_ref": "2.335:data/talk.txt:154",
+      "section": "AAREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.155",
+      "source": "@town/イェルスとジューアがついに和解したらしい。\t",
+      "target": "이에르스와 주아족이 마침내 화해했다더라.",
+      "source_ref": "2.335:data/talk.txt:155",
+      "section": "AAREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.156",
+      "source": "@town/お墓の傍にいる人はどんなに下手な演奏でもちゃんと聴いてくれるよ。",
+      "target": "무덤 옆에 있는 그 사람은 아무리 서툰 연주라도 끝까지 들어 줘.",
+      "source_ref": "2.335:data/talk.txt:156",
+      "section": "AAREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.157",
+      "source": "@town/ミシェスの家にあるぬいぐるみは、本物の熊から剥ぎ取った毛皮でできている{のだ}。",
+      "target": "미셰스네 집 봉제 인형은 진짜 곰 가죽을 벗겨서 만들었다더군.",
+      "source_ref": "2.335:data/talk.txt:157",
+      "section": "AAREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.158",
+      "source": "@town/王都パルミアまでは、バーの東側から直通の馬車が出ている{よ}。",
+      "target": "술집 동쪽에서 왕도 팔미아로 바로 가는 마차가 떠나.",
+      "source_ref": "2.335:data/talk.txt:158",
+      "section": "AAREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.159",
+      "source": "@town/シーナの尻は岩を一撃で粉砕するほどの威力を持っている{よ}。",
+      "target": "시나는 그 엉덩이로 바위도 단번에 박살 낼 수 있어.",
+      "source_ref": "2.335:data/talk.txt:159",
+      "section": "AAREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.160",
+      "source": "@town/リリアンは犬肉が大好き{だ}。",
+      "target": "릴리안은 개고기를 무척 좋아해.",
+      "source_ref": "2.335:data/talk.txt:160",
+      "section": "AAREA,5,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.164",
+      "source": "@town/We were a prosperous coal town in the old days, but tectonic movement destroyed the mines.",
+      "target": "예전엔 탄광 덕에 잘살았지. 지각 변동으로 광산이 죄다 무너졌어.",
+      "source_ref": "2.335:data/talk.txt:164",
+      "section": "AAREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.165",
+      "source": "@town/The Juere and Yerles seem to finally have settled their differences.",
+      "target": "주아족과 이에르스가 드디어 앙금을 풀었다나 봐.",
+      "source_ref": "2.335:data/talk.txt:165",
+      "section": "AAREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.166",
+      "source": "@town/That man you see by the graves will listen to anyone's performance, no matter how bad it is.",
+      "target": "무덤 옆에 있는 그 사람은 아무리 서툰 연주라도 끝까지 들어 줘.",
+      "source_ref": "2.335:data/talk.txt:166",
+      "section": "AAREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.167",
+      "source": "@town/The fur on the stuffed animals you see in Miches' house was stripped off real bears.",
+      "target": "미셰스네 집 봉제 인형은 진짜 곰 가죽을 벗겨서 만들었다더군.",
+      "source_ref": "2.335:data/talk.txt:167",
+      "section": "AAREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.168",
+      "source": "@town/There's a direct carriage from the east side of the bar here to the capital Palmia.",
+      "target": "술집 동쪽에서 왕도 팔미아로 바로 가는 마차가 떠나.",
+      "source_ref": "2.335:data/talk.txt:168",
+      "section": "AAREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.169",
+      "source": "@town/Shena's ass is tough enough to pulverize a rock in one blow.",
+      "target": "시나는 그 엉덩이로 바위도 단번에 박살 낼 수 있어.",
+      "source_ref": "2.335:data/talk.txt:169",
+      "section": "AAREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.170",
+      "source": "@town/Rilian loves dog meat.",
+      "target": "릴리안은 개고기를 무척 좋아해.",
+      "source_ref": "2.335:data/talk.txt:170",
+      "section": "AAREA,5,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.174",
+      "source": "@town/潮風が香る{な}。",
+      "target": "짭조름한 바닷바람 냄새가 나네.",
+      "source_ref": "2.335:data/talk.txt:174",
+      "section": "AREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.175",
+      "source": "@town/ペットアリーナで観戦するのが趣味{だ}。",
+      "target": "난 동료 투기장에서 경기 구경하는 게 취미야.",
+      "source_ref": "2.335:data/talk.txt:175",
+      "section": "AREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.176",
+      "source": "@town/ラファエロは女の敵{だな}。",
+      "target": "라파엘로는 모든 여자의 적이야.",
+      "source_ref": "2.335:data/talk.txt:176",
+      "section": "AREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.177",
+      "source": "@town/もっと強くなりたいのなら戦士ギルドに行くと良い{よ}。",
+      "target": "더 강해지고 싶으면 전사 길드에 들러 봐.",
+      "source_ref": "2.335:data/talk.txt:177",
+      "section": "AREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.178",
+      "source": "@town/ここの海産物は内陸部で高く売れる{のだ}。",
+      "target": "여기 해산물은 내륙으로 가져가면 비싸게 팔려.",
+      "source_ref": "2.335:data/talk.txt:178",
+      "section": "AREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.179",
+      "source": "@town/ピラミッドにはどうやったら入れる{のだ}？",
+      "target": "피라미드에는 어떻게 해야 들어갈 수 있지?",
+      "source_ref": "2.335:data/talk.txt:179",
+      "section": "AREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.183",
+      "source": "@town/Ah, there's nothing like the salty smell of the sea breeze.",
+      "target": "아, 짭조름한 바닷바람 냄새만큼 좋은 게 없다니까.",
+      "source_ref": "2.335:data/talk.txt:183",
+      "section": "AREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.184",
+      "source": "@town/I love to watch the brutal fights in the pet arena.  You have to be careful though, sometimes audience members catch a stray bullet or get hit by careless dragons.  But you know, the risk is part of the thrill.",
+      "target": "동료 투기장의 살벌한 경기가 얼마나 재밌는데! 가끔 눈먼 총알이 관중석으로 날아오거나 용한테 얻어맞는 수가 있긴 해. 그래도 그 맛에 보는 거 아니겠어?",
+      "source_ref": "2.335:data/talk.txt:184",
+      "section": "AREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.185",
+      "source": "@town/Raphael is the enemy of all women.",
+      "target": "라파엘로는 모든 여자의 적이야.",
+      "source_ref": "2.335:data/talk.txt:185",
+      "section": "AREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.186",
+      "source": "@town/If you want the best training a fighter can have, you should check out the fighter's guild under the arena office.",
+      "target": "제대로 된 전사 훈련을 받고 싶나? 투기장 사무실 아래에 있는 전사 길드로 가 봐.",
+      "source_ref": "2.335:data/talk.txt:186",
+      "section": "AREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.187",
+      "source": "@town/The price of seafood cargo is very high farther inland.",
+      "target": "해산물 화물은 내륙 깊숙이 가면 값이 아주 높아져.",
+      "source_ref": "2.335:data/talk.txt:187",
+      "section": "AREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.188",
+      "source": "@town/I wonder how you get into that Pyramid north of town.  I have heard of people trying to go there, but none of them ever come back.",
+      "target": "마을 북쪽 피라미드는 어떻게 들어가는 걸까? 가 봤다는 사람 얘기는 들었는데, 돌아왔다는 사람은 없더군.",
+      "source_ref": "2.335:data/talk.txt:188",
+      "section": "AREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.189",
+      "source": "@town/I hear that a lot of the seediest and creepiest people head to Derphy.  I'm not sure where that place is, but we seem to get more than our fair share of thieves and vagabonds, so maybe it's not that far from here.",
+      "target": "음침하고 수상쩍은 놈들은 다 데르피로 간다더라. 위치는 모르겠지만 여기도 도둑과 떠돌이가 유난히 많은 걸 보면 멀진 않겠지.",
+      "source_ref": "2.335:data/talk.txt:189",
+      "section": "AREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.193",
+      "source": "@town/実はこれ、潮風の香りじゃなくて海の男たちの汗の匂い{だ}。",
+      "target": "바닷바람 냄새인 줄 알았지? 사실은 뱃사람들 땀 냄새야.",
+      "source_ref": "2.335:data/talk.txt:193",
+      "section": "AAREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.194",
+      "source": "@town/ペットアリーナの主催者に、中の人なんていない{よ}。",
+      "target": "동료 투기장 주최자 안에 들어 있는 사람 같은 건 없어.",
+      "source_ref": "2.335:data/talk.txt:194",
+      "section": "AAREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.195",
+      "source": "@town/ラファエロの尻は最高{だな}。",
+      "target": "라파엘로 엉덩이가 최고야.",
+      "source_ref": "2.335:data/talk.txt:195",
+      "section": "AAREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.196",
+      "source": "@town/アーノルドは自分が既に戦死していることに気づいていない{のだ}…。",
+      "target": "아놀드는 자기가 전사했다는 걸 아직도 몰라…",
+      "source_ref": "2.335:data/talk.txt:196",
+      "section": "AAREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.197",
+      "source": "@town/ここの酒場は、墓場の跡地に建てられた{のだ}。",
+      "target": "이 술집은 옛날 묘지 터 위에 세웠어.",
+      "source_ref": "2.335:data/talk.txt:197",
+      "section": "AAREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.198",
+      "source": "@town/石版に記された謎を解かない限り、ピラミッドには入れない{のだ}。",
+      "target": "석판의 수수께끼를 풀기 전엔 피라미드에 들어갈 수 없어.",
+      "source_ref": "2.335:data/talk.txt:198",
+      "section": "AAREA,11,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.202",
+      "source": "@town/To be honest, that ain't the smell of the sea you're smelling. It's the smell of sweat from all the workers.",
+      "target": "솔직히 말해 줄까? 그건 바다 냄새가 아니라 일꾼들 땀 냄새야.",
+      "source_ref": "2.335:data/talk.txt:202",
+      "section": "AAREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.203",
+      "source": "@town/Know how the pet arena masters wears that big cloak? There ain't no person on the inside.",
+      "target": "동료 투기장 주최자가 두르고 다니는 커다란 망토 봤지? 그 안엔 아무도 없어.",
+      "source_ref": "2.335:data/talk.txt:203",
+      "section": "AAREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.204",
+      "source": "@town/Raphael's ass is the best.",
+      "target": "라파엘로 엉덩이가 최고야.",
+      "source_ref": "2.335:data/talk.txt:204",
+      "section": "AAREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.205",
+      "source": "@town/Arnord doesn't realize that he already died in battle...",
+      "target": "아놀드는 자기가 전사했다는 걸 아직도 몰라…",
+      "source_ref": "2.335:data/talk.txt:205",
+      "section": "AAREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.206",
+      "source": "@town/The tavern here was built on top of a graveyard.",
+      "target": "이 술집은 옛날 묘지 터 위에 세웠어.",
+      "source_ref": "2.335:data/talk.txt:206",
+      "section": "AAREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.207",
+      "source": "@town/Until you solve the puzzle on the lithograph, there's no way to enter the pyramid.",
+      "target": "석판의 수수께끼를 풀기 전엔 피라미드에 들어갈 수 없어.",
+      "source_ref": "2.335:data/talk.txt:207",
+      "section": "AAREA,11,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.211",
+      "source": "@town/こんな田舎街にもちゃんとヨウィンと言う名前があるん{だ}。",
+      "target": "이런 시골 마을에도 요우윈이란 어엿한 이름이 있다고.",
+      "source_ref": "2.335:data/talk.txt:211",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.212",
+      "source": "@town/馬ならここで買って行くと良い{よ}。",
+      "target": "말을 사려거든 여기서 사 가.",
+      "source_ref": "2.335:data/talk.txt:212",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.213",
+      "source": "@town/収穫期はいつも人が足りない{な}。",
+      "target": "수확철만 되면 늘 일손이 모자라.",
+      "source_ref": "2.335:data/talk.txt:213",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.214",
+      "source": "@town/何もない場所だけど、ゆっくりしていくといい{よ}。",
+      "target": "별것 없는 곳이지만 느긋하게 쉬었다 가.",
+      "source_ref": "2.335:data/talk.txt:214",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.215",
+      "source": "@town/西に無法者の街があるそう{だ}。",
+      "target": "서쪽에 무법자들이 사는 마을이 있대.",
+      "source_ref": "2.335:data/talk.txt:215",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.216",
+      "source": "@town/街を出て東の道沿いに行けば王都{だ}。",
+      "target": "마을을 나가 동쪽 길을 따라가면 왕도가 나와.",
+      "source_ref": "2.335:data/talk.txt:216",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.217",
+      "source": "@town/南西に古い城があるのを見かけた人がいる{のだ}。",
+      "target": "남서쪽에 낡은 성이 있는 걸 봤다는 사람이 있어.",
+      "source_ref": "2.335:data/talk.txt:217",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.218",
+      "source": "@town/この街の葬具は他に自慢出来る一品{だ}。",
+      "target": "우리 마을에서 만드는 장례용품이라면 어디 내놔도 부끄럽지 않지.",
+      "source_ref": "2.335:data/talk.txt:218",
+      "section": "AREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.222",
+      "source": "@town/This village is called Yowyn. ",
+      "target": "이 마을 이름은 요우윈이야.",
+      "source_ref": "2.335:data/talk.txt:222",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.223",
+      "source": "@town/The horses sold here are the finest in the land.",
+      "target": "여기서 파는 말은 이 나라 제일이지.",
+      "source_ref": "2.335:data/talk.txt:223",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.224",
+      "source": "@town/We always seem to be short-handed during the harvest season.  I'm sure everyone in town would be glad to have you lend a hand.",
+      "target": "수확철엔 늘 손이 모자라. 거들어 준다면 마을 사람 누구나 반가워할 거야.",
+      "source_ref": "2.335:data/talk.txt:224",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.225",
+      "source": "@town/Sometimes we see known outlaws heading to the west after they raid our farms or kill our cattle.  I wonder if something is out there.",
+      "target": "농장을 털거나 가축을 죽인 무법자들이 서쪽으로 달아나는 걸 종종 봐. 그쪽에 뭐가 있는 걸까?",
+      "source_ref": "2.335:data/talk.txt:225",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.226",
+      "source": "@town/Head east out of town, and follow the road north to reach the capital of the Kingdom of Palmia.  Be careful around that old fortress though, it's a strange place.  I've heard sometimes people that go near that place are gunned down by ancient machines that survived from Eyth Terre.",
+      "target": "마을 동쪽으로 나가 길을 따라 북쪽으로 가면 팔미아 왕국의 수도야. 다만 옛 요새 근처에선 조심해. 에이스 테르 시대부터 살아남은 기계에 총을 맞았다는 소문이 있거든.",
+      "source_ref": "2.335:data/talk.txt:226",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.227",
+      "source": "@town/The elder always talks about an old run down castle to the southwest.  That old bag is always making up crazy stories.",
+      "target": "장로는 남서쪽에 허물어진 옛 성이 있다고 입버릇처럼 말해. 그 늙은이는 툭하면 별별 얘길 다 지어낸다니까.",
+      "source_ref": "2.335:data/talk.txt:227",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.228",
+      "source": "@town/Yowyn's economy is pretty small, but we do make excellent caskets.  Sometimes the nobles from Palmia send their squires and servants down here to buy them.",
+      "target": "요우윈은 작은 동네지만 관 하나는 기막히게 짜지. 팔미아 귀족들이 종자나 하인을 여기까지 보내서 사 갈 정도야.",
+      "source_ref": "2.335:data/talk.txt:228",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.229",
+      "source": "@town/The air is so fresh and lively here in the countryside.  I wouldn't give this up for anything.",
+      "target": "시골 공기는 맑고 생기가 넘쳐. 뭘 준다고 해도 여긴 못 떠나.",
+      "source_ref": "2.335:data/talk.txt:229",
+      "section": "AREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.233",
+      "source": "@town/こんな田舎街にも昔はちゃんと名前があったん{だ}…。",
+      "target": "이런 시골 마을에도 한때는 변변한 이름이 있었는데…",
+      "source_ref": "2.335:data/talk.txt:233",
+      "section": "AAREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.234",
+      "source": "@town/今年はパスタの木の生育が悪くて、パスタ農家が困っている{よ}。",
+      "target": "올해는 파스타 나무가 영 자라질 않아. 파스타 농가들이 걱정이 태산이야.",
+      "source_ref": "2.335:data/talk.txt:234",
+      "section": "AAREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.235",
+      "source": "@town/９月になると大収穫祭が始まる{よ}。",
+      "target": "9월에는 큰 수확제가 열려.",
+      "source_ref": "2.335:data/talk.txt:235",
+      "section": "AAREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.236",
+      "source": "@town/街を出て東の道の外れにある黒い城が王都{だ}。",
+      "target": "마을을 나가 동쪽 길 끝에 보이는 검은 성이 왕도야.",
+      "source_ref": "2.335:data/talk.txt:236",
+      "section": "AAREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.237",
+      "source": "@town/アインクは伝説の騎士の孫{だ}。",
+      "target": "아인크는 전설의 기사의 손자야.",
+      "source_ref": "2.335:data/talk.txt:237",
+      "section": "AAREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.238",
+      "source": "@town/この街の人肉は他に自慢出来る一品{だ}。",
+      "target": "이 마을의 제일가는 특산품은 인육이지.",
+      "source_ref": "2.335:data/talk.txt:238",
+      "section": "AAREA,12,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.242",
+      "source": "@town/The pasta trees ain't been growing so well this year. The pasta farmers are in trouble.",
+      "target": "올해는 파스타 나무가 영 자라질 않아. 파스타 농가들이 걱정이 태산이야.",
+      "source_ref": "2.335:data/talk.txt:242",
+      "section": "AAREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.243",
+      "source": "@town/We have a big harvest festival in September.",
+      "target": "9월에는 큰 수확제가 열려.",
+      "source_ref": "2.335:data/talk.txt:243",
+      "section": "AAREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.244",
+      "source": "@town/That black castle you see when leaving town is the royal capital.",
+      "target": "마을 밖에 보이는 그 검은 성이 왕도야.",
+      "source_ref": "2.335:data/talk.txt:244",
+      "section": "AAREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.245",
+      "source": "@town/Ainc is the grandson of a legendary knight.",
+      "target": "아인크는 전설의 기사의 손자야.",
+      "source_ref": "2.335:data/talk.txt:245",
+      "section": "AAREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.246",
+      "source": "@town/Human flesh is this town's most prized product.",
+      "target": "이 마을의 제일가는 특산품은 인육이지.",
+      "source_ref": "2.335:data/talk.txt:246",
+      "section": "AAREA,12,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.250",
+      "source": "@town/無法者の街、ダルフィへようこそ。",
+      "target": "무법자의 마을 데르피에 온 걸 환영해.",
+      "source_ref": "2.335:data/talk.txt:250",
+      "section": "AREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.251",
+      "source": "@town/ノエルみたいにはなれない{な}。",
+      "target": "난 노엘처럼 되진 못하겠어.",
+      "source_ref": "2.335:data/talk.txt:251",
+      "section": "AREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.252",
+      "source": "@town/その道に興味があるなら盗賊ギルドに行くと良い{よ}。",
+      "target": "그쪽 일에 관심이 있으면 도적 길드를 찾아가 봐.",
+      "source_ref": "2.335:data/talk.txt:252",
+      "section": "AREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.253",
+      "source": "@town/奴隷は世に必要なもの{だ}。",
+      "target": "세상에는 노예도 필요한 법이야.",
+      "source_ref": "2.335:data/talk.txt:253",
+      "section": "AREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.254",
+      "source": "@town/アリーナで血を見るのが好き{だ}。",
+      "target": "투기장에서 피 보는 게 좋더라.",
+      "source_ref": "2.335:data/talk.txt:254",
+      "section": "AREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.255",
+      "source": "@town/この街にはガードがいない{よ}。",
+      "target": "이 마을엔 경비병이 없어.",
+      "source_ref": "2.335:data/talk.txt:255",
+      "section": "AREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.259",
+      "source": "@town/Welcome to Derphy, a rotten hive of scum and villainy.",
+      "target": "온갖 악당과 쓰레기가 들끓는 소굴, 데르피에 잘 왔어.",
+      "source_ref": "2.335:data/talk.txt:259",
+      "section": "AREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.260",
+      "source": "@town/Noel is crazy.  She'd bite the head off of a kitten if she had the chance.  She kills things and spreads chaos for the hell of it.  I don't mind a thief, but she's a bit over the top.",
+      "target": "노엘은 미쳤어. 기회만 나면 새끼 고양이 머리도 물어뜯을걸. 순전히 재미로 죽이고 난장판을 만든다니까. 도둑쯤은 상관없지만 걘 정도가 심해.",
+      "source_ref": "2.335:data/talk.txt:260",
+      "section": "AREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.261",
+      "source": "@town/A lot of thieves hang out here.  They have a hideout under the casino but they won't just let you in.",
+      "target": "여긴 도둑들 천지야. 카지노 밑에 은신처가 있는데 아무나 들여보내 주진 않아.",
+      "source_ref": "2.335:data/talk.txt:261",
+      "section": "AREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.262",
+      "source": "@town/Slavery is a very lucrative business.  Many people claim it's evil, but even mighty Palmia's economy would disintegrate if they didn't have any slaves to work their fields.",
+      "target": "노예 장사는 돈이 돼. 악행이라고 하는 사람도 많지만, 그 잘난 팔미아도 밭일할 노예가 없으면 경제가 무너질걸.",
+      "source_ref": "2.335:data/talk.txt:262",
+      "section": "AREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.263",
+      "source": "@town/Nothing beats a bloody match at the arena.  If you want to impress the crowd then give them lots of drama and blood.",
+      "target": "피 튀기는 투기장 경기만 한 게 없지. 관중을 사로잡고 싶으면 한바탕 판을 벌이고 피를 실컷 보여 주라고.",
+      "source_ref": "2.335:data/talk.txt:263",
+      "section": "AREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.264",
+      "source": "@town/Derphy has no city guards, so we can do whatever we want!",
+      "target": "데르피엔 경비병이 없으니 우리 맘대로 해도 돼!",
+      "source_ref": "2.335:data/talk.txt:264",
+      "section": "AREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.268",
+      "source": "@town/正直者の街、ダルフィへようこそ。",
+      "target": "정직한 사람들의 마을, 데르피에 온 걸 환영해.",
+      "source_ref": "2.335:data/talk.txt:268",
+      "section": "AAREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.269",
+      "source": "@town/マークスは実は仮面の方が素顔な{のだ}。",
+      "target": "마크스는 사실 그 가면이 맨얼굴이래.",
+      "source_ref": "2.335:data/talk.txt:269",
+      "section": "AAREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.270",
+      "source": "@town/プチの目のような部分は実は鼻の穴{だ}。",
+      "target": "푸치한테 눈처럼 보이는 부분 있지? 사실 콧구멍이야.",
+      "source_ref": "2.335:data/talk.txt:270",
+      "section": "AAREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.271",
+      "source": "@town/奴隷なんてひどい制度は廃止するべきだと思う{よ}。",
+      "target": "노예 제도 같은 건 폐지해야 한다고 생각해.",
+      "source_ref": "2.335:data/talk.txt:271",
+      "section": "AAREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.272",
+      "source": "@town/アリーナで血みどろの戦いが繰り広げられていることに胸を痛めている{のだ}。",
+      "target": "투기장에서 저렇게 피투성이가 되도록 싸우다니, 보고 있으면 가슴이 아파.",
+      "source_ref": "2.335:data/talk.txt:272",
+      "section": "AAREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.273",
+      "source": "@town/核爆発にもすっかり慣れた{よ}。",
+      "target": "이젠 핵폭발에도 아주 익숙해졌어.",
+      "source_ref": "2.335:data/talk.txt:273",
+      "section": "AAREA,14,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.277",
+      "source": "@town/Welcome to Derphy, the city of honesty.",
+      "target": "정직한 사람들의 마을, 데르피에 온 걸 환영해.",
+      "source_ref": "2.335:data/talk.txt:277",
+      "section": "AAREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.278",
+      "source": "@town/Marks' face is the real deal, not a disguise.",
+      "target": "마크스 얼굴은 분장이 아니야. 진짜로 그렇게 생겼어.",
+      "source_ref": "2.335:data/talk.txt:278",
+      "section": "AAREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.279",
+      "source": "@town/Those things on putits that look like eyes are actually its nostrils.",
+      "target": "푸치한테 눈처럼 보이는 부분 있지? 사실 콧구멍이야.",
+      "source_ref": "2.335:data/talk.txt:279",
+      "section": "AAREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.280",
+      "source": "@town/I think slavery should be abolished.",
+      "target": "노예 제도 같은 건 폐지해야 한다고 생각해.",
+      "source_ref": "2.335:data/talk.txt:280",
+      "section": "AAREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.281",
+      "source": "@town/My heart aches over the terrible battles that go on in the arena.",
+      "target": "투기장에서 저렇게 피투성이가 되도록 싸우다니, 보고 있으면 가슴이 아파.",
+      "source_ref": "2.335:data/talk.txt:281",
+      "section": "AAREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.282",
+      "source": "@town/I'm completely used to nuclear explosions these days.",
+      "target": "이젠 핵폭발에도 아주 익숙해졌어.",
+      "source_ref": "2.335:data/talk.txt:282",
+      "section": "AAREA,14,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.286",
+      "source": "@town/パルミア国の王都へようこそ。",
+      "target": "팔미아 왕국의 수도에 온 걸 환영하네.",
+      "source_ref": "2.335:data/talk.txt:286",
+      "section": "AREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.287",
+      "source": "@town/ミーアのしゃべり方はどうにからならないか{な}。",
+      "target": "미아 말투는 어떻게 좀 안 되나?",
+      "source_ref": "2.335:data/talk.txt:287",
+      "section": "AREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.288",
+      "source": "@town/パルミアは何でも揃っていて便利でいい{が}、広いから人探しが大変{だ}。",
+      "target": "팔미아에는 없는 게 없어 편하긴 한데, 워낙 넓어서 사람 하나 찾기가 힘들지.",
+      "source_ref": "2.335:data/talk.txt:288",
+      "section": "AREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.289",
+      "source": "@town/ジャビ様とスターシャ様は、本当に仲がいい{のだ}。",
+      "target": "자비 폐하와 스타샤 왕비님은 금실이 참 좋아.",
+      "source_ref": "2.335:data/talk.txt:289",
+      "section": "AREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.290",
+      "source": "@town/パルミア名産といえば、貴族のおもちゃ{だ}。",
+      "target": "팔미아 특산품 하면 귀족들이 사 가는 장난감이지.",
+      "source_ref": "2.335:data/talk.txt:290",
+      "section": "AREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.294",
+      "source": "@town/Palmia is huge.  I got lost in this town all the time.  It's really hard to find other people sometimes.",
+      "target": "팔미아는 정말 넓어. 나도 늘 길을 잃었지. 사람 찾는 게 여간 힘든 일이 아니야.",
+      "source_ref": "2.335:data/talk.txt:294",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.295",
+      "source": "@town/I wonder what's wrong with Mia, she's so weird.  I wish she'd just learn how to talk properly, that'd help a lot.",
+      "target": "미아는 참 별나. 제대로 말하는 법부터 좀 배우면 한결 나을 텐데.",
+      "source_ref": "2.335:data/talk.txt:295",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.296",
+      "source": "@town/I can't make out anything that Mia says.",
+      "target": "미아가 무슨 말을 하는지 하나도 못 알아듣겠어.",
+      "source_ref": "2.335:data/talk.txt:296",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.297",
+      "source": "@town/Welcome to the capital of Palmia!  Our kingdom is old and very prosperous.",
+      "target": "팔미아의 수도에 잘 오셨소! 우리 왕국은 역사가 깊고 아주 부유하다오.",
+      "source_ref": "2.335:data/talk.txt:297",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.298",
+      "source": "@town/King Xabi and Queen Stersha are a beautiful couple.",
+      "target": "자비 국왕과 스타샤 왕비는 참 잘 어울리는 한 쌍이야.",
+      "source_ref": "2.335:data/talk.txt:298",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.299",
+      "source": "@town/One of our special products here are toys that the nobility often buy for their children.  There are machines in the center of town that sell them, if you can get some coins maybe you can get some awesome toys out of them too.",
+      "target": "귀족들이 아이들에게 사 주는 장난감이 우리 특산품이야. 시내 한가운데 뽑기 기계가 있으니 동전이 생기면 너도 근사한 장난감 하나 뽑아 봐.",
+      "source_ref": "2.335:data/talk.txt:299",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.300",
+      "source": "@town/The etherwinds have been getting strong and more dangerous over the last fifty years.  My grandfather always tells me about how weak they used to be.  If they grow much stronger we might be forced to abandon our homes.",
+      "target": "지난 50년간 에테르의 바람이 갈수록 거세지고 위험해졌어. 할아버지는 옛날엔 참 약했다고 늘 말씀하시지. 더 심해지면 고향을 버리고 떠나야 할지도 몰라.",
+      "source_ref": "2.335:data/talk.txt:300",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.301",
+      "source": "@town/My friend told me there is an ancient fortress to the north.  I wonder if that's true.",
+      "target": "친구 말로는 북쪽에 고대 요새가 있다던데, 정말일까?",
+      "source_ref": "2.335:data/talk.txt:301",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.302",
+      "source": "@town/We have a lot of parties in Palmia.  The nobility will throw money at any excuse for a drunken celebration.",
+      "target": "팔미아에선 파티가 끊이질 않아. 귀족들이야 술판을 벌일 구실만 생기면 돈을 펑펑 쓰거든.",
+      "source_ref": "2.335:data/talk.txt:302",
+      "section": "AREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.306",
+      "source": "@town/バルミア国の王都へようこそ。",
+      "target": "발미아 왕국의 수도에 잘 오셨소!",
+      "source_ref": "2.335:data/talk.txt:306",
+      "section": "AAREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.307",
+      "source": "@town/ミーアのしゃべり方は今パルミアで大流行であります！にしし！",
+      "target": "요즘 팔미아에선 미아 말투가 대유행입니닷! 니시시!",
+      "source_ref": "2.335:data/talk.txt:307",
+      "section": "AAREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.308",
+      "source": "@town/スターシャ様は玉座の下に大切なものを隠している{のだ}。",
+      "target": "스타샤 왕비님이 왕좌 밑에 중요한 걸 숨겨 뒀대.",
+      "source_ref": "2.335:data/talk.txt:308",
+      "section": "AAREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.309",
+      "source": "@town/壁の彫刻から出てる水は、生活排水の垂れ流し{だ}。",
+      "target": "벽 조각상에서 흘러나오는 물 말이야. 사실 생활하수를 그대로 내보내는 거야.",
+      "source_ref": "2.335:data/talk.txt:309",
+      "section": "AAREA,15,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.313",
+      "source": "@town/Welcome to the castle town Barmia.",
+      "target": "발미아 왕국의 수도에 잘 오셨소!",
+      "source_ref": "2.335:data/talk.txt:313",
+      "section": "AAREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.314",
+      "source": "@town/Nyanya! Mia's way of talking is all the rage in Palmia right nyow!",
+      "target": "냐냥! 요새 팔미아에선 미아처럼 말하는 게 대유행이다냥!",
+      "source_ref": "2.335:data/talk.txt:314",
+      "section": "AAREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.315",
+      "source": "@town/Stersha hid something important under the king's throne.",
+      "target": "스타샤 왕비님이 왕좌 밑에 중요한 걸 숨겨 뒀대.",
+      "source_ref": "2.335:data/talk.txt:315",
+      "section": "AAREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.316",
+      "source": "@town/The water flowing out of the sculpture on the wall is actually waste water.",
+      "target": "벽 조각상에서 흘러나오는 물 말이야. 사실 생활하수를 그대로 내보내는 거야.",
+      "source_ref": "2.335:data/talk.txt:316",
+      "section": "AAREA,15,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.320",
+      "source": "@town/はやく天候が回復するといい{な}。",
+      "target": "날씨가 얼른 개면 좋겠어.",
+      "source_ref": "2.335:data/talk.txt:320",
+      "section": "AREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.321",
+      "source": "@town/このシェルターは、みんなの献金で建設した{のだ}。",
+      "target": "이 대피소는 마을 사람들이 십시일반 돈을 모아 지은 거야.",
+      "source_ref": "2.335:data/talk.txt:321",
+      "section": "AREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.322",
+      "source": "@town/シェルターがあって助かる{よ}。",
+      "target": "대피소가 있어서 얼마나 다행인지 몰라.",
+      "source_ref": "2.335:data/talk.txt:322",
+      "section": "AREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.323",
+      "source": "@town/ものすごく暇{だ}。",
+      "target": "심심해 죽겠어!",
+      "source_ref": "2.335:data/talk.txt:323",
+      "section": "AREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.324",
+      "source": "@town/なんだかワクワクする{よ}。",
+      "target": "왠지 좀 설레는데!",
+      "source_ref": "2.335:data/talk.txt:324",
+      "section": "AREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.325",
+      "source": "@town/食料は十分あるみたい{だ}。",
+      "target": "식량은 넉넉한 것 같아.",
+      "source_ref": "2.335:data/talk.txt:325",
+      "section": "AREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.329",
+      "source": "@town/I'm so bored!",
+      "target": "심심해 죽겠어!",
+      "source_ref": "2.335:data/talk.txt:329",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.330",
+      "source": "@town/When will this awful weather end?",
+      "target": "이 지긋지긋한 날씨는 언제쯤 끝나려나?",
+      "source_ref": "2.335:data/talk.txt:330",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.331",
+      "source": "@town/I hope the weather will recover quickly.",
+      "target": "날씨가 얼른 개면 좋겠어.",
+      "source_ref": "2.335:data/talk.txt:331",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.332",
+      "source": "@town/This is about as exciting as a bag of broken rocks.",
+      "target": "돌무더기랑 놀아도 이보단 재밌겠어.",
+      "source_ref": "2.335:data/talk.txt:332",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.333",
+      "source": "@town/This shelter was built using contributions by everyone in town.",
+      "target": "이 대피소는 마을 사람들이 십시일반 돈을 모아 지은 거야.",
+      "source_ref": "2.335:data/talk.txt:333",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.334",
+      "source": "@town/I appreciate the fact that this shelter is here, otherwise we'd never survive the etherwinds.",
+      "target": "대피소가 있어 정말 다행이야. 여기 아니었으면 에테르의 바람을 어떻게 견디겠어?",
+      "source_ref": "2.335:data/talk.txt:334",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.335",
+      "source": "@town/We've got a lot of time in here.  We often have to stay in here for days.  I think more than half of our pregnancies begin in here.",
+      "target": "여기선 시간이 남아돌아. 며칠씩 머물 때도 있거든. 우리 동네 애들 절반은 여기서 생겼을걸.",
+      "source_ref": "2.335:data/talk.txt:335",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.336",
+      "source": "@town/This is kind of exciting!",
+      "target": "왠지 좀 설레는데!",
+      "source_ref": "2.335:data/talk.txt:336",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.337",
+      "source": "@town/We've got plenty of food stocked up.  We could stay in this place for months if we had to.",
+      "target": "비축한 식량은 충분해. 필요하면 몇 달은 여기서 버틸 수 있어.",
+      "source_ref": "2.335:data/talk.txt:337",
+      "section": "AREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.341",
+      "source": "@town/明日の天気は雨時々メテオ{だ}。",
+      "target": "내일 날씨는 비, 가끔 운석이 떨어지겠습니다.",
+      "source_ref": "2.335:data/talk.txt:341",
+      "section": "AAREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.342",
+      "source": "@town/シェルターに入っている間は体力が０になっても死なない{のだ}。",
+      "target": "대피소 안에선 체력이 0이 돼도 죽지 않아.",
+      "source_ref": "2.335:data/talk.txt:342",
+      "section": "AAREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.343",
+      "source": "@town/シェルターを撤去されると、中に入っている人間は原子へ分解されて死ぬらしい{よ}。",
+      "target": "대피소를 걷어 가면 안에 있던 사람들은 원자 단위로 분해돼 죽는대.",
+      "source_ref": "2.335:data/talk.txt:343",
+      "section": "AAREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.344",
+      "source": "@town/備蓄食料がほとんどない{な}。{you}の食料を少しわけて{くれ}。",
+      "target": "비축 식량이 거의 다 떨어졌어. 가진 게 있으면 좀 나눠 주겠어?",
+      "source_ref": "2.335:data/talk.txt:344",
+      "section": "AAREA,30,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.348",
+      "source": "@town/Tomorrow's weather is rain with occasional meteors.",
+      "target": "내일 날씨는 비, 가끔 운석이 떨어지겠습니다.",
+      "source_ref": "2.335:data/talk.txt:348",
+      "section": "AAREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.349",
+      "source": "@town/You won't die in a shelter, even if your HP hits 0.",
+      "target": "대피소 안에선 체력이 0이 돼도 죽지 않아.",
+      "source_ref": "2.335:data/talk.txt:349",
+      "section": "AAREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.350",
+      "source": "@town/It seems that when you pick up a shelter, anyone inside is atomized and dies.",
+      "target": "대피소를 걷어 가면 안에 있던 사람들은 원자 단위로 분해돼 죽는대.",
+      "source_ref": "2.335:data/talk.txt:350",
+      "section": "AAREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.351",
+      "source": "@town/We're almost out of food. {you}, share some of yours with us.",
+      "target": "비축 식량이 거의 다 떨어졌어. 가진 게 있으면 좀 나눠 주겠어?",
+      "source_ref": "2.335:data/talk.txt:351",
+      "section": "AAREA,30,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.355",
+      "source": "@town/えっくし！ うぅ、今日も寒い{な}。",
+      "target": "에취! 으으, 오늘도 춥네.",
+      "source_ref": "2.335:data/talk.txt:355",
+      "section": "AREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.356",
+      "source": "@town/毎日雪かきが大変{だ}。",
+      "target": "날마다 눈 치우는 것도 일이야.",
+      "source_ref": "2.335:data/talk.txt:356",
+      "section": "AREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.357",
+      "source": "@town/あの巨人の名前はエボンと言うそう{だ}。",
+      "target": "교회 옆에 있는 저 거인, 이름이 에본이라던데.",
+      "source_ref": "2.335:data/talk.txt:357",
+      "section": "AREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.358",
+      "source": "@town/罪悪感に耐え切れなくなったら教会に行くと良い{よ}。",
+      "target": "죄책감을 더는 견디기 힘들거든 교회에 가 봐.",
+      "source_ref": "2.335:data/talk.txt:358",
+      "section": "AREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.359",
+      "source": "@town/寒いっ！",
+      "target": "추워!",
+      "source_ref": "2.335:data/talk.txt:359",
+      "section": "AREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.360",
+      "source": "@town/少し南に行った所に小さな工房が建ってるのを見た{のだ}。",
+      "target": "남쪽으로 조금 내려간 곳에 작은 공방이 있더라.",
+      "source_ref": "2.335:data/talk.txt:360",
+      "section": "AREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.364",
+      "source": "@town/It's colder than death's pecker hanging in a well.  But, y'know, welcome to Noyel.",
+      "target": "우물에 매단 저승사자 거시기보다 더 춥다니까. 아무튼 노이엘에 잘 왔어.",
+      "source_ref": "2.335:data/talk.txt:364",
+      "section": "AREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.365",
+      "source": "@town/The snow never goes away, but we still have to shovel it so we can get around.",
+      "target": "눈은 영영 안 녹는데 다니려면 또 눈을 치워야 해.",
+      "source_ref": "2.335:data/talk.txt:365",
+      "section": "AREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.366",
+      "source": "@town/Have you seen that giant near the church?  I heard his name is Ebon.",
+      "target": "교회 옆 거인 봤어? 이름이 에본이라던데.",
+      "source_ref": "2.335:data/talk.txt:366",
+      "section": "AREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.367",
+      "source": "@town/You can confess your sins at the church.  I can't think of a better way to be forgiven for your crimes.",
+      "target": "교회에 가면 죄를 고백할 수 있어. 저지른 죄를 용서받는 데 그보다 나은 방법이 있겠어?",
+      "source_ref": "2.335:data/talk.txt:367",
+      "section": "AREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.368",
+      "source": "@town/I'm freezing.  I can't feel my fingers.",
+      "target": "얼어 죽겠네. 손가락에 감각이 없어.",
+      "source_ref": "2.335:data/talk.txt:368",
+      "section": "AREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.369",
+      "source": "@town/A while back I saw a small house south of Noyel.  It looked like some sort of workshop.",
+      "target": "얼마 전 노이엘 남쪽에서 작은 집을 하나 봤어. 무슨 공방 같더라고.",
+      "source_ref": "2.335:data/talk.txt:369",
+      "section": "AREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.370",
+      "source": "@town/Who would build a city here?  And why did I have to be so unfortunate as to be born here?",
+      "target": "누가 이런 데다 도시를 지은 거야? 하필 여기서 태어나다니 내 팔자도 참.",
+      "source_ref": "2.335:data/talk.txt:370",
+      "section": "AREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.374",
+      "source": "@town/毎年１月にはノイエルのお祭りがある{のだ}。",
+      "target": "노이엘에서는 해마다 1월에 축제가 열려.",
+      "source_ref": "2.335:data/talk.txt:374",
+      "section": "AAREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.375",
+      "source": "@town/聖なる井戸に斧を落とすと、女神が現れる{のだ}。",
+      "target": "성스러운 우물에 도끼를 빠뜨리면 여신이 나타난대.",
+      "source_ref": "2.335:data/talk.txt:375",
+      "section": "AAREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.376",
+      "source": "@town/あの巨人はモイアーの愛人だそう{だ}。",
+      "target": "저 거인은 모이어의 애인이라더군.",
+      "source_ref": "2.335:data/talk.txt:376",
+      "section": "AAREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.377",
+      "source": "@town/パエルの母親は仮病らしい{よ}。",
+      "target": "파엘 엄마는 꾀병이라던데.",
+      "source_ref": "2.335:data/talk.txt:377",
+      "section": "AAREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.378",
+      "source": "@town/かなり北に行った所に小さな工房が建ってるのを見た{のだ}。",
+      "target": "북쪽으로 한참 가다 보면 작은 공방이 있어. 내가 봤다니까.",
+      "source_ref": "2.335:data/talk.txt:378",
+      "section": "AAREA,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.382",
+      "source": "@town/There's a festival in Noyel every year in January.",
+      "target": "노이엘에서는 해마다 1월에 축제가 열려.",
+      "source_ref": "2.335:data/talk.txt:382",
+      "section": "AAREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.383",
+      "source": "@town/If you drop an axe in the holy well, a goddess will appear.",
+      "target": "성스러운 우물에 도끼를 빠뜨리면 여신이 나타난대.",
+      "source_ref": "2.335:data/talk.txt:383",
+      "section": "AAREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.384",
+      "source": "@town/It seems that giant is Moyer's lover.",
+      "target": "저 거인은 모이어의 애인이라더군.",
+      "source_ref": "2.335:data/talk.txt:384",
+      "section": "AAREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.385",
+      "source": "@town/Pael's mom seems to be faking her illness.",
+      "target": "파엘 엄마는 꾀병이라던데.",
+      "source_ref": "2.335:data/talk.txt:385",
+      "section": "AAREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.386",
+      "source": "@town/If you go way north, you'll find a workshop.",
+      "target": "북쪽으로 한참 가면 공방이 하나 나와.",
+      "source_ref": "2.335:data/talk.txt:386",
+      "section": "AAREA,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.390",
+      "source": "@town/ようこそ、ノイエルの聖夜祭へ！楽しんでいって{くれ}。",
+      "target": "노이엘의 성야제에 잘 왔어! 신나게 즐기다 가!",
+      "source_ref": "2.335:data/talk.txt:390",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.391",
+      "source": "@town/聖夜祭は、聖ジュア祭とも呼ばれてい{る}。癒しの女神を称え、年の終わりを祝う宴でもある{のだ}。",
+      "target": "성야제는 성 주아 축제라고도 해. 치유의 여신을 기리고 한 해의 끝을 축하하는 잔치지.",
+      "source_ref": "2.335:data/talk.txt:391",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.392",
+      "source": "@town/モイアーのやつ、今年の聖夜祭ではなにか特別な品物を用意すると張り切っていた{な}。",
+      "target": "모이어가 올해 성야제에 특별한 걸 내놓겠다며 잔뜩 들떠 있었어.",
+      "source_ref": "2.335:data/talk.txt:392",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.393",
+      "source": "@town/{you}、あの神々しいジュア像をもう見た{かな}？なんとも美しく可憐じゃない{か}！{you}もこの機に改宗するといい{よ}！",
+      "target": "자네, 저 장엄한 주아상은 봤나? 저토록 아름답고 사랑스러울 수가! 자네도 이참에 개종하게!",
+      "source_ref": "2.335:data/talk.txt:393",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.394",
+      "source": "@town/今宵は愛する人と気持ちいいことをする{のだ}！",
+      "target": "오늘 밤엔 사랑하는 사람이랑 기분 좋은 일을 할 거야!",
+      "source_ref": "2.335:data/talk.txt:394",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.395",
+      "source": "@town/この祭りを見るために、この時期には多くの観光客がノイエルを訪れる{のだ}。",
+      "target": "이맘때면 축제를 보러 많은 관광객이 노이엘을 찾아와.",
+      "source_ref": "2.335:data/talk.txt:395",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.396",
+      "source": "@town/聖夜祭は歴史ある祭り{だ}。かつてはパルミアの王室もジュア像に祈りを捧げに来ていたらしい{よ}。",
+      "target": "성야제는 유서 깊은 축제야. 예전에는 팔미아 왕실에서도 주아상에 기도를 올리러 왔대.",
+      "source_ref": "2.335:data/talk.txt:396",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.397",
+      "source": "@town/伝説では、ジュアの癒しの涙は、いかなる難病をも治療するといわれてい{る}。事実、聖夜祭の期間には、盲人が光を取り戻すなど、数々の奇跡が目撃されている{のだ}。",
+      "target": "전설에 따르면 주아의 치유의 눈물은 어떤 난치병도 고친대. 정말로 성야제 때 눈먼 사람이 다시 앞을 보는 등 수많은 기적이 목격됐어.",
+      "source_ref": "2.335:data/talk.txt:397",
+      "section": "FEST,33,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.401",
+      "source": "@town/Welcome to the Holy Night Festival! Enjoy yourself!",
+      "target": "노이엘의 성야제에 잘 왔어! 신나게 즐기다 가!",
+      "source_ref": "2.335:data/talk.txt:401",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.402",
+      "source": "@town/The Holy Night Festival is also known as the Festival of St.Jure. This is a feast to honor the Goddess of Healing and to celebrate the end of the year.",
+      "target": "성야제는 성 주아 축제라고도 해. 치유의 여신을 기리고 한 해의 끝을 축하하는 잔치지.",
+      "source_ref": "2.335:data/talk.txt:402",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.403",
+      "source": "@town/I heard Moyer is preparing some showpiece for the festival.",
+      "target": "모이어가 이번 축제에 뭔가 볼거리를 준비한다던데.",
+      "source_ref": "2.335:data/talk.txt:403",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.404",
+      "source": "@town/You, have you seen the great celestial statue of Jure yet? Oh, what a beautiful woman she is!",
+      "target": "자네, 저 성스러운 주아상은 봤나? 아아, 얼마나 아름다운 분이신가!",
+      "source_ref": "2.335:data/talk.txt:404",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.405",
+      "source": "@town/I will meet my lover tonight!",
+      "target": "오늘 밤 연인이랑 만나기로 했어!",
+      "source_ref": "2.335:data/talk.txt:405",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.406",
+      "source": "@town/Many tourists visit this town just to see the festival at this time of year.",
+      "target": "이맘때면 축제를 보러 많은 관광객이 노이엘을 찾아와.",
+      "source_ref": "2.335:data/talk.txt:406",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.407",
+      "source": "@town/The Holy Night Festival is an old and historical event. It is said that even the royal family of Palmia used to visit this little town to offer their prayers to St.Jure.",
+      "target": "성야제는 옛날부터 이어져 온 축제야. 한때는 팔미아 왕족도 이 작은 마을까지 와서 성 주아께 기도를 올렸다지.",
+      "source_ref": "2.335:data/talk.txt:407",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.408",
+      "source": "@town/A legend says Jure's tear can cure any diseases. In fact, there have been many witnesses of her miracles in the past events. Such as an old blind woman recovering sight, can you believe it?",
+      "target": "주아의 눈물은 어떤 병도 낫게 한대. 지난 축제에서 기적을 봤다는 사람도 많아. 눈먼 할머니가 다시 앞을 봤다니, 믿어져?",
+      "source_ref": "2.335:data/talk.txt:408",
+      "section": "FEST,33,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.414",
+      "source": "@town/ようこそ、水と芸術の街へ。",
+      "target": "물과 예술의 도시에 온 걸 환영합니다.",
+      "source_ref": "2.335:data/talk.txt:414",
+      "section": "AREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.415",
+      "source": "@town/どこかに温泉で有名な街があるそう{だ}。",
+      "target": "어딘가에 온천으로 유명한 마을이 있다더라.",
+      "source_ref": "2.335:data/talk.txt:415",
+      "section": "AREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.416",
+      "source": "@town/この街じゃ、どこでも釣りが出来る{のだ}。",
+      "target": "이 도시에선 어디서든 낚시할 수 있어.",
+      "source_ref": "2.335:data/talk.txt:416",
+      "section": "AREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.417",
+      "source": "@town/絵画に関してはうるさい{よ}。",
+      "target": "그림 얘기라면 나도 한마디 하지.",
+      "source_ref": "2.335:data/talk.txt:417",
+      "section": "AREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.418",
+      "source": "@town/パルミアには、魔術師ギルドはこの街にしかない{のだ}。",
+      "target": "팔미아에서 마술사 길드가 있는 곳은 이 도시뿐이야.",
+      "source_ref": "2.335:data/talk.txt:418",
+      "section": "AREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.422",
+      "source": "@town/Lumiest is a city of great culture and art.  Welcome to our fine city.",
+      "target": "루미에스트는 문화와 예술의 도시예요. 어서 오세요.",
+      "source_ref": "2.335:data/talk.txt:422",
+      "section": "AREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.423",
+      "source": "@town/I heard there's a town famous for hot springs somewhere.",
+      "target": "어딘가에 온천으로 유명한 마을이 있다더라.",
+      "source_ref": "2.335:data/talk.txt:423",
+      "section": "AREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.424",
+      "source": "@town/Here in Lumiest, you can go fishing anywhere you like.  The schools of fish are huge and they never seem to get any smaller.  I wouldn't mind a hamburger from time to time though.",
+      "target": "루미에스트에선 아무 데서나 낚싯줄을 드리워도 돼. 물고기가 어찌나 많은지 잡아도 잡아도 안 줄어들어. 하긴 가끔은 햄버거도 먹고 싶더라.",
+      "source_ref": "2.335:data/talk.txt:424",
+      "section": "AREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.425",
+      "source": "@town/I could talk about painting for hours.",
+      "target": "그림 얘기라면 몇 시간이고 할 수 있지.",
+      "source_ref": "2.335:data/talk.txt:425",
+      "section": "AREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.426",
+      "source": "@town/This is where the mage's guild keeps their libraries.  It's the only place in all of North Tyris where you can check out books on even the most obscure spells.",
+      "target": "마술사 길드 도서관은 여기 있어. 북부 티리스 전체에서 제일 난해한 주문서까지 빌려 볼 수 있는 곳은 여기뿐이야.",
+      "source_ref": "2.335:data/talk.txt:426",
+      "section": "AREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.427",
+      "source": "@town/They say something horrible lives in the sewers.  It smells horrific though, so I'd never go down there.",
+      "target": "하수도에 끔찍한 게 산다더라. 냄새만 맡아도 질색인데, 난 절대 안 내려갈래.",
+      "source_ref": "2.335:data/talk.txt:427",
+      "section": "AREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.431",
+      "source": "@town/ようこそ、おいしい水の街へ。",
+      "target": "물맛 좋은 도시에 잘 왔어요.",
+      "source_ref": "2.335:data/talk.txt:431",
+      "section": "AAREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.432",
+      "source": "@town/しゃがんでそこの水を飲んでごらん。すごくおいしい{よ}。",
+      "target": "몸을 숙여 저 물을 한 모금 마셔 봐. 기가 막히게 맛있다고.",
+      "source_ref": "2.335:data/talk.txt:432",
+      "section": "AAREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.433",
+      "source": "@town/景観保護のため、この街で釣りをするとガードに注意される{のだ}。",
+      "target": "여기서 낚시하면 경비병이 주의를 줘. 경관을 보호해야 한다나.",
+      "source_ref": "2.335:data/talk.txt:433",
+      "section": "AAREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.434",
+      "source": "@town/離れ島にワープしたら最後、もう戻れない{よ}。",
+      "target": "저 외딴섬으로 순간이동했다간 영영 못 돌아와.",
+      "source_ref": "2.335:data/talk.txt:434",
+      "section": "AAREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.435",
+      "source": "@town/バルザックはああ見えて暗殺を請け負う裏社会の掃除屋{だ}。",
+      "target": "발자크가 저래 보여도 뒷세계에서 암살을 도맡는 청소부야.",
+      "source_ref": "2.335:data/talk.txt:435",
+      "section": "AAREA,36,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.439",
+      "source": "@town/Welcome to the town of delicious water.",
+      "target": "물맛 좋은 마을에 온 걸 환영해.",
+      "source_ref": "2.335:data/talk.txt:439",
+      "section": "AAREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.440",
+      "source": "@town/Crouch down and take a sip of the water. It's great.",
+      "target": "쪼그려 앉아서 물 한 모금 마셔 봐. 정말 맛있다니까.",
+      "source_ref": "2.335:data/talk.txt:440",
+      "section": "AAREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.441",
+      "source": "@town/The guards will warn you if you try to fish here. Nature preservation and all that.",
+      "target": "여기서 낚시하면 경비병한테 한소리 듣게 돼. 자연을 보호해야 한다나 뭐라나.",
+      "source_ref": "2.335:data/talk.txt:441",
+      "section": "AAREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.442",
+      "source": "@town/If you warp to one of them islands, there ain't no coming back.",
+      "target": "저 섬들 중 하나로 순간이동했다간 돌아올 길이 없어.",
+      "source_ref": "2.335:data/talk.txt:442",
+      "section": "AAREA,36,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "town.443",
+      "source": "@town/Balzak might not look like it, but he performs assassinations for the underworld.",
+      "target": "발자크가 저래 보여도 뒷세계에서 암살을 도맡는 청소부야.",
+      "source_ref": "2.335:data/talk.txt:443",
+      "section": "AAREA,36,EN",
+      "review_status": "reviewed"
+    }
+  ]
+}

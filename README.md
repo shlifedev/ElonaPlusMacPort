@@ -72,8 +72,10 @@ Mac에서 준비된 Release 실행물을 사용하려면 루트의 **`Play Elona
 Mac Release는 최초 한 번 `python3 tools/bootstrap_macos_gui.py`로 공식 SDL3 및 SDL3_ttf 프레임워크를 프로젝트 캐시에 준비한다. 이후 `cmake --preset macos-arm64-legacy-cp932-release`와 `cmake --build --preset macos-arm64-legacy-cp932-release`로 더블클릭 런처가 사용하는 실행물을 빌드한다.
 일본어 텍스트는 표시 가능하지만 게임 문자열은 원본 CP932이므로 한국어/이모지 입력 지원을 의미하지 않는다.
 
-한국어 표시의 개발 중인 미리보기는 **`Play ElonaPlus Korean.command`** 또는
-`python3 tools/play_game.py --language ko`로 실행한다. 캐릭터 생성 문구, 첫 집의 시계·날씨·주요 로그, 저장 확인 질문을 번역한다. 노른의 첫 집과 세계 지도 안내는 영어 기반 7페이지와 일본어 기반 6페이지를 실게임으로 확인했다. 새 작업공간에서는 위의 소스 복원·빌드 후 `python3 tools/prepare_korean_game.py --output work/localization/managed-home-v2 --compile`로 문단과 로그 표시용 AX를 준비한다. 긴 NPC 대사, 문맥에 따라 뜻이 바뀌는 항목, 후반 퀘스트 등에는 원문이 남아 있다. 이름 입력과 저장 데이터는 원본 형식을 유지한다.
+**`Play ElonaPlus Korean.command`**를 더블클릭하거나 `python3 tools/play_game.py --language ko`로 실행한다. 기존 한국어 런처와 세이브를 그대로 사용한다. 캐릭터 생성, 노른 도움말, 첫 집 대화, 인벤토리·장비, 도시 의뢰 게시판과 주요 퀘스트에 한국어 표시를 지원한다. 종족·직업 소개와 일부 책은 일본어판과 영어판의 내용 차이도 반영한다. 검수 번역만 사용하려면 `--reviewed-only`를 추가한다.
+
+새 작업공간에서는 위의 원본 복원·빌드 후 `python3 tools/prepare_korean_game.py --output work/localization/managed-creation-v8 --compile`로 한국어 표시용 AX를 준비한다. 게임 원본과 세이브에는 CP932 문자열을 유지한다. [번역 범위와 재현 방법](docs/KOREAN_IMPLEMENTATION.md)
+
 [번역 출처](docs/KOREAN_SOURCES.md), [용어집](localization/ko-KR/glossary.tsv),
 [번역 지침](localization/ko-KR/style-guide.md)을 함께 관리한다.
 `--audit-translation`을 추가하면 해당 세션 폴더에 미번역 표시 문자열을 기록한다.

@@ -7,6 +7,9 @@ from a save row, an item instance, or a player/NPC name as a menu caption.
 # scope 1 = body slot, 2 = inventory action, 3 = column, 4 = tab/window,
 # 5 = status, 6 = sprite editor, 7 = portrait editor, 8 = character sheet and generated counters, 9 = biography.
 MENU_DRAWS = (
+    (224669, 'mes strmid(skillname(r), 0, 4 - (jp == 0)) + ": " + s(p)', 8, 'strmid(skillname(r), 0, 4 - (jp == 0)) + ": " + s(p)'),
+    (224697, 'mes s', 8, 's'),
+    (224719, 'mes s + s(1)', 8, 's + s(1)'),
     (37814, 'mes s', 8, 's'),
     (37998, 'mes s', 8, 's'),
     (38031, 'mes s', 8, 's'),

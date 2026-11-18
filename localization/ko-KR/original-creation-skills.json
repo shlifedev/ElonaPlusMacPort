@@ -1,0 +1,2264 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "Reviewed 2.335 skill names and descriptions composed at the character creation preview"
+  },
+  "entries": [
+    {
+      "source": "@sheet/盾          盾を扱う技術",
+      "target": "방패 · 방패를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:1878",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Shield          Increases the effectivness of using shields.",
+      "target": "방패 · 방패를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:1878",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/回避        攻撃を回避する",
+      "target": "회피 · 공격을 회피한다.",
+      "source_ref": "2.335:start.hsp:1884",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Evasion         Increases your chance of evading enemy att...",
+      "target": "회피 · 공격을 회피한다.",
+      "source_ref": "2.335:start.hsp:1884",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/二刀流      複数の武器を扱う技術",
+      "target": "쌍수 무기 · 여러 무기를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:1890",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dual Wield      Used when wielding two weapoms at the same...",
+      "target": "쌍수 무기 · 여러 무기를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:1890",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/両手持ち    両手で武器を扱う技術",
+      "target": "양손 무기 · 양손으로 무기를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:1896",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Two Hand        Used when wielding a weapon with both hands.",
+      "target": "양손 무기 · 양손으로 무기를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:1896",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/重量挙げ    重い荷物を持ち運ぶことを可能にする",
+      "target": "역도 · 무거운 짐을 운반할 수 있게 한다.",
+      "source_ref": "2.335:start.hsp:1974",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Weight Lifting  Allows you to carry more stuff.",
+      "target": "역도 · 무거운 짐을 운반할 수 있게 한다.",
+      "source_ref": "2.335:start.hsp:1974",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/戦術        近接攻撃の威力をあげる",
+      "target": "전술 · 근접 공격의 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:1980",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Tactics         Increases melee damage.",
+      "target": "전술 · 근접 공격의 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:1980",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/射撃        射撃の威力をあげる",
+      "target": "사격 · 사격의 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:1986",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Marksman        Increases shooting damage.",
+      "target": "사격 · 사격의 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:1986",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/治癒        怪我を自然に治癒する",
+      "target": "치유 · 상처를 자연스럽게 치유한다.",
+      "source_ref": "2.335:start.hsp:1992",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Healing         Gradually heals your wounds.",
+      "target": "치유 · 상처를 자연스럽게 치유한다.",
+      "source_ref": "2.335:start.hsp:1992",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/採掘        壁を掘る効率をあげる",
+      "target": "채굴 · 벽을 파는 효율을 높인다.",
+      "source_ref": "2.335:start.hsp:1998",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mining          Shows how good of a miner you are.",
+      "target": "채굴 · 벽을 파는 효율을 높인다.",
+      "source_ref": "2.335:start.hsp:1998",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/工作        物を加工し、アイテムを作り出す",
+      "target": "목공 · 물건을 가공해 아이템을 만든다.",
+      "source_ref": "2.335:start.hsp:2004",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Carpentry       Skill to cut trees and manufcture products.",
+      "target": "목공 · 물건을 가공해 아이템을 만든다.",
+      "source_ref": "2.335:start.hsp:2004",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/重装備      重い装備を扱う技術",
+      "target": "중갑 · 무거운 장비를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:2010",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Heavy Armor     Skill to effectively act while wearing hea...",
+      "target": "중갑 · 무거운 장비를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:2010",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/中装備      普通の装備を扱う技術",
+      "target": "중형 갑옷 · 보통 무게의 장비를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:2016",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Medium Armor    Skill to effectively act while wearing med...",
+      "target": "중형 갑옷 · 보통 무게의 장비를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:2016",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/軽装備      軽い装備を扱う技術",
+      "target": "경갑 · 가벼운 장비를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:2022",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Light Armor     Skill to effectively act while wearing lig...",
+      "target": "경갑 · 가벼운 장비를 다루는 기술이다.",
+      "source_ref": "2.335:start.hsp:2022",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/鍵開け      鍵を開ける",
+      "target": "자물쇠 따기 · 자물쇠를 딴다.",
+      "source_ref": "2.335:start.hsp:2028",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lock Picking    Allows you to pick more difficult locks.",
+      "target": "자물쇠 따기 · 자물쇠를 딴다.",
+      "source_ref": "2.335:start.hsp:2028",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/罠の知識    罠の設置・解体能力を強化する",
+      "target": "함정 해제 · 함정 설치·해체 능력을 강화한다.",
+      "source_ref": "2.335:start.hsp:2034",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Disarm Trap     Allows you to disarm harder traps.",
+      "target": "함정 해제 · 함정 설치·해체 능력을 강화한다.",
+      "source_ref": "2.335:start.hsp:2034",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/裁縫        革や蔓を用い、アイテムを作り出す",
+      "target": "재봉 · 가죽과 덩굴을 이용해 아이템을 만든다.",
+      "source_ref": "2.335:start.hsp:2040",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Tailoring       Skill to sew materials and manufucture pro...",
+      "target": "재봉 · 가죽과 덩굴을 이용해 아이템을 만든다.",
+      "source_ref": "2.335:start.hsp:2040",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/宝石細工    宝石を加工し、アイテムを作り出す",
+      "target": "보석 세공 · 보석을 가공해 아이템을 만든다.",
+      "source_ref": "2.335:start.hsp:2046",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Jeweler         Skill to process jewels and manufucture pr...",
+      "target": "보석 세공 · 보석을 가공해 아이템을 만든다.",
+      "source_ref": "2.335:start.hsp:2046",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/窃盗        貴重な物品を盗む",
+      "target": "절도 · 귀중품을 훔친다.",
+      "source_ref": "2.335:start.hsp:2052",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Pickpocket      Shows how good of a thief you are.",
+      "target": "절도 · 귀중품을 훔친다.",
+      "source_ref": "2.335:start.hsp:2052",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/着衣水泳    濡れた状態で素早く行動する/水中適応",
+      "target": "착의 수영 · 젖은 상태에서 빠르게 행동한다/수중 적응",
+      "source_ref": "2.335:start.hsp:2058",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Swimming        Allows you to move fast when wetting.",
+      "target": "착의 수영 · 젖은 상태에서 빠르게 행동한다/수중 적응",
+      "source_ref": "2.335:start.hsp:2058",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/隠密        周囲に気づかれず行動する",
+      "target": "은밀 · 주변에 들키지 않고 행동한다.",
+      "source_ref": "2.335:start.hsp:2064",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Stealth         Allows you to move quietly.",
+      "target": "은밀 · 주변에 들키지 않고 행동한다.",
+      "source_ref": "2.335:start.hsp:2064",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/探知        隠された場所や罠を見つける",
+      "target": "탐지 · 숨겨진 장소와 함정을 찾는다.",
+      "source_ref": "2.335:start.hsp:2070",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Detection       It is used to search hidden locations and ...",
+      "target": "탐지 · 숨겨진 장소와 함정을 찾는다.",
+      "source_ref": "2.335:start.hsp:2070",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/分析        物の種類や敵の攻撃パターンを感じ取る",
+      "target": "분석 · 물건의 종류와 적의 공격 패턴을 알아챈다.",
+      "source_ref": "2.335:start.hsp:2076",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Analysis        Allows you to feel the object-types and at...",
+      "target": "분석 · 물건의 종류와 적의 공격 패턴을 알아챈다.",
+      "source_ref": "2.335:start.hsp:2076",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/心眼        クリティカル時の威力を高める",
+      "target": "심안 · 치명타의 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:2082",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Eye of Mind     Increases power of critical hits.",
+      "target": "심안 · 치명타의 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:2082",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/釣り        釣りを可能にする",
+      "target": "낚시 · 낚시를 할 수 있게 한다.",
+      "source_ref": "2.335:start.hsp:2088",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Fishing         Displays your fishing skill.",
+      "target": "낚시 · 낚시를 할 수 있게 한다.",
+      "source_ref": "2.335:start.hsp:2088",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/見切り      不正確な攻撃を確実に避ける",
+      "target": "간파 · 부정확한 공격을 확실히 피한다.",
+      "source_ref": "2.335:start.hsp:2094",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Greater Evasion Makes you able to evade inaccurate attacks.",
+      "target": "간파 · 부정확한 공격을 확실히 피한다.",
+      "source_ref": "2.335:start.hsp:2094",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/解剖学      死体などを残しやすくする",
+      "target": "해부학 · 시체 등이 남을 확률을 높인다.",
+      "source_ref": "2.335:start.hsp:2100",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Anatomy         Gives you a better chance of finding dead ...",
+      "target": "해부학 · 시체 등이 남을 확률을 높인다.",
+      "source_ref": "2.335:start.hsp:2100",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/読書        難解な本の解読を可能にする",
+      "target": "독서 · 난해한 책을 해독할 수 있게 한다.",
+      "source_ref": "2.335:start.hsp:2106",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Literacy        Allows you to read difficult books.",
+      "target": "독서 · 난해한 책을 해독할 수 있게 한다.",
+      "source_ref": "2.335:start.hsp:2106",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/暗記        書物や攻撃の分析結果を記憶/巻物強化",
+      "target": "암기 · 책의 내용과 공격 분석 결과를 기억한다/두루마리 강화",
+      "source_ref": "2.335:start.hsp:2112",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Memorization    Memorize spells and analysis, Enhance scro...",
+      "target": "암기 · 책의 내용과 공격 분석 결과를 기억한다/두루마리 강화",
+      "source_ref": "2.335:start.hsp:2112",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/錬金術      様々な材料を調合/ポーション強化",
+      "target": "연금술 · 다양한 재료를 조합한다/물약 강화",
+      "source_ref": "2.335:start.hsp:2118",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Alchemy         Enables you to perform alchemy, Enhance po...",
+      "target": "연금술 · 다양한 재료를 조합한다/물약 강화",
+      "source_ref": "2.335:start.hsp:2118",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/栽培        植物を育て、採取する",
+      "target": "재배 · 식물을 길러 채취한다.",
+      "source_ref": "2.335:start.hsp:2124",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Gardening       Skill to plant seeds and gather harvests.",
+      "target": "재배 · 식물을 길러 채취한다.",
+      "source_ref": "2.335:start.hsp:2124",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/生化学      能力複合の知識を高める",
+      "target": "생화학 · 능력 복합에 관한 지식을 높인다.",
+      "source_ref": "2.335:start.hsp:2130",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Gene engineer   Allows you to control genes.",
+      "target": "생화학 · 능력 복합에 관한 지식을 높인다.",
+      "source_ref": "2.335:start.hsp:2130",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/料理        料理の腕を上げる",
+      "target": "요리 · 요리 솜씨를 높인다.",
+      "source_ref": "2.335:start.hsp:2136",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cooking         Improves your cooking skill.",
+      "target": "요리 · 요리 솜씨를 높인다.",
+      "source_ref": "2.335:start.hsp:2136",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/瞑想        消耗したマナを回復させる",
+      "target": "명상 · 소모한 마나를 회복한다.",
+      "source_ref": "2.335:start.hsp:2142",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Meditation      Gradually restores your magic points.",
+      "target": "명상 · 소모한 마나를 회복한다.",
+      "source_ref": "2.335:start.hsp:2142",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔道具      魔道具を効果的に扱う/魔杖強化",
+      "target": "마도구 · 마도구를 효과적으로 다룬다/마법봉 강화",
+      "source_ref": "2.335:start.hsp:2148",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Magic Device    Improves effectiveness of magic devices, E...",
+      "target": "마도구 · 마도구를 효과적으로 다룬다/마법봉 강화",
+      "source_ref": "2.335:start.hsp:2148",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/詠唱        魔法の詠唱成功率と強度を高める",
+      "target": "시전 · 주문 시전 성공률과 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:2154",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Casting         Enhances casting success rate and spell po...",
+      "target": "시전 · 주문 시전 성공률과 위력을 높인다.",
+      "source_ref": "2.335:start.hsp:2154",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力制御    魔法による味方のまきこみを軽減する",
+      "target": "마력 제어 · 주문으로 인한 동료의 피해를 줄인다.",
+      "source_ref": "2.335:start.hsp:2160",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Control Magic   Prevents your allies to get hit by your sp...",
+      "target": "마력 제어 · 주문으로 인한 동료의 피해를 줄인다.",
+      "source_ref": "2.335:start.hsp:2160",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力の限界  自分や杖から多くの魔力を引き出す",
+      "target": "마력의 한계 · 자신과 지팡이에서 더 많은 마력을 끌어낸다.",
+      "source_ref": "2.335:start.hsp:2166",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Magic Capacity  Bring out a lot of power from yourself and...",
+      "target": "마력의 한계 · 자신과 지팡이에서 더 많은 마력을 끌어낸다.",
+      "source_ref": "2.335:start.hsp:2166",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/信仰        神との距離を近める/呪いへの抵抗",
+      "target": "신앙 · 신과의 거리를 좁힌다/저주에 저항",
+      "source_ref": "2.335:start.hsp:2172",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Faith           Gets you closer to god/resist to curses",
+      "target": "신앙 · 신과의 거리를 좁힌다/저주에 저항",
+      "source_ref": "2.335:start.hsp:2172",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/旅歩き      旅の進行を早め経験を深める",
+      "target": "여행 · 여행의 진행을 빠르게 하고 경험을 쌓는다.",
+      "source_ref": "2.335:start.hsp:2178",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Traveling       Allows you to receive more EXP from travel...",
+      "target": "여행 · 여행의 진행을 빠르게 하고 경험을 쌓는다.",
+      "source_ref": "2.335:start.hsp:2178",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/乗馬        上手に乗りこなす",
+      "target": "승마 · 탈것을 능숙하게 탄다.",
+      "source_ref": "2.335:start.hsp:2184",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Riding          Allows you to ride creatures.",
+      "target": "승마 · 탈것을 능숙하게 탄다.",
+      "source_ref": "2.335:start.hsp:2184",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/交渉        交渉や商談を有利に進める",
+      "target": "교섭 · 교섭과 거래를 유리하게 이끈다.",
+      "source_ref": "2.335:start.hsp:2190",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Negotiation     Convinces someone to give you better deals.",
+      "target": "교섭 · 교섭과 거래를 유리하게 이끈다.",
+      "source_ref": "2.335:start.hsp:2190",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/投資        効果的に投資を行う",
+      "target": "투자 · 효과적으로 투자한다.",
+      "source_ref": "2.335:start.hsp:2196",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Investing       Lowers the money needed to invest in shops.",
+      "target": "투자 · 효과적으로 투자한다.",
+      "source_ref": "2.335:start.hsp:2196",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/演奏        質の高い演奏を可能にする",
+      "target": "연주 · 수준 높은 연주를 가능하게 한다.",
+      "source_ref": "2.335:start.hsp:2202",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Performer       Shows how good of a performer you are.",
+      "target": "연주 · 수준 높은 연주를 가능하게 한다.",
+      "source_ref": "2.335:start.hsp:2202",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/軽傷治癒    体力回復",
+      "target": "경상 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2208",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Heal Light      Heal self",
+      "target": "경상 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2208",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/致命傷治癒  体力回復",
+      "target": "치명상 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2214",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Heal Critical   Heal self",
+      "target": "치명상 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2214",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/エリスの癒し 体力回復",
+      "target": "에리스의 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2220",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cure of Eris    Heal self",
+      "target": "에리스의 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2220",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ジュアの癒し 体力回復",
+      "target": "주아의 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2226",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cure of Jua     Heal self",
+      "target": "주아의 치유 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2226",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/癒しの手    体力回復",
+      "target": "치유의 손길 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2232",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Healing Touch   Heal target",
+      "target": "치유의 손길 · 체력 회복",
+      "source_ref": "2.335:start.hsp:2232",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/清浄なる光  1つの呪い(hex)除去",
+      "target": "성스러운 빛 · 저주(hex) 1개 제거",
+      "source_ref": "2.335:start.hsp:2238",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Holy Light      Remove one hex",
+      "target": "성스러운 빛 · 저주(hex) 1개 제거",
+      "source_ref": "2.335:start.hsp:2238",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/全浄化      全ての呪い(hex)除去",
+      "target": "완전 정화 · 모든 저주(hex) 제거",
+      "source_ref": "2.335:start.hsp:2244",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Vanquish Hex    Remove all hexes",
+      "target": "완전 정화 · 모든 저주(hex) 제거",
+      "source_ref": "2.335:start.hsp:2244",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/テレポートアザー 対象を瞬間移動させる",
+      "target": "타인 순간이동 · 대상을 순간이동시킨다.",
+      "source_ref": "2.335:start.hsp:2250",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Teleport Other  Teleport target",
+      "target": "타인 순간이동 · 대상을 순간이동시킨다.",
+      "source_ref": "2.335:start.hsp:2250",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/テレポート  瞬間移動",
+      "target": "순간이동 · 순간이동",
+      "source_ref": "2.335:start.hsp:2256",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Teleport        Teleport self",
+      "target": "순간이동 · 순간이동",
+      "source_ref": "2.335:start.hsp:2256",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ショートテレポート 近くへの瞬間移動",
+      "target": "단거리 순간이동 · 가까운 곳으로 순간이동",
+      "source_ref": "2.335:start.hsp:2262",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Short Teleport  Teleport self",
+      "target": "단거리 순간이동 · 가까운 곳으로 순간이동",
+      "source_ref": "2.335:start.hsp:2262",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/鑑定        アイテム鑑定",
+      "target": "감정 · 아이템 감정",
+      "source_ref": "2.335:start.hsp:2268",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Identify        Identify one item",
+      "target": "감정 · 아이템 감정",
+      "source_ref": "2.335:start.hsp:2268",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/解呪        装備品の解呪",
+      "target": "저주 해제 · 장비의 저주 해제",
+      "source_ref": "2.335:start.hsp:2274",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Uncurse         Uncurse equipments",
+      "target": "저주 해제 · 장비의 저주 해제",
+      "source_ref": "2.335:start.hsp:2274",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/神託        アーティファクト感知",
+      "target": "신탁 · 아티팩트 감지",
+      "source_ref": "2.335:start.hsp:2280",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Oracle          Reveal artifacts",
+      "target": "신탁 · 아티팩트 감지",
+      "source_ref": "2.335:start.hsp:2280",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔法の矢    魔法属性の矢",
+      "target": "마법의 화살 · 마법 속성 화살",
+      "source_ref": "2.335:start.hsp:2286",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Magic Dart      Target(Magic)",
+      "target": "마법의 화살 · 마법 속성 화살",
+      "source_ref": "2.335:start.hsp:2286",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/地獄の吐息  地獄属性の矢",
+      "target": "지옥의 한숨 · 지옥 속성 화살",
+      "source_ref": "2.335:start.hsp:2292",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Nether Sigh     Target(Nether)",
+      "target": "지옥의 한숨 · 지옥 속성 화살",
+      "source_ref": "2.335:start.hsp:2292",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/混沌の瞳    混沌属性の矢",
+      "target": "혼돈의 눈동자 · 혼돈 속성 화살",
+      "source_ref": "2.335:start.hsp:2298",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Chaos Eye       Target(Chaos)",
+      "target": "혼돈의 눈동자 · 혼돈 속성 화살",
+      "source_ref": "2.335:start.hsp:2298",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/神経の針    神経属性の矢",
+      "target": "신경의 바늘 · 신경 속성 화살",
+      "source_ref": "2.335:start.hsp:2304",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Nerve Needle    Target(Nerve)",
+      "target": "신경의 바늘 · 신경 속성 화살",
+      "source_ref": "2.335:start.hsp:2304",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/暗黒の楔    暗黒属性の矢",
+      "target": "암흑의 쐐기 · 암흑 속성 화살",
+      "source_ref": "2.335:start.hsp:2310",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Darkness Wedge  Target(Darkness)",
+      "target": "암흑의 쐐기 · 암흑 속성 화살",
+      "source_ref": "2.335:start.hsp:2310",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/火炎の爪    火炎属性の矢",
+      "target": "화염의 발톱 · 화염 속성 화살",
+      "source_ref": "2.335:start.hsp:2316",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Fire Claw       Target(Fire)",
+      "target": "화염의 발톱 · 화염 속성 화살",
+      "source_ref": "2.335:start.hsp:2316",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/冷気の刃    冷気属性の矢",
+      "target": "냉기의 칼날 · 냉기 속성 화살",
+      "source_ref": "2.335:start.hsp:2322",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cold Blade      Target(Cold)",
+      "target": "냉기의 칼날 · 냉기 속성 화살",
+      "source_ref": "2.335:start.hsp:2322",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/電撃の槍    電撃属性の矢",
+      "target": "전격의 창 · 전격 속성 화살",
+      "source_ref": "2.335:start.hsp:2328",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lightning Spear Target(Lightning)",
+      "target": "전격의 창 · 전격 속성 화살",
+      "source_ref": "2.335:start.hsp:2328",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/幻惑の棘    幻惑属性の矢",
+      "target": "환혹의 가시 · 환혹 속성 화살",
+      "source_ref": "2.335:start.hsp:2334",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mind Thorn      Target(Mind)",
+      "target": "환혹의 가시 · 환혹 속성 화살",
+      "source_ref": "2.335:start.hsp:2334",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/毒の粘液    毒属性の矢",
+      "target": "독의 점액 · 독 속성 화살",
+      "source_ref": "2.335:start.hsp:2340",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Poison Mucus    Target(Poison)",
+      "target": "독의 점액 · 독 속성 화살",
+      "source_ref": "2.335:start.hsp:2340",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/音の砲弾    音属性の矢",
+      "target": "음파의 포탄 · 음파 속성 화살",
+      "source_ref": "2.335:start.hsp:2346",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Sound Cannonball Target(Sound)",
+      "target": "음파의 포탄 · 음파 속성 화살",
+      "source_ref": "2.335:start.hsp:2346",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/水の牙      PVDV属性の矢",
+      "target": "물의 송곳니 · PV·DV 속성 화살",
+      "source_ref": "2.335:start.hsp:2352",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Hydro Fang      Target(PVDV)",
+      "target": "물의 송곳니 · PV·DV 속성 화살",
+      "source_ref": "2.335:start.hsp:2352",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/マジックボルト 魔法属性のボルト",
+      "target": "마법 볼트 · 마법 속성 볼트",
+      "source_ref": "2.335:start.hsp:2358",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Magic Bolt      Line(Magic)",
+      "target": "마법 볼트 · 마법 속성 볼트",
+      "source_ref": "2.335:start.hsp:2358",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/アイスボルト 冷気属性のボルト",
+      "target": "얼음 볼트 · 냉기 속성 볼트",
+      "source_ref": "2.335:start.hsp:2364",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Ice Bolt        Line(Cold)",
+      "target": "얼음 볼트 · 냉기 속성 볼트",
+      "source_ref": "2.335:start.hsp:2364",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ファイアボルト 火炎属性のボルト",
+      "target": "화염 볼트 · 화염 속성 볼트",
+      "source_ref": "2.335:start.hsp:2370",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Fire Bolt       Line(Fire)",
+      "target": "화염 볼트 · 화염 속성 볼트",
+      "source_ref": "2.335:start.hsp:2370",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ライトニングボルト 雷属性のボルト",
+      "target": "번개 볼트 · 전격 속성 볼트",
+      "source_ref": "2.335:start.hsp:2376",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lightning Bolt  Line(Lightning)",
+      "target": "번개 볼트 · 전격 속성 볼트",
+      "source_ref": "2.335:start.hsp:2376",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ダークネスボルト 暗黒属性のボルト",
+      "target": "암흑 볼트 · 암흑 속성 볼트",
+      "source_ref": "2.335:start.hsp:2382",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Darkness Bolt   Line(Darkness)",
+      "target": "암흑 볼트 · 암흑 속성 볼트",
+      "source_ref": "2.335:start.hsp:2382",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/マインドボルト 幻惑属性のボルト",
+      "target": "환혹 볼트 · 환혹 속성 볼트",
+      "source_ref": "2.335:start.hsp:2388",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mind Bolt       Line(Mind)",
+      "target": "환혹 볼트 · 환혹 속성 볼트",
+      "source_ref": "2.335:start.hsp:2388",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ネザーボルト 地獄属性のボルト",
+      "target": "지옥 볼트 · 지옥 속성 볼트",
+      "source_ref": "2.335:start.hsp:2394",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Nether Bolt     Line(Nether)",
+      "target": "지옥 볼트 · 지옥 속성 볼트",
+      "source_ref": "2.335:start.hsp:2394",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ポイズンボルト 毒属性のボルト",
+      "target": "독 볼트 · 독 속성 볼트",
+      "source_ref": "2.335:start.hsp:2400",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Poison Bolt     Line(Poison)",
+      "target": "독 볼트 · 독 속성 볼트",
+      "source_ref": "2.335:start.hsp:2400",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/サウンドボルト 音属性のボルト",
+      "target": "음파 볼트 · 음파 속성 볼트",
+      "source_ref": "2.335:start.hsp:2406",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Sound Bolt      Line(Sound)",
+      "target": "음파 볼트 · 음파 속성 볼트",
+      "source_ref": "2.335:start.hsp:2406",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/カオスボルト 混沌属性のボルト",
+      "target": "혼돈 볼트 · 혼돈 속성 볼트",
+      "source_ref": "2.335:start.hsp:2412",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Chaos Bolt      Line(Chaos)",
+      "target": "혼돈 볼트 · 혼돈 속성 볼트",
+      "source_ref": "2.335:start.hsp:2412",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ナーブボルト 神経属性のボルト",
+      "target": "신경 볼트 · 신경 속성 볼트",
+      "source_ref": "2.335:start.hsp:2418",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Nerve Bolt      Line(Nerve)",
+      "target": "신경 볼트 · 신경 속성 볼트",
+      "source_ref": "2.335:start.hsp:2418",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ハイドロボルト PVDV属性のボルト",
+      "target": "물 볼트 · PV·DV 속성 볼트",
+      "source_ref": "2.335:start.hsp:2424",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Hydro Bolt      Line(PVDV)",
+      "target": "물 볼트 · PV·DV 속성 볼트",
+      "source_ref": "2.335:start.hsp:2424",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力の嵐    魔法属性の範囲攻撃",
+      "target": "마력의 폭풍 · 마법 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2436",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Magic Storm     Surround(Magic)",
+      "target": "마력의 폭풍 · 마법 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2436",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/氷結の波動  冷気属性の範囲攻撃",
+      "target": "빙결의 파동 · 냉기 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2442",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Freezing Wave   Surround(Cold)",
+      "target": "빙결의 파동 · 냉기 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2442",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/灼熱の嵐    火炎属性の範囲攻撃",
+      "target": "작열의 폭풍 · 화염 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2448",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Burning Storm   Surround(Fire)",
+      "target": "작열의 폭풍 · 화염 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2448",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/雷霆の渦    電撃属性の範囲攻撃",
+      "target": "뇌정의 소용돌이 · 전격 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2454",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Thunder Vortex  Surround(Lightning)",
+      "target": "뇌정의 소용돌이 · 전격 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2454",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/混沌の渦    混沌属性の範囲攻撃",
+      "target": "혼돈의 소용돌이 · 혼돈 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2460",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Chaos Vortex    Surround(Chaos)",
+      "target": "혼돈의 소용돌이 · 혼돈 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2460",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/轟音の波動  轟音属性の範囲攻撃",
+      "target": "굉음의 파동 · 굉음 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2466",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Howling Wave    Surround(Sound)",
+      "target": "굉음의 파동 · 굉음 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2466",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/月蝕の檻    暗黒属性の範囲攻撃",
+      "target": "월식의 감옥 · 암흑 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2472",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Eclipse Jail    Surround(Darkness)",
+      "target": "월식의 감옥 · 암흑 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2472",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/冥王の咆哮  地獄属性の範囲攻撃",
+      "target": "명왕의 포효 · 지옥 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2478",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Nether Roar     Surround(Nether)",
+      "target": "명왕의 포효 · 지옥 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2478",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/猛毒の嵐    毒属性の範囲攻撃",
+      "target": "맹독의 폭풍 · 독 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2484",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Poison Storm    Surround(Poison)",
+      "target": "맹독의 폭풍 · 독 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2484",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/夢幻の咆哮  幻惑属性の範囲攻撃",
+      "target": "몽환의 포효 · 환혹 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2490",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Illusion Roar   Surround(Mind)",
+      "target": "몽환의 포효 · 환혹 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2490",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/苦悶の檻    神経属性の範囲攻撃",
+      "target": "고뇌의 감옥 · 신경 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2496",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Anguish Jail    Surround(Nerve)",
+      "target": "고뇌의 감옥 · 신경 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2496",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/泡沫の嵐    PVDV属性の範囲攻撃",
+      "target": "거품의 폭풍 · PV·DV 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2502",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Bubble Storm    Surround(PVDV)",
+      "target": "거품의 폭풍 · PV·DV 속성 범위 공격",
+      "source_ref": "2.335:start.hsp:2502",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/治癒の雨    体力回復の球",
+      "target": "치유의 비 · 체력 회복 구체",
+      "source_ref": "2.335:start.hsp:2508",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Healing Rain    Heal area",
+      "target": "치유의 비 · 체력 회복 구체",
+      "source_ref": "2.335:start.hsp:2508",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/グラビティ  重力の発生",
+      "target": "중력 · 중력 발생",
+      "source_ref": "2.335:start.hsp:2520",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Gravity         Create gravity",
+      "target": "중력 · 중력 발생",
+      "source_ref": "2.335:start.hsp:2520",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/モンスター召喚 モンスターを召喚する",
+      "target": "몬스터 소환 · 몬스터를 소환한다.",
+      "source_ref": "2.335:start.hsp:2526",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Summon Monsters Summon hostile creatures",
+      "target": "몬스터 소환 · 몬스터를 소환한다.",
+      "source_ref": "2.335:start.hsp:2526",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/野生召喚    野生の生き物を召喚する",
+      "target": "야생 소환 · 야생 생물을 소환한다.",
+      "source_ref": "2.335:start.hsp:2532",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Summon Wild     Summon wild creatures",
+      "target": "야생 소환 · 야생 생물을 소환한다.",
+      "source_ref": "2.335:start.hsp:2532",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/精霊召喚    精霊を召喚する",
+      "target": "정령 소환 · 정령을 소환한다.",
+      "source_ref": "2.335:start.hsp:2568",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Summon spirit   Summon spirit",
+      "target": "정령 소환 · 정령을 소환한다.",
+      "source_ref": "2.335:start.hsp:2568",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/支配        対象を支配/仲間にできない対象には麻痺",
+      "target": "지배 · 대상 지배/동료로 삼을 수 없는 대상은 마비",
+      "source_ref": "2.335:start.hsp:2574",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dominate        Dominate target",
+      "target": "지배 · 대상 지배/동료로 삼을 수 없는 대상은 마비",
+      "source_ref": "2.335:start.hsp:2574",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/蜘蛛の巣    蜘蛛の巣発生",
+      "target": "거미줄 · 거미줄 생성",
+      "source_ref": "2.335:start.hsp:2580",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Web             Create webs",
+      "target": "거미줄 · 거미줄 생성",
+      "source_ref": "2.335:start.hsp:2580",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/闇の霧      濃い霧の発生",
+      "target": "어둠의 안개 · 짙은 안개 생성",
+      "source_ref": "2.335:start.hsp:2586",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mist of Darkness Create mist",
+      "target": "어둠의 안개 · 짙은 안개 생성",
+      "source_ref": "2.335:start.hsp:2586",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/光の霧      眩い霧の発生",
+      "target": "빛의 안개 · 눈부신 안개 생성",
+      "source_ref": "2.335:start.hsp:2592",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mist of Dazzling Create mist",
+      "target": "빛의 안개 · 눈부신 안개 생성",
+      "source_ref": "2.335:start.hsp:2592",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/壁生成      壁の生成",
+      "target": "벽 생성 · 벽 생성",
+      "source_ref": "2.335:start.hsp:2598",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wall Creation   Create walls",
+      "target": "벽 생성 · 벽 생성",
+      "source_ref": "2.335:start.hsp:2598",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/ドア生成    ドアの生成",
+      "target": "문 생성 · 문 생성",
+      "source_ref": "2.335:start.hsp:2604",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Door Creation   Create doors",
+      "target": "문 생성 · 문 생성",
+      "source_ref": "2.335:start.hsp:2604",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/酸の海      酸の発生",
+      "target": "산의 바다 · 산 생성",
+      "source_ref": "2.335:start.hsp:2610",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Acid Ground     Create acid grounds",
+      "target": "산의 바다 · 산 생성",
+      "source_ref": "2.335:start.hsp:2610",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/炎の壁      火柱の発生",
+      "target": "불의 벽 · 불기둥 생성",
+      "source_ref": "2.335:start.hsp:2622",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Fire Wall       Create fire grounds",
+      "target": "불의 벽 · 불기둥 생성",
+      "source_ref": "2.335:start.hsp:2622",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/帰還        特定の場所への帰還",
+      "target": "귀환 · 특정 장소로 귀환",
+      "source_ref": "2.335:start.hsp:2634",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Return          Return",
+      "target": "귀환 · 특정 장소로 귀환",
+      "source_ref": "2.335:start.hsp:2634",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/四次元ポケット 四次元のポケットを召喚",
+      "target": "4차원 주머니 · 4차원 주머니 소환",
+      "source_ref": "2.335:start.hsp:2640",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/4-Dimensional Pocket Summon 4-Dimensional Pocket",
+      "target": "4차원 주머니 · 4차원 주머니 소환",
+      "source_ref": "2.335:start.hsp:2640",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔法の地図  周囲の地形感知",
+      "target": "마법의 지도 · 주변 지형 감지",
+      "source_ref": "2.335:start.hsp:2646",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Magic Map       Reveal surround map",
+      "target": "마법의 지도 · 주변 지형 감지",
+      "source_ref": "2.335:start.hsp:2646",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔術士の収穫 ランダムな収穫",
+      "target": "마법사의 수확 · 무작위 수확",
+      "source_ref": "2.335:start.hsp:2652",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wizard's Harvest Random harvest",
+      "target": "마법사의 수확 · 무작위 수확",
+      "source_ref": "2.335:start.hsp:2652",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/物質感知    周囲の物質感知",
+      "target": "물질 감지 · 주변 물질 감지",
+      "source_ref": "2.335:start.hsp:2658",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Sense Object    Reveal nearby objects",
+      "target": "물질 감지 · 주변 물질 감지",
+      "source_ref": "2.335:start.hsp:2658",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/肉体復活    肉体の弱体化を治療/スタミナ微回復",
+      "target": "육체 복원 · 육체의 약화를 치료/스태미나 소량 회복",
+      "source_ref": "2.335:start.hsp:2664",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Restore Body    Restore phisical",
+      "target": "육체 복원 · 육체의 약화를 치료/스태미나 소량 회복",
+      "source_ref": "2.335:start.hsp:2664",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/精神復活    精神の弱体化を治療/パワーゲージ微増",
+      "target": "정신 복원 · 정신의 약화를 치료/파워 게이지 소폭 증가",
+      "source_ref": "2.335:start.hsp:2670",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Restore Spirit  Restore mind",
+      "target": "정신 복원 · 정신의 약화를 치료/파워 게이지 소폭 증가",
+      "source_ref": "2.335:start.hsp:2670",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/復活        死者の蘇生",
+      "target": "부활 · 죽은 자 소생",
+      "source_ref": "2.335:start.hsp:2676",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Resurrection    Resurrect dead",
+      "target": "부활 · 죽은 자 소생",
+      "source_ref": "2.335:start.hsp:2676",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/願い        願いの効果/LV高いほど難易度増加",
+      "target": "소원 · 소원 효과/LV이 높을수록 난이도 증가",
+      "source_ref": "2.335:start.hsp:2682",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wish            Wish/The higher LV, the higher difficulty",
+      "target": "소원 · 소원 효과/LV이 높을수록 난이도 증가",
+      "source_ref": "2.335:start.hsp:2682",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/メテオ      全域無差別火炎属性攻撃",
+      "target": "메테오 · 전역 무차별 화염 속성 공격",
+      "source_ref": "2.335:start.hsp:2688",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Meteor          Indiscriminate(Fire)",
+      "target": "메테오 · 전역 무차별 화염 속성 공격",
+      "source_ref": "2.335:start.hsp:2688",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/自己の変容  違う自分になる",
+      "target": "자기 변용 · 다른 자신으로 변한다.",
+      "source_ref": "2.335:start.hsp:2694",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mutation        Mutate self",
+      "target": "자기 변용 · 다른 자신으로 변한다.",
+      "source_ref": "2.335:start.hsp:2694",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/聖なる盾    防御力強化",
+      "target": "성스러운 방패 · 방어력 강화",
+      "source_ref": "2.335:start.hsp:2700",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/沈黙の霧    魔法使用不可",
+      "target": "침묵의 안개 · 마법 사용 불가",
+      "source_ref": "2.335:start.hsp:2706",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/フェザー    回避力強化・浮遊",
+      "target": "깃털 · 회피력 강화·부유",
+      "source_ref": "2.335:start.hsp:2784",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: None",
+      "target": "근력 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: 皆無",
+      "target": "근력 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: Best",
+      "target": "근력 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: 最高",
+      "target": "근력 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: Great",
+      "target": "근력 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: 理想的",
+      "target": "근력 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: Good",
+      "target": "근력 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: 高い",
+      "target": "근력 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: Not bad",
+      "target": "근력 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: やや高い",
+      "target": "근력 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: Normal",
+      "target": "근력 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: 普通",
+      "target": "근력 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: Little",
+      "target": "근력 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: 少し",
+      "target": "근력 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Str: Slight",
+      "target": "근력 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/筋力: 微々",
+      "target": "근력 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: None",
+      "target": "내구 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: 皆無",
+      "target": "내구 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: Best",
+      "target": "내구 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: 最高",
+      "target": "내구 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: Great",
+      "target": "내구 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: 理想的",
+      "target": "내구 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: Good",
+      "target": "내구 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: 高い",
+      "target": "내구 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: Not bad",
+      "target": "내구 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: やや高い",
+      "target": "내구 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: Normal",
+      "target": "내구 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: 普通",
+      "target": "내구 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: Little",
+      "target": "내구 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: 少し",
+      "target": "내구 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Con: Slight",
+      "target": "내구 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/耐久: 微々",
+      "target": "내구 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: None",
+      "target": "기교 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: 皆無",
+      "target": "기교 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: Best",
+      "target": "기교 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: 最高",
+      "target": "기교 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: Great",
+      "target": "기교 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: 理想的",
+      "target": "기교 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: Good",
+      "target": "기교 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: 高い",
+      "target": "기교 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: Not bad",
+      "target": "기교 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: やや高い",
+      "target": "기교 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: Normal",
+      "target": "기교 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: 普通",
+      "target": "기교 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: Little",
+      "target": "기교 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: 少し",
+      "target": "기교 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Dex: Slight",
+      "target": "기교 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/器用: 微々",
+      "target": "기교 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: None",
+      "target": "지각 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: 皆無",
+      "target": "지각 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: Best",
+      "target": "지각 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: 最高",
+      "target": "지각 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: Great",
+      "target": "지각 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: 理想的",
+      "target": "지각 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: Good",
+      "target": "지각 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: 高い",
+      "target": "지각 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: Not bad",
+      "target": "지각 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: やや高い",
+      "target": "지각 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: Normal",
+      "target": "지각 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: 普通",
+      "target": "지각 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: Little",
+      "target": "지각 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: 少し",
+      "target": "지각 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Per: Slight",
+      "target": "지각 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/感覚: 微々",
+      "target": "지각 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: None",
+      "target": "학습 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: 皆無",
+      "target": "학습 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: Best",
+      "target": "학습 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: 最高",
+      "target": "학습 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: Great",
+      "target": "학습 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: 理想的",
+      "target": "학습 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: Good",
+      "target": "학습 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: 高い",
+      "target": "학습 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: Not bad",
+      "target": "학습 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: やや高い",
+      "target": "학습 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: Normal",
+      "target": "학습 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: 普通",
+      "target": "학습 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: Little",
+      "target": "학습 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: 少し",
+      "target": "학습 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lea: Slight",
+      "target": "학습 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/習得: 微々",
+      "target": "학습 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: None",
+      "target": "의지 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: 皆無",
+      "target": "의지 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: Best",
+      "target": "의지 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: 最高",
+      "target": "의지 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: Great",
+      "target": "의지 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: 理想的",
+      "target": "의지 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: Good",
+      "target": "의지 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: 高い",
+      "target": "의지 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: Not bad",
+      "target": "의지 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: やや高い",
+      "target": "의지 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: Normal",
+      "target": "의지 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: 普通",
+      "target": "의지 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: Little",
+      "target": "의지 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: 少し",
+      "target": "의지 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Wil: Slight",
+      "target": "의지 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/意志: 微々",
+      "target": "의지 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: None",
+      "target": "마력 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: 皆無",
+      "target": "마력 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: Best",
+      "target": "마력 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: 最高",
+      "target": "마력 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: Great",
+      "target": "마력 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: 理想的",
+      "target": "마력 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: Good",
+      "target": "마력 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: 高い",
+      "target": "마력 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: Not bad",
+      "target": "마력 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: やや高い",
+      "target": "마력 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: Normal",
+      "target": "마력 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: 普通",
+      "target": "마력 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: Little",
+      "target": "마력 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: 少し",
+      "target": "마력 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mag: Slight",
+      "target": "마력 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魔力: 微々",
+      "target": "마력 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: None",
+      "target": "매력 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: 皆無",
+      "target": "매력 · 없음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: Best",
+      "target": "매력 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: 最高",
+      "target": "매력 · 최고",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: Great",
+      "target": "매력 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: 理想的",
+      "target": "매력 · 매우 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: Good",
+      "target": "매력 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: 高い",
+      "target": "매력 · 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: Not bad",
+      "target": "매력 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: やや高い",
+      "target": "매력 · 다소 높음",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: Normal",
+      "target": "매력 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: 普通",
+      "target": "매력 · 보통",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: Little",
+      "target": "매력 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: 少し",
+      "target": "매력 · 조금",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Cha: Slight",
+      "target": "매력 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/魅力: 微々",
+      "target": "매력 · 미미함",
+      "source_ref": "2.335:start.hsp:224669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/proficiency",
+      "target": "무기 숙련 · ",
+      "source_ref": "2.335:start.hsp:224681",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Long Sword",
+      "target": "장검",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Short Sword",
+      "target": "단검",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Axe",
+      "target": "도끼",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Blunt",
+      "target": "둔기",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Polearm",
+      "target": "창",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Scythe",
+      "target": "낫",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Martial Arts",
+      "target": "격투",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Firearm",
+      "target": "총기",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Throwing",
+      "target": "투척",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Bow",
+      "target": "활",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Crossbow",
+      "target": "석궁",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/weapon/Staff",
+      "target": "지팡이",
+      "source_ref": "2.335:start.hsp:224687",
+      "review_status": "reviewed"
+    }
+  ]
+}

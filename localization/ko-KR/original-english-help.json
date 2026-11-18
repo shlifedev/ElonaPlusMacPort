@@ -607,5 +607,3218 @@
       "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
       "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
     }
+  },
+  {
+    "id": "exhelp.en.3.line.1",
+    "source": "It's a town! The streets are crowded with",
+    "target": "마을이다! 거리에 사람이 참 많지?",
+    "source_ref": [
+      "2.335:data/exhelp.txt:84"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.3.line.2",
+    "source": "people. Don't worry, they won't bite if you",
+    "target": "먼저 시비만 걸지 않으면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:85"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.3.line.3",
+    "source": "don't bother them.",
+    "target": "아무도 널 물지 않아.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:86"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.3.line.4",
+    "source": "Towns offer many services such as training,",
+    "target": "마을에서는 훈련도 받고 장사도 하고,",
+    "source_ref": [
+      "2.335:data/exhelp.txt:88"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.3.line.5",
+    "source": "trading, gambling, quests, etc...",
+    "target": "도박을 하거나 의뢰를 맡을 수도 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:89"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.3.line.6",
+    "source": "If you are in need of money or equipment, <emp1>go<def>",
+    "target": "돈이나 장비가 필요하면 <emp1>마을<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:90"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.3.line.7",
+    "source": "<emp1>check the town board.<def>",
+    "target": "<emp1>게시판을 살펴봐.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:91"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.3.line.8",
+    "source": "It's a big board, you won't miss it.",
+    "target": "워낙 커서 금세 찾을 거야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:92"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 3,
+    "page": 2,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.4.line.1",
+    "source": "You can view sub quests here. Think",
+    "target": "여기서 의뢰를 고를 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:107"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 4,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.4.line.2",
+    "source": "carefully before accepting any of them.",
+    "target": "수락하기 전에 잘 생각해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:108"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 4,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.4.line.3",
+    "source": "Some can be quite dangerous.",
+    "target": "꽤 위험한 일도 있거든.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:109"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 4,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.4.line.4",
+    "source": "The $ mark and its color indicates how",
+    "target": "달러 기호의 개수와 색깔을 보면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:111"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 4,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.4.line.5",
+    "source": "difficult the task is. <emp1>Green is easy.<def>",
+    "target": "난이도를 알 수 있어. <emp1>초록은 쉬워.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:112"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 4,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.4.line.6",
+    "source": "<emp1>Blue, harder and red is risky.<def>",
+    "target": "<emp1>파랑은 더 어렵고, 빨강은 위험해.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:113"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 4,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.1",
+    "source": "You are standing on the <emp1>material spot.<def>",
+    "target": "지금 선 곳이 <emp1>재료 채집 지점<def>이야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:129"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.2",
+    "source": "<emp1>By pressing the space bar<def>, you will",
+    "target": "<emp1>스페이스 바를 누르면<def> 여기서",
+    "source_ref": [
+      "2.335:data/exhelp.txt:130"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.3",
+    "source": "automatically collects materials here.",
+    "target": "알아서 재료를 모으기 시작해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:131"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.4",
+    "source": "Materials are mainly used for producting",
+    "target": "재료는 주로 물건을 만드는 데 써.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:133"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.5",
+    "source": "items. Some materials like casino chips can be",
+    "target": "카지노 칩처럼 도박에 쓸 수 있는",
+    "source_ref": [
+      "2.335:data/exhelp.txt:134"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.6",
+    "source": "used for gambling.",
+    "target": "재료도 있고.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:135"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.7",
+    "source": "Be careful as while collecting the materials,",
+    "target": "재료를 모으는 동안에는",
+    "source_ref": [
+      "2.335:data/exhelp.txt:137"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 3,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.5.line.8",
+    "source": "you can't move.",
+    "target": "움직일 수 없으니까 조심해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:138"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 5,
+    "page": 3,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.1",
+    "source": "You are standing on a <emp1>random area icon.<def>",
+    "target": "지금 <emp1>무작위 지역 표시<def> 위에 서 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:152"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.2",
+    "source": "Before entering a random area, watch for the",
+    "target": "들어가기 전에는 먼저",
+    "source_ref": [
+      "2.335:data/exhelp.txt:153"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.3",
+    "source": "<emp1>approximate danger level.<def>",
+    "target": "<emp1>예상 위험도<def>를 확인해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:154"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.4",
+    "source": "You might want to avoid areas with higher level",
+    "target": "네 레벨보다 높은 곳은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:155"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.5",
+    "source": "than you.",
+    "target": "피하는 게 좋을지도 몰라.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:156"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 1,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.6",
+    "source": "At the bottom of each random area, a lord of",
+    "target": "던전 가장 깊은 곳에서는",
+    "source_ref": [
+      "2.335:data/exhelp.txt:158"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.7",
+    "source": "the dungeon awaits you. They are powerful but",
+    "target": "그곳의 주인이 기다리고 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:159"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.6.line.8",
+    "source": "posess greater loot.",
+    "target": "강한 만큼 좋은 전리품을 갖고 있지.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:160"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 6,
+    "page": 2,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.7.line.1",
+    "source": "You can have a square meal at the inns.",
+    "target": "여관에서는 든든하게 한 끼 먹을 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:173"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 7,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.7.line.2",
+    "source": "If you don't have a source of food,",
+    "target": "먹을 것을 구할 데가 마땅찮으면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:174"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 7,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.7.line.3",
+    "source": "you should regularly visit the inns and",
+    "target": "여관에서 틈틈이 식사하고",
+    "source_ref": [
+      "2.335:data/exhelp.txt:175"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 7,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.7.line.4",
+    "source": "save your valuable food for your journey.  ",
+    "target": "소중한 식량은 여행할 때를 위해 아껴 둬.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:176"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 7,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.7.line.5",
+    "source": "Inns also offer <emp1>shelter service<def> during",
+    "target": "여관에는 <emp1>대피소<def>도 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:178"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 7,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.7.line.6",
+    "source": "bad weather and Etherwind for free. ",
+    "target": "악천후나 에테르의 바람이 불 땐 무료야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:179"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 7,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.7.line.7",
+    "source": "Just ask the innkeepers.",
+    "target": "여관 주인에게 말만 걸면 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:180"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 7,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.8.line.1",
+    "source": "The trainer is where you go to learn",
+    "target": "새 기술을 배우거나",
+    "source_ref": [
+      "2.335:data/exhelp.txt:192"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 8,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.8.line.2",
+    "source": "new skills, and improve your knowledge",
+    "target": "이미 익힌 기술을 더 갈고닦으려면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:193"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 8,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.8.line.3",
+    "source": "in existing skills. For training, ",
+    "target": "훈련사를 찾아가 봐. 훈련을 받으려면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:194"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 8,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.8.line.4",
+    "source": "<emp1>platinum coins are required.<def>",
+    "target": "<emp1>백금화가 필요해.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:195"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 8,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.8.line.5",
+    "source": "These coins are hard to come by,",
+    "target": "쉽게 구할 수 있는 주화는 아니지만,",
+    "source_ref": [
+      "2.335:data/exhelp.txt:197"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 8,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.8.line.6",
+    "source": "but without them it is impossible to",
+    "target": "이게 없으면 훈련사에게",
+    "source_ref": [
+      "2.335:data/exhelp.txt:198"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 8,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.8.line.7",
+    "source": "learn new skills!",
+    "target": "새 기술을 배울 수 없어!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:199"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 8,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.1",
+    "source": "Hey, you look sleepy!",
+    "target": "어라, 졸린 얼굴인데?",
+    "source_ref": [
+      "2.335:data/exhelp.txt:217"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.2",
+    "source": "Of course, <emp1>you need to sleep regularly.<def>",
+    "target": "그럼, <emp1>잠은 규칙적으로 자야지.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:218"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.3",
+    "source": "When you are sleepy, you can use beds to",
+    "target": "졸릴 때는 침대에 누워서 자면 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:219"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.4",
+    "source": "sleep. Or simply resting may draw you into",
+    "target": "가만히 쉬고만 있어도 어느새",
+    "source_ref": [
+      "2.335:data/exhelp.txt:220"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.5",
+    "source": "a dream.",
+    "target": "꿈나라에 가 있을 때가 있고.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:221"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 1,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.6",
+    "source": "When you gain enough experiences and sleep,",
+    "target": "경험을 충분히 쌓고 잠들면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:223"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.7",
+    "source": "your potentials of primary attributes",
+    "target": "주 능력치의 잠재력이 올라가.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:224"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.8",
+    "source": "will increase. You might also encounter",
+    "target": "자는 동안에 뜻밖의 일을",
+    "source_ref": [
+      "2.335:data/exhelp.txt:225"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 2,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.9.line.9",
+    "source": "several events during your sleep.",
+    "target": "겪기도 한단다.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:226"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 9,
+    "page": 2,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.1",
+    "source": "You are hungry huh?",
+    "target": "배가 고프구나?",
+    "source_ref": [
+      "2.335:data/exhelp.txt:241"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.2",
+    "source": "If you don't eat, you'll be worn out and",
+    "target": "아무것도 안 먹으면 점점 지쳐서",
+    "source_ref": [
+      "2.335:data/exhelp.txt:242"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.3",
+    "source": "eventually <emp1>die of hunger.<def>",
+    "target": "결국 <emp1>굶어 죽고 말아.<def>",
+    "source_ref": [
+      "2.335:data/exhelp.txt:243"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.4",
+    "source": "So always keep your stomach full!",
+    "target": "그러니 배를 든든히 채워 둬!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:244"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.5",
+    "source": "Various types of food result in different",
+    "target": "음식은 종류마다 효과가 달라.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:246"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.6",
+    "source": "effects. In most cases, the effect is",
+    "target": "대개 한 번 먹은 효과는 작지만,",
+    "source_ref": [
+      "2.335:data/exhelp.txt:247"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.7",
+    "source": "paltry but many small make a great. ",
+    "target": "티끌 모아 태산이잖아?",
+    "source_ref": [
+      "2.335:data/exhelp.txt:248"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.8",
+    "source": "You can also eat corpses.",
+    "target": "시체를 먹을 수도 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:250"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 3,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.9",
+    "source": "Some will greatly increase your stats or",
+    "target": "어떤 시체는 능력치를 크게 올려 주거나",
+    "source_ref": [
+      "2.335:data/exhelp.txt:251"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 3,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.10.line.10",
+    "source": "even grant you certain resistance.",
+    "target": "특별한 내성을 주기도 해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:252"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 10,
+    "page": 3,
+    "block_line": 10,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.11.line.1",
+    "source": "What a downpour! You shouldn't go outside",
+    "target": "비가 억수같이 쏟아지네! 이런 날은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:269"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 11,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.11.line.2",
+    "source": "in bad weather. It will take you more time to",
+    "target": "밖에 나가지 않는 게 좋아. 길을 가는 데도",
+    "source_ref": [
+      "2.335:data/exhelp.txt:270"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 11,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.11.line.3",
+    "source": "travel and even you may lose your way.",
+    "target": "오래 걸리고, 자칫하면 길을 잃거든.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:271"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 11,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.11.line.4",
+    "source": "And did I tell you that you can seek shelter",
+    "target": "날씨가 궂으면 여관으로",
+    "source_ref": [
+      "2.335:data/exhelp.txt:273"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 11,
+    "page": 2,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.11.line.5",
+    "source": "in inns when in bad weather? Use the",
+    "target": "대피할 수 있다고 했던가?",
+    "source_ref": [
+      "2.335:data/exhelp.txt:274"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 11,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.11.line.6",
+    "source": "opportunity wisely!",
+    "target": "그럴 때 잘 이용해 봐!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:275"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 11,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.1",
+    "source": "It's snowing outside! I'm excited!",
+    "target": "밖에 눈이 온다! 신난다!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:292"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.2",
+    "source": "But...Snow is tricky stuff for ",
+    "target": "그래도 여행자한테 눈은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:293"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.3",
+    "source": "ravelers. Deep snow is difficult to walk",
+    "target": "꽤나 까다로운 상대야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:294"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.4",
+    "source": "through. While there is snow on the",
+    "target": "눈이 깊으면 걷기 힘들잖아?",
+    "source_ref": [
+      "2.335:data/exhelp.txt:295"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.5",
+    "source": "world map, it takes extra time to move",
+    "target": "세계 지도에 눈이 쌓여 있는 동안은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:296"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.6",
+    "source": "from place to place.",
+    "target": "어디든 이동 시간이 더 걸려.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:297"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 1,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.7",
+    "source": "Fortunately, snow in North Tyris",
+    "target": "다행히 북부 티리스의 눈은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:299"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.8",
+    "source": "doesn't last that long. You can usually",
+    "target": "그리 오래가진 않아. 보통은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:300"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 2,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.9",
+    "source": "wait in one place and take it easy, and",
+    "target": "한곳에서 느긋하게 기다리면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:301"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 2,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.10",
+    "source": "eventually it will melt and you can",
+    "target": "눈이 녹고, 그러면 다시",
+    "source_ref": [
+      "2.335:data/exhelp.txt:302"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 2,
+    "block_line": 10,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.11",
+    "source": "continue travel.",
+    "target": "길을 떠날 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:303"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 2,
+    "block_line": 11,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.12",
+    "source": "During poor weather conditions such",
+    "target": "이처럼 날씨가 나쁠 때는",
+    "source_ref": [
+      "2.335:data/exhelp.txt:305"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 3,
+    "block_line": 12,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.13",
+    "source": "as this, the city inkeepers can bring",
+    "target": "마을 여관 주인에게 부탁하면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:306"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 3,
+    "block_line": 13,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.14",
+    "source": "you to the town shelter. ",
+    "target": "대피소로 안내해 줄 거야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:307"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 3,
+    "block_line": 14,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.12.line.15",
+    "source": "You should make good use of it.",
+    "target": "잘 이용해 봐.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:308"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 12,
+    "page": 3,
+    "block_line": 15,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.1",
+    "source": "Etherwind...",
+    "target": "에테르의 바람이다…",
+    "source_ref": [
+      "2.335:data/exhelp.txt:326"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.2",
+    "source": "The wind is a serious problem. ",
+    "target": "이 바람은 정말 위험해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:327"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.3",
+    "source": "Exposed to the wind for a certain time,",
+    "target": "너무 오래 바람을 맞으면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:328"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.4",
+    "source": "you will mutate, and more importantly you",
+    "target": "몸에 돌연변이가 생길 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:329"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.5",
+    "source": "will start to be affected by the erosive",
+    "target": "그보다 더 무서운 건",
+    "source_ref": [
+      "2.335:data/exhelp.txt:330"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.6",
+    "source": "ether disease. ",
+    "target": "에테르병의 침식이 빨라진다는 거야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:331"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 1,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.7",
+    "source": "The wilderness will be more dangerous",
+    "target": "바람이 부는 동안은 황야도",
+    "source_ref": [
+      "2.335:data/exhelp.txt:333"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.8",
+    "source": "during the wind too. However, it is known",
+    "target": "더 위험해져. 그래도 언제쯤",
+    "source_ref": [
+      "2.335:data/exhelp.txt:334"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 2,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.9",
+    "source": "when this wind blows. It only spawns",
+    "target": "부는 바람인지 알고는 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:335"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 2,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.10",
+    "source": "<emp1>in a month multiples of 3 and<def>",
+    "target": "<emp1>3의 배수인 달,<def> 그러니까 3·6·9·12월의",
+    "source_ref": [
+      "2.335:data/exhelp.txt:336"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 2,
+    "block_line": 10,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.11",
+    "source": "<emp1>in days between 1-10. <def>",
+    "target": "<emp1>1일부터 10일 사이<def>에 불어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:337"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 2,
+    "block_line": 11,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.12",
+    "source": "You really need to remember it.",
+    "target": "꼭 기억해 둬.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:338"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 2,
+    "block_line": 12,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.13",
+    "source": "Unlike with other bad weather, if the",
+    "target": "다른 궂은 날씨와는 달리",
+    "source_ref": [
+      "2.335:data/exhelp.txt:340"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 3,
+    "block_line": 13,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.14",
+    "source": "ether wind is blowing when on the world map,",
+    "target": "에테르의 바람이 불 때 세계 지도에서는",
+    "source_ref": [
+      "2.335:data/exhelp.txt:341"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 3,
+    "block_line": 14,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.15",
+    "source": "you can move faster than normal. If you can",
+    "target": "평소보다 더 빨리 이동할 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:342"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 3,
+    "block_line": 15,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.16",
+    "source": "somehow control mutation and the Ether Disease,",
+    "target": "돌연변이와 에테르병만 다스릴 수 있다면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:343"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 3,
+    "block_line": 16,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.17",
+    "source": "this wind might be actually useful to you.",
+    "target": "오히려 이 바람을 이용할 수도 있겠지.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:344"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 3,
+    "block_line": 17,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.18",
+    "source": "During poor weather conditions such as this,",
+    "target": "이처럼 날씨가 험할 땐 마을 여관",
+    "source_ref": [
+      "2.335:data/exhelp.txt:346"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 4,
+    "block_line": 18,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.19",
+    "source": "the city inkeepers can bring you to the",
+    "target": "주인에게 부탁해 봐. 대피소로 데려다줄 테니",
+    "source_ref": [
+      "2.335:data/exhelp.txt:347"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 4,
+    "block_line": 19,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.13.line.20",
+    "source": "town shelter. You should make good use of it.",
+    "target": "그곳을 잘 이용하면 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:348"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 13,
+    "page": 4,
+    "block_line": 20,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.1",
+    "source": "Here's a little explanation of shelters.",
+    "target": "대피소 이야기를 조금 더 해 줄게.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:363"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.2",
+    "source": "The town shelter is a safe place from",
+    "target": "마을 대피소에 들어가면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:364"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.3",
+    "source": "the ether wind. It's also a safe place",
+    "target": "에테르의 바람을 피할 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:365"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.4",
+    "source": "during thunderstorms and snow, too.",
+    "target": "뇌우나 눈보라도 걱정 없고.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:366"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.5",
+    "source": "In the shelter time progresses dozens",
+    "target": "악천후에 대피소에 들어가면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:368"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.6",
+    "source": "of times faster than normal, and you will",
+    "target": "시간이 평소보다 수십 배 빨리 가고,",
+    "source_ref": [
+      "2.335:data/exhelp.txt:369"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.7",
+    "source": "automatically eat food supplies. ",
+    "target": "배가 고프면 비축 식량을 알아서 먹어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:370"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.8",
+    "source": "Once the weather is back to normal,",
+    "target": "날씨가 개면 시간도 다시",
+    "source_ref": [
+      "2.335:data/exhelp.txt:372"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 3,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.9",
+    "source": "time progresses normally again, and you",
+    "target": "평소처럼 흐르기 시작해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:373"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 3,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.14.line.10",
+    "source": "won't be able to eat food supplies.",
+    "target": "비축 식량도 그때부터는 먹을 수 없어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:374"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 14,
+    "page": 3,
+    "block_line": 10,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.1",
+    "source": "At last, you are taken with the disease...",
+    "target": "너에게도 드디어 병이 찾아왔구나…",
+    "source_ref": [
+      "2.335:data/exhelp.txt:392"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.2",
+    "source": "Don't be surprised, the corruption of",
+    "target": "너무 놀라진 마. 에테르의 침식은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:393"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.3",
+    "source": "ether slowly advances over time si it",
+    "target": "가만히 있어도 조금씩 진행되거든.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:394"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.4",
+    "source": "is very common in Irva.",
+    "target": "이르바에서는 아주 흔한 일이야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:395"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.5",
+    "source": "Your symptom is still negligible small.",
+    "target": "지금 증상은 아직 가벼워.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:396"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 1,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.6",
+    "source": "Disease progression is divided into",
+    "target": "에테르병은 모두 20단계에 걸쳐",
+    "source_ref": [
+      "2.335:data/exhelp.txt:398"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.7",
+    "source": "20 stages. As it progresses, your",
+    "target": "진행돼. 병이 깊어질수록",
+    "source_ref": [
+      "2.335:data/exhelp.txt:399"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.8",
+    "source": "condition becomes more fatal and may even",
+    "target": "위험한 증상이 늘어나고,",
+    "source_ref": [
+      "2.335:data/exhelp.txt:400"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 2,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.9",
+    "source": "leads you to death eventually.",
+    "target": "마지막엔 목숨을 잃을 수도 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:401"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 2,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.10",
+    "source": "Don't worry! You have enough time to",
+    "target": "걱정 마! 손을 쓸 시간은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:403"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 3,
+    "block_line": 10,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.11",
+    "source": "deal with. Be warned though, Ether Wind",
+    "target": "충분해. 다만 에테르의 바람은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:404"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 3,
+    "block_line": 11,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.12",
+    "source": "is different. It will significantly",
+    "target": "얘기가 달라. 병을 눈 깜짝할 새에",
+    "source_ref": [
+      "2.335:data/exhelp.txt:405"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 3,
+    "block_line": 12,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.13",
+    "source": "worsen your disease. You should evacuate",
+    "target": "악화시키니까 바람이 불기 시작하면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:406"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 3,
+    "block_line": 13,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.15.line.14",
+    "source": "when the wind spawns.",
+    "target": "곧장 대피해야 해.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:407"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 15,
+    "page": 3,
+    "block_line": 14,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.1",
+    "source": "Long-awaited payday!",
+    "target": "기다리던 급료일이야!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:423"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.2",
+    "source": "The 1st and 15th of every month is payday.",
+    "target": "매달 1일과 15일에는 급료가 나와.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:424"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.3",
+    "source": "Depending on your rank and fame,",
+    "target": "네 순위와 명성에 따라",
+    "source_ref": [
+      "2.335:data/exhelp.txt:425"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.4",
+    "source": "you will get paid in gold and goods.",
+    "target": "금화와 물품을 받을 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:426"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.5",
+    "source": "This salary can be picked up from your",
+    "target": "급료는 집에 있는 급료 상자를",
+    "source_ref": [
+      "2.335:data/exhelp.txt:428"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 2,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.6",
+    "source": "salary box in your house. You can also check",
+    "target": "열어서 받아. 네 순위와",
+    "source_ref": [
+      "2.335:data/exhelp.txt:429"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 2,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.7",
+    "source": "your rank and  salary in your journal.",
+    "target": "급료 액수는 일지에서도 확인할 수 있어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:430"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.8",
+    "source": "In addition to salary, on the first day of",
+    "target": "그리고 매달 1일엔 급료와 함께",
+    "source_ref": [
+      "2.335:data/exhelp.txt:432"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 3,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.9",
+    "source": "each month a tax invoice is sent. You need",
+    "target": "세금 고지서도 와. 세금은",
+    "source_ref": [
+      "2.335:data/exhelp.txt:433"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 3,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.10",
+    "source": "to pay this invoice at the embassy north of",
+    "target": "팔미아 북쪽에 있는 대사관에서 내면 돼.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:434"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 3,
+    "block_line": 10,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.11",
+    "source": "Palmia. You have 4 or 5 months to pay it",
+    "target": "넉 달이고 다섯 달이고 밀리면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:435"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 3,
+    "block_line": 11,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.16.line.12",
+    "source": "before you'll be labeled a criminal. ",
+    "target": "범죄자로 찍히니까 잊지 마.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:436"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 16,
+    "page": 3,
+    "block_line": 12,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.17.line.1",
+    "source": "Oh, it's a moongate!",
+    "target": "어, 게이트다!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:452"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 17,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.17.line.2",
+    "source": "Moongate is used by expericed wizards to",
+    "target": "노련한 마법사들이 먼 곳으로",
+    "source_ref": [
+      "2.335:data/exhelp.txt:453"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 17,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.17.line.3",
+    "source": "travel distance. You can follow them if",
+    "target": "갈 때 쓰는 문이야. 마음만 먹으면",
+    "source_ref": [
+      "2.335:data/exhelp.txt:454"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 17,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.17.line.4",
+    "source": "you want...",
+    "target": "뒤따라갈 수도 있는데…",
+    "source_ref": [
+      "2.335:data/exhelp.txt:455"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 17,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.1",
+    "source": "Fever!!",
+    "target": "열광이다!",
+    "source_ref": [
+      "2.335:data/exhelp.txt:471"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 1,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.2",
+    "source": "It is fever mode of Nefia. ",
+    "target": "네피아가 열광 상태에 들어갔어.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:472"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 2,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.3",
+    "source": "Fever mode only starts",
+    "target": "열광이 시작되는 때는",
+    "source_ref": [
+      "2.335:data/exhelp.txt:473"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 3,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.4",
+    "source": "in a month <emp1>not multiples of 3<def> ",
+    "target": "<emp1>3의 배수가 아닌 달<def>,",
+    "source_ref": [
+      "2.335:data/exhelp.txt:474"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 4,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.5",
+    "source": "and <emp1>in days between 15-24.<def>",
+    "target": "그중에서도 <emp1>15일부터 24일 사이<def>야.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:475"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 5,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.6",
+    "source": "You really need to remember it.",
+    "target": "꼭 기억해 둬.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:476"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 1,
+    "block_line": 6,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.7",
+    "source": "During fever mode, Nefia will produce ",
+    "target": "열광 중인 네피아에서는 좋은 물건이 나오고",
+    "source_ref": [
+      "2.335:data/exhelp.txt:478"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 2,
+    "block_line": 7,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.8",
+    "source": "high level items and many material spots.",
+    "target": "재료 채집 지점도 많이 생겨.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:479"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 2,
+    "block_line": 8,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
+  },
+  {
+    "id": "exhelp.en.18.line.9",
+    "source": "Fever mode ends in 4 or 5 days.",
+    "target": "열광은 나흘이나 닷새면 끝나.",
+    "source_ref": [
+      "2.335:data/exhelp.txt:480"
+    ],
+    "speaker": "Norne",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "english_enabled": true,
+    "block_id": 18,
+    "page": 2,
+    "block_line": 9,
+    "review_reason": "영문 페이지별 독자 번역. 일본어 블록과 대조하고 영문판 고유 내용과 강조 태그, 줄 경계를 보존.",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 data/exhelp.txt EN; JP cross-check",
+      "source_hash": "f82c342a6fdb476c833479879884bc7c5bfa1d74f57930a615565a5f57fcac42"
+    }
   }
 ]

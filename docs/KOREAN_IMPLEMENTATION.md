@@ -2,7 +2,19 @@
 
 기준은 사용자 제공 ElonaPlus 2.335다. 아직 전체 한글 패치나 배포판이 아니다. 번역된 데이터 수, 실제 화면에 적용되는 문자열 수, 플레이 검증 범위를 구분한다.
 
-## 2026-11-18 영어 기반 플레이 보완
+## 2.335 한국어판의 표시 경계
+
+현재 런처는 `managed-creation-v8`을 기본으로 선택한다. SHA-256은 `0584039d76e73535d07b7dd8157fba729a6204aa50e827ef27e9c0f5dac4ba17`이다. 검수 사전을 우선 조회하고 추가 정적 문구에는 별도의 한국어 초벌 사전을 사용한다. `--language ko --reviewed-only`로 검수 사전만 사용할 수 있다. [초벌 생성과 교정](KOREAN_STATIC_DRAFTS.md)
+
+| 표시 영역 | 근거 |
+|---|---|
+| 캐릭터 생성 | 종족 11종·직업 12종, 일본어/영어 고유 설명 44개. 같은 영문 자리표시자를 쓰는 두 직업은 원본 클래스 ID로 구별한다. 실제 425px 폭 문단에서 최대 높이 82px로 다음 제목까지의 여유 104px 안에 들어갔다. 획득 기술·능력 보너스·숙련 무기도 처음 화면에서 읽을 수 있다. |
+| 인벤토리·장비 | 원본에 이름이 있는 아이템 1,322종에 ID별 이름이 있다. 알려진 장비와 재료·수량·수치에 적용한다. 미감정 외관, 사용자가 지은 이름, 아직 해석하지 못한 조합은 원문을 표시한다. |
+| 마을·퀘스트 | 도시 고유 대사 226행과 상점·교관·동료·주민 614행을 원본 파일과 대조했다. 게시판 88종의 제목과 본문에서 목표·수량·지명·보상을 분리했다. 팔미아·레시마스·길드 등 별도 의뢰와 이야기 419문구를 독자 번역했다. |
+| 대화·도움말·책 | 내 집의 로미아스·라네이레, 양 판본의 프롤로그 5쪽, 마을 소문, 노른의 영문 도움말 18주제 46쪽(원문 182행), 초기 서적 4권의 양 판본 36쪽. JP의 「길 잃은 병사를 위한 교범」과 EN의 「초보 모험가 안내서」는 저자와 내용이 달라 따로 번역했다. |
+| 전투·성장 | 캐릭터 시트, 보유 특성·변이·에테르병, 각성 훈련, 상점, 전투·장비 로그에서 한국어를 표시한다. 전투 로그의 사용자 이름, 주사위, 턴, 수량은 그대로 전달한다. |
+
+## 이전 영어 기반 플레이 보완
 
 실사용 세션은 관리 AX와 한국어 카탈로그를 로드했고 기본 언어는 영어였다. 마지막 집 화면에서 날씨, 가구·가보 가치와 집 순위, 저장 확인 질문이 영어로 남아 있음을 확인했다.
 
@@ -37,21 +49,12 @@
 
 전체 static `lang` 조사에는 12,405개 고유 쌍과 4,785개 동적 표현식 후보가 있다. 그 밖의 파일·게임 내 조립 문장도 있으므로 이 숫자를 게임 전체 번역 분모로 사용하지 않는다.
 
-재생성:
+검수 번역은 추적 파일에 기록한 순서로, 초벌은 2.335 비공개 추출물과 재사용 가능한 키 목록으로 다시 생성한다.
 
 ```sh
-python3 tools/compile_localization.py \
-  localization/ko-KR/community-reviewed.json \
-  localization/ko-KR/original-ui.json \
-  localization/ko-KR/original-controls.json \
-  localization/ko-KR/original-database.json \
-  localization/ko-KR/original-races-classes.json \
-  localization/ko-KR/original-tutorial.json \
-  localization/ko-KR/original-dialogs.json \
-  localization/ko-KR/original-creation-prompts.json \
-  localization/ko-KR/original-english-help.json \
-  localization/ko-KR/original-home-status.json \
-  --output localization/ko-KR/runtime.tsv
+python3 tools/compile_localization.py --from-manifest localization/ko-KR/runtime.sources.json --output localization/ko-KR/runtime.tsv
+python3 tools/build_draft_display.py
+python3 tools/korean_coverage.py --output localization/ko-KR/coverage.json
 ```
 
 `reviewed`만 후보로 사용하고 `context_required`/`template_reviewed`는 그대로 넣지 않는다. JP/EN 별칭을 개별로 비활성화할 수 있으며 충돌한 키는 제외한다. 수치·서식·강조 태그 순서도 점검한다. 옛 `ko.txt` 전체 사전은 공개 재사용 조건 미확인이라 런타임에 일괄 가져오지 않았다. [출처 조사](KOREAN_SOURCES.md)를 참조한다.
@@ -67,6 +70,6 @@ python3 tools/compile_localization.py \
 
 ## 실행과 남은 일
 
-한국어 런처는 준비된 `work/localization/managed-home-v2/start.ax`의 SHA-256을 확인하고 문단·HUD·로그 번역을 사용한다. 기존 작업공간에 v1 관리 AX만 있으면 문단 경로를 사용하고, 관리 AX가 없으면 정규화된 원본 AX와 고정 문구 번역으로 실행한다. [준비 명령](../README.md)
+한국어판은 v8, 책 표시를 지원하는 v7, 초기 v2/v1 순서로 준비된 AX를 선택한다. v3–v6은 일본어 기반 게임에서 소지품을 열 때 영어 분류명 배열을 잘못 읽는 문제가 있어 자동선택에서 제외했다. 설치된 AX가 없으면 정규화한 원본으로 실행하고 준비 명령을 알려 준다. [준비 명령](../README.md)
 
-남은 작업은 NPC 대사의 사전 줄바꿈 경계, 동적 주어·조사·아이템 이름, 이름/문맥 키 분리, 아직 범위 밖인 본문·퀘스트·후반 콘텐츠, 모든 화면의 실제 배치 검수다. 한국어 이름/IME를 CP932 VM에 저장하는 기능은 구현하지 않았다.
+후반 분기·무작위 조합·추가 서적·그래픽에 들어간 글자의 전체 검수와 한국어 이름 입력은 후속 범위다. 수치 적용이나 세이브를 바꾸지 않고 표시 경계에서 처리한다.

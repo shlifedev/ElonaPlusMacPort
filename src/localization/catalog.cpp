@@ -105,6 +105,64 @@ std::string scoped_key(std::string_view prefix, std::string_view value) {
     return std::string(prefix).append(value);
 }
 }
+std::optional<std::string> Catalog::sheet_text(std::string_view source) const {
+    if (source.empty() || source.size() > 192) return {};
+    constexpr std::string_view proficiency = "Proficient in ";
+    if (source.substr(0, proficiency.size()) == proficiency) {
+        const auto* title = find("@sheet/proficiency");
+        if (!title) return {};
+        std::string result(*title);
+        source.remove_prefix(proficiency.size());
+        for (;;) {
+            const auto comma = source.find(',');
+            const auto* weapon = find(scoped_key("@sheet/weapon/", source.substr(0, comma)));
+            if (!weapon) return {};
+            result += *weapon;
+            if (comma == source.npos) return result;
+            result += ", ";
+            source.remove_prefix(comma + 1);
+        }
+    }
+    struct Form {
+        const char* key;
+        const char* marker;
+        std::regex pattern;
+        std::size_t label_group = 0;
+    };
+    static const Form forms[] = {
+        {"page", "Page.", std::regex(R"(^Page\.([0-9]+)/([0-9]+)$)")},
+        {"appearance", " ", std::regex(R"(^(Portrait|Hair|Sub Hair|Hair CL|Body|Cloth|Pants|Body CL|Cloth CL|Pants CL|Etc1|Etc2|Etc3|Eyes|Custom|Riding) +(u?[0-9]+|N/A)$)"), 1},
+        {"turns", " Turns", std::regex(R"(^([0-9]+) Turns$)")},
+        {"level", " level", std::regex(R"(^([0-9]+) level$)")},
+        {"time", " Sec", std::regex(R"(^([0-9]+):([0-9]+):([0-9]+) Sec$)")},
+        {"load", " (", std::regex(R"(^([0-9]+\.[0-9]+s) \((Light|Medium|Heavy)\)$)"), 2},
+        {"items", " items  (Weight ", std::regex(R"(^([0-9]+) items  \(Weight ([0-9]+\.[0-9]+s)/([0-9]+\.[0-9]+s) Cargo ([0-9]+\.[0-9]+s)/([0-9]+\.[0-9]+s)\)$)")},
+        {"equipment", "Equip weight: ", std::regex(R"(^Equip weight: ([0-9]+\.[0-9]+s)\((Light|Medium|Heavy)\) Hit Bonus:(-?[0-9]+) Damage Bonus:(-?[0-9]+)  DV/PV:(-?[0-9]+)/(-?[0-9]+)$)"), 2},
+    };
+    std::match_results<std::string_view::const_iterator> groups;
+    for (const auto& form : forms) {
+        if (source.find(form.marker) == source.npos || !std::regex_match(source.begin(), source.end(), groups, form.pattern))
+            continue;
+        const auto* format = find(scoped_key("@metric/", form.key));
+        if (!format) return {};
+        std::string result(*format);
+        for (std::size_t i = 1; i < groups.size(); ++i) {
+            std::string value = groups[i].str();
+            if (i == form.label_group) {
+                const auto* weight = find(scoped_key(std::string_view(form.key) == "appearance" ? "@appearance/" : "@weight/", value));
+                if (!weight) return {};
+                value = *weight;
+            }
+            const auto mark = "{" + std::to_string(i) + "}";
+            auto at = result.find(mark);
+            if (at == result.npos) return {};
+            result.replace(at, mark.size(), value);
+        }
+        return result;
+    }
+    return {};
+}
+
 std::optional<std::string> Catalog::hud_text(std::string_view s) const {
     if (s.size() < 3) return {};
     auto prefix = s.substr(0, 2);

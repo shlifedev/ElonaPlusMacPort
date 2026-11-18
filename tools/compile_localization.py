@@ -21,10 +21,18 @@ def escaped(s):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('inputs', nargs='+', type=Path)
+    ap.add_argument('inputs', nargs='*', type=Path)
+    ap.add_argument('--from-manifest', type=Path, help='Rebuild the reviewed catalog using its recorded input order.')
     ap.add_argument('--output', type=Path, required=True)
     ap.add_argument('--ambiguities', type=Path, default=ROOT / 'localization/ko-KR/english-ambiguities.json')
     args = ap.parse_args()
+    if args.from_manifest:
+        if args.inputs:
+            ap.error('specify either explicit inputs or --from-manifest')
+        manifest = json.loads(args.from_manifest.read_text(encoding='utf-8'))
+        args.inputs = [ROOT / row['path'] for row in manifest['inputs']]
+    if not args.inputs:
+        ap.error('supply at least one input or --from-manifest')
     try:
         policy = json.loads(args.ambiguities.read_text(encoding='utf-8'))
         if policy['format'] != 'elona-english-ambiguities-v1' or policy['game_version'] != '2.335':

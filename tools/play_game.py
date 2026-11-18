@@ -23,18 +23,22 @@ LEGACY_MANAGED_SHA256 = "8aa19643c4824fa98ee175194864ecdfde8d4871c13a0d9f8ffa99c
 HOME_MANAGED_AX = Path("work/localization/managed-home-v2/start.ax")
 HOME_MANAGED_SHA256 = "bfb23aebb6a9a78983f717a361ce5691da4e520590d3013d686798e6e6d691b8"
 
-MANAGED_AX = Path("work/localization/managed-books-v7/start.ax")
-MANAGED_SHA256 = "53c2ff056bc10727574bb3823de5a52cd84d8cd0aff08941d137a66f9af35fff"
+BOOK_MANAGED_AX = Path("work/localization/managed-books-v7/start.ax")
+BOOK_MANAGED_SHA256 = "53c2ff056bc10727574bb3823de5a52cd84d8cd0aff08941d137a66f9af35fff"
+
+MANAGED_AX = Path("work/localization/managed-creation-v8/start.ax")
+MANAGED_SHA256 = "0584039d76e73535d07b7dd8157fba729a6204aa50e827ef27e9c0f5dac4ba17"
 
 
-PREPARE_HINT = "Prepare the current AX with python3 tools/prepare_korean_game.py --output work/localization/managed-books-v7 --compile"
+PREPARE_HINT = "Prepare the current AX with python3 tools/prepare_korean_game.py --output work/localization/managed-creation-v8 --compile"
 
 
 def game_ax(root, language):
     original = root / "work/normalized/2.335/start.ax"
     if language == "ko":
         versions = (
-            (MANAGED_AX, MANAGED_SHA256, "books"),
+            (MANAGED_AX, MANAGED_SHA256, "character creation"),
+            (BOOK_MANAGED_AX, BOOK_MANAGED_SHA256, "books"),
             (HOME_MANAGED_AX, HOME_MANAGED_SHA256, "HUD/log"),
             (LEGACY_MANAGED_AX, LEGACY_MANAGED_SHA256, "paragraph"),
         )
@@ -90,6 +94,8 @@ def main():
                         help="ko enables the partial Korean display catalog; save data stays original")
     parser.add_argument("--diagnose-errors", action="store_true",
                         help="stop on the first VM error before the game's error handler")
+    parser.add_argument("--reviewed-only", action="store_true",
+                        help="use only the edited Korean catalog, excluding the broader translation draft")
     parser.add_argument("--audit-translation", action="store_true",
                         help="record untranslated displayed text privately in this session")
     parser.add_argument("--dry-run", action="store_true")
@@ -117,8 +123,14 @@ def main():
         if not catalog.is_file():
             parser.error(f"Missing Korean catalog: {catalog}")
         base += ["--translation", str(catalog)]
+        if not args.reviewed_only:
+            fallback = catalog.with_name("draft-display.tsv")
+            if fallback.is_file():
+                base += ["--translation-fallback", str(fallback)]
     if args.diagnose_errors:
         base += ["--fail-on-hsp-error"]
+    if args.reviewed_only and args.language != "ko":
+        parser.error("--reviewed-only requires --language ko")
     if args.audit_translation and args.language != "ko":
         parser.error("--audit-translation requires --language ko")
     if args.dry_run:

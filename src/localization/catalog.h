@@ -14,6 +14,7 @@ class Catalog {
 public:
     static Catalog load(const std::filesystem::path& path, const std::filesystem::path& fallback = {});
     const std::string* find(std::string_view source_utf8, bool prose_context = false) const;
+    std::optional<std::string> sheet_text(std::string_view source) const;
     std::optional<std::string> hud_text(std::string_view source) const;
     std::optional<std::string> item_label(std::string_view row, std::string_view base,
                                           std::string_view classifier, int id) const;

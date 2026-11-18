@@ -1,0 +1,238 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "2.335 msg_write, eight private gameplay paths; observed full messages, not individual word substitutions"
+  },
+  "entries": [
+    {
+      "source": "@log/You close your eyes and peacefully fade away. (Hit any key to exit)",
+      "target": "조용히 눈을 감는다… (아무 키나 누르면 종료)",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You sense something.",
+      "target": "이 근처에 무언가 있는 듯하다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You change your equipment.",
+      "target": "장비를 바꿨다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/Day breaks.",
+      "target": "날이 밝았다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/Examine what? ",
+      "target": "무엇을 살펴볼까? ",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/Which direction do you want to bash? ",
+      "target": "어느 방향으로 들이받을까? ",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/critically wound her!",
+      "target": "치명상을 입혔다!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/critically wound him!",
+      "target": "치명상을 입혔다!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/kill her.",
+      "target": "쓰러뜨렸다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/kill him.",
+      "target": "쓰러뜨렸다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/\"Do not look at me!\" ",
+      "target": "“쳐다보지 마!” ",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/\"You know the fairy tale where a wicked witch transforms a dashing prince into an monster?\"",
+      "target": "“사악한 마녀가 멋진 왕자님을 괴물로 만들었다는 동화, 너도 알지?”",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/Do you want to leave {place}? ",
+      "target": "{place}에서 나갈까? ",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/  You entered {place}.",
+      "target": "  {place}에 들어섰다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/  You left {place}.A sudden diastrophism hits the continent.",
+      "target": "  {place}에서 나왔다. 갑작스러운 지각 변동이 대륙을 뒤흔든다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You see {object} here.",
+      "target": "바닥에 놓인 물건은 〈{object}〉이다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You equip {object}.",
+      "target": "장비 착용 · {object}",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You unequip {object}.",
+      "target": "장비 해제 · {object}",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/you pick up {object}.",
+      "target": "주워 담은 물건 · {object}",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You pick up {object}.",
+      "target": "주워 담은 물건 · {object}",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You evade {enemy}.",
+      "target": "{enemy}의 공격을 피했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/you miss {enemy}.",
+      "target": "{enemy}에게 가한 공격이 빗나갔다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/you smash {enemy} and",
+      "target": "{enemy}에게 일격을 가해",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You bash up {enemy}.",
+      "target": "{enemy}에게 몸통박치기를 했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/{enemy} can't move by fear.",
+      "target": "{enemy}, 겁에 질려 꼼짝도 못 한다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/{enemy} is incontinent.",
+      "target": "{enemy}, 그만 오줌을 지리고 말았다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/{name} joins your party!",
+      "target": "새 동료가 합류했다! 〈{name}〉",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You have failed the quest taken from {name}.",
+      "target": "의뢰에 실패했다. 의뢰인 〈{name}〉.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-template/You have completed the quest taken from {name}.",
+      "target": "의뢰를 완수했다. 의뢰인 〈{name}〉.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{enemy}/the flying frog",
+      "target": "날개개구리",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{enemy}/The flying frog",
+      "target": "날개개구리",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Your Home",
+      "target": "우리 집",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Wilderness",
+      "target": "황야",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Vernis",
+      "target": "베르니스",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/North Tyris",
+      "target": "북부 티리스",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Grassland",
+      "target": "초원",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Palmia",
+      "target": "팔미아",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Port Kapul",
+      "target": "카풀 항",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Yowyn",
+      "target": "요우윈",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Derphy",
+      "target": "데르피",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Noyel",
+      "target": "노이엘",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{place}/Lumiest",
+      "target": "루미에스트",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{object}/a broken sword",
+      "target": "부러진 검",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{object}/a square chair",
+      "target": "네모난 의자",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{object}/a bronze helm [0,1]",
+      "target": "청동 투구 [0,1]",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{object}/an urine of flying frog",
+      "target": "날개개구리의 오줌",
+      "review_status": "reviewed"
+    }
+  ]
+}

@@ -1,5 +1,12 @@
 # 작업 기록
 
+## 2026-11-18 · 한국어 표시와 캐릭터 생성 검수
+
+아이템 1,322종, 노른의 영문 안내 18주제 46페이지, 일·영 마을 대사 226행, 각종 직업과 동료 대사 614행, 게시판 88종, 스토리·의뢰 419문구를 추가했다. 검색표와 각 원문은 `runtime.sources.json`을 통해 추적할 수 있다. v8은 원래 `talk_conv`가 종족·직업 소개를 자르기 전에 원문을 구별해 보관한다. 44개 본문의 425×104px 네이티브 레이아웃 검사에서 최대 높이 82px, 넘침 0건이었다. `work/ko-broad/norne-layout-02`에서는 노른 영문 도움말 182행의 한국어가 330px 폭에 들어갔으며 모든 페이지가 하단 경계 안에 있었다.
+
+Windows 중간 통합 검증 `gui-native-ko-broad-pre01`에서 일본어 기반 세이브로 인벤토리를 열 때 740프레임에 HSP 배열 범위 오류 7이 재현됐다. Mac 디버그 AX에서도 동일했고 영어 전용 분류명 배열에 접근하는 훅이 원인이었다. `gui-native-ko-broad-pre02`의 참조/관리·표시 없음/관리·한국어 신규·재시작·세계지도 9회, 전체 키 글꼴과 세이브 대조가 통과했다. 중간 실험은 별도 프로필을 사용했고 원본과 개인 세이브는 그대로 두었다.
+
+
 ## 2026-11-18 · 베르니스 의뢰 게시판의 종료 수정
 
 영어 기반 실게임에서 베르니스 의뢰 게시판을 연 뒤 971프레임에 `kernel32!LCMapStringA` 미구현으로 exit 3이 발생했다. 원본이 제목의 전각·반각 폭을 계산할 때 사용하는 함수다. 일본어 LCID와 CP932를 고정하고, 별도 Windows 작업 폴더에서 Win32가 한 글자 및 탁점·반탁점 조합에 돌려준 바이트로 양방향 표를 만들었다. 원본이 사용하는 길이 질의(종료 NUL 포함)와 같은 변수에 결과를 쓰는 경로를 지원한다. Mac Release HSP fixture에서 영숫자·띄어쓰기·반각 가나와 합성, 짧은 버퍼 오류 122, 원래 폭 복원을 확인했다. 원본 재현은 `work/game-run/npc-board-v6-eng-01/report.json`, 독립 Windows 참조는 `platform-width-ja-01`, 생성기는 `tools/reference/WidthMapReference.cs` 및 `build_width_map.py`다. [Win32 함수 명세](https://learn.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-lcmapstringa)

@@ -1,0 +1,530 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 original character sheet, resistance potential and inventory display"
+  },
+  "entries": [
+    {
+      "source": "@profile/Attributes",
+      "target": "이력",
+      "source_ref": "2.335:start.hsp:223393",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@profile/経歴",
+      "target": "이력",
+      "source_ref": "2.335:start.hsp:223393",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Detail",
+      "target": "상세 설명",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Attributes",
+      "target": "능력치",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Supreme",
+      "target": "최상",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Amazing",
+      "target": "탁월",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Superb",
+      "target": "매우 우수",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Great",
+      "target": "우수",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Good",
+      "target": "양호",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Bad",
+      "target": "저조",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Hopeless",
+      "target": "가망 없음",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Name",
+      "target": "이름",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Aka",
+      "target": "이명",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Race",
+      "target": "종족",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Sex",
+      "target": "성별",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Class",
+      "target": "직업",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Age",
+      "target": "나이",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Height",
+      "target": "키",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Weight",
+      "target": "몸무게",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/INI",
+      "target": "행동 순서",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/AP",
+      "target": "AP",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Level",
+      "target": "레벨",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Life",
+      "target": "생명력",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mana",
+      "target": "마나",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/InSAN",
+      "target": "광기",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Speed",
+      "target": "속도",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Fame",
+      "target": "명성",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Karma",
+      "target": "카르마",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Rating",
+      "target": "전투력",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Melee",
+      "target": "근접",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Shoot",
+      "target": "사격",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Religion",
+      "target": "신앙",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Guild",
+      "target": "길드",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Exp",
+      "target": "경험치",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/HP/MP",
+      "target": "HP/MP",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Eyth of Infidel",
+      "target": "무의 에이스",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/無のエイス",
+      "target": "무의 에이스",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Mani of Machine",
+      "target": "기계의 마니",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/機械のマニ",
+      "target": "기계의 마니",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Lulwy of Wind",
+      "target": "바람의 룰위",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/風のルルウィ",
+      "target": "바람의 룰위",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/元素のイツパロトル",
+      "target": "원소의 이츠파로틀",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Itzpalt of Element",
+      "target": "원소의 이츠파로틀",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/幸運のエヘカトル",
+      "target": "행운의 에헤카틀",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Ehekatl of Luck",
+      "target": "행운의 에헤카틀",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Opatos of Earth",
+      "target": "대지의 오파토스",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/地のオパートス",
+      "target": "대지의 오파토스",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/癒しのジュア",
+      "target": "치유의 주아",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Jure of Healing",
+      "target": "치유의 주아",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Kumiromi of Harvest",
+      "target": "수확의 쿠미로미",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/収穫のクミロミ",
+      "target": "수확의 쿠미로미",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/富のヤカテクト",
+      "target": "부의 야카테크트",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Yacatect of Wealth",
+      "target": "부의 야카테크트",
+      "source_ref": "2.335:start.hsp:297557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/page",
+      "target": "{1}/{2}쪽",
+      "source_ref": "2.335:start.hsp:37814",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/items",
+      "target": "{1}개  (무게 {2}/{3} · 화물 {4}/{5})",
+      "source_ref": "2.335:start.hsp:300997",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/equipment",
+      "target": "장비 {1}({2}) · 명중 {3} · 피해 {4} · DV/PV {5}/{6}",
+      "source_ref": "2.335:start.hsp:299482",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/turns",
+      "target": "{1}턴",
+      "source_ref": "2.335:start.hsp:297686",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/level",
+      "target": "{1}층 상당",
+      "source_ref": "2.335:start.hsp:297641",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/time",
+      "target": "{1}시간 {2}분 {3}초",
+      "source_ref": "2.335:start.hsp:297686",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/load",
+      "target": "{1} ({2})",
+      "source_ref": "2.335:start.hsp:297686",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@weight/Light",
+      "target": "경량",
+      "source_ref": "2.335:start.hsp:297686",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@weight/Medium",
+      "target": "보통",
+      "source_ref": "2.335:start.hsp:297686",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@weight/Heavy",
+      "target": "무거움",
+      "source_ref": "2.335:start.hsp:297686",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@metric/appearance",
+      "target": "{1} {2}",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Portrait",
+      "target": "초상화",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Hair",
+      "target": "머리",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Sub Hair",
+      "target": "덧머리",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Hair CL",
+      "target": "머리 색",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Body",
+      "target": "몸",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Cloth",
+      "target": "옷",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Pants",
+      "target": "하의",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Body CL",
+      "target": "피부색",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Cloth CL",
+      "target": "상의 색",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Pants CL",
+      "target": "하의 색",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Etc1",
+      "target": "장식 1",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Etc2",
+      "target": "장식 2",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Etc3",
+      "target": "장식 3",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Eyes",
+      "target": "눈",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Custom",
+      "target": "사용자 그림",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/Riding",
+      "target": "기승 모습",
+      "source_ref": "2.335:start.hsp:298963",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Next Lv",
+      "target": "다음 레벨",
+      "source_ref": "2.335:start.hsp:297424",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/God",
+      "target": "신앙",
+      "source_ref": "2.335:start.hsp:297424",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/Grow Rate",
+      "target": "성장률",
+      "source_ref": "2.335:start.hsp:297424",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Which save game do you want to continue?",
+      "target": "어느 모험을 이어갈까?",
+      "source_ref": "2.335:start.hsp:308657",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "どの冒険を再開するんだい？",
+      "target": "어느 모험을 이어갈까?",
+      "source_ref": "2.335:start.hsp:308654",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "I wish you were still here...",
+      "target": "조금만 더 곁에 있어 줬으면…",
+      "source_ref": "2.335:start.hsp:9297",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "まだお礼もできていないのに！",
+      "target": "아직 고맙다는 말도 못 했는데!",
+      "source_ref": "2.335:start.hsp:9269",
+      "review_status": "reviewed"
+    }
+  ]
+}

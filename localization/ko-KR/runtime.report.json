@@ -1,6 +1,6 @@
 {
-  "input_entries": 3352,
-  "runtime_keys": 5716,
+  "input_entries": 7966,
+  "runtime_keys": 11465,
   "conflicts": {},
   "omitted": [
     {
@@ -1737,6 +1737,1118 @@
     },
     {
       "source": "You fear betrayal above all else.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The container is full.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The container is full.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your stomach can't digest any more.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your stomach can't digest any more.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "You have to wait next February.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Quota ",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The location is blocked.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your inventory is full.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Returning while taking a quest if forbidden. Are you sure you want to return?",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "<Return>",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "<Return>",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Let's Talk.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Interested in a little tail t'night?",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Train me.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "I want to run the town management.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "How popular is my management?",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Interested in a little tail t'night?",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "*blush*",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The ally currently stays in this area.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "You put back the original graphic.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Spell",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "[Sealed skills release]",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Skill",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Spell",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your inventory is full.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Warning! You are going to abandon your current quest.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Warning! You are going to abandon your current quest.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "You can not run away from the duel!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The path is blocked by a strange barrier.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The path is blocked by a strange barrier.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The path is blocked by a strange barrier.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Jackpot!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "<Jackpot>",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "You changed your mind.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Skill",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "[Sealed skills release]",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Wide Skill",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "[Sealed skills release]",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Release",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Release",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Info",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Remand",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "chocolate",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "chocolate",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Remand",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your party is already full. You can't invite someone anymore.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "There's no place to get off.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "This floor gradually loses power.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "This floor gradually loses power.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "It's out of range.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Several monsters come out from a portal.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "*Hic*",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "*Hic*",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Arrrrg!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Arrrrg!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "*quaff* The water is refreshing.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "*quaff*",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "*quaff* The water is refreshing.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "*quaff*",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The ally currently stays in this area.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Your party is already full. You can't invite someone anymore.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "A three-leaved falls from the sky.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "You discover a trap.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "You discover a hidden path.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "You find a small coin!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Nothing happens...",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The air around you gradually loses power.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Returning while taking a quest if forbidden. Are you sure you want to return?",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "This floor gradually loses power.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "This floor gradually loses power.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "The air around you gradually loses power.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Several monsters come out from a portal.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "These walls seem to resist your magic.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Done treatment. Take care!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Done treatment. Take care!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Done treatment. Take care!",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": ".....",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": ".....",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "Sorry, this is undeveloped.",
+      "reason": "English maps to multiple Japanese meanings"
+    },
+    {
+      "source": "@inv-action/Take",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "@inv-action/Take",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Let's Talk.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Get out, outsiders.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Get out, outsiders.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Don't be surprised!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Get out, outsiders.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You have your task to complete.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You've done very well. I will give a report of your achievement to the council.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I undertake.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Not matter.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Be quick.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "If what Karam told us is true, the codex will be guarded by the late king Zashim's cousin, Zeome. Zeome was known to have been a very powerful warlock. In his day, he was by far the most powerful sorcerer alive. I wouldn't dare confront him unless you are extremely well prepared.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Lesimas is one of the numerous ruins of Nefia. It is a significant part of the history of Palmia. The Eulderna sought to bring themselves prosperity using one of the treasures of Nefia, so the third king, Zashim and his cousin Zeome organized an excavation of Lesimas.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Eventually the king and his cousin received word that the excavation had been completed, so they descended to the deepest reaches of Lesimas. Together they set foot into the darkened room where the codex was said to reside, yet after some number of hours, King Zashim emerged from the chamber alone. As the legend goes, King Zashim said the following words to his aides.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "And so, they sealed the cavern with powerful magic and bound that seal to three magic stones. They gave each stone to a powerful guardian and sent them to three separate strongholds to watch over the stones. I don't believe the guardians knew the true value or purpose of the stones. ",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Since that day, the passing generations of Palmia's royal family have preserved King Zashim's mandate and we've always deceived the other nations into believing there was nothing of value in Lesimas.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "If what Karam told us is true, the codex will be guarded by the late king Zashim's cousin, Zeome. Zeome was known to have been a very powerful warlock. In his day, he was by far the most powerful sorcerer alive. I wouldn't dare confront him unless you are extremely well prepared.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I'm not interested.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You have the money, now get lost.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Fine, let's do it.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Not a chance, you worm.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You wanna make some quick cash? I've got a request from the organization of Zanan. They need a test subject in order to get some experimental data. Or perhaps \"sacrifice\" would be a more appropriate term. *If* you survive, I'll pay you enough to party until you waste away. Make your decision quickly.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Fine then, piss off you spineless coward.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Excellent. Let me know when you've finished your preparations for death and I'll take you to the testing grounds.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "So, are you ready?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Be quick.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Follow me.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "See you later.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "See you later.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "See you later.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Don't want it.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Taloned male.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Taloned male.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Don't want it.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Don't want it.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Here, take these medals.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Here, take these medals.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I think not.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Here, take these medals.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Here, take these medals.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I think not.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Here, take these medals.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Here, take these medals.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Here, take these medals.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I think not.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "...Okay! Bring this item.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I think not.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Long time no see... I guess? You became quite an adventurer since the last time I saw you.  There was merit in me showing you the way.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Hm? I've too much to do to go along with your foolery.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I'll be off.  There are lots of other adventurers I need to guide. Man, so busy.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Long time no see... I guess? You became quite an adventurer since the last time I saw you.  There was merit in me showing you the way.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I think not.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Hm? I've too much to do to go along with your foolery.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I'll be off.  There are lots of other adventurers I need to guide. Man, so busy.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Woof!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Your party is already full. You can't invite someone anymore.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Hello there!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Well...actually...I found this inn more comfortable than my house.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Hey you, are you..uh...alright with cats? Well, those filthy...they creatures took over my house. I've been asking adventurers to clean up the cats from my house ever since but none returned. What's happening in my house? You...can you take a look inside my house?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Thank God. My house is south from hear. Be careful, for it is unknown what inhabits my home.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Is my home safe from the cats?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I'm sorry to hear that.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Oh...God...",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Nyanya! Nyou bring Mia silver cat! Come come, I nyo hurt nyou, nyo hurt nyou. Mia thank you very much. Nyou can have Mia's precious!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "And this... *huff* *huff* ",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Take it.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Nope.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You brought some unicorn horns? Thanks!",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "If you find any unicorn horns bring them to me.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Huh.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Any assistance you provide to us will be most welcome.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Any assistance you provide to us will be most welcome.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I think not.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Sorry, this is untranslated sentence.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "I undertake.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Not matter?",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Not matter.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Not matter",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "The captain of the port Kapoor wears the story already. Please take this with a letter of introduction.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Okay. Wait here.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Do not forget to arrive at Mayroon, please contact me through the informer.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Movement probability -10%(5AP)",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Movement probability -10%(5AP)",
       "reason": "English alias disabled by contextual review"
     }
   ],

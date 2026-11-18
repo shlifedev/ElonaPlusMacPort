@@ -62,6 +62,7 @@ class TransformTests(unittest.TestCase):
 
     def transform_fixture(self, data):
         with patch.object(module, "SOURCE_SHA256", module.digest(data)), patch.object(module, "dialogue_calls", return_value=[]), \
+             patch.object(module, "creation_inserts", return_value=[]), \
              patch.object(module, "menu_inserts", return_value=[]), \
              patch.object(module, "story_inserts", return_value=[]), \
              patch.object(module, "static_dialogue_inserts", return_value=[]):

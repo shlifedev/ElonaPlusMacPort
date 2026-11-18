@@ -134,6 +134,16 @@ int main(int argc, char** argv) {
         check(rendered && rendered->title == "의뢰" && rendered->body == "<red>{ref}^$ / 장검 (매우 무거움!) / 금화 94닢, 방어구");
         fields[0] = "%COOK,1,JP";
         check(!elona::localization::board_post(postings, fields, 1));
+        write("@metric/page\t{1}/{2}쪽\n@metric/items\t{1}개 (무게 {2}/{3} · 화물 {4}/{5})\n"
+              "@metric/appearance\t{1} {2}\n@appearance/Hair CL\t머리 색\n"
+              "@weight/Medium\t보통\n@metric/equipment\t장비 {1} ({2}) 명중 {3} 피해 {4} DV/PV {5}/{6}\n");
+        auto sheet = elona::localization::Catalog::load(file);
+        check(sheet.sheet_text("Page.2/10") == "2/10쪽" && !sheet.sheet_text("My Page.2/10"));
+        check(sheet.sheet_text("Hair CL  21") == "머리 색 21" && !sheet.sheet_text("Ari 21"));
+        check(sheet.sheet_text("12 items  (Weight 33.8s/64.5s Cargo 16.0s/80.0s)") ==
+              "12개 (무게 33.8s/64.5s · 화물 16.0s/80.0s)");
+        check(sheet.sheet_text("Equip weight: 32.0s(Medium) Hit Bonus:0 Damage Bonus:-1  DV/PV:1/10") ==
+              "장비 32.0s (보통) 명중 0 피해 -1 DV/PV 1/10");
         auto explicit_break = elona::localization::layout_rich_text("첫째<br>둘째<p>셋째", 100, 0);
         check(explicit_break.height == 58);
         bool rejected = false;
