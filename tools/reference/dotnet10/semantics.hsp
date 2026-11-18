@@ -1,0 +1,36 @@
+integer_part = 1
+fraction_part = 2.5
+mes "int-first-x10=" + str(int((integer_part + fraction_part) * 10))
+mes "double-first-x10=" + str(int((fraction_part + integer_part) * 10))
+
+dim cells, 2, 3
+repeat 3
+    row_index = cnt
+    repeat 2
+        column_index = cnt
+        cells(column_index, row_index) = 10 * row_index + column_index
+    loop
+loop
+probe_text = ""
+repeat 6
+    if cnt > 0 : probe_text += ","
+    probe_text += str(lpeek(cells, cnt * 4))
+loop
+mes "flat-array=" + probe_text
+
+; The CP932 bytes of A, U+8868 and B. Leave a trailing NUL in the buffer.
+sdim mixed, 8
+poke mixed, 0, $41
+poke mixed, 1, $95
+poke mixed, 2, $5c
+poke mixed, 3, $42
+mes "text-length=" + str(strlen(mixed))
+
+randomize 12345
+probe_text = ""
+repeat 3
+    if cnt > 0 : probe_text += ","
+    probe_text += str(rnd(32768))
+loop
+mes "rng=" + probe_text
+end
