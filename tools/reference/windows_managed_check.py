@@ -20,6 +20,9 @@ from windows_gui_verify import read_bmp, write_png
 sys.path.insert(0, str(ROOT / "tools"))
 from inspect_save_state import inspect, compare
 
+sys.path.insert(0, str(ROOT / "tests/localization/source_transform"))
+from run_game_gate import verify_norne_pages
+
 
 def digest(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -100,7 +103,11 @@ def verify(dest, manifest):
         for variant in ("reference", "managed-fallback", "managed-korean"):
             state = inspect(ev / variant / "world/save_snapshot")
             checks[variant + "_north_tyris"] = state["location"]["gdata20"] == 4 and (state["player"]["x"], state["player"]["y"]) == (22, 21)
-            checks[variant + "_norne_pages"] = all((ev / variant / "world/cwd/shots" / name).is_file() for name in ("norne-home-1.bmp", "norne-home-2.bmp", "norne-world-4.bmp"))
+        comparisons["norne_pages"] = verify_norne_pages("windows", {
+            label: ev / variant / "world/cwd/shots" for label, variant in
+            (("reference", "reference"), ("fallback", "managed-fallback"), ("korean", "managed-korean"))
+        })
+        checks["norne_pages"] = all(r["passed"] for r in comparisons["norne_pages"].values())
     for name in ("fixture-original", "fixture-korean", "fixture-paragraph"):
         write_png(read_bmp(ev / name / "screen.bmp")[2], ev / name / "screen.png")
     for variant in ("reference", "managed-korean"):
