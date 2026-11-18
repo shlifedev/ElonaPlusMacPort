@@ -3,6 +3,9 @@
 // other API stays unregistered and stops at first use with a diagnostic.
 // Handles returned here are opaque 32-bit tokens, never host pointers.
 #include <string>
+#include <cstring>
+#include <limits>
+#include "platform/encoding.h"
 
 #include "native_dll.h"
 
@@ -24,6 +27,33 @@ void register_win32_bindings() {
         return 0;
     });
     register_dll_handler("winmm.dll", "timeGetTime", [](DllCall& c) { return c.host->tick_ms(); });
+
+    // The game asks for the locale only to map the width of CP932 text. Use
+    // the Japanese locale on both platforms, independent of the desktop locale.
+    register_dll_handler("kernel32.dll", "GetUserDefaultLCID", [](DllCall&) { return 0x411; });
+    register_dll_handler("kernel32.dll", "LCMapStringA", [](DllCall& c) -> std::int32_t {
+        const auto& a = c.args;
+        if (a.size() != 6 || a[0].kind != DllArgKind::Int || a[0].i != 0x411 ||
+            a[1].kind != DllArgKind::Int || (a[1].i != 0x400000 && a[1].i != 0x800000) ||
+            a[2].kind != DllArgKind::String || a[3].kind != DllArgKind::Int || a[3].i != -1 ||
+            a[4].kind != DllArgKind::VarRef || a[5].kind != DllArgKind::Int || a[5].i < 0)
+            throw DllRefusal("LCMapStringA requires a terminated Japanese string and a width mapping");
+        std::string mapped;
+        if (!platform::map_cp932_width(a[2].str, a[1].i == 0x800000, mapped))
+            throw DllRefusal("LCMapStringA invalid CP932 input");
+        const auto bytes = mapped.size() + 1;
+        if (bytes > std::size_t(std::numeric_limits<std::int32_t>::max()))
+            throw DllRefusal("LCMapStringA result exceeds a 32-bit byte count");
+        if (a[5].i == 0) return static_cast<std::int32_t>(bytes);
+        if (std::size_t(a[5].i) < bytes) {
+            g_last_error = 122; // ERROR_INSUFFICIENT_BUFFER
+            return 0;
+        }
+        if (!a[4].data || bytes > a[4].bytes_remaining)
+            throw DllRefusal("LCMapStringA result exceeds the HSP destination variable");
+        std::memcpy(a[4].data, mapped.c_str(), bytes);
+        return static_cast<std::int32_t>(bytes);
+    });
 
     // kernel32: single-instance mutex. The original checks GetLastError() ==
     // ERROR_ALREADY_EXISTS (183) after CreateMutexA. Cross-process detection is

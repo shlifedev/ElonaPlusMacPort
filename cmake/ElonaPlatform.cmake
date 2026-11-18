@@ -11,6 +11,7 @@ endif()
 get_filename_component(ELONA_PLATFORM_ROOT "${CMAKE_CURRENT_LIST_DIR}/.." ABSOLUTE)
 add_library(elona_platform STATIC
   "${ELONA_PLATFORM_ROOT}/src/platform/encoding.cpp"
+  "${ELONA_PLATFORM_ROOT}/src/platform/cp932_width.cpp"
   "${ELONA_PLATFORM_ROOT}/src/platform/game_files.cpp")
 target_include_directories(elona_platform PUBLIC "${ELONA_PLATFORM_ROOT}/src")
 target_compile_features(elona_platform PUBLIC cxx_std_17)

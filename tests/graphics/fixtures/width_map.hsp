@@ -1,0 +1,23 @@
+; Two-pass LCMapStringA call used by the town request board.
+#uselib "kernel32.dll"
+#cfunc locale "GetUserDefaultLCID"
+#cfunc mapwidth "LCMapStringA" int, int, sptr, int, var, int
+#cfunc lasterror "GetLastError"
+sdim text, 64
+text = "ＡＢＣ１２３　ガパ"
+expected = "ABC123 ｶﾞﾊﾟ"
+sdim query, 8
+required = mapwidth(locale(), $400000, text, -1, query, 0)
+if required != strlen(expected)+1 : end 11
+rc = mapwidth(locale(), $400000, text, -1, query, 1)
+if rc != 0 : end 12
+if lasterror() != 122 : end 13
+rc = mapwidth(locale(), $400000, text, -1, text, required)
+if rc != required : end 14
+if text != expected : end 15
+sdim wide, 64
+required = mapwidth(locale(), $800000, text, -1, wide, 0)
+rc = mapwidth(locale(), $800000, text, -1, wide, required)
+if rc != required : end 16
+if wide != "ＡＢＣ１２３　ガパ" : end 17
+end

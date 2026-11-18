@@ -42,6 +42,7 @@ LOCAL_FIXTURES = {
     "unsupported_command": {"exit": 3, "unsupported": "mci"},
     "input_script": {"exit": 0},
     "edit_keylog": {"exit": 0},
+    "width_map": {"exit": 0, "game": True},
 }
 
 
@@ -117,7 +118,13 @@ def main():
         scratch.mkdir(parents=True)
         report = scratch / "report.json"
         shot = work / "screens" / f"{name}-screen0.bmp"
-        cmd = [str(args.host), "--trusted-fixture", str(ax), "--work-dir", str(scratch), "--deterministic",
+        mode = ["--trusted-fixture", str(ax)]
+        if exp.get("game"):
+            game, user = scratch / "game", scratch / "user"
+            game.mkdir()
+            user.mkdir()
+            mode = ["--game", str(ax), "--game-root", str(game), "--user-root", str(user)]
+        cmd = [str(args.host), *mode, "--work-dir", str(scratch), "--deterministic",
                "--max-waits", "600", "--timeout-ms", "20000", "--report", str(report), "--screenshot", str(shot),
                "--trace-commands"]
         script = LOCAL / f"{name}.script"

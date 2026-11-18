@@ -46,6 +46,9 @@ constexpr bool cp932_is_lead_byte(unsigned char byte) {
 EncodingResult cp932_to_utf8(std::string_view cp932, std::string& out);
 EncodingResult utf8_to_cp932(std::string_view utf8, std::string& out);
 
+// LCMapStringA Japanese halfwidth/fullwidth mapping, including voiced kana.
+EncodingResult map_cp932_width(std::string_view cp932, bool fullwidth, std::string& out);
+
 // Convenience wrappers: throw std::runtime_error with offset on failure.
 std::string cp932_to_utf8_or_throw(std::string_view cp932);
 std::string utf8_to_cp932_or_throw(std::string_view utf8);
