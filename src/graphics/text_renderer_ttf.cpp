@@ -68,6 +68,20 @@ public:
     }
     void set_log_word_draw(bool active) override { log_word_draw_ = active; }
     void set_hud_draw(bool active) override { hud_draw_ = active; }
+    void set_menu_draw(int scope, std::string_view cp932) override {
+        menu_label_ = {};
+        static constexpr std::string_view prefixes[] = {
+            "", "@equip-slot/", "@inv-action/", "@inv-column/", "@game-menu/",
+            "@status-label/", "@sprite-menu/", "@portrait-menu/"
+        };
+        if (!catalog_ || scope < 1 || scope >= static_cast<int>(std::size(prefixes)) ||
+            cp932.empty() || cp932.size() > 512) return;
+        std::string source;
+        if (ui_cp932_to_utf8(cp932, source)) {
+            if (const auto* target = catalog_->find(std::string(prefixes[scope]) + source))
+                menu_label_ = {std::string(cp932), *target};
+        }
+    }
     void prepare_item_row(std::string_view row, std::string_view base, std::string_view classifier, int id) override {
         item_row_ = {};
         std::string source, name, kind;
@@ -82,6 +96,10 @@ public:
         return layout(spec, &dib, x, y, cp932, color);
     }
     TextExtent draw_display_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) override {
+        if (!menu_label_.source.empty() && cp932 == menu_label_.source) {
+            layout_utf8(spec, dib, x, y, menu_label_.display, color);
+            return measure_line(spec, cp932);
+        }
         if (!item_row_.source.empty()) {
             auto item = std::move(item_row_);
             item_row_ = {};
@@ -302,7 +320,7 @@ private:
     std::string ko_font_;
     bool log_word_draw_ = false, hud_draw_ = false;
     std::deque<localization::LogWord> log_words_;
-    localization::LogWord item_row_;
+    localization::LogWord item_row_, menu_label_;
     std::optional<localization::Catalog> catalog_;
     std::map<std::string, std::size_t> misses_;
     std::map<long, TTF_Font*> fonts_;

@@ -1801,6 +1801,12 @@ int cmdfunc_extcmd(int cmd) {
 // boundaries. Original 2.335 bytecode does not contain this extension.
 int cmdfunc_localization(int cmd) {
     code_next();
+    if (cmd == 7) {
+        const int scope = code_geti();
+        const std::string source = code_gets();
+        if (H->text) H->text->set_menu_draw(scope, source);
+        return RUNMODE_RUN;
+    }
     if (cmd == 6) {
         const std::string row = code_gets();
         const std::string base = code_gets();

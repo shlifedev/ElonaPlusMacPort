@@ -7599,5 +7599,1319 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     }
+  },
+  {
+    "source": "@equip-slot/Head",
+    "target": "머리",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/頭"
+  },
+  {
+    "source": "@equip-slot/Neck",
+    "target": "목",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/首"
+  },
+  {
+    "source": "@equip-slot/Back",
+    "target": "등",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/背中"
+  },
+  {
+    "source": "@equip-slot/Body",
+    "target": "몸통",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/胴体"
+  },
+  {
+    "source": "@equip-slot/Hand",
+    "target": "손",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/手"
+  },
+  {
+    "source": "@equip-slot/Ring",
+    "target": "손가락",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/指"
+  },
+  {
+    "source": "@equip-slot/Arm",
+    "target": "팔",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/腕"
+  },
+  {
+    "source": "@equip-slot/Waist",
+    "target": "허리",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/腰"
+  },
+  {
+    "source": "@equip-slot/Leg",
+    "target": "다리",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/足"
+  },
+  {
+    "source": "@equip-slot/Shoot",
+    "target": "원거리",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/遠隔"
+  },
+  {
+    "source": "@equip-slot/Ammo",
+    "target": "탄약",
+    "source_ref": [
+      "2.335:start.hsp:9277",
+      "2.335:start.hsp:9305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/矢弾"
+  },
+  {
+    "source": "@equip-slot/Hand*",
+    "target": "주로 쓰는 손",
+    "source_ref": [
+      "2.335:start.hsp:299502"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@equip-slot/利手"
+  },
+  {
+    "source": "@inv-action/Examine",
+    "target": "살펴보기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/調べる"
+  },
+  {
+    "source": "@inv-action/Drop",
+    "target": "내려놓기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/置く"
+  },
+  {
+    "source": "@inv-action/Pick Up",
+    "target": "줍기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/拾う"
+  },
+  {
+    "source": "@inv-action/Eat",
+    "target": "먹기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/食べる"
+  },
+  {
+    "source": "@inv-action/Wear",
+    "target": "장비",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/装備する"
+  },
+  {
+    "source": "@inv-action/Read",
+    "target": "읽기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/読む"
+  },
+  {
+    "source": "@inv-action/Drink",
+    "target": "마시기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/飲む"
+  },
+  {
+    "source": "@inv-action/Zap",
+    "target": "지팡이",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/振る"
+  },
+  {
+    "source": "@inv-action/Give",
+    "target": "건네기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/渡す"
+  },
+  {
+    "source": "@inv-action/Buy",
+    "target": "구입",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/購入する"
+  },
+  {
+    "source": "@inv-action/Sell",
+    "target": "판매",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/売却する"
+  },
+  {
+    "source": "@inv-action/Identify",
+    "target": "감정",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/鑑定する"
+  },
+  {
+    "source": "@inv-action/Use",
+    "target": "사용",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/使う"
+  },
+  {
+    "source": "@inv-action/Open",
+    "target": "열기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/開く"
+  },
+  {
+    "source": "@inv-action/Cook",
+    "target": "요리",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/料理する"
+  },
+  {
+    "source": "@inv-action/Mix",
+    "target": "조합",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/調合"
+  },
+  {
+    "source": "@inv-action/Mix Target",
+    "target": "섞을 대상",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/混ぜる対象"
+  },
+  {
+    "source": "@inv-action/Offer",
+    "target": "봉헌",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/捧げる"
+  },
+  {
+    "source": "@inv-action/Trade",
+    "target": "교환",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/交換する"
+  },
+  {
+    "source": "@inv-action/Present",
+    "target": "제시",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/提示する"
+  },
+  {
+    "source": "@inv-action/Take",
+    "target": "꺼내기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/取る",
+    "english_enabled": false
+  },
+  {
+    "source": "@inv-action/Target",
+    "target": "대상",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/対象の"
+  },
+  {
+    "source": "@inv-action/Put",
+    "target": "넣기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/入れる"
+  },
+  {
+    "source": "@inv-action/Take",
+    "target": "받기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/もらう",
+    "english_enabled": false
+  },
+  {
+    "source": "@inv-action/Throw",
+    "target": "던지기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/投げる"
+  },
+  {
+    "source": "@inv-action/Pickpocket",
+    "target": "소매치기",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/盗む"
+  },
+  {
+    "source": "@inv-action/Reserve",
+    "target": "예약",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/予約する"
+  },
+  {
+    "source": "@inv-action/Set mark",
+    "target": "그림 지정",
+    "source_ref": [
+      "2.335:start.hsp:9276",
+      "2.335:start.hsp:9304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-action/画像付与"
+  },
+  {
+    "source": "@inv-column/Name",
+    "target": "물건 이름",
+    "source_ref": [
+      "2.335:start.hsp:300962",
+      "2.335:start.hsp:300974",
+      "2.335:start.hsp:300975",
+      "2.335:start.hsp:299455"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-column/アイテムの名称"
+  },
+  {
+    "source": "@inv-column/Weight",
+    "target": "무게",
+    "source_ref": [
+      "2.335:start.hsp:300962",
+      "2.335:start.hsp:300974",
+      "2.335:start.hsp:300975",
+      "2.335:start.hsp:299455"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-column/重さ"
+  },
+  {
+    "source": "@inv-column/Price",
+    "target": "가격",
+    "source_ref": [
+      "2.335:start.hsp:300962",
+      "2.335:start.hsp:300974",
+      "2.335:start.hsp:300975",
+      "2.335:start.hsp:299455"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-column/値段"
+  },
+  {
+    "source": "@inv-column/Medal",
+    "target": "메달",
+    "source_ref": [
+      "2.335:start.hsp:300962",
+      "2.335:start.hsp:300974",
+      "2.335:start.hsp:300975",
+      "2.335:start.hsp:299455"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-column/メダル"
+  },
+  {
+    "source": "@inv-column/ticket",
+    "target": "티켓",
+    "source_ref": [
+      "2.335:start.hsp:300962",
+      "2.335:start.hsp:300974",
+      "2.335:start.hsp:300975",
+      "2.335:start.hsp:299455"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@inv-column/チケット"
+  },
+  {
+    "source": "@game-menu/Chara",
+    "target": "인물",
+    "source_ref": [
+      "2.335:start.hsp:38889"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/情報"
+  },
+  {
+    "source": "@game-menu/Wear",
+    "target": "장비",
+    "source_ref": [
+      "2.335:start.hsp:38889"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/装備"
+  },
+  {
+    "source": "@game-menu/Feat",
+    "target": "특성",
+    "source_ref": [
+      "2.335:start.hsp:38889"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/特徴"
+  },
+  {
+    "source": "@game-menu/Material",
+    "target": "재료",
+    "source_ref": [
+      "2.335:start.hsp:38889"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/ﾏﾃﾘｱﾙ"
+  },
+  {
+    "source": "@game-menu/Spell",
+    "target": "마법",
+    "source_ref": [
+      "2.335:start.hsp:38894"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/魔法"
+  },
+  {
+    "source": "@game-menu/Skill",
+    "target": "기술",
+    "source_ref": [
+      "2.335:start.hsp:38894"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/技能"
+  },
+  {
+    "source": "@game-menu/Wide Skill",
+    "target": "광역기",
+    "source_ref": [
+      "2.335:start.hsp:38894"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/広域技能"
+  },
+  {
+    "source": "@game-menu/Log",
+    "target": "기록",
+    "source_ref": [
+      "2.335:start.hsp:38899"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/ログ"
+  },
+  {
+    "source": "@game-menu/Journal",
+    "target": "일지",
+    "source_ref": [
+      "2.335:start.hsp:38899"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/日誌"
+  },
+  {
+    "source": "@game-menu/Chat",
+    "target": "채팅",
+    "source_ref": [
+      "2.335:start.hsp:38899"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/チャット"
+  },
+  {
+    "source": "@game-menu/Chart",
+    "target": "도표",
+    "source_ref": [
+      "2.335:start.hsp:38904"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/チャート"
+  },
+  {
+    "source": "@game-menu/City",
+    "target": "마을",
+    "source_ref": [
+      "2.335:start.hsp:38904"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/街情報"
+  },
+  {
+    "source": "@game-menu/Law",
+    "target": "법률",
+    "source_ref": [
+      "2.335:start.hsp:38904"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/法律"
+  },
+  {
+    "source": "@game-menu/Game Selection",
+    "target": "모험가 선택",
+    "source_ref": [
+      "2.335:start.hsp:308692",
+      "2.335:start.hsp:308694"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@game-menu/冒険者の選択"
+  },
+  {
+    "source": "@status-label/Wet",
+    "target": "젖음",
+    "source_ref": [
+      "2.335:start.hsp:9121",
+      "2.335:start.hsp:9124",
+      "2.335:start.hsp:206180"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@status-label/濡　れ"
+  },
+  {
+    "source": "@sprite-menu/Appearence",
+    "target": "캐릭터 외형 변경",
+    "source_ref": [
+      "2.335:start.hsp:298662"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@sprite-menu/個別画像の変更"
+  },
+  {
+    "source": "@portrait-menu/Appearence",
+    "target": "초상화 변경",
+    "source_ref": [
+      "2.335:start.hsp:298878"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 표시 호출의 문맥 키로만 조회.",
+    "source_ja": "@portrait-menu/肖像の変更"
+  },
+  {
+    "source": "BackSpace [Delete]  Shift,Esc [Back]  ",
+    "target": "BackSpace [삭제]  Shift,Esc [뒤로]",
+    "source_ref": [
+      "2.335:start.hsp:9256",
+      "2.335:start.hsp:9284",
+      "2.335:start.hsp:308692",
+      "2.335:start.hsp:308694"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "BackSpace [削除]  Shift,Esc [戻る]  "
+  },
+  {
+    "source": "x [Known info]  z [Mode]  Shift,Esc [Close]  ",
+    "target": "x [확인한 정보]  z [정보 전환]  Shift,Esc [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:9255",
+      "2.335:start.hsp:9258",
+      "2.335:start.hsp:9259",
+      "2.335:start.hsp:9283",
+      "2.335:start.hsp:9286",
+      "2.335:start.hsp:9287",
+      "2.335:start.hsp:299451"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "x [既知の情報]  z [情報切替]  Shift,Esc [閉じる]  "
+  },
+  {
+    "source": "+,- [Page]  x [Known info]  z [Mode]  Shift,Esc [Close]  ",
+    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  Shift,Esc [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:9254",
+      "2.335:start.hsp:9282",
+      "2.335:start.hsp:300945"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "+,- [ページ切替]  x [既知の情報]  z [情報切替]  Shift,Esc [閉じる]  "
+  },
+  {
+    "source": "+,- [Page]  x [Known info]  z [Mode]  Shift,Esc [Close]  * [Tag No-Drop]",
+    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  Shift,Esc [닫기]  * [보관 지정]",
+    "source_ref": [
+      "2.335:start.hsp:9254",
+      "2.335:start.hsp:9282",
+      "2.335:start.hsp:300945",
+      "2.335:start.hsp:300950"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "+,- [ページ切替]  x [既知の情報]  z [情報切替]  Shift,Esc [閉じる]  * [保持指定]"
+  },
+  {
+    "source": "+,- [Page]  Shift,Esc [Close]  ",
+    "target": "+,- [쪽 이동]  Shift,Esc [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:9254",
+      "2.335:start.hsp:9255",
+      "2.335:start.hsp:9282",
+      "2.335:start.hsp:9283"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "+,- [ページ切替]  Shift,Esc [閉じる]  "
+  },
+  {
+    "source": "Cursor [Hint]  p [Portrait]  +,- [Page]  Shift,Esc [Close]  ",
+    "target": "커서 [축복과 저주 정보]  p [초상화]  +,- [쪽 이동]  Shift,Esc [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:297281",
+      "2.335:start.hsp:297282"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인."
+  },
+  {
+    "source": "7 ,9 ,Tab [Change]",
+    "target": "7,9,Tab [메뉴 전환]",
+    "source_ref": [
+      "2.335:start.hsp:38937",
+      "2.335:start.hsp:300937"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "7 ,9 ,Tab [メニュー切替]"
+  },
+  {
+    "source": "[Race]You have outstanding resistances.",
+    "target": "[선천] 여러 속성에 강한 내성을 지녔다.",
+    "source_ref": [
+      "2.335:start.hsp:5829",
+      "2.335:start.hsp:288911"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "[先天]あなたは高い耐性をもっている"
+  },
+  {
+    "source": "[Race]You can't wear equipment weight over 2s. [DV++]",
+    "target": "[선천] 무게가 2s를 넘는 물건은 장비할 수 없다. [DV 상승]",
+    "source_ref": [
+      "2.335:start.hsp:5847",
+      "2.335:start.hsp:288911"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "[先天]あなたは2sを超える物を装備できない[DV上昇]"
+  },
+  {
+    "source": "[Feat]You are skilled with weapons on horseback. [Reduced hit penalty while riding]",
+    "target": "[특성] 말 위에서 무기를 능숙하게 다룬다. [승마 중 명중 불이익 감소]",
+    "source_ref": [
+      "2.335:start.hsp:5294",
+      "2.335:start.hsp:288895"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "[フィート]あなたは馬上での武器の扱いが得意だ[乗馬時命中ペナルティ緩和]"
+  },
+  {
+    "source": "Magic Eye(MAX)",
+    "target": "마안(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5136",
+      "2.335:start.hsp:288874"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "魔眼(MAX)"
+  },
+  {
+    "source": "Zin-ba(MAX)",
+    "target": "준마일체(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5292",
+      "2.335:start.hsp:288874"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "迅馬一体(MAX)"
+  },
+  {
+    "source": "[Act1. Etherwind]",
+    "target": "[제1부 에테르 바람]",
+    "source_ref": [
+      "2.335:start.hsp:20422"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "[第一部 エーテルの風]"
+  },
+  {
+    "source": "[Daily Quest]",
+    "target": "[일일 의뢰]",
+    "source_ref": [
+      "2.335:start.hsp:20633"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "[デイリークエスト]"
+  },
+  {
+    "source": "[Sub Quest]",
+    "target": "[부가 퀘스트]",
+    "source_ref": [
+      "2.335:start.hsp:20736"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "[サブクエスト]"
+  },
+  {
+    "source": "a sister!",
+    "target": "여동생이다!",
+    "source_ref": [
+      "2.335:start.hsp:614742"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "妹だ！"
+  },
+  {
+    "source": "a young lady!",
+    "target": "아가씨다!",
+    "source_ref": [
+      "2.335:start.hsp:614745"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "お嬢様だ！"
+  },
+  {
+    "source": "an older sister!",
+    "target": "누나다!",
+    "source_ref": [
+      "2.335:start.hsp:614748"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "姉だ！"
+  },
+  {
+    "source": "a little girl!",
+    "target": "소녀다!",
+    "source_ref": [
+      "2.335:start.hsp:614751"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "少女だ！"
+  },
+  {
+    "source": "a little boy!",
+    "target": "소년이다!",
+    "source_ref": [
+      "2.335:start.hsp:614754"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "少年だ！"
+  },
+  {
+    "source": "a brother!",
+    "target": "남동생이다!",
+    "source_ref": [
+      "2.335:start.hsp:614757"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "弟だ！"
+  },
+  {
+    "source": "a butler!",
+    "target": "집사다!",
+    "source_ref": [
+      "2.335:start.hsp:614760"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "執事だ！"
+  },
+  {
+    "source": "an older brother!",
+    "target": "형이다!",
+    "source_ref": [
+      "2.335:start.hsp:614763"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "兄だ！"
+  },
+  {
+    "source": "a dog!",
+    "target": "개다!",
+    "source_ref": [
+      "2.335:start.hsp:614808"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "犬だ！"
+  },
+  {
+    "source": "a cat!",
+    "target": "고양이다!",
+    "source_ref": [
+      "2.335:start.hsp:614811"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "猫だ！"
+  },
+  {
+    "source": "a bear!",
+    "target": "곰이다!",
+    "source_ref": [
+      "2.335:start.hsp:614814"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
+    "source_ja": "クマだ！"
   }
 ]

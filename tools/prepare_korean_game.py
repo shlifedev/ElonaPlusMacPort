@@ -2,7 +2,7 @@
 """Generate an opt-in display-hook source from the verified private 2.335 source.
 
 The original CP932 bytes are never decoded/re-encoded. Output remains private
-under work/. The Korean launcher selects the verified managed-story-v3 AX. This requires the
+under work/. The Korean launcher selects the verified managed-menu-v4 AX. This requires the
 native type-48 display command; the official Windows runtime cannot run it.
 """
 from __future__ import annotations
@@ -17,13 +17,14 @@ import subprocess
 import sys
 
 from korean_inventory_hooks import install_item_hooks
+from korean_menu_hooks import MENU_DRAWS, menu_inserts
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SHA256 = "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
 COMMAND_TYPE = 48
 COMMAND_ID = 0
-DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n"
+DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n#cmd native_ko_menu $07\r\n"
 ANCHOR = (b"#deffunc gmes str gmes_prm0\r\n"
           b'\tm@m111 = ""\r\n'
           b'\tmsg@m111 = "" + gmes_prm0 + "$end"\r\n')
@@ -93,6 +94,7 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
             start = pos + len(line)
             inserts.append((start if after else pos, addition, kind))
     install_item_hooks(at)
+    inserts.extend(menu_inserts(source))
     inserts.extend(dialogue_calls(source))
     at(b"\ttalk_conv buff, 56 - en * 3\r\n",
        b'\tnative_dialog_key = ""\r\n'
@@ -205,7 +207,8 @@ def main() -> int:
                       "0": {"name": "gmes", "arguments": 8, "result": "stat < 0: original fallback; otherwise rendered height"},
                       "1": {"name": "begin_english_log", "arguments": ["source", "used", "limit"], "result": "preserve stat"},
                       "2": {"name": "hud_draw", "arguments": ["enabled"], "result": "preserve stat"},
-                      "6": {"name": "item_label", "arguments": ["label", "original", "alternate", "id"], "result": "preserve stat"}}},
+                      "6": {"name": "item_label", "arguments": ["label", "original", "alternate", "id"], "result": "preserve stat"},
+                      "7": {"name": "menu_draw", "arguments": ["scope", "original"], "result": "preserve stat"}}},
                   "compiled": False,
                   "executed": False}
         success = True
@@ -222,7 +225,7 @@ def main() -> int:
                 report.update(compiled=True, ax_sha256=digest(blob), ax_bytes=len(blob))
                 try:
                     report["token_check"] = command_counts(blob)
-                    success = report["token_check"]["type48_commands"] == {"0": 2, "1": 1, "2": 10, "6": 2}
+                    success = report["token_check"]["type48_commands"] == {"0": 2, "1": 1, "2": 10, "6": 2, "7": 2 * len(MENU_DRAWS)}
                     if not success:
                         report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:
