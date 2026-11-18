@@ -1549,5 +1549,3733 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
       "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
     }
+  },
+  {
+    "id": "late.dialogue.393262",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "…。",
+    "target": "…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393262",
+      "2.335:start.hsp:395505",
+      "2.335:start.hsp:397183",
+      "2.335:start.hsp:417588",
+      "2.335:start.hsp:417621",
+      "2.335:start.hsp:424842"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394644",
+    "source": "ngh... Sorry for asking the impossible.",
+    "source_ja": "…？？？",
+    "target": "……???",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394644"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.397196",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "……。",
+    "target": "………….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:397196",
+      "2.335:start.hsp:424855"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402677",
+    "source": "ngh... Sorry for asking the impossible.",
+    "source_ja": "！！",
+    "target": "!!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402677"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.410896",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "？？？",
+    "target": "???",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:410896"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.390945",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "お得意様には特別にこのアクセサリーをプレザント！どや？ふふん、金ぴかでキレイやろ？値打ちもんなんやで。",
+    "target": "단골손님한테는 특별히 이 장신구를 선물로 준다 아이가! 어떻노? 번쩍번쩍하니 곱제? 값나가는 기다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:390945"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.390979",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "よっしゃ、お宅拝見と行こか！ふっふっふ、今から片づけようとしても遅いでー？",
+    "target": "좋다, 그럼 댁 구경이나 가 볼까! 후후훗, 인자 와서 치워 봤자 늦었데이!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:390979"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.391004",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "我が賢き信者よ、受け取るがいい。汝ならばこのアーティファクトをもきっと使いこなせるであろう。",
+    "target": "지혜로운 나의 신도여, 받아라. 너라면 이 유물 또한 능히 다룰 수 있으리라.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:391004"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.391034",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "先代のエヘカトルとテスカトリポカは大層仲が悪く、よく我が仲裁に入ったものだ。",
+    "target": "선대 에헤카틀과 테스카틀리포카는 사이가 몹시 나빴지. 내가 중간에서 말린 적도 한두 번이 아니었다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:391034"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.391038",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ふむ。汝の築き上げし楽園、我が双眸に刻むのもよいだろう。",
+    "target": "흠. 네가 일군 낙원을 이 두 눈에 새겨 두는 것도 좋겠구나.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:391038"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.391484",
+    "source": "ngh... Sorry for asking the impossible.",
+    "source_ja": "う…無理を言ってすまんかったの。",
+    "target": "으음…… 무리한 부탁을 해서 미안하구나.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:391484"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.392172",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "魔法使いは普通、詠唱音声を媒体として魔法を行使するのは知っているな？しかし私の指導でマナの込め方を変えれば、視線だろうが触手だろうがあとは本人の根性次第で媒体にできる。さぁ、指導を受けたいのはどいつだ！",
+    "target": "마법사는 보통 주문을 외는 목소리를 매개로 마법을 쓴다는 건 알겠지? 하지만 내 지도를 받아 마나를 싣는 법을 바꾸면 시선이든 촉수든 매개로 삼을 수 있다. 나머지는 본인 근성에 달렸지. 자, 어느 녀석이 배울 테냐!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:392172"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.392194",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "そうか…指導についてこられるだろうな？",
+    "target": "그런가…… 내 지도를 따라올 자신은 있겠지?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:392194",
+      "2.335:start.hsp:392310"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.392245",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "いいだろう…手短に行くぞ！",
+    "target": "좋다…… 짧게 끝내 주마!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:392245",
+      "2.335:start.hsp:392371"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.392268",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "こんなものだな。後はその辺りで試してこい！",
+    "target": "이만하면 됐다. 이제 저쪽 가서 시험해 봐!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:392268",
+      "2.335:start.hsp:392394"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393069",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "この分身体の役目は終わったね。君が望むのなら手合わせをしてもいい。",
+    "target": "이 분신의 역할은 끝났어. 원한다면 한 수 겨뤄 봐도 좋아.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393069"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393082",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "腕試しには丁度いいんじゃないかな。なにせ君が見ているこの私達は、ソピアーよりやや強い程度でしかないからね。",
+    "target": "네 실력을 시험하기엔 딱 좋지 않을까? 지금 네 눈앞의 우리는 소피아보다 조금 강한 정도니까.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393082"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393115",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ラスキリスの谷間から出たいなら私達が谷の外に飛ばしてあげてもいいよ。もちろん、谷の景色を見ながらかつての旅人の道を辿って出ていってもいい。",
+    "target": "라스키리스 골짜기에서 나가고 싶다면 우리가 밖으로 보내 줄게. 물론 경치를 즐기며 옛 여행자들이 걸었던 길로 나가도 돼.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393115"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393128",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "さようなら。君のことは忘れないよ。",
+    "target": "잘 가. 우린 널 잊지 않을게.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393128"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393162",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "まぁ、お馬鹿な末っ子は可愛い、というのが私達の総意だよ。おっと、私達から聞いたことはソピアーに言わないでおいてね、機嫌が悪くなるから。別の世界だし黙っておけば常闇の杖でもわからないよ。",
+    "target": "뭐, 철없는 막내일수록 귀엽다는 게 우리 모두의 생각이야. 아, 우리가 이런 얘길 했다는 건 소피아한테 비밀이야. 알면 토라지거든. 여긴 다른 세계니까 네가 말만 안 하면 영원한 어둠의 지팡이로도 모를 거야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393162"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393178",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "私達は28柱が結束して生まれた合体神だよ。交合のミクシスと相互混合のシュンクラーシスと統合のシュネシスの3柱が中心となっているね。",
+    "target": "우리는 스물여덟 신이 하나가 되어 태어난 합체신이야. 그 중심에는 교합의 믹시스, 혼합의 싱크라시스, 통합의 시네시스가 있지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393178"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393191",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "その他の内訳は、思念のエンノイア、理法のヌース、真理のアレーテイア、言葉のロゴス、生命のゾーエー、人間のアントローポス、教会のエクレーシア。",
+    "target": "다른 신들도 알려 줄게. 사념의 엔노이아, 이법의 누스, 진리의 알레테이아, 말씀의 로고스, 생명의 조에, 인간의 안트로포스, 교회의 에클레시아.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393191"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393204",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "深みのビュテイオス、不壊のアゲーラトス、配慮のヘンノーシス、成長のアウトピュエース、快楽のヘードネー、不動のアキネートス、独り子のモノゲーネス、浄福のマカリア。",
+    "target": "깊이의 비티오스, 불멸의 아게라토스, 배려의 헨노시스, 성장의 아우토피에스, 쾌락의 헤도네, 부동의 아키네토스, 독생의 모노게네스, 지복의 마카리아.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393204"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393217",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "仲介のパラクレートス、信仰のピスティス、父性のパトリコス、希望のエルピス、母性のメートリコス、愛のアガペー、永遠のアエイヌース、伝道のエクレーシアスティコス、幸福のマカリオーテス、意欲のテレートス。",
+    "target": "중재의 파라클레토스, 신앙의 피스티스, 부성의 파트리코스, 희망의 엘피스, 모성의 메트리코스, 사랑의 아가페, 영원의 아이누스, 전도의 에클레시아스티코스, 행복의 마카리오테스, 의욕의 텔레토스.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393217"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393230",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "別に覚えてくれなくていいよ。名前が長くて多くて似ていて大変だろう。",
+    "target": "굳이 외우지는 마. 수도 많고 이름도 길고 비슷비슷해서 어렵지?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393230"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393275",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "この世界が忘れられないように、記憶を共有する処置をした。",
+    "target": "이 세계가 잊히지 않도록 기억을 함께 나눌 수 있게 해 뒀어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393275"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393288",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "君には混沌の巨城の最深層で戦うべき相手がいる。いいね？",
+    "target": "혼돈의 거성 맨 밑바닥에 네가 싸워야 할 상대가 있어. 알겠지?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393288"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393311",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "君に渡しておきたいものがあるんだ。",
+    "target": "네게 건네고 싶은 게 있어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393311"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393331",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "これらは、ボクがこの地でガイドした最後の旅人の持ち物だ。最後のループで、最期にボクに託された。",
+    "target": "이건 내가 이 땅에서 마지막으로 길을 안내해 준 여행자의 물건들이야. 마지막 순환에서, 그 사람이 숨을 거두기 전에 내게 맡겼어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393331"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393344",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "何の役にも立たないだろう。それでも君に持っていてほしい。これらを持つにふさわしいのは、君しかいないと思うから。",
+    "target": "아무 쓸모도 없을지 몰라. 그래도 네가 간직해 줬으면 해. 이걸 가질 자격이 있는 사람은 너뿐인 것 같거든.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393344"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393368",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "…じゃあボクはイルヴァの民達にガイアス・ヴィスの話をしてくるよ。ああ、そうだ！ついでに君が混沌と戦うことも君の知り合いたちに教えてあげよう！",
+    "target": "……그럼 난 이르바 사람들에게 가이아스 비스 이야기를 들려주러 갈게. 아, 참! 가는 김에 네 지인들에게도 네가 혼돈과 싸우러 간다고 알려 줘야겠다!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393368"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393392",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "君は今！ガイアス・ヴィスへの第一歩を踏み出した！",
+    "target": "너는 지금! 가이아스 비스에 첫발을 내디뎠어!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393392"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393405",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ここまで長かった…この世界ではまだ1年程度しか経っていないけれど、ボクはループ込みで10年以上対応にあたっていたんだ。ようやく君という因子を見つけて連れてくることができたよ。",
+    "target": "여기까지 참 오래 걸렸지…… 이 세계에선 일 년 남짓이지만, 난 되풀이된 시간까지 합치면 십 년도 넘게 이 일에 매달렸어. 드디어 너라는 변수를 찾아 여기까지 데려왔구나.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393405"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393418",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "うーん。でもまだ君の認識が次元を超えて追いついていないみたいだね。おそらく君の目には、多くのものがイルヴァのものに置き換わって見えるだろう。",
+    "target": "으음. 네 감각은 아직 차원을 건너오는 속도를 못 따라가는 모양이네. 아마 네 눈엔 여기 있는 것들이 이르바에서 보던 모습으로 많이 바뀌어 보일 거야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393418"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393431",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "さて…見る限り、依然として廃忘獣がはびこっているようだね…。あのお方は大丈夫だろうか。一緒に探しに行こう！",
+    "target": "어디 보자…… 여전히 망각의 짐승들이 들끓고 있네……. 그분은 무사하실까? 같이 찾으러 가자!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393431"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393444",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "えっ。あのお方が誰かって？ああ、まだ説明してなかったっけ。",
+    "target": "응? 그분이 누구냐고? 아, 내가 아직 얘길 안 했던가.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393444"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393457",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "叡智を司る中級神であるソピアーは知っているよね。あのお方はソピアーの兄姉たち28柱が合神した、超越神だよ。幾多の神々を吸収した混沌の神に対抗するための措置だったらしいね。ちなみにソピアーは一回堕天している影響でうまく合神できなかったんだって。",
+    "target": "지혜를 다스리는 중급신 소피아는 알지? 그분은 소피아의 손위 형제자매 스물여덟이 하나가 된 초월신이야. 수많은 신을 흡수한 혼돈의 신에게 맞서려고 합쳤대. 소피아는 전에 하늘에서 떨어진 탓에 함께할 수 없었다더라.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393457"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393470",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "あのお方はガイアス・ヴィスの実情を知って、色々と便宜を図ってくれた。今は直接、忘却の女神と戦っているはずだ。こうしてボクが覚えている以上、間違いなく無事なはずなんだけど…。",
+    "target": "그분은 가이아스 비스의 사정을 알고 여러모로 우릴 도와주셨어. 지금은 직접 망각의 여신과 싸우고 계실 거야. 내가 이렇게 기억하고 있으니 틀림없이 무사하시겠지만…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393470"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393483",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "一度引き返したい場合は、こちら側のロイターを経由してね。そこの炭鉱街…ザイールにいるはずだから。",
+    "target": "일단 돌아가고 싶으면 이쪽의 로이터를 거쳐 가. 바로 저 탄광 마을, 자이르에 있을 거야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393483"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393502",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "そうそう、君に渡しておくものがあった。",
+    "target": "참, 네게 건네 줄 게 있었지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393502"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393522",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "それは生命情報を記録するアストラル光の塊。記憶をバックアップしてくれるから、記憶消去攻撃を受けてもかなり軽減できるらしいよ。",
+    "target": "그건 생명의 정보를 기록하는 아스트랄 빛의 결정이야. 기억을 따로 보관해 두니까, 누가 네 기억을 지우려 해도 피해를 크게 줄여 준대.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393522"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393535",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "さらに、世界を行き来するための道具でもあるんだ。ロイターに向かって使ってみて。現時点で、彼は誰よりもガイアス・ヴィスとの結びつきが強い。あちら側にも極めて近い存在がいるんだ。記憶の灯はその繋がりを照らして導いてくれるよ。",
+    "target": "세계 사이를 오가는 도구이기도 해. 로이터를 향해 써 봐. 지금은 그 누구보다도 로이터가 가이아스 비스와 깊이 이어져 있거든. 저쪽에도 그와 아주 가까운 존재가 있어. 기억의 등불이 그 인연을 비춰서 길을 보여 줄 거야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393535"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393560",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "さぁ、時は来た！",
+    "target": "자, 때가 왔어!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393560"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393579",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ボクに協力してほしい。前に話したことは憶えているよね？",
+    "target": "네 도움이 필요해. 전에 했던 얘기 기억하지?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393579"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393583",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "忘却の女神の力がここまで及んでいるなんて！もう、時間がないみたいだね…。",
+    "target": "망각의 여신의 힘이 벌써 여기까지 미쳤다니! 이젠 시간이 얼마 없나 봐…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393583"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393597",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ヴェルニースの酒場に来てほしい。今残っている場所では、あそこが一番つながりの強いところなんだ。",
+    "target": "베르니스 술집으로 와 줘. 지금 남은 곳 중에서는 거기가 저쪽하고 가장 깊이 이어진 곳이거든.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393597"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394981",
+    "source": "ngh... Sorry for asking the impossible.",
+    "source_ja": "そう…？急いでもらえると助かるわ。",
+    "target": "그래……? 서둘러 주면 고맙겠어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394981"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.395473",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "君の力は評価しているよ。でも、少しうぬぼれ過ぎだね。",
+    "target": "네 힘은 인정해. 하지만 조금 우쭐했구나.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:395473"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.395560",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "…まぁ、そういうわけで。まずはお友達から始めるべきだと思うね。",
+    "target": "……뭐, 그런 거야. 우선은 친구부터 하는 게 좋겠어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:395560"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396698",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "お若いの、頑張ったのう。よくぞ、わしが到着するまで持ちこたえてくれた。後はこの老いぼれが引き受けよう。",
+    "target": "젊은이, 애썼네. 내가 올 때까지 잘도 버텨 주었어. 나머지는 이 늙은이에게 맡기게.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396698"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396751",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "はは、すまんのう…。最期くらい恰好をつけさせとくれ。",
+    "target": "허허, 미안하이……. 마지막만은 이 늙은이도 좀 멋지게 장식하게 해 주게나.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396751"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396766",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "世界が消える前兆として、忘却の女神の化身が現れる。奴らが人々から記憶を抹消することで、人も世界も完全に忘れ去られ本当の死を迎える…。その内の一匹が魔術で我が手の内にあるのじゃ。",
+    "target": "세계가 사라질 때가 가까워지면 망각의 여신의 화신들이 나타난다네. 놈들이 사람들의 기억을 지우면 사람도 세계도 완전히 잊혀 비로소 진짜 죽음을 맞이하지……. 나는 마술로 그중 한 마리를 손아귀에 넣었네.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396766"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.397111",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "はぁ？身の程知らずってレベルじゃ…え？",
+    "target": "뭐? 분수를 몰라도 유분수지…… 어?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:397111"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.397124",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ちょ、ちょっと嘘でしょ！？デタラメに言ってるだけじゃ…？",
+    "target": "자, 잠깐, 거짓말이지!? 아무 말이나 지껄이는 거 아니야……?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:397124"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401072",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "なんと頼もしい。貴君に託すぞ！",
+    "target": "이 얼마나 든든한가. 자네에게 맡기겠네!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401072"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401106",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "潜入の方は上手くやれそうかね？",
+    "target": "잠입은 무사히 해낼 수 있겠나?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401106"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401110",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "…無理せず休んでくれたまえ。",
+    "target": "……무리하지 말고 쉬게.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401110"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401134",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "了解した。無理せずじっくり取り組んでもらって構わない。健闘を祈っている。",
+    "target": "알겠네. 무리할 것 없이 차근차근 해도 좋네. 건투를 비네.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401134"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401236",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "…とある区画で暴走している作業機械がいる。こちらからの指令も一切受け付けない状態だ。送り込んだ者たちは囚われ、1機たりとも帰ってこなかった。艦長である私は持ち場を離れるわけにはいかない…そこで、だ。",
+    "target": "……한 구역에서 작업 기계 한 대가 폭주하고 있네. 이쪽 명령은 하나도 듣지 않아. 거기로 보낸 기체들도 붙잡혀서 한 대도 돌아오지 않았어. 함장인 내가 자리를 뜰 수는 없고…… 그래서 말인데.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401236"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401276",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "限定コンサートは大成功ー♪キミが守ってくれたおかげだねっ！これはお礼！",
+    "target": "한정 콘서트 대성공~♪ 네가 지켜 준 덕분이야! 자, 이건 답례!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401276"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401357",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "あっ、いいところに！またキミに会場警備をお願いしたいんだけど、いいかな？",
+    "target": "아, 마침 잘 왔어! 또 네게 공연장 경비를 부탁하고 싶은데, 해 줄래?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401357"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.401597",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "握手権？ちょっとまってね…。",
+    "target": "악수권? 잠깐만 기다려 봐…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:401597"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402032",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "靴下泥棒をぶっ飛ばしてきたって？フハハハ！アンタやるじゃないか、見直したよ！その調子で靴下の調達も頼むよ。",
+    "target": "양말 도둑을 때려눕혔다고? 푸하하하! 너 제법이잖아. 다시 봤어! 그 기세로 양말도 잘 조달해 줘.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402032"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402065",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "おう、アタシになんか用か？",
+    "target": "어, 나한테 볼일 있어?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402065"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402074",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "あー、悪い。そう言って盗みに入った不届き者がいてなぁ。今は身内以外の入団を認めてないんだよ。",
+    "target": "아, 미안. 전에 그 소리 하고 들어와 도둑질한 놈이 있어서 말이야. 지금은 아는 사람만 단원으로 받아.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402074"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402141",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "はいはい。いい子でちゅねー。",
+    "target": "네에, 네. 우리 아기 차암 착하네.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402141"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402204",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "まじかよ、クロやん…うちの家宝の剣のイミテーション作ってるじゃないか。おそろいのつもりなんだろうけど…気まずいなぁ。前回勝手に家宝持ち出したこと親父に叱られたから、今回は持ってきてないんだよな。",
+    "target": "진짜냐, 쿠로야…… 우리 집 가보인 검을 똑같이 만들어 놨잖아. 나하고 맞추려던 모양인데…… 난감하네. 전에 멋대로 가보를 가져갔다가 아버지한테 혼쭐나서 이번엔 안 가져왔거든.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402204"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402219",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "惑星ユゴスを訪れた時、スペースハンターのボッヘリト星人が外来種であるミ=ゴの駆除をしていてね。抵抗するミ=ゴもいたが、訓練された犬の３倍の能力を持つボッヘリト星人には次々と狩られていった。その手伝いの後のミ=ゴ鍋は旨かったなぁ。",
+    "target": "유고스 행성에 갔을 때 우주 사냥꾼 보헤리트인들이 외래종 미고를 소탕하고 있었지. 저항하는 미고도 있었지만, 훈련된 개 세 마리 몫을 하는 보헤리트인들에게 줄줄이 잡혔어. 일을 거들고 나서 먹은 미고 전골은 참 맛있었지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402219"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402426",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "いやー。駄目元でも交渉してみるものだね。おっと、こっちの話さ。",
+    "target": "이야, 밑져야 본전이라도 협상을 해 볼 만하네. 아, 이쪽 얘기야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402426"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402463",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "DNAスキャン…外見は変わっているが間違いない。クロやん！",
+    "target": "유전자 정보 확인…… 겉모습은 달라졌지만 틀림없어. 쿠로야!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402463"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402620",
+    "source": "ngh... Sorry for asking the impossible.",
+    "source_ja": "それは…残念だね。",
+    "target": "그건…… 아쉽네.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402620"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402699",
+    "source": "ngh... Sorry for asking the impossible.",
+    "source_ja": "…実力行使か！仕方がない。ソックスソードマン、いざ参る！",
+    "target": "……힘으로 나오겠다 이거지! 어쩔 수 없군. 양말 검사, 간다!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402699"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402742",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ベルっちの旅行話は、相変わらず内容がＢ級でゾクゾクするねぇ。本当に…また会えたんだなって実感が湧いてくるよ。子供の頃も、よくわからない固有名詞に戸惑いながら聞いていたっけ。ああ、懐かしいなぁ…。涙が出てきそうだ。",
+    "target": "벨이 들려주는 여행담은 여전히 싸구려 모험 영화 같아서 짜릿하네. 우리가 정말…… 다시 만났다는 게 실감 나. 어릴 때도 그 알쏭달쏭한 이름들에 어리둥절해하면서 듣곤 했지. 아, 그리워라……. 눈물이 다 나려네.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402742"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402757",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "この神の艦は空を飛び、イルヴァの外…宇宙をも航行できるのだとか。宇宙…行ってみたいものだね。",
+    "target": "이 신의 배는 하늘을 날고 이르바 밖…… 우주까지 항해할 수 있다더군. 우주라…… 한번 가 보고 싶네.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402757"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.402804",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "より良いツアーのプランを組み立てるには、常に各地の現状を把握しておく必要があります。それがたとえ火の中、水の中、草の中、森の中、土の中や雲の中だろうと。ツアープランナーはお客様の護衛がないぶんガイドよりも身軽ですが、未開拓地域の調査や力ずくでの交渉といった業務も多いため、高い戦闘力が要求されます。",
+    "target": "좋은 여행 일정을 짜려면 각지의 사정을 늘 파악하고 있어야 합니다. 불 속이든 물속이든, 풀밭이든 숲속이든, 땅속이든 구름 속이든 말이죠. 여행 기획자는 손님을 호위할 일이 없어 안내자보다 자유롭게 다닐 수 있지만, 미지의 땅을 조사하거나 힘으로 협상을 끝내야 할 일도 많아 전투력이 높아야 한답니다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:402804"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.403178",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "オーケー。ここで待ってるからな。",
+    "target": "좋아. 여기서 기다릴게.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:403178"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.403412",
+    "source": "Sorry!",
+    "source_ja": "なんてこったい。",
+    "target": "이런 맙소사.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:403412"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.403750",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "とあるドラゴンハンターの攻撃は、ドラゴン類に対して１割ほど与えるダメージが多いの。ドラゴンにはドラゴンの攻撃が効果抜群…というわけではなくて、単純に強い殺意で力が入ってるんでしょうね。",
+    "target": "어떤 용 사냥꾼은 용에게 피해를 한 할쯤 더 준대. 용한테 용의 공격이 특히 잘 듣는다는 얘기는 아니고…… 아마 죽일 생각이 남달리 간절해서 손에 힘이 더 들어가는 거겠지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:403750"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.403885",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "丘の民の集落長は、あることないこと言いふらして気に入らない相手を社会的に抹殺しているの。４月馬鹿でもないのに不正確な情報をわざと流すなんて、情報屋として見過ごせないよ…！",
+    "target": "언덕 사람들의 촌장은 마음에 안 드는 사람에 대해 있는 말 없는 말 다 퍼뜨려서 매장해 버린대. 만우절도 아닌데 일부러 거짓 정보를 흘리다니, 정보상으로서 두고 볼 수 없어……!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:403885"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.403971",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "奴の移動は封じた。畳みかけるぞ！",
+    "target": "놈의 발을 묶었다. 몰아붙여!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:403971"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.404005",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "よくぞ聞いてくれた。次元歪曲ユニットは勿論、重射撃装備、電子戦装備、増加装甲、追加推進装置、さらに自律戦闘通信機の特殊電波システム、イェルス超重力砲の小型改良版…束縛の悪魔との交戦データを参考に理論化した次元アンカー！その全てのオプションを実装したメルガストがA0-Iだ。これだけの同時装備を可能にしたのは生体ハードポイント理論からのデータ逆輸入によるところが大きく、俺の技術の集大成とも言える存在で特筆すべきは…おっと、解説している場合ではないな。",
+    "target": "잘 물었다. 차원 왜곡 장치는 물론이고 중화기와 전자전 장비, 증설 장갑, 추가 추진기, 자율 전투 통신기의 특수 전파 장치, 이에르스 초중력포의 개량형 소형 포까지! 거기에 속박의 악마와 교전한 자료를 바탕으로 이론을 세운 차원 닻! 그걸 전부 갖춘 멜가스트가 바로 에이제로 원이다. 이렇게 많은 장비를 동시에 탑재한 데는 생체 장착점 이론에서 가져온 자료가 큰 역할을 했지. 내 기술의 집대성이라 할 만한데 특히 주목할 점은…… 아, 해설이나 할 때가 아니군.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:404005"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.404078",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ふと胸騒ぎがして降りてみたが、まさか目と鼻の先にあったとは。60層はあるものだと思っていた。",
+    "target": "어쩐지 가슴이 술렁여 내려와 봤더니 코앞에 있을 줄이야. 적어도 예순 층은 있는 줄 알았다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:404078"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.404103",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "猫の手ならぬ、鷹の翼も借りたい、といったところか。",
+    "target": "고양이 손이라도 빌리고 싶다더니, 이럴 때는 매의 날개라도 빌리고 싶다고 해야 하나.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:404103"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.404198",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "神の間、決戦因子、か。どうにも胡散臭いものを感じる。進むのをためらうほどにな。",
+    "target": "신의 방, 결전 인자라……. 아무래도 수상쩍어. 앞으로 나아가기가 망설여질 만큼.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:404198"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.404752",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "「来る者は拒まず」と言うが、何も考えずに受け入れるというのも考え物だな…。規模が大きくなりすぎて、構成員ひとりひとりの実態が把握できたもんじゃない。",
+    "target": "오는 사람은 막지 않는다지만 아무 생각 없이 다 받아들이는 것도 문제야……. 너무 커져 버려서 구성원 하나하나가 어떤 사람인지 알 도리가 없군.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:404752"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.405136",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "「昔々、ネフィアが生まれるよりも昔のお話。神々は戦争でマナが乱れた大陸を、危険なのでイルヴァから隔離し結界を張ることにしました」",
+    "target": "“옛날 옛적, 네피아가 생기기도 전의 이야기란다. 전쟁으로 마나가 어지러워진 대륙이 위험해지자 신들은 그곳을 이르바에서 떼어 내고 결계를 치기로 했지.”",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:405136"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.405175",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "「あなたが空を見上げたなら思い出しなさい。あの空のどこかに始まりの丘…ルストールがあり、今もなお丘の民がそこで暮らしているかもしれないことを」",
+    "target": "“하늘을 올려다보거든 기억하렴. 저 하늘 어딘가에 시작의 언덕, 루스톨이 있고, 어쩌면 지금도 그곳에 언덕 사람들이 살고 있을지 모른다는 걸.”",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:405175"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.405877",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "あっ…がっ…。",
+    "target": "아…… 크흑…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:405877"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.410104",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "おや、デッキを持っていないようですのう。",
+    "target": "이런, 덱이 없으신 모양이구려.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:410104"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.410173",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ついこの間まではエウダーナという国に住んでおりました。弟子もおったのですよ。ええ、森の中で行き倒れていた孤児でしたのう。研究方面はからっきしでしたが戦闘魔法の才能は抜群でした。",
+    "target": "얼마 전까지만 해도 에우데르나라는 나라에 살았지요. 제자도 하나 있었답니다. 예, 숲속에서 쓰러져 있던 고아였지요. 연구에는 영 소질이 없었지만 전투 마법에선 빼어난 재능을 보였어요.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:410173"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.411714",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "こんな状況でも…ううん。こんな状況だからこそ、綺麗なお花に囲まれているだけで幸せだと思えるの。",
+    "target": "이런 상황에도…… 아니, 이런 상황이라서 더 그런가 봐. 예쁜 꽃에 둘러싸여 있는 것만으로도 행복하다고 느껴져.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:411714"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.411730",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "まさかボニャックさんがお店を離れないなんて。お店、獣の群れに囲まれていたけど大丈夫かな…？",
+    "target": "보냐크 씨가 정말 가게를 떠나지 않을 줄이야. 짐승 떼가 가게를 둘러싸고 있던데 괜찮을까……?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:411730"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.411808",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ここまで辿り着いた途端、空間が閉じて小さな裂け目だけが残ったわ。裂け目を覗くとね、谷の奥が見えるの。奥はもう、黒い獣でいっぱいよ。",
+    "target": "여기 도착하자마자 공간이 닫히고 조그만 틈만 남았어. 그 틈을 들여다보면 골짜기 안쪽이 보여. 벌써 온통 검은 짐승으로 가득해.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:411808"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.411865",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "…永遠の盟約……混沌…亡国の王子……忘却の女神……途絶えた運命…時空の管理者……忘れられない世界……妖精の伝える物語は………混沌の息子…世界記憶……アーカーシャの光…絆……最後の希望……続く開拓地……創出される世界……さいはてのうみ…",
+    "target": "……영원의 맹약…… 혼돈…… 망국의 왕자…… 망각의 여신…… 끊어진 운명…… 시공의 관리자…… 잊히지 않는 세계…… 요정이 전하는 이야기는…… 혼돈의 아들…… 세계의 기억…… 아카샤의 빛…… 인연…… 마지막 희망…… 이어지는 개척지…… 새로 태어나는 세계…… 땅끝의 바다…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:411865"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.412485",
+    "source": "Well, didn't you realize it? Or did you believe in the rank of the house?...Oh, I'm sorry! Even you don't believe in a sloppy assessment of the presence or absence of expensive furniture, right?",
+    "source_ja": "それは問題ですね…収支を把握できるように、私が家計を管理してあげましょうか？",
+    "target": "그건 곤란하네요…… 수입과 지출을 제대로 알 수 있게 제가 살림을 맡아 드릴까요?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:412485"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.412837",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "まだぜんぶ未実装だけどね。",
+    "target": "아직은 하나도 구현 안 됐지만.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:412837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.412843",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ひやかし？スターダストを５個もってきてねぇ。",
+    "target": "구경만 하러 왔어? 별가루 다섯 개를 가져와 줘어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:412843"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.412864",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "馬鹿な…力では完全にこちらが上だったはず…。",
+    "target": "말도 안 돼…… 힘은 분명 내가 한 수 위였는데…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:412864"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.412890",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ぐっ…お前の憎たらしい顔も…もう見飽きた。私は先に虚無へと還る…。",
+    "target": "크윽…… 그 꼴 보기 싫은 낯짝도…… 이젠 지겹다. 난 먼저 허무로 돌아가마…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:412890"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.412952",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "大人しくそのまま散っておけ。無駄に苦しみ、頑張ったところでお前に勝ち目はない。",
+    "target": "얌전히 그 자리에서 스러져라. 부질없이 괴로워하며 발버둥 쳐 봐야 네겐 승산이 없다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:412952"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.413097",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "く…はははははは！",
+    "target": "크…… 하하하하하하!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:413097"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.413123",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "さぁ来い…イレギュラァァァァッ！！",
+    "target": "자, 와라…… 이레귤러어어어!!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:413123"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.413167",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "いいや。終わりだ、イレギュラー。",
+    "target": "아니. 끝이다, 이레귤러.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:413167"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.413510",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "俺はここで修行しながら番をしていた。お前の復活に邪魔が入ってもいけないからな。",
+    "target": "난 여기서 수련도 하고 망도 봤다. 네가 되살아나는 걸 누가 훼방 놓으면 안 되잖아.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:413510"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.413573",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "俺はロストイルヴァで共に働くことを提案したんだがな、会わせる顔がないとか言って断られてしまった。そういえば、冒険者になるつもりだとか言っていたな。おそらく、お前に触発されたんだろう。",
+    "target": "로스트 이르바에서 함께 일하자고 했는데 널 볼 면목이 없다며 거절하더군. 그러고 보니 모험가가 될 생각이라던가. 아마 네게 자극받은 거겠지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:413573"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.413848",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "もし動けない混沌の超児からオルフェが全神力を吸収し終わった場合…とんでもないことになるはず。そう、レベルは1200をゆうに超え、混沌のみならず他の神々から吸収したあらゆる属性で攻撃を仕掛けてくるだろう。もはや弱点は神に威力を発揮するエンチャントくらいだが、それにしたって物理攻撃は重力や束縛で回避率を落とさないとまず当たるまい。当たったとしても傷になるとは思えんがな…。",
+    "target": "꼼짝 못 하는 혼돈의 초아에게서 오르페가 신력을 전부 흡수한다면…… 걷잡을 수 없을 거다. 레벨은 족히 1,200을 넘기고, 혼돈뿐 아니라 다른 신들에게서 흡수한 온갖 속성으로 공격해 오겠지. 남은 약점이라곤 신에게 특히 강한 마법 부여 정도다. 그마저도 중력이나 속박으로 회피율을 떨어뜨리지 않으면 물리 공격은 맞힐 수조차 없을 거야. 설령 맞힌다 한들 흠집이나 날지 모르겠군…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:413848"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417277",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "情けをかけるのは危険だ。仕留めるぞ。",
+    "target": "동정을 베풀다간 위험하다. 끝장을 내겠다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417277"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417428",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "そうか。ああ、ボクはガイアス・ヴィスからイルヴァに渡ってきている立場だから使えないのか…。",
+    "target": "그렇구나. 아, 난 가이아스 비스에서 이르바로 건너온 쪽이라 쓸 수 없는 거지…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417428"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417454",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "でもボクは、今までもイルヴァの人々に何度か話しています。それでも獣は侵攻を止めなかった…。",
+    "target": "하지만 전 지금까지도 이르바 사람들에게 몇 번이나 이야기했어요. 그런데도 짐승들은 침공을 멈추지 않았는걸요…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417454"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417688",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "おっといけません。その前に。",
+    "target": "아, 이럴 때가 아니네요. 그 전에.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417688"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417725",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "飽きた。",
+    "target": "질렸다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417725"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417761",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "遊びは終わりだ…灰になるがいい。",
+    "target": "놀이는 끝이다…… 재가 되어라.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417761"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418153",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "がはっ…クソっ…逃げろテスカトリポカ…！",
+    "target": "커헉…… 젠장…… 도망쳐, 테스카틀리포카……!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418153"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418248",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "本来の肉体は駄母エンテュメイシスの子宮に還り神力を奪っていたが、奪い尽くすには膨大な時間が必要だったのでな。その間に世界を弄び、混沌の下地を創ろうとしたのだが。",
+    "target": "내 본래 육신은 못난 어미 엔티메시스의 자궁으로 돌아가 신력을 빼앗고 있었다. 다 빼앗으려면 엄청난 시간이 필요했지. 그동안 세계를 가지고 놀면서 혼돈의 토대를 마련할 생각이었다만.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418248"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418261",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "イレギュラー、お前の行動が邪魔で完遂できなかったよ。だが、この圧倒的な力を手に入れた今では些細な事だ…。",
+    "target": "이레귤러, 네가 끼어든 탓에 뜻을 이루지 못했다. 하지만 이 압도적인 힘을 손에 넣은 지금은 사소한 일이야…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418261"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418276",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "もういい…オルフェ！お前は上の階に退避しろ！",
+    "target": "됐다…… 오르페! 넌 위층으로 피해!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418276"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418453",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "オルフェ…ここで神力を全解放して暴れる気か！",
+    "target": "오르페…… 여기서 신력을 전부 풀어 날뛸 셈이냐!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418453"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418537",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "イレギュラー、お前もこんな消化試合につき合わされるとは哀れだな。本来こんなところまで来るはずがなかったのに、だ。",
+    "target": "이레귤러, 너도 이런 뻔한 승부에 끌려 들어오다니 딱하군. 애초에 이런 곳까지 올 운명이 아니었는데 말이야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418537"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424527",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "お前、よく見たらなかなかいい体つきしてるよなぁ…。おいおい、ただのスキンシップだろ嫌がるなよぉ～。ぐへへ。",
+    "target": "너, 가만 보니 몸이 꽤 괜찮구나……. 어허, 친하니까 좀 만져 보는 거잖아. 뭘 그렇게 싫어해. 흐흐.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424527"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424542",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "おい新入り、こっちのメンツ潰したらただじゃおかねえからな。",
+    "target": "야, 신참. 우리 체면을 구겼다간 무사하지 못할 줄 알아.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424542"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424557",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "適当にやっておけばいいんだよ適当に！お前みたいなグズがよくこの部署に来れたな！",
+    "target": "대충 하면 되잖아, 대충! 너 같은 굼벵이가 용케 이 부서에 들어왔네!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424557"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424572",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "お前なんだか調子のってるよな。一発殴られないとわかんねえか？",
+    "target": "너 요새 좀 기어오른다? 한 대 맞아야 정신 차리겠어?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424572"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424649",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "アンタの前任者はもう少し使えたわ。あいつじゃなくて、アンタが壊れればよかったのに。",
+    "target": "네 전임자가 좀 더 쓸 만했어. 걔 말고 네가 고장 났어야 했는데.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424649"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424790",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "集計開始。改善必要：1票。問題なし：1票。投票率：10％。",
+    "target": "개표 시작. 개선 필요 한 표. 문제없음 한 표. 투표율 10퍼센트.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424790"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424803",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "改善必要：3票。問題なし：2票。投票率：25％。",
+    "target": "개선 필요 세 표. 문제없음 두 표. 투표율 25퍼센트.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424803"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424816",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "改善必要：7票。問題なし：3票。投票率：50％。",
+    "target": "개선 필요 일곱 표. 문제없음 세 표. 투표율 50퍼센트.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424816"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424829",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "改善必要：9票。問題なし：5票。投票率：70％。",
+    "target": "개선 필요 아홉 표. 문제없음 다섯 표. 투표율 70퍼센트.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424829"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.424886",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "改善必要：15票。問題なし：105票。投票率：600％。よって現状の職場環境には問題がないと判断する。ほら、これで気が済んだろ。",
+    "target": "개선 필요 열다섯 표. 문제없음 백다섯 표. 투표율 600퍼센트. 따라서 현 근무 환경에는 문제가 없다고 판단한다. 자, 이제 속이 후련하냐?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:424886"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.425131",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ま、そこまで引っかかるほど調子悪い奴なんて、いねえだろうけどな！",
+    "target": "뭐, 거기 걸릴 만큼 상태가 나쁜 놈이야 없겠지만!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:425131"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.425185",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "お前…帰れコノヤロウ！！！！",
+    "target": "너…… 꺼져, 이 자식아!!!!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:425185"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.425413",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "おい、急ぎでこっちの仕事もやってくれ。",
+    "target": "야, 급한데 이 일도 좀 해 줘.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:425413"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.425470",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "俺がここに来たときはお前の3倍以上の仕事持っていたんだぞ！基準は甘々でやり直しとかはなかったけどよ。お前だいぶ恵まれている方だから。",
+    "target": "내가 여기 처음 왔을 땐 네 세 배가 넘는 일을 맡았어! 기준이 널널해서 도로 할 일은 없었다만. 너는 복 받은 줄 알아.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:425470"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.425533",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ちゃんと自覚してるんだろうな？配属された瞬間からお前は社畜なんだ！お前はこの仕事に尽くさなければならない！これは神の意思だ！！！",
+    "target": "똑똑히 알고 있겠지? 발령받은 순간부터 넌 회사의 노예야! 이 일에 몸 바쳐야 한다고! 그게 신의 뜻이다!!!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:425533"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.427778",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "灼熱の塔は1組の夫妻が支配している。前に挑戦した奴の話だと、妻である赤き義眼の『クルイツゥア』はレベル24。夫の鋼鉄竜『コルゴン』はレベル16らしい。",
+    "target": "작열의 탑은 부부가 지배하고 있다. 전에 도전한 녀석 말로는 아내인 붉은 의안의 크루이츠아는 레벨 24, 남편인 강철룡 코르곤은 레벨 16이라더군.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:427778"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.427982",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "もし戦うことになったら魔法や技能などの回避不能攻撃で攻めるといい。状態異常の「束縛」で通常攻撃を回避できないようにするのも手ではある。",
+    "target": "싸울 일이 생기면 마법이나 기술처럼 피할 수 없는 공격으로 공략해라. ‘속박’ 상태로 만들어 평범한 공격도 피할 수 없게 하는 방법도 있지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:427982"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.428079",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ゼームはパルミアでも高名な魔術士だった。彼の研究のひとつに、心を持った魔力仕掛けのガーディアンがあった。名前は確か…魔鋼の番兵『ギルフェム』。",
+    "target": "제옴은 팔미아에서도 이름난 마법사였다. 그가 연구한 것 중엔 마음을 지닌 마력 장치 수호자도 있었어. 이름이 분명…… 마강의 파수꾼 길펨이었지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:428079"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.428147",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "偽りの預言者『ゼーム』はもはや怪物だと思った方がいい。レシマスに魅入られる前から、モンスターを召喚し混沌の渦を操り、深手も一瞬で治す魔術士だった。それが間違いなくレシマスの魔力で強化されている。",
+    "target": "거짓 예언자 제옴은 이젠 괴물이라고 보는 게 좋다. 레시마스에 홀리기 전부터 마물을 소환하고 혼돈의 소용돌이를 부리며 깊은 상처도 단숨에 치료하던 마법사였어. 레시마스의 마력으로 그 힘이 더 강해진 게 틀림없다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:428147"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.428186",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "一応、当時のゼームは相手に真っ向から近付いて接近戦を挑む傾向があったらしい。もしそのままなら、うまく誘導したり加速して振り切ったりできるかもしれない。",
+    "target": "예전의 제옴은 상대 정면으로 다가가 근접전을 거는 버릇이 있었다더군. 지금도 그렇다면 잘 유인하거나 가속해서 따돌릴 수 있을지도 모른다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:428186"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.428740",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "え？こんな情報どこから入ってきたのかって？",
+    "target": "응? 내가 이런 정보들을 어떻게 알았냐고?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:428740"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.393149",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "昔のあの子は特に知識欲が強くてね。知られざる父のことを知ろうとしすぎて大失敗したのは聞いたかな？あの時はもう皆大慌てで天から落っこちたソピアーを探して、見つかったと思ったら歪んだ情熱で自分を見失ってたせいで天に戻れなくなってたりしていて大変だったんだからね。結局、歪んだ情熱をちぎり捨てて連れ帰ったんだけど、そしたら今度は捨てた部分が人型になって活動し始めてね。妹から生まれた分身を滅するのも忍びないから自由に生きさせてたんだけど、それがエンテュメイシスになっちゃって。戦ったから知ってるよね、あの神の間にいた混沌の女神だよ。本当に、手がかかる子。",
+    "target": "어릴 땐 유난히 호기심이 많던 아이였어. 미지의 아버지를 너무 깊이 알려다 큰일을 냈다는 얘긴 들었니? 하늘에서 떨어진 소피아를 찾느라 다들 얼마나 허둥댔는지. 겨우 찾고 보니 비뚤어진 열정에 자신을 잃어 하늘에 돌아갈 수가 없더라고. 결국 그 열정만 떼어 버리고 데려왔지. 그런데 버린 부분이 사람의 모습을 하고 움직이기 시작한 거야. 동생에게서 태어난 분신을 차마 없앨 수 없어 제 뜻대로 살게 뒀더니 엔티메시스가 돼 버렸어. 너도 싸워 봐서 알지? 신의 방에 있던 혼돈의 여신 말이야. 참 손이 많이 가는 아이라니까.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:393149"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417251",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "累計放出量から予測した状態を、ソピアーから聞いていたが…それよりもだいぶ弱っているようだ。",
+    "target": "지금까지 방출된 양으로 짐작한 상태를 소피아에게 들었다만…… 예상보다 훨씬 약해져 있군.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417251"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417264",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "一度でいいから会いたいよ…。どうすれば会えるの？こいつらの知識を取り込めばわかるの？",
+    "target": "딱 한 번이라도 만나고 싶어……. 어떻게 해야 만날 수 있지? 이 녀석들이 아는 걸 흡수하면 알 수 있어?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417264"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417304",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ミクラネシス様、いったい何があったのですか。",
+    "target": "미크라네시스 님, 대체 무슨 일이 있었나요?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417317",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "今我々の本体が忘却の女神を食い止めている。いや…戦ってわかった。あれは正確には忘却を司る女神ではない。",
+    "target": "지금 우리 본체가 망각의 여신을 막고 있다. 아니…… 싸워 보고서야 알았어. 엄밀히 말하면 저건 망각을 다스리는 여신이 아니야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417317"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417330",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "あれは世界規模で忘却という現象を起こすための概念存在…神という形で忘却の一側面が具象化したものだ。この世に何らかの記憶がある限り忘却という概念も同時に存在し続けるため、女神の姿を何度滅ぼそうと根源を取り除くことはできない。",
+    "target": "저건 세계 전체에 망각을 일으키기 위한 개념 그 자체야. 망각의 한 단면이 신의 모습을 얻은 거지. 이 세상에 어떤 기억이든 남아 있는 한 망각이라는 개념도 함께 존재해. 여신의 형상을 몇 번이나 없앤들 그 뿌리를 뽑을 수는 없어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417330"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417356",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "今は降臨する前の本体を攻撃して食い止めているが、端末である獣どもまでは抑えきれなかった。このまま獣どもが記憶を喰らって増殖すれば本体の力も大きくなり、私達も押し切られてしまうだろうね。",
+    "target": "강림하기 전에 본체를 공격해 막고는 있지만 그 수족인 짐승들까지 억누르진 못했어. 이대로 짐승들이 기억을 먹고 불어나면 본체의 힘도 커져서, 우리마저 밀려나고 말 거야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417356"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417369",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "そんな…。それじゃあガイアス・ヴィスはもうじき消えてなくなる…？何か手はないんですか！",
+    "target": "그럴 수가……. 그럼 가이아스 비스는 곧 사라져 버리는 건가요? 무슨 수가 없나요!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417369"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417402",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "今のうちに別世界の観測者たちに記憶を刻み込むことができれば、相手の力を大きく抑制できる。今渡したのは、君が見てきたガイアス・ヴィスの姿を、アストラル光を介してアカシックレコード上に拡散するための干渉機構だ。ネットで公開して記憶保持者を増やし、世界の忘却を遅らせるわけだね。",
+    "target": "아직 늦지 않았어. 다른 세계의 관측자들에게 기억을 새길 수만 있다면 상대의 힘을 크게 누를 수 있어. 지금 건넨 건 네가 본 가이아스 비스의 모습을 아스트랄 빛으로 아카식 레코드에 퍼뜨리는 장치야. 그물망에 공개해 기억하는 사람을 늘리면 세계가 잊히는 것도 늦출 수 있지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417402"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417441",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ノルンにもやってもらうことはあるよ。地道に、一人でも多く、あちら側の世界の人々に伝えるんだ。何度忘れ去られても伝え続けなさい、このガイアス・ヴィスの物語を。人々の記憶こそが世界を保つ力となるからね。",
+    "target": "노른, 네가 해 줄 일도 있어. 저쪽 세계에서 한 사람에게라도 더 들려주렴. 몇 번을 잊히더라도 계속 전하는 거야, 이 가이아스 비스의 이야기를. 사람들의 기억이야말로 세계를 지탱하는 힘이니까.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417441"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417467",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "効果が薄かったのは、今までアカシックネットワークの媒体がいなかったからね。大丈夫。君の頑張りは無駄にならないよ。",
+    "target": "지금껏 효과가 미미했던 건 아카식 연결망을 이어 줄 매개가 없었기 때문이야. 괜찮아. 네 노력은 헛되지 않을 거야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417467"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417493",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "混沌の真の目覚めが近づいているね。神の間に再び赴き、決着をつけるのが君の宿命だ。",
+    "target": "혼돈이 진정으로 깨어날 때가 다가왔어. 다시 신의 방으로 가 결말을 내는 것이 네 숙명이야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417493"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417536",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "やっと会えた…！父上っ！",
+    "target": "드디어 만났어요……! 아버지!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417536"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417549",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ふふっ…最期に…娘の声が聞こえる…なんて。もう、目が…かすんで…きました。",
+    "target": "후후…… 마지막에…… 딸의 목소리를 듣다니……. 벌써 눈앞이…… 흐려지는군요…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417549"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417562",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "そこの冒険者…少しどいていてください。",
+    "target": "거기 모험가님…… 잠시 비켜 주십시오.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417562"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417575",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "新型緩和薬を投与…効くといいのですが。",
+    "target": "새로 만든 완화제를 투여했습니다…… 효과가 있으면 좋겠는데요.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417575"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417601",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "この様子だと、薬が回り切る前に肉体が崩壊しそうですね…。今、ここで次元炉の摘出を行います。耐えてください、父上！",
+    "target": "이 상태로는 약이 온몸에 퍼지기도 전에 육체가 무너지겠어요……. 지금 여기서 차원로를 꺼내겠습니다. 버티세요, 아버지!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417601"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417636",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "私は…助かったのですか？",
+    "target": "내가…… 산 겁니까?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417636"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417649",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "父上…！よかった、本当によかった…。",
+    "target": "아버지……! 다행이에요, 정말 다행이에요…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417649"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417662",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ランカータ、なぜ貴方がここに？衛生兵なのに一人でここまで来たのですか？",
+    "target": "란카타, 네가 어떻게 여기에? 의무병인 네가 여기까지 혼자 온 거냐?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417662"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417675",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "その話は後です。さぁ、脱出しましょう。",
+    "target": "그 얘기는 나중에요. 자, 빠져나갑시다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417675"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.417701",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "名も知らぬ冒険者…貴方が露払いをしていなければ、私はきっと間に合わなかったでしょう。貴方は降りかかる火の粉を払っただけでしょうが、結果的に助かりました。感謝します。",
+    "target": "이름 모를 모험가님…… 당신이 앞길을 비우지 않았다면 전 분명 늦었을 겁니다. 당신은 눈앞에 닥친 위험을 헤쳤을 뿐이겠지만, 덕분에 살았습니다. 감사합니다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:417701"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418108",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "口ほどにもない！神の間を破壊するのに時間を取られ、混沌の超児から神力を吸収できなかったようだな！",
+    "target": "말만 거창했군! 신의 방을 부수느라 시간을 빼앗겨서 혼돈의 초아에게서 신력을 흡수하지 못한 모양이지!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418108"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418121",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "何か勘違いをしているようだな、テスカトリポカ。まったく、こんなに痛めつけられて可哀想に。",
+    "target": "뭔가 잘못 알고 있는 것 같구나, 테스카틀리포카. 이런, 이토록 두들겨 맞다니. 가엾기도 하지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418121"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418134",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "何…？",
+    "target": "뭐……?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418134"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418192",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "わが名はヤルダバオート。私は妬む神である。私の他に神は不要だ。そして…そこの矮小な器も用済みだ。",
+    "target": "내 이름은 얄다바오트. 나는 질투하는 신이다. 나 말고 다른 신은 필요 없다. 그리고…… 거기 보잘것없는 그릇도 이젠 쓸모가 없다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418192"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418207",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ヤルダバオート…？器…？",
+    "target": "얄다바오트……? 그릇……?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418207"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418220",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "こいつは…私に憑依し、ずっと思考をコントロールしてきたんだ。神々の目を誤魔化すため…様々な細工まで施して、な。",
+    "target": "이자는…… 내게 빙의해서 줄곧 내 생각을 조종해 왔다. 신들의 눈을 속이려고…… 온갖 잔꾀까지 부려 가며 말이지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418220"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418233",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "まさか…今日この時、定命の肉体で神の間を破壊するために、オルフェを隠れ蓑として利用していたのか！？",
+    "target": "설마…… 바로 오늘, 필멸자의 몸으로 신의 방을 파괴하기 위해 오르페를 내내 가림막으로 삼았단 말이냐!?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418233"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418289",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "くっ…すまない…！",
+    "target": "큭…… 미안하다……!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418289"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418306",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "どこへでも逃げるがいい。消滅する順番が少し変わるだけだ。",
+    "target": "어디로든 달아나 보아라. 소멸할 순서가 조금 바뀔 뿐이니.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418306"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418319",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "さて…。頭では覚えていても肉体が動きを忘れている…これが忘却の女神の力か。これでは肉弾戦は不可能、厄介だな。",
+    "target": "어디 보자……. 머리는 기억하는데 몸이 움직임을 잊었군. 이것이 망각의 여신의 힘인가. 이래서는 육탄전을 할 수 없으니 성가시군.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418319"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418332",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "神力の総量もだいぶ減ってしまったようだが…それでも、それでもだ。脆弱な神々と世界を消し炭にするには充分！光を呑み込み、混沌世界を創造し、私こそが造物主…唯一の神として君臨してくれよう！",
+    "target": "신력의 총량도 꽤 줄어든 모양이다만…… 그래도, 그렇다 해도! 나약한 신들과 세계를 숯으로 만들기엔 충분하다! 빛을 삼키고 혼돈의 세계를 창조하여, 나야말로 조물주이자 유일신으로 군림할 것이다!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418332"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418347",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "愚劣で傲慢な偽りの神め…その力の源が何かわかっているのか？",
+    "target": "어리석고 오만한 거짓 신이여……. 그 힘이 어디서 온 것인지 알기나 하느냐?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418347"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418360",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "神のもつ神力とは元をただせば定命たちの願い。魂にしてアーカーシャの回廊より現出するアストラル光。それを踏みにじる貴様に、真の光を手にすることはできない！",
+    "target": "신들이 지닌 신력의 근원을 거슬러 올라가면 필멸자들의 소망이 있다. 혼이 되어 아카샤의 회랑에서 나타나는 아스트랄 빛이지. 그 소망을 짓밟는 네놈은 참된 빛을 손에 넣을 수 없다!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418360"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418375",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "それで？",
+    "target": "그래서?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418375"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418405",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "ほざいているがいい。少しの間だが遊んでやろう。お前たちがどこまで耐えられるか楽しみだな。",
+    "target": "마음껏 지껄여라. 잠시나마 놀아 주마. 너희가 얼마나 버틸지 기대되는구나.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418405"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418440",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "遅かったな。ちょうど神の間をシステムごと破壊し尽したところだ。少々骨が折れたが。",
+    "target": "늦었군. 방금 신의 방을 그 체계까지 남김없이 부쉈다. 제법 고생했지만 말이야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418440"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418466",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "他の神々も呼んだらどうだ？一柱ずつ、目の前でくびり殺してやろう。",
+    "target": "다른 신들도 불러 보지 그래? 네 눈앞에서 하나씩 목을 졸라 죽여 주마.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418466"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418479",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "それには及ばん。神の間が破壊されていた場合も想定して、こちらも用意をしてきた。…今こそ輝け、来光の牙よ！かつての戦友を止める力を！大戦の罪をあがなうための力をこの身に！",
+    "target": "그럴 것 없다. 신의 방이 파괴됐을 때도 생각해 우리 역시 준비를 해 뒀다. ……지금이야, 빛나라, 여명의 송곳니여! 옛 전우를 막을 힘을! 대전의 죄를 속죄할 힘을 이 몸에 다오!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418479"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418511",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "オルフェ！我らが、お前に引導を渡す！",
+    "target": "오르페! 우리가 네게 최후를 고하겠다!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418511"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418524",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "なるほど、全ての神々の力を一柱に集中してきたか。手間が省けるが、楽しみも減ってしまったな。",
+    "target": "과연, 모든 신의 힘을 한 신에게 모았군. 번거로움은 덜었지만 재미도 줄었어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418524"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.418550",
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "終わらせてやろう。この世界も、お前の冒険も。",
+    "target": "끝내 주마. 이 세계도, 네 모험도.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:418550"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.390714",
+    "source": "Huh.",
+    "source_ja": "実家の流派はあの時やめたんだけど、今はなんかいろいろ物騒だからさ。我流忍術で混沌と戦ってるんだ！我流は良いよ。どんな格好しても、規律だのなんだのと怒られないし最高だよ！",
+    "target": "그때 집안 유파는 그만뒀어. 요새 워낙 흉흉하잖아. 그래서 혼돈하고 싸울 때도 내가 만든 인술을 써! 내 방식대로 하는 게 좋아. 무슨 옷을 입든 규율이 어쩌고 하며 야단치는 사람이 없으니 최고지!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:390714"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394271",
+    "source": "Huh.",
+    "source_ja": "ドラゴン種族殺すべし。慈悲はないわ。",
+    "target": "용족은 죽여야 해. 자비는 없어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394271"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394300",
+    "source": "Huh.",
+    "source_ja": "はぁ…そろそろ一度戻って、鍛えなおしてこようかしら。",
+    "target": "하아…… 이제 한번 돌아가서 수련을 다시 해야 할까 봐.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394300"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394510",
+    "source": "Huh.",
+    "source_ja": "アリーヴェデルチ！",
+    "target": "아리베데르치! 또 보자!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394510"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394526",
+    "source": "Huh.",
+    "source_ja": "私カラモ、礼ヲ言ワセテクダサイ。",
+    "target": "저도, 감사의, 인사를, 드리고, 싶습니다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394526"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394539",
+    "source": "Huh.",
+    "source_ja": "元ノ姿ニ戻シテクレテ…",
+    "target": "원래, 모습으로, 돌려주셔서…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394539"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394565",
+    "source": "Huh.",
+    "source_ja": "サンキューベリマッチ！！",
+    "target": "땡큐 베리 머치!!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394565"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.394599",
+    "source": "Huh.",
+    "source_ja": "ギャオオオオオ！",
+    "target": "크아아아아앙!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:394599"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.395623",
+    "source": "Huh.",
+    "source_ja": "決戦因子は君に決まったんだね。テスカトリポカが認めたなら大丈夫だろう。",
+    "target": "결전 인자는 네가 됐구나. 테스카틀리포카가 인정했다면 안심이야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:395623"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.395994",
+    "source": "Huh.",
+    "source_ja": "じゃあ簡単に、かいつまんで。",
+    "target": "그럼 중요한 대목만 짚어 볼까.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:395994"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396007",
+    "source": "Huh.",
+    "source_ja": "1。長い歴史の中で、人類は神は徐々に必要としなくなり、神は力を失いつつあった。",
+    "target": "첫째. 긴 세월이 흐르면서 인간에게 신의 필요성이 차츰 줄어들었고 신들의 힘도 약해졌어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396007"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396020",
+    "source": "Huh.",
+    "source_ja": "2。そんな時、人類の大半が宇宙に旅立ってしまった。",
+    "target": "둘째. 그 무렵 인류의 대부분이 우주로 떠나 버렸지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396020"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396033",
+    "source": "Huh.",
+    "source_ja": "3。存在の危うくなった神々が殺気立つ中、テスカトリポカが他の神を倒して信者を奪った。",
+    "target": "셋째. 존립이 위태로워진 신들 사이에 살기가 감돌았어. 그때 테스카틀리포카가 다른 신들을 쓰러뜨려 신도를 빼앗았지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396033"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396046",
+    "source": "Huh.",
+    "source_ja": "4。神々の生存競争が勃発。多くの神が消滅したり魔物に堕ちた。",
+    "target": "넷째. 신들의 생존 경쟁이 시작됐어. 많은 신이 소멸하거나 마물로 전락했지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396046"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396059",
+    "source": "Huh.",
+    "source_ja": "5。大戦の裏で混沌の神が力をつけていたことが発覚。混沌対神々の構図に変化。",
+    "target": "다섯째. 대전의 이면에서 혼돈의 신이 힘을 기르고 있었다는 게 드러났어. 이제는 혼돈과 신들의 대결이 됐지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396059"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396072",
+    "source": "Huh.",
+    "source_ja": "6。激戦の末混沌の神は封印できたがこの時混沌の精霊の種が蒔かれていた。",
+    "target": "여섯째. 치열한 싸움 끝에 혼돈의 신을 봉인했지만, 이미 이때 혼돈의 정령의 씨앗이 뿌려졌어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396072"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396085",
+    "source": "Huh.",
+    "source_ja": "7。ひとつの大陸がイルヴァから隔離され、ロストイルヴァとなった。",
+    "target": "일곱째. 대륙 하나가 이르바에서 떨어져 나갔어. 그것이 로스트 이르바야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396085"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396098",
+    "source": "Huh.",
+    "source_ja": "8。神の間が老朽化したのを狙って混沌の軍勢が巨城に侵攻。",
+    "target": "여덟째. 신의 방이 낡아 약해진 틈을 타 혼돈의 군세가 거성으로 쳐들어왔어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396098"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396111",
+    "source": "Huh.",
+    "source_ja": "9。テスカトリポカが混沌の軍勢を撃退するも右腕を失う。",
+    "target": "아홉째. 테스카틀리포카가 혼돈의 군세를 물리쳤지만 오른팔을 잃었어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396111"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396124",
+    "source": "Huh.",
+    "source_ja": "10。オルフェをはじめとする決死隊が役目を果たし、神の間の増築に成功。",
+    "target": "열째. 오르페를 비롯한 결사대가 임무를 완수해 신의 방을 넓히는 데 성공했지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396124"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396137",
+    "source": "Huh.",
+    "source_ja": "11。唯一生還したオルフェが常闇の眼を盗んで行方不明に。",
+    "target": "열한째. 혼자 살아 돌아온 오르페가 영원한 어둠의 눈을 훔쳐 자취를 감췄어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396137"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396150",
+    "source": "Huh.",
+    "source_ja": "12。混沌の神から奪った力を還元し、ネフィア誕生。",
+    "target": "열두째. 혼돈의 신에게서 빼앗은 힘을 세상에 돌려보내면서 네피아가 태어났어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396150"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396163",
+    "source": "Huh.",
+    "source_ja": "13。魔法大戦によりナーク・ドマーラ滅亡。",
+    "target": "열셋째. 마법 대전으로 나크 도마라가 멸망했어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396163"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396176",
+    "source": "Huh.",
+    "source_ja": "14。神の間が再度老朽化。",
+    "target": "열넷째. 신의 방이 다시 낡기 시작했지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396176"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396189",
+    "source": "Huh.",
+    "source_ja": "15。人工細菌メサイアによって作られた秩序の一角獣が役目を果たす。後にサーペントに取り込まれてカオス・ユニコーンへ変化したことが判明。",
+    "target": "열다섯째. 인공 세균 메시아로 만들어진 질서의 유니콘이 제 몫을 해냈어. 훗날 서펀트에게 흡수되어 혼돈의 유니콘으로 변했다는 것이 밝혀졌지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396189"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396202",
+    "source": "Huh.",
+    "source_ja": "16。エーテルが発見され、はみ出し者たちによって盛んに採取された。",
+    "target": "열여섯째. 에테르가 발견됐고, 세상에서 밀려난 이들이 앞다퉈 채취하기 시작했어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396202"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396215",
+    "source": "Huh.",
+    "source_ja": "17。メサイアが事故で変異・流出しメシェーラと呼ばれるように。エーテル減少で弱っていた環境は激変。",
+    "target": "열일곱째. 사고로 메시아가 변이를 일으켜 유출됐어. 사람들은 그걸 메셰라라 불렀지. 에테르가 줄어 이미 쇠약해진 환경은 급격히 변했어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396215"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396228",
+    "source": "Huh.",
+    "source_ja": "18。環境変化に耐え切れずレム・イド滅亡。人類はシェルターで細々と暮らす程度に。",
+    "target": "열여덟째. 레므 이도는 환경 변화를 견디지 못하고 멸망했어. 인류는 대피소에서 겨우 명맥만 잇게 됐지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396228"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396241",
+    "source": "Huh.",
+    "source_ja": "19。メシェーラに侵食された超生物やアンデッド兵器が荒野を徘徊する、永い暗黒期の到来。",
+    "target": "열아홉째. 메셰라에게 잠식된 초생물과 언데드 병기들이 황야를 떠도는 긴 암흑기가 찾아왔어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396241"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396254",
+    "source": "Huh.",
+    "source_ja": "20。年月経過で回復したエーテルが風を生みヴィンデールの森が発達。",
+    "target": "스무째. 세월이 흘러 에테르가 회복되자 바람이 일었고, 빈데일의 숲이 자라났어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396254"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396267",
+    "source": "Huh.",
+    "source_ja": "21。メシェーラ環境に適応できる人類が生まれ世界に拡散。シエラ・テール誕生。",
+    "target": "스물한째. 메셰라가 있는 환경에 적응할 수 있는 인류가 태어나 온 세상에 퍼졌어. 시에라 테르의 탄생이야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396267"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396280",
+    "source": "Huh.",
+    "source_ja": "22。常闇の杖が完成しオルフェ発見。監視を開始。",
+    "target": "스물두째. 영원한 어둠의 지팡이가 완성되고 오르페를 찾아냈어. 감시가 시작됐지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396280"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396293",
+    "source": "Huh.",
+    "source_ja": "23。さらに回復したエーテルがヴィンデールの森を拡大。カルーン滅亡。",
+    "target": "스물셋째. 에테르가 더 회복되면서 빈데일의 숲이 넓어졌어. 카룬은 멸망했지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396293"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396306",
+    "source": "Huh.",
+    "source_ja": "24。ヴィンデールの森が焼き払われる。",
+    "target": "스물넷째. 빈데일의 숲이 불타 버렸어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396306"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396319",
+    "source": "Huh.",
+    "source_ja": "25。神の間が再度老朽化。潜伏していた混沌の軍勢も活発に。",
+    "target": "스물다섯째. 신의 방이 또다시 낡았어. 숨어 있던 혼돈의 군세도 활동을 시작했지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396319"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396332",
+    "source": "Huh.",
+    "source_ja": "そして、強さと抵抗力を兼ね備えた君が決戦因子として選ばれた…というわけだね。",
+    "target": "그리하여 강함과 저항력을 두루 갖춘 네가 결전 인자로 뽑혔다…… 이거야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396332"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396348",
+    "source": "Huh.",
+    "source_ja": "いい質問だね。現在のネフィアは混沌の神から奪った力を魔力に変換後、陽牢の塔を経由して龍脈に流し込んで生成している。つまり混沌の神がいなくなったらネフィアは維持できなくなるね。",
+    "target": "좋은 질문이야. 지금 네피아는 혼돈의 신에게서 빼앗은 힘을 마력으로 바꾼 뒤 양뢰의 탑을 거쳐 용맥으로 흘려 보내서 만들어. 그러니까 혼돈의 신이 없어지면 네피아도 유지할 수 없어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396348"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396361",
+    "source": "Huh.",
+    "source_ja": "ただし、すぐにネフィアが消えるわけじゃないよ。ネフィアのベースとなる遺跡はまた8億程ストックがあるし、魔力も現在対流している分が枯渇するのに最低2000年かかる。それまでに定命も神もネフィアに依存しないシステムを構築していく必要があるね。",
+    "target": "그렇다고 곧장 사라지는 건 아니야. 네피아의 바탕이 되는 유적이 아직도 팔억 개쯤 남아 있고, 지금 순환하는 마력이 바닥나려면 적어도 이천 년은 걸려. 그때까지는 신도 필멸자도 네피아에 기대지 않고 살아갈 방도를 마련해야지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396361"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396377",
+    "source": "Huh.",
+    "source_ja": "神の間は混沌の神が封じられている場所だね。神の間の役割は張り巡らされた結界によって混沌の神の力を奪うことだ。",
+    "target": "신의 방은 혼돈의 신이 봉인된 곳이야. 촘촘히 펼친 결계로 혼돈의 신에게서 힘을 빼앗는 게 그 방의 역할이지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396377"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396390",
+    "source": "Huh.",
+    "source_ja": "やがて奪った力はネフィアを生む魔力へと変換してイルヴァ全土に拡散されることになった。こうして世界に混沌と魔法の力がもたらされることになるわけだが…。それはまた別のお話だね。",
+    "target": "빼앗은 힘은 이윽고 네피아를 낳는 마력으로 바뀌어 이르바 전역에 퍼졌어. 그렇게 세상에 혼돈과 마법의 힘이 깃들게 된 건데……. 뭐, 그건 또 다른 이야기야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396390"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396406",
+    "source": "Huh.",
+    "source_ja": "そもそもの始まりは、神を必要としないまでに人の技術が発達したことだった。その極限にしてエイス・テールの前身…アース・テールと呼ばれる文明。もはやこの星に納まる存在でなくなった当時の人類は、わずかばかりの民を残して星の海に旅立っていった。",
+    "target": "처음에는 신이 필요 없을 만큼 인간의 기술이 발달한 게 발단이었어. 그 정점에 이른 문명이자 에이스 테르의 전신…… 그 이름이 아스 테르야. 이미 이 별 하나로는 다 품을 수 없게 된 인류는 소수만 남겨 둔 채 별들의 바다로 떠났지.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396406"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396419",
+    "source": "Huh.",
+    "source_ja": "それまでに信仰が絶えかけ力が衰えていた神々にとって、人類の旅立ちは存在を危うくするほどの一大事。残された定命たちに力を誇示し信仰を確保せねば、神としての存在を維持することができないと誰もが考えていたね…。",
+    "target": "이미 신앙이 거의 끊겨 힘을 잃어 가던 신들에게 인류의 출발은 존립이 흔들릴 만큼 큰 사건이었어. 남아 있는 필멸자들에게 힘을 과시하고 신앙을 얻지 않으면 더는 신으로 남을 수 없다고 다들 생각했지…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396419"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396432",
+    "source": "Huh.",
+    "source_ja": "そしてテスカトリポカによる虐殺が引き金となり、神々の生存戦争が始まったんだ。あの時のイルヴァには、秩序などなかったね…。",
+    "target": "그러다 테스카틀리포카의 학살이 불씨가 되어 신들의 생존 전쟁이 터졌어. 그 시절 이르바에는 질서랄 게 없었지…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396432"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396463",
+    "source": "Huh.",
+    "source_ja": "セクハラとは感心しないね。いつの時代も定命はやんちゃで困る。",
+    "target": "성희롱이라니, 못쓰겠네. 어느 시대나 필멸자들은 짓궂어서 탈이야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396463"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396511",
+    "source": "Huh.",
+    "source_ja": "ヘンタイ。",
+    "target": "변태.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396511"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.396674",
+    "source": "Huh.",
+    "source_ja": "…さて。常闇の眼を解読しているなら気付いているかもしれないが…これに記されているのは人界の出来事のみ。かつてこの地で起きたこと、そして今起きていることを知りたければ始まりのネフィア…混沌の巨城地下にある、神の間を目指しなさい。",
+    "target": "……자. 영원한 어둠의 눈을 해독했다면 눈치챘을지도 모르겠군. 여기 적힌 것은 인간계에서 일어난 일뿐이다. 옛날 이 땅에서 무슨 일이 있었는지, 그리고 지금 무슨 일이 일어나는지 알고 싶다면 최초의 네피아로 가거라. 혼돈의 거성 지하, 신의 방을 찾아라.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:396674"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.397349",
+    "source": "Huh.",
+    "source_ja": "わがエウダーナの軍部は、魔力を蓄える擬似生命体の開発を近年進めているわ。機密だから詳しい仕様は伏せられているけれど、構成がどうしても気になるのよ。だから捕獲してあたしの前に連れてきなさい。あたしが直接捕獲するのは立場上問題があっても…冒険者が「偶然」捕まえたものを天才であるあたしに「調査依頼」するのは自然なことでしょう？",
+    "target": "우리 에우데르나 군부는 요 몇 년간 마력을 저장하는 인공 생명체를 개발하고 있어. 기밀이라 구체적인 사양은 알려 주질 않는데, 어떻게 만들었는지 궁금해서 견딜 수가 없어. 그러니 한 마리 잡아 내 앞으로 데려와. 내가 직접 잡으면 내 지위가 곤란해져도, 모험가가 ‘우연히’ 잡은 것을 천재인 나한테 ‘조사 의뢰’하는 건 자연스럽잖아?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:397349"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.397815",
+    "source": "Huh.",
+    "source_ja": "アストラル光で描かれたこの世界の生命の記録…記録通りの死を迎えた時、アーカーシャへの画廊へと導かれ…生命は光になる。光になって星に還る…。そしていつか、また光の海から生まれ出る…。",
+    "target": "아스트랄 빛으로 그려 낸 이 세계의 생명의 기록……. 기록된 대로 죽음을 맞으면 아카샤의 회랑으로 인도되어…… 생명은 빛이 되지. 빛이 되어 별로 돌아가……. 그리고 언젠가 다시 빛의 바다에서 태어나…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:397815"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.397893",
+    "source": "Huh.",
+    "source_ja": "いつもの奴隷くんたちをいじめるのにも飽きてきたわ…。もっと新鮮な反応が欲しいの。",
+    "target": "늘 보던 노예 녀석들만 괴롭히려니 지겨워졌어……. 좀 더 신선한 반응이 보고 싶어.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:397893"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.398884",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "これだけ特徴の異なるものを一人で作り分けたのは見事。あえて言うならば、この武骨な短剣が特に完成度が高いと見た。実用性重視の作品を得意としているのかもしれん。しかし残りの2本もよくできて…",
+    "target": "이토록 개성이 다른 작품들을 혼자 만들어 내다니 훌륭하다. 굳이 하나 꼽자면 이 투박한 단검의 완성도가 가장 높군. 실용적인 물건에 특히 능한지도 모르겠어. 그래도 나머지 두 자루도 잘 만들었…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:398884"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.398898",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "おや…？こんなところに小さく、製作者の名前が入れてあるな…。…イルマ？",
+    "target": "이런……? 이런 데 조그맣게 만든 사람 이름을 새겨 뒀군……. ……이르마?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:398898"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.398993",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "なんだ？まさか文句でも？",
+    "target": "왜? 설마 불만이라도 있어?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:398993"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.399086",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "は…？",
+    "target": "뭐……?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:399086"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.399128",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "猫 イズ フリ～ダ～ム♪ 猫 イズ フリ～ダ～ム♪",
+    "target": "고양이는 자유라네~♪ 고양이는 자유라네~♪",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:399128"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.399301",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "ジジイっ…！腹立たしいぜ！もはや我慢ならん！",
+    "target": "이 영감탱이가……! 열 받아 죽겠네! 더는 못 참아!",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:399301"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.399338",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "えへへ…。",
+    "target": "에헤헤…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:399338"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.399757",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "むむむ。",
+    "target": "으으음.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:399757"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.399786",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "消去とな？ふむ、このエンチャントだと…ちょっと無理じゃな…すまんのう。",
+    "target": "없애 달라고? 흠, 이 마법 부여는…… 좀 무리겠구나……. 미안하이.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:399786"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.399848",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "ふむふむ…って、能力獲得の巻き物を持っておらんではないか。",
+    "target": "어디 보자…… 이게 뭐냐, 능력 획득의 두루마리가 없잖느냐.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:399848"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.400275",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "…なるほど。",
+    "target": "……그렇군.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:400275"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.400419",
+    "source": "So you are also of the same genus as the others...",
+    "source_ja": "ふむ…。",
+    "target": "흐음…….",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:400419"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.400807",
+    "source": "Woah!",
+    "source_ja": "うわっ！？",
+    "target": "으악!?",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:400807"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.403272",
+    "source": "Huh.",
+    "source_ja": "は、初めまして。",
+    "target": "처, 처음 뵙겠습니다.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:403272"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.404803",
+    "source": "Huh.",
+    "source_ja": "これ以上の階層は正直厳しい。もう少し探索したら俺たちは撤退する予定だ。",
+    "target": "솔직히 이보다 더 깊은 층은 무리야. 조금만 더 둘러보고 우린 철수할 생각이야.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:404803"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.dialogue.405055",
+    "source": "Woah!",
+    "source_ja": "…よし！着いてこい。",
+    "target": "……좋아! 따라와.",
+    "english_enabled": false,
+    "source_ref": [
+      "2.335:start.hsp:405055"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 Japanese authored NPC dialogue, bound before text wrapping"
+    }
+  },
+  {
+    "id": "late.reward.393327",
+    "source": "You obtain Elsian Necklace and Boarding ticket of Queen Sedona!",
+    "source_ja": "[エルシアの首飾り]と[クイーン・セドナの乗船券]を手に入れた！",
+    "target": "엘시아의 목걸이와 퀸 세도나호 승선권을 손에 넣었다!",
+    "source_ref": [
+      "2.335:start.hsp:393327"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 dialogue 1014 original quest reward notification"
+    }
   }
 ]

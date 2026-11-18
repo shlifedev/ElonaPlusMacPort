@@ -5675,5 +5675,2356 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "english_enabled": false
+  },
+  {
+    "source": "You're so cheap!",
+    "source_ja": "ケチ！",
+    "target": "치사해!",
+    "source_ref": [
+      "2.335:start.hsp:371350"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Being a carrier pigeon must be tough work.",
+    "source_ja": "伝書鳩も大変ね",
+    "target": "전서구 노릇도 고달프겠어.",
+    "source_ref": [
+      "2.335:start.hsp:371368"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I don't need it, so please throw it away.",
+    "source_ja": "いらないから捨てておいて",
+    "target": "필요 없으니 버려 줘.",
+    "source_ref": [
+      "2.335:start.hsp:371371"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I carried it so carefully, and now this happens.",
+    "source_ja": "大事に運んできたのにひどいや。",
+    "target": "애지중지 들고 왔는데, 너무하잖아.",
+    "source_ref": [
+      "2.335:start.hsp:371377"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Am I really suitable for this job...?",
+    "source_ja": "鳩はこの仕事に向いているのかなあ…。",
+    "target": "나, 전서구 체질이 아닌 걸까…….",
+    "source_ref": [
+      "2.335:start.hsp:371394"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Trick.",
+    "source_ja": "イタズラされる",
+    "target": "장난을 당한다.",
+    "source_ref": [
+      "2.335:start.hsp:371538"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Treat.",
+    "source_ja": "イタズラする",
+    "target": "장난을 친다.",
+    "source_ref": [
+      "2.335:start.hsp:371541"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Yeah!",
+    "source_ja": "わーい！",
+    "target": "신난다!",
+    "source_ref": [
+      "2.335:start.hsp:371572"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Happy Halloween!",
+    "source_ja": "ハッピーハロウィン！",
+    "target": "즐거운 핼러윈!",
+    "source_ref": [
+      "2.335:start.hsp:371575"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Guard! Guard! Guard!",
+    "source_ja": "ひっ…ガード！ガード！",
+    "target": "히익…… 경비병! 경비병!",
+    "source_ref": [
+      "2.335:start.hsp:371653"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Come on!",
+    "source_ja": "おやおや",
+    "target": "어이쿠, 이런.",
+    "source_ref": [
+      "2.335:start.hsp:371656"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Come on!",
+    "source_ja": "うふふ",
+    "target": "우후후.",
+    "source_ref": [
+      "2.335:start.hsp:371687"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Hump!",
+    "source_ja": "ふん！",
+    "target": "흥!",
+    "source_ref": [
+      "2.335:start.hsp:371700"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Welcome!",
+    "source_ja": "いいよ",
+    "target": "좋아.",
+    "source_ref": [
+      "2.335:start.hsp:371762"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Get out!",
+    "source_ja": "駄目だよ",
+    "target": "안 돼.",
+    "source_ref": [
+      "2.335:start.hsp:371765"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "You have to pay the rent.",
+    "source_ja": "家賃は払ってよ",
+    "target": "집세는 내야 해.",
+    "source_ref": [
+      "2.335:start.hsp:371768"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Let we live here! My wife was killed by the cat punch and our house was destroyed by the human punch...",
+    "source_ja": "妻が猫パンチで殺され住んでいた家も人間パンチで壊され、現在は路頭に迷っています。どうか、軒先に住まわせていただけないでしょうか？",
+    "target": "아내는 고양이의 앞발에 맞아 죽고, 살던 집은 사람 주먹에 무너져서 이렇게 길거리에 나앉았습니다. 부탁입니다. 처마 밑에서라도 지내게 해 주시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:371770"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Thanks! I and my children are happy.",
+    "source_ja": "ありがとうございます。あああ、私はなんて幸福なんだ。これで仕事と育児に専念できます。私の子供たちもきっと絶対必ず幸福になるでしょう。",
+    "target": "감사합니다. 아아, 저는 얼마나 행복한지요! 이젠 일과 육아에만 전념할 수 있겠습니다. 제 아이들도 틀림없이, 꼭 행복해질 겁니다.",
+    "source_ref": [
+      "2.335:start.hsp:371774"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Oh...Where is happiness?",
+    "source_ja": "ああ、これも天の与えた試練なのですね！ならば、その先にある本当の幸福を求め彷徨い続けましょう…。",
+    "target": "아아, 이것 또한 하늘이 내린 시련이겠지요! 그렇다면 그 너머에 있을 참된 행복을 찾아 계속 떠돌겠습니다…….",
+    "source_ref": [
+      "2.335:start.hsp:371794"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Welcome!",
+    "source_ja": "いいね",
+    "target": "좋지.",
+    "source_ref": [
+      "2.335:start.hsp:371812"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Get out!",
+    "source_ja": "駄目だね",
+    "target": "그것참 곤란한걸.",
+    "source_ref": [
+      "2.335:start.hsp:371815"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I expect it.",
+    "source_ja": "謝礼、待っていますね",
+    "target": "사례는 기대하고 있을게요.",
+    "source_ref": [
+      "2.335:start.hsp:371818"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Let we live here! It's been a few years since my husband died of sex. I will give you a monthly reward, so please let me and my daughters live here...",
+    "source_ja": "主人が腹上死して何年かが過ぎました。いきなりの相談失礼します。お互いのニーズに合致しそうだと思い、訪問してみました。謝礼は幾らかは出きますので、私と娘たちを住まわせて欲しいのです。",
+    "target": "남편이 잠자리에서 숨을 거둔 지도 벌써 몇 해가 지났네요. 다짜고짜 이런 부탁을 드려 죄송해요. 서로에게 좋은 일이 될 듯해서 찾아왔답니다. 사례는 조금 해 드릴 수 있으니, 저와 제 딸들이 여기서 지내게 해 주시겠어요?",
+    "source_ref": [
+      "2.335:start.hsp:371820"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Thanks to you, my daughters will be less likely to fight enemies...",
+    "source_ja": "助かります。これで娘たちが外敵と戦うことも減るでしょう…。",
+    "target": "한시름 놓았네요. 이제 딸들도 천적과 싸울 일이 줄어들겠어요…….",
+    "source_ref": [
+      "2.335:start.hsp:371824"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Oh...Do you hate sweet honey?",
+    "source_ja": "甘い蜜はお嫌いでしたか…？",
+    "target": "달콤한 꿀을 싫어하셨나요……?",
+    "source_ref": [
+      "2.335:start.hsp:371845"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Welcome!",
+    "source_ja": "そんなぁ",
+    "target": "그럴 수가…….",
+    "source_ref": [
+      "2.335:start.hsp:371863"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Get out!",
+    "source_ja": "出ていけクソガキ",
+    "target": "꺼져, 이 버르장머리 없는 꼬맹아.",
+    "source_ref": [
+      "2.335:start.hsp:371866"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "You will regret it.",
+    "source_ja": "わからせてやる…",
+    "target": "버릇을 고쳐 주마…….",
+    "source_ref": [
+      "2.335:start.hsp:371869"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Hehehe! This house is too nonsense and nonsense and interestiiiiing! I decided to live here！",
+    "source_ja": "くすくすっ！うっわぁ～なんですかこのセンスのない座敷ｗｗｗダッサダサじゃないですか～。本当に笑えるのでぇ、しばらくはこの家に住んであげますねｗｗｗ",
+    "target": "키득키득! 우와, 이 방 꼴이 뭐예요? 어쩜 이렇게 촌스러워요? 너무 웃겨서 당분간은 여기 좀 살아 드릴게요. 깔깔!",
+    "source_ref": [
+      "2.335:start.hsp:371871"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Hehehe! Think about the arrangement of furniture properly...Oooooh, do you know what the furniture is???",
+    "source_ja": "ちゃんと家具の配置とか考えてくださいよ～？あっｗｗｗｗ家具って何か分かってます？？？",
+    "target": "가구를 어디에 놓을지 생각은 좀 하세요. 아, 잠깐. 가구가 뭔지는 아시죠? 키득키득!",
+    "source_ref": [
+      "2.335:start.hsp:371875"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I will come agaaaaain! Hehehe!",
+    "source_ja": "はぁい、いいですよ～。また来ますけどねｗｗｗｗｗあはははは！",
+    "target": "네에, 그러세요~ 또 올 거지만요. 아하하하!",
+    "source_ref": [
+      "2.335:start.hsp:371891"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Welcome!",
+    "source_ja": "これからよろしく",
+    "target": "앞으로 잘 지내 보자.",
+    "source_ref": [
+      "2.335:start.hsp:371909"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "If you like this kind of house...",
+    "source_ja": "こんな家でよければ…",
+    "target": "이런 집이라도 괜찮다면…….",
+    "source_ref": [
+      "2.335:start.hsp:371915"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I...I've always liked t...this house since I first saw it! Let me protect this house...Please!",
+    "source_ja": "はっ…初めて見た時から、こ、この家のことがずっと好きでした！私にこの家を守らせてくださいぃぃっ…！",
+    "target": "처, 처음 봤을 때부터 이, 이 집을 줄곧 좋아했어요! 제발 제가 이 집을 지키게 해 주세요오……!",
+    "source_ref": [
+      "2.335:start.hsp:371917"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I'm happy...like a dream! Pests approaching this house, I'll get rid of them...!",
+    "source_ja": "やったぁ…夢みたい！この家に近づく悪い虫はぁ、私がぜぇぇぇんぶ排除してあげますねぇ…ぐへっ、ぐへへへ♪",
+    "target": "야호…… 꿈만 같아! 이 집에 꼬이는 벌레들은 제가 모오조리 없애 드릴게요. 게헥, 게헤헤♪",
+    "source_ref": [
+      "2.335:start.hsp:371921"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I...I haven't given up yet!",
+    "source_ja": "私…まだあきらめませんからっ！ずっと見守っていきます！",
+    "target": "저…… 아직 포기 안 했어요! 계속 지켜볼 거예요!",
+    "source_ref": [
+      "2.335:start.hsp:371936"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Welcome!>",
+    "source_ja": "【ちょっとだけよ】",
+    "target": "【조금만이야】",
+    "source_ref": [
+      "2.335:start.hsp:371955"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Get out, monster!",
+    "source_ja": "帰れバケモノ！",
+    "target": "돌아가, 이 괴물아!",
+    "source_ref": [
+      "2.335:start.hsp:371959"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I don't want to because I feel like you'll suck all my blood out.",
+    "source_ja": "吸いつくされそうだからイヤ",
+    "target": "싫어. 피를 한 방울도 안 남기고 빨 것 같잖아.",
+    "source_ref": [
+      "2.335:start.hsp:371962"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Please...donate blood...for the sake of my unborn babies...",
+    "source_ja": "オナカの赤チャンのタメ…献血をお願イしまス…。",
+    "target": "배 속 아가를 위하여어…… 헌혈을 부타악드립니이다…….",
+    "source_ref": [
+      "2.335:start.hsp:371964"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Yaaaaaay! I'll take all the bloooooooood!!",
+    "source_ja": "ギひゃアアアア！ぜんぶイタダキまぁぁァス！！",
+    "target": "끼히야아아악! 모조리 잘 머어억겠습니다아!!",
+    "source_ref": [
+      "2.335:start.hsp:371969"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The real monster...might be you...",
+    "source_ja": "ホントウにバケモノなのハ…ドッチでシょう、ネ？",
+    "target": "진짜 괴물은…… 과아연 어느 쪽일까아요?",
+    "source_ref": [
+      "2.335:start.hsp:371987"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Wait a moment...10 liters...no, even 8 liters would be fine...!",
+    "source_ja": "マって！10リットル！いヤ、8リットルでイイからぁあ！",
+    "target": "기, 기다려요! 십 리터! 아아니, 팔 리터만이라도오!",
+    "source_ref": [
+      "2.335:start.hsp:372004"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Heraudsteron> the saying it's me",
+    "source_ja": "『オレオレ鷺』",
+    "target": "『나야 나 왜가리』",
+    "source_ref": [
+      "2.335:start.hsp:372023"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Who are you?",
+    "source_ja": "誰だよ",
+    "target": "너 누군데?",
+    "source_ref": [
+      "2.335:start.hsp:372025"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Lomias!? Is that you, Lomias?",
+    "source_ja": "ロミアス！？ロミアスなのかい？",
+    "target": "로미아스!? 로미아스 맞아?",
+    "source_ref": [
+      "2.335:start.hsp:372028"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "That voice... could it be my friend?",
+    "source_ja": "その声は我が友ではないか？",
+    "target": "그 목소리는 내 벗이 아닌가?",
+    "source_ref": [
+      "2.335:start.hsp:372031"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's me, it's me! Help me out! Some idiot mixed a weird liquid into the well, and now I've ended up looking like this!",
+    "source_ja": "オレだよオレ！助けてくれ！どこかの馬鹿が井戸におかしな液体を混ぜやがったせいでこんな姿になっちまった！",
+    "target": "나야, 나! 좀 도와줘! 어떤 멍청이가 우물에 이상한 액체를 탔지 뭐야. 그래서 내가 이 꼴이 돼 버렸어!",
+    "source_ref": [
+      "2.335:start.hsp:372033"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's a fraud, isn't it?",
+    "source_ja": "サギじゃん",
+    "target": "딱 봐도 사기잖아.",
+    "source_ref": [
+      "2.335:start.hsp:372037"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "If it's a once-in-a-lifetime favor, I guess I have no choice.",
+    "source_ja": "一生のお願いなら仕方ない",
+    "target": "평생 한 번뿐인 부탁이라면 별수 없지.",
+    "source_ref": [
+      "2.335:start.hsp:372041"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You've always said your dream was to fly, remember?",
+    "source_ja": "空飛ぶのが夢ってずっと言ってたじゃん",
+    "target": "넌 늘 하늘을 나는 게 꿈이라고 했잖아.",
+    "source_ref": [
+      "2.335:start.hsp:372045"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Right now, with 5000 gold, I can get treatment and return to normal! You're the only one I can rely on now! I'm begging you?this is a once-in-a-lifetime favor...please prepare 5000 gold for me...!",
+    "source_ja": "今なら、5000goldあれば治療を受けて元に戻れるんだ！もうお前しか頼れないんだよ！一生のお願いだ、5000gold用意してくれ…！",
+    "target": "지금 금화 5,000닢만 있으면 치료받고 원래 모습으로 돌아갈 수 있어! 이젠 너밖에 기댈 데가 없다. 평생 한 번뿐인 부탁이야. 금화 5,000닢만 마련해 줘……!",
+    "source_ref": [
+      "2.335:start.hsp:372047"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Haha... yeah, you're right. There's no way you'd believe it. I was a fool to count on you...",
+    "source_ja": "はは…そうだよな、信じるわけないよな。お前を頼ったオレが馬鹿だったよ…。",
+    "target": "하하…… 그렇지. 믿을 리 없지. 널 믿고 찾아온 내가 바보였어…….",
+    "source_ref": [
+      "2.335:start.hsp:372052"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You're a lifesaver! I owe you one! If I manage to get back to normal, I'll treat you to a drink!",
+    "source_ja": "助かった、恩に着る！元に戻れたら酒でも奢るよ！",
+    "target": "살았다, 이 은혜 잊지 않을게! 원래 모습으로 돌아오면 술 한잔 살게!",
+    "source_ref": [
+      "2.335:start.hsp:372067"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "!?...Y-yeah, that's true. I'm gonna go run a quick flight test.",
+    "source_ja": "！？…そ、そうだったなぁ。ちょっと飛行テストしてくるわ。",
+    "target": "뭐!? ……그, 그랬지. 그럼 시험 삼아 좀 날아 보고 올게.",
+    "source_ref": [
+      "2.335:start.hsp:372084"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Heraudsteron> the saying I can't go home",
+    "source_ja": "『寸借鷺』",
+    "target": "『차비 꿔 가는 왜가리』",
+    "source_ref": [
+      "2.335:start.hsp:372101"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's a fraud, isn't it?",
+    "source_ja": "サギだろ",
+    "target": "사기지?",
+    "source_ref": [
+      "2.335:start.hsp:372103"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Well, if it's just that much...",
+    "source_ja": "まぁそのくらいなら…",
+    "target": "뭐, 그 정도라면…….",
+    "source_ref": [
+      "2.335:start.hsp:372107"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Please explain the situation to the guard and ask them to lend you some money.",
+    "source_ja": "わけを話してガードに借りてください",
+    "target": "경비병에게 사정을 얘기하고 빌리세요.",
+    "source_ref": [
+      "2.335:start.hsp:372111"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Oh dear... I don't have enough money to get home...I promise to come back and pay you back later...could you lend me just 800 gold?",
+    "source_ja": "うう…家に帰るためのお金が足りなくってねぇ…後日、必ず返しに来るから、800goldだけ貸してもらえないかい？",
+    "target": "흑…… 집에 갈 차비가 모자라서 그래요…… 다음에 꼭 갚으러 올 테니 금화 800닢만 빌려주시겠어요?",
+    "source_ref": [
+      "2.335:start.hsp:372113"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "How awful your attitude is towards someone in distress! Adventurers these days...",
+    "source_ja": "困っている相手になんて酷い態度なんだい！近頃の冒険者ときたら！",
+    "target": "어려운 사람한테 말버릇이 그게 뭐예요! 요즘 모험가들이란!",
+    "source_ref": [
+      "2.335:start.hsp:372118"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Thank you so much! You’re so kind! I’ll definitely come back to return it!",
+    "source_ja": "ありがとうねぇ！本当に親切な方！必ず返しに来ますねぇ！",
+    "target": "고마워요! 정말 친절하시네요! 꼭 갚으러 올게요!",
+    "source_ref": [
+      "2.335:start.hsp:372133"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "...That's a great idea! Borrowing one from the guard ensures a proper record is kept, so that gives me peace of mind. Sorry for the interruption!",
+    "source_ja": "…。そうねぇ！ガードさんに借りればしっかり記録も残るし、安心よねぇ！邪魔してしまってごめんなさいねぇ。",
+    "target": "……그렇네요! 경비병한테 빌리면 기록도 확실히 남고 안심이죠! 괜히 번거롭게 했네요, 미안해요.",
+    "source_ref": [
+      "2.335:start.hsp:372150"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Heraudsteron> the demanding payment",
+    "source_ja": "『請求鷺』",
+    "target": "『회비 걷는 왜가리』",
+    "source_ref": [
+      "2.335:start.hsp:372167"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's a fraud, isn't it?",
+    "source_ja": "サギだよね",
+    "target": "그거 사기죠?",
+    "source_ref": [
+      "2.335:start.hsp:372169"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I didn't know that! I'll pay right now.",
+    "source_ja": "知らなかった！今払います",
+    "target": "몰랐어요! 지금 낼게요.",
+    "source_ref": [
+      "2.335:start.hsp:372173"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I'll pay directly at the Guild, so come along with me.",
+    "source_ja": "ギルドで直接払うから一緒に来て",
+    "target": "길드에서 직접 낼 테니 같이 가요.",
+    "source_ref": [
+      "2.335:start.hsp:372177"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I’m here from the Adventurers' Guild. You are currently 12000 gold behind on your Adventurer's Guild membership fees. If you do not pay this time, your adventurer status will be revoked, and you will no longer be able to receive any of the services you have been receiving up until now.",
+    "source_ja": "冒険者ギルドのほうから来ました。現在、あなたは冒険者ギルドの会費を12000gold滞納しています。もしも今回支払っていただけない場合、冒険者の資格が剥奪され今まで受けてきた各種サービスも受けられなくなります。",
+    "target": "모험가 길드에서 나왔습니다. 현재 길드 회비 금화 12,000닢이 밀려 있으시군요. 이번에도 납부하지 않으시면 모험가 자격을 박탈당하고, 지금까지 이용하시던 각종 서비스도 더는 받으실 수 없습니다.",
+    "source_ref": [
+      "2.335:start.hsp:372179"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It seems you have no intention of paying. We will send out a formal notification at a later date. Goodbye.",
+    "source_ja": "お支払いの意志がないようで。では後日、正式な通知を出させていただきます。さようなら。",
+    "target": "납부할 의사가 없으시군요. 그럼 나중에 정식으로 통지하겠습니다. 안녕히 계십시오.",
+    "source_ref": [
+      "2.335:start.hsp:372184"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "If there are any further overdue payments, I'll be coming to collect.",
+    "source_ja": "はい、確かに。また滞納があった場合は請求に来ますからね。",
+    "target": "네, 확실히 받았습니다. 또 연체하시면 다시 징수하러 오겠습니다.",
+    "source_ref": [
+      "2.335:start.hsp:372199"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "...Whoops! It looks like I mistook this for another adventurer's home. My apologies!",
+    "source_ja": "…おおっと！別の冒険者の家と間違えていたようです。失礼～。",
+    "target": "……아차! 다른 모험가의 집과 헷갈렸나 보군요. 실례했습니다아.",
+    "source_ref": [
+      "2.335:start.hsp:372216"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Heraudsteron> the grateful to you",
+    "source_ja": "『ロマンス鷺』",
+    "target": "『연애 사기 왜가리』",
+    "source_ref": [
+      "2.335:start.hsp:372233"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's a fraud, isn't it?",
+    "source_ja": "サギでは？",
+    "target": "혹시 사기 아니야?",
+    "source_ref": [
+      "2.335:start.hsp:372235"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Did I really save a crane?",
+    "source_ja": "ツルなんて助けたっけ？",
+    "target": "내가 학을 구해 준 적이 있던가?",
+    "source_ref": [
+      "2.335:start.hsp:372238"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You doesn't quite seem like a crane, somehow...",
+    "source_ja": "なんかツルっぽくないような？",
+    "target": "아무리 봐도 학 같지는 않은데?",
+    "source_ref": [
+      "2.335:start.hsp:372241"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I'm the crane you helped the other day.",
+    "source_ja": "先日あなたに助けていただいたツルです。",
+    "target": "저는 얼마 전 당신이 구해 주신 학입니다.",
+    "source_ref": [
+      "2.335:start.hsp:372243"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's a fraud! just go home.",
+    "source_ja": "サギじゃん帰れよ",
+    "target": "왜가리잖아. 돌아가.",
+    "source_ref": [
+      "2.335:start.hsp:372247"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Oh well. I'm counting on you.",
+    "source_ja": "まぁいいか、よろしくな",
+    "target": "뭐, 어때. 잘 부탁해.",
+    "source_ref": [
+      "2.335:start.hsp:372250"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The least you could do is transform into a girl.",
+    "source_ja": "せめて女の子に化けて来いよ",
+    "target": "적어도 아가씨로 둔갑해서 오든가.",
+    "source_ref": [
+      "2.335:start.hsp:372253"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "From now on, I will spend my entire life repaying your kindness! But never count the money in your salary chest.",
+    "source_ja": "これから、一生をかけてあなたへの恩を返していきます！ですが、決して給料箱のお金は数えないでくださいね。",
+    "target": "이제 평생에 걸쳐 은혜를 갚겠습니다! 하지만 급여 상자에 든 돈만은 절대로 세어 보시면 안 돼요.",
+    "source_ref": [
+      "2.335:start.hsp:372255"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I'm going home for today. But please remember to trust someone.",
+    "source_ja": "今日のところは帰ります。ですが、誰かを信じる心をいつか思い出してくださいね。",
+    "target": "오늘은 이만 돌아갈게요. 그래도 언젠가 누군가를 믿는 마음을 되찾으시길 바라요.",
+    "source_ref": [
+      "2.335:start.hsp:372260"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Yes! I’ll definitely make myself useful to you!",
+    "source_ja": "はいっ！必ずあなたのお役に立ってみせます！",
+    "target": "네! 꼭 도움이 되어 보이겠어요!",
+    "source_ref": [
+      "2.335:start.hsp:372278"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "OK! Thank you in advance!",
+    "source_ja": "ツルです。よろしくお願いします♪",
+    "target": "학이에요. 잘 부탁드려요♪",
+    "source_ref": [
+      "2.335:start.hsp:372306"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "依頼の説明はガベラに任せている。あいつから聞いてくれ。用意した報酬は私が選んだものだからな。痺れるぞ？",
+    "target": "의뢰 설명은 가베라에게 맡겼다. 녀석에게 듣도록. 보수는 내가 직접 골랐다. 짜릿할 거다.",
+    "source_ref": [
+      "2.335:start.hsp:385467"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Survey troops are heading to the deepest part remains. Join to escort me to catch up. It also plans to go after our troops.",
+    "source_ja": "調査部隊は遺跡最深部へ向かっている。追いついて護衛に加わってくれ。私たちの部隊も後から行く予定だ。",
+    "target": "조사대는 유적 가장 깊은 곳으로 향하고 있다. 따라잡아서 호위에 합류해라. 우리 부대도 뒤따라가겠다.",
+    "source_ref": [
+      "2.335:start.hsp:385515"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What? And I would want to enter the ruins Remido. Hmm ..., you're quite so strong. I will act accordingly if you undertake the escort of troops who underwriting investigation.",
+    "source_ja": "何？レミード遺跡に入りたいだと。…ふむ、腕はたちそうだな。調査部隊の護衛を引き受けてくれるのなら考えてやらんでもない。",
+    "target": "뭐라고? 레미드 유적에 들어가고 싶다고? ……흠, 솜씨는 제법이겠군. 조사대 호위를 맡겠다면 생각해 보도록 하지.",
+    "source_ref": [
+      "2.335:start.hsp:385531"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There is a man wearing a white robe that development room next to the bar.  If you undertake an escort, ask him to make a card key for the passage. However, there is a need to negotiate because he is a crazy guy.",
+    "source_ja": "酒場の隣のラボにガベラという白衣を着た男がいる。護衛をする気があるなら通行用のカードキーをそいつに作ってもらいたまえ。ただあいつは変わり者だ…上手く交渉するんだな。",
+    "target": "술집 옆 연구소에 가베라라는 흰 가운을 입은 남자가 있다. 호위를 맡을 생각이라면 그에게 출입용 카드 키를 만들어 달라고 해라. 괴짜니까 협상을 잘해야 할 거다.",
+    "source_ref": [
+      "2.335:start.hsp:385544"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Look, this power arms. Science developed in Yerles.",
+    "source_ja": "見ろ、このパワーアームを。痺れるだろう？イェルスの科学力は世界一だ。",
+    "target": "봐라, 이 동력 팔을! 짜릿하지 않나? 이에르스의 과학력은 세계 제일이다.",
+    "source_ref": [
+      "2.335:start.hsp:385560"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You have the money, now get lost.",
+    "source_ja": "船酔いでダウンするなんてまだまだ俺様も修行が足りねぇな…。",
+    "target": "뱃멀미로 뻗어 버리다니, 이 몸도 아직 수련이 부족하군…….",
+    "source_ref": [
+      "2.335:start.hsp:385580"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Fine, let's do it.",
+    "source_ja": "その話乗った！",
+    "target": "좋아, 한몫 끼지!",
+    "source_ref": [
+      "2.335:start.hsp:385609"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I do not have good memories of the ship.",
+    "source_ja": "船はトラウマだ",
+    "target": "배라면 끔찍한 기억이 있어.",
+    "source_ref": [
+      "2.335:start.hsp:385612"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Would you like to go hunting pirates with me? The sea of pirates around here seems to haunt so well, I am going to go to snatch the treasure of pirate. I have already borrowed a ship.",
+    "source_ja": "そうだ、俺様と海賊狩りに行かねぇか？この辺の海には海賊がうじゃうじゃ出るってんで、船を借りて海賊のお宝強奪に行こうと思ってよ。船代は俺様が出すからお宝の取り分は俺様が7、お前が3だ。",
+    "target": "참, 이 몸과 해적 사냥이나 가지 않겠나? 이 근방 바다에 해적이 득실거린다더군. 배 한 척 빌려서 그놈들 보물을 털어 보자고. 뱃삯은 내가 낼 테니 보물은 내가 칠, 네가 삼이다.",
+    "source_ref": [
+      "2.335:start.hsp:385614"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What? Did you also experience the sinking of the ship?",
+    "source_ja": "なんだ？前に乗ってた船が沈没でもしたのか？",
+    "target": "왜 그래? 전에 탔던 배라도 가라앉았나?",
+    "source_ref": [
+      "2.335:start.hsp:385618"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Then I will go at once! I think you can easily get rid of the pirates would we.",
+    "source_ja": "じゃあ早速行くか！俺様とお前で海賊どもを蹴散らしてやろうぜ。",
+    "target": "그럼 당장 출발하지! 우리 둘이 해적 놈들을 쓸어 버리자고.",
+    "source_ref": [
+      "2.335:start.hsp:385649"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Let's return to hunt pirates.",
+    "source_ja": "狩りに戻ろう",
+    "target": "사냥하러 돌아가자.",
+    "source_ref": [
+      "2.335:start.hsp:385673"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Are you okay?",
+    "source_ja": "大丈夫？",
+    "target": "괜찮아?",
+    "source_ref": [
+      "2.335:start.hsp:385676"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I feel the ship shaking is bad too.",
+    "source_ja": "う、うっぷ…。船、揺れすぎだろ…。",
+    "target": "우, 우욱…… 배가 너무 흔들리잖아…….",
+    "source_ref": [
+      "2.335:start.hsp:385678"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "P-Please let me rest a little more...",
+    "source_ja": "も、問題ない。でも、もう少し休んでいこうぜ…。",
+    "target": "무, 문제없어. 그래도 조금만 더 쉬었다 가자…….",
+    "source_ref": [
+      "2.335:start.hsp:385682"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Ah...T-That's right...",
+    "source_ja": "あ…あ…？そ、そうだな…。",
+    "target": "아…… 어……? 그, 그래…….",
+    "source_ref": [
+      "2.335:start.hsp:385713"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Do you have been getting rid of pirate boss? It is incredible.... Are you did not get seasick? I had to limp on the deck for a long time. What? Treasure? Because such a thing not matter, please rub my back.",
+    "source_ja": "う…何、海賊のボス討ち取ってきたって？そりゃすげぇ…うっぷ。お前は船酔いしなかったのか？俺様はずっと甲板でダウンしてたぜ…。あ？宝？そんなもんどうでもいいから背中さすってくれよ…。",
+    "target": "으…… 뭐, 해적 두목을 해치우고 왔다고? 대단한데…… 우욱. 넌 멀미도 안 했냐? 이 몸은 계속 갑판에 뻗어 있었어…… 뭐? 보물? 그딴 건 됐으니 등이나 좀 쓸어 줘…….",
+    "source_ref": [
+      "2.335:start.hsp:385754"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "In recent years, the cat to get lost is increasing rapidly. If you see a stray cat, I would want you to deliver stray cat. I do not put out a reward, it is also somehow thank you for kittens and their families.",
+    "source_ja": "近年、迷子になる子猫が急増しているのであります！もし迷子の子猫を見かけましたら、本官のところまで送り届けて欲しいであります！何も報酬は出せませんが…子猫たちとそのご家族のためにも、どうかよろしくお願いなのです！",
+    "target": "요즘 길 잃은 아기 고양이가 부쩍 늘었지 말입니다! 혹시 길 잃은 아기 고양이를 보시면 본관에게 데려다주십시오! 드릴 보수는 없지만…… 고양이들과 그 가족을 위해 꼭 부탁드리겠습니다!",
+    "source_ref": [
+      "2.335:start.hsp:385777"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Pat on his head.",
+    "source_ja": "頭をなでる",
+    "target": "머리를 쓰다듬는다.",
+    "source_ref": [
+      "2.335:start.hsp:385801"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "(Turn over the stray kitten.)",
+    "source_ja": "迷子の子猫を引き渡す",
+    "target": "길 잃은 아기 고양이를 맡긴다.",
+    "source_ref": [
+      "2.335:start.hsp:385805"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Parents of stray cat are concerned! I want to let them relieved to find out soon.",
+    "source_ja": "子猫のご両親も心配しておられます！早く見つけ出して安心させてあげたいでありますよ…。",
+    "target": "아기 고양이의 부모님도 걱정하고 계십니다! 얼른 찾아서 안심시켜 드리고 싶지 말입니다…….",
+    "source_ref": [
+      "2.335:start.hsp:385808"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "...?",
+    "source_ja": "わふっ？",
+    "target": "멍?",
+    "source_ref": [
+      "2.335:start.hsp:385812"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "You turn over the stray cat.",
+    "source_ja": "迷子の子猫を犬のおまわりさんに引き渡した。「おうちかえれう？」",
+    "target": "길 잃은 아기 고양이를 강아지 순경에게 맡겼다. “이제 지베 가?”",
+    "source_ref": [
+      "2.335:start.hsp:385877"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "This cat had been hoping to search! I will ascribed to parents. I thank you for your cooperation. So are numerous other lost, please bring also found!",
+    "source_ja": "この子は…捜索願の出ていた子猫であります！本官が責任を持って親元に帰しましょう。ご協力感謝であります！他にも迷子は大勢いますので、見つけたらまた連れてきてください！",
+    "target": "이 아이는…… 실종 신고가 들어온 아기 고양이입니다! 본관이 책임지고 부모님께 데려다주겠습니다. 협조에 감사드립니다! 아직 길을 잃은 아이가 많으니 보시면 또 데려와 주십시오!",
+    "source_ref": [
+      "2.335:start.hsp:385890"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "君、働いてるねぇ。僕は労働って素晴らしいと思うんだ。生活費を得られ、社会にも貢献できる…社会的生物として、「適度な」労働は喜ばしいものなんだ。僕はすでに一財産稼いでしまって、今さら労働する気になれないけどね…。",
+    "target": "자네, 일을 하는구먼. 난 노동이란 멋진 일이라고 생각해. 생활비를 벌면서 사회에도 이바지하잖아. 사회를 이루고 사는 우리에게 ‘적당한’ 노동은 기쁜 일이지. 난 이미 한 재산 모아 놔서 이제 와 일할 마음은 없지만 말이야…….",
+    "source_ref": [
+      "2.335:start.hsp:405708"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "そんな僕にもささやかな楽しみがあってね。ここに立って関所を行き来する人々を眺め、その中でも頑張ってる感じの働き者にプラチナ硬貨をあげることなんだ。君にも何枚かあげよう。",
+    "target": "그런 내게도 작은 낙이 하나 있다네. 여기 서서 관문을 오가는 사람들을 지켜보다가 유난히 열심히 일한 이에게 백금화를 나눠 주는 거야. 자네에게도 몇 닢 주지.",
+    "source_ref": [
+      "2.335:start.hsp:405721"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "そう、がっつかないでくれよ…。明日また来てくれ。",
+    "target": "그렇게 보채지 말게나……. 내일 다시 오게.",
+    "source_ref": [
+      "2.335:start.hsp:405745"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "君、まだ今日は街の依頼を達成していないようだな。達成したらまたおいで。",
+    "target": "자네, 오늘은 아직 마을 의뢰를 하나도 마치지 않았구먼. 하나 끝내고 다시 오게.",
+    "source_ref": [
+      "2.335:start.hsp:405761"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "元気に働いているようだね。ううん…素晴らしい汗だ。頑張っている君にプラチナをあげよう。",
+    "target": "오늘도 기운차게 일했나 보군. 음…… 참 보기 좋은 땀이야. 열심히 일한 자네에게 백금화를 주지.",
+    "source_ref": [
+      "2.335:start.hsp:405776"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Sorry, this is untranslated sentence.",
+    "source_ja": "また、明日おいで。",
+    "target": "내일 또 오게.",
+    "source_ref": [
+      "2.335:start.hsp:405797"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "No, I'm good.",
+    "source_ja": "今はいい",
+    "target": "지금은 됐어.",
+    "source_ref": [
+      "2.335:start.hsp:414834"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Wisdom for adventurers.",
+    "source_ja": "冒険の知恵",
+    "target": "모험의 지혜를 듣고 싶어.",
+    "source_ref": [
+      "2.335:start.hsp:414837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want a ordeal.",
+    "source_ja": "目標が欲しい",
+    "target": "목표를 정해 줘.",
+    "source_ref": [
+      "2.335:start.hsp:414846"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I have achieved the ordeal.",
+    "source_ja": "目標を達成した",
+    "target": "목표를 달성했어.",
+    "source_ref": [
+      "2.335:start.hsp:414851"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Never be complacent. Keep training your body and mind and reach new heights. What can I do for you?",
+    "source_ja": "現状に甘んじることなく、心と体を鍛え更なる高みを目指すのだ。何か俺に手伝えることはあるか？",
+    "target": "지금에 만족하지 말고 몸과 마음을 단련해 더 높은 곳을 노려라. 내가 도와줄 일이 있나?",
+    "source_ref": [
+      "2.335:start.hsp:414854"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "About food.",
+    "source_ja": "食料について",
+    "target": "식량에 대해",
+    "source_ref": [
+      "2.335:start.hsp:414858"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "About allies.",
+    "source_ja": "仲間について",
+    "target": "동료에 대해",
+    "source_ref": [
+      "2.335:start.hsp:414861"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "About items.",
+    "source_ja": "アイテムについて",
+    "target": "물건에 대해",
+    "source_ref": [
+      "2.335:start.hsp:414864"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "About surviving.",
+    "source_ja": "生活について",
+    "target": "생활에 대해",
+    "source_ref": [
+      "2.335:start.hsp:414867"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What do you want to know more about?",
+    "source_ja": "聞きたいことはどれだ？",
+    "target": "무엇이 궁금하지?",
+    "source_ref": [
+      "2.335:start.hsp:414872"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You should always eat herbs and high-quality cooked food to strengthen yourself. But if you don't have any food at all, you can just pick up the leaves and nuts in the wilderness on the world map. Having a meal at an inn is cheap and fills you right up, but it has no nutrition.",
+    "source_ja": "成長にいいのはハーブや出来のいい料理だ。だがどうしても食料に困ったら、ワールドマップ上の平原でマップに入り野草や実を拾うといいだろう。ちなみに宿屋での食事は安価で腹いっぱい食えるが栄養はないからな。",
+    "target": "성장하려면 허브나 잘 만든 요리를 먹는 게 좋다. 정 먹을 게 없다면 세계 지도에서 평원에 들어가 들풀이나 열매를 주워라. 여관 음식은 싸고 배불리 먹을 수 있지만 영양가는 없어.",
+    "source_ref": [
+      "2.335:start.hsp:414876"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take note that most food will rot, with the exception being bread, rations, nuts, and imo. If you eat rotten or cursed food, you'll just throw up and get even hungrier. You'll get weaker, too.",
+    "source_ja": "ただしパンや旅糧、アピの実や芋などの一部を除いて食べ物は大体腐る。無理に腐ったものや呪われたものを食べても、吐いて余計に腹が減るし体も弱るぞ。",
+    "target": "빵이나 여행 식량, 아피 열매와 감자 같은 몇 가지를 빼면 음식은 대부분 썩는다. 썩거나 저주받은 걸 억지로 먹으면 토해서 더 배가 고파지고 몸까지 약해져.",
+    "source_ref": [
+      "2.335:start.hsp:414889"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Throw up too many times and you'll get anorexia. If you get it, you'll throw up everything you eat, so you'll have to sate your hunger with drinks like potions. It'll only go away with enough sleep or when you're dead.",
+    "source_ja": "そして何度も吐いていると拒食症になってしまう。拒食症の間は何を食べても吐いてしまい、飲み物しか喉を通らない。こうなると充分な睡眠をとって自然治療するか、死ぬしかないから気を付けろ。",
+    "target": "자꾸 토하면 거식증에 걸린다. 그때는 뭘 먹어도 토해서 마실 것만 목으로 넘어간다. 충분히 자서 저절로 낫기를 기다리는 수밖에 없어. 그러지 못하면 목숨을 잃으니 조심해라.",
+    "source_ref": [
+      "2.335:start.hsp:414902"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "If you train your allies, they'll become a force to be reckoned with even if they were weak to begin with. And the higher your Charisma, the more pets you can have with you.",
+    "source_ja": "最初は弱い仲間も鍛えればかなり戦力になるぞ。お前の魅力が高くなればより多くの仲間を連れ歩けるだろう。",
+    "target": "처음엔 약한 동료도 단련시키면 제법 든든한 전력이 된다. 네 매력이 오르면 더 많은 동료를 데리고 다닐 수 있어.",
+    "source_ref": [
+      "2.335:start.hsp:414918"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "If you want your allies to be able to fight, then you have to give them good food and good equipment to make them stronger. They're not going to give back some items like ores and engagement rings though, so be careful.",
+    "source_ja": "仲間を戦闘に参加させるなら、いい食べ物やいいアイテムを渡して強化することは必須だ。ただし鉱石や結婚指輪など、一部のアイテムは渡すと返してもらえないぞ。",
+    "target": "동료를 전투에 내보낼 거라면 좋은 음식과 장비부터 챙겨 줘라. 다만 광석이나 결혼반지처럼 일단 건네면 돌려받지 못하는 물건도 있다.",
+    "source_ref": [
+      "2.335:start.hsp:414931"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "One more thing. Allies who don't float will sometimes fall into wells and die when they try to draw water from it. If they're dead, you can get them resurrected at the bar.",
+    "source_ja": "あと、浮遊していない仲間は水を飲もうとして井戸に落ちて死んでしまうことがあるから気をつけろ。死んだり待機している仲間は酒場で復帰させることが出来るから覚えておけ。",
+    "target": "공중에 뜨지 못하는 동료는 물을 마시려다 우물에 빠져 죽기도 하니 조심해라. 죽었거나 대기 중인 동료는 술집에서 다시 불러올 수 있다는 것도 기억해 둬.",
+    "source_ref": [
+      "2.335:start.hsp:414944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Identifying items is important. Nothing good ever comes out of using a cursed item. If you wear cursed equipment, you will get teleported around and attract monsters. If someone else has cursed equipment, you can give them a scroll of uncurse or zap a rod of uncurse at them.",
+    "source_ja": "鑑定は大事だぞ。知らずに呪われたアイテムを使用するとろくなことにならないからな。特に、呪われた装備を着けると突然テレポートしたり、魔物を呼び寄せてしまったりする。他人が呪われた装備をしている場合は解呪の巻物を渡したり解呪の杖を振ったりするといいだろう。",
+    "target": "감정은 중요하다. 저주받은 줄도 모르고 물건을 쓰면 낭패를 보지. 특히 저주받은 장비를 차면 갑자기 순간이동하거나 마물을 불러들이기도 한다. 남이 그런 장비를 차고 있다면 저주 해제 두루마리를 건네거나 저주 해제 지팡이를 휘둘러 줘라.",
+    "source_ref": [
+      "2.335:start.hsp:414960"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's a chance that some items will get destroyed whenever you take fire or cold damage. Equipment that hasn't been treated with acidproof liquid will get degraded by acid attacks. You'll need to the appropriate items to prevent these - though the former can also be prevented if your resistances are high enough..",
+    "source_ja": "火炎属性・冷気属性の攻撃を受けると、持っているアイテムの一部が破壊されることがある。それと耐酸処理がされていない装備は酸属性のダメージで劣化することがある。防ぐには対応したアイテムが必要だ。前者は耐性を整えることでも防げるがな。",
+    "target": "불이나 냉기 공격을 받으면 소지품 일부가 망가질 수 있다. 내산 처리를 하지 않은 장비는 산성 피해를 입으면 성능이 떨어지지. 각각 알맞은 물건으로 막아라. 불이나 냉기는 내성을 갖추는 것만으로도 막을 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:414973"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "When you Mix(B key) blessed water it turns an item into a blessed one even if it's cursed. Most of the time blessed items are stronger, but some things don't change. If you use a change material item on an piece of equipment the base stats change. If you're going to travel, best to find good stuff to use.",
+    "source_ja": "祝福された水を調合（Bキー）でアイテムに使用すると、使用されたアイテムが呪われていても祝福されたアイテムに変化するぞ。祝福されたアイテムは大抵強化されるが、効果が変わらないものもある。装備アイテムならば素材変化させるアイテムを使うと基本性能が大きく変わるぞ。冒険するならば、アイテムもいいものを揃えたいところだな。",
+    "target": "조합 명령으로 축복받은 물을 물건에 쓰면 저주받은 물건도 축복받는다. 보통은 성능이 좋아지지만 효과가 그대로인 것도 있다. 장비는 소재를 바꾸면 기본 성능이 크게 달라지지. 모험을 떠나려면 좋은 물건부터 갖추는 게 좋다. 조합은 B 키다.",
+    "source_ref": [
+      "2.335:start.hsp:414986"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Press the * key on the outer world map.  You can get a feel for your surroundings. Towns that have government boards are cleaned and repaired at intervals.  You'll lose items you leave laying around for too long. Other places, like this one, on the other hand...they won't be fixed if you destroy them.",
+    "source_ja": "外に出て＊キーで辺りを見回してみろ。大体の地形は感じ取れるはずだ。大抵の街や施設では定期的に掃除と維持修復が行われている。長くアイテムを置いておくと片づけられてしまうから注意しろ。逆に、破壊するともう元に戻らない施設もあるから慎重にな。",
+    "target": "밖에 나가 별표 키를 눌러 주위를 둘러봐라. 대략적인 지형을 파악할 수 있다. 대개 마을과 시설은 주기적으로 청소하고 보수하니 물건을 오래 두면 치워진다. 반대로 한번 부수면 복구되지 않는 시설도 있으니 조심해라.",
+    "source_ref": [
+      "2.335:start.hsp:415002"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There are Casino related items in towns and party halls.  If you use this you can play some blackjack. You can win prizes like potions of cure corruption but the dealer is tough.  It'll be a tough going without a lot of luck or cheating.",
+    "source_ja": "街や演奏会場にはカジノ系アイテムが置いてあることがある。これを使うとブラックジャックをプレイ出来るぞ。景品に「エーテル抗体のポーション」など貴重なアイテムがあるが、ディーラーは手強い。相当な運かイカサマ技術がなければ苦戦するだろうな。",
+    "target": "마을이나 연주회장에 카지노 기구가 놓여 있을 때가 있다. 거기서 블랙잭을 할 수 있어. 에테르 항체 물약 같은 귀한 경품도 있지만 딜러가 만만치 않아. 운이 아주 좋거나 속임수에 능하지 않으면 고전할 거다.",
+    "source_ref": [
+      "2.335:start.hsp:415015"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can take up quests in towns, but smart to pass on the extermination quests until you have the gear and just do the simple quests. Delivery quests are easy by the way, but failing incurs big penalties.  Be careful of the time limit. The more crimes you commit the lower your Karma goes, you'll be a wanted criminal if it goes below -31.",
+    "source_ja": "街では依頼を受けられるが、アイテムが揃うまでは討伐依頼は避け、他の簡単な依頼を受けるのが賢明だろう。ちなみに配達依頼は簡単だが失敗すると大きな罪に問われる。期限に気をつけることだ。罪を負うと負のカルマが蓄積していき、-31になる頃には指名手配されているだろう。",
+    "target": "마을에서는 의뢰를 받을 수 있다. 장비가 갖춰지기 전에는 토벌 대신 쉬운 의뢰를 골라라. 배달은 쉽지만 실패하면 큰 죄를 지으니 기한을 잘 봐 둬. 죄를 지으면 카르마가 내려가고, -31쯤 되면 현상수배범이 된다.",
+    "source_ref": [
+      "2.335:start.hsp:415028"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Basically, status effects can be restored by either waiting for time to pass or using restorative magic and items to recover bit by bit. Except being impregnated you need to drink poison, dyes or acids to cure it. If others are infect as well, if you give it to them they'll drink it. If the brain is parasitic, there is no point in drinking poisonous substances, so the only way to get rid of it is to directly damage the nerves...",
+    "source_ja": "基本的に状態異常は時間経過や回復魔法・アイテムで少しずつ治っていく。しかし寄生の場合は毒薬や染料、硫酸を飲めば治療することが出来る。他人が寄生されている場合でも、それらを渡せば自分から飲んでくれるはずだ。脳髄に寄生された場合は毒物を飲んでも無駄なので、神経に直接ダメージを与えて駆除するしかないだろうな…。",
+    "target": "상태 이상은 대개 시간이 지나거나 회복 마법과 물건을 쓰면 차츰 낫는다. 기생당했을 때는 독약이나 염료, 황산을 마시면 낫지. 동료에게도 그런 물건을 건네면 스스로 마실 거다. 다만 뇌에 기생한 놈은 독이 안 통해. 신경에 직접 피해를 줘서 몰아내는 수밖에 없을 거야…….",
+    "source_ref": [
+      "2.335:start.hsp:415044"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Also, unlike me, other Adventurers are vicious.  If you somehow make them angry, they'll still come after you even after defeating them or changing maps. If that happens the only thing you can do is disguise yourself with magic or objects.  They'll set fire to your house if they aren't your friend.",
+    "source_ja": "それと、他の冒険者は俺と違って執念深い。うっかり怒らせると、倒してもマップを変えても出会うたびに襲い掛かってくるだろう。そうなるとアイテムや魔法で変装するしかないぞ。仲が悪いと自宅に放火されたりするらしいな。",
+    "target": "다른 모험가들은 나와 달리 뒤끝이 길다. 잘못해서 화나게 하면 쓰러뜨려도, 다른 지도로 옮겨도 마주칠 때마다 덤벼들지. 그때는 물건이나 마법으로 변장하는 수밖에 없어. 사이가 나쁘면 네 집에 불을 지르러 올 수도 있다더군.",
+    "source_ref": [
+      "2.335:start.hsp:415057"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Resting is important to growth.  After you complete an adventure you shoud sleep in the best you can find.  But it's meaningless unless you use it! If your equipment is cursed while you sleep, you should quickly get over to a healer to uncurse it.",
+    "source_ja": "成長には休息も重要だ。冒険が一段落したらなるべく質のいいベッドで寝るといいだろう。ただしベッドは「使わなければ」意味がないぞ！寝てる間に装備が呪われたりしたら、すぐに癒し手のところへ行き解呪してもらうんだな。",
+    "target": "성장하려면 휴식도 중요하다. 모험이 일단락되면 되도록 좋은 침대에서 자라. 침대는 ‘사용’해야 소용이 있다는 걸 잊지 마! 자는 동안 장비가 저주받았다면 치유사를 찾아가 저주를 풀어 달라고 해라.",
+    "source_ref": [
+      "2.335:start.hsp:415070"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Well, if you're a member of the Adventurer's guild then you probably already have a manual. There's a bunch of other stuff to check out written there, so hold down the shift key and press ? to read over it.",
+    "source_ja": "まぁ、冒険者ギルドに所属しているならお前もマニュアルを持っているだろう。他にも色々と参考になることが書いてあるから、Shiftキーを押しながら？で読み返しておけ。",
+    "target": "모험가 길드에 들어갔다면 너도 안내서를 가지고 있겠지. 참고할 내용이 더 있으니 시프트 키를 누른 채 물음표 키를 눌러 다시 읽어 봐라.",
+    "source_ref": [
+      "2.335:start.hsp:415084"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Hmm...you did well! I give items to celebration.",
+    "source_ja": "よしよし…よくやったじゃないか！祝いにこれをやろう。",
+    "target": "좋아, 좋아…… 제법 해냈구나! 축하 선물이다. 받아라.",
+    "source_ref": [
+      "2.335:start.hsp:415128"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You were beyond the area to judge by level. I hope that you will find more ordeals yourself.",
+    "source_ja": "もうお前はレベルがどうとかいう域には収まらない。これ以上の目標は、お前が自分で見つけていくんだ。",
+    "target": "넌 이제 레벨이 어떻고 할 단계를 넘어섰다. 다음 목표는 네 힘으로 찾아라.",
+    "source_ref": [
+      "2.335:start.hsp:415152"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Excellent warrior like you, I do not hate. Do not you want to take a test of our military enlistment time? I'm looking forward to the day that fight with you.",
+    "source_ja": "貴方のように優秀な戦士は嫌いではありません。今度わが軍の入隊試験を受けてみませんか？貴方と共に戦える日を楽しみにしています。",
+    "target": "당신 같은 훌륭한 전사라면 반갑죠. 기회가 되면 우리 군의 입대 시험을 치러 보시지 않겠습니까? 어깨를 나란히 하고 싸울 날을 기대하겠습니다.",
+    "source_ref": [
+      "2.335:start.hsp:385913"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "My name is Milis,the captain of the Yerles 7th Special Forces troops. I'd like to have you participate in our operations.",
+    "source_ja": "自分はイェルス軍第７特殊部隊の隊長、ミーリスです！冒険者である貴方に我々の作戦に参加していただきたいのです。",
+    "target": "저는 이에르스군 제7특수부대장 미리스입니다! 모험가이신 당신께 우리 작전에 참가해 달라고 부탁드리고 싶습니다.",
+    "source_ref": [
+      "2.335:start.hsp:385929"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Fine, let's do it.",
+    "source_ja": "了解です",
+    "target": "알겠습니다.",
+    "source_ref": [
+      "2.335:start.hsp:385942"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I'll pass.",
+    "source_ja": "やめておきます",
+    "target": "사양하겠습니다.",
+    "source_ref": [
+      "2.335:start.hsp:385945"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Eulderna also aim the ruins that Yerles are investigating now. For mission, it is necessary to cut off the supply route of Eudana, but   Eulderna troops are stationed close to this town is in the way. There is no force of just taking there. Could you attract attention by attacking the enemy forces? Of course, we will pay a reward.",
+    "source_ja": "現在、我々が調査している遺跡をエウダーナも狙っています。任務遂行のためにエウダーナの補給ルートを潰したいのですが、この近くに駐留しているエウダーナの部隊が邪魔なのです。そちらに割くだけの戦力はありません。敵部隊を攻撃して注意を惹きつけていただけないでしょうか？当然、報酬は支払います。",
+    "target": "우리가 조사 중인 유적을 에우데르나도 노리고 있습니다. 임무를 완수하려면 적 보급로를 끊어야 하는데, 근처에 주둔한 에우데르나 부대가 걸림돌입니다. 그쪽에 돌릴 병력까지는 없습니다. 적 부대를 공격해 주의를 끌어 주시겠습니까? 물론 보수는 지급하겠습니다.",
+    "source_ref": [
+      "2.335:start.hsp:385947"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Please come and also your feelings, if Should you instead.",
+    "source_ja": "残念です…もしお気持ちが変わりましたら、またおいでください。",
+    "target": "유감이군요…… 마음이 바뀌시면 다시 찾아오십시오.",
+    "source_ref": [
+      "2.335:start.hsp:385951"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I am grateful that you have accepted the request. Please talking to me if you are ready. My men will escort you to the mission area.",
+    "source_ja": "引き受けていただいたこと、感謝します。準備ができたら、声をかけてください。部下が作戦領域まで案内します。",
+    "target": "맡아 주셔서 감사합니다. 준비되면 말씀해 주십시오. 제 부하가 작전 구역까지 안내할 겁니다.",
+    "source_ref": [
+      "2.335:start.hsp:385973"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Yes.",
+    "source_ja": "問題ありません",
+    "target": "문제없습니다.",
+    "source_ref": [
+      "2.335:start.hsp:385990"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I remembered an errand.",
+    "source_ja": "用事を思い出した",
+    "target": "볼일이 생각났어.",
+    "source_ref": [
+      "2.335:start.hsp:385993"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "For a while, please keep attracting their attention. Are you ready?",
+    "source_ja": "しばらくの間、彼らの注意を惹きつけておいてください。準備はよろしいですか？",
+    "target": "잠시만 적의 주의를 끌어 주십시오. 준비되셨습니까?",
+    "source_ref": [
+      "2.335:start.hsp:385995"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Be quick.",
+    "source_ja": "急いでくださいね。",
+    "target": "서둘러 주십시오.",
+    "source_ref": [
+      "2.335:start.hsp:385999"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "There are some of Yerles soldiers was ruled by magic in the enemy. Please give the settlement without hesitation. I'll see you in here again, alive. Then,...operation start!",
+    "source_ja": "敵部隊の中には魔法で支配されたわが軍の兵士もいるようです。一思いに楽にしてあげてください。…生きて、またここで会いましょう。では…作戦開始！",
+    "target": "적 부대에는 마법에 조종당하는 아군도 있는 모양입니다. 단번에 고통을 끝내 주십시오. ……살아서 여기서 다시 만납시다. 그럼…… 작전 개시!",
+    "source_ref": [
+      "2.335:start.hsp:386030"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I have also successfully completed thanks to your strategy here. What? Do you went to destroy not only diversion? Post-processing effort was saved. That amount, plus keep the reward in.",
+    "source_ja": "貴方のおかげでこちらの作戦も無事完了しました…え？陽動するだけでなく殲滅まで？こちらで処理をするつもりでしたが手間が省けました。ではその分、報酬の上乗せをしておきますね。",
+    "target": "당신 덕분에 우리 작전도 무사히 마쳤습니다…… 예? 시선을 끄는 데 그치지 않고 전멸시켰다고요? 뒷정리는 우리 몫이었는데 수고를 덜었군요. 그만큼 보수를 더 얹어 드리겠습니다.",
+    "source_ref": [
+      "2.335:start.hsp:386084"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want on behalf of the town management.",
+    "source_ja": "がんばれ",
+    "target": "힘내.",
+    "source_ref": [
+      "2.335:start.hsp:386107"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I want on behalf of the town management.",
+    "source_ja": "管理代行するよ",
+    "target": "내가 대신 관리할게.",
+    "source_ref": [
+      "2.335:start.hsp:386111"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I want to run the town management.",
+    "source_ja": "管理コマンド",
+    "target": "관리 명령",
+    "source_ref": [
+      "2.335:start.hsp:386116"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "How popular is my management?",
+    "source_ja": "管理代行者の人気度は？",
+    "target": "관리 대행자의 인기는 어때?",
+    "source_ref": [
+      "2.335:start.hsp:386121"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Ah... Inspection of underground passage is troublesome. I'll do it to sloppy.",
+    "source_ja": "うああー。施設の点検めんどくせー。適当にやっとけばいいかー。",
+    "target": "으아아. 시설 점검하기 귀찮아 죽겠네. 대충 하면 되겠지, 뭐.",
+    "source_ref": [
+      "2.335:start.hsp:386124"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Hum...",
+    "source_ja": "へへっ…。",
+    "target": "헤헤…….",
+    "source_ref": [
+      "2.335:start.hsp:386164"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "By all means, please!",
+    "source_ja": "マジで！？いやぁ、助かるわー！じゃあ頼んだ！",
+    "target": "진짜로!? 이야, 살았다! 그럼 부탁할게!",
+    "source_ref": [
+      "2.335:start.hsp:386181"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Policy implementation",
+    "source_ja": "政策の実施",
+    "target": "정책 시행",
+    "source_ref": [
+      "2.335:start.hsp:386201"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Law development",
+    "source_ja": "法律整備",
+    "target": "법 정비",
+    "source_ref": [
+      "2.335:start.hsp:386204"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Construction of the facility",
+    "source_ja": "周辺施設の建設",
+    "target": "주변 시설 건설",
+    "source_ref": [
+      "2.335:start.hsp:386207"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What the management are you going to do ?",
+    "source_ja": "おっ。どういう管理をしてくれるんだ？",
+    "target": "오, 어떻게 관리해 줄 건데?",
+    "source_ref": [
+      "2.335:start.hsp:386209"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Placement of the local mascot(Budget:200) ",
+    "source_ja": "ご当地キャラ配置（運営予算200cgp消費）",
+    "target": "지역 마스코트 배치 (운영 예산 200단위 소모)",
+    "source_ref": [
+      "2.335:start.hsp:386216"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Sorry, this is undeveloped.",
+    "source_ja": "未実装らしいな。",
+    "target": "아직 구현이 안 됐다던데.",
+    "source_ref": [
+      "2.335:start.hsp:386377"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "Sorry, this is undeveloped.",
+    "source_ja": "開発中だってさ！",
+    "target": "개발 중이래!",
+    "source_ref": [
+      "2.335:start.hsp:386392"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_enabled": false
+  },
+  {
+    "source": "I refuse it.",
+    "source_ja": "お断りします",
+    "target": "사양하겠습니다.",
+    "source_ref": [
+      "2.335:start.hsp:386529"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I get rid of dirty rats by my wonderful performance with the flute. But, the people of this city should not pay compensation to me at all. Oh, I've been frustrated by talking. Please come kidnap the children of this town as a little retaliation.",
+    "source_ja": "おお…旅の方よ、私の愚痴に付き合ってはくれないか。この街は以前、大量発生したネズミによって大きな被害を受けていたのだ。そこでネズミの駆除依頼を受けたのが私だ。この笛による素晴らしい演奏で小汚いネズミどもを片づけたのだが…この街の連中ときたらその報酬を全く払わないのだ！ああ、話していたら腹が立ってきた。報復としてちょっとこの街の子供をさらってきてくれ。",
+    "target": "오오…… 나그네여, 내 푸념 좀 들어 주겠나? 예전에 이 마을에 쥐가 들끓어 피해가 이만저만이 아니었지. 그래서 내가 쥐 퇴치 의뢰를 맡았네. 이 피리로 멋진 곡을 연주해서 더러운 쥐 떼를 싹 치워 줬는데…… 여기 사람들은 보수를 한 푼도 안 주더군! 아, 얘기하다 보니 또 화가 나는군. 복수하게 이 마을 아이를 하나 데려다주게.",
+    "source_ref": [
+      "2.335:start.hsp:386531"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Go to hell!",
+    "source_ja": "そっかー。死ね！",
+    "target": "아, 그러셔? 그럼 죽어!",
+    "source_ref": [
+      "2.335:start.hsp:386535"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Did you know! Oh yeah. I just said the children of this town. It does not matter where in the children of the city, but in this case the other. I ask you.",
+    "source_ja": "わかってくれたか！そうそう。さっきはこの街の子供と言ったが、もうこの際どこの街の子供でもかまわんよ。よろしく頼む。",
+    "target": "이제 알겠나! 아까는 이 마을 아이라고 했지만 이왕 이렇게 된 거 어느 마을 아이든 상관없네. 잘 부탁하네.",
+    "source_ref": [
+      "2.335:start.hsp:386557"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Yeah.",
+    "source_ja": "聞き流す",
+    "target": "한 귀로 흘린다.",
+    "source_ref": [
+      "2.335:start.hsp:386574"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "On me getting kidnapped. I let the public regret that they have to fool me.",
+    "source_ja": "どんどんさらってきてくれ。私を馬鹿にしたことを世間に後悔させてやる。",
+    "target": "계속 아이들을 데려오게. 감히 날 우습게 본 걸 온 세상이 후회하게 해 주겠어.",
+    "source_ref": [
+      "2.335:start.hsp:386600"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Come over here ... Come on good boy. I'll have to listen to great music every day from now on. ... What? Are you still were there? This is a reward. I bestow you receive.",
+    "source_ja": "いい子だ…さぁこっちへおいで。これから毎日素晴らしい演奏を聴かせてあげよう。…ん？まだいたのか、これは報酬だ。受け取っておきたまえ。",
+    "target": "착한 아이구나…… 자, 이리 오너라. 이제부터 매일 멋진 연주를 들려주마. ……응? 아직도 있었나? 자, 보수일세. 받아 두게.",
+    "source_ref": [
+      "2.335:start.hsp:386650"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your journal has been updated.",
+    "source_ja": "ジャーナルが更新された。",
+    "target": "일지가 갱신되었다.",
+    "source_ref": [
+      "2.335:start.hsp:385794"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "@log/\"Wuff wuff.\"",
+    "source_ja": "@log/「わん～わん～」",
+    "target": "“멍멍!”",
+    "source_ref": [
+      "2.335:start.hsp:583383",
+      "2.335:start.hsp:583391"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original, database entry 226 idle bark"
+    }
+  },
+  {
+    "source": "@log/\"Poppy!\"",
+    "source_ja": "@log/「ポピー！」",
+    "target": "“포피!”",
+    "source_ref": [
+      "2.335:start.hsp:583383",
+      "2.335:start.hsp:583391"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original, database entry 226 idle bark"
+    }
   }
 ]

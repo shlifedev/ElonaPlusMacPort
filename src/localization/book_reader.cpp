@@ -3,7 +3,7 @@
 
 namespace elona::localization {
 std::optional<std::vector<BookLine>> book_spread(const Catalog& catalog, int id, std::string_view cp932, int spread) {
-    if ((id != 0 && id != 1 && id != 30 && id != 31) || cp932.size() > 65536 || spread < 0 || spread > 64)
+    if (id < 0 || cp932.size() > 65536 || spread < 0 || spread > 64)
         return {};
     // HSP notes strip the first header and store their lines with CRLF. Keep
     // meaningful blank lines and spaces, normalizing only the line delimiter.

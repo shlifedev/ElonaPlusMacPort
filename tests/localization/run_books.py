@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify all eight editions of the four translated books in the native reader."""
+"""Verify both editions of each translated book in the native reader."""
 import argparse
 from pathlib import Path
 import json
@@ -8,10 +8,10 @@ import subprocess
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
-BOOKS = (0, 1, 30, 31)
+BOOKS = range(33)
 
 
-def verify_pixels(path, leaves):
+def verify_pixels(path, printed):
     bmp = path.read_bytes()
     offset = struct.unpack_from('<I', bmp, 10)[0]
     width, height, _, bits = struct.unpack_from('<iiHH', bmp, 18)
@@ -25,7 +25,7 @@ def verify_pixels(path, leaves):
                 assert 8 <= y < 328, (path, x, y)
                 assert 8 + 306*column <= x < 314 + 306*column, (path, x, y)
                 counts[column] += 1
-    assert sum(n != 0 for n in counts) == leaves, (path, counts, leaves)
+    assert [n != 0 for n in counts] == printed, (path, counts, printed)
     return counts
 
 
@@ -42,19 +42,25 @@ def main():
     lines = source.read_bytes().decode('cp932').splitlines()
     script = ['#regcmd 48', '#cmd native_ko_book $09', 'screen 0,636,340', 'redraw 0']
     shots = {}
+    leaf_count = 0
     for book in BOOKS:
         for lang in ('JP', 'EN'):
             marker = f'%{book},{lang}'
             start = lines.index(marker)
-            pages = (lines.index('%END', start) - start - 1 + 19)//20
+            end = lines.index('%END', start)
+            pages = (end - start - 1 + 19)//20
             script += ['notesel body', 'noteload "data\\\\book.txt"', f'p = instr(body, 0, "{book},{lang}")',
                        'body = strmid(body, p, instr(body, p, "%END"))', 'notedel 0']
+            leaf_count += pages
             for spread in range((pages+1)//2):
                 name = f'{book}-{lang}-{spread}.bmp'
                 script += ['color 255,255,255 : boxf',
                            f'native_ko_book {book},body,{spread},8,8', 'if stat != 1 : end 91',
                            f'bmpsave "user\\\\{name}"']
-                shots[name] = min(2, pages-spread*2)
+                shots[name] = [
+                    any(line.strip() for line in lines[start+1+leaf*20:min(start+1+(leaf+1)*20, end)])
+                    for leaf in (spread*2, spread*2+1)
+                ]
             script += ['body += "custom"', f'native_ko_book {book},body,0,8,8',
                        'if stat != 0 : end 92']
     script += ['await 1', 'end 0']
@@ -72,7 +78,7 @@ def main():
     assert report['exit_code'] == 0 and not report['first_unsupported'] and not report['observed_hsp_errors']
     for name, leaves in shots.items():
         verify_pixels(work/"user"/"user"/name, leaves)
-    print(json.dumps({'leaves': sum(shots.values()), 'spreads': len(shots), 'modified_book_fallbacks': 8,
+    print(json.dumps({'leaves': leaf_count, 'spreads': len(shots), 'modified_book_fallbacks': len(BOOKS) * 2,
                       'ink_within_306px_columns': True, 'work': str(work)}))
 
 
