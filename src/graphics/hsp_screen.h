@@ -111,6 +111,7 @@ public:
     virtual void set_log_word_draw(bool) {}
     virtual void set_hud_draw(bool) {}
     virtual void set_menu_draw(int, std::string_view) {}
+    virtual bool draw_book(Dib&, int, std::string_view, int, int, int) { return false; }
     virtual void prepare_board_row(const std::array<std::string, 7>&, int) {}
     virtual void prepare_item_row(std::string_view, std::string_view, std::string_view, int) {}
     // Explicit whole-paragraph boundary for managed game-source transforms.

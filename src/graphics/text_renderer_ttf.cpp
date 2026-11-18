@@ -14,6 +14,7 @@
 #include "localization/catalog.h"
 #include "localization/rich_text.h"
 #include "localization/quest_board.h"
+#include "localization/book_reader.h"
 
 namespace elona::gfx {
 namespace {
@@ -41,18 +42,10 @@ public:
     ~TtfRenderer() override {
         for (auto& [k, f] : fonts_) TTF_CloseFont(f);
         if (!options_.translation_misses.empty()) {
-            std::ofstream out(options_.translation_misses, std::ios::binary);
-            out << "# UTF-8 source<TAB>draw_count; display observations only\n";
-            for (const auto& [s, count] : misses_) {
-                for (char c : s) {
-                    if (c == '\\') out << "\\\\";
-                    else if (c == '\t') out << "\\t";
-                    else if (c == '\r') out << "\\r";
-                    else if (c == '\n') out << "\\n";
-                    else out << c;
-                }
-                out << '\t' << count << '\n';
-            }
+            write_misses(options_.translation_misses, misses_);
+            auto log_path = options_.translation_misses;
+            log_path += ".log.tsv";
+            write_misses(log_path, log_misses_);
         }
     }
 
@@ -64,20 +57,44 @@ public:
     void begin_english_log(std::string_view cp932, int used, int limit) override {
         log_words_.clear();
         std::string source;
-        if (catalog_ && cp932.size() <= 512 && ui_cp932_to_utf8(cp932, source))
+        if (catalog_ && cp932.size() <= 512 && ui_cp932_to_utf8(cp932, source)) {
             log_words_ = catalog_->log_words(source, used, limit);
+            if (log_words_.empty() && !options_.translation_misses.empty() && log_misses_.size() < 10000)
+                ++log_misses_[source];
+        }
     }
     void set_log_word_draw(bool active) override { log_word_draw_ = active; }
     void set_hud_draw(bool active) override { hud_draw_ = active; }
     void set_menu_draw(int scope, std::string_view cp932) override {
         menu_label_ = {};
+        raw_book_line_ = scope == 10;
+        if (raw_book_line_) return;
         static constexpr std::string_view prefixes[] = {
             "", "@equip-slot/", "@inv-action/", "@inv-column/", "@game-menu/",
-            "@status-label/", "@sprite-menu/", "@portrait-menu/"
+            "@status-label/", "@sprite-menu/", "@portrait-menu/", "@sheet/", "@profile/"
         };
         if (!catalog_ || scope < 1 || scope >= static_cast<int>(std::size(prefixes)) ||
             cp932.empty() || cp932.size() > 512) return;
         std::string source;
+        if (ui_cp932_to_utf8(cp932, source)) {
+            if (const auto* target = catalog_->find(std::string(prefixes[scope]) + source))
+                menu_label_ = {std::string(cp932), *target};
+            else if (scope == 8) {
+                if (auto metric = catalog_->sheet_text(source))
+                    menu_label_ = {std::string(cp932), std::move(*metric)};
+            }
+        }
+    }
+    bool draw_book(Dib& dib, int id, std::string_view cp932, int spread, int x, int y) override {
+        if (!catalog_) return false;
+        auto lines = localization::book_spread(*catalog_, id, cp932, spread);
+        if (!lines) return false;
+        for (const auto& line : *lines) {
+            FontSpec spec{"", line.size, line.bold ? 1 : 0, 0};
+            layout_utf8(spec, dib, x + 2 + 306 * line.column, y + 16 * line.row, line.text, rgb(0, 0, 0));
+        }
+        return true;
+    }
     void prepare_board_row(const std::array<std::string, 7>& raw, int item) override {
         board_body_.clear();
         menu_label_ = {};
@@ -88,11 +105,6 @@ public:
         if (auto post = localization::board_post(*catalog_, args, item)) {
             menu_label_ = {raw[1].substr(0, raw[1].find(':')), std::move(post->title)};
             board_body_ = std::move(post->body);
-        }
-    }
-        if (ui_cp932_to_utf8(cp932, source)) {
-            if (const auto* target = catalog_->find(std::string(prefixes[scope]) + source))
-                menu_label_ = {std::string(cp932), *target};
         }
     }
     void prepare_item_row(std::string_view row, std::string_view base, std::string_view classifier, int id) override {
@@ -109,6 +121,7 @@ public:
         return layout(spec, &dib, x, y, cp932, color);
     }
     TextExtent draw_display_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) override {
+        if (raw_book_line_) return draw_line(spec, dib, x, y, cp932, color);
         if (!menu_label_.source.empty() && cp932 == menu_label_.source) {
             layout_utf8(spec, dib, x, y, menu_label_.display, color);
             return measure_line(spec, cp932);
@@ -343,21 +356,36 @@ private:
         return 0xfffd;
     }
 
+    static void write_misses(const std::filesystem::path& path, const std::map<std::string, std::size_t>& values) {
+        std::ofstream out(path, std::ios::binary);
+        out << "# UTF-8 source<TAB>count; display observations only\n";
+        for (const auto& [s, count] : values) {
+            for (char c : s) {
+                if (c == '\\') out << "\\\\";
+                else if (c == '\t') out << "\\t";
+                else if (c == '\r') out << "\\r";
+                else if (c == '\n') out << "\\n";
+                else out << c;
+            }
+            out << '\t' << count << '\n';
+        }
+    }
     TtfTextOptions options_;
     std::string file_;
     std::string ko_font_;
     bool log_word_draw_ = false, hud_draw_ = false;
     std::deque<localization::LogWord> log_words_;
+    bool raw_book_line_ = false;
+    std::string board_body_;
     localization::LogWord item_row_, menu_label_;
     std::optional<localization::Catalog> catalog_;
-    std::map<std::string, std::size_t> misses_;
+    std::map<std::string, std::size_t> misses_, log_misses_;
     std::map<long, TTF_Font*> fonts_;
     std::map<std::pair<long, Uint32>, Glyph> glyphs_;
 };
 
 }  // namespace
 
-    std::string board_body_;
 std::unique_ptr<TextRenderer> create_ttf_text_renderer(const TtfTextOptions& options, std::string& error) {
     if (!TTF_WasInit() && !TTF_Init()) {
         error = std::string("TTF_Init failed: ") + SDL_GetError();

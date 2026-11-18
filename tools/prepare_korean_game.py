@@ -2,7 +2,7 @@
 """Generate an opt-in display-hook source from the verified private 2.335 source.
 
 The original CP932 bytes are never decoded/re-encoded. Output remains private
-under work/. The Korean launcher selects the verified managed-board-v6 AX. This requires the
+under work/. The Korean launcher selects the verified managed-books-v7 AX. This requires the
 native type-48 display command; the official Windows runtime cannot run it.
 """
 from __future__ import annotations
@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SHA256 = "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
 COMMAND_TYPE = 48
 COMMAND_ID = 0
-DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n#cmd native_ko_menu $07\r\n#cmd native_ko_board $08\r\n"
+DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n#cmd native_ko_menu $07\r\n#cmd native_ko_board $08\r\n#cmd native_ko_book $09\r\n"
 ANCHOR = (b"#deffunc gmes str gmes_prm0\r\n"
           b'\tm@m111 = ""\r\n'
           b'\tmsg@m111 = "" + gmes_prm0 + "$end"\r\n')
@@ -119,6 +119,16 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
        b'\t\t\tnative_ko_gmes native_dialog_key, wx + 150, wy + 43, 425, 0, 20, 10, 5\r\n'
        b'\t\t\tif ( stat >= 0 ) {\r\n\t\t\t\tnotesel buff\r\n\t\t\t\treturn\r\n\t\t\t}\r\n'
        b'\t\t}\r\n\t}\r\n', "dialogue_draw")
+    book_window = b"\twy = winposy(468)\r\n\tpos wx, wy\r\n\tgcopy 4, 0, 0, 736, 448\r\n"
+    at(book_window, b"\tnative_ko_book inv(25, ci), buff, page, wx + 80, wy + 45\r\n"
+       b"\tnative_book_drawn = stat\r\n", "book_spread", after=True)
+    book_footer = (b"\t\tif ( p \\ 20 == 0 ) {\r\n"
+                   b"\t\t\tfont lang(cfg_font1, cfg_font2), 12 + sizefix - en * 2, 1\r\n"
+                   b"\t\t\tpos x + 90, y + 330\r\n"
+                   b'\t\t\tmes "- " + (p / 20 + 1) + " -"\r\n\t\t}\r\n\tloop\r\n*label_5808\r\n')
+    book_text = b"\t\tpos x, y\r\n\t\tmes s\r\n" + book_footer
+    at(book_text, b'\t\tif ( native_book_drawn == 0 ) {\r\n\t\t\tnative_ko_menu 10, s\r\n', "book_original_begin")
+    at(book_footer, b'\t\t\tnative_ko_menu 0, ""\r\n\t\t}\r\n', "book_original_end")
     # Copy only the presentation input, after English capitalization and before
     # the original loop destructively consumes one word at a time.
     at(LOG_ENTRY, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen\r\n", "english_log_boundary")
@@ -221,6 +231,7 @@ def main() -> int:
                       "1": {"name": "begin_english_log", "arguments": ["source", "used", "limit"], "result": "preserve stat"},
                       "2": {"name": "hud_draw", "arguments": ["enabled"], "result": "preserve stat"},
                       "6": {"name": "item_label", "arguments": ["label", "original", "alternate", "id"], "result": "preserve stat"},
+                      "9": {"name": "book", "arguments": ["id", "source", "spread", "x", "y"], "result": "1 if rendered, 0 for original"},
                       "8": {"name": "board", "arguments": ["section", "row", "objective", "ref", "reward", "client", "map", "item"], "result": "preserve stat"},
                       "7": {"name": "menu_draw", "arguments": ["scope", "original"], "result": "preserve stat"}}},
                   "compiled": False,
@@ -239,7 +250,7 @@ def main() -> int:
                 report.update(compiled=True, ax_sha256=digest(blob), ax_bytes=len(blob))
                 try:
                     report["token_check"] = command_counts(blob)
-                    success = report["token_check"]["type48_commands"] == {"0": 5, "1": 1, "2": 10, "6": 2, "7": 2 * len(MENU_DRAWS) + 1, "8": 1}
+                    success = report["token_check"]["type48_commands"] == {"0": 5, "1": 1, "2": 10, "6": 2, "7": 2 * len(MENU_DRAWS) + 3, "8": 1, "9": 1}
                     if not success:
                         report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:

@@ -51,6 +51,9 @@ class TransformTests(unittest.TestCase):
         # needed; the check concerns preservation of every opaque source byte.
         return (b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + module.LOG_ENTRY
                 + b"\tnoteget buff2, p\r\n\t\tcs_list s(3), wx + 96, y - 1, 19\r\n\t\tpos wx + 20, y + 20\r\n\t\tmes buff\r\n"
+                + b"\twy = winposy(468)\r\n\tpos wx, wy\r\n\tgcopy 4, 0, 0, 736, 448\r\n"
+                + b"\t\tpos x, y\r\n\t\tmes s\r\n\t\tif ( p \\ 20 == 0 ) {\r\n\t\t\tfont lang(cfg_font1, cfg_font2), 12 + sizefix - en * 2, 1\r\n"
+                + b'\t\t\tpos x + 90, y + 330\r\n\t\t\tmes "- " + (p / 20 + 1) + " -"\r\n\t\t}\r\n\tloop\r\n*label_5808\r\n'
                 + module.DIALOG_DRAW + b"\ttalk_conv buff, 56 - en * 3\r\n"
                 + b"\t\tcs_list s, wx + 84, wy + 60 + cnt * 19 - 1, 19, 0, 1, p\r\n"
                 + b"\t\tpos wx + 600 - strlen(s(1)) * 7, wy + 60 + cnt * 19 + 2\r\n"

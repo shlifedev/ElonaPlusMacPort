@@ -41,6 +41,13 @@ std::optional<std::string> Catalog::item_label(std::string_view row, std::string
     if (count.empty()) {
         for (const char* article : {"an ", "a ", "the "}) if (take_prefix(row, article)) break;
     }
+    if (id == 24) {
+        if (const auto* title = find("@book-item/" + std::string(row))) {
+            std::string label = prefix + *title;
+            if (!count.empty()) label += " ×" + count;
+            return label;
+        }
+    }
     // Locate the actual noun before its stats. A display like "a bronze coin"
     // may contain "bronze" in the noun itself; never strip it as a material first.
     const auto pos = row.rfind(base);

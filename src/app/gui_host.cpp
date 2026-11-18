@@ -1801,6 +1801,18 @@ int cmdfunc_extcmd(int cmd) {
 // boundaries. Original 2.335 bytecode does not contain this extension.
 int cmdfunc_localization(int cmd) {
     code_next();
+    if (cmd == 9) {
+        const int id = code_geti();
+        const std::string source = code_gets();
+        const int spread = code_geti(), x = code_geti(), y = code_geti();
+        if (H->opt.trace_commands) ++H->command_counts["native_ko_book"];
+        H->ctx->stat = 0;
+        if (H->text && H->text->draw_book(H->cur->dib, id, source, spread, x, y)) {
+            H->cur->mark_dirty();
+            H->ctx->stat = 1;
+        }
+        return RUNMODE_RUN;
+    }
     if (cmd == 8) {
         std::array<std::string, 7> args;
         for (auto& value : args) value = code_gets();

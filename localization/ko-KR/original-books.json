@@ -1,0 +1,880 @@
+[
+  {
+    "id": "book.0.JP.title",
+    "source": "@book/0/6bda0fb0dc6748673fe268692b13d7a78952208245079e7326df42c3a93f8e64/title",
+    "target": "나의 일기",
+    "source_ref": [
+      "2.335:data/book.txt:46-47"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 0 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.0.JP.page/1",
+    "source": "@book/0/6bda0fb0dc6748673fe268692b13d7a78952208245079e7326df42c3a93f8e64/page/1",
+    "target": "오늘부터 매일 일기를 쓰기로 했다.",
+    "source_ref": [
+      "2.335:data/book.txt:47-51"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 0 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.0.EN.title",
+    "source": "@book/0/17496ebe31bd4c1a5b9d12ef1808011c96ef4d47bd2866ab9cd73b3fbd1abfce/title",
+    "target": "나의 일기",
+    "source_ref": [
+      "2.335:data/book.txt:53-54"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 0 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.0.EN.page/1",
+    "source": "@book/0/17496ebe31bd4c1a5b9d12ef1808011c96ef4d47bd2866ab9cd73b3fbd1abfce/page/1",
+    "target": "오늘부터 날마다 일기를 써야지!",
+    "source_ref": [
+      "2.335:data/book.txt:54-59"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 0 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.JP.title",
+    "source": "@book/1/1e126778082a8f99ecd53f710d7075a2c8afd4622e11476034a8c37e5b98d467/title",
+    "target": "길 잃은 병사를 위한 교범",
+    "source_ref": [
+      "2.335:data/book.txt:64-65"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.JP.author",
+    "source": "@book/1/1e126778082a8f99ecd53f710d7075a2c8afd4622e11476034a8c37e5b98d467/author",
+    "target": "에우데르나의 장군 지음",
+    "source_ref": [
+      "2.335:data/book.txt:65-66"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.JP.page/1",
+    "source": "@book/1/1e126778082a8f99ecd53f710d7075a2c8afd4622e11476034a8c37e5b98d467/page/1",
+    "target": "에우데르나군 이외에는 열람을 금한다!\t\t길을 잃은 제군, 무엇을 해야 할지 모르는 제군,\t걱정할 것 없다. 부대에서 낙오했을 때의 행동 요령을\t간단히 설명하겠다.\t\t■ 무엇을 할 것인가\t\t우선 전장을 벗어나 남동쪽 광산 마을 베르니스로\t향하라. 그곳엔 식량과 물자가 있고, 잔돈이 모이면\t장도 볼 수 있다. 채비를 마치면 마을 바로 동쪽의\t동굴로 가라. 초보자가 경험을 쌓기에 알맞고 돈도\t제법 모인다.",
+    "source_ref": [
+      "2.335:data/book.txt:65-84"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.JP.page/2",
+    "source": "@book/1/1e126778082a8f99ecd53f710d7075a2c8afd4622e11476034a8c37e5b98d467/page/2",
+    "target": "■ 피해야 할 행동\t\t아무 곳에나 무턱대고 들어가지 마라. 낯선 던전에\t들어서자마자 무시무시한 생물에게 목숨을 잃은\t이야기가 흔하다.\t\t남은 식량을 늘 확인하라. 비싸더라도 살아남으려면\t먹어야 한다. 식량을 구할 길은 여럿이지만, 얼마나\t허기진지는 언제나 살펴라.\t\t■ 궁극적인 목표\t\t충분한 경험을 쌓으면 레시마스로 향하라. 네피아\t유적 가운데 하나로, 우리 에우데르나가 번성할\t열쇠가 그곳에 숨겨져 있다고 전한다.",
+    "source_ref": [
+      "2.335:data/book.txt:85-104"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.JP.page/3",
+    "source": "@book/1/1e126778082a8f99ecd53f710d7075a2c8afd4622e11476034a8c37e5b98d467/page/3",
+    "target": "최하층에 닿았다가 돌아온 자는 아직 없다. 이 미궁의\t수수께끼를 푸는 자에게 막대한 상금을 내리겠다.\t\t제군의 건투를 빈다!",
+    "source_ref": [
+      "2.335:data/book.txt:105-110"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.title",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/title",
+    "target": "초보 모험가 안내서",
+    "source_ref": [
+      "2.335:data/book.txt:112-113"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.author",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/author",
+    "target": "늙은 모험가 지음",
+    "source_ref": [
+      "2.335:data/book.txt:113-114"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/1",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/1",
+    "target": "〈세월에 닳아 누렇게 바랜 책이다.〉\t\t마지막 모험에서 살아 돌아오지 못할지도 몰라 이\t책을 남긴다. 누군가 내 고생담에서라도 한 수 배울\t수 있기를. 오래 살며 별일을 다 했고 세상 구경도\t실컷 했다.\t\t지난 몇 철 이 동굴은 내 은신처였다. 네가 이걸\t읽는다면 이제 네 집이겠지. 괜찮다. 그때쯤 나는\t죽었거나 어마어마한 부자가 됐을 테니.",
+    "source_ref": [
+      "2.335:data/book.txt:113-132"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/2",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/2",
+    "target": "그냥 모험가 흉내나 내는 동네 꼬마가 아니라 정말 내\t뒤를 따를 생각이라면, 조언 몇 마디 해 주마.\t어디서부터 시작할까?\t\t네가 어느 쪽에서 왔을지 모르니 근처 지형부터 알아\t두자. 여기서 길을 따라 남동쪽으로 가면 광산 마을\t베르니스다. 가게 몇 곳과 술집, 여관이 있다.\t일자리와 식량, 장비를 구하고 친구도 한둘 사귈 수\t있을 게다. 지난번 내가 들렀을 때 여관 주인은",
+    "source_ref": [
+      "2.335:data/book.txt:133-152"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/3",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/3",
+    "target": "동네 건달들 때문에 꽤나 애를 먹고 있더구나.\t\t베르니스 동쪽에 주민들이 ‘강아지 동굴’이라 부르는\t곳이 있다. 거긴 말이지…… 늘 변한다. 어떤\t마법사는 ‘하우스도르프–베시코비치 프랙털\t평면’이라던데 대체 무슨 소린지. 동굴을 나갔다\t들어오거나 층을 오르내리면 생물도 물건도 벽도\t출구도 전부 달라진다. 드나드는 수고만 감수하면\t얻을 게 많아.\t\t강아지는 꽤 깊은 곳에 있다. 마을 아이가 애타게\t찾는데 내가 구하러 갈 때마다 죽더군. 그 층을\t나갔다 돌아올 때마다",
+    "source_ref": [
+      "2.335:data/book.txt:153-172"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/4",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/4",
+    "target": "다시 나타나긴 했지만 몇 번 해 보다 포기했다. 넌 할\t수 있을지도. 길만 잃지 마라.\t\t실력도 장비도 나아지면 잿빛 동굴 레시마스도 가 볼\t만하다. 네피아에서도 오래된 유적이라 흥미로운 게\t틀림없이 있을 게다. 길을 무시하고 보면 이 동굴에서\t거의 정남쪽이다.\t\t온 땅에 흉측한 짐승이 들끓는 동굴이며 숲이 나타날\t게다. 무턱대고 뛰어들지 말고 먼저 살펴라. 준비를\t했느냐가 산 모험가와 죽은 모험가를 가른다.",
+    "source_ref": [
+      "2.335:data/book.txt:173-192"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/5",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/5",
+    "target": "■ 지리\t\t베르니스에서 도로를 따라가면 이렇다.\t\t서쪽 카풀 항까지 3~5일. 항구라 장사가 잘되고 전사\t길드와 투기장이 있다.\t\t동쪽 팔미아까지 2~3일. 왕이 사는 큰 도시라 볼 것도\t할 것도 많다. 투기장도 있다.\t\t남동쪽 요우윈까지 2~3일. 농촌이라 순무나 수확이\t좋지 않으면 심심할 게다. 내 메모: 이이크 소굴을 또\t청소할 것. 토끼보다 더하다니까.\t\t루미에스트는 팔미아 남동쪽 섬이다. 마법사가 많이\t산다.",
+    "source_ref": [
+      "2.335:data/book.txt:193-212"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/6",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/6",
+    "target": "데르피는 베르니스 남서쪽. 그리로 이어지는 길은\t없다. 악당과 뜨내기의 소굴이다. 용의 둥지에는\t가까이도 가지 마라!\t\t노이엘은 동쪽, 아주 먼 동쪽이다. 오래 걸리니\t샌드위치를 챙겨라. 눈길은 더디다. 불의 거인은\t건드리지 마라. 재수 옴 붙는다.\t\t■ 일감과 의뢰\t\t용을 베고 위기를 맞은 아가씨를 구하고 싶겠지만\t처음엔 작게 시작해라. 모험가는 남들이 하기 싫은\t일을 하는 사람이다. 입문에는 배달이 좋다. 예를\t들면 이렇다.",
+    "source_ref": [
+      "2.335:data/book.txt:213-232"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/7",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/7",
+    "target": "의뢰 수락 → 꼭 발밑의 물건을 줍는다! → 수취인에게\t전달 → 보수 수령.\t\t배달품을 두고 가면 큰일이지만 세상이 끝난 건\t아니다. 운이 좋으면 근처 상점이나 들판에서 같은 걸\t구한다. 장담하건대 아무도 구별 못 한다. 기한도\t확인해라. 루미에스트에서 카풀 항까지 뛰어가는 건\t하나도 즐겁지 않다. 돈을 많이 주는 일은 아직 네\t발로는 늦을 수도 있다.\t\t사냥은 아주 쉬운 것부터 정말 지독한 것까지 있다.\t보수를 보면 대강 짐작이 간다. 조심해라.",
+    "source_ref": [
+      "2.335:data/book.txt:233-252"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/8",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/8",
+    "target": "고약한 짐승 하나면 네 목숨을 앗아 가고도 남는다.\t\t선물 구하기도 쉬울 때가 있고 기가 막히게 어려울\t때가 있다. 의뢰를 받은 뒤 마을에서 집까지 왕복할\t시간이 없을 수도 있다.\t\t요리는 솜씨와 재료가 있고 음식이 상하기 전에\t배달할 수 있을 때만 맡아라. 수락하기 전에 빵집을\t둘러봐라. 필요한 요리를 살 수도 있다.\t\t수확은 보기엔 쉬워도 몹시 힘들 수 있다. 시간을\t아끼고 짐은 가볍게. 이 일은 속도가 생명이다.",
+    "source_ref": [
+      "2.335:data/book.txt:253-272"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/9",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/9",
+    "target": "되도록 의뢰에 실패하지 마라. 이력에 오점이 남고\t그런 게 쌓이면 경비병이 뒤쫓는다. 수락하기 전에\t머리를 써라. 내가 할 수 있나? 시간이 되나? 대체\t누가 애 생일에 쓰레기를 선물하지?\t\t■ 알아 둬라\t\t식량 화물은 싸고 육로를 여행할 때 먹게 된다.\t하지만 마을이나 던전 안에서는 못 먹는다. 배가\t고프면 밖에 나가 먹고 다시 들어와라.\t\t아껴 써라. 마을과 들판의 과일나무에\t몸통박치기[b]를 하고, 밖에서 구할 수 있는 풀도\t주워라.",
+    "source_ref": [
+      "2.335:data/book.txt:273-292"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/10",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/10",
+    "target": "케이크와 파이만 사 먹다간 갑옷 살 돈은 안 생긴다.\t\t괴물 고기 중엔 먹을 만한 게 많다. 푸치 고기는\t피부에 좋다고 여성들이 좋아한다. 몸에 별로인 것도\t있지만 배가 고프면 뭐……\t\t사람 고기는 어린 돼지처럼 부드럽고 맛있어도 먹지\t마라. 사람은 미치광이나 먹는다. 넌 미치지 않았지?\t\t여관 주인에게 돈을 주면 든든히 먹을 수 있다.\t침대도 있다. 집에 둘 침대를 사거나 찾거나 훔칠\t때까지 피곤하면 여관에서 자라. 깊은 던전을 돌 땐\t침낭도",
+    "source_ref": [
+      "2.335:data/book.txt:293-312"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/11",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/11",
+    "target": "챙길 만하다.\t\t싸움에서 반려동물이나 동료가 쓰러지면 웬만한\t마을의 술집 주인이 돈을 받고 다시 데려와 준다.\t\t일지[j]를 확인해라! 진행 중인 퀘스트와 의뢰, 사건,\t평판, 청구서가 모두 실려 있다. 자주 펼쳐 봐라.\t\t청구서 얘기가 나와서 말인데, 이름이 알려지면 한\t달에 두 번 돈과 물건으로 봉급이 나온다. 집 안\t상자에 들어오지. 하지만 봉급에는 세금이 따른다.\t청구서와 현금을 들고 팔미아 바로 북쪽의 대사관에\t가서 내라.",
+    "source_ref": [
+      "2.335:data/book.txt:313-332"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/12",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/12",
+    "target": "청구서를 쌓아 두지 마라. 세금 징수원이 용이나\t악마보다 더 무섭다.\t\t기술이 더는 늘지 않으면 훈련사를 찾아라. 마을마다\t한 명씩 있고 기존 기술을 갈고닦게 해 준다. 모르는\t기술도 값을 내면 가르쳐 준다. 단 플래티나 주화만\t받는다. 요즘엔 귀한 물건이지.\t\t끝으로 날씨를 조심해라. 가랑비에 누가 죽겠느냐만\t폭우에는 눈을 멀게 하는 번개와 정신을 어지럽히는\t천둥이 따른다. 길을 잃지 마라. 정신이 맑아질\t때까지 그 자리에 있는 편이 나을 때도 있다.",
+    "source_ref": [
+      "2.335:data/book.txt:333-352"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/13",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/13",
+    "target": "드물지만 갈수록 기세를 더하는 것이 무서운 에테르\t바람이다. 한 친구가 밖에서 그 바람을 맞았다.\t간신히 비틀거리며 들어왔을 땐 사람이라 부르기도\t힘들었지.\t\t바람이 오면 대피하라! 아무리 강조해도 지나치지\t않다. 안의 괴물에게 갈가리 찢길 염려가 없다면\t동굴에 숨어라. 마을이라고 안전한 게 아니다. 여관\t주인에게 달려가 대피소로 안내해 달라고 해라.\t사나운 폭풍이 지나가야 일을 다시 시작할 수 있다.",
+    "source_ref": [
+      "2.335:data/book.txt:353-372"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.page/14",
+    "source": "@book/1/b120fa52b2bfe8d52c3f986153e17837a6236d64cdd38f68c1245de88f619354/page/14",
+    "target": "이 책이 네게 조금이라도 도움이 되길, 내 마지막\t모험도 잘 풀리길 바란다. 자, 그럼 나는 이만 요새\t하나를 정복하러 가 봐야겠다. 뭐 얼마나 어렵겠어?\t\t네 앞길과 여행에 행운이 있기를.",
+    "source_ref": [
+      "2.335:data/book.txt:373-380"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.title",
+    "source": "@book/30/1602452f1d3f32b7c0dec312b6117d136b15c4cbb4b3a8cf8797ff4360b9e75a/title",
+    "target": "의뢰에 관한 조언",
+    "source_ref": [
+      "2.335:data/book.txt:4056-4057"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.author",
+    "source": "@book/30/1602452f1d3f32b7c0dec312b6117d136b15c4cbb4b3a8cf8797ff4360b9e75a/author",
+    "target": "걱정 많은 아버지 지음",
+    "source_ref": [
+      "2.335:data/book.txt:4057-4058"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.page/1",
+    "source": "@book/30/1602452f1d3f32b7c0dec312b6117d136b15c4cbb4b3a8cf8797ff4360b9e75a/page/1",
+    "target": "사랑하는 내 아이에게.\t\t네가 집을 나갈 채비를 하는 줄 알고 있었다. 아빠가\t어렵사리 모은 용돈을 네 짐 밑바닥에 몰래 넣어\t둔다. 그 돈이 떨어지기 전에 마을에서 의뢰를 맡아\t네 생활비를 벌거라. 의뢰에는 여러 종류가 있단다.\t\t○ 물건 구하기\t\t먼저 물건을 확보하고 일을 받는 게 요령이다. 대개\t들판에 떨어져 있거나 가게에서 판다. 들에\t나가더라도 야생 동물과 억지로 싸우지는 마라.",
+    "source_ref": [
+      "2.335:data/book.txt:4057-4076"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.page/2",
+    "source": "@book/30/1602452f1d3f32b7c0dec312b6117d136b15c4cbb4b3a8cf8797ff4360b9e75a/page/2",
+    "target": "○ 남의 물건 구하기\t\t경비병에게 주인의 위치를 물어라. 찾아가 네 물건과\t바꾸자고 해 보렴. 그 사람이 준 게 아니어도 괜찮다.\t밖에서 미리 줍거나 사 두면 안심이지.\t\t○ 요리 마련하기\t\t먹고살기도 힘들 때 재료를 모아 원하는 요리까지\t만들기는 어렵다. 요리를 손에 넣고 나서 의뢰를\t받아라. 운이 좋으면 가게에서도 판다.\t\t○ 수확\t\t야생 동물이 우글거리니 상대할 수 있을 때 도전하렴.\t작물을 뽑으며 몸도 조금 단련된다. 할당량의 몇 배를\t거두면 보수가 늘거나",
+    "source_ref": [
+      "2.335:data/book.txt:4077-4096"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.page/3",
+    "source": "@book/30/1602452f1d3f32b7c0dec312b6117d136b15c4cbb4b3a8cf8797ff4360b9e75a/page/3",
+    "target": "청동화까지 받지만 처음엔 어렵겠지. 납품 상자가\t어디 있는지 모르겠으면 당황하지 말고 [*] 키로\t살펴봐라.\t\t○ 괴물 퇴치\t\t다른 의뢰로 돈을 모아 온몸에 변변한 방어구를\t갖추고 가라. 반려동물에게도 [i] 키로 방어구를\t주렴. 안 그러면 되레 당한다. 가장 쉬운 의뢰라도\t말이다.\t\t○ 배달\t\t다른 마을에 가야 하니 식량과 전력이 안정되고\t마을의 위치도 파악한 뒤에 해라. 수취인은 도착한\t마을의 경비병이 알려 준다. 기한을 넘기면 횡령죄가\t된다.",
+    "source_ref": [
+      "2.335:data/book.txt:4097-4116"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.page/4",
+    "source": "@book/30/1602452f1d3f32b7c0dec312b6117d136b15c4cbb4b3a8cf8797ff4360b9e75a/page/4",
+    "target": "○ 호위\t\t다른 마을까지 가야 한다. 호위 대상이 죽으면\t실패다. 가까우면서 안전한 일이라면 벌이가 괜찮으니\t해 볼 만하지.\t\t○ 구덩이와 지뢰 제거\t\t함정 지식이 없으면 체력이 못 버틴다. 물체를\t감지하는 주문이나 물건도 요긴하다.\t\t○ 공연\t\t연주나 설법, 춤을 못 하면 힘들다. 높은 레벨의 사람\t앞에서 서툰 솜씨를 보이면 죽을 수 있으니 처음엔\t거지나 노인이 모인 곳에서 공연해라.\t\t아빠가 아는 건 여기까지다. 베르니스 남쪽 시설에서\t여러 강좌를 연다니 의뢰로 돈을 벌면 일찍 가 보렴.",
+    "source_ref": [
+      "2.335:data/book.txt:4117-4136"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.page/5",
+    "source": "@book/30/1602452f1d3f32b7c0dec312b6117d136b15c4cbb4b3a8cf8797ff4360b9e75a/page/5",
+    "target": "하지만 푸치를 기르는 데 반대한다고 엄마와 그렇게\t크게 싸울 필요까지는 없었잖니.\t\t뜻대로 되지 않으면 고집부리지 말고 돌아오렴.\t홧김에 구걸이라도 할까 봐 아빠는 걱정이 된다.\t세상에는 약한 사람을 등쳐 먹는 자가 많으니\t조심하거라. 아빠도…… 물론 엄마도 네가 행복하기를\t바란다.",
+    "source_ref": [
+      "2.335:data/book.txt:4137-4149"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.title",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/title",
+    "target": "의뢰에 관한 조언",
+    "source_ref": [
+      "2.335:data/book.txt:4151-4152"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.author",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/author",
+    "target": "걱정 많은 아버지 씀",
+    "source_ref": [
+      "2.335:data/book.txt:4152-4153"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.page/1",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/page/1",
+    "target": "아들아.\t\t네가 떠날 준비를 한다는 걸 알고 있다. 아빠가 있는\t대로 모은 돈을 네 짐 밑바닥에 넣어 두었다.\t마을에서 의뢰를 맡아 제힘으로 돈을 벌기 시작할\t때까지는 버틸 수 있을 게다.\t\t의뢰에도 여러 종류가 있단다.\t\t○ 물건 구하기\t\t이런 일은 필요한 물건을 먼저 확보하고 맡는 게\t요령이다. 대개 필요한 물건은",
+    "source_ref": [
+      "2.335:data/book.txt:4152-4171"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.page/2",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/page/2",
+    "target": "들판에 떨어져 있거나 가게에서 판다. 들에 나갔다고\t마주치는 동물마다 싸울 필요는 없다.\t\t○ 남의 소지품 구하기\t\t경비병에게 주인의 위치를 묻고 찾아가 네 물건과\t바꿔 보렴. 아니면 들판에서 줍거나 가게에서 사도\t된다. 의뢰인은 구별하지 못해.\t\t○ 요리 구하기\t\t네가 먹을 것도 부족한데 남이 원하는 요리의\t재료까지 마련하기는 힘들다. 이런 일은",
+    "source_ref": [
+      "2.335:data/book.txt:4172-4191"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.page/3",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/page/3",
+    "target": "생활에 여유가 생긴 뒤 맡아라. 운이 좋으면 마을\t가게에 필요한 재료가 있을 게다.\t\t○ 수확\t\t들짐승이 많으니 적어도 쫓아낼 수는 있어야 한다.\t밭에서 작물을 잔뜩 뽑게 되니 훈련이 되지. 할당량의\t몇 배를 거두면 품삯을 더 준다. 청동화까지 줄 때도\t있어. 처음부터 그 정도를 하긴 어렵다. 납품 상자\t위치를 잊었으면 당황하지 말고 [*] 키로 둘러봐라.",
+    "source_ref": [
+      "2.335:data/book.txt:4192-4211"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.page/4",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/page/4",
+    "target": "○ 괴물 퇴치\t\t변변한 방어구를 온몸에 갖추고 나서 맡아라.\t동행하는 반려동물에게도 상호작용[i]으로 장비를\t건네 주렴. 안 그러면 목숨을 잃는다. 그래, 제일\t쉬운 일이라도 말이다.\t\t○ 배달\t\t다른 마을에 가야 한다. 식량을 넉넉히 챙기고 싸울\t채비도 해라. 지금 어디에 있고 어디로 갈지도 알아\t두렴. 목적지의 경비병에게 수취인의 위치를 물으면\t된다. 제때 배달하지 못하면 물건을 가로챘다고\t고발당한다.",
+    "source_ref": [
+      "2.335:data/book.txt:4212-4231"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.page/5",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/page/5",
+    "target": "○ 호위\t\t이 일도 다른 마을까지 간다. 호위 대상이 죽으면\t실패다. 가까운 거리고 의뢰인을 노리는 위험도\t없다면 돈이 된다.\t\t○ 구덩이와 지뢰 제거\t\t함정 해제 기술 없이는 버티기 어렵다. 물체를\t감지하거나 탐지하는 주문이나 물건이 있어도 된다.\t\t○ 공연\t\t연주나 설교, 춤에 서투르면 힘들다. 높은 레벨의\t사람이 실수를 보면 너를 죽일지도 모른다. 그러니\t솜씨가 좀 있더라도",
+    "source_ref": [
+      "2.335:data/book.txt:4232-4251"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.page/6",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/page/6",
+    "target": "익숙해질 때까지는 거지나 노인들 앞에서만 공연해라.\t\t아빠가 아는 건 이게 전부다. 베르니스 남쪽 학원에\t가면 여러 강좌를 듣고 더 배울 수 있다. 의뢰 몇\t건을 끝내고 여윳돈이 생기면 들러 보렴.\t\t푸치를 기르는 일로 엄마와 다투었다고 꼭 이렇게까지\t할 필요는 없었잖니.",
+    "source_ref": [
+      "2.335:data/book.txt:4252-4271"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.page/7",
+    "source": "@book/30/81929044fd33b6ee187ea954579ac2ffa1fcfde3ba72fc54e40c2a6db865bf0c/page/7",
+    "target": "잘 안되면 고집부리지 말고 집에 오너라. 네 성격에\t차라리 길에서 구걸을 하려 들지도 모르겠다만 아빠는\t네가 걱정된단다. 늘 조심하고 등 뒤도 살펴라. 남을\t등쳐 먹고 사는 사람이 세상에는 많다.\t\t네가 어떤 사람이 되든 아빠는, 그리고 엄마도 네가\t행복하기를 바란다는 걸 기억하렴.\t\t사랑을 담아, 아빠가.",
+    "source_ref": [
+      "2.335:data/book.txt:4272-4290"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.JP.title",
+    "source": "@book/31/ea3dc870e5e4a32e87e9f8858021cd997edd05f6279d2695d99a78df12711502/title",
+    "target": "낚시 입문",
+    "source_ref": [
+      "2.335:data/book.txt:4293-4294"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.JP.author",
+    "source": "@book/31/ea3dc870e5e4a32e87e9f8858021cd997edd05f6279d2695d99a78df12711502/author",
+    "target": "낚시 자랑꾼 피셔 지음",
+    "source_ref": [
+      "2.335:data/book.txt:4294-4295"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.JP.page/1",
+    "source": "@book/31/ea3dc870e5e4a32e87e9f8858021cd997edd05f6279d2695d99a78df12711502/page/1",
+    "target": "시간을 때우면서 물고기까지 건진다! 먹어도 좋고\t팔아도 짭짤해. 어때, 낚시가 하고 싶어졌지?\t\t먼저 낚시 기술이 필요해. 없다면 베르니스의\t훈련사에게 배우게. 다음은 낚싯대와 미끼를 사는\t거야. 초보자에겐 물벼룩이 딱이지. [B](Shift+b)로\t미끼를 낚싯대에 달아. 하나면 15~24번쯤 쓸 수 있어.\t\t기술이 낮으면 비싼 미끼를 써도 잘 안 낚여. 낚시\t기술이 10 오를 때마다 한 단계 위 미끼로 바꾸면\t적당할 거야. 잡동사니만",
+    "source_ref": [
+      "2.335:data/book.txt:4294-4313"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.JP.page/2",
+    "source": "@book/31/ea3dc870e5e4a32e87e9f8858021cd997edd05f6279d2695d99a78df12711502/page/2",
+    "target": "낚인다면 그 미끼를 쓰기엔 기술이 부족한 거야.\t잡동사니는 딱히 쓸 데도 없어.\t\t같은 물고기라도 크기가 다르면 무게와 값이 달라. 큰\t놈을 건지고 싶어도 이건 운에 맡겨야지. 그냥 두면\t여덟 시간쯤 뒤에 상하니 그때그때 요리하거나 보냉\t상자에 넣어 둬. 도저히 다 못 들고 가겠으면 물속에\t놓아두게. 거기선 썩지 않아.\t\t사실 잡은 물고기한테도 먹이를 줄 수 있어. 난 합성\t항아리에 밑밥을 만들어 먹여. 그러면 품질이\t좋아지고 드물지만 물건을 뱉기도 하지. 잡은\t물고기에게 먹이 줄 생각을 안 하는 사람은 이걸\t모르겠지.",
+    "source_ref": [
+      "2.335:data/book.txt:4314-4333"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.EN.title",
+    "source": "@book/31/23a29b74e0d0220811c967652c22bea7d0d620e9b93f3687107e2023efa42007/title",
+    "target": "낚시 입문",
+    "source_ref": [
+      "2.335:data/book.txt:4335-4336"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.EN.author",
+    "source": "@book/31/23a29b74e0d0220811c967652c22bea7d0d620e9b93f3687107e2023efa42007/author",
+    "target": "낚시가 자랑인 어부 씀",
+    "source_ref": [
+      "2.335:data/book.txt:4336-4337"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.EN.page/1",
+    "source": "@book/31/23a29b74e0d0220811c967652c22bea7d0d620e9b93f3687107e2023efa42007/page/1",
+    "target": "시간도 보내고 물고기도 낚고! 돌 하나로 새 두\t마리라니까. 내 낚싯바늘에 걸렸나? 그럼 계속 읽어\t보게!\t\t먼저 낚시 기술이 필요해. 아직 없다고? 베르니스의\t훈련사에게 배우게.\t\t다음은 낚싯대와 미끼를 사는 거야. 초보자에겐\t물벼룩이 제일 좋아. 혼합[B](Shift+b)으로 낚싯대에\t달면 돼. 물벼룩 한 마리로 15~24번 쓸 수 있지.",
+    "source_ref": [
+      "2.335:data/book.txt:4336-4355"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.EN.page/2",
+    "source": "@book/31/23a29b74e0d0220811c967652c22bea7d0d620e9b93f3687107e2023efa42007/page/2",
+    "target": "비싸고 좋은 미끼도 낚시 솜씨가 딸리면 소용없어.\t대개 기술이 10 오를 때마다 한 단계 좋은 미끼로\t바꾸면 돼. 잡동사니만 건진다면 그 미끼를 쓸 실력이\t아직 모자란 거야. 잡동사니야 뭐…… 아무 데도\t쓸모없지!\t\t물고기는 크기와 무게에 따라 값이 달라. 어떤 크기가\t물지는 고를 수 없어. 행운의 에헤카틀 여신에게\t달렸지!\t\t생선은 여덟 시간쯤 지나면 상하니까 부지런히\t요리하든지 보냉 상자에 넣어 다니게.",
+    "source_ref": [
+      "2.335:data/book.txt:4356-4375"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.EN.page/3",
+    "source": "@book/31/23a29b74e0d0220811c967652c22bea7d0d620e9b93f3687107e2023efa42007/page/3",
+    "target": "다 들고 다닐 수 없을 만큼 많이 잡았다고? 대단하군!\t땅에 있는 웅덩이에 놓아둬. 그러면 절대로 썩지\t않아!\t\t웅덩이 속 물고기로 재미난 일도 할 수 있어. 난 합성\t항아리로 만든 밑밥을 먹인다네. 품질이 좋아지고 쓸\t만한 물건을 한두 개 뱉기도 해! 잡은 물고기에게\t먹이를 안 주고 있었다면 좋은 구경을 놓친 셈이지!",
+    "source_ref": [
+      "2.335:data/book.txt:4376-4390"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.0.JP.inventory",
+    "source": "@book-item/《日記》という題名の本",
+    "target": "《나의 일기》",
+    "source_ref": [
+      "2.335:data/book.txt:7",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 0 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.0.EN.inventory",
+    "source": "@book-item/book titled <My Diary>",
+    "target": "《나의 일기》",
+    "source_ref": [
+      "2.335:data/book.txt:7",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 0 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.JP.inventory",
+    "source": "@book-item/《迷子の兵士に送るマニュアル》という題名の本",
+    "target": "《길 잃은 병사를 위한 교범》",
+    "source_ref": [
+      "2.335:data/book.txt:8",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.1.EN.inventory",
+    "source": "@book-item/book titled <Beginner's Guide>",
+    "target": "《초보 모험가 안내서》",
+    "source_ref": [
+      "2.335:data/book.txt:8",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 1 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.JP.inventory",
+    "source": "@book-item/《依頼についてのアドバイス》という題名の本",
+    "target": "《의뢰에 관한 조언》",
+    "source_ref": [
+      "2.335:data/book.txt:37",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.30.EN.inventory",
+    "source": "@book-item/book titled <Quest Advice>",
+    "target": "《의뢰에 관한 조언》",
+    "source_ref": [
+      "2.335:data/book.txt:37",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 30 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.JP.inventory",
+    "source": "@book-item/《釣り入門》という題名の本",
+    "target": "《낚시 입문》",
+    "source_ref": [
+      "2.335:data/book.txt:38",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 JP",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  },
+  {
+    "id": "book.31.EN.inventory",
+    "source": "@book-item/book titled <Fishing Introduction>",
+    "target": "《낚시 입문》",
+    "source_ref": [
+      "2.335:data/book.txt:38",
+      "2.335:start.hsp:30743"
+    ],
+    "match_kind": "book_page",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 book 31 EN",
+      "source_hash": "201c92d0bccb4d18631944888b78f9290c0742f581560d776e53766b3717f37a"
+    }
+  }
+]

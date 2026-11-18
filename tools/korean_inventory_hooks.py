@@ -11,10 +11,15 @@ def install_item_hooks(at):
         item = b"inv(3, " + index + b")"
         capture = (b"\t\tif ( " + index + b" >= 0 ) {\r\n"
                    b"\t\t\tif ( " + item + b" >= 0 & " + item + b" < maxitemid - 2 & " +
-                   item + b" < length(ioriginalnameref) & inv(28, " + index + b") == 0 ) {\r\n"
+                   item + b" < length(ioriginalnameref) & " + item + b" < length(iknownnameref) & inv(28, " + index + b") == 0 ) {\r\n"
                    b"\t\t\t\tif ( inv(8, " + index + b") > 0 | iknownnameref(" + item +
                    b") == ioriginalnameref(" + item + b") ) {\r\n"
-                   b"\t\t\t\t\tnative_ko_item s, ioriginalnameref(" + item + b"), ioriginalnameref2(" +
-                   item + b"), " + item + b"\r\n"
+                   # The JP definitions never populate the English classifier array.
+                   b"\t\t\t\t\tnative_item_classifier = \"\"\r\n"
+                   b"\t\t\t\t\tif ( en & " + item + b" < length(ioriginalnameref2) ) {\r\n"
+                   b"\t\t\t\t\t\tnative_item_classifier = ioriginalnameref2(" + item + b")\r\n"
+                   b"\t\t\t\t\t}\r\n"
+                   b"\t\t\t\t\tnative_ko_item s, ioriginalnameref(" + item + b"), native_item_classifier, " +
+                   item + b"\r\n"
                    b"\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n")
         at(line, capture, "inventory_item_label")

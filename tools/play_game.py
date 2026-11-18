@@ -23,27 +23,18 @@ LEGACY_MANAGED_SHA256 = "8aa19643c4824fa98ee175194864ecdfde8d4871c13a0d9f8ffa99c
 HOME_MANAGED_AX = Path("work/localization/managed-home-v2/start.ax")
 HOME_MANAGED_SHA256 = "bfb23aebb6a9a78983f717a361ce5691da4e520590d3013d686798e6e6d691b8"
 
-STORY_MANAGED_AX = Path("work/localization/managed-story-v3/start.ax")
-STORY_MANAGED_SHA256 = "bd0593e60aaa2c2ee4ead9efbfb6a9e154adb800a3739b022b7e9e5c449e90e8"
+MANAGED_AX = Path("work/localization/managed-books-v7/start.ax")
+MANAGED_SHA256 = "53c2ff056bc10727574bb3823de5a52cd84d8cd0aff08941d137a66f9af35fff"
 
-MENU_MANAGED_AX = Path("work/localization/managed-menu-v4/start.ax")
-MENU_MANAGED_SHA256 = "19d0648199f04c697aff637c1a42d349f32381b8f2d45d77e1aff6fcde5b49e1"
 
-EVENT_MANAGED_AX = Path("work/localization/managed-events-v5/start.ax")
-EVENT_MANAGED_SHA256 = "a44316f1668ca0d30154b4ca2375462073fea4038a757f1e673b51b2180ee052"
-
-MANAGED_AX = Path("work/localization/managed-board-v6/start.ax")
-MANAGED_SHA256 = "93bd2b0677c9ceffc2c314cc530a0447917129b9130e619081be249543a91cec"
+PREPARE_HINT = "Prepare the current AX with python3 tools/prepare_korean_game.py --output work/localization/managed-books-v7 --compile"
 
 
 def game_ax(root, language):
     original = root / "work/normalized/2.335/start.ax"
     if language == "ko":
         versions = (
-            (MANAGED_AX, MANAGED_SHA256, "board"),
-            (EVENT_MANAGED_AX, EVENT_MANAGED_SHA256, "event"),
-            (MENU_MANAGED_AX, MENU_MANAGED_SHA256, "menu"),
-            (STORY_MANAGED_AX, STORY_MANAGED_SHA256, "dialogue"),
+            (MANAGED_AX, MANAGED_SHA256, "books"),
             (HOME_MANAGED_AX, HOME_MANAGED_SHA256, "HUD/log"),
             (LEGACY_MANAGED_AX, LEGACY_MANAGED_SHA256, "paragraph"),
         )
@@ -53,9 +44,9 @@ def game_ax(root, language):
                 if hashlib.sha256(candidate.read_bytes()).hexdigest() != expected:
                     raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {candidate}")
                 if relative != MANAGED_AX:
-                    print(f"Using earlier Korean {kind} AX {candidate}.", file=sys.stderr)
+                    print(f"Using earlier Korean {kind} AX {candidate}. {PREPARE_HINT}", file=sys.stderr)
                 return candidate
-        print("Korean paragraph AX missing. Using the original AX with menu translations.", file=sys.stderr)
+        print(f"Korean paragraph AX missing. Using the original AX with menu translations. {PREPARE_HINT}", file=sys.stderr)
     return original
 
 
