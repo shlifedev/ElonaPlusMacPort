@@ -1,0 +1,4282 @@
+[
+  {
+    "id": "creation.prompt.296396.0",
+    "source_ja": "生まれつき天涯孤独だった。",
+    "source": "You had no family.",
+    "target": "태어날 때부터 혈혈단신이었다.",
+    "source_ref": [
+      "2.335:start.hsp:296396"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296399.1",
+    "source_ja": "特に不自由なく育った。",
+    "source": "You grew up without any inconveniences.",
+    "target": "별 부족함 없이 자랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296399"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296402.2",
+    "source_ja": "実験で人工的に生み出された。",
+    "source": "You were artificially created through an experiment.",
+    "target": "실험을 통해 인공적으로 태어났다.",
+    "source_ref": [
+      "2.335:start.hsp:296402"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296405.3",
+    "source_ja": "施設で実験体にされていた。",
+    "source": "You were used for human experimentation.",
+    "target": "시설에서 실험체로 지냈다.",
+    "source_ref": [
+      "2.335:start.hsp:296405"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296408.4",
+    "source_ja": "記憶喪失で昔のことを思い出せない。",
+    "source": "You have amnesia.",
+    "target": "기억을 잃어 지난날을 떠올리지 못한다.",
+    "source_ref": [
+      "2.335:start.hsp:296408"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296411.5",
+    "source_ja": "早くに両親と死別した。",
+    "source": "You lost your parents early.",
+    "target": "일찍이 부모를 여의었다.",
+    "source_ref": [
+      "2.335:start.hsp:296411"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296414.6",
+    "source_ja": "平穏な日々を過ごしていた。",
+    "source": "You spent your days in peace.",
+    "target": "평온한 나날을 보냈다.",
+    "source_ref": [
+      "2.335:start.hsp:296414"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296417.7",
+    "source_ja": "子供の頃から虐待されていた。",
+    "source": "You are been abused since childhood.",
+    "target": "어릴 때부터 학대받았다.",
+    "source_ref": [
+      "2.335:start.hsp:296417"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296420.8",
+    "source_ja": "自分の出生を隠している。",
+    "source": "Your birth was a secret.",
+    "target": "자신의 출생을 숨기고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296420"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296423.9",
+    "source_ja": "忠実な使用人だった。",
+    "source": "You were a faithful servant.",
+    "target": "충직한 하인이었다.",
+    "source_ref": [
+      "2.335:start.hsp:296423"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296426.10",
+    "source_ja": "異種族に育てられた。",
+    "source": "You were raised by a different race.",
+    "target": "다른 종족의 손에서 자랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296426"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296429.11",
+    "source_ja": "奴隷だった過去を持つ。",
+    "source": "You were a slave.",
+    "target": "한때 노예였다.",
+    "source_ref": [
+      "2.335:start.hsp:296429"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296432.12",
+    "source_ja": "貧しいながらも逞しく育った。",
+    "source": "You were poor, but grew up strongly.",
+    "target": "가난했지만 씩씩하게 자랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296432"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296435.13",
+    "source_ja": "普通の家庭で普通に育った。",
+    "source": "You grew up normally in an ordinary home.",
+    "target": "평범한 집안에서 평범하게 자랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296435"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296438.14",
+    "source_ja": "王族の一員だった。",
+    "source": "You were a member of a royal family.",
+    "target": "왕족의 일원이었다.",
+    "source_ref": [
+      "2.335:start.hsp:296438"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296441.15",
+    "source_ja": "皆から愛されて育った。",
+    "source": "You were loved by everyone.",
+    "target": "모두의 사랑을 받으며 자랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296441"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296444.16",
+    "source_ja": "長い間、病で床に臥せていた。",
+    "source": "You were incapacitated by disease for a long time.",
+    "target": "오랜 세월 병상에 누워 있었다.",
+    "source_ref": [
+      "2.335:start.hsp:296444"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296447.17",
+    "source_ja": "わけあって永い眠りについていた。",
+    "source": "For some reason, you were asleep for a long time.",
+    "target": "사연이 있어 기나긴 잠에 빠져 있었다.",
+    "source_ref": [
+      "2.335:start.hsp:296447"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296450.18",
+    "source_ja": "実は未来の世界からやってきた。",
+    "source": "You actually come from the future.",
+    "target": "실은 미래에서 왔다.",
+    "source_ref": [
+      "2.335:start.hsp:296450"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296453.19",
+    "source_ja": "長い間、囚われの身だった。",
+    "source": "You were a prisoner for a long time.",
+    "target": "오랫동안 포로로 지냈다.",
+    "source_ref": [
+      "2.335:start.hsp:296453"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296456.20",
+    "source_ja": "極悪人だった過去を持つ。",
+    "source": "In the past you were a villain.",
+    "target": "한때 악명이 자자한 악인이었다.",
+    "source_ref": [
+      "2.335:start.hsp:296456"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296459.21",
+    "source_ja": "色々あって自分の故郷を滅ぼした。",
+    "source": "You destroyed your own hometown, for various reasons.",
+    "target": "이런저런 사정으로 제 손으로 고향을 멸망시켰다.",
+    "source_ref": [
+      "2.335:start.hsp:296459"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296462.22",
+    "source_ja": "故郷を戦争で失った。",
+    "source": "You lost your hometown in a war.",
+    "target": "전쟁으로 고향을 잃었다.",
+    "source_ref": [
+      "2.335:start.hsp:296462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296465.23",
+    "source_ja": "地方の領主だった。",
+    "source": "You were a local lord.",
+    "target": "한 지방을 다스리던 영주였다.",
+    "source_ref": [
+      "2.335:start.hsp:296465"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296468.24",
+    "source_ja": "力のある神族だった。",
+    "source": "You were a powerful god.",
+    "target": "강대한 힘을 지닌 신족이었다.",
+    "source_ref": [
+      "2.335:start.hsp:296468"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296471.25",
+    "source_ja": "忌み子とされ捨てられた。",
+    "source": "You were detested and abandoned as a child.",
+    "target": "불길한 아이라며 버림받았다.",
+    "source_ref": [
+      "2.335:start.hsp:296471"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296474.26",
+    "source_ja": "代々冒険者の家系。",
+    "source": "Your family line is that of adventurers.",
+    "target": "대대로 모험가를 배출한 집안 출신이다.",
+    "source_ref": [
+      "2.335:start.hsp:296474"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296477.27",
+    "source_ja": "由緒正しい騎士の家系。",
+    "source": "Your family line is that of famous mages.",
+    "target": "유서 깊은 기사 집안 출신이다.",
+    "source_ref": [
+      "2.335:start.hsp:296477"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다.",
+    "english_enabled": false
+  },
+  {
+    "id": "creation.prompt.296480.28",
+    "source_ja": "高名な魔法使いの家系。",
+    "source": "Your family line is that of famous mages.",
+    "target": "이름난 마법사 집안 출신이다.",
+    "source_ref": [
+      "2.335:start.hsp:296480"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다.",
+    "english_enabled": false
+  },
+  {
+    "id": "creation.prompt.296483.29",
+    "source_ja": "賊に拾われ育てられた。",
+    "source": "You were found and raised by thieves.",
+    "target": "도적들이 거두어 길렀다.",
+    "source_ref": [
+      "2.335:start.hsp:296483"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296486.30",
+    "source_ja": "落ちぶれた武士の家系。",
+    "source": "Your family line is that of famous mages.",
+    "target": "몰락한 무사 집안 출신이다.",
+    "source_ref": [
+      "2.335:start.hsp:296486"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다.",
+    "english_enabled": false
+  },
+  {
+    "id": "creation.prompt.296489.31",
+    "source_ja": "跡継ぎとして厳しく育てられた。",
+    "source": "You were brought up as the family heir.",
+    "target": "집안의 대를 이을 후계자로 엄하게 자랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296489"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296492.32",
+    "source_ja": "心に傷を負った元軍人。",
+    "source": "You are a traumatized ex-soldier.",
+    "target": "마음에 상처를 안고 군을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296492"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296495.33",
+    "source_ja": "悪の組織の手先。",
+    "source": "You are a minion of an evil organization.",
+    "target": "악의 조직에서 하수인 노릇을 한다.",
+    "source_ref": [
+      "2.335:start.hsp:296495"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296498.34",
+    "source_ja": "ある人物のクローン。",
+    "source": "You are a clone of a certain person.",
+    "target": "어떤 인물의 복제 인간이다.",
+    "source_ref": [
+      "2.335:start.hsp:296498"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296501.35",
+    "source_ja": "禁断の技術で生みだされた兵器。",
+    "source": "You are a weapon created with forbidden technology.",
+    "target": "금단의 기술로 만들어진 병기다.",
+    "source_ref": [
+      "2.335:start.hsp:296501"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296504.36",
+    "source_ja": "幼い頃、遺跡で発見・保護された。",
+    "source": "You were discovered and rescued in ruins as a child.",
+    "target": "어릴 적 유적에서 발견되어 보호를 받았다.",
+    "source_ref": [
+      "2.335:start.hsp:296504"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296507.37",
+    "source_ja": "おぞましい因習のある村で育った。",
+    "source": "You grew up in a village with horrific customs.",
+    "target": "끔찍한 악습이 남아 있는 마을에서 자랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296507"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296510.38",
+    "source_ja": "バケモノと人の間に生まれた。",
+    "source": "You were born between a monster and a human.",
+    "target": "괴물과 인간 사이에서 태어났다.",
+    "source_ref": [
+      "2.335:start.hsp:296510"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296513.39",
+    "source_ja": "浮気で生まれた隠し子。",
+    "source": "You are the illegitimate child of an affair.",
+    "target": "불륜으로 태어나 남몰래 자란 자식이다.",
+    "source_ref": [
+      "2.335:start.hsp:296513"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296516.40",
+    "source_ja": "実は親の仇に育てられていた。",
+    "source": "You were actually being raised by your parents' enemy.",
+    "target": "알고 보니 부모의 원수가 자신을 길렀다.",
+    "source_ref": [
+      "2.335:start.hsp:296516"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296519.41",
+    "source_ja": "秘めた力が原因で隔離されていた。",
+    "source": "You were isolated because of your hidden powers.",
+    "target": "몸에 깃든 힘 때문에 격리되어 지냈다.",
+    "source_ref": [
+      "2.335:start.hsp:296519"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296522.42",
+    "source_ja": "故郷を大災害で失った。",
+    "source": "You lost your hometown in a great disaster.",
+    "target": "큰 재해로 고향을 잃었다.",
+    "source_ref": [
+      "2.335:start.hsp:296522"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296525.43",
+    "source_ja": "故郷を魔物に滅ぼされた。",
+    "source": "Your hometown was destroyed by monsters.",
+    "target": "마물이 고향을 멸망시켰다.",
+    "source_ref": [
+      "2.335:start.hsp:296525"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296528.44",
+    "source_ja": "故郷を悪い冒険者に滅ぼされた。",
+    "source": "Your hometown was destroyed by an evil adventurer.",
+    "target": "사악한 모험가가 고향을 멸망시켰다.",
+    "source_ref": [
+      "2.335:start.hsp:296528"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296533.45",
+    "source_ja": "自分を見つめ直すため旅に出る。",
+    "source": "You embark to find yourself.",
+    "target": "자신을 돌아보고자 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296533"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296536.46",
+    "source_ja": "なんとなく軽い気持ちで旅に出る。",
+    "source": "You embark on your journey lightheartedly.",
+    "target": "별생각 없이 가벼운 마음으로 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296536"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296539.47",
+    "source_ja": "大事な約束を果たすため冒険に出る。",
+    "source": "You embark to fulfill an important promise.",
+    "target": "소중한 약속을 지키려고 모험을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296539"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296542.48",
+    "source_ja": "環境が気に入らず冒険者になる。",
+    "source": "You embark as an adventurer because you didn't like your situation.",
+    "target": "처한 환경이 마음에 들지 않아 모험가가 되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296542"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296545.49",
+    "source_ja": "刺激を求めて冒険に出る。",
+    "source": "You embark in search of excitement.",
+    "target": "짜릿한 경험을 찾아 모험을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296545"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296548.50",
+    "source_ja": "行方不明者を探して旅に出る。",
+    "source": "You embark in search of a missing person.",
+    "target": "실종된 사람을 찾아 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296548"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296551.51",
+    "source_ja": "ロマンを求めて冒険に出る。",
+    "source": "You embark in search of romance.",
+    "target": "낭만을 찾아 모험을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296551"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296554.52",
+    "source_ja": "生活が苦しくなり出稼ぎに出る。",
+    "source": "Just living is tough, so you embark to find better work.",
+    "target": "살림이 어려워져 타향으로 돈을 벌러 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296554"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296557.53",
+    "source_ja": "強くなるため修行の旅に出る。",
+    "source": "You embark in order to become stronger.",
+    "target": "더 강해지려고 수행길에 올랐다.",
+    "source_ref": [
+      "2.335:start.hsp:296557"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296560.54",
+    "source_ja": "命令されて諸国を巡ることになる。",
+    "source": "You embark to travel the world.",
+    "target": "명령을 받고 여러 나라를 돌게 되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296560"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296563.55",
+    "source_ja": "失恋を忘れるため旅に出る。",
+    "source": "You embark to help forget a broken heart.",
+    "target": "실연의 아픔을 잊으려고 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296563"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296566.56",
+    "source_ja": "世界平和のため旅に出る。",
+    "source": "You embark to work towards world peace.",
+    "target": "세계 평화를 위해 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296566"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296569.57",
+    "source_ja": "世界征服のため旅に出る。",
+    "source": "You embark to work towards world domination.",
+    "target": "세계 정복을 위해 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296569"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296572.58",
+    "source_ja": "運命に導かれて冒険に出る。",
+    "source": "You embark on adventure, guided by fate.",
+    "target": "운명에 이끌려 모험을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296572"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296575.59",
+    "source_ja": "命を狙われて逃亡する。",
+    "source": "You embark because you fear for your life.",
+    "target": "목숨을 노리는 이들을 피해 달아났다.",
+    "source_ref": [
+      "2.335:start.hsp:296575"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296578.60",
+    "source_ja": "神の啓示を受けて旅に出る。",
+    "source": "You embark due to a revelation from god.",
+    "target": "신의 계시를 받고 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296578"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296581.61",
+    "source_ja": "罪を犯して故郷を追われる。",
+    "source": "You embark due to being ousted from your hometown as a criminal.",
+    "target": "죄를 짓고 고향에서 쫓겨났다.",
+    "source_ref": [
+      "2.335:start.hsp:296581"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296584.62",
+    "source_ja": "冒険者に憧れ自分も冒険者になる。",
+    "source": "You embark due to admiring an adventurer, and wanting to be one yourself.",
+    "target": "모험가를 동경하다가 자신도 모험가가 되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296584"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296587.63",
+    "source_ja": "ある日、この世界に召喚される。",
+    "source": "One day, you were summoned to this world.",
+    "target": "어느 날 이 세계에 소환되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296587"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296590.64",
+    "source_ja": "儲かると聞いて冒険者になる。",
+    "source": "You became an adventurer because you heard it was profitable.",
+    "target": "돈벌이가 좋다는 말에 모험가가 되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296590"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296593.65",
+    "source_ja": "陰謀に巻き込まれ追放される。",
+    "source": "You were involved in a conspiracy and banished.",
+    "target": "음모에 휘말려 추방되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296593"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296596.66",
+    "source_ja": "過去から逃げるように旅に出る。",
+    "source": "You embark to flee from your past.",
+    "target": "과거에서 달아나듯 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296596"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296599.67",
+    "source_ja": "大切なものを守るため冒険に出る。",
+    "source": "You became an adventurer to protect something precious.",
+    "target": "소중한 것을 지키려고 모험을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296599"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296602.68",
+    "source_ja": "名声を求めて冒険者になる。",
+    "source": "You became an adventurer to seek fame.",
+    "target": "명성을 얻으려고 모험가가 되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296602"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296605.69",
+    "source_ja": "犯した罪を償う旅に出る。",
+    "source": "You embark in search of atonement.",
+    "target": "지은 죄를 속죄하려고 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296605"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296608.70",
+    "source_ja": "寝ている間に船に積み込まれる。",
+    "source": "You were loaded onto the ship while you slept.",
+    "target": "자는 사이에 배에 실렸다.",
+    "source_ref": [
+      "2.335:start.hsp:296608"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296611.71",
+    "source_ja": "まだ見ぬ宝を探して冒険に出る。",
+    "source": "You embark in search of undiscovered treasures.",
+    "target": "아직 발견되지 않은 보물을 찾아 모험을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296611"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296614.72",
+    "source_ja": "古代文明の謎を追い求め旅に出る。",
+    "source": "You embark to pursue the mysteries of an ancient civilization.",
+    "target": "고대 문명의 수수께끼를 풀려고 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296614"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296617.73",
+    "source_ja": "なぜ旅しているのかも思い出せない。",
+    "source": "You can not remember the reason of your travel.",
+    "target": "여행을 하는 이유조차 기억하지 못한다.",
+    "source_ref": [
+      "2.335:start.hsp:296617"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296620.74",
+    "source_ja": "命を落とし気づくと船に乗っていた。",
+    "source": "You lose your life and suddenly find yourself on a ship.",
+    "target": "목숨을 잃었는데 눈을 떠 보니 배 위였다.",
+    "source_ref": [
+      "2.335:start.hsp:296620"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296623.75",
+    "source_ja": "知人に勧められて冒険者になった。",
+    "source": "You become an adventurer at the recommendation of an acquaintance.",
+    "target": "아는 사람의 권유로 모험가가 되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296623"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296626.76",
+    "source_ja": "呪いを解く方法を探して旅に出る。",
+    "source": "You set out on a journey to find a way to lift a curse.",
+    "target": "저주를 풀 방법을 찾아 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296626"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296629.77",
+    "source_ja": "復讐相手を追って旅に出る。",
+    "source": "You set out on a journey to track down the person you want revenge on.",
+    "target": "복수할 상대를 뒤쫓아 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296629"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296632.78",
+    "source_ja": "情報収集のため各地の調査を開始。",
+    "source": "You are investigating various locations to gather information.",
+    "target": "정보를 모으려고 각지에서 조사를 시작했다.",
+    "source_ref": [
+      "2.335:start.hsp:296632"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296635.79",
+    "source_ja": "人生失敗し冒険に出るしかなかった。",
+    "source": "You have failed in life and have no choice but to set out on an adventure.",
+    "target": "인생이 꼬여 모험을 떠나는 수밖에 없었다.",
+    "source_ref": [
+      "2.335:start.hsp:296635"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296638.80",
+    "source_ja": "謎のゲートを通ってやってきた。",
+    "source": "You have come through a mysterious gate.",
+    "target": "정체 모를 문을 지나 이곳에 왔다.",
+    "source_ref": [
+      "2.335:start.hsp:296638"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296641.81",
+    "source_ja": "時空の歪みに呑まれ迷い込んだ。",
+    "source": "You got swallowed up and lost in a distortion in space-time.",
+    "target": "일그러진 시공간에 휩쓸려 이곳에 흘러들었다.",
+    "source_ref": [
+      "2.335:start.hsp:296641"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296644.82",
+    "source_ja": "最悪な未来を変えるために旅に出る。",
+    "source": "You set out on a journey to change a terrible future.",
+    "target": "끔찍한 미래를 바꾸려고 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296644"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296647.83",
+    "source_ja": "まだ見ぬ結婚相手を求めて旅に出る。",
+    "source": "You set out on a journey in search of a marriage partner you have yet to meet.",
+    "target": "아직 만난 적 없는 배필을 찾아 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296647"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296650.84",
+    "source_ja": "広い世界を見たくて各地を観光中。",
+    "source": "You are traveling around the world, wanting to see a wider world.",
+    "target": "넓은 세상이 보고 싶어 이곳저곳을 구경하고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296650"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296653.85",
+    "source_ja": "役立たずと判断されて追放された。",
+    "source": "You were deemed useless and banished.",
+    "target": "쓸모없다는 판정을 받고 쫓겨났다.",
+    "source_ref": [
+      "2.335:start.hsp:296653"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296656.86",
+    "source_ja": "不労所得を夢見て冒険に出る。",
+    "source": "You set out on an adventure, dreaming of passive income.",
+    "target": "일하지 않고 돈 벌기를 꿈꾸며 모험을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296656"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296659.87",
+    "source_ja": "一族再興のため旅に出る。",
+    "source": "You set out on a journey to restore your clan.",
+    "target": "가문을 다시 일으키려고 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296659"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296662.88",
+    "source_ja": "一発逆転を夢見て冒険者になる。",
+    "source": "You became an adventurer, dreaming of a sudden turnaround.",
+    "target": "인생을 단번에 뒤집을 꿈을 안고 모험가가 되었다.",
+    "source_ref": [
+      "2.335:start.hsp:296662"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296665.89",
+    "source_ja": "自分をみせびらかすため旅に出る。",
+    "source": "You went on a journey to show yourself off.",
+    "target": "자기 자랑을 하려고 길을 떠났다.",
+    "source_ref": [
+      "2.335:start.hsp:296665"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296670.90",
+    "source_ja": "温厚で慈悲深いが、",
+    "source": "Although gentle and merciful,",
+    "target": "온화하고 자비롭지만,",
+    "source_ref": [
+      "2.335:start.hsp:296670"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296673.91",
+    "source_ja": "天才的な頭脳を持つが、",
+    "source": "Although you have the brains of a genius,",
+    "target": "천재적인 두뇌를 지녔지만,",
+    "source_ref": [
+      "2.335:start.hsp:296673"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296676.92",
+    "source_ja": "誰にでも友好的だが、",
+    "source": "While friends with everyone,",
+    "target": "누구에게나 살갑지만,",
+    "source_ref": [
+      "2.335:start.hsp:296676"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296679.93",
+    "source_ja": "礼儀正しく几帳面だが、",
+    "source": "Although always polite,",
+    "target": "예의 바르고 꼼꼼하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296679"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296682.94",
+    "source_ja": "様々な知識を持っているが、",
+    "source": "Although knowing many things,",
+    "target": "여러 방면에 지식이 풍부하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296682"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296685.95",
+    "source_ja": "鋭い観察眼を持つが、",
+    "source": "Although you have a keen eye,",
+    "target": "관찰력이 날카롭지만,",
+    "source_ref": [
+      "2.335:start.hsp:296685"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296688.96",
+    "source_ja": "冷静沈着で判断力もあるが、",
+    "source": "Although you are calm and collected,",
+    "target": "침착하고 판단력이 뛰어나지만,",
+    "source_ref": [
+      "2.335:start.hsp:296688"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296691.97",
+    "source_ja": "陽気でムードメーカーだが、",
+    "source": "Although you are the life of the party,",
+    "target": "쾌활해서 주변 분위기를 띄우지만,",
+    "source_ref": [
+      "2.335:start.hsp:296691"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296694.98",
+    "source_ja": "基本的に平凡だが、",
+    "source": "Although you are ordinary,",
+    "target": "대체로 평범하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296694"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296697.99",
+    "source_ja": "強い向上心と挑戦心を持つが、",
+    "source": "Although have a strong desire to improve,",
+    "target": "발전하려는 의지와 도전 정신이 강하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296697"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296700.100",
+    "source_ja": "どんな時もあきらめないが、",
+    "source": "Although you never give up,",
+    "target": "어떤 상황에서도 포기하지 않지만,",
+    "source_ref": [
+      "2.335:start.hsp:296700"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296703.101",
+    "source_ja": "真面目で自分に厳しいが、",
+    "source": "Although you are always strict with yourself,",
+    "target": "성실하고 자신에게 엄격하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296703"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296706.102",
+    "source_ja": "根がまっすぐで熱い性格だが、",
+    "source": "Although you are passionate at heart,",
+    "target": "심성이 곧고 열정적이지만,",
+    "source_ref": [
+      "2.335:start.hsp:296706"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296709.103",
+    "source_ja": "とにかく行動力が高いが、",
+    "source": "Although highly proactive,",
+    "target": "행동력 하나는 남다르지만,",
+    "source_ref": [
+      "2.335:start.hsp:296709"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296712.104",
+    "source_ja": "大胆で度胸もあるが、",
+    "source": "Although bold and courageous,",
+    "target": "대담하고 배짱도 두둑하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296712"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296715.105",
+    "source_ja": "誰かをサポートするのが得意だが、",
+    "source": "Although good at supporting others,",
+    "target": "다른 사람을 잘 도와주지만,",
+    "source_ref": [
+      "2.335:start.hsp:296715"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296718.106",
+    "source_ja": "苦難に耐え抜く根性があるが、",
+    "source": "Although endure hardships,",
+    "target": "역경을 견뎌 내는 근성이 있지만,",
+    "source_ref": [
+      "2.335:start.hsp:296718"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296721.107",
+    "source_ja": "好奇心旺盛で人懐っこいが、",
+    "source": "Although curious and sociable,",
+    "target": "호기심이 많고 붙임성이 좋지만,",
+    "source_ref": [
+      "2.335:start.hsp:296721"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296724.108",
+    "source_ja": "バツグンの記憶力を持つが、",
+    "source": "Although have an excellent memory,",
+    "target": "기억력이 빼어나지만,",
+    "source_ref": [
+      "2.335:start.hsp:296724"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296727.109",
+    "source_ja": "異なる環境にもすぐ適応できるが、",
+    "source": "Although adapt to different environments,",
+    "target": "낯선 환경에도 금세 적응하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296727"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296730.110",
+    "source_ja": "人並外れた発想力を持つが、",
+    "source": "Although have extraordinary imagination,",
+    "target": "발상이 남다르지만,",
+    "source_ref": [
+      "2.335:start.hsp:296730"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296733.111",
+    "source_ja": "困った人を放っておかないが、",
+    "source": "Although doesn't leave people in trouble alone,",
+    "target": "곤경에 처한 사람을 그냥 지나치지 못하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296733"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296736.112",
+    "source_ja": "ピンチの時でも堂々としているが、",
+    "source": "Although remains confident even in times of crisis,",
+    "target": "위기에 닥쳐도 당당하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296736"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296739.113",
+    "source_ja": "誰よりも責任感が強いが、",
+    "source": "Although have a strong sense of responsibility,",
+    "target": "누구보다 책임감이 강하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296739"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296742.114",
+    "source_ja": "皆をまとめあげる統率力があるが、",
+    "source": "Although have the ability to bring everyone together,",
+    "target": "사람들을 하나로 모으는 통솔력이 있지만,",
+    "source_ref": [
+      "2.335:start.hsp:296742"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296745.115",
+    "source_ja": "人徳があり皆から慕われるが、",
+    "source": "Although have virtue and is loved by everyone,",
+    "target": "인덕이 있어 모두가 따르지만,",
+    "source_ref": [
+      "2.335:start.hsp:296745"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296748.116",
+    "source_ja": "義理堅く人情味があるが、",
+    "source": "Although have strong loyalty and kindness,",
+    "target": "의리를 지키고 인정이 많지만,",
+    "source_ref": [
+      "2.335:start.hsp:296748"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296751.117",
+    "source_ja": "状況に応じて柔軟に思考できるが、",
+    "source": "Although think flexibly according to the situation,",
+    "target": "상황에 따라 유연하게 생각하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296751"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296754.118",
+    "source_ja": "いつも飄々としているが、",
+    "source": "Although always easygoing,",
+    "target": "늘 태연자약하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296754"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296757.119",
+    "source_ja": "強い覚悟を秘めているが、",
+    "source": "Although have a strong resolve,",
+    "target": "굳은 각오를 품고 있지만,",
+    "source_ref": [
+      "2.335:start.hsp:296757"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296760.120",
+    "source_ja": "裏表がなくさっぱりしているが、",
+    "source": "Although have no ulterior motives and are straightforward,",
+    "target": "겉과 속이 같고 뒤끝이 없지만,",
+    "source_ref": [
+      "2.335:start.hsp:296760"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296763.121",
+    "source_ja": "情報収集が得意だが、",
+    "source": "Although good at gathering information,",
+    "target": "정보를 모으는 데 능하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296763"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296766.122",
+    "source_ja": "嫌な事があっても落ち込まないが、",
+    "source": "Although doesn't get depressed even when unpleasant things happen,",
+    "target": "싫은 일을 겪어도 기죽지 않지만,",
+    "source_ref": [
+      "2.335:start.hsp:296766"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296769.123",
+    "source_ja": "他人の長所を見抜くのが得意だが、",
+    "source": "Although good at identifying the good points of others,",
+    "target": "다른 사람의 장점을 잘 알아보지만,",
+    "source_ref": [
+      "2.335:start.hsp:296769"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296772.124",
+    "source_ja": "強いリーダーシップを持つが、",
+    "source": "Although possesses strong leadership,",
+    "target": "사람들을 이끄는 힘이 있지만,",
+    "source_ref": [
+      "2.335:start.hsp:296772"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296775.125",
+    "source_ja": "細かいことは気にしないが、",
+    "source": "Although doesn't sweat the small stuff,",
+    "target": "사소한 일은 신경 쓰지 않지만,",
+    "source_ref": [
+      "2.335:start.hsp:296775"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296778.126",
+    "source_ja": "なんだかんだで面倒見が良いが、",
+    "source": "Although good at taking care of others,",
+    "target": "이러니저러니 해도 남을 잘 챙기지만,",
+    "source_ref": [
+      "2.335:start.hsp:296778"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296781.127",
+    "source_ja": "格下相手にも決して油断しないが、",
+    "source": "Although never let guard down,",
+    "target": "한 수 아래인 상대에게도 방심하지 않지만,",
+    "source_ref": [
+      "2.335:start.hsp:296781"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296784.128",
+    "source_ja": "窮地の時こそ真価を発揮するが、",
+    "source": "Although show true worth in times of crisis,",
+    "target": "궁지에서야 진가를 발휘하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296784"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296787.129",
+    "source_ja": "優しくて包容力があるが、",
+    "source": "Although kind and tolerant,",
+    "target": "상냥하고 포용력이 있지만,",
+    "source_ref": [
+      "2.335:start.hsp:296787"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296790.130",
+    "source_ja": "細かな気づかいが得意だが、",
+    "source": "Although good at paying attention to small details,",
+    "target": "사소한 데까지 마음을 쓰지만,",
+    "source_ref": [
+      "2.335:start.hsp:296790"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296793.131",
+    "source_ja": "誰かのためになら頑張れるが、",
+    "source": "Although work hard for others,",
+    "target": "남을 위해서라면 힘을 낼 수 있지만,",
+    "source_ref": [
+      "2.335:start.hsp:296793"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296796.132",
+    "source_ja": "大局を見る力があるが、",
+    "source": "Although have the ability to see the big picture,",
+    "target": "큰 흐름을 볼 줄 알지만,",
+    "source_ref": [
+      "2.335:start.hsp:296796"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296799.133",
+    "source_ja": "他者との絆を大事にしているが、",
+    "source": "Although value bonds with others,",
+    "target": "사람들과 맺은 인연을 소중히 여기지만,",
+    "source_ref": [
+      "2.335:start.hsp:296799"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296802.134",
+    "source_ja": "誰にも頼らない強さを持つが、",
+    "source": "Although have the strength to not rely on anyone,",
+    "target": "누구에게도 기대지 않을 만큼 강하지만,",
+    "source_ref": [
+      "2.335:start.hsp:296802"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296807.135",
+    "source_ja": "熱中すると周りが見えなくなる。",
+    "source": "enthusiasm drains from those around you.",
+    "target": "한 가지에 빠지면 주변을 보지 못한다.",
+    "source_ref": [
+      "2.335:start.hsp:296807"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296810.136",
+    "source_ja": "好意に対して鈍感。",
+    "source": "You are insensitive to the goodwill of others.",
+    "target": "남이 보이는 호의를 잘 눈치채지 못한다.",
+    "source_ref": [
+      "2.335:start.hsp:296810"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296813.137",
+    "source_ja": "ひどい妄想癖がある。",
+    "source": "You have a bad habit of getting caught up in delusions.",
+    "target": "툭하면 심한 망상에 빠진다.",
+    "source_ref": [
+      "2.335:start.hsp:296813"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296816.138",
+    "source_ja": "他人を見下している。",
+    "source": "You look down on others.",
+    "target": "남을 깔본다.",
+    "source_ref": [
+      "2.335:start.hsp:296816"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296819.139",
+    "source_ja": "莫大な借金がある。",
+    "source": "You are in enormous debt.",
+    "target": "엄청난 빚을 지고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296819"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296822.140",
+    "source_ja": "服のセンスがおかしい。",
+    "source": "Your fashion sense is weird.",
+    "target": "옷 입는 감각이 별나다.",
+    "source_ref": [
+      "2.335:start.hsp:296822"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296825.141",
+    "source_ja": "体臭を気にしている。",
+    "source": "You worry about your body odor.",
+    "target": "제 몸에서 나는 냄새를 신경 쓴다.",
+    "source_ref": [
+      "2.335:start.hsp:296825"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296828.142",
+    "source_ja": "刃物を持つと性格が変わる。",
+    "source": "Your personality changes when you hold a knife.",
+    "target": "칼을 쥐면 성격이 달라진다.",
+    "source_ref": [
+      "2.335:start.hsp:296828"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296831.143",
+    "source_ja": "大きなトラウマを持つ。",
+    "source": "You have experienced major trauma. ",
+    "target": "마음에 큰 상처를 안고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296831"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296834.144",
+    "source_ja": "他人を信用していない。",
+    "source": "You do not trust others.",
+    "target": "남을 믿지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:296834"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296837.145",
+    "source_ja": "恐ろしく卑屈。",
+    "source": "You are surprisingly servile.",
+    "target": "무서울 만큼 비굴하다.",
+    "source_ref": [
+      "2.335:start.hsp:296837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296840.146",
+    "source_ja": "奇病を患っている。",
+    "source": "You suffer from a rare disease.",
+    "target": "괴질을 앓고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296840"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296843.147",
+    "source_ja": "興味のない相手に冷たい。",
+    "source": "You are cold to those you are not interested in.",
+    "target": "관심 없는 상대에게는 쌀쌀맞다.",
+    "source_ref": [
+      "2.335:start.hsp:296843"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296846.148",
+    "source_ja": "金銭感覚がおかしい。",
+    "source": "Your grasp of money is poor.",
+    "target": "돈에 대한 감각이 이상하다.",
+    "source_ref": [
+      "2.335:start.hsp:296846"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296849.149",
+    "source_ja": "人付き合いが苦手。",
+    "source": "You are not good at socializing.",
+    "target": "사람 사귀는 데 서툴다.",
+    "source_ref": [
+      "2.335:start.hsp:296849"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296852.150",
+    "source_ja": "すぐに調子に乗る。",
+    "source": "You easily get carried away.",
+    "target": "조금만 부추겨도 금세 우쭐해진다.",
+    "source_ref": [
+      "2.335:start.hsp:296852"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296855.151",
+    "source_ja": "味覚がおかしい。",
+    "source": "Your sense of taste is odd.",
+    "target": "입맛이 별나다.",
+    "source_ref": [
+      "2.335:start.hsp:296855"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296858.152",
+    "source_ja": "私生活はだらしない。",
+    "source": "You are undisciplined in your private life.",
+    "target": "사생활은 엉망이다.",
+    "source_ref": [
+      "2.335:start.hsp:296858"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296861.153",
+    "source_ja": "ドジなところがある。",
+    "source": "You make lots of blunders.",
+    "target": "덜렁대는 구석이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296861"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296864.154",
+    "source_ja": "肝心なところで失敗する。",
+    "source": "You fail at the essentials.",
+    "target": "결정적인 순간에 실수한다.",
+    "source_ref": [
+      "2.335:start.hsp:296864"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296867.155",
+    "source_ja": "私生活はだらしない。",
+    "source": "You are undisciplined in private life.",
+    "target": "사생활은 엉망이다.",
+    "source_ref": [
+      "2.335:start.hsp:296867"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296870.156",
+    "source_ja": "酒癖が悪い。",
+    "source": "You act terribly when drunk.",
+    "target": "술버릇이 나쁘다.",
+    "source_ref": [
+      "2.335:start.hsp:296870"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296873.157",
+    "source_ja": "自分のことが嫌い。",
+    "source": "You hate yourself.",
+    "target": "자기 자신을 싫어한다.",
+    "source_ref": [
+      "2.335:start.hsp:296873"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296876.158",
+    "source_ja": "自分に自信が無い。",
+    "source": "You have no confidence in yourself. ",
+    "target": "자신감이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:296876"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296879.159",
+    "source_ja": "実はとてつもない変態。",
+    "source": "You are actually a gigantic pervert.",
+    "target": "실은 지독한 변태다.",
+    "source_ref": [
+      "2.335:start.hsp:296879"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296882.160",
+    "source_ja": "方向音痴ですぐ迷子になる。",
+    "source": "You have no sense of direction.",
+    "target": "길눈이 어두워 툭하면 길을 잃는다.",
+    "source_ref": [
+      "2.335:start.hsp:296882"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296885.161",
+    "source_ja": "お金に目がない。",
+    "source": "You are in love with money.",
+    "target": "돈이라면 사족을 못 쓴다.",
+    "source_ref": [
+      "2.335:start.hsp:296885"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296888.162",
+    "source_ja": "自意識過剰。",
+    "source": "You are self conscious.",
+    "target": "남의 시선을 지나치게 의식한다.",
+    "source_ref": [
+      "2.335:start.hsp:296888"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296891.163",
+    "source_ja": "ギャグセンスが皆無。",
+    "source": "Your jokes are terrible.",
+    "target": "농담에 영 소질이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:296891"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296894.164",
+    "source_ja": "意地汚いところがある。",
+    "source": "You are greedy.",
+    "target": "욕심이 사나운 구석이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296894"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296897.165",
+    "source_ja": "絵が壊滅的に下手。",
+    "source": "Your paintings are terrible.",
+    "target": "그림 솜씨가 처참하다.",
+    "source_ref": [
+      "2.335:start.hsp:296897"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296900.166",
+    "source_ja": "勘違いが激しい。",
+    "source": "You make terrible misunderstandings.",
+    "target": "툭하면 크게 착각한다.",
+    "source_ref": [
+      "2.335:start.hsp:296900",
+      "2.335:start.hsp:296906"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296903.167",
+    "source_ja": "ろくな友人がいない。",
+    "source": "You don't have any friends worth mentioning.",
+    "target": "제대로 된 친구가 없다.",
+    "source_ref": [
+      "2.335:start.hsp:296903"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296909.168",
+    "source_ja": "考えていることが顔に出やすい。",
+    "source": "You are easy to read.",
+    "target": "속마음이 얼굴에 잘 드러난다.",
+    "source_ref": [
+      "2.335:start.hsp:296909"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296912.169",
+    "source_ja": "周囲からよく誤解される。",
+    "source": "You often misunderstand situations.",
+    "target": "주변 사람들의 오해를 자주 산다.",
+    "source_ref": [
+      "2.335:start.hsp:296912"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296915.170",
+    "source_ja": "虫が苦手。",
+    "source": "You are bad with insects.",
+    "target": "벌레를 무서워한다.",
+    "source_ref": [
+      "2.335:start.hsp:296915"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296918.171",
+    "source_ja": "存在感が薄い。",
+    "source": "You don't have much of a presence.",
+    "target": "존재감이 희미하다.",
+    "source_ref": [
+      "2.335:start.hsp:296918"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296921.172",
+    "source_ja": "極めてプライドが高い。",
+    "source": "You are very prideful.",
+    "target": "자존심이 유난히 강하다.",
+    "source_ref": [
+      "2.335:start.hsp:296921"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296924.173",
+    "source_ja": "いかがわしいことが大好き。",
+    "source": "You love shady things.",
+    "target": "수상쩍은 짓을 몹시 좋아한다.",
+    "source_ref": [
+      "2.335:start.hsp:296924"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296927.174",
+    "source_ja": "別の人格を隠し持つ。",
+    "source": "You hide your personality from others.",
+    "target": "또 다른 인격을 숨기고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296927"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296930.175",
+    "source_ja": "5行以上の文章が読めない。",
+    "source": "You can't read texts longer than five lines.",
+    "target": "다섯 줄 이상 되는 글을 읽지 못한다.",
+    "source_ref": [
+      "2.335:start.hsp:296930"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296933.176",
+    "source_ja": "かなりの食いしん坊。",
+    "source": "You are big foodie.",
+    "target": "대단한 먹보다.",
+    "source_ref": [
+      "2.335:start.hsp:296933"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296936.177",
+    "source_ja": "他人の顔と名前を覚えるのは苦手。",
+    "source": "You are bad at remembering other people's names.",
+    "target": "남의 얼굴과 이름을 잘 기억하지 못한다.",
+    "source_ref": [
+      "2.335:start.hsp:296936"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296939.178",
+    "source_ja": "嫌なことは後回しにしがち。",
+    "source": "You tend to put off things you don't like.",
+    "target": "하기 싫은 일은 뒤로 미루곤 한다.",
+    "source_ref": [
+      "2.335:start.hsp:296939"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296944.179",
+    "source_ja": "趣味は機械いじり。",
+    "source": "You hobby is tinkering with machines.",
+    "target": "기계를 만지작거리는 게 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:296944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296947.180",
+    "source_ja": "監禁が趣味。",
+    "source": "Imprisonment is your hobby.",
+    "target": "사람을 감금하는 게 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:296947"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296950.181",
+    "source_ja": "趣味はストーキング。",
+    "source": "Your hobby is stalking.",
+    "target": "남을 스토킹하는 게 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:296950"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296953.182",
+    "source_ja": "苦痛に歪む顔を見るのが好き。",
+    "source": "You like to see people's faces distorted in pain.",
+    "target": "고통으로 일그러진 얼굴을 보는 게 좋다.",
+    "source_ref": [
+      "2.335:start.hsp:296953"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296956.183",
+    "source_ja": "ガーデニングが趣味。",
+    "source": "Gardening is your hobby.",
+    "target": "정원 가꾸기가 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:296956"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296959.184",
+    "source_ja": "趣味は盆栽いじり。",
+    "source": "Your hobby is messing around with a bonsai.",
+    "target": "분재를 돌보는 게 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:296959"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296962.185",
+    "source_ja": "ぬいぐるみが好き。",
+    "source": "You like stuffed animals.",
+    "target": "봉제 인형을 좋아한다.",
+    "source_ref": [
+      "2.335:start.hsp:296962"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296965.186",
+    "source_ja": "自称サディスト。",
+    "source": "You are a self-proclaimed sadist.",
+    "target": "자칭 가학 취향이다.",
+    "source_ref": [
+      "2.335:start.hsp:296965"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296968.187",
+    "source_ja": "創作活動に命を賭ける。",
+    "source": "You risk your life for creative activities.",
+    "target": "창작 활동에 목숨을 건다.",
+    "source_ref": [
+      "2.335:start.hsp:296968"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296971.188",
+    "source_ja": "趣味はハンティング。",
+    "source": "Hunting is your hobby.",
+    "target": "사냥이 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:296971"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296974.189",
+    "source_ja": "異性の服に興味がある。",
+    "source": "You are interesting in the clothes of the opposite sex.",
+    "target": "이성의 옷에 관심이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296974"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296977.190",
+    "source_ja": "小動物大好き。",
+    "source": "You love small animals.",
+    "target": "작은 동물을 무척 좋아한다.",
+    "source_ref": [
+      "2.335:start.hsp:296977"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296980.191",
+    "source_ja": "慕っている師匠がいる。",
+    "source": "You yearn for your master.",
+    "target": "존경하는 스승이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296980",
+      "2.335:start.hsp:296992"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296983.192",
+    "source_ja": "前世の記憶がある。",
+    "source": "You have memories of your past life.",
+    "target": "전생의 기억이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296983"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296986.193",
+    "source_ja": "身体を動かすのが好き。",
+    "source": "You like to exercise.",
+    "target": "몸을 움직이는 걸 좋아한다.",
+    "source_ref": [
+      "2.335:start.hsp:296986"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296989.194",
+    "source_ja": "身体に謎の紋章を持つ。",
+    "source": "Your body is branded with a mysterious coat of arms.",
+    "target": "몸에 수수께끼의 문장이 새겨져 있다.",
+    "source_ref": [
+      "2.335:start.hsp:296989"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296995.195",
+    "source_ja": "なにかと勘が鋭い。",
+    "source": "Your intuition is sharp.",
+    "target": "이런저런 일에 감이 날카롭다.",
+    "source_ref": [
+      "2.335:start.hsp:296995"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.296998.196",
+    "source_ja": "他人を否定することが快感。",
+    "source": "You take pleasure in denying it to others.",
+    "target": "남을 부정하는 데서 쾌감을 느낀다.",
+    "source_ref": [
+      "2.335:start.hsp:296998"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297001.197",
+    "source_ja": "趣味は昼寝。",
+    "source": "Your hobby is napping.",
+    "target": "낮잠이 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:297001",
+      "2.335:start.hsp:297022"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297004.198",
+    "source_ja": "生きることへの執着が強い。",
+    "source": "You have a strong attachment to life.",
+    "target": "삶에 대한 집착이 강하다.",
+    "source_ref": [
+      "2.335:start.hsp:297004"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297007.199",
+    "source_ja": "趣味は読書。",
+    "source": "Your hobby is reading.",
+    "target": "독서가 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:297007"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297010.200",
+    "source_ja": "暴力を振るうことが好き。",
+    "source": "You love using violence.",
+    "target": "폭력을 휘두르는 걸 좋아한다.",
+    "source_ref": [
+      "2.335:start.hsp:297010"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297013.201",
+    "source_ja": "誰にも知られたくない秘密がある。",
+    "source": "You have a secret that you can't tell anyone.",
+    "target": "아무에게도 들키고 싶지 않은 비밀이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:297013"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297016.202",
+    "source_ja": "歌が上手い。",
+    "source": "You are good at singing.",
+    "target": "노래를 잘한다.",
+    "source_ref": [
+      "2.335:start.hsp:297016"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297019.203",
+    "source_ja": "騙されやすい。",
+    "source": "You are gullible.",
+    "target": "남에게 잘 속는다.",
+    "source_ref": [
+      "2.335:start.hsp:297019"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297025.204",
+    "source_ja": "嘘をつくのが下手。",
+    "source": "You are bad at lying.",
+    "target": "거짓말에 서툴다.",
+    "source_ref": [
+      "2.335:start.hsp:297025"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297028.205",
+    "source_ja": "惚れっぽいところがある。",
+    "source": "You fall in love easily.",
+    "target": "쉽게 사랑에 빠진다.",
+    "source_ref": [
+      "2.335:start.hsp:297028"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297031.206",
+    "source_ja": "仕事熱心。",
+    "source": "You are a hard worker.",
+    "target": "일에 열심이다.",
+    "source_ref": [
+      "2.335:start.hsp:297031"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297034.207",
+    "source_ja": "果たせなかった使命がある。",
+    "source": "You had a mission you failed to achieve.",
+    "target": "완수하지 못한 사명이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:297034"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297037.208",
+    "source_ja": "誰かをおちょくるのが趣味。",
+    "source": "You like making fun of others.",
+    "target": "남을 놀리는 게 취미다.",
+    "source_ref": [
+      "2.335:start.hsp:297037"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297040.209",
+    "source_ja": "弟子がいる。",
+    "source": "You have followers.",
+    "target": "제자가 있다.",
+    "source_ref": [
+      "2.335:start.hsp:297040"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297043.210",
+    "source_ja": "意外と根に持つ方。",
+    "source": "You hold a powerful grudge against someone.",
+    "target": "의외로 뒤끝이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:297043"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297046.211",
+    "source_ja": "裏切りを何より恐れる。",
+    "source": "You fear betrayal above all else.",
+    "target": "무엇보다 배신을 두려워한다.",
+    "source_ref": [
+      "2.335:start.hsp:297046"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다.",
+    "english_enabled": false
+  },
+  {
+    "id": "creation.prompt.297049.212",
+    "source_ja": "ガラクタを集めるのが好き。",
+    "source": "You fear betrayal above all else.",
+    "target": "잡동사니 모으기를 좋아한다.",
+    "source_ref": [
+      "2.335:start.hsp:297049"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다.",
+    "english_enabled": false
+  },
+  {
+    "id": "creation.prompt.297052.213",
+    "source_ja": "本当は静かに暮らしたい。",
+    "source": "You actually want to live quietly.",
+    "target": "실은 조용히 살고 싶다.",
+    "source_ref": [
+      "2.335:start.hsp:297052"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297055.214",
+    "source_ja": "めちゃくちゃにされたい願望がある。",
+    "source": "You have a desire to be messed up.",
+    "target": "엉망으로 망가지고 싶은 욕망이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:297055"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297058.215",
+    "source_ja": "心臓が複数ある。",
+    "source": "You have multiple hearts.",
+    "target": "심장이 여러 개다.",
+    "source_ref": [
+      "2.335:start.hsp:297058"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297061.216",
+    "source_ja": "時々不自然に記憶がなくなる。",
+    "source": "You sometimes have unnatural memory loss.",
+    "target": "가끔 석연치 않게 기억이 끊긴다.",
+    "source_ref": [
+      "2.335:start.hsp:297061"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297064.217",
+    "source_ja": "食べ物の恨みは忘れない。",
+    "source": "You never forget food grudges.",
+    "target": "먹을 것으로 맺힌 원한은 잊지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:297064"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297067.218",
+    "source_ja": "他人の物をすぐに欲しがる。",
+    "source": "You are quick to covet other people's things.",
+    "target": "남의 물건을 쉽게 탐낸다.",
+    "source_ref": [
+      "2.335:start.hsp:297067"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297070.219",
+    "source_ja": "人類は滅ぶべきだと思っている。",
+    "source": "You think humanity should be destroyed.",
+    "target": "인류는 멸망해야 한다고 생각한다.",
+    "source_ref": [
+      "2.335:start.hsp:297070"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297073.220",
+    "source_ja": "きのこよりもたけのこが好き。",
+    "source": "You prefer bamboo shoots to mushrooms.",
+    "target": "버섯보다 죽순을 좋아한다.",
+    "source_ref": [
+      "2.335:start.hsp:297073"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.297076.221",
+    "source_ja": "母性に飢えている。",
+    "source": "You are starving for motherhood.",
+    "target": "어머니의 정이 그립다.",
+    "source_ref": [
+      "2.335:start.hsp:297076"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성 경력 창에서 별도 줄로 그리는 무작위 이력이다. 일본어의 사건·시제와 성격 서술 앞뒤의 연결을 대조했다."
+  },
+  {
+    "id": "creation.prompt.223196.222",
+    "source_ja": "これ以上は冒険者を保存できない。",
+    "source": "Save slots are full. You have to delete some of your adventurers.",
+    "target": "모험가를 더 저장할 수 없다. 기존 모험가를 삭제해야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:223196"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.223328.223",
+    "source_ja": "君の経歴を教えてくれるかな。内緒にしてもいいけれど。",
+    "source": "Can you tell me the history of you? I do not mind even if you make a secret.",
+    "target": "어떤 삶을 살아왔는지 정한다. 비밀로 해도 된다.",
+    "source_ref": [
+      "2.335:start.hsp:223328"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.223343.224",
+    "source_ja": "内緒にする",
+    "source": "Keep secret",
+    "target": "비밀로 하기",
+    "source_ref": [
+      "2.335:start.hsp:223343"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.223346.225",
+    "source_ja": "全て再抽選",
+    "source": "Reroll all",
+    "target": "모두 다시 뽑기",
+    "source_ref": [
+      "2.335:start.hsp:223346"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.223349.226",
+    "source_ja": "前半再抽選",
+    "source": "Reroll first half",
+    "target": "앞부분 다시 뽑기",
+    "source_ref": [
+      "2.335:start.hsp:223349"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.223352.227",
+    "source_ja": "後半再抽選",
+    "source": "Reroll second half",
+    "target": "뒷부분 다시 뽑기",
+    "source_ref": [
+      "2.335:start.hsp:223352"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.223360.228",
+    "source_ja": "経歴のロール",
+    "source": "Profile Reroll",
+    "target": "경력 다시 뽑기",
+    "source_ref": [
+      "2.335:start.hsp:223360"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.298662.229",
+    "source_ja": "左右キー [変更]  ｷｬﾝｾﾙ [閉じる]",
+    "source": "Right,left [Change]  Shift,Esc [Close]",
+    "target": "←,→ [변경]  Shift,Esc [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:298662"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.9256.230",
+    "source_ja": "Shift,Esc [戻る]  ",
+    "source": "Shift,Esc [Back]  ",
+    "target": "Shift,Esc [뒤로]  ",
+    "source_ref": [
+      "2.335:start.hsp:9256",
+      "2.335:start.hsp:9284"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.297289.231",
+    "source_ja": "決定ｷｰ [再抽選]  p [ポートレイト変更]  Shift,Esc [最終確認]",
+    "source": "Enter Key [Reroll]  p [Portrait]  Shift,Esc [Confirm]",
+    "target": "Enter [다시 뽑기]  p [초상화]  Shift,Esc [최종 확인]",
+    "source_ref": [
+      "2.335:start.hsp:297289",
+      "2.335:start.hsp:9260",
+      "2.335:start.hsp:9288"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.289361.232",
+    "source_ja": "決定 [フィート取得]  +,- [ページ切替]  Shift,Esc [閉じる]  z,x [仲間]",
+    "source": "Enter [Gain Feat]  +,- [Page]  Shift,Esc [Close]  z,x [Ally]",
+    "target": "Enter [특성 습득]  +,- [쪽]  Shift,Esc [닫기]  z,x [동료]",
+    "source_ref": [
+      "2.335:start.hsp:289361",
+      "2.335:start.hsp:9254",
+      "2.335:start.hsp:9255",
+      "2.335:start.hsp:9282",
+      "2.335:start.hsp:9283"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.289410.233",
+    "source_ja": "残り 1個のフィートを取得できる",
+    "source": "You can acquire 1 feats",
+    "target": "특성을 1개 더 습득할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289410"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.289410.234",
+    "source_ja": "残り 2個のフィートを取得できる",
+    "source": "You can acquire 2 feats",
+    "target": "특성을 2개 더 습득할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289410"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.289410.235",
+    "source_ja": "残り 3個のフィートを取得できる",
+    "source": "You can acquire 3 feats",
+    "target": "특성을 3개 더 습득할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289410"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.288848.236",
+    "source_ja": "◆ 取得できるフィート",
+    "source": "[Available feats]",
+    "target": "[습득 가능한 특성]",
+    "source_ref": [
+      "2.335:start.hsp:288848",
+      "2.335:start.hsp:288851"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.288856.237",
+    "source_ja": "◆ 特徴と体質",
+    "source": "[Feats and traits]",
+    "target": "[특징과 체질]",
+    "source_ref": [
+      "2.335:start.hsp:288856",
+      "2.335:start.hsp:288859"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.298834.238",
+    "source_ja": "決定    ",
+    "source": "Done    ",
+    "target": "완료    ",
+    "source_ref": [
+      "2.335:start.hsp:298834",
+      "2.335:start.hsp:298837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.298834.239",
+    "source_ja": "詳細設定",
+    "source": "Set Detail",
+    "target": "상세 설정",
+    "source_ref": [
+      "2.335:start.hsp:298834",
+      "2.335:start.hsp:298837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.298849.240",
+    "source_ja": "基本設定",
+    "source": "Set Basic",
+    "target": "기본 설정",
+    "source_ref": [
+      "2.335:start.hsp:298849",
+      "2.335:start.hsp:298852"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "캐릭터 생성에서 실제로 표시하는 선택지와 조작 안내를 일본어 원문과 대조했다."
+  },
+  {
+    "id": "creation.prompt.289361.241",
+    "source_ja": "特徴と体質",
+    "source": "Feats and Traits",
+    "target": "특징과 체질",
+    "source_ref": [
+      "2.335:start.hsp:289361"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.431254.242",
+    "source_ja": "友好",
+    "source": "Impress",
+    "target": "우호도",
+    "source_ref": [
+      "2.335:start.hsp:431254"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.431256.243",
+    "source_ja": "興味",
+    "source": "Attract",
+    "target": "관심도",
+    "source_ref": [
+      "2.335:start.hsp:431256"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.297662.244",
+    "source_ja": "軽減",
+    "source": "Prot",
+    "target": "피해 경감",
+    "source_ref": [
+      "2.335:start.hsp:297662"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.297664.245",
+    "source_ja": "回避",
+    "source": "Evade",
+    "target": "회피",
+    "source_ref": [
+      "2.335:start.hsp:297664"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.297666.246",
+    "source_ja": "魔法威力",
+    "source": "SpellPow",
+    "target": "주문 위력",
+    "source_ref": [
+      "2.335:start.hsp:297666"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.297732.247",
+    "source_ja": "説明:",
+    "source": "Hint:",
+    "target": "설명:",
+    "source_ref": [
+      "2.335:start.hsp:297732"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.299231.248",
+    "source_ja": "射撃",
+    "source": "Dist",
+    "target": "사격",
+    "source_ref": [
+      "2.335:start.hsp:299231"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.299244.249",
+    "source_ja": "命中",
+    "source": "Hit",
+    "target": "명중",
+    "source_ref": [
+      "2.335:start.hsp:299244"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.297724.250",
+    "source_ja": "今は持続効果を受けていない",
+    "source": "This character isn't currently blessed or hexed.",
+    "target": "현재 적용 중인 지속 효과가 없다.",
+    "source_ref": [
+      "2.335:start.hsp:297724"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원본 전체에서 이 대소문자의 영어 표제를 찾고 해당 창의 일본어 및 표시 위치를 대조했다."
+  },
+  {
+    "id": "creation.prompt.223340.251",
+    "source_ja": "決定する",
+    "source": "Proceed",
+    "target": "결정",
+    "source_ref": [
+      "2.335:start.hsp:223340",
+      "2.335:start.hsp:223999",
+      "2.335:start.hsp:287985"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "경력·능력치 확정 및 선택 창에서 決定する·決定만 가리킨다.",
+    "english_context_reviewed": true
+  },
+  {
+    "id": "creation.prompt.223535.252",
+    "source_ja": "種族",
+    "source": "Race",
+    "target": "종족",
+    "source_ref": [
+      "2.335:start.hsp:223535",
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "생성 창의 선택 가능한 종족과 인물 정보의 종족을 공통으로 표시한다.",
+    "english_context_reviewed": true
+  },
+  {
+    "id": "creation.prompt.223806.253",
+    "source_ja": "職業",
+    "source": "Class",
+    "target": "직업",
+    "source_ref": [
+      "2.335:start.hsp:223806",
+      "2.335:start.hsp:297434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "생성 창의 선택 가능한 직업과 인물 정보의 직업을 공통으로 표시한다.",
+    "english_context_reviewed": true
+  },
+  {
+    "id": "creation.prompt.223267.254",
+    "source_ja": "再抽選",
+    "source": "Reroll",
+    "target": "다시 굴리기",
+    "source_ref": [
+      "2.335:start.hsp:223267",
+      "2.335:start.hsp:224002",
+      "2.335:start.hsp:291399"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "이명·능력치·이름 선택에서 현재 후보를 무작위로 다시 생성하는 같은 동작이다.",
+    "english_context_reviewed": true
+  },
+  {
+    "id": "creation.prompt.304606.255",
+    "source_ja": "ゲーム設定",
+    "source": "Game Setting",
+    "target": "게임 설정",
+    "source_ref": [
+      "2.335:start.hsp:304606",
+      "2.335:start.hsp:607183",
+      "2.335:start.hsp:607194"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "설정 메뉴 항목과 대응 창 제목에서 같은 설정을 가리킨다.",
+    "english_context_reviewed": true
+  },
+  {
+    "id": "creation.prompt.9229.256",
+    "source_ja": "男",
+    "source": "Male",
+    "target": "남성",
+    "source_ref": [
+      "2.335:start.hsp:9229",
+      "2.335:start.hsp:9232"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "성별 배열의 같은 위치를 대조했다. 대문자로 시작하는 표시형에만 적용한다."
+  },
+  {
+    "id": "creation.prompt.9229.257",
+    "source_ja": "女",
+    "source": "Female",
+    "target": "여성",
+    "source_ref": [
+      "2.335:start.hsp:9229",
+      "2.335:start.hsp:9232"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "성별 배열의 같은 위치를 대조했다. 대문자로 시작하는 표시형에만 적용한다."
+  },
+  {
+    "id": "creation.prompt.8965.258",
+    "source_ja": "重　荷",
+    "source": "Burden",
+    "target": "무거운 짐",
+    "source_ref": [
+      "2.335:start.hsp:8965",
+      "2.335:start.hsp:8968"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "짐 무게 상태 배열의 같은 위치를 대조하고 용어집의 단계별 명칭을 사용했다."
+  },
+  {
+    "id": "creation.prompt.8965.259",
+    "source_ja": "圧　迫",
+    "source": "Burden!",
+    "target": "압박",
+    "source_ref": [
+      "2.335:start.hsp:8965",
+      "2.335:start.hsp:8968"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "짐 무게 상태 배열의 같은 위치를 대조하고 용어집의 단계별 명칭을 사용했다."
+  },
+  {
+    "id": "creation.prompt.8965.260",
+    "source_ja": "超　過",
+    "source": "Overweight",
+    "target": "중량 초과",
+    "source_ref": [
+      "2.335:start.hsp:8965",
+      "2.335:start.hsp:8968"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "짐 무게 상태 배열의 같은 위치를 대조하고 용어집의 단계별 명칭을 사용했다."
+  },
+  {
+    "id": "creation.prompt.8965.261",
+    "source_ja": "潰れ中",
+    "source": "Overweight!",
+    "target": "짓눌리는 중",
+    "source_ref": [
+      "2.335:start.hsp:8965",
+      "2.335:start.hsp:8968"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "짐 무게 상태 배열의 같은 위치를 대조하고 용어집의 단계별 명칭을 사용했다."
+  },
+  {
+    "id": "creation.prompt.8878.262",
+    "source_ja": "修行日和 / ",
+    "source": "Training-day / ",
+    "target": "수련하기 좋은 날 / ",
+    "source_ref": [
+      "2.335:start.hsp:8878",
+      "2.335:start.hsp:8881",
+      "2.335:start.hsp:206358",
+      "2.335:start.hsp:206363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "운명 문자열이 비어 있을 때 HUD에 그려지는 날씨 표제와 구분자 양옆 공백을 보존했다."
+  },
+  {
+    "id": "creation.prompt.8878.263",
+    "source_ja": "戦闘日和 / ",
+    "source": "Combat-day / ",
+    "target": "전투하기 좋은 날 / ",
+    "source_ref": [
+      "2.335:start.hsp:8878",
+      "2.335:start.hsp:8881",
+      "2.335:start.hsp:206358",
+      "2.335:start.hsp:206363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "운명 문자열이 비어 있을 때 HUD에 그려지는 날씨 표제와 구분자 양옆 공백을 보존했다."
+  },
+  {
+    "id": "creation.prompt.8878.264",
+    "source_ja": "仕事日和 / ",
+    "source": "Jobs-day / ",
+    "target": "일하기 좋은 날 / ",
+    "source_ref": [
+      "2.335:start.hsp:8878",
+      "2.335:start.hsp:8881",
+      "2.335:start.hsp:206358",
+      "2.335:start.hsp:206363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "운명 문자열이 비어 있을 때 HUD에 그려지는 날씨 표제와 구분자 양옆 공백을 보존했다."
+  },
+  {
+    "id": "creation.prompt.8878.265",
+    "source_ja": "探索日和 / ",
+    "source": "Exploration-day / ",
+    "target": "탐색하기 좋은 날 / ",
+    "source_ref": [
+      "2.335:start.hsp:8878",
+      "2.335:start.hsp:8881",
+      "2.335:start.hsp:206358",
+      "2.335:start.hsp:206363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "운명 문자열이 비어 있을 때 HUD에 그려지는 날씨 표제와 구분자 양옆 공백을 보존했다."
+  },
+  {
+    "id": "creation.prompt.8878.266",
+    "source_ja": "勉強日和 / ",
+    "source": "Study-day / ",
+    "target": "공부하기 좋은 날 / ",
+    "source_ref": [
+      "2.335:start.hsp:8878",
+      "2.335:start.hsp:8881",
+      "2.335:start.hsp:206358",
+      "2.335:start.hsp:206363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "운명 문자열이 비어 있을 때 HUD에 그려지는 날씨 표제와 구분자 양옆 공백을 보존했다."
+  },
+  {
+    "id": "creation.prompt.8941.267",
+    "source_ja": "筋力",
+    "source": " STR",
+    "target": "근력",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.8941.268",
+    "source_ja": "耐久",
+    "source": " CON",
+    "target": "내구",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.8941.269",
+    "source_ja": "器用",
+    "source": " DEX",
+    "target": "기교",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.8941.270",
+    "source_ja": "感覚",
+    "source": " PER",
+    "target": "지각",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.8941.271",
+    "source_ja": "習得",
+    "source": " LER",
+    "target": "학습",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.8941.272",
+    "source_ja": "意志",
+    "source": " WIL",
+    "target": "의지",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.8941.273",
+    "source_ja": "魔力",
+    "source": " MAG",
+    "target": "마력",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.8941.274",
+    "source_ja": "魅力",
+    "source": " CHR",
+    "target": "매력",
+    "source_ref": [
+      "2.335:start.hsp:8941",
+      "2.335:start.hsp:8944"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "능력치 명칭 배열의 동일 인덱스를 대조했다. 영문 키의 들여쓰기 공백을 보존하고 한국어는 기존 용어집을 따른다."
+  },
+  {
+    "id": "creation.prompt.5138.275",
+    "source_ja": "[フィート]あなたの眼には得体のしれない魔力が宿っている",
+    "source": "[Feat]Your eye is harboring the magic of mystery.",
+    "target": "[특성] 눈에 정체 모를 마력이 깃들어 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5138",
+      "2.335:start.hsp:288896"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문이 조합한 표시 전체를 2.335의 실제 영어 게임 관측값과 대조했다."
+  },
+  {
+    "id": "creation.prompt.5457.276",
+    "source_ja": "[フィート]あなたは幸運の持ち主だ",
+    "source": "[Feat]You are lucky",
+    "target": "[특성] 타고난 행운의 소유자다.",
+    "source_ref": [
+      "2.335:start.hsp:5457",
+      "2.335:start.hsp:288896"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문이 조합한 표시 전체를 2.335의 실제 영어 게임 관측값과 대조했다."
+  },
+  {
+    "id": "creation.prompt.5960.277",
+    "source_ja": "[先天]あなたには追加の成長ボーナスが与えられる",
+    "source": "[Race]You receive extra bonus points.",
+    "target": "[선천] 성장 보너스를 추가로 받는다.",
+    "source_ref": [
+      "2.335:start.hsp:5960",
+      "2.335:start.hsp:288912"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문이 조합한 표시 전체를 2.335의 실제 영어 게임 관측값과 대조했다."
+  },
+  {
+    "id": "creation.prompt.289116.278",
+    "source_ja": "[その他]あなたは生もの製のアイテムを食べる",
+    "source": "[ETC]You eat raw items.",
+    "target": "[기타] 날것으로 만든 아이템을 먹을 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289116"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문이 조합한 표시 전체를 2.335의 실제 영어 게임 관측값과 대조했다."
+  },
+  {
+    "id": "creation.prompt.224031.279",
+    "source_ja": "残りロック: 2",
+    "source": "Locks left: 2",
+    "target": "남은 잠금 횟수: 2",
+    "source_ref": [
+      "2.335:start.hsp:224031"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문이 조합한 표시 전체를 2.335의 실제 영어 게임 관측값과 대조했다."
+  },
+  {
+    "id": "creation.prompt.299218.280",
+    "source_ja": "武器1",
+    "source": "Melee1",
+    "target": "무기1",
+    "source_ref": [
+      "2.335:start.hsp:299218"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese original"
+    },
+    "review_reason": "원문이 조합한 표시 전체를 2.335의 실제 영어 게임 관측값과 대조했다."
+  }
+]

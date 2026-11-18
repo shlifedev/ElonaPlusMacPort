@@ -1303,7 +1303,7 @@ int cmd_screen(int cmd) {
 
 // The original and managed gmes both render unmatched paragraphs one glyph at a time.
 // Resolve the immediate HSP routine so ordinary one-character labels still translate.
-bool drawing_gmes_fragment() {
+bool drawing_in_routine(std::string_view name) {
     if (H->opt.translation_catalog.empty()) return false;
     for (auto* frame = stm_cur; frame != mem_stm;) {
         --frame;
@@ -1311,11 +1311,34 @@ bool drawing_gmes_fragment() {
         if (frame->type == TYPE_EX_CUSTOMFUNC) {
             const auto* routine = reinterpret_cast<const HSPROUTINE*>(STM_GETPTR(frame));
             const int offset = routine->param->nameidx;
-            return offset >= 0 && offset <= H->ctx->hsphed->max_ds - int(sizeof("gmes")) &&
-                   std::memcmp(H->ctx->mem_mds + offset, "gmes", sizeof("gmes")) == 0;
+            return offset >= 0 && offset <= H->ctx->hsphed->max_ds - int(name.size()+1) &&
+                   std::memcmp(H->ctx->mem_mds + offset, name.data(), name.size()) == 0 &&
+                   H->ctx->mem_mds[offset + name.size()] == 0;
         }
     }
     return false;
+}
+
+std::string localize_dialog(std::string_view source) {
+    if (!H->text || H->opt.translation_catalog.empty()) return std::string(source);
+    std::string result;
+    while (!source.empty()) {
+        const auto end = source.find_first_of("\r\n");
+        const auto line = source.substr(0, end);
+        const auto first = line.find_first_not_of(" \t");
+        const auto last = line.find_last_not_of(" \t");
+        const std::string* translated = nullptr;
+        if (first != std::string_view::npos) {
+            translated = H->text->lookup_translation("@dialog/" + std::string(line.substr(first, last - first + 1)));
+        }
+        if (translated) result += *translated;
+        else result.append(line);
+        if (end == std::string_view::npos) break;
+        const auto separators = source[end] == '\r' && end + 1 < source.size() && source[end + 1] == '\n' ? 2 : 1;
+        result.append(source.substr(end, separators));
+        source.remove_prefix(end + separators);
+    }
+    return result;
 }
 
 int cmdfunc_extcmd_body(int cmd) {
@@ -1383,8 +1406,8 @@ int cmdfunc_extcmd_body(int cmd) {
         entry.frame = H->frame;
         entry.pc_words = dialog_pc_words;
         entry.interactive = !H->opt.deterministic && !H->opt.scripted_realtime;
-        entry.title = to_utf8(title);
-        entry.text = to_utf8(text);
+        entry.title = localize_dialog(to_utf8(title));
+        entry.text = localize_dialog(to_utf8(text));
         H->dialogs.push_back(std::move(entry));
         auto& dialog = H->dialogs.back();
         ++H->dialog_count;
@@ -1401,7 +1424,8 @@ int cmdfunc_extcmd_body(int cmd) {
                 unsupported("dialog", dialog.error + ": " + dialog.text);
             }
         } else {
-            result = H->display->message_box(b->wid, dialog.text, dialog.title, (p1 & 1) != 0, yesno ? 1 : 0);
+            platform::DialogLabels labels{localize_dialog("OK"), localize_dialog("Yes"), localize_dialog("No")};
+            result = H->display->message_box(b->wid, dialog.text, dialog.title, (p1 & 1) != 0, yesno ? 1 : 0, labels);
             if (result < 0) {
                 dialog.error = H->display->message_box_error();
                 if (dialog.error.empty()) dialog.error = "message box returned without a selected button";
@@ -1443,7 +1467,9 @@ int cmdfunc_extcmd_body(int cmd) {
                     unsupported("help notice", "cannot encode Japanese display notice");
             }
         }
-        b->print(help_notice.empty() ? std::string_view(ptr) : std::string_view(help_notice), sw, !drawing_gmes_fragment());
+        if (b->text) b->text->set_log_word_draw(drawing_in_routine("msg_write"));
+        b->print(help_notice.empty() ? std::string_view(ptr) : std::string_view(help_notice), sw, !drawing_in_routine("gmes"));
+        if (b->text) b->text->set_log_word_draw(false);
         if (b->fl_udraw && is_window(*b)) present(*b);
         break;
     }
@@ -1775,6 +1801,17 @@ int cmdfunc_extcmd(int cmd) {
 // boundaries. Original 2.335 bytecode does not contain this extension.
 int cmdfunc_localization(int cmd) {
     code_next();
+    if (cmd == 1) {
+        const std::string source = code_gets();
+        const int used = code_geti(), limit = code_geti();
+        if (H->text) H->text->begin_english_log(source, used, limit);
+        return RUNMODE_RUN;
+    }
+    if (cmd == 2) {
+        const int enabled = code_geti();
+        if (H->text) H->text->set_hud_draw(enabled != 0);
+        return RUNMODE_RUN;
+    }
     if (cmd != 0) unsupported("localization command", std::to_string(cmd));
     const std::string source = code_gets();  // copy before later VM argument reads
     const int x = code_geti(), y = code_geti(), width = code_geti(), shadow = code_geti();

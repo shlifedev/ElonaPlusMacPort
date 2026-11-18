@@ -73,7 +73,7 @@ Mac Release는 최초 한 번 `python3 tools/bootstrap_macos_gui.py`로 공식 S
 일본어 텍스트는 표시 가능하지만 게임 문자열은 원본 CP932이므로 한국어/이모지 입력 지원을 의미하지 않는다.
 
 한국어 표시의 개발 중인 미리보기는 **`Play ElonaPlus Korean.command`** 또는
-`python3 tools/play_game.py --language ko`로 실행한다. 검수한 메뉴·고정 문구를 번역하며, 일본어 기반 게임에서는 준비된 관리 AX로 노른의 도움말 본문도 번역한다. 새 작업공간에서 문단 번역을 준비할 때는 위의 소스 복원·빌드 후 `python3 tools/prepare_korean_game.py --output work/localization/managed-gmes-v1-01 --compile`을 한 번 실행한다. 미번역 대사와 동적 메시지에는 원문이 남아 있다. 이름 입력과 저장 데이터는 원본 형식을 유지한다.
+`python3 tools/play_game.py --language ko`로 실행한다. 캐릭터 생성 문구, 첫 집의 시계·날씨·주요 로그, 저장 확인 질문을 번역한다. 노른의 첫 집과 세계 지도 안내는 영어 기반 7페이지와 일본어 기반 6페이지를 실게임으로 확인했다. 새 작업공간에서는 위의 소스 복원·빌드 후 `python3 tools/prepare_korean_game.py --output work/localization/managed-home-v2 --compile`로 문단과 로그 표시용 AX를 준비한다. 긴 NPC 대사, 문맥에 따라 뜻이 바뀌는 항목, 후반 퀘스트 등에는 원문이 남아 있다. 이름 입력과 저장 데이터는 원본 형식을 유지한다.
 [번역 출처](docs/KOREAN_SOURCES.md), [용어집](localization/ko-KR/glossary.tsv),
 [번역 지침](localization/ko-KR/style-guide.md)을 함께 관리한다.
 `--audit-translation`을 추가하면 해당 세션 폴더에 미번역 표시 문자열을 기록한다.

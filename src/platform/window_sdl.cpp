@@ -192,10 +192,11 @@ public:
         SDL_SetTextInputArea(it->second.window, &area, std::max(0, int(cx - x0)));
     }
 
-    int message_box(int wid, const std::string& text, const std::string& title, bool warning, int buttons) override {
+    int message_box(int wid, const std::string& text, const std::string& title, bool warning, int buttons,
+                    const DialogLabels& labels) override {
         message_box_error_.clear();
-        SDL_MessageBoxButtonData ok[] = {{SDL_MESSAGEBOX_BUTTON_RETURNKEY_DEFAULT | SDL_MESSAGEBOX_BUTTON_ESCAPEKEY_DEFAULT, 1, "OK"}};
-        SDL_MessageBoxButtonData yn[] = {{SDL_MESSAGEBOX_BUTTON_RETURNKEY_DEFAULT, 6, "Yes"}, {SDL_MESSAGEBOX_BUTTON_ESCAPEKEY_DEFAULT, 7, "No"}};
+        SDL_MessageBoxButtonData ok[] = {{SDL_MESSAGEBOX_BUTTON_RETURNKEY_DEFAULT | SDL_MESSAGEBOX_BUTTON_ESCAPEKEY_DEFAULT, 1, labels.ok.c_str()}};
+        SDL_MessageBoxButtonData yn[] = {{SDL_MESSAGEBOX_BUTTON_RETURNKEY_DEFAULT, 6, labels.yes.c_str()}, {SDL_MESSAGEBOX_BUTTON_ESCAPEKEY_DEFAULT, 7, labels.no.c_str()}};
         SDL_MessageBoxData data{};
         data.flags = warning ? SDL_MESSAGEBOX_WARNING : SDL_MESSAGEBOX_INFORMATION;
         auto it = windows_.find(wid);

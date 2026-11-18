@@ -97,6 +97,8 @@ public:
     // Validate/select the font. Returns false when the font cannot be created
     // (HSP sets stat=-1 for font in that case).
     virtual bool prepare(const FontSpec& spec) = 0;
+    // Native UI can share the renderer's loaded display catalog.
+    virtual const std::string* lookup_translation(std::string_view) const { return nullptr; }
     // Draw one line (no line breaks) at top-left (x,y) with transparent
     // background; returns the TabbedTextOut-equivalent extent.
     virtual TextExtent draw_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) = 0;
@@ -105,6 +107,9 @@ public:
     virtual TextExtent draw_display_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) {
         return draw_line(spec, dib, x, y, cp932, color);
     }
+    virtual void begin_english_log(std::string_view, int, int) {}
+    virtual void set_log_word_draw(bool) {}
+    virtual void set_hud_draw(bool) {}
     // Explicit whole-paragraph boundary for managed game-source transforms.
     // -1 means no reviewed whole-string translation: caller runs original gmes.
     virtual int draw_localized_paragraph(Dib&, int, int, int, bool, colorref,

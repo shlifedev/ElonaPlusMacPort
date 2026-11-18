@@ -34,6 +34,10 @@ struct WindowSpec {
     std::string title_utf8;
 };
 
+struct DialogLabels {
+    std::string ok = "OK", yes = "Yes", no = "No";
+};
+
 class Display {
 public:
     virtual ~Display() = default;
@@ -62,7 +66,8 @@ public:
     virtual void clear_composition(int wid) {}
     // Modal message box. buttons: 0 = OK, 1 = Yes/No. Returns 1 (IDOK), 6 (IDYES),
     // 7 (IDNO), or -1 when no interactive UI is available.
-    virtual int message_box(int wid, const std::string& text_utf8, const std::string& title_utf8, bool warning, int buttons) = 0;
+    virtual int message_box(int wid, const std::string& text_utf8, const std::string& title_utf8,
+                            bool warning, int buttons, const DialogLabels& labels) = 0;
     // Diagnostic only: error from the last message_box failure, if available.
     virtual std::string message_box_error() const { return {}; }
 };

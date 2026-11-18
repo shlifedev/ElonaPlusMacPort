@@ -110,7 +110,7 @@ def main():
                 out.write(escaped(source) + '\t' + escaped(next(iter(targets))) + '\n')
     report = {'input_entries': entries, 'runtime_keys': len(candidates) - len(conflicts),
               'conflicts': conflicts, 'omitted': omitted,
-              'coverage': 'Exact displayed strings only. This is not whole-game translation coverage.'}
+              'coverage': 'Catalog keys include exact UI strings and context-specific labels. Whole-game coverage is unknown.'}
     output.with_suffix('.report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     output.with_suffix('.sources.json').write_text(json.dumps({
         'format': 'elona-localization-provenance-v1', 'inputs': input_manifest,

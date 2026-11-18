@@ -56,6 +56,18 @@ public:
     }
 
     bool prepare(const FontSpec& spec) override { return font_for(spec) != nullptr; }
+    const std::string* lookup_translation(std::string_view key) const override {
+        return catalog_ ? catalog_->find(key) : nullptr;
+    }
+
+    void begin_english_log(std::string_view cp932, int used, int limit) override {
+        log_words_.clear();
+        std::string source;
+        if (catalog_ && cp932.size() <= 512 && ui_cp932_to_utf8(cp932, source))
+            log_words_ = catalog_->log_words(source, used, limit);
+    }
+    void set_log_word_draw(bool active) override { log_word_draw_ = active; }
+    void set_hud_draw(bool active) override { hud_draw_ = active; }
 
     TextExtent draw_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) override {
         return layout(spec, &dib, x, y, cp932, color);
@@ -64,6 +76,21 @@ public:
         if (catalog_) {
             std::string source;
             if (ui_cp932_to_utf8(cp932, source)) {
+                if (log_word_draw_ && !log_words_.empty()) {
+                    if (source == log_words_.front().source) {
+                        auto word = std::move(log_words_.front());
+                        log_words_.pop_front();
+                        if (!word.display.empty()) layout_utf8(spec, dib, x, y, word.display, color);
+                        return measure_line(spec, cp932);
+                    }
+                    log_words_.clear();
+                }
+                if (hud_draw_) {
+                    if (auto label = catalog_->hud_text(source)) {
+                        layout_utf8(spec, dib, x, y, *label, color);
+                        return measure_line(spec, cp932);
+                    }
+                }
                 if (const auto* target = catalog_->find(source)) return layout_utf8(spec, dib, x, y, *target, color);
                 if (!options_.translation_misses.empty() && source.size() <= 2048 && misses_.size() < 10000) ++misses_[source];
             }
@@ -250,6 +277,8 @@ private:
     TtfTextOptions options_;
     std::string file_;
     std::string ko_font_;
+    bool log_word_draw_ = false, hud_draw_ = false;
+    std::deque<localization::LogWord> log_words_;
     std::optional<localization::Catalog> catalog_;
     std::map<std::string, std::size_t> misses_;
     std::map<long, TTF_Font*> fonts_;

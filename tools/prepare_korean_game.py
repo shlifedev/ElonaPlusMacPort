@@ -2,7 +2,7 @@
 """Generate an opt-in display-hook source from the verified private 2.335 source.
 
 The original CP932 bytes are never decoded/re-encoded. Output remains private
-under work/. The Korean launcher selects the verified managed-gmes-v1-01 AX. This requires the
+under work/. The Korean launcher selects the verified managed-home-v2 AX. This requires the
 native type-48 display command; the official Windows runtime cannot run it.
 """
 from __future__ import annotations
@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SHA256 = "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
 COMMAND_TYPE = 48
 COMMAND_ID = 0
-DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n"
+DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n"
 ANCHOR = (b"#deffunc gmes str gmes_prm0\r\n"
           b'\tm@m111 = ""\r\n'
           b'\tmsg@m111 = "" + gmes_prm0 + "$end"\r\n')
@@ -31,6 +31,15 @@ HOOK = (b"\tnative_ko_gmes gmes_prm0, gmesx, gmesy, gmesw, gmestype, gmescol, gm
         b"\t\tgmesy += stat\r\n"
         b"\t\treturn 0\r\n"
         b"\t}\r\n")
+
+
+LOG_ENTRY = b'\t\tmsgtemp += " "\r\n\t\trepeat\r\n\t\t\tawait\r\n'
+HUD_LINES = [
+    (b'\tbmes "Sp" + cdata(52, 0) + "/" + cdata(53, 0), 255, 255, 255\r\n', 1),
+    (b'\tbmes "Lv" + cdata(38, 0) + "/" + (cdata(36, 0) - cdata(35, 0)), 255, 255, 255\r\n', 1),
+    (b'\t\tbmes _time(gdata(13) / 4) + " " + _weather(gdata(17)), 255, 255, 255\r\n', 1),
+    (b'\t\t\tbmes _biyori(gdata(250 + 420)) + " / " + _destiny(gdata(250 + 428)), 255, 255, 255\r\n', 2),
+]
 
 
 def digest(data: bytes) -> str:
@@ -45,24 +54,40 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
         raise ValueError("gmes entry/context anchor must occur exactly once")
     if b"native_ko_gmes" in source or b"#regcmd" in source:
         raise ValueError("input already declares native commands; review type ownership")
-    offset = source.index(ENTRY) + len(ENTRY)
-    output = DECLARATIONS + source[:offset] + HOOK + source[offset:]
-    # Independently remove the two exact inserted spans and assert all original
-    # bytes, including mixed newlines and ambiguous CP932 pairs, are untouched.
-    restored = output[len(DECLARATIONS):]
-    restored = restored[:offset] + restored[offset + len(HOOK):]
+    inserts = [(0, DECLARATIONS, "declare_native_commands"),
+               (source.index(ENTRY) + len(ENTRY), HOOK, "gmes_display_boundary")]
+    def at(line, addition, kind, *, after=False, count=1):
+        if source.count(line) != count:
+            raise ValueError(f"{kind} anchor count differs")
+        start = 0
+        for _ in range(count):
+            pos = source.index(line, start)
+            start = pos + len(line)
+            inserts.append((start if after else pos, addition, kind))
+    # Copy only the presentation input, after English capitalization and before
+    # the original loop destructively consumes one word at a time.
+    at(LOG_ENTRY, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen\r\n", "english_log_boundary")
+    for line, count in HUD_LINES:
+        at(line, b"\tnative_ko_hud 1\r\n", "hud_begin", count=count)
+        at(line, b"\tnative_ko_hud 0\r\n", "hud_end", after=True, count=count)
+    output = bytearray()
+    changes = []
+    previous = 0
+    for offset, added, kind in sorted(inserts, key=lambda item: item[0]):
+        output.extend(source[previous:offset])
+        changes.append({"kind": kind, "input_byte_offset": offset, "output_byte_offset": len(output),
+                        "inserted_bytes": len(added), "inserted_lines": added.count(b"\n"),
+                        "sha256": digest(added)})
+        output.extend(added)
+        previous = offset
+    output.extend(source[previous:])
+    restored = bytearray(output)
+    for change in reversed(changes):
+        start = change["output_byte_offset"]
+        del restored[start:start + change["inserted_bytes"]]
     if restored != source:
         raise AssertionError("insertion changed original bytes")
-    changes = [
-        {"kind": "declare_native_command", "input_byte_offset": 0,
-         "output_byte_offset": 0, "inserted_bytes": len(DECLARATIONS),
-         "inserted_lines": DECLARATIONS.count(b"\n"), "sha256": digest(DECLARATIONS)},
-        {"kind": "gmes_display_boundary", "input_byte_offset": offset,
-         "input_next_line": source[:offset].count(b"\n") + 1,
-         "output_byte_offset": len(DECLARATIONS) + offset,
-         "inserted_bytes": len(HOOK), "inserted_lines": HOOK.count(b"\n"),
-         "sha256": digest(HOOK), "context_sha256": digest(ANCHOR)},
-    ]
+    output = bytes(output)
     return output, changes
 
 
@@ -118,7 +143,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--source", type=Path, default=ROOT / "work/decompiled/2.335-reference/start.hsp")
     ap.add_argument("--output", type=Path, required=True, help="new private directory below work/")
-    ap.add_argument("--compile", action="store_true", help="compile and require exactly one type48/$00 token")
+    ap.add_argument("--compile", action="store_true", help="compile and verify all managed display command counts")
     ap.add_argument("--compiler", type=Path, default=ROOT / "build/native-macos-arm64-legacy-cp932-release/elona_hspcmp")
     ap.add_argument("--common", type=Path, default=ROOT / ".cache/upstream/OpenHSP/common")
     args = ap.parse_args()
@@ -136,8 +161,10 @@ def main() -> int:
                   "source": str(args.source.resolve()), "source_sha256": digest(original),
                   "output_source_sha256": digest(output), "source_encoding": "CP932 bytes preserved",
                   "original_bytes_unchanged": True, "changes": changes,
-                  "abi": {"type": COMMAND_TYPE, "command": COMMAND_ID, "arguments": 8,
-                          "result": "stat < 0: original fallback; stat >= 0: rendered height; gmes returns stat 0"},
+                  "abi": {"type": COMMAND_TYPE, "commands": {
+                      "0": {"name": "gmes", "arguments": 8, "result": "stat < 0: original fallback; otherwise rendered height"},
+                      "1": {"name": "begin_english_log", "arguments": ["source", "used", "limit"], "result": "preserve stat"},
+                      "2": {"name": "hud_draw", "arguments": ["enabled"], "result": "preserve stat"}}},
                   "compiled": False,
                   "executed": False}
         success = True
@@ -154,9 +181,9 @@ def main() -> int:
                 report.update(compiled=True, ax_sha256=digest(blob), ax_bytes=len(blob))
                 try:
                     report["token_check"] = command_counts(blob)
-                    success = report["token_check"]["type48_commands"] == {"0": 1}
+                    success = report["token_check"]["type48_commands"] == {"0": 1, "1": 1, "2": 10}
                     if not success:
-                        report["error"] = "compiled AX must contain exactly one type48/$00 call"
+                        report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:
                     report["error"] = str(exc)
                     success = False

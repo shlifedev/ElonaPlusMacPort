@@ -1,0 +1,373 @@
+[
+  {
+    "id": "dialog.en.1",
+    "source": "@dialog/Elonaplus is a freeware, This is a secondary creation of elona.",
+    "target": "ElonaPlus는 무료로 배포되는 Elona의 2차 창작 게임입니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 en startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.en.2",
+    "source": "@dialog/* This software is currently in development. There are defect and abrupt change of balance.",
+    "target": "• 현재 개발 중이므로 오류가 있거나 게임 밸런스가 크게 바뀔 수 있습니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 en startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.en.3",
+    "source": "@dialog/* There is no intention to deny the author, balance, setting, of the other secondary creations and original creation.",
+    "target": "• 원작과 다른 2차 창작의 제작자나 그 작품의 밸런스와 설정을 부정할 의도는 없습니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 en startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.en.4",
+    "source": "@dialog/* There are many violent, sexual, bizarre, depictions.",
+    "target": "• 폭력적이거나 성적인 묘사, 엽기적인 표현이 다수 포함되어 있습니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 en startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.en.5",
+    "source": "@dialog/* Even if any disadvantage was caused by use of this software, the author does not take any responsibility. Please use at your own risk.",
+    "target": "• 이 소프트웨어를 사용하여 발생하는 어떠한 불이익에 대해서도 제작자는 책임을 지지 않습니다. 이용 여부는 본인의 책임 아래 결정해 주세요.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 en startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.en.6",
+    "source": "@dialog/* If you can comply the instructions and the above-mentioned items, you can use this software.",
+    "target": "• 안내 사항과 위 내용을 이해하고 따를 수 있는 분만 이용해 주세요.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 en startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.1",
+    "source": "@dialog/＜利用規約＞",
+    "target": "이용 약관",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.2",
+    "source": "@dialog/elonaplusはフリーウェアであり、elonaの二次創作です。",
+    "target": "ElonaPlus는 무료로 배포되는 Elona의 2차 창작 게임입니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.3",
+    "source": "@dialog/・本ソフトウェアは現在開発中です。不具合やバランスの急激な変動があります。",
+    "target": "• 현재 개발 중이므로 오류가 있거나 게임 밸런스가 크게 바뀔 수 있습니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.4",
+    "source": "@dialog/・原作および他二次創作の作者・バランス・設定等を否定する意図はありません。",
+    "target": "• 원작과 다른 2차 창작의 제작자나 그 작품의 밸런스와 설정을 부정할 의도는 없습니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.5",
+    "source": "@dialog/・暴力的・性的・猟奇的な表現、描写が多数存在します。",
+    "target": "• 폭력적이거나 성적인 묘사, 엽기적인 표현이 다수 포함되어 있습니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.6",
+    "source": "@dialog/・本ソフトの利用によっていかなる不利益が発生した場合でも作者は一切の責任を負いません。自己責任で利用してください。",
+    "target": "• 이 소프트웨어를 사용하여 발생하는 어떠한 불이익에 대해서도 제작자는 책임을 지지 않습니다. 이용 여부는 본인의 책임 아래 결정해 주세요.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.7",
+    "source": "@dialog/・興味を持っていない人への過度の推薦や紹介は控え、wikiへの誘導程度に留めてください。",
+    "target": "• 관심이 없는 분에게는 지나치게 권하거나 소개하지 마시고, 위키를 안내하는 정도로 그쳐 주세요.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.8",
+    "source": "@dialog/・βテストプレイヤーとしてデバッグ義務なく普通に遊ぶことができますが、プレイ中にバグに遭遇した場合は報告していただけると助かります(任意)。",
+    "target": "• 베타 테스트에 참여해도 오류를 찾아낼 의무는 없습니다. 평소처럼 즐겨 주세요. 플레이 중 오류를 발견하셨다면 제보해 주시면 큰 도움이 됩니다. 제보는 선택 사항입니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.9",
+    "source": "@dialog/ただし、せっかく報告していただいても内容が不足しているとバグ修正に結びつかないため、テンプレートを用いた報告や検証にご協力ください。",
+    "target": "제보 내용이 부족하면 오류를 고치기 어려우니, 양식에 맞춰 알려 주시고 재현 확인에도 협조해 주세요.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.ja.10",
+    "source": "@dialog/同梱の説明書(elona,elonaplus)にも目を通し、上記項目を含めて理解・承服できる方のみ利用できます。",
+    "target": "동봉된 Elona와 ElonaPlus 설명서도 읽어 주세요. 위 내용을 포함한 안내를 이해하고 동의하는 분만 이용할 수 있습니다.",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:308480"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 ja startup dialog"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.buttons.1",
+    "source": "@dialog/OK",
+    "target": "확인",
+    "review_status": "reviewed",
+    "source_ref": [
+      "src/platform/window_sdl.cpp:message_box"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "Native dialog button"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.buttons.2",
+    "source": "@dialog/Yes",
+    "target": "예",
+    "review_status": "reviewed",
+    "source_ref": [
+      "src/platform/window_sdl.cpp:message_box"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "Native dialog button"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "dialog.buttons.3",
+    "source": "@dialog/No",
+    "target": "아니요",
+    "review_status": "reviewed",
+    "source_ref": [
+      "src/platform/window_sdl.cpp:message_box"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "Native dialog button"
+    },
+    "review_reason": "언어별 고지문과 개행을 대조했다. 네이티브 대화상자에서만 실제 표시 문구로 조회한다."
+  },
+  {
+    "id": "conversation.home.label.1",
+    "source": "(More)",
+    "source_ja": "(続く)",
+    "target": "(계속)",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9273",
+      "2.335:start.hsp:9301"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 JP / EN"
+    },
+    "review_reason": "회화 선택지 또는 인물 칭호 전체가 일치할 때만 표시한다."
+  },
+  {
+    "id": "conversation.home.label.2",
+    "source": "Bye bye.",
+    "source_ja": "さようなら",
+    "target": "작별 인사",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:9267",
+      "2.335:start.hsp:9295"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 JP / EN"
+    },
+    "review_reason": "회화 선택지 또는 인물 칭호 전체가 일치할 때만 표시한다."
+  },
+  {
+    "id": "conversation.home.label.3",
+    "source": "<Larnneire> the listener of wind",
+    "source_ja": "風を聴く者『ラーネイレ』",
+    "target": "바람을 듣는 자 『라네이레』",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:266823"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 JP / EN"
+    },
+    "review_reason": "회화 선택지 또는 인물 칭호 전체가 일치할 때만 표시한다."
+  },
+  {
+    "id": "conversation.home.label.4",
+    "source": "<Lomias> the messenger from Vindale",
+    "target": "빈데일 숲의 사절 『로미아스』",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:266836"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 JP / EN"
+    },
+    "review_reason": "회화 선택지 또는 인물 칭호 전체가 일치할 때만 표시한다."
+  },
+  {
+    "id": "conversation.home.label.5",
+    "source": "<Larnneire> the listener of wind Female",
+    "source_ja": "",
+    "target": "바람을 듣는 자 『라네이레』 (여성)",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:561624"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 JP / EN"
+    },
+    "review_reason": "회화 선택지 또는 인물 칭호 전체가 일치할 때만 표시한다."
+  },
+  {
+    "id": "conversation.home.label.6",
+    "source": "<Lomias> the messenger from Vindale Male",
+    "source_ja": "",
+    "target": "빈데일 숲의 사절 『로미아스』 (남성)",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:561788"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 JP / EN"
+    },
+    "review_reason": "회화 선택지 또는 인물 칭호 전체가 일치할 때만 표시한다."
+  },
+  {
+    "id": "conversation.home.label.lomias.ja",
+    "source": "異形の森の使者『ロミアス』",
+    "target": "이형의 숲 사절 『로미아스』",
+    "review_status": "reviewed",
+    "source_ref": [
+      "2.335:start.hsp:266836"
+    ],
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 JP / EN"
+    },
+    "review_reason": "회화 선택지 또는 인물 칭호 전체가 일치할 때만 표시한다."
+  }
+]

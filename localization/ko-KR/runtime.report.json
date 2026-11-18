@@ -1,6 +1,6 @@
 {
-  "input_entries": 2958,
-  "runtime_keys": 5058,
+  "input_entries": 3352,
+  "runtime_keys": 5716,
   "conflicts": {},
   "omitted": [
     {
@@ -1718,7 +1718,27 @@
     {
       "source": "...yes, it's a bad habit of mine. Well, {player_name}...",
       "reason": "template_reviewed"
+    },
+    {
+      "source": "Your family line is that of famous mages.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Your family line is that of famous mages.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "Your family line is that of famous mages.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You fear betrayal above all else.",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "You fear betrayal above all else.",
+      "reason": "English alias disabled by contextual review"
     }
   ],
-  "coverage": "Exact displayed strings only. This is not whole-game translation coverage."
+  "coverage": "Catalog keys include exact UI strings and context-specific labels. Whole-game coverage is unknown."
 }

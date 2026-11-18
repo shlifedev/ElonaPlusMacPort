@@ -19,6 +19,7 @@ from windows_gui_verify import read_bmp, write_png
 
 sys.path.insert(0, str(ROOT / "tools"))
 from inspect_save_state import inspect, compare
+from play_game import MANAGED_AX
 
 sys.path.insert(0, str(ROOT / "tests/localization/source_transform"))
 from run_game_gate import verify_norne_pages
@@ -125,7 +126,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--run", required=True)
     ap.add_argument("--catalog", type=Path, required=True)
-    ap.add_argument("--managed-ax", type=Path, default=ROOT / "work/localization/managed-gmes-v1-01/start.ax")
+    ap.add_argument("--managed-ax", type=Path, default=ROOT / MANAGED_AX)
     ap.add_argument("--reference-ax", type=Path, default=ROOT / "work/localization/cp932-full-reference-01/start.ax")
     ap.add_argument("--japanese-script", type=Path, default=ROOT / "work/localization/newgame_japanese.script")
     args = ap.parse_args()

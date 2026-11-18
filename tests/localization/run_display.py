@@ -18,7 +18,7 @@ source.write_bytes((ROOT / 'tests/localization/display.hsp').read_bytes())
 ax = work / 'display.ax'
 c = subprocess.run([str(a.compiler.resolve()), '-d', '--compath=' + str(a.common.resolve()) + '/', '-o' + str(ax), str(source)], capture_output=True)
 assert c.returncode == 0, c.stderr
-(work / 'catalog.tsv').write_text('Starting Menu\t모험의 이정표\n', encoding='utf-8')
+(work / 'catalog.tsv').write_text('Starting Menu\t모험의 이정표\n@dialog/Starting Menu\t대화상자 제목\n', encoding='utf-8')
 images = []
 reports = {}
 for name in ('original', 'korean'):
@@ -30,6 +30,9 @@ for name in ('original', 'korean'):
     run = subprocess.run(cmd, capture_output=True, timeout=30)
     (case / 'stderr.log').write_bytes(run.stderr)
     rep = json.loads((case / 'report.json').read_text())
+    expected_dialog = '대화상자 제목' if name == 'korean' else 'Starting Menu'
+    assert rep['dialogs'][0]['title'] == expected_dialog
+    assert rep['dialogs'][0]['text'].splitlines() == [expected_dialog, 'Untranslated detail']
     assert run.returncode == 0 and not rep['hsp_error'] and not rep['first_unsupported'], rep
     assert (case / 'vm-value.txt').read_bytes() == b'Starting Menu'
     images.append((case / 'screen.bmp').read_bytes())

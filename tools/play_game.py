@@ -17,8 +17,11 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 
 
-MANAGED_AX = Path("work/localization/managed-gmes-v1-01/start.ax")
-MANAGED_SHA256 = "8aa19643c4824fa98ee175194864ecdfde8d4871c13a0d9f8ffa99cf9b99ad03"
+LEGACY_MANAGED_AX = Path("work/localization/managed-gmes-v1-01/start.ax")
+LEGACY_MANAGED_SHA256 = "8aa19643c4824fa98ee175194864ecdfde8d4871c13a0d9f8ffa99cf9b99ad03"
+
+MANAGED_AX = Path("work/localization/managed-home-v2/start.ax")
+MANAGED_SHA256 = "bfb23aebb6a9a78983f717a361ce5691da4e520590d3013d686798e6e6d691b8"
 
 
 def game_ax(root, language):
@@ -29,6 +32,12 @@ def game_ax(root, language):
             if hashlib.sha256(managed.read_bytes()).hexdigest() != MANAGED_SHA256:
                 raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {managed}")
             return managed
+        legacy = root / LEGACY_MANAGED_AX
+        if legacy.is_file():
+            if hashlib.sha256(legacy.read_bytes()).hexdigest() != LEGACY_MANAGED_SHA256:
+                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {legacy}")
+            print(f"Korean HUD/log AX missing at {managed}. Using paragraph AX {legacy}.", file=sys.stderr)
+            return legacy
         print(f"Korean paragraph AX missing at {managed}. Using the original AX with menu translations.", file=sys.stderr)
     return original
 

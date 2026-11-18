@@ -28,7 +28,7 @@ public:
     bool window_rect(int, int&, int&, int&, int&) override { return false; }
     bool has_focus(int) override { return true; }
     void set_text_input(int, bool) override {}
-    int message_box(int, const std::string&, const std::string&, bool, int) override { return -1; }
+    int message_box(int, const std::string&, const std::string&, bool, int, const DialogLabels&) override { return -1; }
     std::string message_box_error() const override { return "headless display has no interactive message box"; }
 };
 }  // namespace

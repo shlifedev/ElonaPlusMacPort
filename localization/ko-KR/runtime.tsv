@@ -1,16 +1,26 @@
 # elona-localization-v1: UTF-8 source<TAB>translation; generated from reviewed entries
  (My birthday...?) 	（오늘이 생일이었던가…?）
  A deep sense of peace fills your heart.	당신의 마음이 가라앉았다.
+ CHR	매력
+ CON	내구
+ DEX	기교
+ LER	학습
  Lv130	마술의 심연 130층 수준
+ MAG	마력
+ PER	지각
+ STR	근력
  Turns	턴
+ WIL	의지
  the crypt of the damned 	망자의 동굴
  turns	턴
  …そんな物珍しげな顔をするな。君の察する通り、我々は異形の森の民だ。エレアは…シエラ・テールの高潔なる異端者は、他種族の詮索に付き合う無駄な時間をあいにく持ち合わせていないが、君は、我々に拾われた幸運をもっと素直に喜ぶべきだな。瀕死の君を回復させることは、ここにいるラーネイレ以外の何者にも不可能だっただろう。なにせ彼女はエレアの…	…그렇게 신기한 것 보듯 쳐다보지 말게. 짐작대로 우리는 이형의 숲에 사는 민족이네. 엘레아는… 시에라 테르의 고결한 이단자들은, 유감스럽게도 다른 종족의 캐묻기에 어울려 줄 한가한 시간이 없지. 그래도 자네는 우리에게 발견된 행운을 좀 더 순순히 기뻐해야 할 걸세. 죽어 가던 자네를 살릴 수 있는 이는 여기 있는 라네이레 말고는 없었을 테니까. 무엇보다 그녀는 엘레아의…
  夢…か… 	꿈…이었나…
 (Heavy!)	(매우 무거움)
 (Lomias grins. Looks like he buried it unnoticed.)	(로미아스가 씩 웃었다. 아무래도 이 가짜 금괴는 그가 어느 틈엔가 묻어 둔 모양이다…)
+(More)	(계속)
 (ミヅキは落ち込んでいないだろうか？時間のある時にでも、九頭竜の城へ様子を見に行こう)	(미즈키가 낙담하고 있지는 않을까? 시간이 날 때 구두룡의 성에 찾아가 살펴봐야 한다.)
 (凄く重い)	(매우 무거움)
+(続く)	(계속)
 *Ally*	*동료*
 *Amenable*	*순종*
 *Cat*	*고양이*
@@ -28,6 +38,7 @@
 - Norne's travel guide -	- 노른의 모험 안내 -
 - ノルンの冒険ガイド -	- 노른의 모험 안내 -
 ... I can't speak well.	…말로 잘 표현할 수 없어.
+...Don't trust them! 	…그 말을 믿으면 안 돼!
 ...err..you really ate that thing? Oh well..	…정말로 먹어 버린 건가?
 ...stop your curious eyes. Yes, we are sons of Vindale whom they call the irreverent forest. Though we Eleas, noble but blameless "heretics", aren't keen to spend idle time responding to every senseless question about our race, you should be more thankful for your fate. If it weren't the lady Larnneire who cured your mortal wound, you wouldn't be hearing my tirade. For the lady is no ordinary Elea and only she can...	…그렇게 신기한 것 보듯 쳐다보지 말게. 짐작대로 우리는 이형의 숲에 사는 민족이네. 엘레아는… 시에라 테르의 고결한 이단자들은, 유감스럽게도 다른 종족의 캐묻기에 어울려 줄 한가한 시간이 없지. 그래도 자네는 우리에게 발견된 행운을 좀 더 순순히 기뻐해야 할 걸세. 죽어 가던 자네를 살릴 수 있는 이는 여기 있는 라네이레 말고는 없었을 테니까. 무엇보다 그녀는 엘레아의…
 ...what was that sound? ...Lomias, are you alright?	…방금 무슨 소리죠? …로미아스, 괜찮아요?
@@ -55,6 +66,7 @@
 4-Dimensional Pocket	4차원 주머니
 5 items limited sale (trade exp ++) 	하루 5개 한정 판매(교섭 경험치++)
 5ターン後距離5以内なら強攻撃	5턴 후 거리가 5 이내면 강력한 공격
+5行以上の文章が読めない。	다섯 줄 이상 되는 글을 읽지 못한다.
 666の幸運の低下	행운 666 감소
 <Azzrssil>	부정한 자 『아즈라시즐』
 <Caim>	카인
@@ -75,6 +87,8 @@
 <I'm rooting for you!>	「힘내세요, 응원하고 있어요!」
 <Issizzle>	어둠의 기형 『이스시즐』
 <Karam>	카람
+<Larnneire> the listener of wind	바람을 듣는 자 『라네이레』
+<Larnneire> the listener of wind Female	바람을 듣는 자 『라네이레』 (여성)
 <Lenas>	레나스
 <Lend>	렌드
 <Level 0> each individual's autonomy	강도 ０: 수용자의 자율에 맡긴다.
@@ -84,6 +98,8 @@
 <Lexus>	렉서스
 <Limit Power>	<능력 제한>
 <Limiter Vanish>	<리미터 해제>
+<Lomias> the messenger from Vindale	빈데일 숲의 사절 『로미아스』
+<Lomias> the messenger from Vindale Male	빈데일 숲의 사절 『로미아스』 (남성)
 <Please come to my house to play>	「다음에 꼭 우리 집에 놀러 오세요.」
 <Purge>	*퍼지*
 <Rank Raise Magic>    gauge5% /Raise rank by 2	랭크 상승 마법　　　게이지 5％/랭크를 2단계 올림
@@ -94,6 +110,7 @@
 <Unison Impact>	【합체 공격 발동】
 <Win>	*승리*
 <You don't have talents of  adventurer.>	「너 재능 없어.」
+<emp1>by pressing the space bar.<def>	<emp1>스페이스 키를 눌러 봐.<def>
 <emp1>マテリアル<def>はアイテムの生産や、カジノやガシャポンに使用できる。幾らでも持てるので、後々のためにもこまめに採取スポットを探索しておこう。	<emp1>재료<def>는 아이템 제작이나 카지노, 캡슐 뽑기에 쓸 수 있어. 얼마든지 가지고 다닐 수 있으니 나중을 위해 틈틈이 채집 지점을 탐색해 둬.
 <emp1>ランダムエリア<def>に入るときは、<emp1>危険度<def>に注意しよう。<emp1>危険度<def>は、○階相当で表示されるよ。○階が自分のレベルより高い所は危険だと考えていい。	<emp1>무작위 지역<def>에 들어갈 때는 <emp1>위험도<def>를 살펴봐. <emp1>위험도<def>는 몇 층에 해당하는지로 표시돼. 그 층수가 네 레벨보다 높다면 위험한 곳이라고 생각하면 돼.
 <emp1>採取スポット<def>では、<emp2>スペースキー<def>を押すことで、探索や採取ができるよ。	<emp1>채집 지점<def>에서는 <emp2>스페이스 키<def>를 눌러 탐색하거나 채집할 수 있어.
@@ -119,6 +136,83 @@
 @QM[第二部 災厄の影]	@QM[제2부 재앙의 그림자]
 @QS[Sub Quest]	@QS[부가 의뢰]
 @QS[サブクエスト]	@QS[부가 의뢰]
+@clock/Dawn	동틀녘
+@clock/Dusk	해질녘
+@clock/Midnight	한밤중
+@clock/Morning	아침
+@clock/Night	밤
+@clock/Noon	한낮
+@clock/夜	밤
+@clock/夜明け	동틀녘
+@clock/宵	해질녘
+@clock/昼	한낮
+@clock/朝	아침
+@clock/深夜	한밤중
+@day/Combat-day	전투의 날
+@day/Exploration-day	탐험의 날
+@day/Jobs-day	일하기 좋은 날
+@day/Study-day	공부하기 좋은 날
+@day/Training-day	수련의 날
+@day/仕事日和	일하기 좋은 날
+@day/修行日和	수련의 날
+@day/勉強日和	공부하기 좋은 날
+@day/戦闘日和	전투의 날
+@day/探索日和	탐험의 날
+@dialog/* Even if any disadvantage was caused by use of this software, the author does not take any responsibility. Please use at your own risk.	• 이 소프트웨어를 사용하여 발생하는 어떠한 불이익에 대해서도 제작자는 책임을 지지 않습니다. 이용 여부는 본인의 책임 아래 결정해 주세요.
+@dialog/* If you can comply the instructions and the above-mentioned items, you can use this software.	• 안내 사항과 위 내용을 이해하고 따를 수 있는 분만 이용해 주세요.
+@dialog/* There are many violent, sexual, bizarre, depictions.	• 폭력적이거나 성적인 묘사, 엽기적인 표현이 다수 포함되어 있습니다.
+@dialog/* There is no intention to deny the author, balance, setting, of the other secondary creations and original creation.	• 원작과 다른 2차 창작의 제작자나 그 작품의 밸런스와 설정을 부정할 의도는 없습니다.
+@dialog/* This software is currently in development. There are defect and abrupt change of balance.	• 현재 개발 중이므로 오류가 있거나 게임 밸런스가 크게 바뀔 수 있습니다.
+@dialog/Elonaplus is a freeware, This is a secondary creation of elona.	ElonaPlus는 무료로 배포되는 Elona의 2차 창작 게임입니다.
+@dialog/No	아니요
+@dialog/OK	확인
+@dialog/Yes	예
+@dialog/elonaplusはフリーウェアであり、elonaの二次創作です。	ElonaPlus는 무료로 배포되는 Elona의 2차 창작 게임입니다.
+@dialog/ただし、せっかく報告していただいても内容が不足しているとバグ修正に結びつかないため、テンプレートを用いた報告や検証にご協力ください。	제보 내용이 부족하면 오류를 고치기 어려우니, 양식에 맞춰 알려 주시고 재현 확인에도 협조해 주세요.
+@dialog/・βテストプレイヤーとしてデバッグ義務なく普通に遊ぶことができますが、プレイ中にバグに遭遇した場合は報告していただけると助かります(任意)。	• 베타 테스트에 참여해도 오류를 찾아낼 의무는 없습니다. 평소처럼 즐겨 주세요. 플레이 중 오류를 발견하셨다면 제보해 주시면 큰 도움이 됩니다. 제보는 선택 사항입니다.
+@dialog/・原作および他二次創作の作者・バランス・設定等を否定する意図はありません。	• 원작과 다른 2차 창작의 제작자나 그 작품의 밸런스와 설정을 부정할 의도는 없습니다.
+@dialog/・暴力的・性的・猟奇的な表現、描写が多数存在します。	• 폭력적이거나 성적인 묘사, 엽기적인 표현이 다수 포함되어 있습니다.
+@dialog/・本ソフトの利用によっていかなる不利益が発生した場合でも作者は一切の責任を負いません。自己責任で利用してください。	• 이 소프트웨어를 사용하여 발생하는 어떠한 불이익에 대해서도 제작자는 책임을 지지 않습니다. 이용 여부는 본인의 책임 아래 결정해 주세요.
+@dialog/・本ソフトウェアは現在開発中です。不具合やバランスの急激な変動があります。	• 현재 개발 중이므로 오류가 있거나 게임 밸런스가 크게 바뀔 수 있습니다.
+@dialog/・興味を持っていない人への過度の推薦や紹介は控え、wikiへの誘導程度に留めてください。	• 관심이 없는 분에게는 지나치게 권하거나 소개하지 마시고, 위키를 안내하는 정도로 그쳐 주세요.
+@dialog/同梱の説明書(elona,elonaplus)にも目を通し、上記項目を含めて理解・承服できる方のみ利用できます。	동봉된 Elona와 ElonaPlus 설명서도 읽어 주세요. 위 내용을 포함한 안내를 이해하고 동의하는 분만 이용할 수 있습니다.
+@dialog/＜利用規約＞	이용 약관
+@home/Attractive house	눈길을 끄는 집
+@home/Average house	그럭저럭 괜찮은 집
+@home/Beggar's shack	거지의 판잣집
+@home/Celebrity mansion	손꼽히는 명저택
+@home/Cozy mansion	살고 싶은 집
+@home/Dream mansion	꿈의 보금자리
+@home/Heaven of Tyris	이르바의 낙원
+@home/Home	우리 집
+@home/Peasant's shack	가난한 이의 오두막
+@home/Poor house	허름한 집
+@home/Royal mansion	최고급 저택
+@hud/Lv	레벨
+@hud/Sp	기력
+@log/ Welcome traveler! 	여행자여, 어서 오세요!
+@log/"Hey... This is a fine looking cave. I oughta enquire about it sometime. Everyone needs a hideaway..."	“이 동굴, 꽤 살 만해 보이는걸. 나중에 한번 알아봐야겠어. 누구나 숨을 곳 하나쯤은 있어야지.”
+@log/"Man, that girl at the pub... She could clean my glass if you know what I mean!"	“그 술집 아가씨 말이야… 햐, 아주 사람을 홀리더군!”
+@log/"Pah! It would take a child less than a day to walk to Vernis, we won't be late."	“흥, 베르니스 광산촌까지는 아이 걸음으로도 하루면 충분해. 늦을 일 없어.”
+@log/"Wait'll they hear the news we bring. And they think they have problems. Hah!"	“우리가 가져온 소식을 들으면 뭐라고 할까? 지금도 걱정이 태산이라는데 말이야.”
+@log/*saving*	*저장 중*
+@log/Do you want to save the game and exit?	모험을 저장하고 종료할까요?
+@log/Something is put on the ground.	무언가 발치로 굴러왔다.
+@log/You can't save the game in a user made map. Exit anyway?	이 지도에서는 저장할 수 없습니다. 그래도 종료할까요?
+@log/You hear someone testing the string of his bow.	누군가 활시위를 손보는 소리가 들린다.
+@log/You regain consciousness.	정신을 차렸다.
+@log/You search the surroundings carefully.	주위를 주의 깊게 살폈다.
+@log/You see a garbage here.	바닥에 쓰레기가 있다.
+@log/You see a stone here.	바닥에 돌이 있다.
+@log/home-rank	가구 {1}점 · 가보 {2}점 · 집 순위 {3}위→{4}위. 새 칭호는 〈{5}〉.
+@weather/*エーテル*	에테르 바람
+@weather/Etherwind	에테르 바람
+@weather/Hard rain	뇌우
+@weather/Rain	비
+@weather/Snow	눈
+@weather/雨	비
+@weather/雪	눈
+@weather/雷雨	뇌우
 A cursed weed.	저주받은 풀.
 A faintly blueish weed.	은은하게 푸른 풀.
 A faintly reddish weed.	은은하게 붉은 풀.
@@ -185,7 +279,51 @@ Almost kill target	적을 빈사로 만듦
 Alright, I will try.	결과는 짐작이 가지만 해 볼까…
 Alright, we're finished. You should already know how to survive in North Tyris by now.	잘했네. 이걸로 북부 티리스에서 살아갈 기본 지식은 익힌 셈이군. 자신의 상태를 살피고 신중하게 행동한다면, 다시는 빈사 상태로 거만한 엘레아에게 주워져 훈계나 듣는 꼴은 되지 않겠지. (로미아스가 씩 웃었다.)
 Also, remember that [space] key is a very useful key. When there's an object under your foot, it automatically chooses a suitable action for you.	z 키뿐 아니라 스페이스 키를 쓰는 법도 기억해 두게. 발밑에 무엇이 있는지에 따라 알맞은 행동을 자동으로 골라 주지. 계단이 있으면 오르내리기, 보물 상자가 있으면 「열기」, 제단이 있으면 「제물 바치기」를 선택하는 편리한 키라네.
+Although adapt to different environments,	낯선 환경에도 금세 적응하지만,
+Although always easygoing,	늘 태연자약하지만,
+Although always polite,	예의 바르고 꼼꼼하지만,
+Although bold and courageous,	대담하고 배짱도 두둑하지만,
+Although curious and sociable,	호기심이 많고 붙임성이 좋지만,
+Although doesn't get depressed even when unpleasant things happen,	싫은 일을 겪어도 기죽지 않지만,
+Although doesn't leave people in trouble alone,	곤경에 처한 사람을 그냥 지나치지 못하지만,
+Although doesn't sweat the small stuff,	사소한 일은 신경 쓰지 않지만,
+Although endure hardships,	역경을 견뎌 내는 근성이 있지만,
+Although gentle and merciful,	온화하고 자비롭지만,
+Although good at gathering information,	정보를 모으는 데 능하지만,
+Although good at identifying the good points of others,	다른 사람의 장점을 잘 알아보지만,
+Although good at paying attention to small details,	사소한 데까지 마음을 쓰지만,
+Although good at supporting others,	다른 사람을 잘 도와주지만,
+Although good at taking care of others,	이러니저러니 해도 남을 잘 챙기지만,
+Although have a strong desire to improve,	발전하려는 의지와 도전 정신이 강하지만,
+Although have a strong resolve,	굳은 각오를 품고 있지만,
+Although have a strong sense of responsibility,	누구보다 책임감이 강하지만,
+Although have an excellent memory,	기억력이 빼어나지만,
+Although have extraordinary imagination,	발상이 남다르지만,
+Although have no ulterior motives and are straightforward,	겉과 속이 같고 뒤끝이 없지만,
+Although have strong loyalty and kindness,	의리를 지키고 인정이 많지만,
+Although have the ability to bring everyone together,	사람들을 하나로 모으는 통솔력이 있지만,
+Although have the ability to see the big picture,	큰 흐름을 볼 줄 알지만,
+Although have the strength to not rely on anyone,	누구에게도 기대지 않을 만큼 강하지만,
+Although have virtue and is loved by everyone,	인덕이 있어 모두가 따르지만,
+Although highly proactive,	행동력 하나는 남다르지만,
+Although kind and tolerant,	상냥하고 포용력이 있지만,
+Although knowing many things,	여러 방면에 지식이 풍부하지만,
+Although never let guard down,	한 수 아래인 상대에게도 방심하지 않지만,
+Although possesses strong leadership,	사람들을 이끄는 힘이 있지만,
+Although remains confident even in times of crisis,	위기에 닥쳐도 당당하지만,
+Although show true worth in times of crisis,	궁지에서야 진가를 발휘하지만,
 Although there're many actions you can perform, basically you can access them by using only 3 keys, [z],[x] and [c].	모든 행동은 z, x, c 세 키로 선택할 수 있네. z 키는 주로 주문이나 기술 같은 행동, x 키는 아이템 조작, c 키는 능력 확인이나 장비 변경에 쓰지.
+Although think flexibly according to the situation,	상황에 따라 유연하게 생각하지만,
+Although value bonds with others,	사람들과 맺은 인연을 소중히 여기지만,
+Although work hard for others,	남을 위해서라면 힘을 낼 수 있지만,
+Although you are always strict with yourself,	성실하고 자신에게 엄격하지만,
+Although you are calm and collected,	침착하고 판단력이 뛰어나지만,
+Although you are ordinary,	대체로 평범하지만,
+Although you are passionate at heart,	심성이 곧고 열정적이지만,
+Although you are the life of the party,	쾌활해서 주변 분위기를 띄우지만,
+Although you have a keen eye,	관찰력이 날카롭지만,
+Although you have the brains of a genius,	천재적인 두뇌를 지녔지만,
+Although you never give up,	어떤 상황에서도 포기하지 않지만,
 Ambidextrous	쌍수 무기 숙련
 Ambitious scientist Lv5	생화학자의 야망 5층 수준
 Amenable	순종
@@ -240,6 +378,7 @@ Attack with all ally	모두의 게이지를 전부 소모해 합체 공격
 Attacked roughly [depending on opponent's STR]	거친 공세를 받음　　（상대의 근력에 비례）
 Attacked slowly [depending on opponent's END]	애태우는 공세를 받음（상대의 내구에 비례）
 Attb Reroll	능력치 다시 굴리기
+Attract	관심도
 Attract attack	자신을 표적으로 삼게 한다.
 Attribute	어트리뷰트
 Attribute Bonus	능력치 보너스
@@ -315,14 +454,18 @@ Browbeat	위협
 Brute force	출혈을 일으키는 절단/게이지 100％ 소모
 Bubble Storm	거품의 폭풍
 Buff Bunish	축복을 불태워 없앤다.
+Burden	무거운 짐
+Burden!	압박
 Burn MP	MP 소모 범위 공격
 Burn Scrolls	작열 그림 두루마리
 Burning Storm	작열의 폭풍
 By moving towards a target, you automatically attack it with your close range weapon. To use your long range weapon, you can either press [z] and choose [Shoot] or simply press [f] (Fire). You will shoot a nearby enemy. If you want to change your target, press [*].	근접 공격은 상대가 있는 방향의 키를 누르기만 하면 되네. 사격도 z 키에서 사격을 선택하면 가장 가까운 적을 자동으로 공격하지. 공격할 적을 미리 정하고 싶다면 * 키를 누르면 되네.
+Bye bye.	작별 인사
 Call Ally	지정한 동료를 부른다/대기시킨다.
 Call Familiar	사역마 부르기
 Call for help/gauge30	게이지 30％를 소모해 도움을 청한다.
 Camp	수용소
+Can you tell me the history of you? I do not mind even if you make a secret.	어떤 삶을 살아왔는지 정한다. 비밀로 해도 된다.
 Cannibalism	식인
 Capsule for collect	[회수용 캡슐]
 Card key	[카드키]
@@ -370,6 +513,7 @@ Choose your Alias.	모험가의 이명을 선택한다.
 Choose your feats wisely.	특성은 캐릭터가 지닌 유용한 자질이다. 세 가지까지 고를 수 있다.
 Choose your language and press the enter key	원문 언어를 고르고 Enter 키를 누르세요.
 Clash Rush	필사 돌격
+Class	직업
 Class Selection	직업 선택
 Claymore	클레이모어
 Clear Mind	명경지수
@@ -388,6 +532,7 @@ Cold Res-	냉기 약점
 Collected Power	힘의 집약
 Color Blind	색약
 Combat Rolls	전투 보정
+Combat-day / 	전투하기 좋은 날 / 
 Companion of Princess Lv1	공주의 말동무 1층 수준
 Comparable	어깨를 나란히 하는 자
 Competitor	경쟁 상대
@@ -515,6 +660,7 @@ Discernment	간별
 Discovery	아이템 발견
 Disinfection	소독
 Displays your fishing skill.	낚시를 할 수 있게 한다.
+Dist	사격
 Distant Attack	원거리 타격
 Distant Attack 7	원거리 타격７
 Distant attack.	사거리 있음/일반 근접 공격
@@ -546,6 +692,7 @@ Dominate	지배
 Dominate target	대상 지배/동료로 삼을 수 없는 대상은 마비
 Don't mock me you filthy wretch.	헛소리하지 마라.
 Don't worry. It appears this putit had been kept as pet by someone. It is kind of...cute.	이 녀석 말인가? 걱정할 것 없네. 전에 누군가가 애완동물로 길렀겠지. 후후… 나를 꽤 따르는 모양이군.
+Done    	완료    
 Done...	감정했다.
 Door Creation	문 생성
 Doting	지극한 사랑
@@ -607,6 +754,8 @@ Enter 1 million gold	100만 gold 넣기
 Enter 10 million gold	1000만 gold 넣기
 Enter 100 million gold	1억 gold 넣기
 Enter 100 thousand gold	10만 gold 넣기
+Enter Key [Reroll]  p [Portrait]  Shift,Esc [Confirm]	Enter [다시 뽑기]  p [초상화]  Shift,Esc [최종 확인]
+Enter [Gain Feat]  +,- [Page]  Shift,Esc [Close]  z,x [Ally]	Enter [특성 습득]  +,- [쪽]  Shift,Esc [닫기]  z,x [동료]
 Entrance can be seen in a corner of the huge hatch.	거대한 해치의 구석에 입구가 보인다.
 Equip Wt	장비 무게
 Equipment	장비
@@ -622,6 +771,7 @@ Ether blaster	[에테르 블래스터]
 Ether fragment	에테르 조각
 Eulderna	에우데르나
 Eulderna blimp	에우데르나 마도선
+Evade	회피
 Evasion	회피
 Everyone is frightened when you talk.[CHR-10]	당신이 말하면 모두 도망간다[매력 -10]
 Examine	살펴보기
@@ -632,6 +782,7 @@ Expend essential oil	동료 MP 회복·적 약화/정유 소모
 Expert Accountant	숙련 회계사
 Expert Ascetic	숙련 고행자
 Expert Quartermaster	숙련 보급관
+Exploration-day / 	탐색하기 좋은 날 / 
 Explosion	혼의 일격
 Exterminate snail.	한가하면 달팽이 퇴치
 Extermination Breath	섬멸 가변 방사
@@ -659,7 +810,9 @@ Fear target	내구 속성 공격＋공포 부여
 Feat	특성
 Feather	깃털
 Feathers come out from your back.	당신의 등에 날개가 돋았다.
+Feats and Traits	특징과 체질
 Fellow	절친
+Female	여성
 Fighters Guild	전사 길드
 Fill Charge	마력 충전
 Final Form Shift	최종 형태 전환
@@ -680,6 +833,7 @@ Flexible Joint	유연한 관절
 Flooded and silence	시야 안을 물로 바꿈/범위 내 침묵
 Foe	매우 싫음
 Follow while breaking apart.	따로 행동할 때도 따라오기
+For some reason, you were asleep for a long time.	사연이 있어 기나긴 잠에 빠져 있었다.
 Forbid target move	대상 이동 불가
 Forced draft	강제 연행
 Forest	숲
@@ -696,7 +850,9 @@ Friend	친구
 From the sea of stars Lv140	머나먼 별의 바다에서 140층 수준
 From the start	처음부터
 GHAND	광휘의 손길
+Game Setting	게임 설정
 Gardening	재배
+Gardening is your hobby.	정원 가꾸기가 취미다.
 Garziem will contact me if anything happens.	갈지엠은 무슨 일이 있으면 연락하기로 했다.
 Gem Power	수호석
 Gender	성별
@@ -770,6 +926,7 @@ Harvest Mana	마나 회복
 Harvest Ship	별을 건너는 수확선
 Hate	싫음
 Hatred dominates your soul.	당신은 증오에 지배당했다.
+Having too much stuff in your inventory burdens	물건을 너무 많이 들고 다니면
 Hawk Eye	매의 눈
 Hazard Recipe	위험한 조리법
 Heal Critical	치명상 치유
@@ -789,11 +946,14 @@ Heh.	훗.
 Height	키
 Helm Smasher	투구 가르기
 Hemorrhage	대출혈
+Here's my first tip for you.	첫 번째 요령을 알려 줄게.
 Here, you can have this meat. Press [x], then press [9] a few times to select the <Eat> menu. Once there, select the meat on the ground.	자네 발밑에 음식을 놓았네. x 키를 누르고 숫자 키패드로 「먹기」 메뉴로 이동한 뒤, 발밑의 음식을 고르게.
 Hermit's magic stone	은자의 마석
 Hero	영웅
 Hidden Explosive	숨겨 둔 폭약
+Hint:	설명:
 Hip Attack	엉덩이 공격
+Hit	명중
 Hit the enter key to reroll your personal history.	결정 키를 누르면 나이와 체격을 다시 정할 수 있다.
 Hmm...Please keep this amulet. It may come in handy someday.	그러고 보니… 이 부적을 가지고 있어요. 언젠가 도움이 될지도 모르니까요.
 Hold enemy/Tickling	속박/조건에 따라 SP·게이지 감소
@@ -808,6 +968,7 @@ However, as days passed by and she regained her health, the woman had come to re
 Howling Wave	굉음의 파동
 Howling weed	울부짖는 풀
 Huh, sounds like even you have a soft spot...Come here, the injured is about to wake up.	후후! 당신에게도 다정한 구석이 있네요. …이리 와 봐요. 다친 분이 정신을 차린 것 같아요.
+Hunting is your hobby.	사냥이 취미다.
 Hurry to close the book	급히 책 덮기
 Husky Voice	쉰 목소리
 Hydro Bolt	물 볼트
@@ -851,6 +1012,7 @@ I have to go to Melugas once.	멜가스로 가서 의뢰를 확인해야 한다.
 I have to hold the battle line to gain time while the Palmian army retreats. A messenger will inform me when it's done.	팔미아군이 철수를 마칠 때까지 가미카제 특공대의 맹공을 버텨야 한다. 팔미아군이 철수하면 소식이 올 것이다.
 I have to talk with <Sophia> at Sacred Library of Irva.	신립 도서관에서 소피아와 이야기해야 한다. 180～200층 수준
 I have to visit Naplus of Eirel to report.	이제 에이렐의 나플라스에게 보고만 하면 된다.
+I heard some lazy guides are telling novices to 	초보자에게 집에서 마법서를 읽으라고
 I hunt pirate chief.I report to Zernard in Kurualm.	해적단장을 처치했다. 크루알름의 자나드에게 보고해야 한다.
 I just wanted to say hi.	그냥 인사하러 왔어.
 I like you a little.	꽤 좋아해.
@@ -939,8 +1101,11 @@ If I have time, I would like to visit Deep-sea castle to comfort <Abyss Princess
 If you die even once, then you will not be able to revive.	한 번 죽으면 되살아날 수 없으며, 그 자리에서 모험이 끝납니다.
 If you haven't set your destination yet, you might want to visit Vernis. It's a mining town located south of here.	아직 목적지를 정하지 않았다면 남쪽의 탄광 마을 베르니스로 가 보세요. 당신이 찾는 것이 그곳에 있을지도 몰라요.
 If you purchase the maid house, I need to meet the owner who resides in Ludus.	주인에게 저택을 사들여야 한다. 주인은 루두스에 있다.
+If you want to know more about the world map,	세계 지도에 관해 더 알고 싶으면
 Illusion Roar	몽환의 포효
 Impact Gunfire	중충격 단동탄
+Impress	우호도
+Imprisonment is your hobby.	사람을 감금하는 게 취미다.
 Improved Ambidextrous	쌍수 무기의 달인
 Improves effectiveness of magic devices, Enhance rods.	마도구를 효과적으로 다룬다/마법봉 강화
 Improves your cooking skill.	요리 솜씨를 높인다.
@@ -948,6 +1113,8 @@ In pleasure lose MP field/gauge80	전역의 기분 좋은 일 도중 MP 감소/�
 In the darkness the empty at the center of the lake, you can see the faint light.	호수 한가운데 뻥 뚫린 어둠 속에서 희미한 빛이 보인다.
 In the desert, you can see the cave.	언덕 기슭에 입구가 작은 동굴이 있다.
 In the desert, you can see the tower.	사막에 탑이 우뚝 서 있다. 탑 윗부분이 아른거려 보인다.
+In the past you were a villain.	한때 악명이 자자한 악인이었다.
+In the world map, time passes at a lot faster	세계 지도에서는 시간이 훨씬 빨리 흘러.
 In your business life, you honed your ability to judge your opponents.	장사하면서 상대를 꿰뚫어 보는 안목을 기른다.
 InSAN	광기
 Incarnate an Adventurer	모험가 계승
@@ -1027,6 +1194,7 @@ Japanese	일본어
 Jeweler	보석 세공
 Jiu-jitsu	유술
 Job	의뢰
+Jobs-day / 	일하기 좋은 날 / 
 Joining forces and break the lock	힘을 모아 자물쇠 파괴/내용물 소폭 손상
 Joining the Fighters Guild	전사 길드 심사
 Joining the Mages Guild	마법사 길드 심사
@@ -1035,6 +1203,7 @@ Journeyman Ascetic	고행자
 Juere	주아
 Jumping Drop	도약 살법
 Jure	주아
+Just living is tough, so you embark to find better work.	살림이 어려워져 타향으로 돈을 벌러 떠났다.
 Just whatever [reset the stance]	기분 내키는 대로（태세 해제）
 Jyusou Goushin	주장호신
 Kamikakushi	종이 숨기기
@@ -1043,6 +1212,7 @@ Kamui	신위
 Karavika holds a concert at the end of the month. But security guards tend to be short.	올드란의 카라비카는 월말에 콘서트를 연다. 하지만 경비원이 부족할 때가 많은 모양이다.
 Karma	카르마
 Karma dependent PVDV atk	카르마에 따른 PV·DV 속성 공격
+Keep secret	비밀로 하기
 Kijin Shibari	귀신 속박
 Kill you.	예
 Killing Dance	사신의 무도
@@ -1122,6 +1292,7 @@ Lock Picking	자물쇠 따기
 Lock with melee critical field/gauge80	전역 근접 치명타 시 속박/게이지 80％ 소모
 Locked items will	고정한 능력치는
 Locks left: 	남은 고정 횟수: 
+Locks left: 2	남은 잠금 횟수: 2
 Lomias and Larnneire leave the cave.	두 사람은 짐을 챙겨 동굴을 떠났다.
 Lomias releases a tiny cute creature.	로미아스가 숨겨 두었던 푸팃를 풀어놓았다.
 Long Distance Runner	장거리 주자
@@ -1194,6 +1365,7 @@ Maid house	메이드 저택
 Make a strut	지지대 세우기
 Makes the target dim and the power gauge drops slightly.	대상을 몽롱하게 만들고 파워 게이지도 소폭 감소
 Makes you able to evade inaccurate attacks.	부정확한 공격을 확실히 피한다.
+Male	남성
 Mana	마나
 Mana Burst	마나 해방
 Mani's Disassembly	마니의 분해술
@@ -1213,6 +1385,7 @@ Meeewmew!	뮤뮤!
 Mefan of Arcbelc asked me to kidnap town children. Maybe or maybe not do it.	아크 벨크의 메판에게 마을 아이들을 납치해 오라는 의뢰를 받았다. 이런 의뢰를 억지로 완수할 필요는 없다.
 Megid Flame	불타는 파동
 Melancholy	우울
+Melee1	무기1
 Melkawn	멜칸
 Melt Clinch	용해 클린치
 Melugas	멜가스
@@ -1317,6 +1490,7 @@ Older Sister in Ludus asked me to eliminate the sister who squatting in the Base
 Once enlarge attack power ten times	일반 공격·마법·방사 기술의 공격력 1회 상승
 One Point Shoot	일점 연발총
 One day a woman rushed into his hut and passed out, having been badly wounded by a pack of wolves. He treated her with the knowledge and fear that his ugly body might scare her. This fear turned into reality soon enough for she cried out as she woke up.	어느 날, 늑대에게 습격당해 다친 여인이 오두막으로 뛰어들어와 쓰러졌어요. 왕자는 망설이다가도 여인을 보살폈지요. 여인은 물론 왕자의 모습을 보고 겁에 질려 울었어요.
+One day, you were summoned to this world.	어느 날 이 세계에 소환되었다.
 Onslaught	돌격 태세로 전환
 Options	설정
 Oracle	신탁
@@ -1329,6 +1503,8 @@ OverLimit-Throw	혼신의 투척
 Overdose	오버도즈
 Overdose Mode	오버도즈 모드
 Overdoseモード	오버도즈 모드
+Overweight	중량 초과
+Overweight!	짓눌리는 중
 Owner	주인
 PC	PC
 PCを襲わせる	PC를 공격하게 한다.
@@ -1400,9 +1576,12 @@ Prevents your allies to get hit by your spells.	주문으로 인한 동료의 �
 Priest	사제
 Princess Silvia is mentally deranged and it seems she cannot distinguish between people.If I speak to her now, may be mistaken for someone. 	연기와 파이프 여관의 실비아 황녀는 누가 누구인지도 구별하지 못하는 모양이다. 섣불리 말을 걸면 다른 사람으로 오해받을지도 모른다.
 Prison	감옥
+Proceed	결정
 Profile	프로필
+Profile Reroll	경력 다시 뽑기
 Prohibit the picking up items	아이템 줍기 금지/해제
 Propagate greatness of god.	가끔 포교 활동
+Prot	피해 경감
 Provoke	도발
 Psychic Wave	사이킥 웨이브
 Psychoanalysis	정신 분석
@@ -1423,6 +1602,7 @@ RES+ fire,cold,lightning,mind,nerve,nether,poison,sound,chaos,darkness	화염·�
 RES+ magic	마법 내성 획득
 RES- fire,cold,lightning,and stop regeneration	화염·냉기·전격 내성 감소/자연 회복 방해
 RES- mind,nerve,nether,poison,sound,chaos,darkness	암흑·환혹·독·지옥·음파·신경·혼돈 내성 감소
+Race	종족
 Race Selection	종족 선택
 Race: 	종족: 
 Rain of sanity	광기 치유의 비
@@ -1440,12 +1620,17 @@ Reduce avoidance	회피 일시 감소/게이지 100％ 소모
 Reduce power gauge of surrounding enemies.	MP를 소모해 주변 적의 게이지 -50％
 Rehmido	레미드 유적
 Reliance	의존
+Remember to stay on road as monsters are	길을 갈 땐 되도록 가도를 따라가.
 Removal of sister Lv80	야한 여동생 80층 수준
 Remove all hexes	모든 저주(hex) 제거
 Remove one hex	저주(hex) 1개 제거
 Renton of Lumiest is looking for the fairy tale books written by Rachael. I should bring it to him if I happen to find one. There're total of 4 books in the series.	루미에스트의 렌턴이 레이첼이라는 동화 작가가 그린 그림책을 찾고 있다. 그림책은 모두 4권이라고 한다. 전부 찾으면 렌턴에게 보고해야 한다.
 Repair the wound	상처 보수
 Reprimand	징벌의 빛
+Reroll	다시 굴리기
+Reroll all	모두 다시 뽑기
+Reroll first half	앞부분 다시 뽑기
+Reroll second half	뒷부분 다시 뽑기
 Rescue request	구원 요청
 Researcher crisis Lv180	조사대 궤멸의 위기 180층 수준
 Researching poisons leads you to a method to poison others.	독을 연구한 결과 독의 손길을 익힌다.
@@ -1488,6 +1673,7 @@ Revolve enough to penetrate	관통률 상승·필중 치명타/게이지 100％ 
 Reward  : 	보수: 
 Ride on	타기
 Right of tag	태그 오른쪽
+Right,left [Change]  Shift,Esc [Close]	←,→ [변경]  Shift,Esc [닫기]
 Rilian of Vernis asked me to find her puppy named poppy in the puppy's cave located east of Vernis.	베르니스의 리리안에게 길 잃은 강아지 포피를 찾아 달라는 부탁을 받았다. 강아지는 베르니스 바로 동쪽의 동굴에 있는 모양이다.
 Rival	절차탁마
 Roam while breaking apart.	따로 행동할 때는 멀리 산책
@@ -1509,6 +1695,7 @@ Saint Blade	성자의 빛의 칼날
 Saint's magic stone	성자의 마석
 Sand Cannon	모래먼지 포
 Sap of Yaggdrasil	세계수의 수액
+Save slots are full. You have to delete some of your adventurers.	모험가를 더 저장할 수 없다. 기존 모험가를 삭제해야 한다.
 Scales of sun	태양의 저울
 Scavenge	먹어 치우기
 Scythe	낫
@@ -1520,6 +1707,8 @@ Send chara and chain cut	대상의 적정 거리로 보냄/Chain 끊기
 Send throw	짐승 날리기
 Sense Object	물질 감지
 Serious Begging	진심 어린 구걸
+Set Basic	기본 설정
+Set Detail	상세 설정
 Set Mine	발밑에 지뢰 설치
 Sewer sweeping Lv23	하수도 대작전 23층 수준
 Sex	성별
@@ -1534,6 +1723,8 @@ Shelter	대피소
 Shield	방패
 Shield Bash	방패 강타
 Shield Parry	방패 받아넘기기
+Shift,Esc [Back]  	Shift,Esc [뒤로]  
+Shift,Esc [戻る]  	Shift,Esc [뒤로]  
 ShikiOrigami	종이 식신
 ShikiOrigami-Crane	종이 식신·환혹 종이학
 ShikiOrigami-Shuriken	종이 식신·거친 종이 수리검
@@ -1577,6 +1768,7 @@ Somehow ask for forgiveness	어떻게든 살려 달라고 빈다.
 Somehow it's not cooling down.	어째서인지 식지 않는다.
 Something is killed.	무언가가 죽었다.
 Something is put on the ground.	무언가가 발밑으로 굴러왔다.
+Sometimes failure of reading also leads	마법서를 잘못 읽으면 무시무시한
 Sorry, but the name is already taken.	그 이름을 쓰는 모험가가 이미 있다.
 Soul Mate	영혼의 벗
 Sound	음파야.
@@ -1591,6 +1783,7 @@ South Tyris calls me.	남부 티리스가 당신을 부르고 있다. 55층 수�
 South Tyris north border	티리스 관문 남쪽
 Space retention	공간 장악
 Spell limit/Stock does not decrease	주문 재고 소모 무효화·성공률 조정 전환
+SpellPow	주문 위력
 Spinning Throw	초회전
 Spread atrophy and chills around.	시야 안에 위축과 떨림을 퍼뜨린다.
 Squeeze	쥐어짜기
@@ -1619,6 +1812,7 @@ Strong Arm	강한 팔
 Struck Out	스트라이크 아웃
 Struggle against insanity Lv30	광기와의 싸움 30층 수준
 Student	제자
+Study-day / 	공부하기 좋은 날 / 
 Stupid	치매
 Subjection	복종
 Successor	후계자
@@ -1736,6 +1930,7 @@ Thieves Guild	도적 길드
 Thieves' hideout Lv2	술 도둑 2층 수준
 Thin tentacles are growing from you. [Tentacles runaway during battle and interference]	당신에게는 가느다란 촉수가 돋아 있다[전투·간섭 시 촉수 폭주]
 This cave...it's a good place to keep out the rain. Lomias, check the inner chamber to be sure there is no danger lurking here.	이 동굴… 비를 피하기에는 알맞겠어요. 로미아스, 안쪽에 위험한 것이 없는지 살펴봐 줘요.
+This character isn't currently blessed or hexed.	현재 적용 중인 지속 효과가 없다.
 This defender can use Lay on hand to heal a deadly wounded ally. The ability becomes re-useable after sleeping.	이 수호자는 안수로 치명상을 입은 동료를 회복시킬 수 있다. 잠을 자면 안수를 다시 사용할 수 있다.
 This is cool.	차가운 돌.
 This is magical.	마력이 깃들어 있다.
@@ -1768,6 +1963,7 @@ Tower	탑
 Trade	거래
 Trained Skill	습득 기술
 Training under a priest has taught you sacred skills.	신관 밑에서 수련해 신성한 힘을 행사할 수 있게 된다.
+Training-day / 	수련하기 좋은 날 / 
 TraitAestheticSense	심미안[교환 비율 상승]
 TraitBusiness Smile	영업용 미소[뇌쇄 공격 습득]
 TraitElegance	기품[매력/손님의 소지금 상승]
@@ -1800,6 +1996,7 @@ Unlucky	불운
 Urban area	시가지
 Use Network	네트워크 사용
 Use rod without reducing the remaining number.	공격 지팡이의 횟수 감소 무효화/위력 감소/SP 3 소모
+Use your home as a safe storage since the items 	집에 내려놓은 물건은 사라지지 않으니
 Use!	사용한다!
 Used when wielding a weapon with both hands.	양손으로 무기를 다루는 기술이다.
 Used when wielding two weapoms at the same time.	여러 무기를 다루는 기술이다.
@@ -1874,6 +2071,7 @@ Which town in the most south?	「Q. 다음 중 가장 남쪽에 있는 곳은?�
 Which village in the most east on South Tyris?	「Q. 남부 티리스의 가장 동쪽에 있는 마을의 이름은?」
 Which village in the most south?	「Q. 다음 중 가장 남쪽에 있는 곳은?」
 Which village in the most west?	「Q. 다음 중 가장 서쪽에 있는 곳은?」
+While friends with everyone,	누구에게나 살갑지만,
 Who is god of Element?	「Q. 원소의 신의 이름은?」
 Who is listener of wind?	「Q. 이형의 숲의 마녀라고도 불리는 엘레아 소녀는?」
 Who is the reporter of mage guild?	「Q. 마법사 길드 조사원의 이름은?」
@@ -1901,44 +2099,87 @@ Years of training strengthens your stamina.	오랜 특훈의 성과로 스태미
 Yerles	이에르스
 Yes	예
 Yes. Palmia is still far away. Perhaps, It was fortunate that we could have a little rest before everything begins.	그래, 알겠네. 팔미아까지는 아직 먼 길이지. 잠깐이나마 쉬어 간 게 다행이었을지도 모르겠군.
+You act terribly when drunk.	술버릇이 나쁘다.
+You actually come from the future.	실은 미래에서 왔다.
+You actually want to live quietly.	실은 조용히 살고 싶다.
 You already have too many guests in your home.	집이 이미 사람들로 가득하다.
 You appraise some items.	가방 속 물건 몇 가지의 정체를 알아냈다.
+You are a clone of a certain person.	어떤 인물의 복제 인간이다.
 You are a good man. [Karma limit +20]	당신은 선한 마음을 지녔다[카르마 상한 +20]
+You are a hard worker.	일에 열심이다.
 You are a journeyman of an ascetic. [HP+10%]	당신은 훌륭한 고행자다[HP +10%]
 You are a living mana battery.	당신의 마나는 지팡이에서 마력을 추출한다.
 You are a living mana battery. [Absorb mana from rods]	당신은 살아 있는 마나 배터리다[지팡이에서 마력 추출]
 You are a master of an ascetic. [HP+20%]	당신은 고행의 달인이다[HP +20%]
+You are a minion of an evil organization.	악의 조직에서 하수인 노릇을 한다.
+You are a self-proclaimed sadist.	자칭 가학 취향이다.
+You are a traumatized ex-soldier.	마음에 상처를 안고 군을 떠났다.
+You are a weapon created with forbidden technology.	금단의 기술로 만들어진 병기다.
 You are about to be burried...	곧 매장당할 것 같다…
+You are actually a gigantic pervert.	실은 지독한 변태다.
 You are addicted to potion. [Consume potions]	당신은 물약에 중독되어 있다[주기적으로 물약 소모]
 You are an apprentice of an ascetic. [HP+5%]	당신은 견습 고행자다[HP +5%]
 You are an expert of an ascetic. [HP+15%]	당신은 숙련 고행자다[HP +15%]
 You are an legendary ascetic. [HP+25%]	당신은 전설적인 고행자다[HP +25%]
+You are bad at lying.	거짓말에 서툴다.
+You are bad at remembering other people's names.	남의 얼굴과 이름을 잘 기억하지 못한다.
+You are bad with insects.	벌레를 무서워한다.
+You are been abused since childhood.	어릴 때부터 학대받았다.
+You are big foodie.	대단한 먹보다.
 You are blind in one eye. [PER-10]	당신은 한쪽 눈이 없다[지각 -10]
 You are charmed by the flavor of human flesh.	당신은 인육 맛의 포로가 되었다.
+You are cold to those you are not interested in.	관심 없는 상대에게는 쌀쌀맞다.
 You are disturbing.	방해야.
+You are easy to read.	속마음이 얼굴에 잘 드러난다.
 You are given physical damage reduction.	당신이 받는 물리 피해는 줄어든다.
 You are good at setting expenses off against tax. [TAX-15%]	당신은 세금 계산에 매우 능하다[세금 15% 감소]
+You are good at singing.	노래를 잘한다.
+You are greedy.	욕심이 사나운 구석이 있다.
+You are gullible.	남에게 잘 속는다.
+You are in enormous debt.	엄청난 빚을 지고 있다.
+You are in love with money.	돈이라면 사족을 못 쓴다.
+You are insensitive to the goodwill of others.	남이 보이는 호의를 잘 눈치채지 못한다.
+You are interesting in the clothes of the opposite sex.	이성의 옷에 관심이 있다.
+You are investigating various locations to gather information.	정보를 모으려고 각지에서 조사를 시작했다.
 You are lucky	당신은 행운의 소유자다.
 You are more sleepy during the day than at night. [Change in sleepiness]	당신은 밤보다 낮에 졸린다[졸린 시간대 변화]
 You are no longer a living mana battery.	당신의 마나가 원래대로 돌아왔다.
 You are no longer addicted to potion.	당신의 물약 중독이 사라졌다.
+You are not good at socializing.	사람 사귀는 데 서툴다.
 You are partially color-blind. [PER-5]	당신은 색약이다[지각 -5]
+You are quick to covet other people's things.	남의 물건을 쉽게 탐낸다.
 You are really stupid.[Memorization-8]	당신은 치매를 앓고 있다[암기 -8]
+You are self conscious.	남의 시선을 지나치게 의식한다.
 You are skilled with weapons on horseback. [Reduced hit penalty while riding]	당신은 말 위에서 무기를 잘 다룬다[승마 시 명중 불이익 완화]
 You are so cool.	정말 멋있어.
 You are so cute I could eat you up.	먹어 버리고 싶어.
 You are so cute.	정말 귀여워.
+You are starving for motherhood.	어머니의 정이 그립다.
 You are stupid.[Memorization-4]	당신은 정신이 조금 흐릿하다[암기 -4]
 You are subjected to the magic in the eyes by the ritual.	수상한 의식에 휘말려 눈에 주술이 걸린다.
+You are surprisingly servile.	무서울 만큼 비굴하다.
 You are surrounded by an aura that cures sanity.	당신은 주변의 광기를 완화한다.
+You are the illegitimate child of an affair.	불륜으로 태어나 남몰래 자란 자식이다.
+You are traveling around the world, wanting to see a wider world.	넓은 세상이 보고 싶어 이곳저곳을 구경하고 있다.
+You are undisciplined in private life.	사생활은 엉망이다.
+You are undisciplined in your private life.	사생활은 엉망이다.
 You are unstablizing space around you. [Random teleporation]	당신 주변의 공간은 뒤틀려 있다[무작위 순간이동]
 You are useless.	쓸모없어.
+You are very prideful.	자존심이 유난히 강하다.
 You are worrying about your joint creakings. [DEX-6]	당신은 관절통에 시달린다[기교 -6]
 You are...quite attractive. I'll buy you.	몸이 꽤 쓸 만하군… 좋아, 사겠어.
+You became an adventurer because you heard it was profitable.	돈벌이가 좋다는 말에 모험가가 되었다.
+You became an adventurer to protect something precious.	소중한 것을 지키려고 모험을 떠났다.
+You became an adventurer to seek fame.	명성을 얻으려고 모험가가 되었다.
+You became an adventurer, dreaming of a sudden turnaround.	인생을 단번에 뒤집을 꿈을 안고 모험가가 되었다.
+You become an adventurer at the recommendation of an acquaintance.	아는 사람의 권유로 모험가가 되었다.
 You become confident again.	당신은 명석해졌다.
 You become feebleminded.	당신은 정신이 흐릿해졌다.
 You become healthy again.	당신은 건강해졌다.
 You become weak, very weak.	당신은 쇠약해졌다.
+You can acquire 1 feats	특성을 1개 더 습득할 수 있다.
+You can acquire 2 feats	특성을 2개 더 습득할 수 있다.
+You can acquire 3 feats	특성을 3개 더 습득할 수 있다.
 You can also use other items by pressing [x]. For example, if you want to read a book, press [x], hit [9] a few times to select the <Read> menu, then choose a book you want to read.	음식 말고 다른 아이템도 마찬가지로 x 키로 다루면 되네. 이를테면 두루마리와 마법서는 「읽기」 메뉴에서, 마법봉은 「휘두르기」 메뉴에서 사용할 수 있지.
 You can attack it easy on the enemy.	당신은 적을 공격할 때 힘을 조절할 수 있다.
 You can bash with your shield more effect.	당신의 방패 공격에는 추가 효과가 있다.
@@ -1952,6 +2193,7 @@ You can handle multiple weapons. [Dual Wield+4]	당신은 여러 무기를 능�
 You can hypnotize single target.	당신은 최면을 걸 수 있다.
 You can insta-teleport to nearby tiles.	당신은 공간을 구부릴 수 있다.
 You can no longer accept human flesh.	당신은 인육의 맛에 질렸다.
+You can not remember the reason of your travel.	여행을 하는 이유조차 기억하지 못한다.
 You can perform skills or other actions including bashing and digging by pressing [z]. Here's a tip. You can bash doors to break locks and trees to get some fruits. It can be used to wake someone, but surely they won't be happy.	z 키로는 주문과 기술을 사용하거나 몸통박치기, 채굴 같은 특수한 행동을 할 수 있네. 잠긴 문을 부수거나 나무에서 열매를 떨어뜨리고 싶을 때는 몸통박치기를 해 보게.
 You can pick up items at your feet with the get...pressing [g], and drop items you're holding with the drop...pressing [d]. There is a carrying limit, so it's best not to carry around items you don't use often.	발밑의 아이템은 get… g 키로 줍고, 가진 아이템은 drop… d 키로 발밑에 내려놓을 수 있네. 소지할 수 있는 양에 한계가 있으니 자주 쓰지 않는 물건은 들고 다니지 않는 게 좋겠지.
 You can poison a creature.	당신은 독을 먹일 수 있다.
@@ -1963,14 +2205,44 @@ You can suck blood now.	당신은 피를 빨 수 있다.
 You can summon and manipulate magical plants.	당신은 마력이 깃든 식물을 불러내 조종할 수 있다.
 You can temporally strengthen your allies.	당신은 동료를 일시적으로 강하게 만들 수 있다.
 You can transform your magical energy into explosions.	당신은 자신의 마력을 폭발로 바꿀 수 있다.
+You can't read texts longer than five lines.	다섯 줄 이상 되는 글을 읽지 못한다.
 You can't wear equipment weight over 2s. [DV++]	당신은 무게가 2s를 넘는 물건을 장비할 수 없다[DV 상승]
 You concealed a sharp durable strings.	날카롭고 튼튼한 실을 숨겨 지닌다.
 You constantly have an attack of anemia. [Regeneration--]	당신의 얼굴에는 핏기가 전혀 없다[자연 치유 약화]
 You deceived me!?	날 속인 거야!?
+You destroyed your own hometown, for various reasons.	이런저런 사정으로 제 손으로 고향을 멸망시켰다.
 You discover the energy of the land.	땅이 지닌 에너지에 주목해 조종하는 방법을 찾는다.
+You do not trust others.	남을 믿지 않는다.
 You don't fear darkness. [RES Darkness+]	당신은 어둠에 익숙하다[암흑 내성 강화]
 You don't feel guilty. [Karma limit -20]	당신은 죄책감을 느끼지 않는다[카르마 상한 -20]
+You don't have any friends worth mentioning.	제대로 된 친구가 없다.
+You don't have much of a presence.	존재감이 희미하다.
+You don't want them smashing and breath-firing	녀석들이 집 안에서 난동을 부리고 불을 뿜어
+You easily get carried away.	조금만 부추겨도 금세 우쭐해진다.
+You embark as an adventurer because you didn't like your situation.	처한 환경이 마음에 들지 않아 모험가가 되었다.
+You embark because you fear for your life.	목숨을 노리는 이들을 피해 달아났다.
+You embark due to a revelation from god.	신의 계시를 받고 길을 떠났다.
+You embark due to admiring an adventurer, and wanting to be one yourself.	모험가를 동경하다가 자신도 모험가가 되었다.
+You embark due to being ousted from your hometown as a criminal.	죄를 짓고 고향에서 쫓겨났다.
+You embark in order to become stronger.	더 강해지려고 수행길에 올랐다.
+You embark in search of a missing person.	실종된 사람을 찾아 길을 떠났다.
+You embark in search of atonement.	지은 죄를 속죄하려고 길을 떠났다.
+You embark in search of excitement.	짜릿한 경험을 찾아 모험을 떠났다.
+You embark in search of romance.	낭만을 찾아 모험을 떠났다.
+You embark in search of undiscovered treasures.	아직 발견되지 않은 보물을 찾아 모험을 떠났다.
+You embark on adventure, guided by fate.	운명에 이끌려 모험을 떠났다.
+You embark on your journey lightheartedly.	별생각 없이 가벼운 마음으로 길을 떠났다.
+You embark to find yourself.	자신을 돌아보고자 길을 떠났다.
+You embark to flee from your past.	과거에서 달아나듯 길을 떠났다.
+You embark to fulfill an important promise.	소중한 약속을 지키려고 모험을 떠났다.
+You embark to help forget a broken heart.	실연의 아픔을 잊으려고 길을 떠났다.
+You embark to pursue the mysteries of an ancient civilization.	고대 문명의 수수께끼를 풀려고 길을 떠났다.
+You embark to travel the world.	명령을 받고 여러 나라를 돌게 되었다.
+You embark to work towards world domination.	세계 정복을 위해 길을 떠났다.
+You embark to work towards world peace.	세계 평화를 위해 길을 떠났다.
 You evade critical attack during you wear light equipments	경갑 착용 시 치명타 발생 무효화/일반 피해 소폭 감소
+You fail at the essentials.	결정적인 순간에 실수한다.
+You fall in love easily.	쉽게 사랑에 빠진다.
 You feel hot-headed.	당신의 피부가 차가워졌다.
 You feel steady.	당신 주변의 공간이 원래대로 돌아왔다.
 You feel unstable.	당신 주변의 공간이 뒤틀렸다.
@@ -1983,18 +2255,38 @@ You gain resistance to magic.	당신은 마법 내성을 얻었다.
 You generate gravity. [Weight+10%]	당신은 중력을 만들어 낸다[중량 +10%]
 You generate heavy gravity. [Weight+20%]	당신은 큰 중력을 만들어 낸다[중량 +20%]
 You generate massive gravity. [Weight+30%]	당신은 엄청난 중력을 만들어 낸다[중량 +30%]
+You got swallowed up and lost in a distortion in space-time.	일그러진 시공간에 휩쓸려 이곳에 흘러들었다.
+You grew up in a village with horrific customs.	끔찍한 악습이 남아 있는 마을에서 자랐다.
+You grew up normally in an ordinary home.	평범한 집안에서 평범하게 자랐다.
+You grew up without any inconveniences.	별 부족함 없이 자랐다.
+You had a mission you failed to achieve.	완수하지 못한 사명이 있다.
+You had no family.	태어날 때부터 혈혈단신이었다.
+You hate yourself.	자기 자신을 싫어한다.
+You have a bad habit of getting caught up in delusions.	툭하면 심한 망상에 빠진다.
+You have a desire to be messed up.	엉망으로 망가지고 싶은 욕망이 있다.
+You have a secret that you can't tell anyone.	아무에게도 들키고 싶지 않은 비밀이 있다.
+You have a strong attachment to life.	삶에 대한 집착이 강하다.
 You have a strong tolerance to poison. [RES Poison++]	당신은 독에 강한 면역이 있다[독 내성 강화]
 You have a torerance to poison. [RES Poison+]	당신은 독에 면역이 있다[독 내성 강화]
+You have amnesia.	기억을 잃어 지난날을 떠올리지 못한다.
 You have analyzed the magic bomb and devised a way to detonate your own magic.	마력 폭탄을 분석해 자신의 마력을 폭발로 바꾸는 방법을 고안한다.
 You have been taught the martial arts from the mysterious old man.	산에서 만난 수수께끼의 노인에게 고대의 무술을 전수받는다.
+You have come through a mysterious gate.	정체 모를 문을 지나 이곳에 왔다.
 You have completed the quest!	퀘스트를 완료했다!
 You have deciphered mysterious books and mastered the ancient magic of manipulating paper.	수수께끼의 책을 해독해 종이를 조종하는 고대 마법을 익힌다.
+You have experienced major trauma. 	마음에 큰 상처를 안고 있다.
+You have failed in life and have no choice but to set out on an adventure.	인생이 꼬여 모험을 떠나는 수밖에 없었다.
+You have followers.	제자가 있다.
 You have full of libido pathologically.	당신은 병적일 정도로 정력이 넘치기 시작했다.
 You have good stamina. [Stamina+]	당신은 지구력이 좋다[스태미나+]
 You have hidden something that can not be controlled.	당신 안에는 완전히 제어할 수 없는 무언가가 잠들어 있다.
 You have ideal arms. [STR+9]	당신의 팔은 근육 덩어리다[근력 +9]
 You have ideal legs. [SPD+15]	당신의 다리는 이상적인 형태다[속도 상승]
 You have lithe legs. [SPD+5]	당신의 다리는 유연하다[속도 상승]
+You have memories of your past life.	전생의 기억이 있다.
+You have multiple hearts.	심장이 여러 개다.
+You have no confidence in yourself. 	자신감이 없다.
+You have no sense of direction.	길눈이 어두워 툭하면 길을 잃는다.
 You have no trouble eating human flesh.	당신은 인육을 먹는 데 거부감이 없다.
 You have outstanding resistances.	당신은 높은 내성을 지녔다.
 You have outstanding stamina. [Stamina+++]	당신의 지구력은 무시무시하다[스태미나 상승]
@@ -2030,15 +2322,32 @@ You have weakness to magic.[RES Magic-]	당신은 마법에 약하다[마법 내
 You have weakness to poison.	당신은 독에 약하다.
 You have well-knit arms. [STR+3]	당신의 팔은 탄탄하다[근력 +3]
 You have well-muscled arms. [STR+6]	당신의 팔은 강력하다[근력 +6]
+You hide your personality from others.	또 다른 인격을 숨기고 있다.
 You hit upon an idea of insta-teleport from a dream.	꿈속에서 가까운 곳으로 순간이동하는 방법을 떠올린다.
+You hobby is tinkering with machines.	기계를 만지작거리는 게 취미다.
+You hold a powerful grudge against someone.	의외로 뒤끝이 있다.
 You just might be able to get more meat	어쩌면 고기를 많이 얻을 수도 있을 것 같다.
 You just might be able to get more skin	어쩌면 가죽을 많이 얻을 수도 있을 것 같다.
 You learn sexy dance.	넋을 잃고 바라볼 만한 춤을 익힌다.
 You learn the skill to understand and respond to enemy thoughts.	상대의 생각을 이해하고 대응하는 기술을 배운다.
 You learned how to summon magical plants from the piece of the note.	주운 수기 조각에서 특수한 식물을 소환하는 법을 알아낸다.
 You learned how to synchronize with your horse on the battlefield.	말과 함께 전장을 누비며 탈것과 호흡을 맞추는 법을 익힌다.
+You like making fun of others.	남을 놀리는 게 취미다.
+You like stuffed animals.	봉제 인형을 좋아한다.
+You like to exercise.	몸을 움직이는 걸 좋아한다.
+You like to see people's faces distorted in pain.	고통으로 일그러진 얼굴을 보는 게 좋다.
+You look down on others.	남을 깔본다.
 You lose resistance to lightning.	당신의 몸은 전기가 잘 통한다.
 You lose resistance to magic.	당신은 마법 내성을 잃었다.
+You lose your life and suddenly find yourself on a ship.	목숨을 잃었는데 눈을 떠 보니 배 위였다.
+You lost your hometown in a great disaster.	큰 재해로 고향을 잃었다.
+You lost your hometown in a war.	전쟁으로 고향을 잃었다.
+You lost your parents early.	일찍이 부모를 여의었다.
+You love shady things.	수상쩍은 짓을 몹시 좋아한다.
+You love small animals.	작은 동물을 무척 좋아한다.
+You love using violence.	폭력을 휘두르는 걸 좋아한다.
+You make lots of blunders.	덜렁대는 구석이 있다.
+You make terrible misunderstandings.	툭하면 크게 착각한다.
 You manipulate magic paper.	당신은 마법 종이를 조종한다.
 You manipulate magnetic force.	당신은 자력을 자유자재로 조종한다.
 You manipulate strings freely.	당신은 실을 자유자재로 조종한다.
@@ -2051,12 +2360,16 @@ You may have heard of this story before...	이런 이야기를 들어 본 적이
 You mentioned a fairy tale.	짐승으로 변한 왕자의 이야기를 듣는다.
 You might find chests containing loot in ruins. There's one nearby, open it.	미궁에서 발견한 보물 상자를 여는 법도 알아야겠군. 발밑에 상자를 놓을 테니 x 키나 스페이스 키로 열어 보게.
 You moe.	당신은 모에하다.
+You never forget food grudges.	먹을 것으로 맺힌 원한은 잊지 않는다.
 You obtain an old talisman! Quest items can be checked in the journal (j key).	퀘스트 아이템 [낡은 부적]을 얻었다. 퀘스트 아이템은 일지(j 키)에서 확인할 수 있다.
+You often misunderstand situations.	주변 사람들의 오해를 자주 산다.
 You prefer alone. [SPD+20% at the time alone]	당신은 혼자일 때 행동하기 편하다[단독 시 속도 +20%]
+You prefer bamboo shoots to mushrooms.	버섯보다 죽순을 좋아한다.
 You pursue speed more than anyone.	누구보다도 빠른 속도를 추구한다.
 You receive extra bonus points.	당신에게는 추가 성장 보너스가 주어진다.
 You reduce the hunger drop when you are hungry.	당신은 굶주렸을 때 포만도가 줄어드는 속도를 완화한다.
 You regain consciousness.	의식을 되찾았다.
+You risk your life for creative activities.	창작 활동에 목숨을 건다.
 You see Arcbelc. Visitors tour downtown.	아크 벨크의 거리가 보인다. 관광객들이 거리를 활보하고 있다.
 You see Eirel. It's atomosphere is restful.	에이렐의 거리가 보인다. 공기가 맑아 마음이 차분해진다.
 You see Lumiest. Murmuring of water pleasantly echos.	루미에스트의 도성이 보인다. 물 흐르는 소리가 들린다.
@@ -2085,17 +2398,52 @@ You see the ruin of  Rehmido. The new wheel of fortune starts to turn.	네피아
 You see the way to the back of the valley.	골짜기 안쪽에 큰길이 보인다.
 You see the way to the back of the valley. You somehow feel nostalgic and strangeness.	골짜기 안쪽에 큰길이 보인다. 어째서인지 그리움과 불길함이 함께 느껴진다.
 You see yerles base,Melugas. Soldiers run about hurriedly.	멜가스의 이에르스군 전선 기지가 보인다. 병사들이 분주히 뛰어다니고 있다.
+You set out on a journey in search of a marriage partner you have yet to meet.	아직 만난 적 없는 배필을 찾아 길을 떠났다.
+You set out on a journey to change a terrible future.	끔찍한 미래를 바꾸려고 길을 떠났다.
+You set out on a journey to find a way to lift a curse.	저주를 풀 방법을 찾아 길을 떠났다.
+You set out on a journey to restore your clan.	가문을 다시 일으키려고 길을 떠났다.
+You set out on a journey to track down the person you want revenge on.	복수할 상대를 뒤쫓아 길을 떠났다.
+You set out on an adventure, dreaming of passive income.	일하지 않고 돈 벌기를 꿈꾸며 모험을 떠났다.
 You shiver.	당신은 땀을 흘리기 시작했다.
 You should prepare well, if you want to survive long enough in Irva.	살아남으려면 어느 정도 실력은 갖춰야 한다.
+You sometimes have unnatural memory loss.	가끔 석연치 않게 기억이 끊긴다.
 You sometimes receive quality supplies.	당신은 가끔 질 좋은 보급품을 받는다.
+You spent your days in peace.	평온한 나날을 보냈다.
 You start to feel sleepy during the day.	당신은 낮에 졸음을 느끼기 시작했다.
 You start to generate gravity.	당신은 중력을 내뿜기 시작했다.
 You started feeling sleepy at night again.	당신은 다시 밤에 졸음을 느끼기 시작했다.
 You stumble over a stone and find a platinum coin.	아래를 보며 걷다가 운 좋게 백금화를 발견했다.
+You suffer from a rare disease.	괴질을 앓고 있다.
 You suffer from anemia. [Regeneration-]	당신은 혈색이 좋지 않다[자연 치유 약화]
 You take less damages from the mana reaction.	당신은 마나의 반동을 줄일 수 있다.
+You take pleasure in denying it to others.	남을 부정하는 데서 쾌감을 느낀다.
 You talk too much Lomias, even though the one injured before you is still dazed.	로미아스, 말이 너무 많아요. 상대가 정신도 제대로 들지 않은 부상자라고 해도요.
+You tend to put off things you don't like.	하기 싫은 일은 뒤로 미루곤 한다.
+You think humanity should be destroyed.	인류는 멸망해야 한다고 생각한다.
+You went on a journey to show yourself off.	자기 자랑을 하려고 길을 떠났다.
+You were a faithful servant.	충직한 하인이었다.
+You were a local lord.	한 지방을 다스리던 영주였다.
+You were a member of a royal family.	왕족의 일원이었다.
+You were a powerful god.	강대한 힘을 지닌 신족이었다.
+You were a prisoner for a long time.	오랫동안 포로로 지냈다.
+You were a slave.	한때 노예였다.
+You were actually being raised by your parents' enemy.	알고 보니 부모의 원수가 자신을 길렀다.
+You were artificially created through an experiment.	실험을 통해 인공적으로 태어났다.
 You were badly wounded, passing out on the bank of a river. It was fortunate that we found you before the dark mantle of night enveloped this whole valley, almost as if Ehekatl, the goddess of luck herself had her eyes upon you.	자네는 크게 다친 채 강가에 쓰러져 있었네. 저녁 어둠이 일대를 뒤덮기 전에 치유의 힘을 지닌 우리에게 발견되다니, 참 절묘한 우연이지.
+You were born between a monster and a human.	괴물과 인간 사이에서 태어났다.
+You were brought up as the family heir.	집안의 대를 이을 후계자로 엄하게 자랐다.
+You were deemed useless and banished.	쓸모없다는 판정을 받고 쫓겨났다.
+You were detested and abandoned as a child.	불길한 아이라며 버림받았다.
+You were discovered and rescued in ruins as a child.	어릴 적 유적에서 발견되어 보호를 받았다.
+You were found and raised by thieves.	도적들이 거두어 길렀다.
+You were incapacitated by disease for a long time.	오랜 세월 병상에 누워 있었다.
+You were involved in a conspiracy and banished.	음모에 휘말려 추방되었다.
+You were isolated because of your hidden powers.	몸에 깃든 힘 때문에 격리되어 지냈다.
+You were loaded onto the ship while you slept.	자는 사이에 배에 실렸다.
+You were loved by everyone.	모두의 사랑을 받으며 자랐다.
+You were poor, but grew up strongly.	가난했지만 씩씩하게 자랐다.
+You were raised by a different race.	다른 종족의 손에서 자랐다.
+You were used for human experimentation.	시설에서 실험체로 지냈다.
 You wieght less.	당신 주변의 중력이 줄어들었다.
 You wield divine power.	당신은 신성한 힘을 행사한다.
 You will get killed unless miracles happen.	기적이 일어나지 않는 한 죽게 될 것이다.
@@ -2103,6 +2451,8 @@ You will get killed, a hundred percent sure.	틀림없이 죽게 될 것이다.
 You will not read again the save data.	그 저장 데이터는 더 이상 불러올 수 없습니다.
 You will probably win.	아마 이길 수 있을 것 같다.
 You won't be dim.	당신은 몽롱 상태가 되지 않는다.
+You worry about your body odor.	제 몸에서 나는 냄새를 신경 쓴다.
+You yearn for your master.	존경하는 스승이 있다.
 You're certain that you'll get more meat	분명 고기를 많이 얻을 수 있다.
 You're certain that you'll get more skin	분명 가죽을 많이 얻을 수 있다.
 You're kidding.	또 그런 농담을.
@@ -2118,9 +2468,11 @@ Your arms became restored.	당신의 팔이 원래대로 돌아왔다.
 Your arms become thicker than your torso.	당신의 팔이 몸통보다 굵어졌다.
 Your arms become thin.	당신의 팔에 군살이 늘었다.
 Your arms grow stronger.	당신의 팔에 근육이 늘었다.
+Your birth was a secret.	자신의 출생을 숨기고 있다.
 Your blood contain magic [MP+15%]	당신에게는 마력의 피가 흐른다[MP +15%]
 Your blood is boiling. [RES Fire+]	당신의 피는 끓어오르고 있다[화염 내성 강화]
 Your blood starts to boil.	당신의 피가 끓어오르기 시작했다.
+Your body is branded with a mysterious coat of arms.	몸에 수수께끼의 문장이 새겨져 있다.
 Your body is changing every moment.	당신의 육체는 시시각각 변한다.
 Your body is made of magic. [MP+20%]	당신의 육체에는 마력이 깃들어 있다[MP +20%]
 Your body slows the Ether Disease progress.	당신의 에테르병은 느리게 진행된다.
@@ -2144,16 +2496,26 @@ Your eyes are multipling.	당신의 눈이 증식했다.
 Your eyes become normal.	당신의 눈이 줄어들었다.
 Your eyes glow.	당신의 눈이 가늘어졌다.
 Your face is festered.	당신의 얼굴이 짓물렀다.
+Your family line is that of adventurers.	대대로 모험가를 배출한 집안 출신이다.
+Your fashion sense is weird.	옷 입는 감각이 별나다.
 Your feathers wilt.	당신의 등에서 날개가 사라졌다.
 Your feet become normal.	당신의 발이 원래대로 돌아왔다.
 Your feet change into hooves.	당신의 발바닥이 발굽으로 변했다.
 Your fishing attempt fails.	낚시에 실패했다.
 Your genes contain magic. [MP+5%]	당신은 마력의 유전자를 지니고 있다[MP +5%]
+Your grasp of money is poor.	돈에 대한 감각이 이상하다.
 Your hands are blades. [Can't wear weapons, Available Decapitation]	당신의 손은 칼날이 되어 있다[손 장비 불가·참수 습득]
 Your hands are clean now.	당신의 손이 원래대로 돌아왔다.
 Your hands became restored.	당신의 손이 원래대로 돌아왔다.
 Your hands has turned into sharp blades.	당신의 손이 날카로운 칼날로 변했다.
 Your head is normal size now.	당신의 머리가 원래대로 돌아왔다.
+Your hobby is messing around with a bonsai.	분재를 돌보는 게 취미다.
+Your hobby is napping.	낮잠이 취미다.
+Your hobby is reading.	독서가 취미다.
+Your hobby is stalking.	남을 스토킹하는 게 취미다.
+Your hometown was destroyed by an evil adventurer.	사악한 모험가가 고향을 멸망시켰다.
+Your hometown was destroyed by monsters.	마물이 고향을 멸망시켰다.
+Your intuition is sharp.	이런저런 일에 감이 날카롭다.
 Your items have already been identified.	감정할 물품이 없군.
 Your joints are flexible. [DEX+3]	당신의 관절은 유연하다[기교 +3]
 Your joints are incredibly flexible. [DEX+9]	당신의 관절은 놀라울 만큼 유연하다[기교 +9]
@@ -2161,6 +2523,7 @@ Your joints are very flexible. [DEX+6]	당신의 관절은 매우 유연하다[�
 Your joints become flexible.	당신의 관절이 유연해졌다.
 Your joints creak.	당신의 관절이 아프기 시작했다.
 Your joints creak. [DEX-3]	당신의 관절은 삐걱댄다[기교 -3]
+Your jokes are terrible.	농담에 영 소질이 없다.
 Your legs are broken. [SPD-15]	당신의 다리는 부러져 있다[속도 감소]
 Your legs are twisted!	당신의 다리가 뒤틀렸다.
 Your legs are twisted. [SPD-5]	당신의 다리는 뒤틀려 있다[속도 감소]
@@ -2174,8 +2537,11 @@ Your mouth began to torn greatly.	당신의 입이 크게 찢어졌다.
 Your mouth has returned to its original number.	당신의 입이 원래 개수로 돌아왔다.
 Your neck becomes extremely thick.	당신의 목이 굵어졌다.
 Your neck becomes thin.	당신의 목이 가늘어졌다.
+Your paintings are terrible.	그림 솜씨가 처참하다.
+Your personality changes when you hold a knife.	칼을 쥐면 성격이 달라진다.
 Your prayer nullifies cursed whisperings.	당신의 기도는 저주의 말을 지워 버린다.
 Your prayer weakens the power of cursed whisperings.	기도를 올려 저주의 말이 지닌 효력을 약화시킨다.
+Your sense of taste is odd.	입맛이 별나다.
 Your sight is weakened.	당신의 시력이 떨어졌다.
 Your skin becomes harder.	당신의 피부가 단단해졌다.
 Your skin becomes pale.	당신의 피부가 얇아졌다.
@@ -2218,16 +2584,23 @@ Zin-ba	준마일체
 ZinlaiKyaku	신뢰각
 [Abyss Leading]    SAN10 /Convert items into abyss power	심연으로 이어지는 실　SAN 10/아이템을 심연 마력으로 변환
 [An old talisman]	[낡은 부적]
+[Available feats]	[습득 가능한 특성]
 [Beckoning Seabed] SAN300/Abyss300/Surround silence choked	경이로운 심해　SAN 350/심연 마력 300/범위 침묵·질식
 [Crazy Theater]    SAN400/Abyss400/Power-up as go crazy	광기로 가득한 극장　SAN 400/심연 마력 400/광기에 따른 공격·방어 강화
 [Dark Expulsion]   SAN200/Abyss200/Kill summoned enemies	추방해야 할 암흑　SAN 200/심연 마력 200/소환된 적 모두 말살
 [Done]	[달성]
+[ETC]You eat raw items.	[기타] 날것으로 만든 아이템을 먹을 수 있다.
 [Evil Guardians]   SAN150/Abyss150/Summon dark guardians	기어오는 마신병　SAN 150/심연 마력 150/독서·마도구에 따른 신 강림
+[Feat]You are lucky	[특성] 타고난 행운의 소유자다.
+[Feat]Your eye is harboring the magic of mystery.	[특성] 눈에 정체 모를 마력이 깃들어 있다.
+[Feats and traits]	[특징과 체질]
 [Lightless Gate]   SAN500/Abyss500/Immediate map escape	빛이 보이지 않는 동문　SAN 500/심연 마력 500/즉시 맵 탈출
 [Merciless Flood]  SAN600/Abyss600/Indiscriminate(PVDV)	무자비한 대홍수　SAN 600/심연 마력 600/전역 PV·DV 속성 무차별 공격
 [Phantom Swords]   SAN50 /Abyss50 /Surround Decapitation	보이지 않는 유회도　SAN 50/심연 마력 50/범위 마법 참격·참수
+[Race]You receive extra bonus points.	[선천] 성장 보너스를 추가로 받는다.
 [Suffering Deads]  SAN450/Abyss450/Resurrect all	신음하며 일어서는 망자들　SAN 450/심연 마력 450/소생 가능한 자 모두 소생
 [Wild Card Change]    gauge50% /Not implemented	【와일드카드 변경】게이지 50％/미구현
+[その他]あなたは生もの製のアイテムを食べる	[기타] 날것으로 만든 아이템을 먹을 수 있다.
 [アカシックネットワーク]	[아카식 네트워크]
 [イルマの短剣]	[이르마의 단검]
 [エストークの尻尾]	[에스토크의 꼬리]
@@ -2238,6 +2611,9 @@ ZinlaiKyaku	신뢰각
 [ジャビ王への書簡]	[자비 왕에게 보내는 서신]
 [データチップ]	[데이터 칩]
 [データレジスタ]	[데이터 레지스터]
+[フィート]あなたの眼には得体のしれない魔力が宿っている	[특성] 눈에 정체 모를 마력이 깃들어 있다.
+[フィート]あなたは幸運の持ち主だ	[특성] 타고난 행운의 소유자다.
+[先天]あなたには追加の成長ボーナスが与えられる	[선천] 성장 보너스를 추가로 받는다.
 [古びたお守り]	[낡은 부적]
 [回収用カプセル]	[회수용 캡슐]
 [太陽のアンク]	[태양의 앙크]
@@ -2255,6 +2631,7 @@ ZinlaiKyaku	신뢰각
 [錆びついた鈴]	[녹슨 방울]
 [階段の鍵]	[계단 열쇠]
 [Ｄジャマー]	[D 재머]
+a difficult book sometimes results in nasty	마법서를 읽다가 실패하면
 a garbage	찌꺼기
 a:apply /s:search /d:drop /f:fire /g:get /h:hijump	a: 능력 사용 / s: 탐색 / d: 내려놓기 / f: 사격 / g: 줍기 / h: 높이뛰기
 a:apply(能力を使う)　s:search(調べる)　　　d:drop(置く)　　 f:fire(射撃)　g:get(取る)　h:hijump(ハイジャンプ)　	a: 능력 사용 / s: 탐색 / d: 내려놓기 / f: 사격 / g: 줍기 / h: 높이뛰기
@@ -2306,6 +2683,7 @@ chocolate babka	카레빵
 claymore	클레이모어
 cold	냉기
 confidant	절친
+contains variety of useful information	여행 내내 써먹을 만한 정보가
 continue to be....	부유 대륙 서쪽 숲의 유적에 사람들이 모여 있는 모양이다. 130층 수준
 control ally	PC를 공격하게 한다.
 corpse	시체
@@ -2318,11 +2696,13 @@ cure major wound potion	중상 치유 물약
 cut tree by bardish etc	대형 도끼 등으로 벌목해 목재로 만든다.
 decrease luck by 666	행운 666 감소
 detect objects	물질 감지
+devastating monsters to appear.	괴물이 나타날 때도 있어.
 dinosaur	공룡
 dog	개
 doggod	개의 신
 dragon	드래곤
 drake	아룡
+dropped in your home won't disappear.	안전하게 보관하려면 집에 두면 돼.
 dwarf	언덕의 민족
 dye	염색약
 earth crystal	대지의 결정
@@ -2337,8 +2717,11 @@ enhances your meditation.	마나 회복을 강화한다.
 enhances your memory.	지식을 잊지 않게 한다.
 enhances your mining skill.	채굴 능력을 강화한다.
 ent	엔트
+enthusiasm drains from those around you.	한 가지에 빠지면 주변을 보지 못한다.
+errors <def>which put you in danger like draining	위험하다<def>는 게 그 이유야. MP가 바닥나거나
 eulderna	에우데르나
 evolution	진화
+expensive wears.	값이 꽤 비싸.
 explosive ammos	작렬탄으로 전환
 eye	눈
 fairy	요정
@@ -2414,6 +2797,7 @@ mazin	마인
 meat spaghetti	미트 스파게티
 medusa	메두사
 melon flavored bread	멜론빵
+merchants who will sell you quality but	좋은 물건을 팔지만
 metal	메탈
 mika	운모
 mind	환혹
@@ -2429,6 +2813,8 @@ noodle	면
 norland	노랜드
 normal	보통
 not change.	바뀌지 않습니다.
+occasionally, you will encounter wandering	가끔은 떠돌이 상인과 마주치기도 해.
+on your valuable stuff in your house, don't you?	소중한 물건을 망가뜨리면 곤란하잖아?
 orc	오크
 ores	광석
 paralyzer	패럴라이저
@@ -2440,6 +2826,7 @@ player and ally kill	플레이어 제거
 poison	독
 potions	물약
 predator	프레데터
+press ? to read the in-game help. The help	? 키를 눌러 도움말을 읽어 봐.
 priest	사제
 q:quaff /w:wear /e:eat /r:read /t:tool /i:interact /o:open	q: 마시기 / w: 장비 / e: 먹기 / r: 읽기 / t: 도구 사용 / i: 상호작용 / o: 열기
 q:quaff(飲む)　w:wear(装備)　e:eat(食べる)　r:read(読む)　t:tool(使う)　　 i:interact(干渉する)　o:open(開く)　	q: 마시기 / w: 장비 / e: 먹기 / r: 읽기 / t: 도구 사용 / i: 상호작용 / o: 열기
@@ -2451,6 +2838,8 @@ ranch deed	목장 권리서
 range	원거리
 rapid ammos	연사탄으로 전환
 rat	쥐
+rate. And you can't use certain items and	쓸 수 없는 물건이나 기술도 있어.
+read spellbooks in your home because <emp1>reading	권하는 무책임한 안내자들도 있대. <emp1>어려운
 remains	잔해
 restore spirit	정신 복원
 rods	지팡이
@@ -2468,6 +2857,7 @@ sheep	양
 shop deed	상점 권리서
 skeleton	해골
 skeleton + dead-eyes	해골 전사 ＋ 데드 아이즈
+skills in the world map. If you want to use	그런 물건이나 기술을 쓰고 싶으면
 sky golem	스카이 골렘
 slave spinner and wheel <300 Toil-Energy>	노예 빙글빙글·노예 파닥파닥・・・300 노동 에너지
 slime	슬라임
@@ -2502,6 +2892,8 @@ the Truce Ground	신들의 휴전지
 the Void	허무의 공간
 the Yeek's Nest	이이크의 동굴
 the graveyard	루미에스트 묘지
+them, you need to enter the local map mode	지역 지도로 들어가면 돼.
+throughout your journey.	가득하거든.
 udon	우동
 undeadgod	사령의 신
 unknown	성별 불명
@@ -2512,6 +2904,7 @@ walnut bread	호두빵
 warmage	마법전사
 warrior	전사
 wasp	말벌
+weaker than those in the wilderness. And	가도에선 들판보다 약한 적을 만나거든.
 weakness	허약
 well	우물
 wisp	위스프
@@ -2520,6 +2913,8 @@ worm	웜
 yeek	이이크
 yerles	이에르스
 yith	외계의 지배자
+you and <emp1>slows your actions.<def>	짐이 무거워져서 <emp1>행동이 느려져.<def>
+your MPs or confusing you for a while.	잠시 혼란에 빠지기도 하거든.
 z:Action choices /x:Examine items /c:chara /v:cast spells /b:bash /m:material	z: 행동 선택 / x: 아이템 조사 / c: 캐릭터 정보 / v: 주문 시전 / b: 몸통박치기 / m: 재료
 z:行動選択　x:アイテム調べる　c:chara(キャラ情報)　v:魔法を唱える　b:bash(体当たり)　m:material(所持マテリアル)	z: 행동 선택 / x: 아이템 조사 / c: 캐릭터 정보 / v: 주문 시전 / b: 몸통박치기 / m: 재료
 zanan	자난
@@ -2536,6 +2931,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 …本当に食べてしまったのか？	…정말로 먹어 버린 건가?
 ※このウインドウを閉じると連動してゲームも閉じます。設定からこのウインドウが出ないようにもできます。	이 창을 닫으면 게임도 종료된다. 설정에서 이 안내 창을 끌 수 있다.
 ←↑↓→:移動　enter:決定　shift:キャンセル　space:汎用　?:ヘルプを表示(その他操作方法もここ)	방향키: 이동 / Enter: 결정 / Shift: 취소 / Space: 상황별 행동 / ?: 도움말과 조작법
+◆ 取得できるフィート	[습득 가능한 특성]
+◆ 特徴と体質	[특징과 체질]
 ★Essentialモードはこのソフトの本質的なモードで、	★에센셜은 이 게임의 기본 모드로,
 ★Lossモードはデータ喪失の危険性が非常に高いモードです。	★로스는 저장 데이터를 잃을 위험이 매우 높은 모드입니다.
 ★初心者向け基本操作（初期設定）（大文字コマンドはshift押しながら入力）	초보자를 위한 기본 조작 (기본 설정) — 대문자 명령은 Shift를 누른 채 입력
@@ -2837,8 +3234,12 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 あまり産卵しなさそうだ	알을 별로 낳지 않을 것 같다.
 ありのままの姿を 40階相当	있는 그대로의 모습 40층 수준
 あるところに、魔法によって醜い獣のような姿に変えられた 王子がいた…彼は自分の姿に絶望し、国を捨て森の中の小屋で暮らしたの。	옛날에 마법으로 흉측한 짐승의 모습이 된 왕자가 있었어요… 왕자는 자신의 모습에 절망한 나머지 나라를 떠나 숲속 오두막에서 살았지요.
+ある人物のクローン。	어떤 인물의 복제 인간이다.
+ある日、この世界に召喚される。	어느 날 이 세계에 소환되었다.
 ある日、狼に襲われ傷ついた女が、小屋に駆け込み倒れこんだ。王子は迷いながらも女を介抱した。彼女はもちろん男の姿におびえて泣いたわ。	어느 날, 늑대에게 습격당해 다친 여인이 오두막으로 뛰어들어와 쓰러졌어요. 왕자는 망설이다가도 여인을 보살폈지요. 여인은 물론 왕자의 모습을 보고 겁에 질려 울었어요.
 いいえ	아니요
+いかがわしいことが大好き。	수상쩍은 짓을 몹시 좋아한다.
+いつも飄々としているが、	늘 태연자약하지만,
 うどん	우동
 うふ！あなたにも優しいところがあるのね。…来て。どうやら怪我人が意識を取り戻したみたいよ。	후후! 당신에게도 다정한 구석이 있네요. …이리 와 봐요. 다친 분이 정신을 차린 것 같아요.
 うみみゃぁ！	우미먀아!
@@ -2846,14 +3247,17 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 えー	뭐라고?
 ぉお～ゲートだ…	오오~ 게이트다…
 おぉぉぉぉ！	오오오오!
+おぞましい因習のある村で育った。	끔찍한 악습이 남아 있는 마을에서 자랐다.
 おにぎりと緑茶１年分・・・・・1千ヤカポイント	주먹밥과 녹차 １년 치・・・・・1천 야카 포인트
 おや、眠そうな顔だね。	어라, 졸려 보이네.
 お湯	뜨거운 물
 お腹が減ってきたかい？	슬슬 배가 고프니?
 お菓子	과자
 お酒泥棒 2階相当	술 도둑 2층 수준
+お金に目がない。	돈이라면 사족을 못 쓴다.
 かがり台	화톳불 받침대
 かたつむり	달팽이
+かなりの食いしん坊。	대단한 먹보다.
 かなり質のいい皮がとれそうだ	상당히 질 좋은 가죽을 얻을 수 있을 것 같다.
 かなり質のいい肉がとれそうだ	상당히 질 좋은 고기를 얻을 수 있을 것 같다.
 かれた声	쉰 목소리
@@ -2862,6 +3266,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 きっと肉が多くとれる	분명 고기를 많이 얻을 수 있다.
 きのこ	버섯
 きのこたちを滅ぼした。あとはルオザでたけのこに報告するだけだ。	버섯들을 멸했다. 이제 루오자에서 죽순에게 보고만 하면 된다.
+きのこよりもたけのこが好き。	버섯보다 죽순을 좋아한다.
 くすぐり天地獄	간지럼 천국과 지옥
 くるみパン	호두빵
 こいつか？心配する必要はない。以前、人間にペットとして飼われていたのだろう、ふふ…私によくなついているようだ。	이 녀석 말인가? 걱정할 것 없네. 전에 누군가가 애완동물로 길렀겠지. 후후… 나를 꽤 따르는 모양이군.
@@ -2873,13 +3278,16 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 この防衛者は致死ダメージを受けた仲間をレイハンドで回復できるようだ。レイハンドは眠るたびに再使用可能になる。	이 수호자는 안수로 치명상을 입은 동료를 회복시킬 수 있다. 잠을 자면 안수를 다시 사용할 수 있다.
 この風はとても厄介な影響を及ぼすんだ。風にさらされると一定の確率で<emp1>突然変異してしまう<def>し、何より<emp1>エーテル病の侵食が早まってしまう。<def>街道以外の野外では、変異した危険なモンスターに遭遇する確率も高まるんだ。	이 바람은 아주 성가신 영향을 끼쳐. 바람을 맞으면 일정 확률로 <emp1>돌연변이가 일어나고<def>, 무엇보다 <emp1>에테르병의 진행이 빨라져.<def> 도로를 벗어난 야외에서는 변이한 위험한 몬스터와 마주칠 확률도 높아져.
 これからが楽しみ	앞으로가 기대돼.
+これ以上は冒険者を保存できない。	모험가를 더 저장할 수 없다. 기존 모험가를 삭제해야 한다.
 こんなに天気が悪い時に外に出るのは賢明じゃないね。雨の時にはワールドマップの移動に通常よりも時間がかかるよ。	이렇게 날씨가 나쁠 때 밖으로 나가는 건 현명하지 못해. 비가 오면 세계 지도에서 이동하는 데 평소보다 오래 걸려.
 さくらんぼ	체리
+さようなら	작별 인사
 さらにEscキーかSでのセーブで終了しないとロード時にペナルティがあります。	또한 Esc나 S로 저장하고 종료하지 않으면 불러올 때 불이익을 받습니다.
 しなやかな脚	유연한 다리
 しなやかな関節	유연한 관절
 しょっぱい水	짠물.
 すくつ	허무의 공간
+すぐに調子に乗る。	조금만 부추겨도 금세 우쭐해진다.
 すごく格好いい	정말 멋있어.
 ずっと傍にいて	언제까지나 곁에 있어 줘.
 そう、ならば都合がいいわ。…あら、あなた何を持っているの？ …キャーッ、プチじゃない！	그렇다면 잘됐네요. …어머, 손에 든 건 뭐예요? …꺄악, 푸팃잖아요!
@@ -2902,24 +3310,32 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 では、訓練用のモンスターを召喚するぞ。可能なら、使い勝手を知るために射撃で倒してみてくれ。ただし、弓は近接して打っても威力が低いので注意が必要だ。危なくなった時のために、治療薬を足元に置いておこう…必要ないとは思うが。ポーションの飲み方はわかるな？…そう、xキーだ。	그럼 훈련용 몬스터를 소환하겠네. 가능하면 사격으로 쓰러뜨려서 사용법을 익혀 보게. 다만 활은 적에게 바짝 붙어 쏘면 위력이 떨어지니 조심하게. 위험해질 때를 대비해 발밑에 치료약을 놓아 두지… 필요할 것 같지는 않지만. 물약을 마시는 법은 알겠지? …그래, x 키라네.
 でも、何日もたち彼女は男の優しさに気付いた。彼の誠実さに、抱える葛藤に、心を打たれたの。怪我の癒えた女は、男のささえとなり共に暮らすことを決心した…	하지만 며칠이 지나자 여인은 그의 다정함을 알게 됐어요. 그의 진실한 마음과 그가 겪는 갈등에 마음이 움직인 거예요. 상처가 나은 여인은 그의 버팀목이 되어 함께 살기로 했지요…
 でもね、たまによくない噂を聞くんだ。ふらっと飛び込んだ先が<emp1>火の海<def>だったり、かわいい子のお尻を追いかけていったら、ごろつきが<emp1>ゲートを取り囲んで待ち伏せていたり<def>、果ては辺境の地に飛ばされて<emp1>二度と帰って来れなくなったり。<def>	그런데 가끔 안 좋은 소문도 들려. 무심코 뛰어들었더니 <emp1>불바다<def>였다거나, 귀여운 사람의 꽁무니를 따라갔더니 불량배들이 <emp1>게이트를 에워싸고 매복해 있었다거나<def>. 심지어 변방으로 날아가 <emp1>두 번 다시 돌아오지 못했다거나.<def>
+とにかく行動力が高いが、	행동력 하나는 남다르지만,
 どうした？ まだプチを倒していないぞ。	뭘 하고 있나? 아직 푸팃를 쓰러뜨리지 않았잖나.
 どうにかして見逃してもらう	어떻게든 살려 달라고 빈다.
 どうやら何かを掘り当てたようだな。	뭔가 파낸 모양이군.
 どんな傷も癒す樹液	어떤 상처든 치유하는 수액.
+どんな時もあきらめないが、	어떤 상황에서도 포기하지 않지만,
 な、なんでもない！	아, 아무것도 아니야!
 なかなか産卵しなさそうだ	알을 좀처럼 낳지 않을 것 같다.
 なし	없음
 なぜか冷めない	어째서인지 식지 않는다.
 なぜか溶けない	어째서인지 녹지 않는다.
+なぜ旅しているのかも思い出せない。	여행을 하는 이유조차 기억하지 못한다.
+なにかと勘が鋭い。	이런저런 일에 감이 날카롭다.
+なんだかんだで面倒見が良いが、	이러니저러니 해도 남을 잘 챙기지만,
 なんだこの場所は…？	이곳은 대체…?
 なんとかコンサートを守り抜いた。オルドランのカラヴィカに報酬を貰おう。	어떻게든 콘서트를 지켜 냈다. 올드란의 카라비카에게 보수를 받아야 한다.
+なんとなく軽い気持ちで旅に出る。	별생각 없이 가벼운 마음으로 길을 떠났다.
 なんのつもりだ？	무슨 속셈이야?
+ぬいぐるみが好き。	봉제 인형을 좋아한다.
 ぬいぐるみを守れ！ 6階相当	봉제 인형을 지켜라! 6층 수준
 ねじれた脚	뒤틀린 다리
 ねずみ	쥐
 ねちっこく攻める　（自身の意志依存）	집요하게 공세를 취함　（자신의 의지에 비례）
 はい	예
 ひえー…どしゃぶりだ！	으아… 비가 쏟아진다!
+ひどい妄想癖がある。	툭하면 심한 망상에 빠진다.
 ふざけるな	헛소리하지 마라.
 ふっ	훗.
 ふふ、なんてね。おどかしてごめんごめん！悪い人なんてめったにいないから、暇ができたら覗いてみるのもいいかもね。	후후, 농담이야. 겁줘서 미안, 미안! 나쁜 사람은 좀처럼 없으니 한가할 때 한번 들여다봐도 좋겠네.
@@ -2933,7 +3349,10 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 まだ、何か用があるのか？	아직 볼일이 남았나?
 まだら蜘蛛	얼룩거미
 まだ目的が定まっていないのなら、南のヴェルニースを訪れるといい。ネフィアの迷宮群を巡るのも、貴重な経験になるだろう。この世界で何を見て、如何な足跡を残すか決めるのは、君自身だ。	아직 목적을 정하지 않았다면 남쪽의 베르니스를 찾아가 보게. 네피아의 미궁들을 돌아보는 것도 값진 경험이 되겠지. 이 세상에서 무엇을 보고 어떤 발자취를 남길지는 자네 자신이 결정하는 걸세.
+まだ見ぬ宝を探して冒険に出る。	아직 발견되지 않은 보물을 찾아 모험을 떠났다.
+まだ見ぬ結婚相手を求めて旅に出る。	아직 만난 적 없는 배필을 찾아 길을 떠났다.
 まだ駆け出しの君は、ワールドマップでは<emp1>街道<def>を歩いたほうがいい。	아직 초보 모험가인 너는 세계 지도에서 <emp1>도로<def>를 따라 다니는 게 좋아.
+めちゃくちゃにされたい願望がある。	엉망으로 망가지고 싶은 욕망이 있다.
 もしお金や装備が必要なら、<emp1>依頼掲示板<def>を覗いて見るといいよ。でっかい掲示板だから、すぐにわかるさ。	돈이나 장비가 필요하다면 <emp1>의뢰 게시판<def>을 살펴봐. 커다란 게시판이라 금방 찾을 수 있을 거야.
 もしかすると皮が多くとれるかもしれない	어쩌면 가죽을 많이 얻을 수도 있을 것 같다.
 もしかすると肉が多くとれるかもしれない	어쩌면 고기를 많이 얻을 수도 있을 것 같다.
@@ -2947,9 +3366,11 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 より重い物の運搬を可能にする	더 무거운 물건을 운반할 수 있게 한다.
 より高度な詠唱を可能にさせる	더 높은 수준의 시전을 가능하게 한다.
 より高度な魔力制御を可能にさせる	더 정교한 마력 제어를 가능하게 한다.
+ろくな友人がいない。	제대로 된 친구가 없다.
 わかった	알겠다.
 わかった。ここで待っていろ	알겠네. 여기서 기다리게.
 わが家	우리 집
+わけあって永い眠りについていた。	사연이 있어 기나긴 잠에 빠져 있었다.
 わたしは、小さい頃聞かされたこのおとぎ話が、どうしても好きになれなかった。きっと、醜い姿の男に対する愛が、どこかに置き去りにされた気がしたのね。	어릴 때 들은 그 이야기를 저는 도무지 좋아할 수가 없었어요. 아마 흉측한 모습의 남자를 향한 사랑이 어딘가에 버려진 것처럼 느껴졌기 때문이겠지요.
 アイスボルト	얼음 볼트
 アイテムには<emp1>重さ<def>があり、持ちすぎると行動速度が遅くなってしまう。家に置いたアイテムは安全に保管されるので、時々荷下ろしをした方がいいよ。	아이템에는 <emp1>무게<def>가 있어서 너무 많이 들고 다니면 행동이 느려져. 집에 내려놓은 아이템은 안전하게 보관되니까 가끔 짐을 내려놓는 게 좋아.
@@ -3050,11 +3471,14 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 カードキーを発行してもらう代わりに依頼品を持ってくるようにガベラに言われている。 60～80階相当	가베라는 카드키를 발급해 주는 대신 의뢰한 물건을 가져오라고 했다. 60～80층 수준
 カード精霊制御	카드 정령 제어
 ガベラに呼ばれている。一度メルガスへ行こう。 100階相当	가베라가 부르고 있다. 멜가스에 한번 가야 한다. 100층 수준
+ガラクタを集めるのが好き。	잡동사니 모으기를 좋아한다.
 ガルジエムから何かあれば連絡が入ることになっている。	갈지엠은 무슨 일이 있으면 연락하기로 했다.
+ガーデニングが趣味。	정원 가꾸기가 취미다.
 キッカスの悪魔の討伐をエリステアに報告しよう。 160階相当	키카스의 악마를 토벌했다고 에리스테아에게 보고해야 한다. 160층 수준
 キモい	기분 나빠.
 キャンセル	취소
 キーが思い出せなかったり、何の動作をすればいいか判らないときは、<emp2>スペースキー<def>を押してみよう。	단축키가 생각나지 않거나 무엇을 해야 할지 모르겠다면 <emp2>스페이스 키<def>를 눌러 봐.
+ギャグセンスが皆無。	농담에 영 소질이 없다.
 ギルドウォーズ 40階相当	길드 전쟁 40층 수준
 クイックリング	퀵클링
 クエストの達成	의뢰 달성
@@ -3079,6 +3503,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 ゲージ50％以上時に制限解除と衝撃波	게이지 50％ 이상일 때 제한 해제·충격파
 ゲージ技の使用を切替	게이지 기술 사용 여부 전환
 ゲートは他の冒険者、大抵は経験を積んだ魔法使いが、移動のために召喚するんだ。ゲートが閉じるまでには時間がかかるから、後を追おうと思えばいつでも行けるんだけど…	게이트는 다른 모험가, 대개는 숙련된 마법사가 이동하려고 소환하는 거야. 닫히기까지 시간이 좀 걸리니 따라가려면 언제든 갈 수 있지만…
+ゲーム設定	게임 설정
 コウモリ	박쥐
 コボルト	코볼트
 コロシアム	동료 투기장
@@ -3190,6 +3615,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 トロールの血	트롤의 피
 ドアの生成	문 생성
 ドア生成	문 생성
+ドジなところがある。	덜렁대는 구석이 있다.
 ドラゴン	드래곤
 ナイトメア	악몽
 ナーブボルト	신경 볼트
@@ -3215,7 +3641,9 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 ハザードレシピ	위험한 조리법
 ハーモニックアサルト	하모닉 어설트
 バクテリア	박테리아
+バケモノと人の間に生まれた。	괴물과 인간 사이에서 태어났다.
 バックパックの中のいくつかのアイテムの詳細が判明した。	가방 속 물건 몇 가지의 정체를 알아냈다.
+バツグンの記憶力を持つが、	기억력이 빼어나지만,
 バランス変動が多い反面、ロールプレイとある程度の実益を両立したい人、	밸런스 변화는 잦지만, 역할 연기와 실익을 함께 추구하거나
 バーストに切替	버스트로 전환
 バーテンダー	바텐더
@@ -3238,6 +3666,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 ピラミッド	피라미드
 ピラミッドからの挑戦状 16階相当	피라미드의 도전장 16층 수준
 ピラミッドに出入りする資格を得た。ピラミッドはカプールの北にあり、中には古代の秘宝が眠っているといわれている。	피라미드에 드나들 자격을 얻었다. 피라미드는 카풀 항 북쪽에 있으며 안에는 고대의 비보가 잠들어 있다고 한다.
+ピンチの時でも堂々としているが、	위기에 닥쳐도 당당하지만,
 ファイアボルト	화염 볼트
 ファイナルシフト	최종 형태 전환
 フィートとは、君の持っている有益な特徴だ。3つまで選べるよ。	특성은 캐릭터가 지닌 유용한 자질이다. 세 가지까지 고를 수 있다.
@@ -3383,6 +3812,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 ロストイルヴァ北端に存在する神艦から傭兵と一緒にキッカスへ悪魔討伐に向かおう。 160階相当	로스트 이르바 북쪽 끝의 신함에서 용병과 함께 키카스로 악마를 토벌하러 가야 한다. 160층 수준
 ロックされた能力は	고정한 능력치는
 ロックラッシャー	록 래셔
+ロマンを求めて冒険に出る。	낭만을 찾아 모험을 떠났다.
 ロミアス、喋りすぎよ。たとえ意識の朦朧とした怪我人が相手だとしても。	로미아스, 말이 너무 많아요. 상대가 정신도 제대로 들지 않은 부상자라고 해도요.
 ロミアスは隠し持っていたプチを放った。	로미아스가 숨겨 두었던 푸팃를 풀어놓았다.
 ローグライク本格派の人以外にはおすすめできません。	정통 로그라이크를 즐기는 사람이 아니라면 권하지 않습니다.
@@ -3428,7 +3858,9 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 一度死ねば、這い上がることはできずそこで終了。	한 번 죽으면 되살아날 수 없으며, 그 자리에서 모험이 끝납니다.
 一投入魂	혼신의 투척
 一斉射撃	일제 사격
+一族再興のため旅に出る。	가문을 다시 일으키려고 길을 떠났다.
 一気に飲み干す	단숨에 들이켜기
+一発逆転を夢見て冒険者になる。	인생을 단번에 뒤집을 꿈을 안고 모험가가 되었다.
 一直線攻撃	직선 공격
 一直線電撃攻撃/束縛	직선 전격 공격/속박
 一部アイテム使用強化	일부 아이템 사용 강화
@@ -3439,6 +3871,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 下水道の大掃除を完了した。あとはルミエストのバルザックに報告するだけだ。	하수도 대청소를 마쳤다. 이제 루미에스트의 발자크에게 보고만 하면 된다.
 下水道大作戦 23階相当	하수도 대작전 23층 수준
 不仲耐久属性攻撃/友好抱擁/家畜搾乳	적대 대상은 내구 속성 공격/우호 대상은 포옹/가축은 착유
+不労所得を夢見て冒険に出る。	일하지 않고 돈 벌기를 꿈꾸며 모험을 떠났다.
 不幸	불운
 不幸のシナア 150階相当	불운의 시나아 150층 수준
 不思議な輝きを放つ涙	신비로운 빛을 내는 눈물.
@@ -3447,6 +3880,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 不気味な城がある。絶対に入ってはいけない予感がする。(危険度は200階相当)	섬뜩한 성이 있다. 절대로 들어가서는 안 될 것 같은 예감이 든다.(위험도는 200층 수준)
 不気味な城がある。絶対に入ってはいけない予感がする。(危険度は80階相当)	섬뜩한 성이 있다. 절대로 들어가서는 안 될 것 같은 예감이 든다.(위험도는 80층 수준)
 不浄なる者『アズラシズル』	부정한 자 『아즈라시즐』
+世界平和のため旅に出る。	세계 평화를 위해 길을 떠났다.
+世界征服のため旅に出る。	세계 정복을 위해 길을 떠났다.
 世界樹の樹液	세계수의 수액
 丘のふもとに入口の小さい洞窟がある。	언덕 기슭에 입구가 작은 동굴이 있다.
 丘の民	언덕의 민족
@@ -3489,9 +3924,17 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 交渉態勢へ移行	교섭 태세로 전환
 交渉系技能に分析スキルで連携・中断耐性	교섭 계열 기술에 분석 기술에 따른 연계·중단 내성 부여
 交渉系技能強化	교섭 계열 기술 강화
+人並外れた発想力を持つが、	발상이 남다르지만,
+人付き合いが苦手。	사람 사귀는 데 서툴다.
+人徳があり皆から慕われるが、	인덕이 있어 모두가 따르지만,
 人生の含味	인생의 음미
+人生失敗し冒険に出るしかなかった。	인생이 꼬여 모험을 떠나는 수밖에 없었다.
+人類は滅ぶべきだと思っている。	인류는 멸망해야 한다고 생각한다.
+今は持続効果を受けていない	현재 적용 중인 지속 효과가 없다.
 今日は眠れないな	오늘은 잠들 수 없겠군.
 今日は眠れないな…	오늘은 잠들 수 없겠군…
+仕事日和 / 	일하기 좋은 날 / 
+仕事熱心。	일에 열심이다.
 仕事Ａを100ターンやる	업무 A를 100턴 수행
 仕事Ａを500ターンやる	업무 A를 500턴 수행
 仕事Ｂを100ターンやる	업무 B를 100턴 수행
@@ -3502,7 +3945,15 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 他にも、野菜やハーブを栽培したり、詠唱の練習をしたり、色々と活用できる。	그 밖에도 채소나 허브를 기르고, 주문 시전을 연습하는 등 집을 여러모로 활용할 수 있어.
 他のゲームモードは全てこれがベースになっています。	다른 모든 모드의 바탕이 됩니다.
 他の悪天候とは違い、エーテルの風が吹いているときはワールドマップで通常より速く移動できる。変異や病の侵食を抑える手段さえあれば、風を有効利用できるかもね。	다른 궂은 날씨와 달리 에테르 바람이 불 때는 세계 지도에서 평소보다 빨리 이동할 수 있어. 변이와 에테르병의 진행을 막을 방법만 있다면 이 바람도 유용하게 쓸 수 있겠지.
+他人の物をすぐに欲しがる。	남의 물건을 쉽게 탐낸다.
+他人の長所を見抜くのが得意だが、	다른 사람의 장점을 잘 알아보지만,
+他人の顔と名前を覚えるのは苦手。	남의 얼굴과 이름을 잘 기억하지 못한다.
+他人を信用していない。	남을 믿지 않는다.
+他人を否定することが快感。	남을 부정하는 데서 쾌감을 느낀다.
+他人を見下している。	남을 깔본다.
+他者との絆を大事にしているが、	사람들과 맺은 인연을 소중히 여기지만,
 他者変容	타인 변용
+代々冒険者の家系。	대대로 모험가를 배출한 집안 출신이다.
 仲良くしたい	친하게 지내고 싶어.
 仲間	동료
 仲間が受けるダメージを肩代わりする	동료가 받을 피해를 대신 받음
@@ -3523,6 +3974,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 体力回復のポーション	체력 회복 물약
 体力回復の球	체력 회복 구체
 体力回復を強化する	체력 회복을 강화한다.
+体臭を気にしている。	제 몸에서 나는 냄새를 신경 쓴다.
 体重	체중
 何かが足元に転がってきた。	무언가가 발밑으로 굴러왔다.
 何かは殺された。	무언가가 죽었다.
@@ -3552,6 +4004,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 信用	신용
 信頼	신뢰
 修行の中で、相手を殺さずに気絶させる攻撃を編み出す	수련 중에 상대를 죽이지 않고 기절시키는 공격을 고안한다.
+修行日和 / 	수련하기 좋은 날 / 
 倉庫	창고
 個別指導	개별 지도
 個別画像の変更	캐릭터 이미지 변경
@@ -3560,6 +4013,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 催眠術師	최면술사
 傷を補修する	상처 보수
 優しい笑顔	다정한 미소
+優しくて包容力があるが、	상냥하고 포용력이 있지만,
+儲かると聞いて冒険者になる。	돈벌이가 좋다는 말에 모험가가 되었다.
 元々の種族が同じ仲間を強化	본래 종족이 같은 동료 강화
 元素の傷跡	원소의 상흔
 兄弟	형제
@@ -3575,6 +4030,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 全ての呪い(hex)除去	모든 저주(hex) 제거
 全ての敵の殲滅	모든 적 섬멸
 全ての行動はz,x,cの三つのキーから選択できる。zキーでは主に魔法やスキルなどの動作、xキーではアイテムの操作、cキーでは能力の確認や装備の変更ができるぞ。	모든 행동은 z, x, c 세 키로 선택할 수 있네. z 키는 주로 주문이나 기술 같은 행동, x 키는 아이템 조작, c 키는 능력 확인이나 장비 변경에 쓰지.
+全て再抽選	모두 다시 뽑기
 全体発狂	모두를 광기에 빠뜨림
 全体高ダメージ	전체에 큰 피해
 全力説得	전력 설득
@@ -3593,11 +4049,13 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 内に潜む謎の力に振り回される	내면에 잠든 정체불명의 힘에 휘둘린다.
 内容: 	내용: 
 内容: あとは報告するだけだ。	내용: 이제 보고만 하면 된다.
+内緒にする	비밀로 하기
 再抽選	다시 굴리기
 冒険の道標	모험의 이정표
 冒険はまだ始まったばかりだ！	내 모험은 이제 막 시작됐어!
 冒険を再開する	모험 이어 하기
 冒険ゼミ	모험 세미나
+冒険者に憧れ自分も冒険者になる。	모험가를 동경하다가 자신도 모험가가 되었다.
 冒険者の引継ぎ	모험가 계승
 冥気放射	명기 방사
 冥王の咆哮	명왕의 포효
@@ -3617,6 +4075,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 冷気攻撃や震えへの抵抗	냉기 공격과 떨림에 저항한다.
 冷気放射	냉기 방사
 冷気耐性	냉기 내성
+冷静沈着で判断力もあるが、	침착하고 판단력이 뛰어나지만,
 出血	출혈
 出血させる切断/ゲージ100％消費	출혈을 일으키는 절단/게이지 100％ 소모
 出血付与/sp吸収	출혈 부여/SP 흡수
@@ -3624,6 +4083,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 出血量依存攻撃/出血悪化	출혈량에 따른 공격/출혈 악화
 刃渡りの短い剣を扱う技術	날이 짧은 검을 다루는 기술이다.
 刃渡りの長い剣を扱う技術	날이 긴 검을 다루는 기술이다.
+刃物を持つと性格が変わる。	칼을 쥐면 성격이 달라진다.
 分析	분석
 分析力強化/毎ターン微疲労	분석 능력 강화/매 턴 약간의 피로
 分析率を上げやすくするが毎ターン微疲労	분석률이 쉽게 오르는 대신 매 턴 약간 피로해짐
@@ -3631,6 +4091,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 切り傷攻撃への抵抗	베는 공격에 저항한다.
 切磋琢磨	절차탁마
 判定に応じて視界内投擲ダメージ	판정에 따라 시야 내 투척 피해
+別の人格を隠し持つ。	또 다른 인격을 숨기고 있다.
 別行動時でも随行	따로 행동할 때도 따라오기
 別行動時は(近距離)散策	따로 행동할 때는 가까이 산책
 別行動時は(遠距離)散策	따로 행동할 때는 멀리 산책
@@ -3646,9 +4107,14 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 制限レベル７	제한 레벨 ７
 制限レベル８	제한 레벨 ８
 制限レベル９	제한 레벨 ９
+刺激を求めて冒険に出る。	짜릿한 경험을 찾아 모험을 떠났다.
 刻の涙	시간의 눈물
+前世の記憶がある。	전생의 기억이 있다.
+前半再抽選	앞부분 다시 뽑기
 剛石のウリカグアル 150階相当	강석의 우리카구알 150층 수준
 割と好き	꽤 좋아해.
+創作活動に命を賭ける。	창작 활동에 목숨을 건다.
+力のある神族だった。	강대한 힘을 지닌 신족이었다.
 力の暴走	힘의 폭주
 力の集約	힘의 집약
 力を結集し鍵破壊/中身微破損	힘을 모아 자물쇠 파괴/내용물 소폭 손상
@@ -3656,7 +4122,9 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 労働エナジードリンク１０服・・・4000労働エナジー	노동 에너지 드링크 １０회분・・・4000 노동 에너지
 効果	효과
 効果的に投資を行う	효과적으로 투자한다.
+勉強日和 / 	공부하기 좋은 날 / 
 動物	동물
+勘違いが激しい。	툭하면 크게 착각한다.
 勝てない相手ではない。	이길 수 없는 상대는 아니다.
 勢いよく土下座する	힘차게 넙죽 엎드리기
 勢いよく土下座するフリをして奇襲する	힘차게 엎드리는 척하다가 기습하기
@@ -3668,6 +4136,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 即死攻撃/Purgeモード専用	즉사 공격/Purge 모드 전용
 卵をかなり多く産みそうだ	알을 아주 많이 낳을 것 같다.
 卵を多く産みそうだ	알을 많이 낳을 것 같다.
+友好	우호도
 友達	친구
 収容所	수용소
 収束放射	수렴 방사
@@ -3675,6 +4144,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 古い寺院がある。神聖な雰囲気の中に何か暗いものを感じる。	오래된 사원이 있다. 신성한 분위기 속에서 무언가 어두운 것이 느껴진다.
 古の庭園	고대의 정원
 古の庭園からメルガストでロストイルヴァへ行き、調査してまわろう。 130階相当	고대의 정원에서 멜가스트를 타고 로스트 이르바로 가서 곳곳을 조사해야 한다. 130층 수준
+古代文明の謎を追い求め旅に出る。	고대 문명의 수수께끼를 풀려고 길을 떠났다.
 古城	고성
 可変放射	가변 방사
 司祭	사제
@@ -3685,10 +4155,12 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 名前の候補	이름 후보
 名前の選択	이름 선택
 名声	명성
+名声を求めて冒険者になる。	명성을 얻으려고 모험가가 되었다.
 君が今いる場所には、<emp1>ランダムエリア<def>がある。	지금 네가 있는 곳에는 <emp1>무작위 지역<def>이 있어.
 君が今いる場所は<emp1>ワールドマップ<def>だ。ワールドマップでは、時間は数十倍の速度で進み、一部のアイテムや魔法などを使うことができない。	지금 네가 있는 곳은 <emp1>세계 지도<def>야. 세계 지도에서는 시간이 수십 배 빠르게 흐르고, 일부 아이템이나 주문을 사용할 수 없어.
 君が立っている場所は、<emp1>採取スポット<def>だ。	네가 서 있는 곳은 <emp1>채집 지점<def>이야.
 君の特筆すべき才能を1つ、教えてほしいな。＊がついているのは種族・職業と被っているものだね。	자신 있는 재능을 하나 고른다. ＊ 표시는 종족이나 직업의 재능과 겹친다는 뜻이다.
+君の経歴を教えてくれるかな。内緒にしてもいいけれど。	어떤 삶을 살아왔는지 정한다. 비밀로 해도 된다.
 君の見た目を知っておきたいな。まあ、後からいつでも変えられるけどね。	캐릭터의 모습을 정한다. 나중에도 언제든 바꿀 수 있다.
 君の足元に食料を置いた。xキーを押して、テンキーを使い「食べる」のメニューに移動して、足元のものを選択するんだ。	자네 발밑에 음식을 놓았네. x 키를 누르고 숫자 키패드로 「먹기」 메뉴로 이동한 뒤, 발밑의 음식을 고르게.
 君はもちろん、<emp1>定期的に睡眠をとる必要がある。<def>画面の左下に<emp1>睡眠可<def>という表示がある時は、特に眠らなくても影響はないけど、いつでも寝ようと思えば眠れる状態だ。	당연히 너도 <emp1>주기적으로 잠을 자야 해.<def> 화면 왼쪽 아래에 <emp1>수면 가능<def>이라고 표시될 때는 아직 자지 않아도 불이익은 없어. 다만 원한다면 언제든 잠들 수 있는 상태라는 뜻이지.
@@ -3697,6 +4169,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 吸血の牙	흡혈의 송곳니
 吸血鬼	흡혈귀
 吸血鬼の友人から血の吸い方を学ぶ	흡혈귀 친구에게 피를 빠는 법을 배운다.
+周囲からよく誤解される。	주변 사람들의 오해를 자주 산다.
 周囲に気づかれず行動する	주변에 들키지 않고 행동한다.
 周囲の地形感知	주변 지형 감지
 周囲の敵に切り傷ダメージ	주변 적에게 베인 상처 피해
@@ -3706,6 +4179,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 呪いの草	저주받은 풀
 呪いの言葉	저주의 말
 呪いをかける	저주를 건다.
+呪いを解く方法を探して旅に出る。	저주를 풀 방법을 찾아 길을 떠났다.
 呪われた草	저주받은 풀.
 呪装豪身	주장호신
 味方MP回復敵弱体/精油消費	동료 MP 회복·적 약화/정유 소모
@@ -3713,13 +4187,19 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 味方ゲージ増加/ゲージ100％消費	동료 게이지 증가/게이지 100％ 소모
 味方ゲージ増加魅力対抗sp回復	동료 게이지 증가·매력 대항 SP 회복
 味方魔法の消費MP威力経験値を増加	동료 주문의 MP 소모·위력·경험치 증가
+味覚がおかしい。	입맛이 별나다.
 呻き立つ死者共　SAN450/深淵魔力450/蘇生可能者を全蘇生	신음하며 일어서는 망자들　SAN 450/심연 마력 450/소생 가능한 자 모두 소생
+命を狙われて逃亡する。	목숨을 노리는 이들을 피해 달아났다.
+命を落とし気づくと船に乗っていた。	목숨을 잃었는데 눈을 떠 보니 배 위였다.
+命中	명중
 命中減通常近接攻撃で気絶を狙う	명중률이 낮은 일반 근접 공격으로 기절을 노린다.
+命令されて諸国を巡ることになる。	명령을 받고 여러 나라를 돌게 되었다.
 唸る草	울부짖는 풀
 問答無用で毒状態/ゲージ25％消費	조건 없이 중독 상태 부여/게이지 25％ 소모
 喋り方を変える	말투 바꾸기
 喪失狂宮	상실의 광궁
 営業笑顔[悩殺攻撃を会得]	영업용 미소[뇌쇄 공격 습득]
+嘘をつくのが下手。	거짓말에 서툴다.
 器用	기교
 器用の成長	기교 성장
 器用・魔力・魔法耐性の上昇	기교·마력·마법 내성 상승
@@ -3734,14 +4214,17 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 回避上昇/回避成功時反撃	회피 상승/회피 성공 시 반격
 回避力強化・浮遊	회피력 강화·부유
 回避成功時反撃/戦術見切り依存の回避スキル上昇	회피 성공 시 반격/전술·간파에 따른 회피 기술 상승
+困った人を放っておかないが、	곤경에 처한 사람을 그냥 지나치지 못하지만,
 固定アーティファクトくじ・・・1万ヤカポイント	고정 아티팩트 뽑기・・・1만 야카 포인트
 土をほぐす	흙 풀어 주기
 土を根元に寄せる	뿌리 밑에 흙 모아 주기
 土地が持つエネルギーに目をつけ操作法を探す	땅이 지닌 에너지에 주목해 조종하는 방법을 찾는다.
 土竜乱舞	두더지 난무
 土竜闘気	두더지 투기
+圧　迫	압박
 地上へ帰ろう。 130階相当	지상으로 돌아가야 한다. 130층 수준
 地底での生活が暗黒への耐性を高める	지하 생활로 암흑 내성이 높아진다.
+地方の領主だった。	한 지방을 다스리던 영주였다.
 地気利用	지기 활용
 地獄	지옥
 地獄だ	지옥이야.
@@ -3757,6 +4240,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 地雷投下	지뢰 투하
 型に流し込む	틀에 붓기
 埋まる(保存したところから)	묻히기(저장한 시점부터 다시 시작)
+基本的に平凡だが、	대체로 평범하지만,
+基本設定	기본 설정
 堕ちた皇女 80階相当	타락한 황녀 80층 수준
 報酬: 	보수: 
 場所: 	장소: 
@@ -3775,25 +4260,37 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 多重詠唱魔法	다중 시전 마법
 夢の中で近くへの瞬間移動を思いつく	꿈속에서 가까운 곳으로 순간이동하는 방법을 떠올린다.
 夢幻の咆哮	몽환의 포효
+大きなトラウマを持つ。	마음에 큰 상처를 안고 있다.
+大事な約束を果たすため冒険に出る。	소중한 약속을 지키려고 모험을 떠났다.
+大切なものを守るため冒険に出る。	소중한 것을 지키려고 모험을 떠났다.
 大地の結晶	대지의 결정
 大好き	정말 좋아해.
+大局を見る力があるが、	큰 흐름을 볼 줄 알지만,
 大斧などで伐採して材木化	대형 도끼 등으로 벌목해 목재로 만든다.
 大烈断	대열단
+大胆で度胸もあるが、	대담하고 배짱도 두둑하지만,
 大量出血させる	대량 출혈을 일으킨다.
 天使	천사
 天候が回復したら、時間は通常通り進みだし、食事も供給されないから注意しよう。	날씨가 좋아지면 시간도 평소처럼 흐르고 식사도 더는 제공되지 않으니 주의해.
+天才的な頭脳を持つが、	천재적인 두뇌를 지녔지만,
 天罰	천벌
 太陽のアンク	태양의 앙크
 太陽のタウク	태양의 토크
 太陽の秤	태양의 저울
 太陽の首輪	태양의 목걸이
+失恋を忘れるため旅に出る。	실연의 아픔을 잊으려고 길을 떠났다.
+奇病を患っている。	괴질을 앓고 있다.
 奇襲穿孔	기습 천공
 奇跡が起きなければ殺されるだろう。	기적이 일어나지 않는 한 죽게 될 것이다.
 契約	계약
 契約者	계약자
 奔放	자유분방
+女	여성
 女性	여성
+奴隷だった過去を持つ。	한때 노예였다.
 奴隷グルグル＆奴隷バタバタ・・・300労働エナジー	노예 빙글빙글·노예 파닥파닥・・・300 노동 에너지
+好奇心旺盛で人懐っこいが、	호기심이 많고 붙임성이 좋지만,
+好意に対して鈍感。	남이 보이는 호의를 잘 눈치채지 못한다.
 好意的	우호적
 好感度依存仲間強化	호감도에 따른 동료 강화
 妖精	요정
@@ -3807,7 +4304,11 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 嫁泥棒 3階相当	아내 도둑 3층 수준
 嫌い	싫음
 嫌いじゃない	싫지는 않아.
+嫌なことは後回しにしがち。	하기 싫은 일은 뒤로 미루곤 한다.
+嫌な事があっても落ち込まないが、	싫은 일을 겪어도 기죽지 않지만,
+子供の頃から虐待されていた。	어릴 때부터 학대받았다.
 子犬の洞窟	강아지 동굴
+存在感が薄い。	존재감이 희미하다.
 孤高	고고한 삶
 守衛長	경비대장
 守護石	수호석
@@ -3815,6 +4316,10 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 宝石細工	보석 세공
 宝石細工の腕をあげる	보석 세공 솜씨를 높인다.
 宝箱に限らず、荷物を持ちすぎると速度にペナルティが課せられるため注意が必要だな。必要のないアイテムは、家に保管しておくといい。	보물 상자뿐 아니라 짐을 너무 많이 들면 행동이 느려지니 주의하게. 필요 없는 물건은 집에 보관해 두는 게 좋겠지.
+実はとてつもない変態。	실은 지독한 변태다.
+実は未来の世界からやってきた。	실은 미래에서 왔다.
+実は親の仇に育てられていた。	알고 보니 부모의 원수가 자신을 길렀다.
+実験で人工的に生み出された。	실험을 통해 인공적으로 태어났다.
 実験を生き延びて完了させた。ヴェルニースのロイターに報告しよう。	실험에서 살아남아 임무를 마쳤다. 베르니스의 로이터에게 보고해야 한다.
 実験場	실험장
 実験場のナイトメア 50階相当	실험장의 악몽 50층 수준
@@ -3830,6 +4335,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 宿屋(箱、ポーション専門)	여관(상자·물약 전문)
 宿屋では食事をとることができるよ。最初のうちは宿屋で食事をとるのは金銭的につらいかもね。あまりお腹は膨れないけれど、簡単な食料は野外でも拾えるから探してみるといいかもね。	여관에서는 식사를 할 수 있어. 초반에는 여관에서 매번 밥을 사 먹기가 부담스러울지도 몰라. 별로 배가 차지는 않겠지만 야외에서도 간단한 먹거리를 주울 수 있으니 찾아보는 것도 좋겠네.
 寄生攻撃	기생 공격
+寝ている間に船に積み込まれる。	자는 사이에 배에 실렸다.
 審美眼[交換レート上昇]	심미안[교환 비율 상승]
 寺院	사원
 寺院がある。神聖な雰囲気がする。	사원이 있다. 신성한 기운이 느껴진다.
@@ -3860,6 +4366,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 射撃の威力をあげる	사격의 위력을 높인다.
 射撃の理解を深める	사격에 대한 이해를 깊게 한다.
 射撃修正	사격 보정
+小動物大好き。	작은 동물을 무척 좋아한다.
 少しの大嘘	약간의 새빨간 거짓말
 少し傷を癒す	상처를 조금 치유한다.
 屋敷を持ち主から買い取ろう。持ち主はルードゥスにいる。	주인에게 저택을 사들여야 한다. 주인은 루두스에 있다.
@@ -3874,6 +4381,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 工作	목공
 工作の腕をあげる	목공 솜씨를 높인다.
 工房ミラル・ガロク	미랄·가로크 공방
+左右キー [変更]  ｷｬﾝｾﾙ [閉じる]	←,→ [변경]  Shift,Esc [닫기]
 巨人	거인
 巨城への登り坂のふもとに神殿がある。	거대한 성으로 오르는 비탈 아래에 신전이 있다.
 巨大なハッチの隅の方に入り口が見える。	거대한 해치의 구석에 입구가 보인다.
@@ -3888,6 +4396,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 帰る方法を探そう。 130階相当	돌아갈 방법을 찾아야 한다. 130층 수준
 帰ろう…。	돌아가자….
 帰還	귀환
+平穏な日々を過ごしていた。	평온한 나날을 보냈다.
 年齢	나이
 幸い、ノースティリスでは降雪が長く続くことはそんなにない。雪が降り出したら、止むまでのんびり待つといいかもしれないね。	다행히 북부 티리스에서는 눈이 오래 내리는 일이 드물어. 눈이 내리기 시작하면 그칠 때까지 느긋하게 기다려도 좋겠네.
 幸運	행운
@@ -3907,8 +4416,10 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 幻惑属性の範囲攻撃	환혹 속성 범위 공격
 幻惑攻撃や恐怖への抵抗	환혹 공격과 공포에 저항한다.
 幻獣	환수
+幼い頃、遺跡で発見・保護された。	어릴 적 유적에서 발견되어 보호를 받았다.
 幽霊	유령
 幾百もの世を越えて 20階相当	수백 세대를 넘어 20층 수준
+広い世界を見たくて各地を観光中。	넓은 세상이 보고 싶어 이곳저곳을 구경하고 있다.
 広域地形破壊	광역 지형 파괴
 広範囲爆破/ゲージ25％消費	광범위 폭발/게이지 25％ 소모
 店	상점
@@ -3923,13 +4434,18 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 弓	활
 弓を扱う技術	활을 다루는 기술이다.
 引退	은퇴
+弟子がいる。	제자가 있다.
 弱い腕	약한 팔
 弱い鼓膜	약한 고막
 弱すぎなんだけど！	너무 약하잖아!
 弱体化の手	약화의 손길
+強いリーダーシップを持つが、	사람들을 이끄는 힘이 있지만,
 強い免疫	강한 면역
+強い向上心と挑戦心を持つが、	발전하려는 의지와 도전 정신이 강하지만,
 強い腕	강한 팔
+強い覚悟を秘めているが、	굳은 각오를 품고 있지만,
 強い鼓膜	강한 고막
+強くなるため修行の旅に出る。	더 강해지려고 수행길에 올랐다.
 強制連行	강제 연행
 強制集合	강제 집합
 強力な一列放射/ゲージ100％消費	강력한 일렬 방사/게이지 100％ 소모
@@ -3940,24 +4456,31 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 強烈花粉砲	강렬한 꽃가루 포
 当然の結果だ	당연한 결과다.
 役立たず	쓸모없어.
+役立たずと判断されて追放された。	쓸모없다는 판정을 받고 쫓겨났다.
 待ちに待った給料日♪	기다리고 기다리던 급료일♪
+後半再抽選	뒷부분 다시 뽑기
 後継	후계자
 従弟	사촌 동생
 従順	순종
 復活	부활
 復讐の果てに 40階相当	복수의 끝에 40층 수준
+復讐相手を追って旅に出る。	복수할 상대를 뒤쫓아 길을 떠났다.
 徴税官	징세관
 心から尊敬している	진심으로 존경해.
+心に傷を負った元軍人。	마음에 상처를 안고 군을 떠났다.
 心強い	든든해.
 心眼	심안
 心眼の技術を上昇させる	심안 기술을 높인다.
 心眼上昇/眼差し系にゲージ、HP、MPの吸収追加	심안 상승/응시 계열에 게이지·HP·MP 흡수 추가
 心眼強化/眼差し系の技能に効果追加	심안 강화/응시 계열 기술에 효과 추가
+心臓が複数ある。	심장이 여러 개다.
 心配しないでも大丈夫。時間はたっぷりあるさ。ただ、<emp1>エーテルの風<def>にだけは、気をつけなければいけないよ。あの風は、エーテルの侵食を急激な速度で進めてしまうから。	너무 걱정하지 않아도 돼. 시간은 충분하니까. 다만 <emp1>에테르 바람<def>만은 꼭 조심해야 해. 그 바람을 맞으면 에테르의 침식이 급격히 빨라지거든.
 心酔	심취
 心酔しています	당신에게 푹 빠졌어요.
 必要値	다음 레벨
+忌み子とされ捨てられた。	불길한 아이라며 버림받았다.
 忍者の掟 120階相当	닌자의 규율 120층 수준
+忠実な使用人だった。	충직한 하인이었다.
 忠義	충의
 忠誠	충성
 快楽の園	쾌락의 정원
@@ -3972,6 +4495,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 怪我からの復帰	부상에서 회복
 怪我を自然に治癒する	상처를 자연스럽게 치유한다.
 恋心	연심
+恐ろしく卑屈。	무서울 만큼 비굴하다.
 恐怖させる刺突/ゲージ100％消費	공포를 주는 찌르기/게이지 100％ 소모
 恐怖の手	공포의 손길
 恐竜	공룡
@@ -3979,11 +4503,17 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 恨んでいる	원망하고 있어.
 恭順	공순
 悩殺攻撃	뇌쇄 공격
+悪の組織の手先。	악의 조직에서 하수인 노릇을 한다.
 悪天候やエーテル風の時には、<emp1>シェルター<def>を無料で開放しているよ。遠慮なく利用しよう。	날씨가 나쁘거나 에테르 바람이 불면 <emp1>대피소<def>를 무료로 개방해. 사양하지 말고 이용해.
 悪霊神『ウルザシズル』	악령신 『우르자시즐』
 悪魔	악마
 悪魔の討伐をガベラに報告しよう。 180階相当	악마를 토벌했다고 가베라에게 보고해야 한다. 180층 수준
 悪魔岬	악마 곶
+情報収集が得意だが、	정보를 모으는 데 능하지만,
+情報収集のため各地の調査を開始。	정보를 모으려고 각지에서 조사를 시작했다.
+惚れっぽいところがある。	쉽게 사랑에 빠진다.
+意地汚いところがある。	욕심이 사나운 구석이 있다.
+意外と根に持つ方。	의외로 뒤끝이 있다.
 意志	의지
 意志の成長	의지 성장
 意志対抗/SP減っている対象ほど疲労	의지 대항/SP가 줄어든 대상일수록 피로
@@ -3998,6 +4528,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 感覚対抗/ゲージが低い対象ほど疲労	지각 대항/게이지가 낮은 대상일수록 피로
 感覚重量依存攻撃/アイテム1つ消費	지각·무게에 따른 공격/아이템 1개 소모
 慈悲無き大洪水　SAN600/深淵魔力600/全域PVDV属性無差別攻撃	무자비한 대홍수　SAN 600/심연 마력 600/전역 PV·DV 속성 무차별 공격
+慕っている師匠がいる。	존경하는 스승이 있다.
 懲罰の光	징벌의 빛
 成功すると金を巻き上げ動きを止める	성공하면 돈을 뜯어내고 움직임을 멈춘다.
 成長力	성장력
@@ -4018,6 +4549,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 戦術指示	전술 지시
 戦術指示を終了	전술 지시 종료
 戦術筋力依存攻撃/転倒付与	전술·근력에 따른 공격/넘어짐 부여
+戦闘日和 / 	전투하기 좋은 날 / 
 所属	소속
 所持金貨２千枚を投げ散らす	소지한 금화 ２천 닢을 흩뿌린다.
 扉生成	문 생성
@@ -4049,6 +4581,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 探知	탐지
 探知能力を強化する	탐지 능력을 강화한다.
 探索で主に得られるのは<emp1>マテリアル<def>と呼ばれる物質だ。	탐색하면 주로 <emp1>재료<def>라고 부르는 물질을 얻을 수 있어.
+探索日和 / 	탐색하기 좋은 날 / 
 接近攻撃/反動あり/ゲージ25％消費	접근 공격/반동 있음/게이지 25％ 소모
 提携力[同行時に売買強化]	제휴력[동행 시 거래 강화]
 撫でまわす	이리저리 쓰다듬는다.
@@ -4061,6 +4594,10 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 攻撃を回避する	공격을 회피한다.
 攻撃杖の回数減無効/威力減/Sp3消費	공격 지팡이의 횟수 감소 무효화/위력 감소/SP 3 소모
 放逐すべき暗黒　SAN200/深淵魔力200/被召喚敵全抹殺	추방해야 할 암흑　SAN 200/심연 마력 200/소환된 적 모두 말살
+故郷を大災害で失った。	큰 재해로 고향을 잃었다.
+故郷を悪い冒険者に滅ぼされた。	사악한 모험가가 고향을 멸망시켰다.
+故郷を戦争で失った。	전쟁으로 고향을 잃었다.
+故郷を魔物に滅ぼされた。	마물이 고향을 멸망시켰다.
 救援要請	구원 요청
 教え子	제자
 散漫	산만
@@ -4080,6 +4617,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 新しい種族は？	새 종족 이름을 입력하세요.
 新しい職業は？	새 직업 이름을 입력하세요.
 新たなる力	새로운 힘
+方向音痴ですぐ迷子になる。	길눈이 어두워 툭하면 길을 잃는다.
+施設で実験体にされていた。	시설에서 실험체로 지냈다.
 旅の熟練をあげる	여행의 숙련도를 높인다.
 旅の目的	여행의 목적을 묻는다.
 旅の進行を早め経験を深める	여행의 진행을 빠르게 하고 경험을 쌓는다.
@@ -4087,12 +4626,16 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 旅歩き	여행
 旗	깃발
 日を改めてまたルストール仙窟を訪れよう。	다른 날 루스토르 선굴을 다시 찾아가야 한다.
+早くに両親と死別した。	일찍이 부모를 여의었다.
 昆虫	곤충
 明鏡止水	명경지수
 星渡の収穫船	별을 건너는 수확선
 時々ダンス披露	때때로 춤 선보이기
+時々不自然に記憶がなくなる。	가끔 석연치 않게 기억이 끊긴다.
+時空の歪みに呑まれ迷い込んだ。	일그러진 시공간에 휩쓸려 이곳에 흘러들었다.
 時間を止める/ゲージ100％消費	시간 정지/게이지 100％ 소모
 普通	보통
+普通の家庭で普通に育った。	평범한 집안에서 평범하게 자랐다.
 普通の装備を扱う技術	보통 무게의 장비를 다루는 기술이다.
 暇ならかたつむり駆除	한가하면 달팽이 퇴치
 暗記	암기
@@ -4108,6 +4651,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 暗黒属性の範囲攻撃	암흑 속성 범위 공격
 暗黒攻撃や盲目への抵抗	암흑 공격과 실명에 저항한다.
 暗黒放射	암흑 방사
+暴力を振るうことが好き。	폭력을 휘두르는 걸 좋아한다.
 暴虐の庭園	폭학의 정원
 暴走	폭주
 書物	책
@@ -4118,11 +4662,13 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 最後に信じられるのは、自分の力だけという考えに至る	결국 믿을 수 있는 것은 자신의 힘뿐이라는 생각에 이른다.
 最後の質問だ。君の名前は？	마지막으로 캐릭터의 이름을 입력하세요.
 最後まであきらめずに戦おう。	끝까지 포기하지 말고 싸워야 한다.
+最悪な未来を変えるために旅に出る。	끔찍한 미래를 바꾸려고 길을 떠났다.
 最高に可愛い	정말 귀여워.
 最高級の皮がとれそうだ	최고급 가죽을 얻을 수 있을 것 같다.
 最高級の肉がとれそうだ	최고급 고기를 얻을 수 있을 것 같다.
 月蝕の檻	월식의 감옥
 有射程/通常近接攻撃	사거리 있음/일반 근접 공격
+服のセンスがおかしい。	옷 입는 감각이 별나다.
 服従	복종
 期待していない	기대하지 않아.
 期待している	기대하고 있어.
@@ -4134,6 +4680,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 本の理解を深める	책에 대한 이해를 깊게 한다.
 本家Elonaホームページ	원작 Elona 홈페이지
 本当に感謝している	정말 고마워.
+本当は静かに暮らしたい。	실은 조용히 살고 싶다.
 本気物乞い	진심 어린 구걸
 本職を優先	본업 우선
 村長	촌장
@@ -4144,11 +4691,14 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 束縛/条件次第でSPやゲージ減少	속박/조건에 따라 SP·게이지 감소
 束縛＋LV依存の変動固定ダメージ	속박＋LV에 따라 변동하는 고정 피해
 束縛＋貫通攻撃	속박＋관통 공격
+果たせなかった使命がある。	완수하지 못한 사명이 있다.
 果物	과일
 染料１０種・・・・・・・・・・・600労働エナジー	염료 １０종・・・・・・・・600 노동 에너지
 柔術	유술
 柱アソートパック・・・・・・・300ヤカポイント	기둥 모둠 팩・・・・・・・300 야카 포인트
 核発射	핵 발사
+根がまっすぐで熱い性格だが、	심성이 곧고 열정적이지만,
+格下相手にも決して油断しないが、	한 수 아래인 상대에게도 방심하지 않지만,
 格闘	격투
 格闘の技術	격투 기술이다.
 格闘スタイルの切替	격투 방식 전환
@@ -4157,9 +4707,12 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 森	숲
 森の奥に謎の遺跡が見える。	숲 깊은 곳에 수수께끼의 유적이 보인다.
 植物を育て、採取する	식물을 길러 채취한다.
+極めてプライドが高い。	자존심이 유난히 강하다.
+極悪人だった過去を持つ。	한때 악명이 자자한 악인이었다.
 槍	창
 槍を扱う技術	창을 다루는 기술이다.
 様々な材料を調合/ポーション強化	다양한 재료를 조합한다/물약 강화
+様々な知識を持っているが、	여러 방면에 지식이 풍부하지만,
 樹木の伐採	벌목
 機工兵	기공병
 機械	기계
@@ -4167,11 +4720,13 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 機械要塞	기계 요새
 次はzキーでの行動について説明しよう。	다음은 z 키로 하는 행동을 설명하겠네.
 次は戦闘について教えるが、戦う前にまずアイテムを装備し、準備を整えなければならない。使い古しだが、君のために弓と矢を用意した。射撃武器は手スロットにも装備できるが、遠隔攻撃をする場合は遠隔スロットに装備してくれ。また、対応した矢や弾を矢弾スロットに装備する必要がある。	다음은 전투를 가르쳐 주지. 싸우기 전에는 먼저 장비를 갖추고 준비해야 하네. 낡기는 했지만 자네를 위해 활과 화살을 마련했지. 사격 무기를 손 부위에 장비할 수도 있지만, 원거리 공격을 하려면 원거리 부위에 장비하게. 그 무기에 맞는 화살이나 탄환도 탄약 부위에 장비해야 하네.
+歌が上手い。	노래를 잘한다.
 歌踊のカラヴィカ 150階相当	가무의 카라비카 150층 수준
 正体不明の存在	정체불명의 존재
 正直憎い	솔직히 미워.
 武具作成の技法についてはサリムが知っているようだ。だが親友くらいに仲良くならないと教えてもらえないだろう。	무구 제작 기법은 살림이 알고 있는 모양이다. 하지만 절친이 될 만큼 친해지지 않으면 알려 주지 않을 것이다.
 武具店(装備専門)	무구점(장비 전문)
+武器1	무기1
 武器や防具は、長い間所持していると簡単な鑑定がされるが、 装備の持つ魔力や本当の性能を知るためには、やはり鑑定が必要だ。強力な力を秘めたアイテムの中には、上位の鑑定を必要とするものもあるので、未判明のまま店に売ってしまうことは賢明ではないだろう。	무기와 방어구는 오래 가지고 다니면 대강 감정되지만, 깃든 마력이나 진짜 성능을 알려면 역시 제대로 감정해야 하네. 강한 힘을 품은 물건은 더 높은 수준의 감정이 필요하기도 하지. 정체도 모른 채 가게에 팔아 버리는 건 현명하지 못할 걸세.
 死にたくないなら、ある程度の能力は必要だね。	살아남으려면 어느 정도 실력은 갖춰야 한다.
 死の宣告	죽음의 선고
@@ -4181,11 +4736,16 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 死者の蘇生	죽은 자 소생
 死者の魔石	죽은 자의 마석
 死霊の神	사령의 신
+残り 1個のフィートを取得できる	특성을 1개 더 습득할 수 있다.
+残り 2個のフィートを取得できる	특성을 2개 더 습득할 수 있다.
+残り 3個のフィートを取得できる	특성을 3개 더 습득할 수 있다.
 残りカス	찌꺼기
 残りロック: 	남은 고정 횟수: 
+残りロック: 2	남은 잠금 횟수: 2
 残骸	잔해
 殲滅はしたが、なんだか嫌な予感がする。クルアルムの影羅に報告しよう。	섬멸은 했지만 어쩐지 불길한 예감이 든다. 크루알름의 에이라에게 보고해야 한다.
 殲滅可変放射	섬멸 가변 방사
+母性に飢えている。	어머니의 정이 그립다.
 毎ターンHPと状態異常回復/火炎耐性の獲得	매 턴 HP·상태 이상 회복/화염 내성 획득
 毎月1日と15日は給料日だ。ランクや名声に応じて、給料や支給品をもらえるよ。	매달 1일과 15일은 급료일이야. 등급과 명성에 따라 급료와 보급품을 받을 수 있어.
 毒	독
@@ -4213,7 +4773,10 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 氷結の波動	빙결의 파동
 永遠のネヘルタード 150階相当	영원의 네헤르타드 150층 수준
 汎式詠唱法	범용 시전법
+決定    	완료    
+決定 [フィート取得]  +,- [ページ切替]  Shift,Esc [閉じる]  z,x [仲間]	Enter [특성 습득]  +,- [쪽]  Shift,Esc [닫기]  z,x [동료]
 決定する	결정
+決定ｷｰ [再抽選]  p [ポートレイト変更]  Shift,Esc [最終確認]	Enter [다시 뽑기]  p [초상화]  Shift,Esc [최종 확인]
 決定ｷｰを押すことで、年齢・体格を再抽選できる。	결정 키를 누르면 나이와 체격을 다시 정할 수 있다.
 沈黙の海	침묵의 바다
 沈黙の霧	침묵의 안개
@@ -4228,6 +4791,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 活気溢れる街が見える。天使たちが街の上空を飛んでいる。	활기 넘치는 도시가 보인다. 천사들이 도시 상공을 날고 있다.
 流れ星を見て幸運を手にする	별똥별을 보고 행운을 얻는다.
 浄化の波動	정화의 파동
+浮気で生まれた隠し子。	불륜으로 태어나 남몰래 자란 자식이다.
 浮遊大陸にある西の森の遺跡に人が集まっているらしい。 130階相当	부유 대륙 서쪽 숲의 유적에 사람들이 모여 있는 모양이다. 130층 수준
 浮遊檻３個・・・・・・・・・・・200労働エナジー	부유 감옥 ３개・・・・・・・・200 노동 에너지
 浴びせ滝矢射	폭포 화살비
@@ -4271,6 +4835,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 混沌攻撃や混乱への抵抗	혼돈 공격과 혼란에 저항한다.
 混沌放射	혼돈 방사
 清浄なる光	성스러운 빛
+温厚で慈悲深いが、	온화하고 자비롭지만,
 渾身のギャグ	혼신의 농담
 湖	호수
 湖の中心にぽっかりと空いた闇の中に、かすかな光が見える。	호수 한가운데 뻥 뚫린 어둠 속에서 희미한 빛이 보인다.
@@ -4281,6 +4846,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 漏出する狂気	새어 나오는 광기
 演奏	연주
 演奏の質をあげる	연주의 수준을 높인다.
+潰れ中	짓눌리는 중
 激しく気持ちいいことしてあげる	격렬하게 기분 좋은 일을 해 주기
 激怒時のみ視界内火炎ダメージ	격노 중에만 시야 내 화염 피해
 濃い霧の発生	짙은 안개 생성
@@ -4331,6 +4897,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 熟練の苦行者	숙련 고행자
 熟練会計士	숙련 회계사
 熟練補給係	숙련 보급관
+熱中すると周りが見えなくなる。	한 가지에 빠지면 주변을 보지 못한다.
 熱愛	열애
 爆栓連発	폭발 마개 연사
 爆裂拳	폭렬권
@@ -4344,16 +4911,20 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 物を加工し、アイテムを作り出す	물건을 가공해 아이템을 만든다.
 物質感知	물질 감지
 特にない	딱히 없음
+特に不自由なく育った。	별 부족함 없이 자랐다.
 特に理由はないが鞭で打つ	별 이유는 없지만 채찍으로 때리기
 特定の場所への帰還	특정 장소로 귀환
 特定スキル上昇/一部アイテム使用時ゲージ増加	특정 기술 상승/일부 아이템 사용 시 게이지 증가
 特徴	특성
+特徴と体質	특징과 체질
 特選ハーブ８ダース・・・・・・5万ヤカポイント	특선 허브 ８다스・・・・・・5만 야카 포인트
 犬	개
 犬の尻尾 150階相当	개의 꼬리 150층 수준
 犬の神	개의 신
 犬神の森	견신의 숲
+犯した罪を償う旅に出る。	지은 죄를 속죄하려고 길을 떠났다.
 状態の良い石	상태가 좋은 돌.
+状況に応じて柔軟に思考できるが、	상황에 따라 유연하게 생각하지만,
 狂気との戦い 30階相当	광기와의 싸움 30층 수준
 狂気の眼差し	광기의 응시
 狂気回復の球	광기 치유 구체
@@ -4371,8 +4942,12 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 猫退治 25階相当	고양이 퇴치 25층 수준
 獣に変えられた王子の童話	짐승으로 변한 왕자의 이야기를 듣는다.
 獲得技能	습득 기술
+王族の一員だった。	왕족의 일원이었다.
 王者の魔石	왕의 마석
+環境が気に入らず冒険者になる。	처한 환경이 마음에 들지 않아 모험가가 되었다.
 甘えるように攻める（自身の魅力依存）	응석부리듯 공세를 취함（자신의 매력에 비례）
+生きることへの執着が強い。	삶에 대한 집착이 강하다.
+生まれつき天涯孤独だった。	태어날 때부터 혈혈단신이었다.
 生体兵器の殲滅をエリステアに報告しよう。 150階相当	생체 병기를 섬멸했다고 에리스테아에게 보고해야 한다. 150층 수준
 生化学	생화학
 生化学の知識を深める	생화학 지식을 깊게 한다.
@@ -4380,18 +4955,25 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 生化学感覚依存攻撃/瀕死なら人形化	생화학·지각에 따른 공격/대상이 빈사라면 인형화
 生化学者の野望 5階相当	생화학자의 야망 5층 수준
 生命力	생명력
+生活が苦しくなり出稼ぎに出る。	살림이 어려워져 타향으로 돈을 벌러 떠났다.
 生涯の師	평생의 스승
 生物管理区画	생물 관리 구역
+由緒正しい騎士の家系。	유서 깊은 기사 집안 출신이다.
 甲殻	갑각류
+男	남성
 男性	남성
 畑	밭
 畑の権利書	밭 권리서
+異なる環境にもすぐ適応できるが、	낯선 환경에도 금세 적응하지만,
 異名	이명
 異名の候補	이명 후보
 異名の選択	이명 선택
+異形の森の使者『ロミアス』	이형의 숲 사절 『로미아스』
 異形の神殿	이형의 신전
+異性の服に興味がある。	이성의 옷에 관심이 있다.
 異星主	외계의 지배자
 異次元の手	이차원의 손
+異種族に育てられた。	다른 종족의 손에서 자랐다.
 病は２０段階に分かれ進行するよ。段階ごとに新たな症状が発症して、最後には命を奪ってしまうんだ…病を遅らせる何らかの方法を見つけなくてはね。	에테르병은 20단계에 걸쳐 진행돼. 단계가 바뀔 때마다 새로운 증상이 나타나고, 끝내 목숨을 앗아 가지… 진행을 늦출 방법을 찾아야겠지.
 病愛波動	병든 사랑의 파동
 痴呆	치매
@@ -4399,6 +4981,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 癒しの手	치유의 손길
 癒し手	치유사
 癒し手のポーション	치유사의 물약
+皆から愛されて育った。	모두의 사랑을 받으며 자랐다.
+皆をまとめあげる統率力があるが、	사람들을 하나로 모으는 통솔력이 있지만,
 皮が多くとれるかもしれない	가죽을 많이 얻을 수 있을 것 같다.
 盗み	훔치기
 盗んで食べる	훔쳐 먹기
@@ -4409,6 +4993,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 盗賊ギルドノルマ	도적 길드 할당량
 盗賊ギルド審査	도적 길드 심사
 盟友	맹우
+監禁が趣味。	사람을 감금하는 게 취미다.
 目	눈
 目標レベル以上の敵モンスターを倒した。レオルドに報告しよう。	목표 레벨 이상의 적 몬스터를 쓰러뜨렸다. 레오르드에게 보고해야 한다.
 目的が決まっていないのなら、南の炭鉱街ヴェルニースに行くといいわ。あなたの探しているものが、見つかるかもしれない。	아직 목적지를 정하지 않았다면 남쪽의 탄광 마을 베르니스로 가 보세요. 당신이 찾는 것이 그곳에 있을지도 몰라요.
@@ -4423,6 +5008,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 盾を扱う技術	방패를 다루는 기술이다.
 盾殴り	방패 강타
 真っ黒な霧	새까만 안개.
+真面目で自分に厳しいが、	성실하고 자신에게 엄격하지만,
 眠りたい時は、ベッドや寝袋を<emp2>使用(スペースキー)<def>すればいい。とても眠い時には、<emp2>休息(Rキー)<def>をとると勝手に寝込んじゃうこともある。	잠을 자려면 침대나 침낭을 <emp2>사용(스페이스 키)<def>하면 돼. 아주 졸릴 때는 <emp2>휴식(R 키)<def>을 취하다가 저절로 잠들기도 해.
 眠りの手	잠의 손길
 眠れる神艦・船渠	잠든 신함·도크
@@ -4438,6 +5024,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 瞬間移動	순간이동
 瞳の奥の深淵	눈동자 깊은 곳의 심연
 矢弾	탄약
+知人に勧められて冒険者になった。	아는 사람의 권유로 모험가가 되었다.
 知者の加護	현자의 가호
 知識の忘却を防ぐ	지식을 잊지 않게 한다.
 短剣	단검
@@ -4456,6 +5043,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 確実に殺されるだろう。	틀림없이 죽게 될 것이다.
 確率で視界内の敵を麻痺・疲労	일정 확률로 시야 안의 적에게 마비·피로
 磁力操作	자력 조작
+礼儀正しく几帳面だが、	예의 바르고 꼼꼼하지만,
 祈祷を捧げることで、呪いの言葉の効力を弱める	기도를 올려 저주의 말이 지닌 효력을 약화시킨다.
 祈祷師	기도사
 祝福された草	축복받은 풀.
@@ -4467,6 +5055,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 神々の旧戦地	신들의 옛 전장
 神との距離を近める/呪いへの抵抗	신과의 거리를 좁힌다/저주에 저항
 神の化身	신의 화신
+神の啓示を受けて旅に出る。	신의 계시를 받고 길을 떠났다.
 神は死んだ	신은 죽었다.
 神力の解放	신의 힘 해방
 神填の杖	신의 충전 지팡이
@@ -4493,7 +5082,10 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 神託	신탁
 神速の一閃	신속의 일섬
 神速縫合	신속 봉합
+禁断の技術で生みだされた兵器。	금단의 기술로 만들어진 병기다.
+私生活はだらしない。	사생활은 엉망이다.
 私達はヴィンデールの森からの使者。公正なるジャビ王と会見し、森とエレアの民に降りかかる嫌疑を晴らすために、王都パルミアに向かっているの。	우리는 빈데일 숲의 사절이에요. 공정하신 자비 왕을 만나 숲과 엘레아 민족에 씌워진 혐의를 벗기 위해 왕도 팔미아로 가고 있지요.
+秘めた力が原因で隔離されていた。	몸에 깃든 힘 때문에 격리되어 지냈다.
 移動方法はもうわかっているだろうが、もしカーソルキーを使っているのならば、できるだけテンキーでの移動に変えたほうがいいだろう。テンキーの周りには、床のアイテムを取得する0キー、その場で足踏みする5キー、そして射撃などのターゲットを指定できる*キーがあるからな。	이동하는 법쯤은 알겠지. 다만 방향키를 쓰고 있다면 가급적 숫자 키패드를 쓰는 편이 좋겠네. 그 주변에는 바닥의 물건을 줍는 0 키, 제자리에서 한 턴을 보내는 5 키, 사격 등의 대상을 지정하는 * 키가 있으니까.
 種族	종족
 種族: 	종족: 
@@ -4508,6 +5100,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 突撃＋通常電撃格闘/ゲージ25％消費	돌진＋일반 전격 격투/게이지 25％ 소모
 窃盗	절도
 窃盗の腕をあげる	절도 솜씨를 높인다.
+窮地の時こそ真価を発揮するが、	궁지에서야 진가를 발휘하지만,
 立派な屋敷が見える。	훌륭한 저택이 보인다.
 立派な鎖３個・・・・・・・・・・2500労働エナジー	훌륭한 사슬 ３개・・・・・・・2500 노동 에너지
 竜人	용인
@@ -4532,23 +5125,30 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 紙隠し	종이 숨기기
 素晴らしき深海　SAN350/深淵魔力300/範囲沈黙窒息	경이로운 심해　SAN 350/심연 마력 300/범위 침묵·질식
 素直	고분고분
+細かいことは気にしないが、	사소한 일은 신경 쓰지 않지만,
+細かな気づかいが得意だが、	사소한 데까지 마음을 쓰지만,
 終わった…	끝났다…
 終了	종료
+経歴のロール	경력 다시 뽑기
 結果は想像がつくが、やってみるか…	결과는 짐작이 가지만 해 볼까…
 給料のほかに、毎月1日には<emp1>請求書<def>が送られてくるよ。請求書は、パルミアのすぐ北にある建物の中の納税箱に収めることができる。すぐに払う必要はないけど、4ヶ月も5ヶ月も滞納すると、犯罪者になってしまうから気をつけよう。	급료와 별개로 매달 1일에는 <emp1>청구서<def>도 도착해. 청구서는 팔미아 바로 북쪽 건물 안에 있는 납세함에 넣어 납부할 수 있어. 당장 낼 필요는 없지만 4개월, 5개월씩 밀리면 범죄자가 되고 마니 조심해.
 給料は家の給料箱にふりこまれ、給料箱を開けることで獲得できる。ランクや、だいたいの給料の目安を知りたいときは、ジャーナルを確認しよう。	급료는 집의 급료 상자에 들어와. 상자를 열면 받을 수 있지. 자신의 등급이나 급료가 대략 얼마나 되는지 알고 싶다면 일지를 확인해 봐.
+絵が壊滅的に下手。	그림 솜씨가 처참하다.
 絶対防衛	절대 방어
 緊急回避	긴급 회피
 総時間	총 시간
 罠の知識	함정 해제
 罠の知識を深める	함정에 관한 지식을 깊게 한다.
 罠の設置・解体能力を強化する	함정 설치·해체 능력을 강화한다.
+罪を犯して故郷を追われる。	죄를 짓고 고향에서 쫓겨났다.
 罵倒	매도
 羊	양
 美声	미성
 羨ましい	부러워.
+義理堅く人情味があるが、	의리를 지키고 인정이 많지만,
 習得	학습
 習得の成長	학습 성장
+考えていることが顔に出やすい。	속마음이 얼굴에 잘 드러난다.
 考え直す	다시 생각하기
 耐久	내구
 耐久の成長	내구 성장
@@ -4578,6 +5178,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 肉体の弱体化を治療/スタミナ微回復	육체의 약화를 치료/스태미나 소량 회복
 肉体復活	육체 복원
 肖像の変更	초상화 변경
+肝心なところで失敗する。	결정적인 순간에 실수한다.
 育成に力を入れたい人におすすめです。	캐릭터 육성에 힘을 쏟고 싶은 사람에게 권합니다.
 背中	등
 胴体	몸통
@@ -4604,24 +5205,36 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 腕	팔
 腰	허리
 臨界粒子砲	임계 입자포
+自分に自信が無い。	자신감이 없다.
+自分のことが嫌い。	자기 자신을 싫어한다.
+自分の出生を隠している。	자신의 출생을 숨기고 있다.
 自分の装備に呪い/自己強化	자신의 장비에 저주/자기 강화
 自分や杖から多くの魔力を引き出す	자신과 지팡이에서 더 많은 마력을 끌어낸다.
+自分をみせびらかすため旅に出る。	자기 자랑을 하려고 길을 떠났다.
 自分をターゲットにさせる	자신을 표적으로 삼게 한다.
+自分を見つめ直すため旅に出る。	자신을 돌아보고자 길을 떠났다.
 自己の変容	자기 변용
+自意識過剰。	남의 시선을 지나치게 의식한다.
 自爆	자폭
+自称サディスト。	자칭 가학 취향이다.
 自称女性	여성이라고 주장함
 自称男性	남성이라고 주장함
 致命傷を負った斥候に、パルミアのジャビ王へ書簡を渡すよう頼まれた。パルミアには、ヴェルニースから東の街道を進めば辿り着ける。 3階相当	치명상을 입은 정찰병에게서 팔미아의 자비 왕에게 서신을 전해 달라는 부탁을 받았다. 베르니스에서 동쪽 큰길을 따라가면 팔미아에 닿는다. 3층 수준
 致命傷治癒	치명상 치유
 致命傷治癒のポーション	치명상 치유 물약
+興味	관심도
 興味ない	관심 없어.
+興味のない相手に冷たい。	관심 없는 상대에게는 쌀쌀맞다.
 舞踏	무도
+色々あって自分の故郷を滅ぼした。	이런저런 사정으로 제 손으로 고향을 멸망시켰다.
 色弱	색약
 苦悶の檻	고뇌의 감옥
+苦痛に歪む顔を見るのが好き。	고통으로 일그러진 얼굴을 보는 게 좋다.
 苦行の達人	고행의 달인
 苦行を通じてHPを増やす	고행을 통해 HP를 늘린다.
 苦行者	고행자
 苦行者見習い	견습 고행자
+苦難に耐え抜く根性があるが、	역경을 견뎌 내는 근성이 있지만,
 英雄	영웅
 苺	딸기
 荒々しく攻められる　　（相手の筋力依存）	거친 공세를 받음　　（상대의 근력에 비례）
@@ -4629,7 +5242,10 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 荒ぶるダイス	날뛰는 주사위
 荷車重量	화물 무게
 荷車限界	화물 한도
+莫大な借金がある。	엄청난 빚을 지고 있다.
+落ちぶれた武士の家系。	몰락한 무사 집안 출신이다.
 藍色	남색
+虫が苦手。	벌레를 무서워한다.
 蛇	뱀
 蛙	개구리
 蜘蛛	거미
@@ -4637,6 +5253,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 蜘蛛の巣発生	거미줄 생성
 血の結束	피의 결속
 血や唾液その他色々混ぜる	피와 침 등 여러 가지 섞기
+行方不明者を探して旅に出る。	실종된 사람을 찾아 길을 떠났다.
 街だー！人の往来で辺りに活気があるね。	마을이다! 오가는 사람들 덕분에 활기가 넘치네.
 街での訓練は禁止	마을에서 훈련 금지
 街にいる人は<emp1>こちらから攻撃しない限り<def>襲ってこないから安心だよ。	마을 사람들은 <emp1>네가 먼저 공격하지 않는 한<def> 덤벼들지 않으니 안심해도 돼.
@@ -4656,6 +5273,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 装備品の解呪	장비의 저주 해제
 装備重量	장비 무게
 装飾家具店(装飾、家具、樹木専門)	장식 가구점(장식품·가구·수목 전문)
+裏切りを何より恐れる。	무엇보다 배신을 두려워한다.
+裏表がなくさっぱりしているが、	겉과 속이 같고 뒤끝이 없지만,
 補給係としての経験が、給料物資の品質を上げる	보급관으로서 쌓은 경험 덕분에 급여 물자의 품질이 높아진다.
 複数の対象を引き寄せ	여러 대상 끌어당기기
 複数の武器を扱う技術	여러 무기를 다루는 기술이다.
@@ -4693,27 +5312,40 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 言語を選びエンターキーを押してください。	언어를 고르고 Enter 키를 누르세요.
 討伐対象と思われるドラゴンを無事討伐した。ウールム・レゾンのスピファルに報告しよう。	토벌 대상으로 보이는 드래곤을 무사히 토벌했다. 울름 레존의 스피팔에게 보고해야 한다.
 訓練を受けるには<emp1>プラチナ硬貨<def>が必要だよ。<emp1>プラチナ硬貨<def>はなかなか手に入らないから、どのスキルを学んで鍛えるか、十分に考えてね。	훈련을 받으려면 <emp1>백금화<def>가 필요해. <emp1>백금화<def>는 구하기 어려우니 어떤 기술을 배우고 훈련할지 신중하게 생각해 봐.
+記憶喪失で昔のことを思い出せない。	기억을 잃어 지난날을 떠올리지 못한다.
 設定の変更	설정 변경
 詠唱	시전
 試しに火薬を混ぜてみる	시험 삼아 화약 섞기
+詳細設定	상세 설정
 誘導爆撃	유도 폭격
+説明:	설명:
 説法	설법
 読書	독서
 読書会	독서회
+誰かのためになら頑張れるが、	남을 위해서라면 힘을 낼 수 있지만,
+誰かをおちょくるのが趣味。	남을 놀리는 게 취미다.
+誰かをサポートするのが得意だが、	다른 사람을 잘 도와주지만,
+誰にでも友好的だが、	누구에게나 살갑지만,
+誰にも知られたくない秘密がある。	아무에게도 들키고 싶지 않은 비밀이 있다.
+誰にも頼らない強さを持つが、	누구에게도 기대지 않을 만큼 강하지만,
+誰よりも責任感が強いが、	누구보다 책임감이 강하지만,
 誰よりも速さを追求する	누구보다도 빠른 속도를 추구한다.
 調査隊壊滅の危機 180階相当	조사대 궤멸의 위기 180층 수준
 調達[独自の稼ぎ増加]	조달[독자 수입 증가]
+謎のゲートを通ってやってきた。	정체 모를 문을 지나 이곳에 왔다.
 謎のネフィアだ。とてつもない力を感じる…。	수수께끼의 네피아다. 엄청난 힘이 느껴진다….
 謎の儀式に巻き込まれ、眼に呪術を施される	수상한 의식에 휘말려 눈에 주술이 걸린다.
 謎の書物を読み解き、紙を操る古の魔術を習得する	수수께끼의 책을 해독해 종이를 조종하는 고대 마법을 익힌다.
 谷の奥に街道が見える。	골짜기 안쪽에 큰길이 보인다.
 谷の奥に街道が見える。なぜか懐かしさと禍々しさを感じる。	골짜기 안쪽에 큰길이 보인다. 어째서인지 그리움과 불길함이 함께 느껴진다.
+貧しいながらも逞しく育った。	가난했지만 씩씩하게 자랐다.
 貧血	빈혈
 貪食の牙	탐식의 송곳니
 貫通弾に切替	관통탄으로 전환
 貫通率上昇必中会心/ゲージ100％消費	관통률 상승·필중 치명타/게이지 100％ 소모
 貴族の毒見係のおかげで毒への耐性を得る	귀족의 기미 담당으로 일한 덕분에 독 내성을 얻는다.
 貴重な物品を盗む	귀중품을 훔친다.
+賊に拾われ育てられた。	도적들이 거두어 길렀다.
 賢明な判断だな。まずは最も基本的な動作から教えよう。	현명한 선택이군. 가장 기본적인 행동부터 가르쳐 주겠네.
 賢者の魔石	현자의 마석
 質のいい皮がとれそうだ	질 좋은 가죽을 얻을 수 있을 것 같다.
@@ -4721,6 +5353,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 質の高い演奏を可能にする	수준 높은 연주를 가능하게 한다.
 赤い草	붉은 풀
 赤色	빨강
+超　過	중량 초과
 超再生	초재생
 超加速	초가속
 超威力単体攻撃	초위력 단일 대상 공격
@@ -4732,14 +5365,24 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 超重装	초중갑
 超重量インテリアセット・・・・2千ヤカポイント	초중량 인테리어 세트・・・・2천 야카 포인트
 超電磁トルネード	초전자기 토네이도
+趣味はストーキング。	남을 스토킹하는 게 취미다.
+趣味はハンティング。	사냥이 취미다.
+趣味は昼寝。	낮잠이 취미다.
+趣味は機械いじり。	기계를 만지작거리는 게 취미다.
+趣味は盆栽いじり。	분재를 돌보는 게 취미다.
+趣味は読書。	독서가 취미다.
 足	다리
 足元に地雷設置	발밑에 지뢰 설치
 足元のアイテムはget…gキーで拾え、手持ちのアイテムはdrop…dキーで足元に落とすことができる。所持制限があるので、使用頻度の低いアイテムは持ち歩かない方がいいだろう。	발밑의 아이템은 get… g 키로 줍고, 가진 아이템은 drop… d 키로 발밑에 내려놓을 수 있네. 소지할 수 있는 양에 한계가 있으니 자주 쓰지 않는 물건은 들고 다니지 않는 게 좋겠지.
+跡継ぎとして厳しく育てられた。	집안의 대를 이을 후계자로 엄하게 자랐다.
 踊る鋼線	춤추는 강선
+身体に謎の紋章を持つ。	몸에 수수께끼의 문장이 새겨져 있다.
+身体を動かすのが好き。	몸을 움직이는 걸 좋아한다.
 身長	키
 軽い装備を扱う技術	가벼운 장비를 다루는 기술이다.
 軽く整理整頓する	가볍게 정리 정돈
 軽傷治癒	경상 치유
+軽減	피해 경감
 軽装備	경갑
 軽装備ならクリティカル無効	경갑이라면 치명타 무효화
 軽装備の技術を上昇させる	경갑 기술을 높인다.
@@ -4779,7 +5422,9 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 連続通常近接攻撃/追加効果無効	연속 일반 근접 공격/추가 효과 무효
 遂に…！	드디어…!
 運勢	행운
+運命に導かれて冒険に出る。	운명에 이끌려 모험을 떠났다.
 運命共同	운명 공동체
+過去から逃げるように旅に出る。	과거에서 달아나듯 길을 떠났다.
 道場	도장
 道連れ	길동무
 違う自分になる	다른 자신으로 변한다.
@@ -4796,10 +5441,12 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 邪魔	방해야.
 酒を飲んでいるうちに火を噴けるようになる	술을 마시다가 불을 뿜을 수 있게 된다.
 酒樽を盗んでいたごろつき団を殲滅した。あとはヴェルニースのシーナに報告するだけだ。	술통을 훔치던 건달 무리를 섬멸했다. 이제 베르니스의 시나에게 보고만 하면 된다.
+酒癖が悪い。	술버릇이 나쁘다.
 酸の海	산의 바다
 酸の発生	산 생성
 酸攻撃/鎧やメタルに毒	산 공격/갑옷·금속에 독
 酸攻撃と萎縮/両者束縛	산 공격·위축/양쪽 모두 속박
+重　荷	무거운 짐
 重い荷物を持ち運ぶことを可能にする	무거운 짐을 운반할 수 있게 한다.
 重い装備を扱う技術	무거운 장비를 다루는 기술이다.
 重さ	무게
@@ -4825,6 +5472,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 金色	금색
 金貨や食べる物をめぐんでもらう	금화와 먹을 것을 적선받는다.
 金貨を取り出す	금화 꺼내기
+金銭感覚がおかしい。	돈에 대한 감각이 이상하다.
 釣り	낚시
 釣りに失敗した。	낚시에 실패했다.
 釣りの腕をあげる	낚시 솜씨를 높인다.
@@ -4839,6 +5487,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 鉱物	광물
 鉱石	광석
 銃器	총기
+鋭い観察眼を持つが、	관찰력이 날카롭지만,
 鋭く丈夫な糸を隠し持つ	날카롭고 튼튼한 실을 숨겨 지닌다.
 錬成掌	연성장
 錬成雨	연성의 비
@@ -4853,6 +5502,8 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 鎧	갑옷
 鑑定	감정
 鑑定した	감정했다.
+長い間、囚われの身だった。	오랫동안 포로로 지냈다.
+長い間、病で床に臥せていた。	오랜 세월 병상에 누워 있었다.
 長剣	장검
 長年の修行により二刀流の技術を磨く	오랜 수련으로 쌍수 무기 기술을 갈고닦는다.
 長年の特訓の成果がスタミナを高める	오랜 특훈의 성과로 스태미나가 높아진다.
@@ -4877,7 +5528,9 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 阿修羅	아수라
 降り注ぐ胞子	쏟아지는 포자
 降参する	항복한다.
+陰謀に巻き込まれ追放される。	음모에 휘말려 추방되었다.
 陽動作戦 60階相当	양동 작전 60층 수준
+陽気でムードメーカーだが、	쾌활해서 주변 분위기를 띄우지만,
 階層依存放射/ゲージ100％消費	층에 따른 방사/게이지 100％ 소모
 階層重力依存耐久属性攻撃/鈍足判定	층의 중력에 따른 내구 속성 공격/감속 판정
 隠された場所や罠を見つける	숨겨진 장소와 함정을 찾는다.
@@ -4935,6 +5588,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 願いの効果/LV高いほど難易度増加	소원 효과/LV이 높을수록 난이도 증가
 類稀な幸運	보기 드문 행운
 風の山道	바람의 산길
+風を聴く者『ラーネイレ』	바람을 듣는 자 『라네이레』
 風を裂く不思議な石	바람을 가르는 신비로운 돌.
 飛獣送り	짐승 날리기
 飛跳殺法	도약 살법
@@ -4942,6 +5596,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 食べた	먹었다.
 食べちゃいたい	먹어 버리고 싶어.
 食べ物	먹을 것
+食べ物の恨みは忘れない。	먹을 것으로 맺힌 원한은 잊지 않는다.
 食べ物の種類によって、君の能力値が少し鍛えられる。ほとんどの場合それはほんのちょっとだけど、塵も積もればなんとやら。	먹는 음식의 종류에 따라 능력치가 조금씩 단련돼. 대부분은 아주 조금이지만 티끌 모아 태산이라잖아.
 食品を化学兵器に作り変える	음식을 화학 무기로 바꾼다.
 食品店(料理、食料専門)	식품점(요리·식량 전문)
@@ -4959,10 +5614,12 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 駒を召喚する	기물을 소환한다.
 駒召喚	기물 소환
 騎士昇格試験の手伝い 8階相当	기사 승급 시험 돕기 8층 수준
+騙されやすい。	남에게 잘 속는다.
 騙したの！？	날 속인 거야!?
 驚くことはない。何もしないでも、エーテルの侵食は時間と供に緩やかに進んでいくんだ。君の症状はまだまだ無視してかまわない程度だけど、病気を放っておくと、症状はどんどん悪化していってしまう。	놀랄 건 없어. 아무것도 하지 않아도 시간이 흐르면 에테르는 조금씩 몸을 침식하거든. 지금 네 증상은 무시해도 될 만큼 가볍지만 내버려 두면 점점 더 나빠질 거야.
 骸骨	해골
 骸骨戦士 ＋ デッドアイズ	해골 전사 ＋ 데드 아이즈
+高名な魔法使いの家系。	이름난 마법사 집안 출신이다.
 高度詠唱陣	고급 시전진
 高速ラッシュ	고속 러시
 鬱	우울
@@ -5017,6 +5674,7 @@ zキーの他にも、スペースキーの活用法を覚えておこう。ス�
 魔法への耐性	마법 내성
 魔法使い	마법사
 魔法使用不可	마법 사용 불가
+魔法威力	주문 위력
 魔法属性のボルト	마법 속성 볼트
 魔法属性の放射攻撃	마법 속성 방사 공격
 魔法属性の矢	마법 속성 화살

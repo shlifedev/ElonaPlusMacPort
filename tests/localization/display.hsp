@@ -3,6 +3,8 @@ font "MS Gothic",18
 value="Starting Menu"
 pos 8,8
 mes value
+dialog value + "\nUntranslated detail",0,value
+if stat!=1 : end 53
 ; A renderer translation must never change the VM string or saved bytes.
 if value!="Starting Menu" : end 51
 notesel value

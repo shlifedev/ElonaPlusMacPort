@@ -1,5 +1,8 @@
 #include "catalog.h"
+#include <algorithm>
 #include <fstream>
+#include <regex>
+#include <vector>
 #include <stdexcept>
 
 namespace elona::localization {
@@ -70,5 +73,118 @@ Catalog Catalog::load(const std::filesystem::path& path) {
 const std::string* Catalog::find(std::string_view source) const {
     const auto it = entries_.find(std::string(source));
     return it == entries_.end() ? nullptr : &it->second;
+}
+namespace {
+bool digits(std::string_view s) {
+    return !s.empty() && s.find_first_not_of("0123456789") == s.npos;
+}
+std::string scoped_key(std::string_view prefix, std::string_view value) {
+    return std::string(prefix).append(value);
+}
+}
+std::optional<std::string> Catalog::hud_text(std::string_view s) const {
+    if (s.size() < 3) return {};
+    auto prefix = s.substr(0, 2);
+    auto slash = s.find('/');
+    if ((prefix == "Lv" || prefix == "Sp") && slash != s.npos) {
+        auto number = [](std::string_view v) {
+            if (!v.empty() && v.front() == '-') v.remove_prefix(1);
+            return digits(v);
+        };
+        if (number(s.substr(2, slash-2)) && number(s.substr(slash+1))) {
+            if (auto label = find(scoped_key("@hud/", prefix))) return *label + " " + std::string(s.substr(2));
+        }
+        return {};
+    }
+    auto day_end = s.find(" / ");
+    if (day_end != s.npos) {
+        auto destiny = s.substr(day_end + 3);
+        if (std::string_view("DESTINY").substr(0, destiny.size()) == destiny) {
+            if (auto day = find(scoped_key("@day/", s.substr(0, day_end)))) return *day + std::string(s.substr(day_end));
+        }
+        return {};
+    }
+    auto split = s.find(' ');
+    if (split == s.npos) return {};
+    auto time = find(scoped_key("@clock/", s.substr(0, split)));
+    if (!time) return {};
+    auto weather = s.substr(split+1);
+    if (weather.empty()) return *time;
+    if (auto w = find(scoped_key("@weather/", weather))) return *time + " · " + *w;
+    return {};
+}
+
+std::optional<std::string> Catalog::log_text(std::string_view s) const {
+    std::string timestamp;
+    if (!s.empty() && s.front() == '[') {
+        auto end = s.find("] "), colon = s.find(':');
+        if (end == s.npos || colon == s.npos || colon >= end ||
+            !digits(s.substr(1, colon-1)) || !digits(s.substr(colon+1, end-colon-1))) return {};
+        timestamp.assign(s.substr(0, end+2));
+        s.remove_prefix(end+2);
+    }
+    if (s != "home-rank") {
+        if (auto target = find(scoped_key("@log/", s))) return timestamp + *target;
+    }
+    if (s.size() > 256 || s.substr(0, 16) != "Furniture Value:") return {};
+    static const std::regex rank(R"(^Furniture Value:(-?[0-9]+) Heirloom Value:(-?[0-9]+) Home Rank:([0-9]+)(?:st|nd|rd|th)->([0-9]+)(?:st|nd|rd|th) Your home is now known as <([^<>]+)>\.$)");
+    std::match_results<std::string_view::const_iterator> parts;
+    if (!std::regex_match(s.begin(), s.end(), parts, rank)) return {};
+    auto title = find(scoped_key("@home/", parts[5].str()));
+    auto format = find("@log/home-rank");
+    if (!title || !format) return {};
+    std::string result = *format;
+    for (int n = 1; n <= 5; ++n) {
+        auto marker = "{" + std::to_string(n) + "}";
+        auto at = result.find(marker);
+        if (at == result.npos) return {};
+        result.replace(at, marker.size(), n == 5 ? *title : parts[n].str());
+    }
+    return timestamp + result;
+}
+
+// The original English logger wraps and prints one space-terminated word at a
+// time. Paint each translated row on its first word, while allowing the VM to
+// append, measure, scroll and save its original message exactly as before.
+std::deque<LogWord> Catalog::log_words(std::string source, int used, int limit) const {
+    std::deque<LogWord> words;
+    auto target = log_text(source);
+    if (!target || used < 0 || limit <= 0) return words;
+    source += ' ';
+    std::size_t begin = 0, row_start = 0, target_start = 0;
+    // Map row breaks onto UTF-8 syllable boundaries. Prefer a nearby word
+    // boundary to avoid breaking labels, values, or a Korean word.
+    std::vector<std::size_t> boundaries{0};
+    for (std::size_t i=1; i<target->size(); ++i) {
+        if ((static_cast<unsigned char>((*target)[i]) & 0xc0) != 0x80) boundaries.push_back(i);
+    }
+    boundaries.push_back(target->size());
+    auto finish = [&](std::size_t source_end) {
+        auto glyph = source_end * (boundaries.size()-1) / source.size();
+        // Consecutive short rows can map to the same glyph after the previous
+        // row consumed a word-ending space. Never emit that span twice.
+        auto end = std::max(target_start, boundaries[glyph]);
+        if (source_end < source.size()) {
+            auto space = target->rfind(' ', end);
+            if (space != target->npos && space > target_start && end-space < 12) end = space+1;
+        }
+        words[row_start].display = target->substr(target_start, end-target_start);
+        target_start = end;
+    };
+    while (begin < source.size()) {
+        auto end = source.find(' ', begin)+1;
+        int length = static_cast<int>(end-begin);
+        if (length > limit) return {};
+        if (used > limit-length) {
+            if (!words.empty()) finish(begin);
+            row_start = words.size();
+            used = 0;
+        }
+        words.push_back({source.substr(begin,end-begin), {}});
+        used += length;
+        begin = end;
+    }
+    finish(source.size());
+    return words;
 }
 }  // namespace elona::localization

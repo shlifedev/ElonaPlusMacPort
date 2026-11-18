@@ -28,6 +28,14 @@ class LauncherTests(unittest.TestCase):
             with redirect_stderr(StringIO()) as message:
                 self.assertEqual(play_game.game_ax(root, "ko"), original)
             self.assertIn("Korean paragraph AX missing", message.getvalue())
+            legacy = root / play_game.LEGACY_MANAGED_AX
+            legacy.parent.mkdir(parents=True)
+            legacy.write_bytes(b"legacy fixture")
+            with patch.object(play_game, "LEGACY_MANAGED_SHA256", module.digest(b"legacy fixture")):
+                with redirect_stderr(StringIO()):
+                    self.assertEqual(play_game.game_ax(root, "ko"), legacy)
+            with self.assertRaisesRegex(RuntimeError, "Unexpected Korean"):
+                play_game.game_ax(root, "ko")
             managed.parent.mkdir(parents=True)
             managed.write_bytes(b"fixture")
             self.assertEqual(play_game.game_ax(root, "original"), original)
@@ -41,7 +49,7 @@ class TransformTests(unittest.TestCase):
     def fixture(self):
         # 0x815c contains a CP932 trail backslash. A Unicode round trip is not
         # needed; the check concerns preservation of every opaque source byte.
-        return b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + b"\treturn\r\n"
+        return b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + module.LOG_ENTRY + b"".join(line * count for line,count in module.HUD_LINES) + b"\treturn\r\n"
 
     def transform_fixture(self, data):
         with patch.object(module, "SOURCE_SHA256", module.digest(data)):
@@ -50,9 +58,11 @@ class TransformTests(unittest.TestCase):
     def test_removing_inserted_spans_recovers_every_original_byte(self):
         source = self.fixture()
         output, changes = self.transform_fixture(source)
-        body = output[len(module.DECLARATIONS):]
-        offset = changes[1]["input_byte_offset"]
-        self.assertEqual(body[:offset] + body[offset + len(module.HOOK):], source)
+        body = bytearray(output)
+        for change in reversed(changes):
+            at = change["output_byte_offset"]
+            del body[at:at + change["inserted_bytes"]]
+        self.assertEqual(bytes(body), source)
         self.assertEqual(output.count(b"native_ko_gmes"), 2)
         self.assertIn(b"\t\treturn 0\r\n", output)
 

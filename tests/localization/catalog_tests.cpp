@@ -38,6 +38,34 @@ int main(int argc, char** argv) {
         check(bad("\ty\n"));
         write("\xef\xbb\xbfx\ty\r\nx\ty\r\n");
         check(elona::localization::Catalog::load(file).size() == 1);
+        write("@log/You regain consciousness.\t정신을 차렸다.\n@log/*saving*\t*저장 중*\n"
+              "@log/a b c d e f g h i j k l\t첫 집\n"
+              "@hud/Lv\t레벨\n@clock/Midnight\t한밤중\n@weather/Rain\t비\n"
+              "@log/home-rank\t가구 {1}점 · 가보 {2}점 · 집 순위 {3}위→{4}위. 새 칭호는 〈{5}〉.\n"
+              "@home/Beggar's shack\t거지의 판잣집\n");
+        auto home = elona::localization::Catalog::load(file);
+        check(home.hud_text("Lv1/3024") == "레벨 1/3024");
+        check(home.hud_text("Midnight Rain") == "한밤중 · 비");
+        check(!home.hud_text("Lv1/3024A") && !home.hud_text("My Midnight Rain"));
+        check(home.log_text("[1:10] *saving*") == "[1:10] *저장 중*");
+        check(!home.log_text("Alice says You regain consciousness."));
+        std::string narrow_rows;
+        for (const auto& word : home.log_words("a b c d e f g h i j k l", 0, 2))
+            narrow_rows += word.display;
+        check(narrow_rows == "첫 집");
+        const std::string rank = "Furniture Value:5 Heirloom Value:10 Home Rank:100th->91st "
+                                 "Your home is now known as <Beggar's shack>.";
+        check(home.log_text(rank) == "가구 5점 · 가보 10점 · 집 순위 100위→91위. 새 칭호는 〈거지의 판잣집〉.");
+        check(!home.log_text(rank + " ") && !home.log_text("home-rank"));
+        for (int initial : {0, 2, 19}) {
+            std::string displayed, original;
+            for (const auto& word : home.log_words(rank, initial, 35)) {
+                original += word.source;
+                displayed += word.display;
+                check(elona::localization::valid_utf8(word.display));
+            }
+            check(original == rank + " " && displayed == *home.log_text(rank));
+        }
         auto rich = elona::localization::layout_rich_text("<emp1>마법서<def>를 읽으면 주문을 배운다.", 84, 0);
         check(rich.height > 18);
         check(rich.glyphs.front().style == 4 && rich.glyphs.front().color != 0);

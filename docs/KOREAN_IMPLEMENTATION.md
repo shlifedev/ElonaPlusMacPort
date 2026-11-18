@@ -2,6 +2,15 @@
 
 기준은 사용자 제공 ElonaPlus 2.335다. 아직 전체 한글 패치나 배포판이 아니다. 번역된 데이터 수, 실제 화면에 적용되는 문자열 수, 플레이 검증 범위를 구분한다.
 
+## 2026-11-18 영어 기반 플레이 보완
+
+실사용 세션은 관리 AX와 한국어 카탈로그를 로드했고 기본 언어는 영어였다. 마지막 집 화면에서 날씨, 가구·가보 가치와 집 순위, 저장 확인 질문이 영어로 남아 있음을 확인했다.
+
+- 보완한 Mac Release에서 같은 영어 선택·캐릭터 생성·집 이동·저장 입력을 4,858프레임까지 재생했다. 번역표 조회에 실패한 문자열 중 연속 영문자 3자 이상을 포함한 고유 문자열은 340종에서 235종으로 줄었다. 반복 그리기를 포함한 해당 조회 횟수는 30,906회에서 9,686회로 줄었다. 검사 대상에는 잘린 문장·버튼·표제도 포함된다. 이 수치로 게임 전체의 번역률을 계산할 수는 없다. 양쪽 모두 종료 코드 0, 관찰 오류 0, 압축 해제한 세이브 154파일이 동일했다. 기록은 `work/korean-coverage-followup/final-comparison.json`에 있다.
+- 캐릭터 경력과 선택지, 라네이레·로미아스의 칭호, 시작 고지문을 추가했다. 시작 고지문은 영문본과 일본어본의 내용 차이와 문단 구분을 보존한다. 게임에서 조각 단위로 그리던 시간·날씨·레벨·기력과 첫 집의 확정 로그를 해당 표시 위치에서 번역한다. 가구·가보 수치, 등급, 시각을 보존한다. `work/korean-coverage-followup/home-final-logs/home3175.png`
+- 영문판 노른의 집 4페이지, 세계 지도 3페이지는 29개의 실제 본문 행을 따로 번역했다. 새 프로필에서 일곱 페이지가 해당 한글 기준과 일치했고 비교 실행의 세이브 162파일이 일치했다. `work/localization/english-help-game-01/summary.json`.
+- 최종 카탈로그 5,716키, 충돌 0건. Mac 실제 글리프 검사 5,716/5,716 및 Release CTest 12/12, Windows x64 재빌드와 한국어 렌더·저장 비교를 통과했다. Windows x64 헤드리스 검사 39개의 최종 기록은 `work/windows/reference-build/gui-native-ko-home-hud-02/verify.json`이다. Mac 최종 재실행 `work/korean-coverage-followup/postcheck`에서도 동일한 미번역 목록과 세이브를 확인했다. 소스에 번역된 긴 NPC 대사도 게임이 먼저 줄을 나누면 원문이 남을 수 있다.
+
 ## 원본 데이터를 지키는 경계
 
 - 게임 VM의 문자열·파일명·배열·세이브는 CP932를 유지한다. UTF-8 한국어는 렌더러로 전달되는 표시 복사본에만 사용한다.
@@ -19,9 +28,11 @@
 | `original-ui.json`, `original-controls.json` | 메뉴·캐릭터 생성·시트·조작 안내 독자 번역 |
 | `original-database.json` | 초기 DB 범위 2,406항목; 검수2,263/문맥 보류143 |
 | `original-races-classes.json` | 종족76/직업12의 이름. 긴 종족/직업 설명까지 번역한 것은 아님 |
+| `original-creation-prompts.json`, `original-dialogs.json` | 캐릭터 생성, 고지문, 첫 집 인물 칭호·대화 선택지 |
+| `original-english-help.json`, `original-home-status.json` | 영문판 노른의 초반 안내, 시간·날씨·집 등급·저장 로그 |
 | `original-tutorial.json` | 첫 집91항목, 노른18블록79본문행과 제목1개. 동적 템플릿6개는 현재 자동 적용 보류 |
 | `english-ambiguities.json` | 2.335 조사에서 중의성이 발견된 영어 표시 키의 UTF-8 SHA-256 목록. 원문과 대응 일본어 문장은 제외 |
-| `runtime.tsv` | 검수 완료·비충돌 고정 표시 키만 수록한 생성물 |
+| `runtime.tsv` | 검수한 고정 문구와 화면·문맥별 키를 수록한 생성물 |
 | `runtime.report.json`, `runtime.sources.json` | 제외 이유·충돌·입력 해시·키별 원본 JSON/항목/라이선스 추적 |
 
 전체 static `lang` 조사에는 12,405개 고유 쌍과 4,785개 동적 표현식 후보가 있다. 그 밖의 파일·게임 내 조립 문장도 있으므로 이 숫자를 게임 전체 번역 분모로 사용하지 않는다.
@@ -36,12 +47,16 @@ python3 tools/compile_localization.py \
   localization/ko-KR/original-database.json \
   localization/ko-KR/original-races-classes.json \
   localization/ko-KR/original-tutorial.json \
+  localization/ko-KR/original-dialogs.json \
+  localization/ko-KR/original-creation-prompts.json \
+  localization/ko-KR/original-english-help.json \
+  localization/ko-KR/original-home-status.json \
   --output localization/ko-KR/runtime.tsv
 ```
 
 `reviewed`만 후보로 사용하고 `context_required`/`template_reviewed`는 그대로 넣지 않는다. JP/EN 별칭을 개별로 비활성화할 수 있으며 충돌한 키는 제외한다. 수치·서식·강조 태그 순서도 점검한다. 옛 `ko.txt` 전체 사전은 공개 재사용 조건 미확인이라 런타임에 일괄 가져오지 않았다. [출처 조사](KOREAN_SOURCES.md)를 참조한다.
 
-## 확인한 검사
+## 이전 검증 기록 (5,058키 기준)
 
 - Mac 개발/Release CTest11/11. strict UTF-8/중복 키, 문맥·서식 제외, 실제 한글 픽셀, VM 원문/입력·저장 값, 문단 태그·폭·높이·미번역 fallback 포함.
 - 실제 catalog의 모든 키를 CP932 HSP fixture로 컴파일해 렌더하는 `tests/localization/run_catalog_smoke.py`. 최종 5,058키, 충돌0 catalog를 최신 Release에서 전부 그려 lookup 실패0/글리프 오류0을 확인했다(`work/localization-font-audit-release-final.log`). 이것은 글꼴 검사이며 모든 UI 배치가 맞다는 뜻이 아니다.
@@ -52,6 +67,6 @@ python3 tools/compile_localization.py \
 
 ## 실행과 남은 일
 
-`Play ElonaPlus Korean.command` 또는 `python3 tools/play_game.py --language ko`는 준비된 `work/localization/managed-gmes-v1-01/start.ax`의 SHA-256을 확인하고 문단 번역을 활성화한다. 관리 AX가 없는 작업공간에서는 표준 오류로 알리고 정규화된 원본 AX로 고정 문구를 번역한다. 해시가 다른 관리 AX는 실행 전에 오류로 보고한다. 준비 명령은 [문단 경계 문서](KOREAN_RENDER_BOUNDARY.md)에 있다. 두 AX 모두 미등록 문단의 글자 단위 출력은 원문으로 유지하며, 같은 글자가 독립 메뉴 항목으로 표시될 때는 사전을 적용한다. 일본어 원문 기반 노른 번역을 영어 도움말의 서로 다른 페이지에 임의 대응시키지 않는다.
+한국어 런처는 준비된 `work/localization/managed-home-v2/start.ax`의 SHA-256을 확인하고 문단·HUD·로그 번역을 사용한다. 기존 작업공간에 v1 관리 AX만 있으면 문단 경로를 사용하고, 관리 AX가 없으면 정규화된 원본 AX와 고정 문구 번역으로 실행한다. [준비 명령](../README.md)
 
 남은 작업은 NPC 대사의 사전 줄바꿈 경계, 동적 주어·조사·아이템 이름, 이름/문맥 키 분리, 아직 범위 밖인 본문·퀘스트·후반 콘텐츠, 모든 화면의 실제 배치 검수다. 한국어 이름/IME를 CP932 VM에 저장하는 기능은 구현하지 않았다.
