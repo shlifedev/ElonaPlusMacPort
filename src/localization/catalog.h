@@ -5,6 +5,7 @@
 #include <string>
 #include <string_view>
 #include <unordered_map>
+#include <vector>
 
 namespace elona::localization {
 struct LogWord { std::string source, display; };
@@ -20,6 +21,12 @@ public:
     std::deque<LogWord> log_words(std::string source, int used, int limit) const;
     std::size_t size() const { return entries_.size(); }
 private:
+    struct LogTemplate {
+        std::string prefix, suffix, argument, translation;
+    };
+    void add_log_template(std::string_view pattern, const std::string& translation);
+    std::optional<std::string> adventure_log(std::string_view source) const;
+    std::vector<LogTemplate> log_templates_;
     std::unordered_map<std::string, std::string> entries_;
     std::unordered_map<std::string, std::string> draft_by_hash_;
 };

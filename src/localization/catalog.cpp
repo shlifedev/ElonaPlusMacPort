@@ -64,6 +64,9 @@ Catalog Catalog::load(const std::filesystem::path& path, const std::filesystem::
             if (source.empty() || target.empty()) throw std::runtime_error("empty source or translation");
             if (source.size() > 16384 || target.size() > 16384) throw std::runtime_error("entry too long");
             auto [it, added] = catalog.entries_.emplace(source, target);
+            constexpr std::string_view log_prefix = "@log-template/";
+            if (added && source.compare(0, log_prefix.size(), log_prefix) == 0)
+                catalog.add_log_template(std::string_view(source).substr(log_prefix.size()), target);
             if (!added && it->second != target) throw std::runtime_error("conflicting translations for one source");
         } catch (const std::exception& e) {
             throw std::runtime_error("translation catalog line " + std::to_string(number) + ": " + e.what());
@@ -146,6 +149,7 @@ std::optional<std::string> Catalog::log_text(std::string_view s) const {
     if (s != "home-rank") {
         if (auto target = find(scoped_key("@log/", s))) return timestamp + *target;
     }
+    if (auto matched = adventure_log(s)) return timestamp + *matched;
     // msg_write splits a complete English sentence into individual words.
     if (s.size() > 3 && s.find(' ') != s.npos && s.find_last_of(".?!") == s.size()-1) {
         if (auto target = find(s, true)) return timestamp + *target;

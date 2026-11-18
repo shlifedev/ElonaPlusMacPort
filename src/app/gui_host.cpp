@@ -1801,6 +1801,14 @@ int cmdfunc_extcmd(int cmd) {
 // boundaries. Original 2.335 bytecode does not contain this extension.
 int cmdfunc_localization(int cmd) {
     code_next();
+    if (cmd == 8) {
+        std::array<std::string, 7> args;
+        for (auto& value : args) value = code_gets();
+        const int item = code_geti();
+        if (H->text) H->text->prepare_board_row(args, item);
+        if (H->opt.trace_commands) ++H->command_counts["native_ko_board"];
+        return RUNMODE_RUN;
+    }
     if (cmd == 7) {
         const int scope = code_geti();
         const std::string source = code_gets();

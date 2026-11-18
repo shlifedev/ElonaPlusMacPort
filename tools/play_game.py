@@ -26,47 +26,36 @@ HOME_MANAGED_SHA256 = "bfb23aebb6a9a78983f717a361ce5691da4e520590d3013d686798e6e
 STORY_MANAGED_AX = Path("work/localization/managed-story-v3/start.ax")
 STORY_MANAGED_SHA256 = "bd0593e60aaa2c2ee4ead9efbfb6a9e154adb800a3739b022b7e9e5c449e90e8"
 
-
 MENU_MANAGED_AX = Path("work/localization/managed-menu-v4/start.ax")
 MENU_MANAGED_SHA256 = "19d0648199f04c697aff637c1a42d349f32381b8f2d45d77e1aff6fcde5b49e1"
 
-MANAGED_AX = Path("work/localization/managed-events-v5/start.ax")
-MANAGED_SHA256 = "a44316f1668ca0d30154b4ca2375462073fea4038a757f1e673b51b2180ee052"
+EVENT_MANAGED_AX = Path("work/localization/managed-events-v5/start.ax")
+EVENT_MANAGED_SHA256 = "a44316f1668ca0d30154b4ca2375462073fea4038a757f1e673b51b2180ee052"
+
+MANAGED_AX = Path("work/localization/managed-board-v6/start.ax")
+MANAGED_SHA256 = "93bd2b0677c9ceffc2c314cc530a0447917129b9130e619081be249543a91cec"
 
 
 def game_ax(root, language):
     original = root / "work/normalized/2.335/start.ax"
     if language == "ko":
-        managed = root / MANAGED_AX
-        if managed.is_file():
-            if hashlib.sha256(managed.read_bytes()).hexdigest() != MANAGED_SHA256:
-                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {managed}")
-            return managed
-        menu = root / MENU_MANAGED_AX
-        if menu.is_file():
-            if hashlib.sha256(menu.read_bytes()).hexdigest() != MENU_MANAGED_SHA256:
-                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {menu}")
-            print(f"Korean event AX missing at {managed}. Using menu AX {menu}.", file=sys.stderr)
-            return menu
-        story = root / STORY_MANAGED_AX
-        if story.is_file():
-            if hashlib.sha256(story.read_bytes()).hexdigest() != STORY_MANAGED_SHA256:
-                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {story}")
-            print(f"Korean menu AX missing at {managed}. Using dialogue AX {story}.", file=sys.stderr)
-            return story
-        home = root / HOME_MANAGED_AX
-        if home.is_file():
-            if hashlib.sha256(home.read_bytes()).hexdigest() != HOME_MANAGED_SHA256:
-                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {home}")
-            print(f"Korean dialogue AX missing at {managed}. Using HUD/log AX {home}.", file=sys.stderr)
-            return home
-        legacy = root / LEGACY_MANAGED_AX
-        if legacy.is_file():
-            if hashlib.sha256(legacy.read_bytes()).hexdigest() != LEGACY_MANAGED_SHA256:
-                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {legacy}")
-            print(f"Korean HUD/log AX missing at {managed}. Using paragraph AX {legacy}.", file=sys.stderr)
-            return legacy
-        print(f"Korean paragraph AX missing at {managed}. Using the original AX with menu translations.", file=sys.stderr)
+        versions = (
+            (MANAGED_AX, MANAGED_SHA256, "board"),
+            (EVENT_MANAGED_AX, EVENT_MANAGED_SHA256, "event"),
+            (MENU_MANAGED_AX, MENU_MANAGED_SHA256, "menu"),
+            (STORY_MANAGED_AX, STORY_MANAGED_SHA256, "dialogue"),
+            (HOME_MANAGED_AX, HOME_MANAGED_SHA256, "HUD/log"),
+            (LEGACY_MANAGED_AX, LEGACY_MANAGED_SHA256, "paragraph"),
+        )
+        for relative, expected, kind in versions:
+            candidate = root / relative
+            if candidate.is_file():
+                if hashlib.sha256(candidate.read_bytes()).hexdigest() != expected:
+                    raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {candidate}")
+                if relative != MANAGED_AX:
+                    print(f"Using earlier Korean {kind} AX {candidate}.", file=sys.stderr)
+                return candidate
+        print("Korean paragraph AX missing. Using the original AX with menu translations.", file=sys.stderr)
     return original
 
 

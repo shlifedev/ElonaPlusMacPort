@@ -13,6 +13,7 @@
 #include "ui_text_codec.h"
 #include "localization/catalog.h"
 #include "localization/rich_text.h"
+#include "localization/quest_board.h"
 
 namespace elona::gfx {
 namespace {
@@ -77,6 +78,18 @@ public:
         if (!catalog_ || scope < 1 || scope >= static_cast<int>(std::size(prefixes)) ||
             cp932.empty() || cp932.size() > 512) return;
         std::string source;
+    void prepare_board_row(const std::array<std::string, 7>& raw, int item) override {
+        board_body_.clear();
+        menu_label_ = {};
+        if (!catalog_) return;
+        std::array<std::string, 7> args;
+        for (std::size_t i = 0; i < args.size(); ++i)
+            if (raw[i].size() > 4096 || !ui_cp932_to_utf8(raw[i], args[i])) return;
+        if (auto post = localization::board_post(*catalog_, args, item)) {
+            menu_label_ = {raw[1].substr(0, raw[1].find(':')), std::move(post->title)};
+            board_body_ = std::move(post->body);
+        }
+    }
         if (ui_cp932_to_utf8(cp932, source)) {
             if (const auto* target = catalog_->find(std::string(prefixes[scope]) + source))
                 menu_label_ = {std::string(cp932), *target};
@@ -151,7 +164,9 @@ public:
         const bool named = source.compare(0, prefix.size(), prefix) == 0;
         const auto separator = named ? source.find('/', prefix.size()) : source.npos;
         if (named && separator == source.npos) return -1;
-        const auto* target = catalog_->find(source.substr(0, separator), true);
+        const bool board = source == "@board/body";
+        const auto* target = board ? (board_body_.empty() ? nullptr : &board_body_)
+                                   : catalog_->find(source.substr(0, separator), true);
         if (!target) return -1;
         if (named) {
             const auto marker = target->find("{name}");
@@ -161,7 +176,8 @@ public:
             formatted.replace(marker, 6, name);
         }
         // A name containing a tag, a dollar sign, or a caret is literal text.
-        const auto paragraph = localization::layout_rich_text(named ? formatted : *target, width, color, !named);
+        const auto paragraph = localization::layout_rich_text(named ? formatted : *target, width, color, !named && !board);
+        if (board && paragraph.height > 98) return -1;
         FontSpec spec{"", 14, 0, 0};
         for (const auto& g : paragraph.glyphs) {
             spec.pixel_height = g.size; spec.style = g.style;
@@ -341,6 +357,7 @@ private:
 
 }  // namespace
 
+    std::string board_body_;
 std::unique_ptr<TextRenderer> create_ttf_text_renderer(const TtfTextOptions& options, std::string& error) {
     if (!TTF_WasInit() && !TTF_Init()) {
         error = std::string("TTF_Init failed: ") + SDL_GetError();

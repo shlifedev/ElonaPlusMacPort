@@ -54,6 +54,8 @@ add_library(elona_graphics STATIC
   src/graphics/poly_raster.cpp
   src/graphics/ui_text_codec.cpp
   src/localization/catalog.cpp
+  src/localization/adventure_log.cpp
+  src/localization/quest_board.cpp
   src/localization/item_label.cpp
   src/localization/rich_text.cpp)
 target_include_directories(elona_graphics PUBLIC "${CMAKE_SOURCE_DIR}/src")
@@ -119,7 +121,7 @@ if(ELONA_LEGACY_RNG)
 endif()
 
 if(BUILD_TESTING)
-  add_executable(elona_catalog_tests tests/localization/catalog_tests.cpp src/localization/catalog.cpp src/localization/item_label.cpp src/localization/rich_text.cpp)
+  add_executable(elona_catalog_tests tests/localization/catalog_tests.cpp src/localization/catalog.cpp src/localization/adventure_log.cpp src/localization/quest_board.cpp src/localization/item_label.cpp src/localization/rich_text.cpp)
   target_link_libraries(elona_catalog_tests PRIVATE elona_platform)
   target_include_directories(elona_catalog_tests PRIVATE "${CMAKE_SOURCE_DIR}/src")
   if(MSVC)

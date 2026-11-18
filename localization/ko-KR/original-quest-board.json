@@ -1,0 +1,2807 @@
+[
+  {
+    "id": "board.46.title",
+    "source": "@board/%COOK,GENERAL,JP/cbe692e4a2a4e76043368d0575d35f841a5546375f46449a9093a0d9db47f64b/title",
+    "target": "요리사의 포부",
+    "source_ref": [
+      "2.335:data/board.txt:46"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,GENERAL,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.46.body",
+    "source": "@board/%COOK,GENERAL,JP/cbe692e4a2a4e76043368d0575d35f841a5546375f46449a9093a0d9db47f64b/body",
+    "target": "새 요리를 연구 중이오. 참고할 음식이 필요하니 {objective} 부탁하오. 사례는 {reward}요.",
+    "source_ref": [
+      "2.335:data/board.txt:46"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,GENERAL,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.47.title",
+    "source": "@board/%COOK,GENERAL,JP/ed3b28cb333fa40843f2778f2a65b8a0b317aae363e0e1a7e2917e78a85d51e0/title",
+    "target": "맛있는 게 먹고 싶어",
+    "source_ref": [
+      "2.335:data/board.txt:47"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,GENERAL,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.47.body",
+    "source": "@board/%COOK,GENERAL,JP/ed3b28cb333fa40843f2778f2a65b8a0b317aae363e0e1a7e2917e78a85d51e0/body",
+    "target": "오늘따라 먹고 싶은 게 있어요. {objective} 배달 부탁해요. 보수는 {reward}예요.",
+    "source_ref": [
+      "2.335:data/board.txt:47"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,GENERAL,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.51.title",
+    "source": "@board/%COOK,GENERAL,EN/56f8e5e656c39345268f243fa79f10653a98b7b943d2d2c073a28341daacd005/title",
+    "target": "새로운 조리법!",
+    "source_ref": [
+      "2.335:data/board.txt:51"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,GENERAL,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.51.body",
+    "source": "@board/%COOK,GENERAL,EN/56f8e5e656c39345268f243fa79f10653a98b7b943d2d2c073a28341daacd005/body",
+    "target": "요리의 달인이라면 늘 새 조리법을 배워야지. {objective} 좀 가져다주겠나? 보수는 {reward}일세.",
+    "source_ref": [
+      "2.335:data/board.txt:51"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,GENERAL,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.55.title",
+    "source": "@board/%COOK,1,JP/f8fca0ccf520213fa42bc84293306cc0e2311e4befc7ce076f8363d4e57a8414/title",
+    "target": "고기!",
+    "source_ref": [
+      "2.335:data/board.txt:55"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.55.body",
+    "source": "@board/%COOK,1,JP/f8fca0ccf520213fa42bc84293306cc0e2311e4befc7ce076f8363d4e57a8414/body",
+    "target": "도저히 못 참겠어. 고기가 먹고 싶어! 그래, {objective} 정도면 되겠군. 보수는 {reward}야!",
+    "source_ref": [
+      "2.335:data/board.txt:55"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.56.title",
+    "source": "@board/%COOK,1,JP/72d1ae86a7b925b4eb09cc9c2d5563dedc1706671df921ee3479995fcee05759/title",
+    "target": "손님맞이",
+    "source_ref": [
+      "2.335:data/board.txt:56"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.56.body",
+    "source": "@board/%COOK,1,JP/72d1ae86a7b925b4eb09cc9c2d5563dedc1706671df921ee3479995fcee05759/body",
+    "target": "오늘 귀한 손님에게 고기 요리를 대접하려고 합니다. {objective} 준비를 부탁드려요. 사례는 {reward}입니다.",
+    "source_ref": [
+      "2.335:data/board.txt:56"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.60.title",
+    "source": "@board/%COOK,1,EN/679fa674407c83dfc74d186b23c83f3ce690bbe643b4640ea7c2d0fab61f9255/title",
+    "target": "환영 만찬",
+    "source_ref": [
+      "2.335:data/board.txt:60"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,1,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.60.body",
+    "source": "@board/%COOK,1,EN/679fa674407c83dfc74d186b23c83f3ce690bbe643b4640ea7c2d0fab61f9255/body",
+    "target": "오늘 밤 귀한 손님을 모십니다. 극진한 대접을 받았다고 느끼실 만한 상을 차려야 해요. {objective} 준비를 부탁드려요. 보수는 {reward}입니다.",
+    "source_ref": [
+      "2.335:data/board.txt:60"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,1,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.64.title",
+    "source": "@board/%COOK,2,JP/b661b8a15e3e8863f2b2c825809dc108128920942717cdc60fa87ac507779ec5/title",
+    "target": "다이어트 식단",
+    "source_ref": [
+      "2.335:data/board.txt:64"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.64.body",
+    "source": "@board/%COOK,2,JP/b661b8a15e3e8863f2b2c825809dc108128920942717cdc60fa87ac507779ec5/body",
+    "target": "다이어트에는 채소가 좋다는 거 아시죠? {objective} 만들어 주세요. 값은 {reward}로 치를게요.",
+    "source_ref": [
+      "2.335:data/board.txt:64"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.65.title",
+    "source": "@board/%COOK,2,JP/687ed2a02dafed870170c6876752065adfefd2c0d01bf5d724d2cd2eef0ce66d/title",
+    "target": "편식을 고쳐 주세요",
+    "source_ref": [
+      "2.335:data/board.txt:65"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.65.body",
+    "source": "@board/%COOK,2,JP/687ed2a02dafed870170c6876752065adfefd2c0d01bf5d724d2cd2eef0ce66d/body",
+    "target": "우리 아이가 도통 채소를 안 먹어요! {objective} 정도라면 먹을지도 몰라요. 만들어 주시면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:65"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.69.title",
+    "source": "@board/%COOK,2,EN/c9b921860d9f3ac488fa8e0dd3ba473547e7a993d382384597a3b143fa43ee6d/title",
+    "target": "다이어트 중",
+    "source_ref": [
+      "2.335:data/board.txt:69"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,2,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.69.body",
+    "source": "@board/%COOK,2,EN/c9b921860d9f3ac488fa8e0dd3ba473547e7a993d382384597a3b143fa43ee6d/body",
+    "target": "건강한 식단에 채소가 빠질 수 없지요. {objective} 만들어 주시면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:69"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,2,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.73.title",
+    "source": "@board/%COOK,3,JP/24b39bcd6cc7c7135f91834c0acd4cef78b1fcf190080189ff931ce37f0f5308/title",
+    "target": "저녁 식사의 후식",
+    "source_ref": [
+      "2.335:data/board.txt:73"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,3,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.73.body",
+    "source": "@board/%COOK,3,JP/24b39bcd6cc7c7135f91834c0acd4cef78b1fcf190080189ff931ce37f0f5308/body",
+    "target": "오늘 저녁 후식으로 {objective} 생각이 나네요. 배달해 주실래요? {reward}면 충분할까요?",
+    "source_ref": [
+      "2.335:data/board.txt:73"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,3,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.74.title",
+    "source": "@board/%COOK,3,JP/33103d49ebefa2c2787cd168446671a8cb0238d0034803f39ac8afc9a988a714/title",
+    "target": "과일 요리",
+    "source_ref": [
+      "2.335:data/board.txt:74"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,3,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.74.body",
+    "source": "@board/%COOK,3,JP/33103d49ebefa2c2787cd168446671a8cb0238d0034803f39ac8afc9a988a714/body",
+    "target": "잔치에 과일 요리를 내고 싶어요. {objective} 준비해 주시면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:74"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,3,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.78.title",
+    "source": "@board/%COOK,3,EN/ddffd17c3554952894b04e7c7b2779fb981364e369659723452eb0527460761d/title",
+    "target": "칵테일 파티!",
+    "source_ref": [
+      "2.335:data/board.txt:78"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,3,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.78.body",
+    "source": "@board/%COOK,3,EN/ddffd17c3554952894b04e7c7b2779fb981364e369659723452eb0527460761d/body",
+    "target": "간단한 심부름으로 {reward} 벌어 보시죠. 칵테일 파티에 끝내주는 안주가 필요하거든요. {objective}, 그 정도면 괜찮겠네요.",
+    "source_ref": [
+      "2.335:data/board.txt:78"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,3,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.82.title",
+    "source": "@board/%COOK,4,JP/13e8dd106d21d4b74d940c9fb42408f4fd813fb11d89caea04d6ad0286a7fd54/title",
+    "target": "단것을 좋아해",
+    "source_ref": [
+      "2.335:data/board.txt:82"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,4,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.82.body",
+    "source": "@board/%COOK,4,JP/13e8dd106d21d4b74d940c9fb42408f4fd813fb11d89caea04d6ad0286a7fd54/body",
+    "target": "달콤한 과자가 먹고 싶어! {objective} 가져다주면 {reward} 줄게.",
+    "source_ref": [
+      "2.335:data/board.txt:82"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,4,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.83.title",
+    "source": "@board/%COOK,4,JP/8d2e5bb037204b2f95faf002f1fd50d1d639a7569ae451f42b0d6b4a13be0d11/title",
+    "target": "아이들 간식",
+    "source_ref": [
+      "2.335:data/board.txt:83"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,4,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.83.body",
+    "source": "@board/%COOK,4,JP/8d2e5bb037204b2f95faf002f1fd50d1d639a7569ae451f42b0d6b4a13be0d11/body",
+    "target": "아이들 간식으로 {objective} 내놓으려고 해요. 가져다주시면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:83"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,4,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.87.title",
+    "source": "@board/%COOK,4,EN/2c47f080d56a6b0d2a269745dc2ee0996a2e29aa611d5c783dd3cdaf5dac6be7/title",
+    "target": "달콤한 게 좋아",
+    "source_ref": [
+      "2.335:data/board.txt:87"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,4,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.87.body",
+    "source": "@board/%COOK,4,EN/2c47f080d56a6b0d2a269745dc2ee0996a2e29aa611d5c783dd3cdaf5dac6be7/body",
+    "target": "난 술보다 케이크나 사탕이 좋더라. {reward} 갖고 싶지? 그럼 {objective} 가져와!",
+    "source_ref": [
+      "2.335:data/board.txt:87"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,4,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.91.title",
+    "source": "@board/%COOK,5,JP/a752e65045f09570f2aa668d5e0fe01b0149f587cf6aa543ec5b7472f80bf5fd/title",
+    "target": "면 요리 마니아",
+    "source_ref": [
+      "2.335:data/board.txt:91"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,5,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.91.body",
+    "source": "@board/%COOK,5,JP/a752e65045f09570f2aa668d5e0fe01b0149f587cf6aa543ec5b7472f80bf5fd/body",
+    "target": "파스타, 라멘, 메밀국수…… 면이라면 사족을 못 쓰지. {objective} 좀 맛보게 해 줘! 보수는 {reward}야.",
+    "source_ref": [
+      "2.335:data/board.txt:91"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,5,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.92.title",
+    "source": "@board/%COOK,5,JP/ebf98f241f29aeb74b85552d6f3ae554a927edb40cf368b07dac2683540b7f5c/title",
+    "target": "후루룩 넘어가는 맛",
+    "source_ref": [
+      "2.335:data/board.txt:92"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,5,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.92.body",
+    "source": "@board/%COOK,5,JP/ebf98f241f29aeb74b85552d6f3ae554a927edb40cf368b07dac2683540b7f5c/body",
+    "target": "후루룩 먹을 수 있는 {objective} 생각이 간절하네. 배달해 주면 {reward} 주겠어.",
+    "source_ref": [
+      "2.335:data/board.txt:92"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,5,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.96.title",
+    "source": "@board/%COOK,5,EN/3a220474ef04073445a3b2a8f9c4e15dd10ba29d78a75ce41abeb2704f7d447c/title",
+    "target": "면이 최고야!",
+    "source_ref": [
+      "2.335:data/board.txt:96"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,5,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.96.body",
+    "source": "@board/%COOK,5,EN/3a220474ef04073445a3b2a8f9c4e15dd10ba29d78a75ce41abeb2704f7d447c/body",
+    "target": "난 면이 좋아! 세상에 면을 싫어하는 사람이 있나? 지금 당장 {objective} 먹고 싶어! 보수? 물론 있지. {reward} 어때?",
+    "source_ref": [
+      "2.335:data/board.txt:96"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,5,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.100.title",
+    "source": "@board/%COOK,6,JP/82556b21af8f51c5e3140dcfd718dae302ebacd1fd7ea856caef69f9d3031f15/title",
+    "target": "건강식",
+    "source_ref": [
+      "2.335:data/board.txt:100"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,6,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.100.body",
+    "source": "@board/%COOK,6,JP/82556b21af8f51c5e3140dcfd718dae302ebacd1fd7ea856caef69f9d3031f15/body",
+    "target": "생선이 몸에 무척 좋다더군요. {objective} 요리해서 가져다주시면 {reward} 드리죠.",
+    "source_ref": [
+      "2.335:data/board.txt:100"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,6,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.101.title",
+    "source": "@board/%COOK,6,JP/f14dbcda7eab5a79a3555bd293cbc18d318bf9ead9fc8f108eb5315e9c6cfa68/title",
+    "target": "우리 아이에게 생선을",
+    "source_ref": [
+      "2.335:data/board.txt:101"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,6,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.101.body",
+    "source": "@board/%COOK,6,JP/f14dbcda7eab5a79a3555bd293cbc18d318bf9ead9fc8f108eb5315e9c6cfa68/body",
+    "target": "아이가 편식이 심해서 생선을 안 먹어요. {objective} 정도라면 먹어 볼지도 모르겠네요. 요리해 주시겠어요? {reward}면 어떨까요?",
+    "source_ref": [
+      "2.335:data/board.txt:101"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,6,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.105.title",
+    "source": "@board/%COOK,6,EN/8ea5bc14aff811b95b392cac991d460cf3232e0c64104056787ef1aa08c9c388/title",
+    "target": "까다로운 입맛",
+    "source_ref": [
+      "2.335:data/board.txt:105"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,6,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.105.body",
+    "source": "@board/%COOK,6,EN/8ea5bc14aff811b95b392cac991d460cf3232e0c64104056787ef1aa08c9c388/body",
+    "target": "애들이 생선을 입에도 안 대니 속이 탑니다. 편식도 잊게 할 만큼 맛있는 {objective} 만들어 주시면 {reward} 드릴게요!",
+    "source_ref": [
+      "2.335:data/board.txt:105"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,6,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.109.title",
+    "source": "@board/%COOK,7,JP/cbafe43681dd7b4e0d7a1cae77aba677258daf2f13d984cb09dd312ff6f43d93/title",
+    "target": "나는 빵파",
+    "source_ref": [
+      "2.335:data/board.txt:109"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,7,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.109.body",
+    "source": "@board/%COOK,7,JP/cbafe43681dd7b4e0d7a1cae77aba677258daf2f13d984cb09dd312ff6f43d93/body",
+    "target": "당신은 빵이 좋아요, 밥이 좋아요? 저는 무조건 빵이에요. {objective} 구워 주시면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:109"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,7,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.110.title",
+    "source": "@board/%COOK,7,JP/902e14b8eeb852fe1aa552e194e1b4aecdecb4ded38357d604d7cc59e65c30fe/title",
+    "target": "소풍 도시락",
+    "source_ref": [
+      "2.335:data/board.txt:110"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,7,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.110.body",
+    "source": "@board/%COOK,7,JP/902e14b8eeb852fe1aa552e194e1b4aecdecb4ded38357d604d7cc59e65c30fe/body",
+    "target": "내일 소풍에 {objective} 가져가고 싶어. 제발 부탁해! 보수는 {reward}야. 이 이상은 못 줘.",
+    "source_ref": [
+      "2.335:data/board.txt:110"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,7,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.114.title",
+    "source": "@board/%COOK,7,EN/57392002339a29e7ef31b5b2f223fb32b9391cb1f9cc791075f923f655355535/title",
+    "target": "내일은 소풍",
+    "source_ref": [
+      "2.335:data/board.txt:114"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,7,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.114.body",
+    "source": "@board/%COOK,7,EN/57392002339a29e7ef31b5b2f223fb32b9391cb1f9cc791075f923f655355535/body",
+    "target": "미리 말하지만 보수는 {reward}, 그 이상은 못 드려요. 내일 아이가 소풍에 가져갈 {objective} 필요하니 서둘러 주세요.",
+    "source_ref": [
+      "2.335:data/board.txt:114"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,7,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.118.title",
+    "source": "@board/%COOK,8,JP/cbe692e4a2a4e76043368d0575d35f841a5546375f46449a9093a0d9db47f64b/title",
+    "target": "요리사의 포부",
+    "source_ref": [
+      "2.335:data/board.txt:118"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,8,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.118.body",
+    "source": "@board/%COOK,8,JP/cbe692e4a2a4e76043368d0575d35f841a5546375f46449a9093a0d9db47f64b/body",
+    "target": "새 요리를 연구 중이오. 참고할 음식이 필요하니 {objective} 부탁하오. 사례는 {reward}요.",
+    "source_ref": [
+      "2.335:data/board.txt:118"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,8,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.119.title",
+    "source": "@board/%COOK,8,JP/ed3b28cb333fa40843f2778f2a65b8a0b317aae363e0e1a7e2917e78a85d51e0/title",
+    "target": "맛있는 게 먹고 싶어",
+    "source_ref": [
+      "2.335:data/board.txt:119"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,8,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.119.body",
+    "source": "@board/%COOK,8,JP/ed3b28cb333fa40843f2778f2a65b8a0b317aae363e0e1a7e2917e78a85d51e0/body",
+    "target": "오늘따라 먹고 싶은 게 있어요. {objective} 배달 부탁해요. 보수는 {reward}예요.",
+    "source_ref": [
+      "2.335:data/board.txt:119"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,8,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.123.title",
+    "source": "@board/%COOK,8,EN/9dc768f0ec096ae7ea9d3f8535df69f3716b5182da0e5631b14cb8e3c911a298/title",
+    "target": "배고파 죽겠네!",
+    "source_ref": [
+      "2.335:data/board.txt:123"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,8,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.123.body",
+    "source": "@board/%COOK,8,EN/9dc768f0ec096ae7ea9d3f8535df69f3716b5182da0e5631b14cb8e3c911a298/body",
+    "target": "때만 되면 굶어 죽겠다는 듯 배가 으르렁대. 이 녀석한테 한 입 먹여 주겠어? {objective} 정도면 잠잠해질 거야. {reward} 줄게.",
+    "source_ref": [
+      "2.335:data/board.txt:123"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COOK,8,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.127.title",
+    "source": "@board/%COLLECT,JP/da682bd864d4bd02b41566cfc730cbe15a23f86e7edd4101a911910c47e41a0e/title",
+    "target": "꼭 갖고 싶은 물건",
+    "source_ref": [
+      "2.335:data/board.txt:127"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COLLECT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.127.body",
+    "source": "@board/%COLLECT,JP/da682bd864d4bd02b41566cfc730cbe15a23f86e7edd4101a911910c47e41a0e/body",
+    "target": "요즘 {client}만 만나면 {ref} 자랑을 듣게 됩니다. 저도 죽도록 탐나요, 그 {ref}! 손에 넣어 주시면 {reward} 드리죠. 수단은 묻지 않겠습니다.",
+    "source_ref": [
+      "2.335:data/board.txt:127"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COLLECT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.128.title",
+    "source": "@board/%COLLECT,JP/8b85fa0f0ee3f9f28ede7248b3b4ba96cdbc8dda58bdd0bb1d97b910a5b1bba0/title",
+    "target": "눈독 들인 물건",
+    "source_ref": [
+      "2.335:data/board.txt:128"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COLLECT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.128.body",
+    "source": "@board/%COLLECT,JP/8b85fa0f0ee3f9f28ede7248b3b4ba96cdbc8dda58bdd0bb1d97b910a5b1bba0/body",
+    "target": "{client} 소유의 {ref}, 알고 계신가요? 사정이 있어서 꼭 필요합니다. 잘 이야기해서 구해 주신다면 {reward} 드리겠습니다.",
+    "source_ref": [
+      "2.335:data/board.txt:128"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COLLECT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.132.title",
+    "source": "@board/%COLLECT,EN/566f6cce7efbce84dfe6b91558b270b5970342c270ec9393b818872407b326ef/title",
+    "target": "나도 갖고 싶어!",
+    "source_ref": [
+      "2.335:data/board.txt:132"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COLLECT,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.132.body",
+    "source": "@board/%COLLECT,EN/566f6cce7efbce84dfe6b91558b270b5970342c270ec9393b818872407b326ef/body",
+    "target": "{client} 소유의 {ref}, 봤어? 갖고 싶어, 나도 갖고 싶단 말이야! 수단 방법 가리지 말고 가져다줘. {reward} 줄게.",
+    "source_ref": [
+      "2.335:data/board.txt:132"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %COLLECT,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.136.title",
+    "source": "@board/%DELIVER,64000,JP/5d13a18edc0bd7ba488a158dfc1ee1b651fbbfb4a407c396cd4db92ba93e8b29/title",
+    "target": "진귀한 물건 배달",
+    "source_ref": [
+      "2.335:data/board.txt:136"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,64000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.136.body",
+    "source": "@board/%DELIVER,64000,JP/5d13a18edc0bd7ba488a158dfc1ee1b651fbbfb4a407c396cd4db92ba93e8b29/body",
+    "target": "어디 쓸지는 몰라도 {client} 쪽에서 {ref} 매입을 원한다네. {map}까지 배달해 주면 {reward} 주겠네.",
+    "source_ref": [
+      "2.335:data/board.txt:136"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,64000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.137.title",
+    "source": "@board/%DELIVER,64000,JP/3c195111cb98b29482748e779ceaf0e66b07576038798db85022e8fbacc46f66/title",
+    "target": "폐품 수거",
+    "source_ref": [
+      "2.335:data/board.txt:137"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,64000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.137.body",
+    "source": "@board/%DELIVER,64000,JP/3c195111cb98b29482748e779ceaf0e66b07576038798db85022e8fbacc46f66/body",
+    "target": "{map}에 사는 {client} 말인데, 폐품을 모은다더군. {ref} 보내려니 번거로워서 말이야. 대신 갖다 주면 수고비로 {reward} 주지.",
+    "source_ref": [
+      "2.335:data/board.txt:137"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,64000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.141.title",
+    "source": "@board/%DELIVER,64000,EN/946d82572dcb9fba539b925c630d66417d10df787ec488a59420f6867c102ef6/title",
+    "target": "환경 지킴이",
+    "source_ref": [
+      "2.335:data/board.txt:141"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,64000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.141.body",
+    "source": "@board/%DELIVER,64000,EN/946d82572dcb9fba539b925c630d66417d10df787ec488a59420f6867c102ef6/body",
+    "target": "{map}에 폐품을 모으는 친구가 있어요. 이름은 {client}예요. {map}에 들르실 때 {ref} 좀 전해 주실래요? 보수는 {reward}예요.",
+    "source_ref": [
+      "2.335:data/board.txt:141"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,64000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.145.title",
+    "source": "@board/%DELIVER,60000,JP/1b2cc9fef3d947c604968af94a3ea651f9ed9e764c118a17fb3ae998224f3c9d/title",
+    "target": "가구 배달",
+    "source_ref": [
+      "2.335:data/board.txt:145"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,60000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.145.body",
+    "source": "@board/%DELIVER,60000,JP/1b2cc9fef3d947c604968af94a3ea651f9ed9e764c118a17fb3ae998224f3c9d/body",
+    "target": "배달 건입니다. {objective}. 기한 안에 무사히 도착하면 배달처에서 {reward} 지급합니다.",
+    "source_ref": [
+      "2.335:data/board.txt:145"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,60000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.146.title",
+    "source": "@board/%DELIVER,60000,JP/2289181460a4d1955a377e27c18f4b340c12ff9b54f06e3e470bde7ad3110279/title",
+    "target": "집들이 선물",
+    "source_ref": [
+      "2.335:data/board.txt:146"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,60000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.146.body",
+    "source": "@board/%DELIVER,60000,JP/2289181460a4d1955a377e27c18f4b340c12ff9b54f06e3e470bde7ad3110279/body",
+    "target": "내 친구 {client}, 이번에 {map}에 집을 지었어. 집들이 선물로 {ref} 보내려고 해. {reward} 받고 배달해 줄래?",
+    "source_ref": [
+      "2.335:data/board.txt:146"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,60000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.150.title",
+    "source": "@board/%DELIVER,60000,EN/4f15830b5e02af5cc25e91fad3f691f98c507d8a02870ab988568e70bf763935/title",
+    "target": "집들이 선물",
+    "source_ref": [
+      "2.335:data/board.txt:150"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,60000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.150.body",
+    "source": "@board/%DELIVER,60000,EN/4f15830b5e02af5cc25e91fad3f691f98c507d8a02870ab988568e70bf763935/body",
+    "target": "우리 삼촌 {client}, 이번에 {map}에 집을 지으셨어요. 선물로 {ref} 보내려고 해요. 사례로 {reward} 준비했어요.",
+    "source_ref": [
+      "2.335:data/board.txt:150"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,60000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.154.title",
+    "source": "@board/%DELIVER,54000,JP/19784c00b8db02f1549ff03f6457f0f50cbcb7dce7d981bf0ff9f332663c6b0a/title",
+    "target": "마법 견습생의 부탁",
+    "source_ref": [
+      "2.335:data/board.txt:154"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.154.body",
+    "source": "@board/%DELIVER,54000,JP/19784c00b8db02f1549ff03f6457f0f50cbcb7dce7d981bf0ff9f332663c6b0a/body",
+    "target": "{map}의 {client} 말이오. 마법을 공부한다더군. {ref} 무사히 배달해 주면 사례로 {reward} 주겠소.",
+    "source_ref": [
+      "2.335:data/board.txt:154"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.155.title",
+    "source": "@board/%DELIVER,54000,JP/ad1da7bcf6cc605399788aa9df3b56be9dfb06f0891cb3f0c99a93b89e011355/title",
+    "target": "빌린 책 돌려주기",
+    "source_ref": [
+      "2.335:data/board.txt:155"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.155.body",
+    "source": "@board/%DELIVER,54000,JP/ad1da7bcf6cc605399788aa9df3b56be9dfb06f0891cb3f0c99a93b89e011355/body",
+    "target": "{map}에 사는 지인 {client}한테 빌린 {ref} 좀 돌려주시겠어요? 보수는 {reward}입니다.",
+    "source_ref": [
+      "2.335:data/board.txt:155"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.156.title",
+    "source": "@board/%DELIVER,54000,JP/23024bbd024fad154123f2ed37a6eea4df7100557c1a077eae26e931cc401d2b/title",
+    "target": "희귀한 책 배달",
+    "source_ref": [
+      "2.335:data/board.txt:156"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.156.body",
+    "source": "@board/%DELIVER,54000,JP/23024bbd024fad154123f2ed37a6eea4df7100557c1a077eae26e931cc401d2b/body",
+    "target": "최근 {ref} 구했어요. 전부터 탐내던 {client}한테 선물하고 싶네요. {map}까지 배달해 주실래요? 수고비는 {reward}예요.",
+    "source_ref": [
+      "2.335:data/board.txt:156"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.160.title",
+    "source": "@board/%DELIVER,54000,EN/7965b7c2394998ec016947bfa49cc70573ddf329dbd85c956e5f017ed49177d5/title",
+    "target": "책 배달",
+    "source_ref": [
+      "2.335:data/board.txt:160"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.160.body",
+    "source": "@board/%DELIVER,54000,EN/7965b7c2394998ec016947bfa49cc70573ddf329dbd85c956e5f017ed49177d5/body",
+    "target": "{map}에 사는 {client} 앞으로 {ref} 좀 전해 주실래요? 보수는 {reward}예요.",
+    "source_ref": [
+      "2.335:data/board.txt:160"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,54000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.164.title",
+    "source": "@board/%DELIVER,77000,JP/6c4b59c10111cb99147b94ecf480f791e8556941a5813dbabb373a21326e5ef3/title",
+    "target": "광석 수집가에게",
+    "source_ref": [
+      "2.335:data/board.txt:164"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.164.body",
+    "source": "@board/%DELIVER,77000,JP/6c4b59c10111cb99147b94ecf480f791e8556941a5813dbabb373a21326e5ef3/body",
+    "target": "{map}에 {client}라는 광석 수집가가 있어요. 이 {ref} 좀 전해 주실래요? 보수는 {reward}입니다.",
+    "source_ref": [
+      "2.335:data/board.txt:164"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.165.title",
+    "source": "@board/%DELIVER,77000,JP/be99607c11a40acec7e33f4d18d1f3f5a2f0b04c5b961be9f2560f61e95fcd11/title",
+    "target": "조각용 석재 운송",
+    "source_ref": [
+      "2.335:data/board.txt:165"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.165.body",
+    "source": "@board/%DELIVER,77000,JP/be99607c11a40acec7e33f4d18d1f3f5a2f0b04c5b961be9f2560f61e95fcd11/body",
+    "target": "{map}에서 {ref} 재료로 조각 대회가 열린다네요. 담당자 {client} 앞으로 재료를 운반해 주실 분을 구해요. 사례는 {reward}입니다.",
+    "source_ref": [
+      "2.335:data/board.txt:165"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.166.title",
+    "source": "@board/%DELIVER,77000,JP/6c3555fed0ae6a8b112717a17d1f102405025b91af381a480a32094b1b02bb4e/title",
+    "target": "광석 선물",
+    "source_ref": [
+      "2.335:data/board.txt:166"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.166.body",
+    "source": "@board/%DELIVER,77000,JP/6c3555fed0ae6a8b112717a17d1f102405025b91af381a480a32094b1b02bb4e/body",
+    "target": "오랜 우정의 징표로 {client}한테 {ref} 보내려 합니다. {reward} 받고 {map}까지 운반해 주시겠어요?",
+    "source_ref": [
+      "2.335:data/board.txt:166"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.170.title",
+    "source": "@board/%DELIVER,77000,EN/02322c3d26af8845c9ed61b0eafb19a56c900b26e9072d8e7cc18a4ae65fd788/title",
+    "target": "작은 우정의 징표",
+    "source_ref": [
+      "2.335:data/board.txt:170"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.170.body",
+    "source": "@board/%DELIVER,77000,EN/02322c3d26af8845c9ed61b0eafb19a56c900b26e9072d8e7cc18a4ae65fd788/body",
+    "target": "{map}에 사는 {client}한테 오랜 우정의 징표로 {ref} 보내려 합니다. 보수로 {reward} 마련해 두겠습니다.",
+    "source_ref": [
+      "2.335:data/board.txt:170"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %DELIVER,77000,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.174.title",
+    "source": "@board/%SUPPLY,JP/941f95df0e008fc26914940c206ba8f9043010e11c8a898f30bca97c5c9b30ba/title",
+    "target": "연인에게 줄 선물",
+    "source_ref": [
+      "2.335:data/board.txt:174"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.174.body",
+    "source": "@board/%SUPPLY,JP/941f95df0e008fc26914940c206ba8f9043010e11c8a898f30bca97c5c9b30ba/body",
+    "target": "연인에게 뭘 선물하면 좋을까? 일단 {objective} 좀 구해 줘. 보수는 {reward}야.",
+    "source_ref": [
+      "2.335:data/board.txt:174"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.175.title",
+    "source": "@board/%SUPPLY,JP/ea5144facf7482d97c7681199e3118f8bcafa1fd6f6de679240f951179af7b55/title",
+    "target": "나에게 주는 선물",
+    "source_ref": [
+      "2.335:data/board.txt:175"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.175.body",
+    "source": "@board/%SUPPLY,JP/ea5144facf7482d97c7681199e3118f8bcafa1fd6f6de679240f951179af7b55/body",
+    "target": "요즘 좋은 일이 생겨서 나한테 {objective} 선물하려고 해. 보수는 {reward}, 어때?",
+    "source_ref": [
+      "2.335:data/board.txt:175"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.176.title",
+    "source": "@board/%SUPPLY,JP/72fb05cc67822a18e9ca079e11a1d1e35c4c0b0f17c954aa7a40ec4dc009a47f/title",
+    "target": "아이의 생일",
+    "source_ref": [
+      "2.335:data/board.txt:176"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.176.body",
+    "source": "@board/%SUPPLY,JP/72fb05cc67822a18e9ca079e11a1d1e35c4c0b0f17c954aa7a40ec4dc009a47f/body",
+    "target": "아이 생일 선물로 {objective} 필요해요. 사례는 {reward} 정도면 괜찮을까요?",
+    "source_ref": [
+      "2.335:data/board.txt:176"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.177.title",
+    "source": "@board/%SUPPLY,JP/32a587c46ed4d4573c6e6ca6a88de60e7f97b5544c4938f11120032f6f0e0c3d/title",
+    "target": "연구용 재료",
+    "source_ref": [
+      "2.335:data/board.txt:177"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.177.body",
+    "source": "@board/%SUPPLY,JP/32a587c46ed4d4573c6e6ca6a88de60e7f97b5544c4938f11120032f6f0e0c3d/body",
+    "target": "{objective} 연구 중인데 비축해 둔 재료가 다 떨어졌어요. {reward} 받고 구해 주실래요?",
+    "source_ref": [
+      "2.335:data/board.txt:177"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.178.title",
+    "source": "@board/%SUPPLY,JP/c406a20218f84011c9a0849ef403679cf7bcadba55e050e6cd68ecd5e4af17a9/title",
+    "target": "수집가의 부탁",
+    "source_ref": [
+      "2.335:data/board.txt:178"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.178.body",
+    "source": "@board/%SUPPLY,JP/c406a20218f84011c9a0849ef403679cf7bcadba55e050e6cd68ecd5e4af17a9/body",
+    "target": "수집품에 {objective} 하나가 꼭 필요하오. {reward} 드릴 테니 제발 맡아 주시오!",
+    "source_ref": [
+      "2.335:data/board.txt:178"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.179.title",
+    "source": "@board/%SUPPLY,JP/27321b95bc3c7b89f907130d0f264543e79ef8e5245d9144b0d088b93c4dd7ae/title",
+    "target": "물품 납품",
+    "source_ref": [
+      "2.335:data/board.txt:179"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.179.body",
+    "source": "@board/%SUPPLY,JP/27321b95bc3c7b89f907130d0f264543e79ef8e5245d9144b0d088b93c4dd7ae/body",
+    "target": "볼일이 생겨 {objective} 필요합니다. 기한 안에 납품해 주시면 {reward} 드리죠.",
+    "source_ref": [
+      "2.335:data/board.txt:179"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.183.title",
+    "source": "@board/%SUPPLY,EN/08c1c2345fa7ab981d1a1b47e867a8f31e584823f238908c615a02413cfa7864/title",
+    "target": "생일 선물",
+    "source_ref": [
+      "2.335:data/board.txt:183"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.183.body",
+    "source": "@board/%SUPPLY,EN/08c1c2345fa7ab981d1a1b47e867a8f31e584823f238908c615a02413cfa7864/body",
+    "target": "아이 생일 선물로 {objective} 주고 싶어요. 가져다주시면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:183"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %SUPPLY,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.187.title",
+    "source": "@board/%HUNT,JP/18fbe1133823ce1e4df88048fdc01f20cd8d8265f6ada4c6ca4c1015a93679b9/title",
+    "target": "숲을 정화해 주세요",
+    "source_ref": [
+      "2.335:data/board.txt:187"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.187.body",
+    "source": "@board/%HUNT,JP/18fbe1133823ce1e4df88048fdc01f20cd8d8265f6ada4c6ca4c1015a93679b9/body",
+    "target": "근처 숲에 괴물이 나타나 위험해졌습니다. {reward} 내걸겠습니다. 누가 좀 퇴치해 주세요.",
+    "source_ref": [
+      "2.335:data/board.txt:187"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.188.title",
+    "source": "@board/%HUNT,JP/6750178f6285b1f4050a895753a5ec6c128dee1011df9a8a2462682a6a82c065/title",
+    "target": "마물 퇴치",
+    "source_ref": [
+      "2.335:data/board.txt:188"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.188.body",
+    "source": "@board/%HUNT,JP/6750178f6285b1f4050a895753a5ec6c128dee1011df9a8a2462682a6a82c065/body",
+    "target": "어느 곳에 들끓는 마물들을 처치해 주시오. 보수로 {reward} 지급하겠소.",
+    "source_ref": [
+      "2.335:data/board.txt:188"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.189.title",
+    "source": "@board/%HUNT,JP/8b4b05586f7914ab540f3ff7581145cc0acf4ec434541eebb40c779674e2f6f6/title",
+    "target": "집 근처에 괴물이",
+    "source_ref": [
+      "2.335:data/board.txt:189"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.189.body",
+    "source": "@board/%HUNT,JP/8b4b05586f7914ab540f3ff7581145cc0acf4ec434541eebb40c779674e2f6f6/body",
+    "target": "집 근처에 괴물이 자꾸 나타나 골치예요. 퇴치해 주시면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:189"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.193.title",
+    "source": "@board/%HUNT,EN/7cc1f50efa77abd4b44e756e2935fd63f9d1880ecc3189c4412fd3ec0601647a/title",
+    "target": "숲의 괴물 사냥",
+    "source_ref": [
+      "2.335:data/board.txt:193"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.193.body",
+    "source": "@board/%HUNT,EN/7cc1f50efa77abd4b44e756e2935fd63f9d1880ecc3189c4412fd3ec0601647a/body",
+    "target": "도시 근처 숲에 흉물스러운 괴물들이 들끓습니다. 없애 주시면 {reward} 드리겠습니다.",
+    "source_ref": [
+      "2.335:data/board.txt:193"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNT,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.197.title",
+    "source": "@board/%HUNTEX,JP/bbc922a537d9fac2db596ea675cc4e4bd07301c10b9710ec784563c802d6e962/title",
+    "target": "위기에 빠진 마을",
+    "source_ref": [
+      "2.335:data/board.txt:197"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.197.body",
+    "source": "@board/%HUNTEX,JP/bbc922a537d9fac2db596ea675cc4e4bd07301c10b9710ec784563c802d6e962/body",
+    "target": "소문 들으셨나요? 마을 곳곳에 레벨 {ref}쯤 되는 {objective} 아종이 출몰합니다. 이대로는 평화가 오래가지 못해요. 놈들을 퇴치해 주세요. 마을을 대표해 {reward} 준비했습니다.",
+    "source_ref": [
+      "2.335:data/board.txt:197"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.198.title",
+    "source": "@board/%HUNTEX,JP/5190e56856232f186abbcea1dcee5fdee10d97dd9b1b47afacf0a896e07ae3e2/title",
+    "target": "우물의 저주",
+    "source_ref": [
+      "2.335:data/board.txt:198"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.198.body",
+    "source": "@board/%HUNTEX,JP/5190e56856232f186abbcea1dcee5fdee10d97dd9b1b47afacf0a896e07ae3e2/body",
+    "target": "어떤 바보가 우물에 이상한 액체를 부었어! 그 바람에 레벨 {ref}쯤 되는 변종 {objective} 무리가 거리를 돌아다녀. 관청에 부탁해 {reward} 겨우 모았어. 어서 손 좀 써 줘!",
+    "source_ref": [
+      "2.335:data/board.txt:198"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.199.title",
+    "source": "@board/%HUNTEX,JP/b18c3429b2231d9d3c28a990ed783cbb06339f99770ad1c7f4147da539323b4a/title",
+    "target": "에테르 변이체",
+    "source_ref": [
+      "2.335:data/board.txt:199"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.199.body",
+    "source": "@board/%HUNTEX,JP/b18c3429b2231d9d3c28a990ed783cbb06339f99770ad1c7f4147da539323b4a/body",
+    "target": "큰일 났어요! 옆집 식구들이 에테르병에 걸려 모두 {objective} 모습으로 변했어요! 레벨 {ref}쯤 돼 보여요. 당장 퇴치해 주세요. {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:199"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.203.title",
+    "source": "@board/%HUNTEX,EN/14e8544f65c2d9ed4b8162acdd8f71e5eddb1ba4200820b9d8fb26c6d6bb8901/title",
+    "target": "마을의 비상사태",
+    "source_ref": [
+      "2.335:data/board.txt:203"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.203.body",
+    "source": "@board/%HUNTEX,EN/14e8544f65c2d9ed4b8162acdd8f71e5eddb1ba4200820b9d8fb26c6d6bb8901/body",
+    "target": "도와주세요! 레벨 {ref} 전후로 보이는 {objective} 아종들이 마을을 점거했습니다. 전부 퇴치해 주시면 주민들을 대표해 {reward} 드리겠습니다.",
+    "source_ref": [
+      "2.335:data/board.txt:203"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HUNTEX,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.207.title",
+    "source": "@board/%HARVEST,JP/a59adcbc8f188e200c7246a4ff1fa7473e657b273b9912403d4600f90354c120/title",
+    "target": "농사일 거드실 분",
+    "source_ref": [
+      "2.335:data/board.txt:207"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.207.body",
+    "source": "@board/%HARVEST,JP/a59adcbc8f188e200c7246a4ff1fa7473e657b273b9912403d4600f90354c120/body",
+    "target": "밭의 작물이 다 자랐을 때군요. {map} 근처 밭에서 {ref} 정도 캐 와 주세요. 품삯으로 {reward}에 씨앗도 얹어 드리죠.",
+    "source_ref": [
+      "2.335:data/board.txt:207"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.208.title",
+    "source": "@board/%HARVEST,JP/e6316f21ac010c18ee359779269e3b6c02cbe5645cfc2817975c05385527d50d/title",
+    "target": "대신 수확해 주세요",
+    "source_ref": [
+      "2.335:data/board.txt:208"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.208.body",
+    "source": "@board/%HARVEST,JP/e6316f21ac010c18ee359779269e3b6c02cbe5645cfc2817975c05385527d50d/body",
+    "target": "해마다 이맘때면 마음이 무겁네요. 다 자란 작물을 산더미처럼 캐야 하거든요. {reward}에 씨앗도 드릴 테니 {ref} 정도만 대신 수확해 주실래요?",
+    "source_ref": [
+      "2.335:data/board.txt:208"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.209.title",
+    "source": "@board/%HARVEST,JP/e819fb463b8f8081286c8944676ed79d69ace1ee53a3f1a36297e5bf1e37d90c/title",
+    "target": "수확철",
+    "source_ref": [
+      "2.335:data/board.txt:209"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.209.body",
+    "source": "@board/%HARVEST,JP/e819fb463b8f8081286c8944676ed79d69ace1ee53a3f1a36297e5bf1e37d90c/body",
+    "target": "기다리던 수확철이에요! 혼자서는 어림도 없네요. {reward}와 씨앗을 드릴 테니 도와주실래요? 맡으실 몫은 무게로 {ref} 정도예요.",
+    "source_ref": [
+      "2.335:data/board.txt:209"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.213.title",
+    "source": "@board/%HARVEST,EN/f783fa9cd83a9243fda15080832c3540b88d5778990b99038e6cf1821b6844a5/title",
+    "target": "드디어 수확철!",
+    "source_ref": [
+      "2.335:data/board.txt:213"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.213.body",
+    "source": "@board/%HARVEST,EN/f783fa9cd83a9243fda15080832c3540b88d5778990b99038e6cf1821b6844a5/body",
+    "target": "마침내 수확철이 왔어요! 혼자서 다 거둘 엄두가 안 나네요. 다 자란 작물을 무게로 {ref}만큼 거두어 주시면 {reward}에 씨앗도 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:213"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %HARVEST,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.217.title",
+    "source": "@board/%PARTY,JP/ea8f0691f948953c2c0dbcf91caa0c82e91685901355facb87a23c12930d4022/title",
+    "target": "베이비!",
+    "source_ref": [
+      "2.335:data/board.txt:217"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.217.body",
+    "source": "@board/%PARTY,JP/ea8f0691f948953c2c0dbcf91caa0c82e91685901355facb87a23c12930d4022/body",
+    "target": "베이비, 신나게 놀 준비 됐어? 예! 내 파티에 놀러 와! 보수? 그런 멋없는 건 없어! 하지만 공연으로 {ref} 달성하면 플래티나 주화를 선물할게! 예!",
+    "source_ref": [
+      "2.335:data/board.txt:217"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.218.title",
+    "source": "@board/%PARTY,JP/2938f7928e184a9771ef9a3ba02716dc02981b31b58320d613441a28369dc5c9/title",
+    "target": "유명 인사의 파티",
+    "source_ref": [
+      "2.335:data/board.txt:218"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.218.body",
+    "source": "@board/%PARTY,JP/2938f7928e184a9771ef9a3ba02716dc02981b31b58320d613441a28369dc5c9/body",
+    "target": "내 이름도 모르다니, 세상 물정이 어둡군. 난 내로라하는 유명 인사라고. 곧 열 파티에서 손님을 즐겁게 해 줄 예인을 구해. 공연으로 {ref} 달성하면 플래티나 주화를 주지.",
+    "source_ref": [
+      "2.335:data/board.txt:218"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.219.title",
+    "source": "@board/%PARTY,JP/2017910f592323ad7bab8771798013b997e948e86b69a841b3a40734d3f2339c/title",
+    "target": "대타 공연자 모집",
+    "source_ref": [
+      "2.335:data/board.txt:219"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.219.body",
+    "source": "@board/%PARTY,JP/2017910f592323ad7bab8771798013b997e948e86b69a841b3a40734d3f2339c/body",
+    "target": "누가 제발 파티 무대에 대신 서 주세요. 관중 반응이 겁나서 도저히 못 올라가겠어요! 어떻게든 {ref}만 따 주시면 플래티나 주화로 사례할게요.",
+    "source_ref": [
+      "2.335:data/board.txt:219"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.223.title",
+    "source": "@board/%PARTY,EN/42cd94aa06ad378305c18d7a5b4f9aabe5022bab3fba6f0e4bc2f66248ac0f2d/title",
+    "target": "오늘은 파티!",
+    "source_ref": [
+      "2.335:data/board.txt:223"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.223.body",
+    "source": "@board/%PARTY,EN/42cd94aa06ad378305c18d7a5b4f9aabe5022bab3fba6f0e4bc2f66248ac0f2d/body",
+    "target": "오늘 유명 인사들이 잔뜩 오는 큰 파티를 열어요. 손님들을 즐겁게 해 줄 분을 구합니다. {ref} 달성하면 플래티나 주화를 드릴게요. 공연하는 동안 팁도 두둑이 받을 거예요.",
+    "source_ref": [
+      "2.335:data/board.txt:223"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %PARTY,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.227.title",
+    "source": "@board/%TRAP,0,JP/03e59eeb95632e23f08225e144421a1acab7aff332e947d49ca3575756be770b/title",
+    "target": "장난 뒤처리",
+    "source_ref": [
+      "2.335:data/board.txt:227"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.227.body",
+    "source": "@board/%TRAP,0,JP/03e59eeb95632e23f08225e144421a1acab7aff332e947d49ca3575756be770b/body",
+    "target": "아는 사람을 골려 주는 데는 성공했는데, 신이 나서 함정을 너무 많이 팠어. 뒤처리가 큰일이야. 구덩이를 {ref}만큼 치워 주면 플래티나 주화와 고서를 줄게.",
+    "source_ref": [
+      "2.335:data/board.txt:227"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.228.title",
+    "source": "@board/%TRAP,0,JP/149193763446ef31d1883d2014bf63c0bf0496cfe6b0f6afbd0c82ee927f16d5/title",
+    "target": "어머니의 기행",
+    "source_ref": [
+      "2.335:data/board.txt:228"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.228.body",
+    "source": "@board/%TRAP,0,JP/149193763446ef31d1883d2014bf63c0bf0496cfe6b0f6afbd0c82ee927f16d5/body",
+    "target": "술 취한 어머니가 뒷마당에 구덩이를 잔뜩 파 놓고 어디였는지 잊어버리셨어요! 플래티나 주화와 고서를 드릴 테니 어서 치워 주세요. 목표는 {ref}예요.",
+    "source_ref": [
+      "2.335:data/board.txt:228"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.232.title",
+    "source": "@board/%TRAP,0,EN/dca65e4af98bfb665ece6fe1d18bc4e2055d8b700cae52cb429ab8d3a76ec436/title",
+    "target": "장난 뒤처리",
+    "source_ref": [
+      "2.335:data/board.txt:232"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,0,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.232.body",
+    "source": "@board/%TRAP,0,EN/dca65e4af98bfb665ece6fe1d18bc4e2055d8b700cae52cb429ab8d3a76ec436/body",
+    "target": "장난은 성공했는데 함정을 너무 많이 설치해서 뒤처리가 골치야. 구덩이를 {ref}만큼 치워 주면 플래티나 주화와 고서를 줄게.",
+    "source_ref": [
+      "2.335:data/board.txt:232"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,0,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.236.title",
+    "source": "@board/%TRAP,1,JP/7061da86d3f91cdc60f9e614aa1f7210669042bdb18b4f94b8cb5bccaf33e3a5/title",
+    "target": "싸게 산 까닭",
+    "source_ref": [
+      "2.335:data/board.txt:236"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.236.body",
+    "source": "@board/%TRAP,1,JP/7061da86d3f91cdc60f9e614aa1f7210669042bdb18b4f94b8cb5bccaf33e3a5/body",
+    "target": "광산을 헐값에 샀다 싶었는데 지뢰밭이었지 뭡니까. 어떻게든 땅을 쓰려면 지뢰를 차츰 없애야 해요. {ref}만큼 제거해 주시면 플래티나 주화와 고서를 드리죠.",
+    "source_ref": [
+      "2.335:data/board.txt:236"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.240.title",
+    "source": "@board/%TRAP,1,EN/37d76d4d3b79e6b7712977a1493543de8f96e46f3081deff72a384c93ab7f396/title",
+    "target": "싼 데는 이유가 있다",
+    "source_ref": [
+      "2.335:data/board.txt:240"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,1,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.240.body",
+    "source": "@board/%TRAP,1,EN/37d76d4d3b79e6b7712977a1493543de8f96e46f3081deff72a384c93ab7f396/body",
+    "target": "싼값에 광산을 샀더니 지뢰밭이더군요. 어찌 됐든 땅을 써야 하니 지뢰를 조금씩 줄이려 합니다. {ref}만큼 제거해 주시면 플래티나 주화와 고서를 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:240"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %TRAP,1,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.246.title",
+    "source": "@board/%ESCORT,0,JP/e53378201037568fe40e83ee84d6a98d8cae72c72bc7e2d5dd9e439146439017/title",
+    "target": "사절 호위",
+    "source_ref": [
+      "2.335:data/board.txt:246"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.246.body",
+    "source": "@board/%ESCORT,0,JP/e53378201037568fe40e83ee84d6a98d8cae72c72bc7e2d5dd9e439146439017/body",
+    "target": "큰 소리로 말할 일은 아니지만, 중요한 사절을 {map}까지 무사히 모셔야 하오. 보수는 {reward}요. 내 목이 걸렸으니 절대 실패하지 마시오!",
+    "source_ref": [
+      "2.335:data/board.txt:246"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.247.title",
+    "source": "@board/%ESCORT,0,JP/d45b36efced6030f54d1911cf9ca81df4d2f65ae8b704c8810b16412d659fb40/title",
+    "target": "너무 아름다운 사람",
+    "source_ref": [
+      "2.335:data/board.txt:247"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.247.body",
+    "source": "@board/%ESCORT,0,JP/d45b36efced6030f54d1911cf9ca81df4d2f65ae8b704c8810b16412d659fb40/body",
+    "target": "지나친 아름다움도 죄라더니. 내 연인이 전에 구애를 거절했던 자에게 쫓기고 있어. 위험하겠지만 {map}까지 무사히 호위해 줘. 보수는 {reward}야.",
+    "source_ref": [
+      "2.335:data/board.txt:247"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.248.title",
+    "source": "@board/%ESCORT,0,JP/7d38709724dec67208dede25d53937310bb9a5d89f48f3d3fd65ad8e6b50df7a/title",
+    "target": "암살을 막아라",
+    "source_ref": [
+      "2.335:data/board.txt:248"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.248.body",
+    "source": "@board/%ESCORT,0,JP/7d38709724dec67208dede25d53937310bb9a5d89f48f3d3fd65ad8e6b50df7a/body",
+    "target": "그분의 목숨을 노리는 자들이 있다는 건 알겠지? 위험한 의뢰다. {map}에 도착할 때까지 호위를 다하면 {reward} 주겠다.",
+    "source_ref": [
+      "2.335:data/board.txt:248"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.252.title",
+    "source": "@board/%ESCORT,0,EN/e1f55f3d16f9250a59c858b758069921669919897b5897bc75e5f58dcc2cbd5f/title",
+    "target": "미녀와 야수",
+    "source_ref": [
+      "2.335:data/board.txt:252"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.252.body",
+    "source": "@board/%ESCORT,0,EN/e1f55f3d16f9250a59c858b758069921669919897b5897bc75e5f58dcc2cbd5f/body",
+    "target": "너무 아름다운 것도 죄인가 봐. 옛 연인이 내 애인을 따라다녀서 호위가 필요해. {map}까지 무사히 데려다주면 {reward} 줄게. 제발 그 짐승한테서 지켜 줘.",
+    "source_ref": [
+      "2.335:data/board.txt:252"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,0,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.256.title",
+    "source": "@board/%ESCORT,1,JP/9afcbd155809e28d5a9e0ed16ff1774b27f7ac6db781b82c0841ce95d78bfc01/title",
+    "target": "급히 호위할 분",
+    "source_ref": [
+      "2.335:data/board.txt:256"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.256.body",
+    "source": "@board/%ESCORT,1,JP/9afcbd155809e28d5a9e0ed16ff1774b27f7ac6db781b82c0841ce95d78bfc01/body",
+    "target": "급히 {map}까지 모셔야 할 분이 있습니다. 보수는 {reward}입니다. 부디 기한을 넘기지 마세요.",
+    "source_ref": [
+      "2.335:data/board.txt:256"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.257.title",
+    "source": "@board/%ESCORT,1,JP/d05234aa038f10c2cab62e0ce7246bf95a6b7e9a2549fb537fcb9f7156db13af/title",
+    "target": "죽기 전에 딱 한 번",
+    "source_ref": [
+      "2.335:data/board.txt:257"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.257.body",
+    "source": "@board/%ESCORT,1,JP/d05234aa038f10c2cab62e0ce7246bf95a6b7e9a2549fb537fcb9f7156db13af/body",
+    "target": "내가 가장 사랑하는 사람이 병으로 곧 세상을 떠납니다. {map}에, 추억이 깃든 그 마을 {map}에 마지막으로 데려가고 싶어요. {reward} 드릴 테니 맡아 주세요.",
+    "source_ref": [
+      "2.335:data/board.txt:257"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.258.title",
+    "source": "@board/%ESCORT,1,JP/49f7a22fe63eb1ea079abeef9efb8834e15a7366837db0856efb24505be287ee/title",
+    "target": "늦기 전에",
+    "source_ref": [
+      "2.335:data/board.txt:258"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.258.body",
+    "source": "@board/%ESCORT,1,JP/49f7a22fe63eb1ea079abeef9efb8834e15a7366837db0856efb24505be287ee/body",
+    "target": "아버지가 지독한 독에 중독됐어요! 제발 {map}에 산다는 명의에게 급히 데려가 주세요! 전 재산이나 다름없는 {reward} 마련했어요.",
+    "source_ref": [
+      "2.335:data/board.txt:258"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.262.title",
+    "source": "@board/%ESCORT,1,EN/8301e7cafaf0956bef1c76dc5a195dc355beb575f2f76cac8d13694299eede88/title",
+    "target": "너무 늦기 전에",
+    "source_ref": [
+      "2.335:data/board.txt:262"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.262.body",
+    "source": "@board/%ESCORT,1,EN/8301e7cafaf0956bef1c76dc5a195dc355beb575f2f76cac8d13694299eede88/body",
+    "target": "큰일 났어요! 아버지가 맹독에 중독됐어요. 어서 {map}에 있는 주치의에게 데려가 주세요! 무사히 도착하면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:262"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,1,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.266.title",
+    "source": "@board/%ESCORT,2,JP/f0d762577f12f6f66589df9aa16a5abba5297dd6cbc14a1cd5d1aaeaf4598936/title",
+    "target": "호위 구함!",
+    "source_ref": [
+      "2.335:data/board.txt:266"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.266.body",
+    "source": "@board/%ESCORT,2,JP/f0d762577f12f6f66589df9aa16a5abba5297dd6cbc14a1cd5d1aaeaf4598936/body",
+    "target": "사정이 있어 {map}까지 호위를 원하는 분이 있습니다. 딱히 노리는 자는 없을 겁니다. 성공하면 {reward} 드리죠. 모험가라면 쉬운 일이지요?",
+    "source_ref": [
+      "2.335:data/board.txt:266"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.267.title",
+    "source": "@board/%ESCORT,2,JP/13016e440aff6fcc76f74cdacf584de223d75b24e81bff06e68ab0884c066e45/title",
+    "target": "관광객 안내",
+    "source_ref": [
+      "2.335:data/board.txt:267"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.267.body",
+    "source": "@board/%ESCORT,2,JP/13016e440aff6fcc76f74cdacf584de223d75b24e81bff06e68ab0884c066e45/body",
+    "target": "이상한 관광객이 자꾸 따라와서 곤란해 죽겠어요! 수고비로 {reward} 드릴 테니 그 사람을 {map} 근처까지 안내해 주세요.",
+    "source_ref": [
+      "2.335:data/board.txt:267"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.268.title",
+    "source": "@board/%ESCORT,2,JP/8fbde9349a47a13608f05976fcb74a8c1cdfd4762af7da9eba7ed83589eee05a/title",
+    "target": "간단한 호위",
+    "source_ref": [
+      "2.335:data/board.txt:268"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.268.body",
+    "source": "@board/%ESCORT,2,JP/8fbde9349a47a13608f05976fcb74a8c1cdfd4762af7da9eba7ed83589eee05a/body",
+    "target": "제가 무척 아끼는 친척이 {map}에 가고 싶어 합니다. 지금은 손을 뗄 수가 없네요. 기한 안에 무사히 모셔다드리면 {reward} 드릴게요.",
+    "source_ref": [
+      "2.335:data/board.txt:268"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.272.title",
+    "source": "@board/%ESCORT,2,EN/d3302e3122209157c301382b173f5469c42069250c214b21a34fd4cdd9dab2a4/title",
+    "target": "호위가 필요합니다",
+    "source_ref": [
+      "2.335:data/board.txt:272"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.272.body",
+    "source": "@board/%ESCORT,2,EN/d3302e3122209157c301382b173f5469c42069250c214b21a34fd4cdd9dab2a4/body",
+    "target": "사정이 있어 {map}까지 비밀리에 가야 하는 의뢰인이 있습니다. 무사히 호위해 주시면 {reward} 드리겠습니다.",
+    "source_ref": [
+      "2.335:data/board.txt:272"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %ESCORT,2,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.276.title",
+    "source": "@board/%CONQUER,JP/876db1381755e7bd4f723c6e7bc7e9a865b93d07e13a833a5705eadf913adb8b/title",
+    "target": "토벌 의뢰",
+    "source_ref": [
+      "2.335:data/board.txt:276"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.276.body",
+    "source": "@board/%CONQUER,JP/876db1381755e7bd4f723c6e7bc7e9a865b93d07e13a833a5705eadf913adb8b/body",
+    "target": "숙련된 모험가에게만 맡길 일이다. {objective} 변종이 마을로 향하고 있다. 처치하면 {reward} 주겠다. 적어도 레벨 {ref}에 맞먹는 괴물이다. 보통 의뢰로 생각하지 마라.",
+    "source_ref": [
+      "2.335:data/board.txt:276"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.277.title",
+    "source": "@board/%CONQUER,JP/c7b53ab3d2e9a1c36428128bcf7e834942dc515007ca442d2255bdac464e9171/title",
+    "target": "도와줘!",
+    "source_ref": [
+      "2.335:data/board.txt:277"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.277.body",
+    "source": "@board/%CONQUER,JP/c7b53ab3d2e9a1c36428128bcf7e834942dc515007ca442d2255bdac464e9171/body",
+    "target": "장난으로 친구한테 변이 물약을 먹였더니 {objective} 모습이 됐어! 레벨 {ref}은 되는 괴물이야! 마을의 평화를 위해 어서 처치해 줘! 사례? 물론 {reward} 준비했어. 부탁이야!",
+    "source_ref": [
+      "2.335:data/board.txt:277"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.278.title",
+    "source": "@board/%CONQUER,JP/531261e4a499f6f76acba7de6d7ffd94e871107312d74e38034173f4b688c125/title",
+    "target": "특급 명령",
+    "source_ref": [
+      "2.335:data/board.txt:278"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.278.body",
+    "source": "@board/%CONQUER,JP/531261e4a499f6f76acba7de6d7ffd94e871107312d74e38034173f4b688c125/body",
+    "target": "위협은 싹부터 잘라야 한다. 군의 실험체가 우리를 탈출해 마을에서 날뛰고 있다. {reward} 지급할 테니 처치하도록. 연구 자료상 이 {objective} 개체는 레벨 {ref} 괴물에 필적한다. 방심하지 마라.",
+    "source_ref": [
+      "2.335:data/board.txt:278"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,JP",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.282.title",
+    "source": "@board/%CONQUER,EN/14430c4004143215f7522f35469eaffa0c5a85672d1da46dc4f16c661c6096d4/title",
+    "target": "도전장",
+    "source_ref": [
+      "2.335:data/board.txt:282"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.282.body",
+    "source": "@board/%CONQUER,EN/14430c4004143215f7522f35469eaffa0c5a85672d1da46dc4f16c661c6096d4/body",
+    "target": "숙련된 모험가만 맡으시오. 마을 근처에서 특이한 {objective} 변종이 목격됐소. 처치하면 {reward} 드리겠소. 레벨 {ref}에 이를 것으로 보이는 괴물이니 보통 의뢰로 여기지 마시오.",
+    "source_ref": [
+      "2.335:data/board.txt:282"
+    ],
+    "match_kind": "board_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 board.txt %CONQUER,EN",
+      "source_hash": "9a85ca7e4715ad5045012703382a930a7f7fe3f3ce5e4d0bed2918c2e493425b"
+    }
+  },
+  {
+    "id": "board.reward.8923.1",
+    "source": "@board-reward/装備品",
+    "target": "장비",
+    "source_ref": [
+      "2.335:start.hsp:8923"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8923.2",
+    "source": "@board-reward/魔道具",
+    "target": "마도구",
+    "source_ref": [
+      "2.335:start.hsp:8923"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8923.3",
+    "source": "@board-reward/防具",
+    "target": "방어구",
+    "source_ref": [
+      "2.335:start.hsp:8923"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8923.4",
+    "source": "@board-reward/武器",
+    "target": "무기",
+    "source_ref": [
+      "2.335:start.hsp:8923"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8923.5",
+    "source": "@board-reward/補給品",
+    "target": "보급품",
+    "source_ref": [
+      "2.335:start.hsp:8923"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8926.1",
+    "source": "@board-reward/equipment",
+    "target": "장비",
+    "source_ref": [
+      "2.335:start.hsp:8926"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8926.2",
+    "source": "@board-reward/magical goods",
+    "target": "마도구",
+    "source_ref": [
+      "2.335:start.hsp:8926"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8926.3",
+    "source": "@board-reward/armor",
+    "target": "방어구",
+    "source_ref": [
+      "2.335:start.hsp:8926"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8926.4",
+    "source": "@board-reward/weapons",
+    "target": "무기",
+    "source_ref": [
+      "2.335:start.hsp:8926"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8926.5",
+    "source": "@board-reward/ores",
+    "target": "광석",
+    "source_ref": [
+      "2.335:start.hsp:8926"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "board.reward.8926.6",
+    "source": "@board-reward/furnitures",
+    "target": "가구",
+    "source_ref": [
+      "2.335:start.hsp:8926"
+    ],
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reward category in board notices",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  }
+]

@@ -50,6 +50,7 @@ class TransformTests(unittest.TestCase):
         # 0x815c contains a CP932 trail backslash. A Unicode round trip is not
         # needed; the check concerns preservation of every opaque source byte.
         return (b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + module.LOG_ENTRY
+                + b"\tnoteget buff2, p\r\n\t\tcs_list s(3), wx + 96, y - 1, 19\r\n\t\tpos wx + 20, y + 20\r\n\t\tmes buff\r\n"
                 + module.DIALOG_DRAW + b"\ttalk_conv buff, 56 - en * 3\r\n"
                 + b"\t\tcs_list s, wx + 84, wy + 60 + cnt * 19 - 1, 19, 0, 1, p\r\n"
                 + b"\t\tpos wx + 600 - strlen(s(1)) * 7, wy + 60 + cnt * 19 + 2\r\n"
@@ -59,7 +60,8 @@ class TransformTests(unittest.TestCase):
     def transform_fixture(self, data):
         with patch.object(module, "SOURCE_SHA256", module.digest(data)), patch.object(module, "dialogue_calls", return_value=[]), \
              patch.object(module, "menu_inserts", return_value=[]), \
-             patch.object(module, "story_inserts", return_value=[]):
+             patch.object(module, "story_inserts", return_value=[]), \
+             patch.object(module, "static_dialogue_inserts", return_value=[]):
             return module.transform(data)
 
     def test_removing_inserted_spans_recovers_every_original_byte(self):
@@ -70,7 +72,7 @@ class TransformTests(unittest.TestCase):
             at = change["output_byte_offset"]
             del body[at:at + change["inserted_bytes"]]
         self.assertEqual(bytes(body), source)
-        self.assertEqual(output.count(b"native_ko_gmes"), 3)
+        self.assertEqual(output.count(b"native_ko_gmes"), 4)
         self.assertIn(b"\t\treturn 0\r\n", output)
 
     def test_unknown_source_hash_is_rejected(self):

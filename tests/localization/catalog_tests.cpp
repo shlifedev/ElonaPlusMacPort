@@ -1,5 +1,7 @@
 #include "localization/catalog.h"
 #include "localization/rich_text.h"
+#include "localization/quest_board.h"
+#include "platform/game_files.h"
 #include <filesystem>
 #include <fstream>
 #include <iostream>
@@ -111,6 +113,27 @@ int main(int argc, char** argv) {
         auto angry = elona::localization::Catalog::load(file);
         check(angry.log_text("[1:20] <red>Fox$^/A gets furious!") == "[1:20] <red>Fox$^/A의 분노가 폭발했다.");
         check(!angry.log_text(" gets furious!"));
+        write("@log-template/You see {object} here.\t발견 · {object}\n"
+              "@log-noun/{object}/a square chair\t네모난 의자\n"
+              "@log-template/{name} joins your party!\t〈{name}〉 합류\n");
+        auto adventure = elona::localization::Catalog::load(file);
+        check(adventure.log_text("[9:01] You see a square chair here.") == "[9:01] 발견 · 네모난 의자");
+        check(!adventure.log_text("You see my named chair here."));
+        check(adventure.log_text("<red>Fox$^/A joins your party!") == "〈<red>Fox$^/A〉 합류");
+        check(!adventure.log_text("[text] You see a square chair here."));
+        check(bad("@log-template/You see {object} here.\t{enemy} 발견\n"));
+        check(bad("@log-template/You see {object} here.\t} 발견 {object}\n"));
+        const std::string board_row = "A request:{client} {ref} {reward}";
+        const std::string board_key = "@board/%COLLECT,EN/" + elona::platform::sha256_hex(board_row.data(), board_row.size());
+        write(board_key + "/title\t의뢰\n" + board_key + "/body\t{client} / {ref} / {reward}\n"
+              "@item/1\t장검\n@board-reward/armor\t방어구\n");
+        auto postings = elona::localization::Catalog::load(file);
+        std::array<std::string, 7> fields = {"%COLLECT,EN", board_row, "", "a long sword(Heavy!)",
+                                             "94 gold pieces and armor", "<red>{ref}^$", "Vernis"};
+        auto rendered = elona::localization::board_post(postings, fields, 1);
+        check(rendered && rendered->title == "의뢰" && rendered->body == "<red>{ref}^$ / 장검 (매우 무거움!) / 금화 94닢, 방어구");
+        fields[0] = "%COOK,1,JP";
+        check(!elona::localization::board_post(postings, fields, 1));
         auto explicit_break = elona::localization::layout_rich_text("첫째<br>둘째<p>셋째", 100, 0);
         check(explicit_break.height == 58);
         bool rejected = false;
