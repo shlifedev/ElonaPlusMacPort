@@ -33,6 +33,7 @@
 #include "hsp3code.h"
 #include "hsp3config.h"
 #include "hsp3debug.h"
+#include "stack.h"
 #include "dpmread.h"
 #include "native_dll.h"
 #ifdef ELONA_LEGACY_RNG
@@ -1300,6 +1301,23 @@ int cmd_screen(int cmd) {
     return RUNMODE_AWAIT;
 }
 
+// The original and managed gmes both render unmatched paragraphs one glyph at a time.
+// Resolve the immediate HSP routine so ordinary one-character labels still translate.
+bool drawing_gmes_fragment() {
+    if (H->opt.translation_catalog.empty()) return false;
+    for (auto* frame = stm_cur; frame != mem_stm;) {
+        --frame;
+        if (frame->type == TYPE_EX_SUBROUTINE) return false;
+        if (frame->type == TYPE_EX_CUSTOMFUNC) {
+            const auto* routine = reinterpret_cast<const HSPROUTINE*>(STM_GETPTR(frame));
+            const int offset = routine->param->nameidx;
+            return offset >= 0 && offset <= H->ctx->hsphed->max_ds - int(sizeof("gmes")) &&
+                   std::memcmp(H->ctx->mem_mds + offset, "gmes", sizeof("gmes")) == 0;
+        }
+    }
+    return false;
+}
+
 int cmdfunc_extcmd_body(int cmd) {
     Screen* b = H->cur;
     int p1, p2, p3, p4, p5, p6;
@@ -1425,7 +1443,7 @@ int cmdfunc_extcmd_body(int cmd) {
                     unsupported("help notice", "cannot encode Japanese display notice");
             }
         }
-        b->print(help_notice.empty() ? std::string_view(ptr) : std::string_view(help_notice), sw);
+        b->print(help_notice.empty() ? std::string_view(ptr) : std::string_view(help_notice), sw, !drawing_gmes_fragment());
         if (b->fl_udraw && is_window(*b)) present(*b);
         break;
     }

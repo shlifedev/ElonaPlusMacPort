@@ -23,15 +23,28 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('inputs', nargs='+', type=Path)
     ap.add_argument('--output', type=Path, required=True)
-    ap.add_argument('--ambiguities', type=Path, default=ROOT / 'work/localization/2.335/ambiguous-english.json')
+    ap.add_argument('--ambiguities', type=Path, default=ROOT / 'localization/ko-KR/english-ambiguities.json')
     args = ap.parse_args()
-    ambiguous = json.loads(args.ambiguities.read_text()) if args.ambiguities.exists() else {}
+    try:
+        policy = json.loads(args.ambiguities.read_text(encoding='utf-8'))
+        if policy['format'] != 'elona-english-ambiguities-v1' or policy['game_version'] != '2.335':
+            raise ValueError('unsupported ambiguity policy version')
+        hashes = policy['key_sha256']
+        if not isinstance(hashes, list) or not hashes or not all(re.fullmatch('[0-9a-f]{64}', h) for h in hashes):
+            raise ValueError('expected UTF-8 key SHA-256 hashes')
+        ambiguous = set(hashes)
+    except (OSError, ValueError, TypeError, KeyError) as error:
+        ap.error(f'invalid ambiguity policy {args.ambiguities}: {error}')
+
+    def is_ambiguous(key):
+        return hashlib.sha256(key.encode('utf-8')).hexdigest() in ambiguous
+
     candidates, omitted = defaultdict(set), []
     provenance, input_manifest = defaultdict(list), []
     entries = 0
     for path in args.inputs:
         raw = path.read_bytes()
-        data = json.loads(raw)
+        data = json.loads(raw.decode('utf-8'))
         try:
             reference = path.resolve().relative_to(ROOT).as_posix()
         except ValueError:
@@ -55,7 +68,7 @@ def main():
                 omitted.append({'source': row['source_ja'], 'reason': 'Japanese alias disabled by contextual review'})
             if row.get('english_enabled') is False:
                 if source: omitted.append({'source': source, 'reason': 'English alias disabled by contextual review'})
-            elif source not in ambiguous or row.get('english_context_reviewed') is True:
+            elif not is_ambiguous(source) or row.get('english_context_reviewed') is True:
                 keys.append(source)
             elif source:
                 omitted.append({'source': source, 'reason': 'English maps to multiple Japanese meanings'})
@@ -65,7 +78,7 @@ def main():
             for alias in row.get('source_aliases', []):
                 if not isinstance(alias, str) or not alias:
                     raise ValueError(f'{path}: source_aliases must contain nonempty strings')
-                if alias in ambiguous and not row.get('english_context_reviewed'):
+                if is_ambiguous(alias) and not row.get('english_context_reviewed'):
                     omitted.append({'source': alias, 'reason': 'display alias has multiple Japanese meanings'})
                 else:
                     keys.append(alias)
@@ -98,12 +111,12 @@ def main():
     report = {'input_entries': entries, 'runtime_keys': len(candidates) - len(conflicts),
               'conflicts': conflicts, 'omitted': omitted,
               'coverage': 'Exact displayed strings only. This is not whole-game translation coverage.'}
-    output.with_suffix('.report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    output.with_suffix('.report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     output.with_suffix('.sources.json').write_text(json.dumps({
         'format': 'elona-localization-provenance-v1', 'inputs': input_manifest,
         'attribution': 'See THIRD_PARTY_NOTICES.md and each referenced JSON origin/review_reason.',
         'keys': {key: provenance[key] for key in sorted(candidates) if key not in conflicts},
-    }, ensure_ascii=False, indent=2) + '\n')
+    }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     print(json.dumps({k: v for k, v in report.items() if k not in ('omitted', 'conflicts')}, ensure_ascii=False))
 
 

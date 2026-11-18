@@ -1,5 +1,8 @@
 """Verify that the opt-in display transform cannot change unrelated game bytes."""
 import importlib.util
+import sys
+from contextlib import redirect_stderr
+from io import StringIO
 from pathlib import Path
 import struct
 import tempfile
@@ -10,6 +13,28 @@ ROOT = Path(__file__).resolve().parents[3]
 spec = importlib.util.spec_from_file_location("prepare_korean_game", ROOT / "tools/prepare_korean_game.py")
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
+
+
+sys.path.insert(0, str(ROOT / "tools"))
+import play_game
+
+
+class LauncherTests(unittest.TestCase):
+    def test_prepared_and_legacy_workspaces(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            original = root / "work/normalized/2.335/start.ax"
+            managed = root / play_game.MANAGED_AX
+            with redirect_stderr(StringIO()) as message:
+                self.assertEqual(play_game.game_ax(root, "ko"), original)
+            self.assertIn("Korean paragraph AX missing", message.getvalue())
+            managed.parent.mkdir(parents=True)
+            managed.write_bytes(b"fixture")
+            self.assertEqual(play_game.game_ax(root, "original"), original)
+            with self.assertRaisesRegex(RuntimeError, "Unexpected Korean"):
+                play_game.game_ax(root, "ko")
+            with patch.object(play_game, "MANAGED_SHA256", module.digest(b"fixture")):
+                self.assertEqual(play_game.game_ax(root, "ko"), managed)
 
 
 class TransformTests(unittest.TestCase):

@@ -20,6 +20,7 @@
 | `original-database.json` | 초기 DB 범위 2,406항목; 검수2,263/문맥 보류143 |
 | `original-races-classes.json` | 종족76/직업12의 이름. 긴 종족/직업 설명까지 번역한 것은 아님 |
 | `original-tutorial.json` | 첫 집91항목, 노른18블록79본문행과 제목1개. 동적 템플릿6개는 현재 자동 적용 보류 |
+| `english-ambiguities.json` | 2.335 조사에서 중의성이 발견된 영어 표시 키의 UTF-8 SHA-256 목록. 원문과 대응 일본어 문장은 제외 |
 | `runtime.tsv` | 검수 완료·비충돌 고정 표시 키만 수록한 생성물 |
 | `runtime.report.json`, `runtime.sources.json` | 제외 이유·충돌·입력 해시·키별 원본 JSON/항목/라이선스 추적 |
 
@@ -51,6 +52,6 @@ python3 tools/compile_localization.py \
 
 ## 실행과 남은 일
 
-`Play ElonaPlus Korean.command` 또는 `python3 tools/play_game.py --language ko`는 원본 AX에 고정 문구 catalog를 적용하는 미리보기다. 아직 관리 문단 AX를 자동 선택하지 않는다. 실험용 문단 AX 준비·실행은 `tools/prepare_korean_game.py`와 [경계 문서](KOREAN_RENDER_BOUNDARY.md)를 따른다. 일본어 원문 기반 노른 번역을 영어 도움말의 서로 다른 페이지에 임의 대응시키지 않는다.
+`Play ElonaPlus Korean.command` 또는 `python3 tools/play_game.py --language ko`는 준비된 `work/localization/managed-gmes-v1-01/start.ax`의 SHA-256을 확인하고 문단 번역을 활성화한다. 관리 AX가 없는 작업공간에서는 표준 오류로 알리고 정규화된 원본 AX로 고정 문구를 번역한다. 해시가 다른 관리 AX는 실행 전에 오류로 보고한다. 준비 명령은 [문단 경계 문서](KOREAN_RENDER_BOUNDARY.md)에 있다. 두 AX 모두 미등록 문단의 글자 단위 출력은 원문으로 유지하며, 같은 글자가 독립 메뉴 항목으로 표시될 때는 사전을 적용한다. 일본어 원문 기반 노른 번역을 영어 도움말의 서로 다른 페이지에 임의 대응시키지 않는다.
 
 남은 작업은 NPC 대사의 사전 줄바꿈 경계, 동적 주어·조사·아이템 이름, 이름/문맥 키 분리, 아직 범위 밖인 본문·퀘스트·후반 콘텐츠, 모든 화면의 실제 배치 검수다. 한국어 이름/IME를 CP932 VM에 저장하는 기능은 구현하지 않았다.

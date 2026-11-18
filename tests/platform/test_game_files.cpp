@@ -4,11 +4,13 @@
 #include "platform/encoding.h"
 #include "platform/game_files.h"
 
+#include <algorithm>
 #include <cstdint>
 #include <cstdio>
 #include <cstring>
 #include <filesystem>
 #include <fstream>
+#include <future>
 #include <map>
 #include <string>
 #include <vector>
@@ -317,11 +319,28 @@ int main(int argc, char** argv) {
     put(original_save / "cdata.s1", bin);
     put(original_save / "header.txt", "header");
     put(original_save / "sub" / "m4_1.t", "t");
+    put(original_save / "sub" / native("表"), bin);
+    fs::create_directories(original_save / native("能"));
+    const fs::path sentinel = user / "save" / ".elonaplus-import-tmp" / "keep";
+    put(sentinel, "existing directory");
     const auto save_before = tree_hash(original_save.parent_path());
     SaveImportReport rep;
     CHECK_EQ(import_save(g, original_save, "sav_tester", rep, 4, &diag), FileError::ok);
     if (failures) std::fprintf(stderr, "import diag: %s\n", diag.detail.c_str());
-    CHECK(rep.files.size() == 3);
+    CHECK(rep.files.size() == 4);
+    CHECK(tree_hash(rep.destination) == tree_hash(original_save));
+    using Digest = std::pair<std::uintmax_t, std::string>;
+    std::map<std::string, Digest> manifest, expected;
+    for (const auto& file : rep.files) manifest[file.relative_cp932] = {file.size, file.sha256_hex};
+    for (const auto& entry : fs::recursive_directory_iterator(original_save)) {
+        if (!entry.is_regular_file()) continue;
+        const auto bytes = slurp(entry.path());
+        auto rel = entry.path().lexically_relative(original_save).generic_u8string();
+        std::replace(rel.begin(), rel.end(), '/', '\\');
+        expected[cp(rel)] = {entry.file_size(), sha256_hex(bytes.data(), bytes.size())};
+    }
+    CHECK(manifest == expected);
+    CHECK(slurp(sentinel) == "existing directory");
     CHECK(slurp(user / "save" / "sav_tester" / "cdata.s1") == bin);
     CHECK(read_str(g, vr("save\\sav_tester\\sub\\m4_1.t")) == "t");
     for (const auto& file : rep.files)
@@ -331,7 +350,39 @@ int main(int argc, char** argv) {
     CHECK_EQ(import_save(g, original_save, "..", rep), FileError::invalid_path);
     CHECK_EQ(import_save(g, scratch / "missing", "x", rep), FileError::not_found);
     CHECK(tree_hash(original_save.parent_path()) == save_before);
-    CHECK(!fs::exists(user / "save" / ".elonaplus-import-tmp"));
+    auto start_import = [&](fs::path src, std::string slot, std::shared_future<void> start) {
+        return std::async(std::launch::async, [&, src, slot, start] {
+            SaveImportReport result;
+            start.wait();
+            return import_save(g, src, slot, result);
+        });
+    };
+    const auto second = scratch / "second-save";
+    put(second / "header.txt", "different save");
+    std::promise<void> ready;
+    auto start = ready.get_future().share();
+    auto first_import = start_import(original_save, "concurrent1", start);
+    auto second_import = start_import(second, cp("表"), start);
+    ready.set_value();
+    CHECK_EQ(first_import.get(), FileError::ok);
+    CHECK_EQ(second_import.get(), FileError::ok);
+    CHECK(tree_hash(user / "save" / "concurrent1") == tree_hash(original_save));
+    CHECK(tree_hash(user / "save" / native("表")) == tree_hash(second));
+
+    const auto empty = scratch / "empty-save";
+    fs::create_directories(empty);
+    std::promise<void> shared_slot_ready;
+    auto shared_start = shared_slot_ready.get_future().share();
+    first_import = start_import(empty, "shared", shared_start);
+    second_import = start_import(second, "shared", shared_start);
+    shared_slot_ready.set_value();
+    const auto a = first_import.get(), b = second_import.get();
+    CHECK((a == FileError::ok && b == FileError::already_exists) ||
+          (b == FileError::ok && a == FileError::already_exists));
+    CHECK(tree_hash(user / "save" / "shared") == tree_hash(a == FileError::ok ? empty : second));
+    CHECK(slurp(sentinel) == "existing directory");
+    for (const auto& e : fs::directory_iterator(user / "save"))
+        CHECK(e.path().filename().u8string().find(".elonaplus-import-tmp-") != 0);
     CHECK(sha256_hex("abc", 3) == "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad");
 
     // ---- the original tree is untouched -----------------------------------------------

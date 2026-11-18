@@ -59,5 +59,50 @@ rep = json.loads((case / 'report.json').read_text())
 assert run.returncode == 0 and not rep['first_unsupported'] and not rep['hsp_error'], rep
 assert (case / 'user-root/user/vm-paragraph.txt').read_bytes() == b'<emp1>Read<def> a spellbook.'
 reports['paragraph'] = {'passed': True, 'vm_string_unchanged': True, 'fallback_checked': True}
+# Draw a Japanese two-glyph fallback inside the original gmes convention,
+# and the identical first glyph as a standalone label after returning.
+glyph_source = work / 'glyph.hsp'
+glyph_source.write_bytes("""screen 0,320,120
+goto *main
+#deffunc gmes str paragraph
+value = paragraph
+font "MS Gothic",14
+pos 8,8 : mes strmid(value,0,2)
+pos 22,8 : mes strmid(value,2,2)
+return
+*main
+gmes "猫舌"
+pos 8,64 : mes "猫"
+await 1
+end
+""".encode('cp932'))
+glyph_ax = work / 'glyph.ax'
+subprocess.run([str(a.compiler.resolve()), '--compath=' + str(a.common.resolve()) + '/',
+                '-o' + str(glyph_ax), str(glyph_source)], capture_output=True, check=True)
+(work / 'glyph.tsv').write_text('猫\t고양이\n', encoding='utf-8')
+from struct import unpack_from
+def bitmap_rows(path):
+    data = path.read_bytes()
+    offset = unpack_from('<I', data, 10)[0]
+    width, height = unpack_from('<ii', data, 18)
+    bits = unpack_from('<H', data, 28)[0]
+    stride = (width * bits + 31) // 32 * 4
+    rows = [data[offset+i*stride:offset+(i+1)*stride] for i in range(abs(height))]
+    return rows[::-1] if height > 0 else rows
+
+images = []
+for name in ('raw', 'ko'):
+    case = work / ('glyph-' + name)
+    case.mkdir()
+    command = [str(a.host.resolve()), '--trusted-fixture', str(glyph_ax), '--work-dir', str(case),
+               '--headless', '--deterministic', '--screenshot', str(case / 'screen.bmp')]
+    if name == 'ko':
+        command += ['--translation', str(work / 'glyph.tsv')]
+    subprocess.run(command, check=True, capture_output=True, timeout=30)
+    images.append(bitmap_rows(case / 'screen.bmp'))
+assert any(row != images[0][0] for row in images[0][:48]), 'original fallback must draw visible glyphs'
+assert images[0][:48] == images[1][:48], 'fallback glyphs must retain original pixels'
+assert images[0][48:] != images[1][48:], 'standalone label must translate'
+reports['gmes_fragment'] = {'fallback_pixels_equal': True, 'standalone_translated': True}
 (work / 'results.json').write_text(json.dumps(reports, indent=2) + '\n')
 print('PASS Korean display differs; VM/save/edit value stays original:', work)

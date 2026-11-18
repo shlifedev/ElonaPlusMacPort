@@ -2,7 +2,7 @@
 """Generate an opt-in display-hook source from the verified private 2.335 source.
 
 The original CP932 bytes are never decoded/re-encoded. Output remains private
-under work/, and is not selected by either player launcher. This requires the
+under work/. The Korean launcher selects the verified managed-gmes-v1-01 AX. This requires the
 native type-48 display command; the official Windows runtime cannot run it.
 """
 from __future__ import annotations
@@ -138,7 +138,7 @@ def main() -> int:
                   "original_bytes_unchanged": True, "changes": changes,
                   "abi": {"type": COMMAND_TYPE, "command": COMMAND_ID, "arguments": 8,
                           "result": "stat < 0: original fallback; stat >= 0: rendered height; gmes returns stat 0"},
-                  "opt_in_only": True, "launcher_modified": False, "compiled": False,
+                  "compiled": False,
                   "executed": False}
         success = True
         if args.compile:

@@ -357,18 +357,18 @@ int Screen::zoom(int dx, int dy, const Screen& src, int xx, int yy, int psx, int
     return 0;
 }
 
-void Screen::print(std::string_view mes, int option) {
+void Screen::print(std::string_view mes, int option, bool localize) {
     // literal port of Bmscr::Print (shadow/outline use objcolor)
     int x = cx, y = cy;
     colorref mycolor = color;
     auto sub_mul = [&](int sx, int sy, int px, int pyy, int times) {
-        for (int i = 0; i < times; ++i) { cx = sx; cy = sy; print_sub(mes); sx += px; sy += pyy; }
+        for (int i = 0; i < times; ++i) { cx = sx; cy = sy; print_sub(mes, localize); sx += px; sy += pyy; }
     };
     if (option & 2) {
         int i = fonteff_size;
         if (i > 0) {
             color = objcolor;
-            if (i == 1 || (option & 8)) { cx = x + i; cy = y + i; print_sub(mes); }
+            if (i == 1 || (option & 8)) { cx = x + i; cy = y + i; print_sub(mes, localize); }
             else { sub_mul(x, y + i, 1, -1, i); sub_mul(x + i, y, -1, -1, i); }
         }
         color = mycolor; cx = x; cy = y;
@@ -378,10 +378,10 @@ void Screen::print(std::string_view mes, int option) {
         if (i > 0) {
             color = objcolor;
             if (i == 1 || (option & 8)) {
-                cx = x; cy = y - i; print_sub(mes);
-                cx = x - i; cy = y; print_sub(mes);
-                cx = x + i; cy = y; print_sub(mes);
-                cx = x; cy = y + i; print_sub(mes);
+                cx = x; cy = y - i; print_sub(mes, localize);
+                cx = x - i; cy = y; print_sub(mes, localize);
+                cx = x + i; cy = y; print_sub(mes, localize);
+                cx = x; cy = y + i; print_sub(mes, localize);
             } else {
                 sub_mul(x, y - i, -1, 1, i); sub_mul(x - i, y, 1, 1, i);
                 sub_mul(x, y + i, 1, -1, i); sub_mul(x + i, y, -1, -1, i);
@@ -389,12 +389,12 @@ void Screen::print(std::string_view mes, int option) {
         }
         color = mycolor; cx = x; cy = y;
     }
-    int px = print_sub(mes);
+    int px = print_sub(mes, localize);
     if (option & 1) { cx = x + px; cy = y; }
     mark_dirty();
 }
 
-int Screen::print_sub(std::string_view mes) {
+int Screen::print_sub(std::string_view mes, bool localize) {
     // strsp_get(mes, stmp, 0, 4095) loop: split on CR, CRLF and (HSPLINUX) LF.
     // The Windows reference only splits on CR/CRLF; a bare LF stays in the line.
     // CP932 lead bytes copy their trail byte unconditionally.
@@ -415,17 +415,18 @@ int Screen::print_sub(std::string_view mes) {
             if (sj && pos < mes.size()) line.push_back(mes[pos++]);
             if (line.size() >= 4095) break;
         }
-        print_line(line);
+        print_line(line, localize);
         if (px < printsize.cx) px = printsize.cx;
         if (a1 == 0) break;
     }
     return px;
 }
 
-void Screen::print_line(std::string_view line) {
+void Screen::print_line(std::string_view line, bool localize) {
     if (!text) throw Unsupported("mes/print without a font backend (build without SDL3_ttf)");
     if (!line.empty()) {
-        printsize = text->draw_display_line(font, dib, cx, cy, line, color);
+        printsize = localize ? text->draw_display_line(font, dib, cx, cy, line, color)
+                             : text->draw_line(font, dib, cx, cy, line, color);
     } else {
         printsize = text->measure_line(font, " ");
         printsize.cx = 0;

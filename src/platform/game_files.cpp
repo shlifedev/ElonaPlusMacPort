@@ -4,6 +4,7 @@
 
 #include <algorithm>
 #include <array>
+#include <cerrno>
 #include <cstdio>
 #include <cstring>
 #include <fstream>
@@ -888,30 +889,29 @@ FileError import_save(GameFileSystem& files, const fs::path& source, std::string
     if (!is_dir_no_follow(source, exists, link) || link)
         return report(d, FileError::not_found, "save source is not a real directory: " + path_utf8(source));
     std::string why;
-    if (slot.empty() || slot.find('\\') != std::string_view::npos || slot.find('/') != std::string_view::npos ||
-        slot == "." || slot == ".." || validate_component(std::string(slot), false, why) != FileError::ok)
+    auto contains_separator = [](const std::string& name) {
+        for (const auto& ch : split_chars(name))
+            if (ch == "\\" || ch == "/") return true;
+        return false;
+    };
+    if (slot.empty() || contains_separator(std::string(slot)) || slot == "." || slot == ".." ||
+        validate_component(std::string(slot), false, why) != FileError::ok)
         return report(d, FileError::invalid_path, "invalid slot name " + printable(slot) + " " + why);
     const std::string logical = files.virtual_root() + "\\save\\" + std::string(slot);
-    LogicalPath lp;
-    if (const FileError e = files.parse(logical, lp); e != FileError::ok) return report(d, e, "slot path");
-    std::int64_t size;
-    files.file_size(logical, size);
     std::vector<DirectoryEntry> existing;
-    files.list_directory(files.virtual_root() + "\\save\\*", dirlist_mode::all, existing);
+    if (const FileError e = files.list_directory(files.virtual_root() + "\\save\\*", dirlist_mode::all, existing, nullptr, d);
+        e != FileError::ok) return e;
     for (const auto& entry : existing)
         if (cp932_ascii_lower(entry.name_cp932) == cp932_ascii_lower(slot))
             return report(d, FileError::already_exists, "slot exists: " + printable(slot));
-    if (!files.is_tombstoned(logical) && size >= 0) return report(d, FileError::already_exists, "slot is a file");
 
-    // Make sure <user_root>/save exists (materialised from the game root if needed).
-    fs::path dest_parent;
-    {
-        const std::string probe = files.virtual_root() + "\\save\\" + std::string(slot) + "\\.probe";
-        fs::path ignored;
-        if (const FileError e = files.resolve_write(probe, ignored, d); e != FileError::ok) return e;
+    fs::path final_dir;
+    if (const FileError e = files.resolve_write(logical, final_dir, d); e != FileError::ok) {
+        if (e == FileError::is_directory) return report(d, FileError::already_exists, "slot exists");
+        return e;
     }
-    std::vector<std::string> collected;   // relative CP932 paths ('\\'), files only
-    std::vector<fs::path> natives;
+    struct Entry { fs::path native; std::string rel; bool directory; };
+    std::vector<Entry> collected;
     struct Walk { fs::path native; std::string rel; int depth; };
     std::vector<Walk> stack{{source, "", 0}};
     while (!stack.empty()) {
@@ -921,7 +921,7 @@ FileError import_save(GameFileSystem& files, const fs::path& source, std::string
             std::string name;
             if (!native_to_component(it->path().filename(), name))
                 return report(d, FileError::encoding_error, "save entry not representable in CP932: " + path_utf8(it->path()));
-            if (validate_component(name, false, why) != FileError::ok)
+            if (contains_separator(name) || validate_component(name, false, why) != FileError::ok)
                 return report(d, FileError::invalid_path, "save entry name rejected: " + path_utf8(it->path()) + " " + why);
             const bool dir = is_dir_no_follow(it->path(), exists, link);
             if (link) return report(d, FileError::invalid_path, "symlink in save: " + path_utf8(it->path()));
@@ -929,74 +929,72 @@ FileError import_save(GameFileSystem& files, const fs::path& source, std::string
             if (dir) {
                 if (w.depth + 1 > max_depth) return report(d, FileError::invalid_path, "save nested too deep: " + path_utf8(it->path()));
                 stack.push_back({it->path(), rel, w.depth + 1});
-                collected.push_back(rel + "\\");
-                natives.push_back(it->path());
-            } else if (fs::is_regular_file(it->path(), ec)) {
-                collected.push_back(rel);
-                natives.push_back(it->path());
-            } else {
+            } else if (!fs::is_regular_file(it->path(), ec)) {
                 return report(d, FileError::invalid_path, "special file in save: " + path_utf8(it->path()));
             }
+            collected.push_back({it->path(), rel, dir});
         }
         if (ec) return report(d, FileError::io_error, "cannot read save dir: " + ec.message());
     }
     // Stage into a temporary sibling inside <user_root>/save, verify, then rename.
-    fs::path save_dir;
-    {
-        fs::path probe;
-        files.resolve_write(files.virtual_root() + "\\save\\x", probe, nullptr);
-        save_dir = probe.parent_path();
-        fs::create_directories(save_dir, ec);   // user_root/save (materialisation of an empty dir)
-        if (ec) return report(d, FileError::io_error, "cannot create save dir: " + ec.message());
-    }
-    fs::path slot_native;
-    if (!component_to_native(std::string(slot), slot_native)) return report(d, FileError::encoding_error, "slot name");
-    const fs::path final_dir = save_dir / slot_native;
-    fs::path staging = save_dir / kMetaDir;
-    staging += "-import-tmp";
-    fs::remove_all(staging, ec);
-    if (!fs::create_directory(staging, ec) || ec) return report(d, FileError::io_error, "cannot create staging dir");
-    auto cleanup = [&] { std::error_code ignored; fs::remove_all(staging, ignored); };
-    for (std::size_t i = 0; i < collected.size(); ++i) {
-        const std::string& rel = collected[i];
-        fs::path target = staging;
-        LogicalPath parts;
-        for (const auto& c : split_chars(rel)) (void)c;
-        // rebuild native relative path from CP932 components
-        std::string comp;
-        std::vector<std::string> comps;
-        for (std::size_t k = 0; k < rel.size(); ++k) {
-            const auto b = static_cast<unsigned char>(rel[k]);
-            if (cp932_is_lead_byte(b) && k + 1 < rel.size()) { comp += rel[k]; comp += rel[++k]; continue; }
-            if (b == '\\') { if (!comp.empty()) comps.push_back(comp); comp.clear(); continue; }
-            comp += rel[k];
+    const fs::path save_dir = final_dir.parent_path();
+    fs::create_directories(save_dir, ec);
+    if (ec) return report(d, FileError::io_error, "cannot create save dir: " + ec.message());
+    fs::path staging;
+    std::random_device random;
+    do {
+        staging = save_dir / (std::string(kMetaDir) + "-import-tmp-" + std::to_string(random()));
+        if (fs::create_directory(staging, ec)) break;
+        if (ec && ec != std::errc::file_exists)
+            return report(d, FileError::io_error, "cannot create staging dir: " + ec.message());
+    } while (true);
+    struct StagingGuard {
+        fs::path path;
+        ~StagingGuard() {
+            if (!path.empty()) { std::error_code ignored; fs::remove_all(path, ignored); }
         }
-        if (!comp.empty()) comps.push_back(comp);
-        for (const auto& c : comps) { fs::path n; component_to_native(c, n); target /= n; }
-        if (!rel.empty() && rel.back() == '\\') {
+    } guard{staging};
+    SaveImportReport staged_report;
+    for (const auto& entry : collected) {
+        const fs::path target = staging / entry.native.lexically_relative(source);
+        if (entry.directory) {
             fs::create_directories(target, ec);
-            if (ec) { cleanup(); return report(d, FileError::io_error, "cannot create " + path_utf8(target)); }
+            if (ec) return report(d, FileError::io_error, "cannot create " + path_utf8(target));
             continue;
         }
-        fs::create_directories(target.parent_path(), ec);
         std::vector<std::uint8_t> bytes;
-        if (const FileError e = read_native(natives[i], bytes, 0, SIZE_MAX, d); e != FileError::ok) { cleanup(); return e; }
+        if (const FileError e = read_native(entry.native, bytes, 0, SIZE_MAX, d); e != FileError::ok) return e;
         {
             std::ofstream out(target, std::ios::binary | std::ios::trunc);
             if (!bytes.empty()) out.write(reinterpret_cast<const char*>(bytes.data()), static_cast<std::streamsize>(bytes.size()));
-            if (!out) { cleanup(); return report(d, FileError::io_error, "cannot write " + path_utf8(target)); }
+            out.close();
+            if (!out) return report(d, FileError::io_error, "cannot write " + path_utf8(target));
         }
         std::vector<std::uint8_t> verify;
         if (read_native(target, verify, 0, SIZE_MAX, d) != FileError::ok || verify != bytes) {
-            cleanup();
             return report(d, FileError::io_error, "verification failed for " + path_utf8(target));
         }
-        report_out.files.push_back({rel, bytes.size(), sha256_hex(bytes.data(), bytes.size())});
+        staged_report.files.push_back({entry.rel, bytes.size(), sha256_hex(bytes.data(), bytes.size())});
     }
-    if (fs::exists(final_dir, ec)) { cleanup(); return report(d, FileError::already_exists, "slot appeared during import"); }
-    fs::rename(staging, final_dir, ec);
-    if (ec) { cleanup(); return report(d, FileError::io_error, "cannot move staged save into place: " + ec.message()); }
-    report_out.destination = final_dir;
+    // Publish only if the slot is still absent, including when importing empty saves.
+#ifdef _WIN32
+    if (!MoveFileExW(staging.c_str(), final_dir.c_str(), 0))
+        ec = std::error_code(GetLastError(), std::system_category());
+#elif defined(__APPLE__)
+    if (::renamex_np(staging.c_str(), final_dir.c_str(), RENAME_EXCL) != 0)
+        ec = std::error_code(errno, std::generic_category());
+#elif defined(__linux__)
+    if (::renameat2(AT_FDCWD, staging.c_str(), AT_FDCWD, final_dir.c_str(), RENAME_NOREPLACE) != 0)
+        ec = std::error_code(errno, std::generic_category());
+#else
+    ec = std::make_error_code(std::errc::operation_not_supported);
+#endif
+    if (ec == std::errc::file_exists || ec == std::errc::directory_not_empty)
+        return report(d, FileError::already_exists, "slot appeared during import");
+    if (ec) return report(d, FileError::io_error, "cannot move staged save into place: " + ec.message());
+    guard.path.clear();
+    staged_report.destination = final_dir;
+    report_out = std::move(staged_report);
     return FileError::ok;
 }
 

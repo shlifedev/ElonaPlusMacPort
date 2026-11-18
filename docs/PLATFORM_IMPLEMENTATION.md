@@ -310,3 +310,12 @@ VM 내부 경로(`exedir + "..."`, CP932)는 GameFileSystem이 해석하고, OS 
    쓰기 허용 목록과 대조한다. 이 문서의 허용 목록은 정적 근거다.
 5. 일본어 ACP 환경 또는 수동 IME 검증은 별도 승인·환경이 필요하다.
 6. 비ASCII 이름의 NTFS 정렬 완전 일치, 8.3 단축명 매칭은 재현하지 않았다(게임 경로는 ASCII 위주).
+
+## 10. 세이브 가져오기 재검수 (2026-11-18)
+
+가져오기는 순회할 때 확인한 파일 종류와 경로를 복사 단계까지 유지한다. CP932에서 마지막 바이트가 0x5C인 일반 파일 `表`와 빈 폴더 `能`를 합성 입력에 포함했다. 검사에서는 입력·출력 트리의 종류와 SHA-256을 비교하고 반환된 파일 목록의 상대 경로·크기·해시도 원본과 대조한다.
+
+각 호출은 사용자 save 폴더 아래에 새 임시 디렉터리를 배타적으로 만들고, 그 디렉터리만 정리한다. 마지막 이름 변경은 macOS의 `RENAME_EXCL`, Windows의 덮어쓰기 없는 `MoveFileExW`를 사용한다. 서로 다른 두 슬롯 동시 가져오기, 빈 세이브와 일반 세이브의 같은 슬롯 경쟁, 기존 `.elonaplus-import-tmp` 안의 표식 보존을 검사했다.
+
+- Mac ARM64에서 `cmake --build build/platform-tests -j8` 후 `ctest --test-dir build/platform-tests --output-on-failure` 4/4 통과.
+- Windows x64에서 `python3 tools/reference/platform_windows_x64.py --run platform-astra-saves-20261118-b` 실행. CTest 3/3, 파일 계층 단언 189/189, VM 파일 작업 검사 통과. 실행 기록은 `work/windows/reference-build/platform-astra-saves-20261118-b/report.json`에 있다. 합성 입력만 사용했다.

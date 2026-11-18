@@ -53,9 +53,15 @@ def main():
         ap.error('output cannot be inside original assets')
     out.mkdir(parents=True, exist_ok=True)
     def write(name, value):
-        (out / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+        (out / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     write('static-pairs.json', list(rows.values()))
     write('ambiguous-english.json', ambiguous)
+    write('english-ambiguities.json', {
+        'format': 'elona-english-ambiguities-v1', 'game_version': '2.335',
+        'source_sha256': hashlib.sha256(raw).hexdigest(),
+        'key_encoding': 'SHA-256 of exact UTF-8 display key',
+        'key_sha256': sorted(hashlib.sha256(key.encode('utf-8')).hexdigest() for key in ambiguous),
+    })
     write('dynamic-expressions.json', dynamic)
     external = []
     for filename in ('exhelp.txt',):
@@ -70,7 +76,7 @@ def main():
                            'external_sources': external, 'limitations': ['not all literals are lang() calls',
                            'dynamic expressions require contextual templates; no naive global substitution',
                            'dialogue/page splitting must be validated in the running game']})
-    print((out / 'manifest.json').read_text())
+    print((out / 'manifest.json').read_text(encoding='utf-8'))
 
 
 if __name__ == '__main__':

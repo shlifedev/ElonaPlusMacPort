@@ -158,7 +158,7 @@ public:
     // gcopy: returns non-zero on palette-mode mismatch (HSPERR_UNSUPPORTED_FUNCTION)
     int copy(const Screen& src, int xx, int yy, int psx, int psy);
     int zoom(int dx, int dy, const Screen& src, int xx, int yy, int psx, int psy, int mode);
-    void print(std::string_view cp932, int option);
+    void print(std::string_view cp932, int option, bool localize = true);
     void set_hsv_color(int h, int s, int v);
     void set_cel_divide(int divsx, int divsy, int ofsx, int ofsy);
     int cel_put(const Screen& src, int id);
@@ -172,8 +172,8 @@ public:
 
 private:
     void blt(int mode, const Screen& src, int xx, int yy, int asx, int asy);
-    int print_sub(std::string_view cp932);
-    void print_line(std::string_view line);
+    int print_sub(std::string_view cp932, bool localize);
+    void print_line(std::string_view line, bool localize);
 };
 
 // HspWnd-equivalent table of screens.

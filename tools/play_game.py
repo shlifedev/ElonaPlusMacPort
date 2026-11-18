@@ -6,6 +6,7 @@ Original game assets stay read-only; each launch gets separate logs/screenshots.
 """
 import argparse
 import contextlib
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -14,6 +15,22 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+MANAGED_AX = Path("work/localization/managed-gmes-v1-01/start.ax")
+MANAGED_SHA256 = "8aa19643c4824fa98ee175194864ecdfde8d4871c13a0d9f8ffa99cf9b99ad03"
+
+
+def game_ax(root, language):
+    original = root / "work/normalized/2.335/start.ax"
+    if language == "ko":
+        managed = root / MANAGED_AX
+        if managed.is_file():
+            if hashlib.sha256(managed.read_bytes()).hexdigest() != MANAGED_SHA256:
+                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {managed}")
+            return managed
+        print(f"Korean paragraph AX missing at {managed}. Using the original AX with menu translations.", file=sys.stderr)
+    return original
 
 
 @contextlib.contextmanager
@@ -69,7 +86,7 @@ def main():
     host = (args.host or default).resolve()
     profile = args.profile.resolve()
     original = (ROOT / "elonaplus2.335").resolve()
-    ax = ROOT / "work/normalized/2.335/start.ax"
+    ax = game_ax(ROOT, args.language)
     packed = ROOT / "work/extracted/2.335"
     if profile == original or original in profile.parents:
         parser.error("The writable profile cannot be inside the original game folder.")
