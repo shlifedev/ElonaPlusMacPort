@@ -96,6 +96,13 @@ python3 tools/prepare_korean_game.py --output work/localization/managed-creation
 [번역 출처](KOREAN_SOURCES.md), [용어집](../localization/ko-KR/glossary.tsv), [번역 지침](../localization/ko-KR/style-guide.md)을 함께 관리한다.
 `--audit-translation`을 추가하면 해당 세션 폴더에 미번역 표시 문자열을 기록한다. 이는 로컬 진단 파일이며 자동 전송하지 않는다.
 
+## CI/CD
+
+GitHub Actions는 `main`과 `dev` 브랜치를 대상으로 한다. 원본 게임이 없는 환경이므로 저장소만으로 검증 가능한 범위만 실행한다. `tests/game` 실제 플레이 시나리오와 세이브 왕복은 포함하지 않는다.
+
+- `.github/workflows/ci.yml` — push/PR(`main`, `dev`): Python 단위 테스트, macOS arm64 legacy-cp932 debug 빌드와 CTest, Windows x64 legacy-cp932 debug 빌드와 CTest(`tools/windows_build.ps1`과 같이 Python 기반 fixture 제외).
+- `.github/workflows/cd.yml` — `main` push: macOS Release 빌드와 CTest 후 `elona_gui_host`, `elona_hspcmp`를 14일 보존 workflow artifact로 올린다. 앱 패키지나 공개 릴리스가 아니며 실행에는 원본 2.335와 준비된 작업공간이 필요하다.
+
 ## 배포물 구분
 
 이 저장소는 개발 코드·패치·문서를 관리한다. 원본 게임·리소스·역컴파일한 전체 게임 소스는 자동으로 포함하지 않는다. 제3자 도구와 패치의 고지는 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)에 보존한다. 아직 앱 패키지나 공개 릴리스를 만들지 않았다.

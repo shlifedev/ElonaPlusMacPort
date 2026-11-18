@@ -97,8 +97,11 @@ class TransformTests(unittest.TestCase):
     def test_output_cannot_escape_work_or_overwrite_existing(self):
         with self.assertRaisesRegex(ValueError, "below work"):
             module.check_output_path(ROOT / "localization/generated-game")
-        with self.assertRaisesRegex(ValueError, "already exists"):
-            module.check_output_path(ROOT / "work/localization")
+        # A fresh checkout has no work/ yet; make a throwaway directory below it.
+        (ROOT / "work").mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=ROOT / "work") as existing:
+            with self.assertRaisesRegex(ValueError, "already exists"):
+                module.check_output_path(Path(existing))
 
     def test_output_symlink_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
