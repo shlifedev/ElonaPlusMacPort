@@ -131,8 +131,8 @@ struct Host : HostServices {
     Screen* cur = nullptr;
     int cur_window = 0;
     std::unique_ptr<platform::Display> display;
-    gfx::PolyRaster poly;
     int fullscreen_width = 0, fullscreen_height = 0;  // logical desktop requested by chgdisp
+    gfx::PolyRaster poly;
 
     // input
     bool key[256] = {};
@@ -1230,8 +1230,8 @@ int get_ginfo(int arg) {
     case 18: return gfx::blue_of(b.color);
     case 19: return 0;
     case 20: case 21: {
-        int w = 1920, h = 1080;
         if (H->fullscreen_width) return arg == 20 ? H->fullscreen_width : H->fullscreen_height;
+        int w = 1920, h = 1080;
         if (!H->opt.deterministic) H->display->desktop_size(w, h);
         return arg == 20 ? w : h;
     }
@@ -1322,22 +1322,6 @@ int cmdfunc_extcmd_body(int cmd) {
     Screen* b = H->cur;
     int p1, p2, p3, p4, p5, p6;
     switch (cmd) {
-    case 0x08: {  // mmload
-        std::string fname = code_gets();
-        p1 = code_getdi(0);
-        p2 = code_getdi(0);
-        if (mm_load(fname, p1, p2)) throw HSPERR_FILE_IO;
-        break;
-    }
-    case 0x09:  // mmplay
-        mm_play(code_getdi(0));
-        break;
-    case 0x0a: {  // mmstop
-        p1 = code_getdi(-1);
-        if (p1 < 0) { mm_stop_all(); break; }
-        auto it = H->banks.find(p1);
-        if (it == H->banks.end()) break;
-        if (it->second.flag == 1) H->audio->stop();
     case 0x01: {  // chgdisp operates on the main window even when an auxiliary screen is selected
         const int mode = code_getdi(0);
         const int width = code_getdi(640), height = code_getdi(480);
@@ -1359,6 +1343,22 @@ int cmdfunc_extcmd_body(int cmd) {
         H->ctx->stat = 0;
         break;
     }
+    case 0x08: {  // mmload
+        std::string fname = code_gets();
+        p1 = code_getdi(0);
+        p2 = code_getdi(0);
+        if (mm_load(fname, p1, p2)) throw HSPERR_FILE_IO;
+        break;
+    }
+    case 0x09:  // mmplay
+        mm_play(code_getdi(0));
+        break;
+    case 0x0a: {  // mmstop
+        p1 = code_getdi(-1);
+        if (p1 < 0) { mm_stop_all(); break; }
+        auto it = H->banks.find(p1);
+        if (it == H->banks.end()) break;
+        if (it->second.flag == 1) H->audio->stop();
         else if (H->curmus != -1) {
 #ifdef ELONA_HAVE_MUSIC
             H->music.stop();  // StopBank(MCI): stop/close myid only, PCM keeps playing
