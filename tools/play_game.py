@@ -26,18 +26,21 @@ HOME_MANAGED_SHA256 = "bfb23aebb6a9a78983f717a361ce5691da4e520590d3013d686798e6e
 BOOK_MANAGED_AX = Path("work/localization/managed-books-v7/start.ax")
 BOOK_MANAGED_SHA256 = "53c2ff056bc10727574bb3823de5a52cd84d8cd0aff08941d137a66f9af35fff"
 
-MANAGED_AX = Path("work/localization/managed-creation-v8/start.ax")
-MANAGED_SHA256 = "0584039d76e73535d07b7dd8157fba729a6204aa50e827ef27e9c0f5dac4ba17"
+CREATION_MANAGED_AX = Path("work/localization/managed-creation-v8/start.ax")
+CREATION_MANAGED_SHA256 = "0584039d76e73535d07b7dd8157fba729a6204aa50e827ef27e9c0f5dac4ba17"
 
+MANAGED_AX = Path("work/localization/managed-alias-v11/start.ax")
+MANAGED_SHA256 = "3bc4bb1c30f0a31e845e2a3cf6c088028bd76e8bc9e0f533cba2518eefc60f1e"
 
-PREPARE_HINT = "Prepare the current AX with python3 tools/prepare_korean_game.py --output work/localization/managed-creation-v8 --compile"
+PREPARE_HINT = f"Prepare the current AX with python3 tools/prepare_korean_game.py --output {MANAGED_AX.parent.as_posix()} --compile"
 
 
 def game_ax(root, language):
     original = root / "work/normalized/2.335/start.ax"
     if language == "ko":
         versions = (
-            (MANAGED_AX, MANAGED_SHA256, "character creation"),
+            (MANAGED_AX, MANAGED_SHA256, "aliases"),
+            (CREATION_MANAGED_AX, CREATION_MANAGED_SHA256, "character creation"),
             (BOOK_MANAGED_AX, BOOK_MANAGED_SHA256, "books"),
             (HOME_MANAGED_AX, HOME_MANAGED_SHA256, "HUD/log"),
             (LEGACY_MANAGED_AX, LEGACY_MANAGED_SHA256, "paragraph"),

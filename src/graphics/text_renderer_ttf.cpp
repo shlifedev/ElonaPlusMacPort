@@ -3,6 +3,8 @@
 #include <SDL3/SDL.h>
 #include <SDL3_ttf/SDL_ttf.h>
 
+#include <algorithm>
+#include <charconv>
 #include <filesystem>
 #include <map>
 #include <unordered_map>
@@ -15,6 +17,9 @@
 #include "localization/rich_text.h"
 #include "localization/quest_board.h"
 #include "localization/book_reader.h"
+#include "localization/journal.h"
+#include "localization/options.h"
+#include "localization/alias.h"
 
 namespace elona::gfx {
 namespace {
@@ -54,21 +59,116 @@ public:
         return catalog_ ? catalog_->find(key) : nullptr;
     }
 
-    void begin_english_log(std::string_view cp932, int used, int limit) override {
+    void begin_english_log(std::string_view cp932, int used, int limit, int starter_pet_id) override {
         log_words_.clear();
         std::string source;
         if (catalog_ && cp932.size() <= 512 && ui_cp932_to_utf8(cp932, source)) {
-            log_words_ = catalog_->log_words(source, used, limit);
+            log_words_ = catalog_->log_words(source, used, limit, starter_pet_id);
             if (log_words_.empty() && !options_.translation_misses.empty() && log_misses_.size() < 10000)
                 ++log_misses_[source];
         }
     }
     void set_log_word_draw(bool active) override { log_word_draw_ = active; }
     void set_hud_draw(bool active) override { hud_draw_ = active; }
+    int alias_label_width(const FontSpec& spec) override {
+        if ((menu_scope_ != 11 && menu_scope_ != 21) || menu_label_.display.empty()) return 0;
+        return layout_utf8(spec, nullptr, 0, 0, menu_label_.display, 0).cx;
+    }
     void set_menu_draw(int scope, std::string_view cp932) override {
         menu_label_ = {};
-        raw_book_line_ = scope == 10;
-        if (raw_book_line_) return;
+        menu_scope_ = scope;
+        map_label_ = nullptr;
+        if (scope == 19 && catalog_ && cp932.size() <= 256) {
+            std::string name;
+            if (ui_cp932_to_utf8(cp932, name)) {
+                map_label_ = catalog_->find("@map-name/" + name);
+                if (!map_label_) map_label_ = catalog_->find("@log-noun/{place}/" + name);
+            }
+        }
+        option_key_.clear();
+        if (scope == 18 && catalog_ && !cp932.empty() && cp932.size() <= 8) {
+            option_key_ = "@option/" + std::string(cp932) + "/";
+            return;
+        }
+        if (scope == 10) return;
+        if (scope == 20 && catalog_) {
+            // Some English rows in the mode descriptions consist of just a
+            // space or a period. Identify the authored line by its Japanese text.
+            const auto tab = cp932.find('\t');
+            std::string japanese;
+            if (tab != cp932.npos && cp932.size() <= 2048 && ui_cp932_to_utf8(cp932.substr(0, tab), japanese)) {
+                if (const auto* label = catalog_->find(japanese, true))
+                    menu_label_ = {std::string(cp932.substr(tab + 1)), *label};
+            }
+            return;
+        }
+        if (scope == 13) {
+            journal_.clear();
+            std::string notes;
+            if (catalog_ && cp932.size() <= 1024 * 1024 && ui_cp932_to_utf8(cp932, notes))
+                journal_ = localization::journal_rows(*catalog_, notes);
+            return;
+        }
+        if (scope == 15) {
+            const auto slash = cp932.find('/');
+            if (slash == cp932.npos) return;
+            std::size_t row = 0;
+            auto parsed = std::from_chars(cp932.data(), cp932.data() + slash, row);
+            if (parsed.ec == std::errc{} && parsed.ptr == cp932.data() + slash &&
+                row < journal_.size() && journal_[row])
+                menu_label_ = {std::string(cp932.substr(slash + 1)), *journal_[row]};
+            return;
+        }
+        if (scope == 17) {
+            std::string feat;
+            if (catalog_ && cp932.size() <= 512 && ui_cp932_to_utf8(cp932, feat)) {
+                if (const auto* label = catalog_->find("@feat/" + feat))
+                    menu_label_ = {std::string(cp932), *label};
+            }
+            return;
+        }
+        if (scope == 14) {
+            std::string header;
+            if (catalog_ && cp932.size() <= 512 && ui_cp932_to_utf8(cp932, header)) {
+                if (auto display = localization::save_header(*catalog_, header))
+                    menu_label_ = {std::string(cp932), std::move(*display)};
+            }
+            return;
+        }
+        if (scope >= 31 && scope <= 35 && catalog_) {
+            std::string source;
+            if (cp932.size() <= 64 && ui_cp932_to_utf8(cp932, source)) {
+                if (auto* reply = catalog_->find("@reply/" + std::to_string(scope) + "/" + source))
+                    menu_label_ = {std::string(cp932), *reply};
+            }
+            return;
+        }
+        if (scope == 12 && catalog_) {
+            constexpr std::string_view prefix = "Gene from ";
+            std::string name;
+            if (cp932.substr(0, prefix.size()) == prefix &&
+                ui_cp932_to_utf8(cp932.substr(prefix.size()), name))
+                menu_label_ = {std::string(cp932), name + "에게서 물려받은 유전자"};
+            return;
+        }
+        if (scope == 21 && catalog_) {
+            std::string source;
+            if (ui_cp932_to_utf8(cp932, source)) {
+                if (const auto* label = catalog_->find(source))
+                    menu_label_ = {std::string(cp932), *label};
+            }
+            return;
+        }
+        if (scope == 11 && catalog_) {
+            std::string source;
+            if (cp932.size() <= 160 && ui_cp932_to_utf8(cp932, source)) {
+                if (auto alias = localization::localized_alias(*catalog_, source)) {
+                    menu_label_ = {std::string(cp932), std::move(*alias)};
+                    return;
+                }
+            }
+            return;
+        }
         static constexpr std::string_view prefixes[] = {
             "", "@equip-slot/", "@inv-action/", "@inv-column/", "@game-menu/",
             "@status-label/", "@sprite-menu/", "@portrait-menu/", "@sheet/", "@profile/"
@@ -85,13 +185,33 @@ public:
             }
         }
     }
+    bool draw_input_caption(Dib& dib, int x, int y) override {
+        const auto* label = lookup_translation("@sprite/input");
+        if (!label || !dib.contains(x, y) || !dib.contains(x + 100, y + 31)) return false;
+        // The 2.335 input ribbon has its English lettering baked into the paper.
+        // Match its ink silhouette before retouching it, so custom art stays intact.
+        std::uint32_t ink = 2166136261u;
+        for (int row = 19; row <= 30; ++row) {
+            for (int col = 36; col <= 78; ++col) {
+                const auto pixel = dib.get(x + col, y + row);
+                ink = (ink ^ (std::max({red_of(pixel), green_of(pixel), blue_of(pixel)}) < 100)) * 16777619u;
+            }
+        }
+        if (ink != 0x88ab2d34u) return false;
+        for (int row = 19; row <= 30; ++row) {
+            for (int col = 36; col <= 78; ++col)
+                dib.set(x + col, y + row, dib.get(x + 81 + (col - 36) % 18, y + row));
+        }
+        layout_utf8(FontSpec{"", 12, 1, 0}, &dib, x + 45, y + 18, *label, rgb(32, 24, 12));
+        return true;
+    }
     bool draw_book(Dib& dib, int id, std::string_view cp932, int spread, int x, int y) override {
         if (!catalog_) return false;
         auto lines = localization::book_spread(*catalog_, id, cp932, spread);
         if (!lines) return false;
         for (const auto& line : *lines) {
             FontSpec spec{"", line.size, line.bold ? 1 : 0, 0};
-            layout_utf8(spec, dib, x + 2 + 306 * line.column, y + 16 * line.row, line.text, rgb(0, 0, 0));
+            layout_utf8(spec, &dib, x + 2 + 306 * line.column, y + 16 * line.row, line.text, rgb(0, 0, 0));
         }
         return true;
     }
@@ -121,43 +241,59 @@ public:
         return layout(spec, &dib, x, y, cp932, color);
     }
     TextExtent draw_display_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) override {
-        if (raw_book_line_) return draw_line(spec, dib, x, y, cp932, color);
-        if (!menu_label_.source.empty() && cp932 == menu_label_.source) {
-            layout_utf8(spec, dib, x, y, menu_label_.display, color);
+        if (map_label_) {
+            layout_utf8(spec, &dib, x, y, *map_label_, color);
             return measure_line(spec, cp932);
+        }
+        if (!menu_label_.source.empty() && cp932 == menu_label_.source) {
+            if (!menu_label_.display.empty()) layout_utf8(spec, &dib, x, y, menu_label_.display, color);
+            return measure_line(spec, cp932);
+        }
+        if (menu_scope_ == 10 || menu_scope_ == 11) {
+            // Player text and unknown saved aliases can coincide with a UI key.
+            // Count a missing alias where its original text is actually drawn.
+            if (menu_scope_ == 11 && !options_.translation_misses.empty() && misses_.size() < 10000) {
+                std::string source;
+                if (ui_cp932_to_utf8(cp932, source)) ++misses_[source];
+            }
+            return draw_line(spec, dib, x, y, cp932, color);
         }
         if (!item_row_.source.empty()) {
             auto item = std::move(item_row_);
             item_row_ = {};
             if (cp932 == item.source) {
-                layout_utf8(spec, dib, x, y, item.display, color);
+                layout_utf8(spec, &dib, x, y, item.display, color);
                 return measure_line(spec, cp932);
             }
         }
         if (catalog_) {
             std::string source;
             if (ui_cp932_to_utf8(cp932, source)) {
+                if (!option_key_.empty()) {
+                    if (auto label = localization::option_text(*catalog_, option_key_, source))
+                        return layout_utf8(spec, &dib, x, y, *label, color);
+                }
                 if (log_word_draw_ && !log_words_.empty()) {
                     if (source == log_words_.front().source) {
                         auto word = std::move(log_words_.front());
                         log_words_.pop_front();
-                        if (!word.display.empty()) layout_utf8(spec, dib, x, y, word.display, color);
+                        if (!word.display.empty()) layout_utf8(spec, &dib, x, y, word.display, color);
                         return measure_line(spec, cp932);
                     }
                     log_words_.clear();
                 }
                 if (hud_draw_) {
                     if (auto label = catalog_->hud_text(source)) {
-                        layout_utf8(spec, dib, x, y, *label, color);
+                        layout_utf8(spec, &dib, x, y, *label, color);
                         return measure_line(spec, cp932);
                     }
                 }
-                if (const auto* target = catalog_->find(source)) return layout_utf8(spec, dib, x, y, *target, color);
+                if (const auto* target = catalog_->find(source)) return layout_utf8(spec, &dib, x, y, *target, color);
                 // Scene 0 starts its first note one byte into the CRLF after {txt}.
                 // Only reviewed prologue lines have this source-qualified alias.
                 if (!source.empty() && source.front() == '\n') {
                     if (const auto* target = catalog_->find("@prologue:" + source.substr(1)))
-                        return layout_utf8(spec, dib, x, y, *target, color);
+                        return layout_utf8(spec, &dib, x, y, *target, color);
                 }
                 if (!options_.translation_misses.empty() && source.size() <= 2048 && misses_.size() < 10000) ++misses_[source];
             }
@@ -182,11 +318,18 @@ public:
                                    : catalog_->find(source.substr(0, separator), true);
         if (!target) return -1;
         if (named) {
-            const auto marker = target->find("{name}");
-            const auto name = source.substr(separator + 1);
-            if (marker == target->npos || name.find_first_of("\r\n\t") != name.npos) return -1;
+            auto name = source.substr(separator + 1);
+            if (name.find_first_of("\r\n\t") != name.npos) return -1;
+            const bool alias = target->find("{alias}") != target->npos;
+            const std::string_view placeholder = alias ? "{alias}" : "{name}";
+            const auto marker = target->find(placeholder);
+            if (marker == target->npos) return -1;
+            if (alias) {
+                if (auto translated = localization::localized_alias(*catalog_, name))
+                    name = std::move(*translated);
+            }
             formatted = *target;
-            formatted.replace(marker, 6, name);
+            formatted.replace(marker, placeholder.size(), name);
         }
         // A name containing a tag, a dollar sign, or a caret is literal text.
         const auto paragraph = localization::layout_rich_text(named ? formatted : *target, width, color, !named && !board);
@@ -194,8 +337,8 @@ public:
         FontSpec spec{"", 14, 0, 0};
         for (const auto& g : paragraph.glyphs) {
             spec.pixel_height = g.size; spec.style = g.style;
-            if (shadow) layout_utf8(spec, dib, x + g.x + 1, y + g.y + 1, g.utf8, rgb(180, 160, 140));
-            layout_utf8(spec, dib, x + g.x, y + g.y, g.utf8, g.color);
+            if (shadow) layout_utf8(spec, &dib, x + g.x + 1, y + g.y + 1, g.utf8, rgb(180, 160, 140));
+            layout_utf8(spec, &dib, x + g.x, y + g.y, g.utf8, g.color);
         }
         final_font = {"", paragraph.final_size, paragraph.final_style, 0};
         return paragraph.height;
@@ -311,7 +454,7 @@ private:
         return ext;
     }
 
-    TextExtent layout_utf8(const FontSpec& spec, Dib& dib, int x, int y, const std::string& utf8, colorref color) {
+    TextExtent layout_utf8(const FontSpec& spec, Dib* dib, int x, int y, const std::string& utf8, colorref color) {
         TTF_Font* f = font_for(spec, true);
         if (!f) throw Unsupported("Korean font could not be opened: " + ko_font_);
         int px = height_of(spec), pen = x;
@@ -339,7 +482,7 @@ private:
             }
             const Glyph& g = glyph(glyph_font, glyph_key, cp);
             int advance = options_.cp932_cell_metrics ? localization::unicode_cell_width(cp, px) : g.w;
-            blit(g, dib, pen + (advance - g.w) / 2, y + (px - g.h) / 2, color);
+            if (dib) blit(g, *dib, pen + (advance - g.w) / 2, y + (px - g.h) / 2, color);
             pen += advance;
         }
         return {pen - x, options_.cp932_cell_metrics ? px : TTF_GetFontHeight(f)};
@@ -375,7 +518,10 @@ private:
     std::string ko_font_;
     bool log_word_draw_ = false, hud_draw_ = false;
     std::deque<localization::LogWord> log_words_;
-    bool raw_book_line_ = false;
+    std::vector<std::optional<std::string>> journal_;
+    const std::string* map_label_ = nullptr;
+    std::string option_key_;
+    int menu_scope_ = 0;
     std::string board_body_;
     localization::LogWord item_row_, menu_label_;
     std::optional<localization::Catalog> catalog_;

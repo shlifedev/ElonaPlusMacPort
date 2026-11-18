@@ -274,7 +274,7 @@
   {
     "source": "Welcome traveler, I've been looking for you.",
     "source_ja": "種族によっては装備箇所に制限があったりするから注意だよ。",
-    "target": "종족에 따라 장비할 수 있는 부위가 제한되기도 하니 주의해야 한다.",
+    "target": "종족에 따라 장비할 수 있는 부위가 다르다.",
     "source_ref": [
       "2.335:start.hsp:223479"
     ],
@@ -390,7 +390,7 @@
   {
     "source": "What's your gender?",
     "source_ja": "性別による能力の違いはない。",
-    "target": "성별에 따른 능력 차이는 없다.",
+    "target": "성별과 능력은 무관하다.",
     "source_ref": [
       "2.335:start.hsp:223674"
     ],
@@ -516,7 +516,7 @@
   {
     "source": "I want you to tell me one of your notable skill.",
     "source_ja": "君の特筆すべき才能を1つ、教えてほしいな。＊がついているのは種族・職業と被っているものだね。",
-    "target": "자신 있는 재능을 하나 고른다. ＊ 표시는 종족이나 직업의 재능과 겹친다는 뜻이다.",
+    "target": "재능 하나를 고른다. ＊는 종족·직업과 겹치는 재능이다.",
     "source_ref": [
       "2.335:start.hsp:223932"
     ],
@@ -586,7 +586,7 @@
   {
     "source": "Choose your feats wisely.",
     "source_ja": "フィートとは、君の持っている有益な特徴だ。3つまで選べるよ。",
-    "target": "특성은 캐릭터가 지닌 유용한 자질이다. 세 가지까지 고를 수 있다.",
+    "target": "유용한 특성을 셋까지 고른다.",
     "source_ref": [
       "2.335:start.hsp:224112"
     ],
@@ -658,7 +658,7 @@
   {
     "source": "You can choose any way.",
     "source_ja": "あえて険しい道を行くのも君の自由だ。",
-    "target": "굳이 험난한 길을 택하는 것도 자유다.",
+    "target": "험한 길을 택해도 좋다.",
     "source_ref": [
       "2.335:start.hsp:224188"
     ],
@@ -1334,7 +1334,7 @@
   },
   {
     "source": "Choose your language and press the enter key",
-    "target": "원문 언어를 고르고 Enter 키를 누르세요.",
+    "target": "원문 언어를 고르고 엔터 키를 누르세요.",
     "review_status": "reviewed",
     "origin": {
       "kind": "independent-translation",
@@ -1344,7 +1344,7 @@
   },
   {
     "source": "言語を選びエンターキーを押してください。",
-    "target": "언어를 고르고 Enter 키를 누르세요.",
+    "target": "언어를 고르고 엔터 키를 누르세요.",
     "review_status": "reviewed",
     "origin": {
       "kind": "independent-translation",
@@ -1514,11 +1514,11 @@
   },
   {
     "source": "Cursor [Select]  ",
-    "target": "방향키 [선택]  ",
+    "target": "방향키 [선택]",
     "review_status": "reviewed",
     "origin": {
       "kind": "independent-translation"
     },
-    "review_reason": "실제 타이틀 표시 문자열 확인. 뒤 공백 유지."
+    "review_reason": "실제 타이틀에서 조회하는 원문 키의 뒤 공백을 보존했다."
   }
 ]

@@ -107,6 +107,25 @@ std::string scoped_key(std::string_view prefix, std::string_view value) {
 }
 std::optional<std::string> Catalog::sheet_text(std::string_view source) const {
     if (source.empty() || source.size() > 192) return {};
+    constexpr std::string_view race_en = "Race: ";
+    constexpr std::string_view race_ja = "種族: ";
+    constexpr std::string_view extra = "(extra)";
+    const bool has_en_title = source.substr(0, race_en.size()) == race_en;
+    const bool has_ja_title = source.substr(0, race_ja.size()) == race_ja;
+    if (has_en_title || has_ja_title || source.substr(0, extra.size()) == extra) {
+        if (has_en_title) source.remove_prefix(race_en.size());
+        if (has_ja_title) source.remove_prefix(race_ja.size());
+        const bool is_extra = source.substr(0, extra.size()) == extra;
+        if (is_extra) source.remove_prefix(extra.size());
+        const auto* race = find(scoped_key("@sheet/race/", source));
+        const auto* title = has_en_title || has_ja_title ? find("@sheet/Race") : nullptr;
+        const auto* marker = is_extra ? find("@sheet/extra") : nullptr;
+        if (!race || ((has_en_title || has_ja_title) && !title) || (is_extra && !marker)) return {};
+        std::string result;
+        if (title) result = *title + ": ";
+        if (marker) result += "(" + *marker + ") ";
+        return result + *race;
+    }
     constexpr std::string_view proficiency = "Proficient in ";
     if (source.substr(0, proficiency.size()) == proficiency) {
         const auto* title = find("@sheet/proficiency");
@@ -179,14 +198,22 @@ std::optional<std::string> Catalog::hud_text(std::string_view s) const {
     }
     auto day_end = s.find(" / ");
     if (day_end != s.npos) {
-        auto destiny = s.substr(day_end + 3);
-        if (std::string_view("DESTINY").substr(0, destiny.size()) == destiny) {
-            if (auto day = find(scoped_key("@day/", s.substr(0, day_end)))) return *day + std::string(s.substr(day_end));
-        }
+        const auto progress = s.substr(day_end + 3);
+        const auto* day = find(scoped_key("@day/", s.substr(0, day_end)));
+        if (!day || std::string_view("DESTINY").substr(0, progress.size()) != progress) return {};
+        if (progress.empty()) return *day;
+        if (const auto* label = find("@hud/destiny"))
+            return *day + " / " + *label + " " + std::to_string(progress.size()) + "/7";
         return {};
     }
     auto split = s.find(' ');
     if (split == s.npos) return {};
+    const auto unit = s.substr(split + 1);
+    if ((unit == "gp" || unit == "pp") && digits(s.substr(0, split))) {
+        if (const auto* label = find(scoped_key("@hud/", unit)))
+            return *label + " " + std::string(s.substr(0, split));
+        return {};
+    }
     auto time = find(scoped_key("@clock/", s.substr(0, split)));
     if (!time) return {};
     auto weather = s.substr(split+1);
@@ -195,19 +222,26 @@ std::optional<std::string> Catalog::hud_text(std::string_view s) const {
     return {};
 }
 
-std::optional<std::string> Catalog::log_text(std::string_view s) const {
+std::optional<std::string> Catalog::log_text(std::string_view s, int starter_pet_id) const {
     std::string timestamp;
-    if (!s.empty() && s.front() == '[') {
+    if (!s.empty() && s.front() == '[' && s.substr(0, 7) != "[News] ") {
         auto end = s.find("] "), colon = s.find(':');
         if (end == s.npos || colon == s.npos || colon >= end ||
             !digits(s.substr(1, colon-1)) || !digits(s.substr(colon+1, end-colon-1))) return {};
         timestamp.assign(s.substr(0, end+2));
         s.remove_prefix(end+2);
     }
+    if (s.substr(0, 7) == "[News] ") {
+        const auto* tag = find("@news/tag");
+        if (tag) {
+            if (auto news = news_text(s.substr(7))) return timestamp + *tag + " " + *news;
+        }
+        return {};
+    }
     if (s != "home-rank") {
         if (auto target = find(scoped_key("@log/", s))) return timestamp + *target;
     }
-    if (auto matched = adventure_log(s)) return timestamp + *matched;
+    if (auto matched = adventure_log(s, starter_pet_id)) return timestamp + *matched;
     // msg_write splits a complete English sentence into individual words.
     if (s.size() > 3 && s.find(' ') != s.npos && s.find_last_of(".?!") == s.size()-1) {
         if (auto target = find(s, true)) return timestamp + *target;
@@ -232,9 +266,9 @@ std::optional<std::string> Catalog::log_text(std::string_view s) const {
 // The original English logger wraps and prints one space-terminated word at a
 // time. Paint each translated row on its first word, while allowing the VM to
 // append, measure, scroll and save its original message exactly as before.
-std::deque<LogWord> Catalog::log_words(std::string source, int used, int limit) const {
+std::deque<LogWord> Catalog::log_words(std::string source, int used, int limit, int starter_pet_id) const {
     std::deque<LogWord> words;
-    auto target = log_text(source);
+    auto target = log_text(source, starter_pet_id);
     if (!target || used < 0 || limit <= 0) return words;
     source += ' ';
     std::size_t begin = 0, row_start = 0, target_start = 0;

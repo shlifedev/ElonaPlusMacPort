@@ -2441,7 +2441,7 @@
     "id": "ff4e939ffca31e70015d",
     "source": "Recovery every turn/RES+ fire",
     "source_ja": "毎ターンHPと状態異常回復/火炎耐性の獲得",
-    "target": "매 턴 HP·상태 이상 회복/화염 내성 획득",
+    "target": "매 턴 체력·상태 이상 회복/화염 내성 획득",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:786"
@@ -2516,7 +2516,7 @@
     "id": "804b30e551a01d8ec2cc",
     "source": "HPMP consumption/gauge diminishing invalid",
     "source_ja": "能力と魔法耐性の上昇/HPMP消耗/ゲージ逓減オフ",
-    "target": "능력·마법 내성 상승/HP·MP 소모/게이지 점감 해제",
+    "target": "능력·마법 내성 상승/체력·마나 소모/게이지 점감 해제",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:886"
@@ -2591,7 +2591,7 @@
     "id": "b1bb1a3abfc9ea9a3e37",
     "source": "Throwing reinforced with meditation/MP expend",
     "source_ja": "瞑想依存で通常投擲強化/MP消費",
-    "target": "명상에 따라 일반 투척 강화/MP 소모",
+    "target": "명상에 따라 일반 투척 강화/마나 소모",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:1060",
@@ -2847,7 +2847,7 @@
     "id": "14fd548aa7afcfe18dab",
     "source": "Enhance Eye of Mind,Add absorption to Eye-skills",
     "source_ja": "心眼上昇/眼差し系にゲージ、HP、MPの吸収追加",
-    "target": "심안 상승/응시 계열에 게이지·HP·MP 흡수 추가",
+    "target": "심안 상승/응시 계열에 게이지·체력·마나 흡수 추가",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:1480"
@@ -9196,7 +9196,7 @@
     "id": "1f1496a039ec95a071b7",
     "source": "MP Breath",
     "source_ja": "MP25％消費/放射攻撃",
-    "target": "MP 25％ 소모/방사 공격",
+    "target": "마나 25％ 소모/방사 공격",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:2880"
@@ -10521,7 +10521,7 @@
     "id": "8c0c25dffbac372cf7bb",
     "source": "Create allies/Consume spell book and MP",
     "source_ja": "MP25%と魔法書消費し味方生成",
-    "target": "MP 25%·마법서를 소모해 동료 생성",
+    "target": "마나 25%·마법서를 소모해 동료 생성",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3150"
@@ -10553,7 +10553,7 @@
     "id": "83a4f3118e422d4e4b1a",
     "source": "Create allies/Consume spell book and MP",
     "source_ja": "MP20%と魔法書消費し味方生成",
-    "target": "MP 20%·마법서를 소모해 동료 생성",
+    "target": "마나 20%·마법서를 소모해 동료 생성",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3156"
@@ -10584,7 +10584,7 @@
     "id": "87cb69f59391764fb91f",
     "source": "Create allies/Consume spell book and MP",
     "source_ja": "MP30%と魔法書消費し味方生成",
-    "target": "MP 30%·마법서를 소모해 동료 생성",
+    "target": "마나 30%·마법서를 소모해 동료 생성",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3162"
@@ -10615,7 +10615,7 @@
     "id": "32710dcdc25f9bde97bf",
     "source": "Create allies/Consume book and MP",
     "source_ja": "MP10%と魔法書消費し味方生成",
-    "target": "MP 10%·마법서를 소모해 동료 생성",
+    "target": "마나 10%·마법서를 소모해 동료 생성",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3168"
@@ -10647,7 +10647,7 @@
     "id": "1fba7b9d31f12ea09531",
     "source": "Create allies/Consume book and MP",
     "source_ja": "MP15%と魔法書消費し味方生成",
-    "target": "MP 15%·마법서를 소모해 동료 생성",
+    "target": "마나 15%·마법서를 소모해 동료 생성",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3174"
@@ -11249,7 +11249,7 @@
     "id": "964fdbf314f1c17cda47",
     "source": "Increase gauge",
     "source_ja": "HPMP回復・ゲージ上昇",
-    "target": "HP·MP 회복·게이지 상승",
+    "target": "체력·마나 회복·게이지 상승",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3294"
@@ -11705,7 +11705,7 @@
     "id": "626f1a6b7d2d143659d5",
     "source": "Attack and heal",
     "source_ja": "HPMP回復長射程攻撃/ゲージ100％消費",
-    "target": "HP·MP를 회복하는 장거리 공격/게이지 100％ 소모",
+    "target": "체력·마나를 회복하는 장거리 공격/게이지 100％ 소모",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3384"
@@ -11766,7 +11766,7 @@
     "id": "b55d4a04a8743252cc23",
     "source": "Kill target",
     "source_ja": "敵のMPにもダメージ/ゲージ100％消費",
-    "target": "적의 MP에도 피해/게이지 100％ 소모",
+    "target": "적의 마나에도 피해/게이지 100％ 소모",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3396"
@@ -14190,7 +14190,7 @@
     "id": "e4f547f3e4d811ad10c9",
     "source": "Gravity and ENDattack Surround/MP10",
     "source_ja": "重力依存耐久属性攻撃/MP10％消費",
-    "target": "중력에 따른 내구 속성 공격/MP 10％ 소모",
+    "target": "중력에 따른 내구 속성 공격/마나 10％ 소모",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3906"
@@ -14325,7 +14325,7 @@
     "id": "42df64ff75f25e968bef",
     "source": "Increase casting MP and power and EXP",
     "source_ja": "味方魔法の消費MP威力経験値を増加",
-    "target": "동료 주문의 MP 소모·위력·경험치 증가",
+    "target": "동료 주문의 마나 소모·위력·경험치 증가",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:3936"
@@ -14809,7 +14809,7 @@
     "id": "0d45af3c9415cdec3afa",
     "source": "Reduce power gauge of surrounding enemies.",
     "source_ja": "MP消費し周囲の敵のゲージ-50％",
-    "target": "MP를 소모해 주변 적의 게이지 -50％",
+    "target": "마나를 소모해 주변 적의 게이지 -50％",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4032"
@@ -15035,7 +15035,7 @@
     "id": "5080e5b93c7f2a1b70b7",
     "source": "Bomb placement/self select to explode/MP5",
     "source_ja": "MP5%消費/爆弾付着/自分選択で爆破",
-    "target": "MP 5% 소모/폭탄 부착/자신을 선택하면 폭파",
+    "target": "마나 5% 소모/폭탄 부착/자신을 선택하면 폭파",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4080"
@@ -15065,7 +15065,7 @@
     "id": "76922dbd72e0b8d8a619",
     "source": "Self-enhancement/MP50",
     "source_ja": "MP50％消費して自己強化",
-    "target": "MP 50％를 소모해 자신 강화",
+    "target": "마나 50％를 소모해 자신 강화",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4086"
@@ -15095,7 +15095,7 @@
     "id": "2f6b8cb62b2435fc071c",
     "source": "The entire distributed attack(Sound)/MP10",
     "source_ja": "MP10％消費/分散する音属性攻撃",
-    "target": "MP 10％ 소모/분산되는 음파 속성 공격",
+    "target": "마나 10％ 소모/분산되는 음파 속성 공격",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4092"
@@ -15314,7 +15314,7 @@
     "id": "a1482cda1d9ee3e09ff2",
     "source": "Summon clones/halve HPMP",
     "source_ja": "HPMP半分消費し影分身召喚",
-    "target": "HP·MP의 절반을 소모해 그림자 분신 소환",
+    "target": "체력·마나의 절반을 소모해 그림자 분신 소환",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4134"
@@ -15438,7 +15438,7 @@
     "id": "36586c43fb17d00d685e",
     "source": "Resist to Magic/MP decrease",
     "source_ja": "魔法耐性増加/発動時MP大減少",
-    "target": "마법 내성 증가/발동 시 MP 대폭 감소",
+    "target": "마법 내성 증가/발동 시 마나 대폭 감소",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4170"
@@ -15816,7 +15816,7 @@
     "id": "aa211438eb5cfe0da59e",
     "source": "Burn MP",
     "source_ja": "MP消費範囲攻撃",
-    "target": "MP 소모 범위 공격",
+    "target": "마나 소모 범위 공격",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4260"
@@ -15968,7 +15968,7 @@
     "id": "f24a1b688c5aaaceebd3",
     "source": "Against DEX,Fatigue decreasing MP enemies",
     "source_ja": "器用対抗/MP減っている対象ほど疲労",
-    "target": "기교 대항/MP가 줄어든 대상일수록 피로",
+    "target": "기교 대항/마나가 줄어든 대상일수록 피로",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4290"
@@ -15998,7 +15998,7 @@
     "id": "364f950d77cf60518b55",
     "source": "Against STR,Fatigue decreasing HP enemies",
     "source_ja": "筋力対抗/HP減っている対象ほど疲労",
-    "target": "근력 대항/HP가 줄어든 대상일수록 피로",
+    "target": "근력 대항/체력이 줄어든 대상일수록 피로",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4296"
@@ -16118,7 +16118,7 @@
     "id": "7db4e279e3d4b9337a12",
     "source": "In pleasure lose MP field/gauge80",
     "source_ja": "全域気持ちいいこと中MP減少/ゲージ80％消費",
-    "target": "전역의 기분 좋은 일 도중 MP 감소/게이지 80％ 소모",
+    "target": "전역의 기분 좋은 일 도중 마나 감소/게이지 80％ 소모",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4320"
@@ -16238,7 +16238,7 @@
     "id": "40721c1be9f0cda85ac2",
     "source": "Expend essential oil",
     "source_ja": "味方MP回復敵弱体/精油消費",
-    "target": "동료 MP 회복·적 약화/정유 소모",
+    "target": "동료 마나 회복·적 약화/정유 소모",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:4344"
@@ -18316,7 +18316,7 @@
     "id": "614e00d9411d5bd80cab",
     "source": "Being an ascetic increases your HP.",
     "source_ja": "苦行を通じてHPを増やす",
-    "target": "고행을 통해 HP를 늘린다.",
+    "target": "고행을 통해 체력을 늘린다.",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5469"
@@ -18331,7 +18331,7 @@
     "id": "7bb36d1f4fdbc5e73b51",
     "source": "You are an apprentice of an ascetic. [HP+5%]",
     "source_ja": "あなたは苦行者の見習いだ[HP+5%]",
-    "target": "당신은 견습 고행자다[HP +5%]",
+    "target": "당신은 견습 고행자다[체력 +5%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5469"
@@ -18346,7 +18346,7 @@
     "id": "685aaab4d8a17aa98d4f",
     "source": "You are a journeyman of an ascetic. [HP+10%]",
     "source_ja": "あなたは立派な苦行者だ[HP+10%]",
-    "target": "당신은 훌륭한 고행자다[HP +10%]",
+    "target": "당신은 훌륭한 고행자다[체력 +10%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5469"
@@ -18361,7 +18361,7 @@
     "id": "84946a44f8737b99acfb",
     "source": "You are an expert of an ascetic. [HP+15%]",
     "source_ja": "あなたは熟練した苦行者だ[HP+15%]",
-    "target": "당신은 숙련 고행자다[HP +15%]",
+    "target": "당신은 숙련 고행자다[체력 +15%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5469"
@@ -18376,7 +18376,7 @@
     "id": "c44b08f9df65483511e6",
     "source": "You are a master of an ascetic. [HP+20%]",
     "source_ja": "あなたは苦行の達人だ[HP+20%]",
-    "target": "당신은 고행의 달인이다[HP +20%]",
+    "target": "당신은 고행의 달인이다[체력 +20%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5469"
@@ -18391,7 +18391,7 @@
     "id": "746066668be54db95cdd",
     "source": "You are an legendary ascetic. [HP+25%]",
     "source_ja": "あなたは伝説的名苦行者だ[HP+25%]",
-    "target": "당신은 전설적인 고행자다[HP +25%]",
+    "target": "당신은 전설적인 고행자다[체력 +25%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5469"
@@ -18481,7 +18481,7 @@
     "id": "a074ea8473e421715365",
     "source": "You gain MP by using gene manipulation.",
     "source_ja": "遺伝子組み換えを行いMPを増やす",
-    "target": "유전자를 재조합해 MP를 늘린다.",
+    "target": "유전자를 재조합해 마나를 늘린다.",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5481"
@@ -18496,7 +18496,7 @@
     "id": "f4c8f70e082809a639e8",
     "source": "Your genes contain magic. [MP+5%]",
     "source_ja": "あなたは魔力の遺伝子を持っている[MP+5%]",
-    "target": "당신은 마력의 유전자를 지니고 있다[MP +5%]",
+    "target": "당신은 마력의 유전자를 지니고 있다[마나 +5%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5481"
@@ -18511,7 +18511,7 @@
     "id": "35b825ece47a24704e41",
     "source": "Your cells contain magica [MP+10%]",
     "source_ja": "あなたは魔力の細胞を持っている[MP+10%]",
-    "target": "당신은 마력의 세포를 지니고 있다[MP +10%]",
+    "target": "당신은 마력의 세포를 지니고 있다[마나 +10%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5481"
@@ -18526,7 +18526,7 @@
     "id": "0abfd14334bb8ad3887b",
     "source": "Your blood contain magic [MP+15%]",
     "source_ja": "あなたには魔力の血液が流れている[MP+15%]",
-    "target": "당신에게는 마력의 피가 흐른다[MP +15%]",
+    "target": "당신에게는 마력의 피가 흐른다[마나 +15%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5481"
@@ -18541,7 +18541,7 @@
     "id": "6c14106f8244be58f0e9",
     "source": "Your body is made of magic. [MP+20%]",
     "source_ja": "あなたの肉体は魔力を帯びている[MP+20%]",
-    "target": "당신의 육체에는 마력이 깃들어 있다[MP +20%]",
+    "target": "당신의 육체에는 마력이 깃들어 있다[마나 +20%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5481"
@@ -18556,7 +18556,7 @@
     "id": "5cb36dabe634a003eddc",
     "source": "Magic dominats your entire body. [MP+25%",
     "source_ja": "あなたは魔力を支配している[MP+25%]",
-    "target": "당신은 마력을 지배한다[MP +25%]",
+    "target": "당신은 마력을 지배한다[마나 +25%]",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:5481"
@@ -29040,7 +29040,7 @@
     "id": "a1839db703082982fd29",
     "source": "Undead strengthen",
     "source_ja": "MP消費/アンデッド強化",
-    "target": "MP 소모/언데드 강화",
+    "target": "마나 소모/언데드 강화",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:11811"
@@ -29055,7 +29055,7 @@
     "id": "386a865f900f479d4227",
     "source": "Undead restore",
     "source_ja": "HP消費/アンデッド回復",
-    "target": "HP 소모/언데드 회복",
+    "target": "체력 소모/언데드 회복",
     "review_status": "reviewed",
     "source_ref": [
       "2.335:start.hsp:11814"

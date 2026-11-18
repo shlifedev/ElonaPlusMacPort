@@ -677,7 +677,7 @@
     "id": "controls.5ed9f0541a233d862fd4",
     "source_ja": "まずは君の通り名を教えてくれるかい。",
     "source": "Choose your Alias.",
-    "target": "모험가의 이명을 선택한다.",
+    "target": "모험가의 이명을 고른다.",
     "source_ref": [
       "2.335:start.hsp:223223"
     ],
@@ -951,7 +951,7 @@
     "id": "controls.3bbbc918898638739aa4",
     "source_ja": "★初心者向け基本操作（初期設定）（大文字コマンドはshift押しながら入力）",
     "source": "Basic operation for beginners (initial settings) (Press Shift while entering uppercase commands) ",
-    "target": "초보자를 위한 기본 조작 (기본 설정) — 대문자 명령은 Shift를 누른 채 입력",
+    "target": "초보자를 위한 기본 조작 (기본 설정) — 대문자 명령은 시프트를 누른 채 입력",
     "source_ref": [
       "2.335:start.hsp:609520"
     ],
@@ -981,7 +981,7 @@
     "id": "controls.957091556a9a37e14a26",
     "source_ja": "←↑↓→:移動　enter:決定　shift:キャンセル　space:汎用　?:ヘルプを表示(その他操作方法もここ)",
     "source": "Arrow:move /Enter:confirm /Shift:cancel /Space:general /?:help (Other operation methods are also here) ",
-    "target": "방향키: 이동 / Enter: 결정 / Shift: 취소 / Space: 상황별 행동 / ?: 도움말과 조작법",
+    "target": "방향키: 이동 / 엔터: 결정 / 시프트: 취소 / 스페이스: 상황별 행동 / ?: 도움말과 조작법",
     "source_ref": [
       "2.335:start.hsp:609526"
     ],
@@ -1109,5 +1109,350 @@
       "reference": "native host help-window behavior"
     },
     "review_reason": "안내 창 닫기 동작에 맞는 호스트 표시 문구. 원본 경고와 구분한다."
+  },
+  {
+    "id": "controls.hint.cursor",
+    "source": "Cursor [Select]  ",
+    "source_ja": "ｶｰｿﾙ [選択]  ",
+    "target": "방향키 [선택]",
+    "source_ref": [
+      "2.335:start.hsp:9253",
+      "2.335:start.hsp:9281"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.page",
+    "source": "+,- [Page]  ",
+    "source_ja": "+,- [ページ切替]  ",
+    "target": "+,- [쪽 이동]",
+    "source_ref": [
+      "2.335:start.hsp:9254",
+      "2.335:start.hsp:9282"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.close",
+    "source": "Shift,Esc [Close]  ",
+    "source_ja": "Shift,Esc [閉じる]  ",
+    "target": "시프트·이스케이프 [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:9255",
+      "2.335:start.hsp:9283"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.enter",
+    "source": "Enter,",
+    "source_ja": "決定、",
+    "target": "엔터,",
+    "source_ref": [
+      "2.335:start.hsp:9257",
+      "2.335:start.hsp:9285"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.known",
+    "source": "x [Known info]  ",
+    "source_ja": "x [既知の情報]  ",
+    "target": "x [확인한 정보]",
+    "source_ref": [
+      "2.335:start.hsp:9258",
+      "2.335:start.hsp:9286"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.mode",
+    "source": "z [Mode]  ",
+    "source_ja": "z [情報切替]  ",
+    "target": "z [정보 전환]",
+    "source_ref": [
+      "2.335:start.hsp:9259",
+      "2.335:start.hsp:9287"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.portrait",
+    "source": "p [Portrait]  ",
+    "source_ja": "p [ポートレイト変更]  ",
+    "target": "p [초상화 변경]",
+    "source_ref": [
+      "2.335:start.hsp:9260",
+      "2.335:start.hsp:9288"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.shortcut",
+    "source": "0~9 [Shortcut]  ",
+    "source_ja": "0～9 [ショートカット]  ",
+    "target": "0~9 [단축키]",
+    "source_ref": [
+      "2.335:start.hsp:9261",
+      "2.335:start.hsp:9289"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.hide",
+    "source": "* [OFF] / [ALL-ON]",
+    "source_ja": "* [非表示]　/ [全表示]",
+    "target": "* [숨기기]  / [모두 표시]",
+    "source_ref": [
+      "2.335:start.hsp:9262",
+      "2.335:start.hsp:9290"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.production",
+    "source": "+,- [Page]  Shift,Esc [Back]  ",
+    "source_ja": "+,- [ページ切替]  Shift,Esc [戻る]  ",
+    "target": "+,- [쪽 이동]  시프트·이스케이프 [뒤로]",
+    "source_ref": [
+      "2.335:start.hsp:273969",
+      "2.335:start.hsp:274268"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.ability",
+    "source": "+,- [Page]  Shift,Esc [Close]  0~9 [Shortcut]  * [OFF] / [ALL-ON]",
+    "source_ja": "+,- [ページ切替]  Shift,Esc [閉じる]  0～9 [ショートカット]  * [非表示]　/ [全表示]",
+    "target": "+,- [쪽 이동]  시프트·이스케이프 [닫기]  0~9 [단축키]  * [숨기기]  / [모두 표시]",
+    "source_ref": [
+      "2.335:start.hsp:292549",
+      "2.335:start.hsp:292790",
+      "2.335:start.hsp:295273",
+      "2.335:start.hsp:295543",
+      "2.335:start.hsp:295739"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.item-use",
+    "source": "+,- [Page]  x [Known info]  z [Mode]  Shift,Esc [Close]  0~9 [Shortcut]  ",
+    "source_ja": "+,- [ページ切替]  x [既知の情報]  z [情報切替]  Shift,Esc [閉じる]  0～9 [ショートカット]  ",
+    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  시프트·이스케이프 [닫기]  0~9 [단축키]",
+    "source_ref": [
+      "2.335:start.hsp:300945",
+      "2.335:start.hsp:300946",
+      "2.335:start.hsp:300947"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.multi-drop",
+    "source": "+,- [Page]  x [Known info]  z [Mode]  Shift,Esc [Close]  * [Multi Drop]",
+    "source_ja": "+,- [ページ切替]  x [既知の情報]  z [情報切替]  Shift,Esc [閉じる]  * [連続で置く]",
+    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  시프트·이스케이프 [닫기]  * [연속으로 내려놓기]",
+    "source_ref": [
+      "2.335:start.hsp:300945",
+      "2.335:start.hsp:300952",
+      "2.335:start.hsp:300954"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.knowledge",
+    "source": "Enter,Shift,Esc [Close]  ",
+    "source_ja": "決定、Shift,Esc [閉じる]  ",
+    "target": "엔터, 시프트·이스케이프 [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:304136"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.portrait-sheet",
+    "source": "p [Portrait]  +,- [Page]  Shift,Esc [Close]  ",
+    "source_ja": "p [ポートレイト変更]  +,- [ページ切替]  Shift,Esc [閉じる]  ",
+    "target": "p [초상화 변경]  +,- [쪽 이동]  시프트·이스케이프 [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:297293",
+      "2.335:start.hsp:297301"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.home",
+    "source": "Enter key,Shift,Esc [Close]  ",
+    "source_ja": "決定ｷｰ,Shift,Esc [閉じる]  ",
+    "target": "엔터, 시프트·이스케이프 [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:236518"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.delete",
+    "source": "BackSpace [Delete]  +,- [Page]  Shift,Esc [Close]  ",
+    "source_ja": "BackSpace [削除]  +,- [ページ切替]  Shift,Esc [閉じる]  ",
+    "target": "백스페이스 [삭제]  +,- [쪽 이동]  시프트·이스케이프 [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:286986"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.tone",
+    "source": "Enter [Change Tone] +,- [Page]  Shift,Esc [Close]  ",
+    "source_ja": "決定 [口調の変更]  +,- [ページ切替]  Shift,Esc [閉じる]  ",
+    "target": "엔터 [말투 변경]  +,- [쪽 이동]  시프트·이스케이프 [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:294897"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.summon",
+    "source": "Enter [Summon] +,- [Page]  Shift,Esc [Close]  ",
+    "source_ja": "決定 [召喚]  +,- [ページ切替]  Shift,Esc [閉じる]  ",
+    "target": "엔터 [소환]  +,- [쪽 이동]  시프트·이스케이프 [닫기]",
+    "source_ref": [
+      "2.335:start.hsp:295036"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.bonus",
+    "source": "Enter [Spend Bonus]  +,- [Page]  Shift,Esc [Close]  * [Track Skill]",
+    "source_ja": "決定 [ボーナスの分配]  +,- [ページ切替]  Shift,Esc [閉じる]  * [スキルトラック]",
+    "target": "엔터 [보너스 분배]  +,- [쪽 이동]  시프트·이스케이프 [닫기]  * [스킬 추적]",
+    "source_ref": [
+      "2.335:start.hsp:297285",
+      "2.335:start.hsp:297317"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.train",
+    "source": "Enter [Train Skill]  +,- [Page]  Shift,Esc [Close]  * [Track Skill]",
+    "source_ja": "決定 [スキルを訓練]  +,- [ページ切替]  Shift,Esc [閉じる]  * [スキルトラック]",
+    "target": "엔터 [스킬 훈련]  +,- [쪽 이동]  시프트·이스케이프 [닫기]  * [스킬 추적]",
+    "source_ref": [
+      "2.335:start.hsp:297296",
+      "2.335:start.hsp:297317"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.learn",
+    "source": "Enter [Learn Skill]  +,- [Page]  Shift,Esc [Close]  * [Track Skill]",
+    "source_ja": "決定 [スキルを習得]  +,- [ページ切替]  Shift,Esc [閉じる]  * [スキルトラック]",
+    "target": "엔터 [스킬 습득]  +,- [쪽 이동]  시프트·이스케이프 [닫기]  * [스킬 추적]",
+    "source_ref": [
+      "2.335:start.hsp:297304",
+      "2.335:start.hsp:297317"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
+  },
+  {
+    "id": "controls.hint.track",
+    "source": "+,- [Page]  Shift,Esc [Close]  * [Track Skill]",
+    "source_ja": "+,- [ページ切替]  Shift,Esc [閉じる]  * [スキルトラック]",
+    "target": "+,- [쪽 이동]  시프트·이스케이프 [닫기]  * [스킬 추적]",
+    "source_ref": [
+      "2.335:start.hsp:297312",
+      "2.335:start.hsp:297317"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese window hint and bundled original/config.txt default bindings"
+    }
   }
 ]

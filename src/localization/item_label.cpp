@@ -21,7 +21,9 @@ bool take_suffix(std::string_view& text, std::string_view suffix) {
 std::optional<std::string> Catalog::item_label(std::string_view row, std::string_view base,
                                               std::string_view classifier, int id) const {
     if (base.empty() || row.size() > 1024 || id < 0 || id > 1333) return {};
-    const auto* name = find("@item/" + std::to_string(id));
+    const bool is_catch = id == 618 || id == 619;
+    const auto* name = is_catch ? find("@catch/" + std::to_string(id) + "/" + std::string(classifier))
+                                : find("@item/" + std::to_string(id));
     if (!name) return {};
 
     std::string count, prefix;
@@ -55,6 +57,25 @@ std::optional<std::string> Catalog::item_label(std::string_view row, std::string
     auto before = row.substr(0, pos);
     auto after = row.substr(pos + base.size());
 
+    if (is_catch) {
+        // The producer supplies the fishdatan entry for this exact instance.
+        // Refuse to guess a cooked dish, renamed item or other compound label.
+        for (auto modifier : {std::pair{"blessed ", "축복받은 "}, {"祝福された", "축복받은 "},
+                              {"cursed ", "저주받은 "}, {"呪われた", "저주받은 "},
+                              {"doomed ", "타락한 "}, {"堕落した", "타락한 "},
+                              {"sample ", "견본용 "}, {"見本用の", "견본용 "},
+                              {"rotten ", "썩은 "}, {"腐った", "썩은 "}}) {
+            if (take_prefix(before, modifier.first)) prefix += modifier.second;
+        }
+        if (!before.empty()) {
+            if (!take_suffix(before, "cm ") && !take_suffix(before, "cmの")) return {};
+            if (before.empty() || before.find_first_not_of("0123456789") != before.npos) return {};
+            prefix += std::string(before) + "센티미터 ";
+        }
+        if (id == 619 && !count.empty()) take_prefix(after, "s");
+        if (!after.empty()) return {};
+        return prefix + *name + (count.empty() ? "" : " ×" + count);
+    }
     // The HSP classifier supplies words such as "scroll of", "rods of" or
     // "bottles of". The Korean name already includes its appropriate item type.
     if (!classifier.empty() && !before.empty()) {

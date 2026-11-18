@@ -1,4 +1,6 @@
 #include "catalog.h"
+#include "alias.h"
+#include <regex>
 #include <stdexcept>
 
 namespace elona::localization {
@@ -19,7 +21,7 @@ void Catalog::add_log_template(std::string_view pattern, const std::string& tran
                               std::move(argument), translation});
 }
 
-std::optional<std::string> Catalog::adventure_log(std::string_view source) const {
+std::optional<std::string> Catalog::adventure_log(std::string_view source, int starter_pet_id) const {
     if (source.size() > 512) return {};
     const LogTemplate* match = nullptr;
     std::string replacement;
@@ -38,6 +40,16 @@ std::optional<std::string> Catalog::adventure_log(std::string_view source) const
             if (!known) continue;
             argument = *known;
         }
+        if (starter_pet_id && rule.argument == "{name}" && rule.prefix.empty() &&
+            rule.suffix == " joins your party!") {
+            const auto split = value.rfind(" the ");
+            if (split != value.npos && split > 0) {
+                const auto key = "@starter-pet/" + std::to_string(starter_pet_id) + "/" +
+                                 std::string(value.substr(split + 5));
+                if (const auto* species = find(key))
+                    argument = *species + " " + std::string(value.substr(0, split));
+            }
+        }
         if (match) return {}; // ambiguous templates leave the original visible
         match = &rule;
         replacement = std::move(argument);
@@ -46,5 +58,70 @@ std::optional<std::string> Catalog::adventure_log(std::string_view source) const
     std::string result = match->translation;
     result.replace(result.find(match->argument), match->argument.size(), replacement);
     return result;
+}
+namespace {
+std::string news_item(const Catalog& catalog, const std::string& original) {
+    if (auto* known = catalog.find("@log-noun/{object}/" + original)) return *known;
+    // Parse only the generated equipment form. A player-supplied title remains literal.
+    static const std::regex gear(R"(^(?:the |a |an )?(?:pair of )?([^<>]+?)(?: <([^<>]+)>)?( [\[\]()0-9,d+% x-]+)?$)");
+    std::smatch parts;
+    if (!std::regex_match(original, parts, gear)) return original;
+    std::string noun = parts[1].str();
+    const std::string* base = catalog.find("@news-item/" + noun);
+    std::string prefix;
+    for (auto split = noun.find(' '); !base && split != noun.npos; split = noun.find(' ', split + 1)) {
+        if (auto* modifier = catalog.find("@item-mod/" + noun.substr(0, split))) {
+            base = catalog.find("@news-item/" + noun.substr(split + 1));
+            if (base) prefix = *modifier + " ";
+        }
+    }
+    if (!base) return original;
+    std::string label = prefix + *base;
+    if (parts[2].matched) {
+        auto alias = parts[2].str();
+        label += " 〈" + localized_alias(catalog, alias).value_or(alias) + "〉";
+    }
+    return label + parts[3].str();
+}
+}
+
+std::optional<std::string> Catalog::news_text(std::string_view source) const {
+    if (source.size() > 1024 || source.find_first_of("\r\n\t") != source.npos) return {};
+    struct Rule { const char* key; std::regex pattern; };
+    static const Rule rules[] = {
+        {"@news/accomplishment", std::regex(R"(^(.+?) has finished a quest and gained ([0-9]+) fame\.$)")},
+        {"@news/growth", std::regex(R"(^(.+?) has gained experience and achieved level ([0-9]+)\.$)")},
+        {"@news/recovery", std::regex(R"(^(.+?) has fully recovered from injury\.$)")},
+        {"@news/retirement", std::regex(R"(^(.+?) realized the limitations and retired\.$)")},
+        {"@news/discovery", std::regex(R"(^(.+?) has discovered (.+) in (.+)\.$)")},
+    };
+    const std::string text(source);
+    std::smatch parts;
+    for (const auto& rule : rules) {
+        if (!std::regex_match(text, parts, rule.pattern)) continue;
+        const auto* format = find(rule.key);
+        if (!format) return {};
+        const std::string name = parts[1].str();
+        std::string result;
+        for (std::size_t cursor = 0; cursor < format->size();) {
+            const auto open = format->find('{', cursor);
+            result.append(*format, cursor, open - cursor);
+            if (open == format->npos) break;
+            const auto close = format->find('}', open + 1);
+            if (close == format->npos) return {};
+            auto field = format->substr(open, close - open + 1);
+            if (field == "{name}") result += localized_alias(*this, name).value_or(name);
+            else if (field == "{number}" && parts.size() == 3) result += parts[2].str();
+            else if (field == "{item}" && parts.size() == 4) result += news_item(*this, parts[2].str());
+            else if (field == "{place}" && parts.size() == 4) {
+                auto place = parts[3].str();
+                const auto* label = find("@log-noun/{place}/" + place);
+                result += label ? *label : place;
+            } else return {};
+            cursor = close + 1;
+        }
+        return result;
+    }
+    return {};
 }
 } // namespace elona::localization

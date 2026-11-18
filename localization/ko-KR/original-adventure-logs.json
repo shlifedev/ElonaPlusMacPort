@@ -62,7 +62,10 @@
     {
       "source": "@log/\"You know the fairy tale where a wicked witch transforms a dashing prince into an monster?\"",
       "target": "“사악한 마녀가 멋진 왕자님을 괴물로 만들었다는 동화, 너도 알지?”",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_ref": [
+        "2.335:start.hsp:561500"
+      ]
     },
     {
       "source": "@log-template/Do you want to leave {place}? ",
@@ -232,6 +235,816 @@
     {
       "source": "@log-noun/{object}/an urine of flying frog",
       "target": "날개개구리의 오줌",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news/tag",
+      "target": "[소식]",
+      "source_ref": "2.335:start.hsp:22799",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news/discovery",
+      "target": "{name}의 발견 · {place}에서 {item} 획득",
+      "source_ref": "2.335:start.hsp:22817",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news/growth",
+      "target": "{name}의 성장 · 레벨 {number} 달성",
+      "source_ref": "2.335:start.hsp:22821",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news/recovery",
+      "target": "{name}의 부상이 완치되었다.",
+      "source_ref": "2.335:start.hsp:22825",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news/accomplishment",
+      "target": "{name}의 의뢰 달성 · 명성 {number} 획득",
+      "source_ref": "2.335:start.hsp:22829",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news/retirement",
+      "target": "{name}, 자신의 한계를 깨닫고 은퇴하다.",
+      "source_ref": "2.335:start.hsp:22833",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-mod/toy",
+      "target": "장난감 같은",
+      "source_ref": "2.335:start.hsp:28841",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/子供のおもちゃの"
+      ]
+    },
+    {
+      "source": "@item-mod/candy",
+      "target": "식용",
+      "source_ref": "2.335:start.hsp:28850",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/食用"
+      ]
+    },
+    {
+      "source": "@item-mod/variable",
+      "target": "변형하는",
+      "source_ref": "2.335:start.hsp:28859",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/変形する"
+      ]
+    },
+    {
+      "source": "@item-mod/tasteful",
+      "target": "운치 있는",
+      "source_ref": "2.335:start.hsp:28869",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/渋い"
+      ]
+    },
+    {
+      "source": "@item-mod/old",
+      "target": "오래된",
+      "source_ref": "2.335:start.hsp:28879",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/古き"
+      ]
+    },
+    {
+      "source": "@item-mod/heavy",
+      "target": "묵직한",
+      "source_ref": "2.335:start.hsp:28889",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/重き"
+      ]
+    },
+    {
+      "source": "@item-mod/noble",
+      "target": "고귀한",
+      "source_ref": "2.335:start.hsp:28899",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/気高き"
+      ]
+    },
+    {
+      "source": "@item-mod/ephemeral",
+      "target": "덧없는",
+      "source_ref": "2.335:start.hsp:28908",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/儚き"
+      ]
+    },
+    {
+      "source": "@item-mod/ocean",
+      "target": "바다에서 온",
+      "source_ref": "2.335:start.hsp:28917",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/海からもたらされし"
+      ]
+    },
+    {
+      "source": "@item-mod/mass",
+      "target": "쇳덩이 같은",
+      "source_ref": "2.335:start.hsp:28926",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/鉄塊と呼ばれる"
+      ]
+    },
+    {
+      "source": "@item-mod/dreadbane",
+      "target": "어둠을 깨는",
+      "source_ref": "2.335:start.hsp:28936",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/闇を砕く"
+      ]
+    },
+    {
+      "source": "@item-mod/transparent",
+      "target": "투명한",
+      "source_ref": "2.335:start.hsp:28946",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/透き通る"
+      ]
+    },
+    {
+      "source": "@item-mod/godbane",
+      "target": "신을 죽이는",
+      "source_ref": "2.335:start.hsp:28956",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/神殺しの"
+      ]
+    },
+    {
+      "source": "@item-mod/historic",
+      "target": "유서 깊은",
+      "source_ref": "2.335:start.hsp:28965",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/由緒ある"
+      ]
+    },
+    {
+      "source": "@item-mod/brilliant",
+      "target": "빛을 두른",
+      "source_ref": "2.335:start.hsp:28975",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/光を纏いし"
+      ]
+    },
+    {
+      "source": "@item-mod/shining",
+      "target": "어둠을 밝히는",
+      "source_ref": "2.335:start.hsp:28985",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/闇を照らす"
+      ]
+    },
+    {
+      "source": "@item-mod/ancient",
+      "target": "태고의",
+      "source_ref": "2.335:start.hsp:28994",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/古なる"
+      ]
+    },
+    {
+      "source": "@item-mod/pure",
+      "target": "진실을 밝히는",
+      "source_ref": "2.335:start.hsp:29004",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/真実を暴く"
+      ]
+    },
+    {
+      "source": "@item-mod/rainbow",
+      "target": "기묘한 빛을 내는",
+      "source_ref": "2.335:start.hsp:29013",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/異光を放つ"
+      ]
+    },
+    {
+      "source": "@item-mod/miracle",
+      "target": "기적을 부르는",
+      "source_ref": "2.335:start.hsp:29022",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/奇跡を呼ぶ"
+      ]
+    },
+    {
+      "source": "@item-mod/earth",
+      "target": "대지를 흔드는",
+      "source_ref": "2.335:start.hsp:29031",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/大地を揺るがす"
+      ]
+    },
+    {
+      "source": "@item-mod/fadeless",
+      "target": "빛바래지 않는",
+      "source_ref": "2.335:start.hsp:29041",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/色褪せぬ"
+      ]
+    },
+    {
+      "source": "@item-mod/ever lasting",
+      "target": "변치 않는",
+      "source_ref": "2.335:start.hsp:29051",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/うつろいなき"
+      ]
+    },
+    {
+      "source": "@item-mod/crimson",
+      "target": "붉게 물든",
+      "source_ref": "2.335:start.hsp:29060",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/赤く染まった"
+      ]
+    },
+    {
+      "source": "@item-mod/eternal",
+      "target": "영원한",
+      "source_ref": "2.335:start.hsp:29070",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/永遠なる"
+      ]
+    },
+    {
+      "source": "@item-mod/charming",
+      "target": "윤기 나는",
+      "source_ref": "2.335:start.hsp:29080",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/艶やかなる"
+      ]
+    },
+    {
+      "source": "@item-mod/beautiful",
+      "target": "아름다운",
+      "source_ref": "2.335:start.hsp:29090",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/美しき"
+      ]
+    },
+    {
+      "source": "@item-mod/silly",
+      "target": "우스꽝스러운",
+      "source_ref": "2.335:start.hsp:29100",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/ふざけた"
+      ]
+    },
+    {
+      "source": "@item-mod/immortal",
+      "target": "불멸의",
+      "source_ref": "2.335:start.hsp:29110",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/不死なる"
+      ]
+    },
+    {
+      "source": "@item-mod/mysterious",
+      "target": "만물을 감싸는",
+      "source_ref": "2.335:start.hsp:29120",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/全てを包む"
+      ]
+    },
+    {
+      "source": "@item-mod/wrath",
+      "target": "역린을 건드린",
+      "source_ref": "2.335:start.hsp:29130",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/逆鱗に触れし"
+      ]
+    },
+    {
+      "source": "@item-mod/spiral",
+      "target": "사슬로 엮인",
+      "source_ref": "2.335:start.hsp:29139",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/連鎖せし"
+      ]
+    },
+    {
+      "source": "@item-mod/foreign",
+      "target": "이국에서 온",
+      "source_ref": "2.335:start.hsp:29149",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/異国からもたらされし"
+      ]
+    },
+    {
+      "source": "@item-mod/golden",
+      "target": "황금빛으로 빛나는",
+      "source_ref": "2.335:start.hsp:29159",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/黄金に輝く"
+      ]
+    },
+    {
+      "source": "@item-mod/amazing",
+      "target": "이 세상의 것이 아닌",
+      "source_ref": "2.335:start.hsp:29169",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/この世ならざる"
+      ]
+    },
+    {
+      "source": "@item-mod/dragonbane",
+      "target": "용을 지배하는",
+      "source_ref": "2.335:start.hsp:29179",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/竜を統べし"
+      ]
+    },
+    {
+      "source": "@item-mod/dawn",
+      "target": "땅거미를 두른",
+      "source_ref": "2.335:start.hsp:29189",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/宵闇を纏いし"
+      ]
+    },
+    {
+      "source": "@item-mod/fallen",
+      "target": "날개가 꺾인",
+      "source_ref": "2.335:start.hsp:29199",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-mod/翼を折られし"
+      ]
+    },
+    {
+      "source": "@news-item/long sword",
+      "target": "장검",
+      "source_ref": "2.335:start.hsp:193537",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/dagger",
+      "target": "단검",
+      "source_ref": "2.335:start.hsp:193524",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/hand axe",
+      "target": "손도끼",
+      "source_ref": "2.335:start.hsp:193511",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/club",
+      "target": "곤봉",
+      "source_ref": "2.335:start.hsp:193498",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/magic hat",
+      "target": "마법 모자",
+      "source_ref": "2.335:start.hsp:193485",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/fairy hat",
+      "target": "요정 모자",
+      "source_ref": "2.335:start.hsp:193472",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/breastplate",
+      "target": "흉갑",
+      "source_ref": "2.335:start.hsp:193459",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/robe",
+      "target": "법의",
+      "source_ref": "2.335:start.hsp:193446",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/decorated gloves",
+      "target": "세공 건틀릿",
+      "source_ref": "2.335:start.hsp:193433",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/thick gauntlets",
+      "target": "두꺼운 전투 장갑",
+      "source_ref": "2.335:start.hsp:193420",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/heavy boots",
+      "target": "중장화",
+      "source_ref": "2.335:start.hsp:193407",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/composite boots",
+      "target": "합성 장화",
+      "source_ref": "2.335:start.hsp:193394",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/decorative ring",
+      "target": "장식 반지",
+      "source_ref": "2.335:start.hsp:193379",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/banded mail",
+      "target": "띠갑옷",
+      "source_ref": "2.335:start.hsp:187563",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/plate mail",
+      "target": "판금 갑옷",
+      "source_ref": "2.335:start.hsp:187550",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/ring mail",
+      "target": "고리 갑옷",
+      "source_ref": "2.335:start.hsp:187537",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/composite mail",
+      "target": "합성 갑옷",
+      "source_ref": "2.335:start.hsp:187524",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/chain mail",
+      "target": "사슬 갑옷",
+      "source_ref": "2.335:start.hsp:187511",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/pope robe",
+      "target": "법왕의 법의",
+      "source_ref": "2.335:start.hsp:187498",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/light mail",
+      "target": "경갑",
+      "source_ref": "2.335:start.hsp:187485",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/coat",
+      "target": "방호복",
+      "source_ref": "2.335:start.hsp:187472",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/breast plate",
+      "target": "동의",
+      "source_ref": "2.335:start.hsp:187459",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/bulletproof jacket",
+      "target": "방탄복",
+      "source_ref": "2.335:start.hsp:187446",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/gloves",
+      "target": "장갑",
+      "source_ref": "2.335:start.hsp:187433",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/plate gauntlets",
+      "target": "판금 건틀릿",
+      "source_ref": "2.335:start.hsp:187420",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/light gloves",
+      "target": "가벼운 장갑",
+      "source_ref": "2.335:start.hsp:187407",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/composite gauntlets",
+      "target": "합성 건틀릿",
+      "source_ref": "2.335:start.hsp:187394",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/small shield",
+      "target": "소형 방패",
+      "source_ref": "2.335:start.hsp:187381",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/round shield",
+      "target": "원형 방패",
+      "source_ref": "2.335:start.hsp:187368",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/shield",
+      "target": "방패",
+      "source_ref": "2.335:start.hsp:187355",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/large shield",
+      "target": "합성 방패",
+      "source_ref": "2.335:start.hsp:187342",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/kite shield",
+      "target": "연 방패",
+      "source_ref": "2.335:start.hsp:187329",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/tower shield",
+      "target": "대형 판금 방패",
+      "source_ref": "2.335:start.hsp:187316",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/shoes",
+      "target": "신발",
+      "source_ref": "2.335:start.hsp:187303",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/boots",
+      "target": "장화",
+      "source_ref": "2.335:start.hsp:187290",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/tight boots",
+      "target": "두꺼운 장화",
+      "source_ref": "2.335:start.hsp:187277",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/armored boots",
+      "target": "장갑 장화",
+      "source_ref": "2.335:start.hsp:187264",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/composite girdle",
+      "target": "합성 허리 보호대",
+      "source_ref": "2.335:start.hsp:187251",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/plate girdle",
+      "target": "판금 허리 보호대",
+      "source_ref": "2.335:start.hsp:187238",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/armored cloak",
+      "target": "방호 망토",
+      "source_ref": "2.335:start.hsp:187225",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/cloak",
+      "target": "망토",
+      "source_ref": "2.335:start.hsp:187212",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/feather hat",
+      "target": "깃털 모자",
+      "source_ref": "2.335:start.hsp:187199",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/heavy helm",
+      "target": "중투구",
+      "source_ref": "2.335:start.hsp:187186",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/knight helm",
+      "target": "기사 투구",
+      "source_ref": "2.335:start.hsp:187173",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/helm",
+      "target": "투구",
+      "source_ref": "2.335:start.hsp:187160",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/composite helm",
+      "target": "합금 투구",
+      "source_ref": "2.335:start.hsp:187147",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/peridot",
+      "target": "페리도트",
+      "source_ref": "2.335:start.hsp:187132",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/talisman",
+      "target": "호부",
+      "source_ref": "2.335:start.hsp:187117",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/neck guard",
+      "target": "목 보호대",
+      "source_ref": "2.335:start.hsp:187102",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/charm",
+      "target": "부적",
+      "source_ref": "2.335:start.hsp:187087",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/bejeweled amulet",
+      "target": "보석 목걸이",
+      "source_ref": "2.335:start.hsp:187072",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/engagement amulet",
+      "target": "약혼 목걸이",
+      "source_ref": "2.335:start.hsp:187057",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/composite ring",
+      "target": "합금 반지",
+      "source_ref": "2.335:start.hsp:187042",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/armored ring",
+      "target": "손가락 보호대",
+      "source_ref": "2.335:start.hsp:187027",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/ring",
+      "target": "반지",
+      "source_ref": "2.335:start.hsp:187012",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@news-item/engagement ring",
+      "target": "약혼 반지",
+      "source_ref": "2.335:start.hsp:186997",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/「獣に変えられた王子の童話をしっているかしら？」",
+      "source_ja": "「獣に変えられた王子の童話をしっているかしら？」",
+      "target": "“짐승으로 변한 왕자 이야기를 아세요?”",
+      "source_ref": [
+        "2.335:start.hsp:561492",
+        "2.335:start.hsp:561500"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/The stunning beauty of Elea's face halts your step a moment.",
+      "source_ja": "痺れるほど美しいエレアの横顔にあなたは見とれた。",
+      "target": "당신은 엘레아의 눈부신 옆모습에 넋을 잃었다.",
+      "source_ref": [
+        "2.335:start.hsp:561492",
+        "2.335:start.hsp:561500"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/\"The world is thrown into bedlam and chaos. We must remain strong in the face of it.\"",
+      "source_ja": "「この世界は今、大きく変わろうとしているの」",
+      "target": "“지금 이 세계는 크게 달라지려 하고 있어요.”",
+      "source_ref": [
+        "2.335:start.hsp:561492",
+        "2.335:start.hsp:561500"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/\"The man we saw in Vernis, he just might be...\"",
+      "source_ja": "「ヴェルニースで見かけたあの男…まさか…」",
+      "target": "“베르니스에서 본 그 남자… 설마…”",
+      "source_ref": [
+        "2.335:start.hsp:561492",
+        "2.335:start.hsp:561500"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/Someone mutters in mysterious ancient language.",
+      "source_ja": "神秘的な古代の言葉で誰かが囁いた。",
+      "target": "누군가 신비로운 고대어로 속삭였다.",
+      "source_ref": [
+        "2.335:start.hsp:561492",
+        "2.335:start.hsp:561500"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/\"Eleas is already being regarded as a heretic, your lofty dignity isn't helping this.\"",
+      "source_ja": "「あなたはプライドが高すぎるのよ。ただでさえエレアは異端視されているのに」",
+      "target": "“당신은 자존심이 너무 강해요. 그렇잖아도 다들 엘레아를 이단으로 여기는데…”",
+      "source_ref": [
+        "2.335:start.hsp:561492",
+        "2.335:start.hsp:561500"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@starter-pet/165/dog",
+      "target": "개",
+      "source_ref": [
+        "2.335:decompiled/start.hsp:583225",
+        "2.335:decompiled/start.hsp:614835"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@starter-pet/164/cat",
+      "target": "고양이",
+      "source_ref": [
+        "2.335:decompiled/start.hsp:582341",
+        "2.335:decompiled/start.hsp:614835"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@starter-pet/108/brown bear",
+      "target": "불곰",
+      "source_ref": [
+        "2.335:decompiled/start.hsp:576810",
+        "2.335:decompiled/start.hsp:614835"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@starter-pet/166/little girl",
+      "target": "소녀",
+      "source_ref": [
+        "2.335:decompiled/start.hsp:583768",
+        "2.335:decompiled/start.hsp:614835"
+      ],
       "review_status": "reviewed"
     }
   ]

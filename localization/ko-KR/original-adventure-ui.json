@@ -3082,7 +3082,7 @@
   {
     "source": "Cost(Stock) Lv/Chance",
     "source_ja": "消費MP(ｽﾄｯｸ)　LV/成功　(潜在) ",
-    "target": "소모 MP(사용 횟수)  레벨/성공률 (잠재력)",
+    "target": "소모 마나(사용 횟수)  레벨/성공률 (잠재력)",
     "source_ref": [
       "2.335:start.hsp:295276",
       "2.335:start.hsp:295546",
@@ -8529,7 +8529,7 @@
   },
   {
     "source": "BackSpace [Delete]  Shift,Esc [Back]  ",
-    "target": "BackSpace [삭제]  Shift,Esc [뒤로]",
+    "target": "백스페이스 [삭제]  시프트·이스케이프 [뒤로]",
     "source_ref": [
       "2.335:start.hsp:9256",
       "2.335:start.hsp:9284",
@@ -8546,7 +8546,7 @@
   },
   {
     "source": "x [Known info]  z [Mode]  Shift,Esc [Close]  ",
-    "target": "x [확인한 정보]  z [정보 전환]  Shift,Esc [닫기]",
+    "target": "x [확인한 정보]  z [정보 전환]  시프트·이스케이프 [닫기]",
     "source_ref": [
       "2.335:start.hsp:9255",
       "2.335:start.hsp:9258",
@@ -8566,7 +8566,7 @@
   },
   {
     "source": "+,- [Page]  x [Known info]  z [Mode]  Shift,Esc [Close]  ",
-    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  Shift,Esc [닫기]",
+    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  시프트·이스케이프 [닫기]",
     "source_ref": [
       "2.335:start.hsp:9254",
       "2.335:start.hsp:9282",
@@ -8582,7 +8582,7 @@
   },
   {
     "source": "+,- [Page]  x [Known info]  z [Mode]  Shift,Esc [Close]  * [Tag No-Drop]",
-    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  Shift,Esc [닫기]  * [보관 지정]",
+    "target": "+,- [쪽 이동]  x [확인한 정보]  z [정보 전환]  시프트·이스케이프 [닫기]  * [보관 지정]",
     "source_ref": [
       "2.335:start.hsp:9254",
       "2.335:start.hsp:9282",
@@ -8599,7 +8599,7 @@
   },
   {
     "source": "+,- [Page]  Shift,Esc [Close]  ",
-    "target": "+,- [쪽 이동]  Shift,Esc [닫기]",
+    "target": "+,- [쪽 이동]  시프트·이스케이프 [닫기]",
     "source_ref": [
       "2.335:start.hsp:9254",
       "2.335:start.hsp:9255",
@@ -8616,7 +8616,7 @@
   },
   {
     "source": "Cursor [Hint]  p [Portrait]  +,- [Page]  Shift,Esc [Close]  ",
-    "target": "커서 [축복과 저주 정보]  p [초상화]  +,- [쪽 이동]  Shift,Esc [닫기]",
+    "target": "커서 [축복과 저주 정보]  p [초상화]  +,- [쪽 이동]  시프트·이스케이프 [닫기]",
     "source_ref": [
       "2.335:start.hsp:297281",
       "2.335:start.hsp:297282"
@@ -8913,5 +8913,454 @@
     },
     "review_reason": "2.335 menu capture review. 원문 전체와 조작 키를 확인.",
     "source_ja": "クマだ！"
+  },
+  {
+    "source": "(This character isn't currently blessed or hexed.)",
+    "target": "(현재 적용 중인 지속 효과가 없다.)",
+    "source_ref": [
+      "2.335:start.hsp:297724"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 gameplay display"
+    },
+    "source_ja": "(今は持続効果を受けていない)"
+  },
+  {
+    "source": "an urine of flying frog",
+    "target": "날개개구리의 오줌",
+    "source_ref": [
+      "2.335:start.hsp:177603"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 gameplay display"
+    }
+  },
+  {
+    "source": "@reply/31/Alright.",
+    "source_aliases": [
+      "@reply/31/わかった"
+    ],
+    "target": "알겠어.",
+    "source_ref": [
+      "2.335:start.hsp:373951"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC reply"
+    }
+  },
+  {
+    "source": "@reply/32/Alright.",
+    "source_aliases": [
+      "@reply/32/いいだろう"
+    ],
+    "target": "좋아.",
+    "source_ref": [
+      "2.335:start.hsp:380932"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC reply"
+    }
+  },
+  {
+    "source": "@reply/33/Alright.",
+    "source_aliases": [
+      "@reply/33/欲しい…"
+    ],
+    "target": "갖고 싶어…",
+    "source_ref": [
+      "2.335:start.hsp:421598"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC reply"
+    }
+  },
+  {
+    "source": "@reply/34/Alright.",
+    "source_aliases": [
+      "@reply/34/挑戦する"
+    ],
+    "target": "도전한다.",
+    "source_ref": [
+      "2.335:start.hsp:421903"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC reply"
+    }
+  },
+  {
+    "source": "@reply/35/Alright.",
+    "source_aliases": [
+      "@reply/35/頼む"
+    ],
+    "target": "부탁해.",
+    "source_ref": [
+      "2.335:start.hsp:426312"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC reply"
+    }
+  },
+  {
+    "source": "(more)",
+    "target": "(계속)",
+    "source_ref": [
+      "2.335:start.hsp:289906",
+      "2.335:start.hsp:608762"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 original page prompt"
+    }
+  },
+  {
+    "source": "Robber's Hideout",
+    "target": "도적의 은신처",
+    "source_ref": [
+      "2.335:start.hsp:243174"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "盗賊の隠れ家"
+  },
+  {
+    "source": "Test Site",
+    "target": "생체병기 실험장",
+    "source_ref": [
+      "2.335:start.hsp:243186"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "生体兵器実験場"
+  },
+  {
+    "source": "Grassland",
+    "target": "초원",
+    "source_ref": [
+      "2.335:start.hsp:243244"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "草原"
+  },
+  {
+    "source": "Wasteland",
+    "target": "황야",
+    "source_ref": [
+      "2.335:start.hsp:243273"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "荒野"
+  },
+  {
+    "source": "Sand",
+    "target": "모래 언덕",
+    "source_ref": [
+      "2.335:start.hsp:243287"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "砂丘"
+  },
+  {
+    "source": "Seabed",
+    "target": "바다 밑",
+    "source_ref": [
+      "2.335:start.hsp:243331"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "海底"
+  },
+  {
+    "source": "Plain Field",
+    "target": "평지",
+    "source_ref": [
+      "2.335:start.hsp:243443",
+      "2.335:start.hsp:243530"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "平地"
+  },
+  {
+    "source": "Snow Field",
+    "target": "설원",
+    "source_ref": [
+      "2.335:start.hsp:243512"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "雪原"
+  },
+  {
+    "source": "Too heavy!",
+    "target": "너무 무거워!",
+    "source_ref": [
+      "2.335:start.hsp:302370",
+      "2.335:start.hsp:302382"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "重すぎ"
+  },
+  {
+    "source": "I don't want it.",
+    "target": "필요 없어.",
+    "source_ref": [
+      "2.335:start.hsp:302370",
+      "2.335:start.hsp:302382"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "いらん"
+  },
+  {
+    "source": "It's mine.",
+    "target": "내 거야.",
+    "source_ref": [
+      "2.335:start.hsp:302909"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "あげないよ"
+  },
+  {
+    "source": "The enemy dies.",
+    "target": "상대가 죽는다.",
+    "source_ref": [
+      "2.335:start.hsp:303751"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "相手は死ぬ"
+  },
+  {
+    "source": "You summon 4 dimensional pocket.",
+    "target": "사차원 주머니를 소환했다.",
+    "source_ref": [
+      "2.335:start.hsp:344942"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "あなたは四次元のポケットを召喚した。"
+  },
+  {
+    "source": "The mirror led to 4 dimensional.",
+    "target": "거울이 사차원으로 이어졌다.",
+    "source_ref": [
+      "2.335:start.hsp:344949"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "鏡が四次元につながった。"
+  },
+  {
+    "source": "Who will you lead?",
+    "target": "누구를 지도할까?",
+    "source_ref": [
+      "2.335:start.hsp:345038"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "誰を指導しようか。"
+  },
+  {
+    "source": "Out of range.",
+    "target": "사정거리 밖이다.",
+    "source_ref": [
+      "2.335:start.hsp:345049",
+      "2.335:start.hsp:345058",
+      "2.335:start.hsp:345129",
+      "2.335:start.hsp:345138"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "範囲外だ。"
+  },
+  {
+    "source": "It's too late to lead.",
+    "target": "이제 지도하기에는 너무 늦었다.",
+    "source_ref": [
+      "2.335:start.hsp:345067"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "手遅れだ。"
+  },
+  {
+    "source": "There seems to be no need for leading.",
+    "target": "따로 지도할 필요는 없어 보인다.",
+    "source_ref": [
+      "2.335:start.hsp:345076"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "指導の必要はなさそうだ。"
+  },
+  {
+    "source": "Which instruction you serve directive to the fellow with the flag?",
+    "target": "아군에게 어떤 지시를 내릴까?",
+    "source_ref": [
+      "2.335:start.hsp:345146",
+      "2.335:start.hsp:365010"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "仲間にどんな指示を出そうか。",
+    "english_context_reviewed": true
+  },
+  {
+    "source": "It is too heavy!",
+    "target": "너무 무거워서 던질 수 없다…!",
+    "source_ref": [
+      "2.335:start.hsp:345375"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "重すぎて投げられない…！"
+  },
+  {
+    "source": "The creature can't be captured.",
+    "target": "이 생물은 몬스터볼로 잡을 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:345515",
+      "2.335:start.hsp:359017"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "その生物には無効だ。"
+  },
+  {
+    "source": "Power level of the ball is not enough to capture the creature.",
+    "target": "이 생물을 잡으려면 더 높은 레벨의 몬스터볼이 필요하다.",
+    "source_ref": [
+      "2.335:start.hsp:345523"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "その生物を捕獲するには、より高レベルのモンスターボールが必要だ。"
+  },
+  {
+    "source": "You need to weaken the creature to capture it.",
+    "target": "이 생물을 잡으려면 힘을 더 빼놓아야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:345531"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "捕獲するためにはもっと弱らせる必要がある。"
+  },
+  {
+    "source": "This doesn't work in this area.",
+    "target": "이곳에서는 생물을 잡을 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:345539"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "この場所では捕獲できない。",
+    "english_enabled": false
+  },
+  {
+    "source": "This doesn't work in this area.",
+    "target": "이곳에서는 효과가 없다.",
+    "source_ref": [
+      "2.335:start.hsp:345539",
+      "2.335:start.hsp:345568"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "english_context_reviewed": true
   }
 ]

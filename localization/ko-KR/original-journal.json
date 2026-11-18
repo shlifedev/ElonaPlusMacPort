@@ -1,0 +1,1348 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 모험 일지·지명·저장 목록"
+  },
+  "entries": [
+    {
+      "source": "@journal/ - News - ",
+      "target": "소식",
+      "source_ref": "2.335:start.hsp:289628",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/ - Quest - ",
+      "target": "의뢰",
+      "source_ref": "2.335:start.hsp:289641",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/ - Quest Item - ",
+      "target": "의뢰 물품",
+      "source_ref": "2.335:start.hsp:289661",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/ - Title & Ranking - ",
+      "target": "칭호와 순위",
+      "source_ref": "2.335:start.hsp:289675",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/ - Income & Expense - ",
+      "target": "수입과 지출",
+      "source_ref": "2.335:start.hsp:289702",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/ - Records of Adventure - ",
+      "target": "모험 기록",
+      "source_ref": "2.335:start.hsp:289739",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/ - Completed Quests - ",
+      "target": "완료한 의뢰",
+      "source_ref": "2.335:start.hsp:289825",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/No news",
+      "target": "새 소식이 없다.",
+      "source_ref": "2.335:start.hsp:289625",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/Discovery",
+      "target": "아이템 발견",
+      "source_ref": "2.335:start.hsp:22816",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/Growth",
+      "target": "성장",
+      "source_ref": "2.335:start.hsp:22820",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/Recovery from injury",
+      "target": "부상 회복",
+      "source_ref": "2.335:start.hsp:22824",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/Accomplishment",
+      "target": "의뢰 달성",
+      "source_ref": "2.335:start.hsp:22828",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/Retirement",
+      "target": "은퇴",
+      "source_ref": "2.335:start.hsp:22832",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/アイテム発見",
+      "target": "아이템 발견",
+      "source_ref": "2.335:start.hsp:22816",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/新たなる力",
+      "target": "성장",
+      "source_ref": "2.335:start.hsp:22820",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/怪我からの復帰",
+      "target": "부상 회복",
+      "source_ref": "2.335:start.hsp:22824",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/クエストの達成",
+      "target": "의뢰 달성",
+      "source_ref": "2.335:start.hsp:22828",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/引退",
+      "target": "은퇴",
+      "source_ref": "2.335:start.hsp:22832",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/Salary (Paid every 1st and 15th day)",
+      "target": "급여 (매월 1일과 15일 지급)",
+      "source_ref": "2.335:start.hsp:289720",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/Bills  (Issued every 1st day)",
+      "target": "청구서 (매월 1일 발행)",
+      "source_ref": "2.335:start.hsp:289723",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/progress",
+      "target": "<진행도 {1}>",
+      "source_ref": "2.335:start.hsp:20433",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/goal",
+      "target": "<현재 {1}점 / 목표 {2}점>",
+      "source_ref": "2.335:start.hsp:20635",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/depth",
+      "target": "최심층 돌파 기록 · {1}층",
+      "source_ref": "2.335:start.hsp:289677",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/allies",
+      "target": "[레벨 {1} 이하 동료가 전투 명령을 따른다]",
+      "source_ref": "2.335:start.hsp:289678",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/prepaid",
+      "target": "선납 잔액 · 금화 {1}닢",
+      "source_ref": "2.335:start.hsp:289729",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/bills",
+      "target": "미납 청구서 {1}장",
+      "source_ref": "2.335:start.hsp:289732",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/sum",
+      "target": "합계 · 약 {1}닢",
+      "source_ref": "2.335:start.hsp:289721",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/labor",
+      "target": "인건비 · 약 {1}닢",
+      "source_ref": "2.335:start.hsp:289724",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/maintenance",
+      "target": "유지비 · 약 {1}닢",
+      "source_ref": "2.335:start.hsp:289725",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/tax",
+      "target": "세금 · 약 {1}닢",
+      "source_ref": "2.335:start.hsp:289726",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/days",
+      "target": "경과 일수 · {1}일",
+      "source_ref": "2.335:start.hsp:289810",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/kills",
+      "target": "처치 수 · {1}",
+      "source_ref": "2.335:start.hsp:289811",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@game-menu/(more)",
+      "target": "(다음 쪽)",
+      "source_ref": "2.335:start.hsp:289906",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@game-menu/No save files found",
+      "target": "저장된 모험가가 없다.",
+      "source_ref": "2.335:start.hsp:308714",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@game-menu/No gene files found",
+      "target": "물려받을 유전자가 없다.",
+      "source_ref": "2.335:start.hsp:308855",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/I should check the dungeon called Lesimas. It's located south of Vernis.",
+      "target": "베르니스 남쪽의 네피아 《레시마스》를 조사하자. 3층 수준.",
+      "source_ref": "2.335:start.hsp:20435",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@journal/ヴェルニースの南にあるネフィアの迷宮群のひとつ《レシマス》で、何かが見つかるかもしれない。 3階相当",
+      "target": "베르니스 남쪽의 네피아 《레시마스》를 조사하자. 3층 수준.",
+      "source_ref": "2.335:start.hsp:20435",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Near town",
+      "target": "마을 근교",
+      "source_ref": [
+        "2.335:start.hsp:234053"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/街近郊",
+      "target": "마을 근교",
+      "source_ref": [
+        "2.335:start.hsp:234053"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Mine area",
+      "target": "지뢰밭",
+      "source_ref": [
+        "2.335:start.hsp:234056"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/地雷原",
+      "target": "지뢰밭",
+      "source_ref": [
+        "2.335:start.hsp:234056"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Farmland",
+      "target": "마을 근처 밭",
+      "source_ref": [
+        "2.335:start.hsp:234215"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/街周辺の畑",
+      "target": "마을 근처 밭",
+      "source_ref": [
+        "2.335:start.hsp:234215"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Party Room",
+      "target": "연회장",
+      "source_ref": [
+        "2.335:start.hsp:234579"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/パーティー場",
+      "target": "연회장",
+      "source_ref": [
+        "2.335:start.hsp:234579"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Urban Area",
+      "target": "시가지",
+      "source_ref": [
+        "2.335:start.hsp:235073"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/市街地",
+      "target": "시가지",
+      "source_ref": [
+        "2.335:start.hsp:235073"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Your Home",
+      "target": "우리 집",
+      "source_ref": [
+        "2.335:start.hsp:241033"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/わが家",
+      "target": "우리 집",
+      "source_ref": [
+        "2.335:start.hsp:241033"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/New Test Site",
+      "target": "새 생체병기 실험장",
+      "source_ref": [
+        "2.335:start.hsp:241495"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/新生体兵器実験場",
+      "target": "새 생체병기 실험장",
+      "source_ref": [
+        "2.335:start.hsp:241495"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Thieves Guild",
+      "target": "도적 길드",
+      "source_ref": [
+        "2.335:start.hsp:242140"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/盗賊ギルド",
+      "target": "도적 길드",
+      "source_ref": [
+        "2.335:start.hsp:242140"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Mages Guild",
+      "target": "마술사 길드",
+      "source_ref": [
+        "2.335:start.hsp:242439"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/魔術士ギルド",
+      "target": "마술사 길드",
+      "source_ref": [
+        "2.335:start.hsp:242439"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/The Sewer",
+      "target": "루미에스트 하수도",
+      "source_ref": [
+        "2.335:start.hsp:242476"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/ルミエスト下水道",
+      "target": "루미에스트 하수도",
+      "source_ref": [
+        "2.335:start.hsp:242476"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Classroom",
+      "target": "교실",
+      "source_ref": [
+        "2.335:start.hsp:242534"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/教室",
+      "target": "교실",
+      "source_ref": [
+        "2.335:start.hsp:242534"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Cat Mansion",
+      "target": "탐의 고양이 저택",
+      "source_ref": [
+        "2.335:start.hsp:242689"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/タムの猫屋敷",
+      "target": "탐의 고양이 저택",
+      "source_ref": [
+        "2.335:start.hsp:242689"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Battle Field",
+      "target": "방어선",
+      "source_ref": [
+        "2.335:start.hsp:242702"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/防衛線",
+      "target": "방어선",
+      "source_ref": [
+        "2.335:start.hsp:242702"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Castle of Ice",
+      "target": "얼음 성",
+      "source_ref": [
+        "2.335:start.hsp:242857"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/氷の城",
+      "target": "얼음 성",
+      "source_ref": [
+        "2.335:start.hsp:242857"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Fighters Guild",
+      "target": "전사 길드",
+      "source_ref": [
+        "2.335:start.hsp:243000"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/戦士ギルド",
+      "target": "전사 길드",
+      "source_ref": [
+        "2.335:start.hsp:243000"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Doom Ground",
+      "target": "전장",
+      "source_ref": [
+        "2.335:start.hsp:243034"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/戦場",
+      "target": "전장",
+      "source_ref": [
+        "2.335:start.hsp:243034"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/The Mine",
+      "target": "광산",
+      "source_ref": [
+        "2.335:start.hsp:243162",
+        "2.335:start.hsp:247690"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/スライムの坑道",
+      "target": "슬라임 갱도",
+      "source_ref": [
+        "2.335:start.hsp:243162"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Robber's Hideout",
+      "target": "도적의 은신처",
+      "source_ref": [
+        "2.335:start.hsp:243174"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/盗賊の隠れ家",
+      "target": "도적의 은신처",
+      "source_ref": [
+        "2.335:start.hsp:243174"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Test Site",
+      "target": "생체병기 실험장",
+      "source_ref": [
+        "2.335:start.hsp:243186"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/生体兵器実験場",
+      "target": "생체병기 실험장",
+      "source_ref": [
+        "2.335:start.hsp:243186"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Forest",
+      "target": "숲",
+      "source_ref": [
+        "2.335:start.hsp:243215"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/森",
+      "target": "숲",
+      "source_ref": [
+        "2.335:start.hsp:243215"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Sea",
+      "target": "수면",
+      "source_ref": [
+        "2.335:start.hsp:243241"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/水上",
+      "target": "수면",
+      "source_ref": [
+        "2.335:start.hsp:243241"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Grassland",
+      "target": "초원",
+      "source_ref": [
+        "2.335:start.hsp:243244"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/草原",
+      "target": "초원",
+      "source_ref": [
+        "2.335:start.hsp:243244"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Wasteland",
+      "target": "황야",
+      "source_ref": [
+        "2.335:start.hsp:243273"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/荒野",
+      "target": "황야",
+      "source_ref": [
+        "2.335:start.hsp:243273"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Sand",
+      "target": "모래 언덕",
+      "source_ref": [
+        "2.335:start.hsp:243287"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/砂丘",
+      "target": "모래 언덕",
+      "source_ref": [
+        "2.335:start.hsp:243287"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/moor",
+      "target": "습지",
+      "source_ref": [
+        "2.335:start.hsp:243310",
+        "2.335:start.hsp:243313"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/メルカ大湿原",
+      "target": "메르카 대습지",
+      "source_ref": [
+        "2.335:start.hsp:243310"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/湿原",
+      "target": "습지",
+      "source_ref": [
+        "2.335:start.hsp:243313"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Seabed",
+      "target": "바다 밑",
+      "source_ref": [
+        "2.335:start.hsp:243331"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/海底",
+      "target": "바다 밑",
+      "source_ref": [
+        "2.335:start.hsp:243331"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Plain Field",
+      "target": "평지",
+      "source_ref": [
+        "2.335:start.hsp:243443",
+        "2.335:start.hsp:243530"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/平地",
+      "target": "평지",
+      "source_ref": [
+        "2.335:start.hsp:243443",
+        "2.335:start.hsp:243530"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Snow Field",
+      "target": "설원",
+      "source_ref": [
+        "2.335:start.hsp:243512"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/雪原",
+      "target": "설원",
+      "source_ref": [
+        "2.335:start.hsp:243512"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Kapul coastal",
+      "target": "카풀 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243744"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/カプール近海",
+      "target": "카풀 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243744"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Lumiest coastal",
+      "target": "루미에스트 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243756"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/ルミエスト近海",
+      "target": "루미에스트 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243756"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Kurualm coastal",
+      "target": "쿠르알름 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243768"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/クルアルム近海",
+      "target": "쿠르알름 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243768"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Valm coastal",
+      "target": "발름 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243780"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/ヴァルム近海",
+      "target": "발름 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243780"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Devil coastal",
+      "target": "악마곶 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243792"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/悪魔岬近海",
+      "target": "악마곶 앞바다",
+      "source_ref": [
+        "2.335:start.hsp:243792"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Merchant ship",
+      "target": "상선 내부",
+      "source_ref": [
+        "2.335:start.hsp:243804"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/商船内部",
+      "target": "상선 내부",
+      "source_ref": [
+        "2.335:start.hsp:243804"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Pirate ship",
+      "target": "해적선 내부",
+      "source_ref": [
+        "2.335:start.hsp:243816",
+        "2.335:start.hsp:248096"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/海賊船内部",
+      "target": "해적선 내부",
+      "source_ref": [
+        "2.335:start.hsp:243816",
+        "2.335:start.hsp:248096"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/The Depth",
+      "target": "최심부",
+      "source_ref": [
+        "2.335:start.hsp:243829",
+        "2.335:start.hsp:243895"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/レシマス最深層",
+      "target": "레시마스 최하층",
+      "source_ref": [
+        "2.335:start.hsp:243829"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Hall",
+      "target": "대강당",
+      "source_ref": [
+        "2.335:start.hsp:243879",
+        "2.335:start.hsp:244079",
+        "2.335:start.hsp:244101",
+        "2.335:start.hsp:244118",
+        "2.335:start.hsp:244141",
+        "2.335:start.hsp:244196",
+        "2.335:start.hsp:244211"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/15階大広間",
+      "target": "15층 대강당",
+      "source_ref": [
+        "2.335:start.hsp:243879",
+        "2.335:start.hsp:244079"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/古の研究施設",
+      "target": "고대 연구 시설",
+      "source_ref": [
+        "2.335:start.hsp:243895"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Hall of evil",
+      "target": "권속의 방",
+      "source_ref": [
+        "2.335:start.hsp:243992"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/眷属の間",
+      "target": "권속의 방",
+      "source_ref": [
+        "2.335:start.hsp:243992"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/20階大広間",
+      "target": "20층 대강당",
+      "source_ref": [
+        "2.335:start.hsp:244101"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/25階大広間",
+      "target": "25층 대강당",
+      "source_ref": [
+        "2.335:start.hsp:244118"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/30階大広間",
+      "target": "30층 대강당",
+      "source_ref": [
+        "2.335:start.hsp:244141"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/大広間",
+      "target": "대강당",
+      "source_ref": [
+        "2.335:start.hsp:244196",
+        "2.335:start.hsp:244211"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/God's prison",
+      "target": "신의 방",
+      "source_ref": [
+        "2.335:start.hsp:244229",
+        "2.335:start.hsp:244244",
+        "2.335:start.hsp:244275"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/神の間<復元>",
+      "target": "신의 방 (복원)",
+      "source_ref": [
+        "2.335:start.hsp:244229"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/神の間<崩壊>",
+      "target": "신의 방 (붕괴)",
+      "source_ref": [
+        "2.335:start.hsp:244244"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/神の間",
+      "target": "신의 방",
+      "source_ref": [
+        "2.335:start.hsp:244275"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Concert hall",
+      "target": "연주회장",
+      "source_ref": [
+        "2.335:start.hsp:245598"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/コンサート会場",
+      "target": "연주회장",
+      "source_ref": [
+        "2.335:start.hsp:245598"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Eulderna city",
+      "target": "왕궁 근교",
+      "source_ref": [
+        "2.335:start.hsp:245723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/王宮近隣",
+      "target": "왕궁 근교",
+      "source_ref": [
+        "2.335:start.hsp:245723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/LabyrinDeath 1F",
+      "target": "명궁 입구",
+      "source_ref": [
+        "2.335:start.hsp:246285",
+        "2.335:start.hsp:246299",
+        "2.335:start.hsp:246325"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/冥宮入口",
+      "target": "명궁 입구",
+      "source_ref": [
+        "2.335:start.hsp:246285",
+        "2.335:start.hsp:246299",
+        "2.335:start.hsp:246325"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Area of Curse",
+      "target": "악귀의 손아귀",
+      "source_ref": [
+        "2.335:start.hsp:246351",
+        "2.335:start.hsp:246448",
+        "2.335:start.hsp:246547",
+        "2.335:start.hsp:246644",
+        "2.335:start.hsp:246741"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/悪鬼の掌",
+      "target": "악귀의 손아귀",
+      "source_ref": [
+        "2.335:start.hsp:246351",
+        "2.335:start.hsp:246448",
+        "2.335:start.hsp:246547",
+        "2.335:start.hsp:246644",
+        "2.335:start.hsp:246741"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/LabyrinDeath 2F",
+      "target": "명궁 2층",
+      "source_ref": [
+        "2.335:start.hsp:246382",
+        "2.335:start.hsp:246396",
+        "2.335:start.hsp:246422"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/冥宮　2層",
+      "target": "명궁 2층",
+      "source_ref": [
+        "2.335:start.hsp:246382",
+        "2.335:start.hsp:246396",
+        "2.335:start.hsp:246422"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/LabyrinDeath 3F",
+      "target": "명궁 3층",
+      "source_ref": [
+        "2.335:start.hsp:246479",
+        "2.335:start.hsp:246493",
+        "2.335:start.hsp:246520"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/冥宮　3層",
+      "target": "명궁 3층",
+      "source_ref": [
+        "2.335:start.hsp:246479",
+        "2.335:start.hsp:246493",
+        "2.335:start.hsp:246520"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/LabyrinDeath 4F",
+      "target": "명궁 4층",
+      "source_ref": [
+        "2.335:start.hsp:246578",
+        "2.335:start.hsp:246592",
+        "2.335:start.hsp:246618"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/冥宮　4層",
+      "target": "명궁 4층",
+      "source_ref": [
+        "2.335:start.hsp:246578",
+        "2.335:start.hsp:246592",
+        "2.335:start.hsp:246618"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/LabyrinDeath 5F",
+      "target": "명궁 5층",
+      "source_ref": [
+        "2.335:start.hsp:246675",
+        "2.335:start.hsp:246689",
+        "2.335:start.hsp:246715"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/冥宮　5層",
+      "target": "명궁 5층",
+      "source_ref": [
+        "2.335:start.hsp:246675",
+        "2.335:start.hsp:246689",
+        "2.335:start.hsp:246715"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/LabyrinDeath 6F",
+      "target": "명궁 6층",
+      "source_ref": [
+        "2.335:start.hsp:246772"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/冥宮　6層",
+      "target": "명궁 6층",
+      "source_ref": [
+        "2.335:start.hsp:246772"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Oasis in tower",
+      "target": "오아시스 휴양지",
+      "source_ref": [
+        "2.335:start.hsp:246979"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/オアシスリゾート",
+      "target": "오아시스 휴양지",
+      "source_ref": [
+        "2.335:start.hsp:246979"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Albedrion",
+      "target": "잠든 신함 상층",
+      "source_ref": [
+        "2.335:start.hsp:247071"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/眠れる神艦・上層",
+      "target": "잠든 신함 상층",
+      "source_ref": [
+        "2.335:start.hsp:247071"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Work area",
+      "target": "작업 구역",
+      "source_ref": [
+        "2.335:start.hsp:247133"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/作業区画",
+      "target": "작업 구역",
+      "source_ref": [
+        "2.335:start.hsp:247133"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Ruined city",
+      "target": "죽음의 도시",
+      "source_ref": [
+        "2.335:start.hsp:247261"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/死の街",
+      "target": "죽음의 도시",
+      "source_ref": [
+        "2.335:start.hsp:247261"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/エウダーナ駐屯地",
+      "target": "에우데르나 주둔지",
+      "source_ref": [
+        "2.335:start.hsp:247690"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Hill of mushroom",
+      "target": "버섯들의 산",
+      "source_ref": [
+        "2.335:start.hsp:247801"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/きのこ達の山",
+      "target": "버섯들의 산",
+      "source_ref": [
+        "2.335:start.hsp:247801"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Near the ruins",
+      "target": "스기노코 폐촌 근교",
+      "source_ref": [
+        "2.335:start.hsp:247814"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/すぎのこ廃村近辺",
+      "target": "스기노코 폐촌 근교",
+      "source_ref": [
+        "2.335:start.hsp:247814"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Gamling hall",
+      "target": "지하 도박장",
+      "source_ref": [
+        "2.335:start.hsp:247933"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/地下賭博場",
+      "target": "지하 도박장",
+      "source_ref": [
+        "2.335:start.hsp:247933"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Ninjya House",
+      "target": "닌자 저택",
+      "source_ref": [
+        "2.335:start.hsp:248111"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/忍者屋敷",
+      "target": "닌자 저택",
+      "source_ref": [
+        "2.335:start.hsp:248111"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Deep-sea castle",
+      "target": "구두룡의 성",
+      "source_ref": [
+        "2.335:start.hsp:248218"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/九頭竜の城",
+      "target": "구두룡의 성",
+      "source_ref": [
+        "2.335:start.hsp:248218"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Island in madness",
+      "target": "광기의 군도",
+      "source_ref": [
+        "2.335:start.hsp:248255"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/狂気列島",
+      "target": "광기의 군도",
+      "source_ref": [
+        "2.335:start.hsp:248255"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/Underground passage",
+      "target": "지하 통로",
+      "source_ref": [
+        "2.335:start.hsp:248414"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/地下通路",
+      "target": "지하 통로",
+      "source_ref": [
+        "2.335:start.hsp:248414"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/basement",
+      "target": "지하실",
+      "source_ref": [
+        "2.335:start.hsp:248621",
+        "2.335:start.hsp:248738"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/地下室",
+      "target": "지하실",
+      "source_ref": [
+        "2.335:start.hsp:248621"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/the Church of Older Sister",
+      "target": "누나의 교회",
+      "source_ref": [
+        "2.335:start.hsp:248633"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/姉の教会",
+      "target": "누나의 교회",
+      "source_ref": [
+        "2.335:start.hsp:248633"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/悪魔の巣",
+      "target": "악마의 둥지",
+      "source_ref": [
+        "2.335:start.hsp:248738"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/dungeon",
+      "target": "던전",
+      "source_ref": [
+        "2.335:start.hsp:347940"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@map-name/ダンジョン",
+      "target": "던전",
+      "source_ref": [
+        "2.335:start.hsp:347940"
+      ],
+      "review_status": "reviewed"
+    }
+  ]
+}

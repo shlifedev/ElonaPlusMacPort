@@ -99,7 +99,7 @@
   },
   {
     "source": "Welcome traveler, I've been looking for you.",
-    "target": "종족에 따라 장비할 수 있는 부위가 제한되기도 하니 주의해야 한다.",
+    "target": "종족에 따라 장비할 수 있는 부위가 다르다.",
     "origin": {
       "url": "https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C",
       "license": "CC-BY-SA-3.0",

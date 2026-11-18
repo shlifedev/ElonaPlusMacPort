@@ -1,6 +1,8 @@
 #include "localization/catalog.h"
 #include "localization/rich_text.h"
 #include "localization/quest_board.h"
+#include "localization/journal.h"
+#include "localization/options.h"
 #include "platform/game_files.h"
 #include <filesystem>
 #include <fstream>
@@ -42,12 +44,19 @@ int main(int argc, char** argv) {
         check(elona::localization::Catalog::load(file).size() == 1);
         write("@log/You regain consciousness.\t정신을 차렸다.\n@log/*saving*\t*저장 중*\n"
               "@log/a b c d e f g h i j k l\t첫 집\n"
-              "@hud/Lv\t레벨\n@clock/Midnight\t한밤중\n@weather/Rain\t비\n"
+              "@hud/Lv\t레벨\n@hud/gp\t금화\n@hud/pp\t백금화\n@clock/Midnight\t한밤중\n@weather/Rain\t비\n"
+              "@day/Training-day\t수련의 날\n@hud/destiny\t운명\n"
               "@log/home-rank\t가구 {1}점 · 가보 {2}점 · 집 순위 {3}위→{4}위. 새 칭호는 〈{5}〉.\n"
               "@home/Beggar's shack\t거지의 판잣집\n");
         auto home = elona::localization::Catalog::load(file);
         check(home.hud_text("Lv1/3024") == "레벨 1/3024");
         check(home.hud_text("Midnight Rain") == "한밤중 · 비");
+        check(home.hud_text("3140 gp") == "금화 3140" && home.hud_text("0 pp") == "백금화 0");
+        check(!home.hud_text("my 3140 gp") && !home.hud_text("3140 gp left"));
+        check(home.hud_text("Training-day / ") == "수련의 날");
+        check(home.hud_text("Training-day / DES") == "수련의 날 / 운명 3/7");
+        check(home.hud_text("Training-day / DESTINY") == "수련의 날 / 운명 7/7");
+        check(!home.hud_text("Training-day / DESX") && !home.hud_text("Ari / D"));
         check(!home.hud_text("Lv1/3024A") && !home.hud_text("My Midnight Rain"));
         check(home.log_text("[1:10] *saving*") == "[1:10] *저장 중*");
         check(!home.log_text("Alice says You regain consciousness."));
@@ -78,6 +87,14 @@ int main(int argc, char** argv) {
         check(inventory.item_label("★ブロンズの鎧 [0,3]", "鎧", "", 7) == "★청동 흉갑 [0,3]");
         check(!inventory.item_label("a scroll titled Ari", "identify", "scroll", 14));
         check(!inventory.item_label("a breastplate <Ari>", "breastplate", "", 7));
+        write("@catch/618/9\t망둑어\n@catch/619/46\t구멍 난 부츠\n");
+        auto fishing = elona::localization::Catalog::load(file);
+        check(fishing.item_label("a 12cm goby", "goby", "9", 618) == "12센티미터 망둑어");
+        check(fishing.item_label("2匹の腐った12cmのハゼ", "ハゼ", "9", 618) == "썩은 12센티미터 망둑어 ×2");
+        check(fishing.item_label("an old goby", "goby", "9", 618) == std::nullopt);
+        check(fishing.item_label("a goby <Ari>", "goby", "9", 618) == std::nullopt);
+        check(fishing.item_label("a goby", "goby", "9", 619) == std::nullopt);
+        check(fishing.item_label("2 tattered bootss", "tattered boots", "46", 619) == "구멍 난 부츠 ×2");
         const auto fallback_file = root / "draft-test.tsv";
         std::ofstream(fallback_file, std::ios::binary) <<
             "1774c8b890bd7ae052be670183279bdc938d38f01937359cbf2a955c94ee0e62\t비가 또 온다.\na6d20aa6a4c73f0d2eb57088f6d57ff3e8ef6fa0c4e726b6a6b7d31a2e587662\t빗방울\n";
@@ -115,14 +132,37 @@ int main(int argc, char** argv) {
         check(!angry.log_text(" gets furious!"));
         write("@log-template/You see {object} here.\t발견 · {object}\n"
               "@log-noun/{object}/a square chair\t네모난 의자\n"
+              "@starter-pet/165/dog\t개\n@starter-pet/164/cat\t고양이\n"
+              "@starter-pet/108/brown bear\t불곰\n@starter-pet/166/little girl\t소녀\n"
               "@log-template/{name} joins your party!\t〈{name}〉 합류\n");
         auto adventure = elona::localization::Catalog::load(file);
         check(adventure.log_text("[9:01] You see a square chair here.") == "[9:01] 발견 · 네모난 의자");
         check(!adventure.log_text("You see my named chair here."));
         check(adventure.log_text("<red>Fox$^/A joins your party!") == "〈<red>Fox$^/A〉 합류");
+        check(adventure.log_text("[7:21] Feykka the dog joins your party!", 165) == "[7:21] 〈개 Feykka〉 합류");
+        check(adventure.log_text("Feykka the dog joins your party!") == "〈Feykka the dog〉 합류");
+        check(adventure.log_text("Feykka the dog joins your party!", 164) == "〈Feykka the dog〉 합류");
+        check(adventure.log_text("Ari the cat joins your party!", 164) == "〈고양이 Ari〉 합류");
+        check(adventure.log_text("Ari the brown bear joins your party!", 108) == "〈불곰 Ari〉 합류");
+        check(adventure.log_text("Ari the little girl joins your party!", 166) == "〈소녀 Ari〉 합류");
         check(!adventure.log_text("[text] You see a square chair here."));
         check(bad("@log-template/You see {object} here.\t{enemy} 발견\n"));
         check(bad("@log-template/You see {object} here.\t} 발견 {object}\n"));
+        write("@news/tag\t[소식]\n@news/accomplishment\t{name}의 의뢰 달성 · 명성 {number} 획득\n"
+              "@news/discovery\t{name}의 발견 · {place}에서 {item} 획득\n"
+              "@news/growth\t{name}의 성장 · 레벨 {number} 달성\n@news/recovery\t{name}의 부상 완치\n"
+              "@news/retirement\t{name} 은퇴\n@news-item/armored boots\t장갑 장화\n"
+              "@item-mod/heavy\t묵직한\n@log-noun/{place}/Port Kapul\t카풀 항\n");
+        auto news = elona::localization::Catalog::load(file);
+        check(news.log_text("[7:2] [News] {number} has finished a quest and gained 6 fame.")
+              == "[7:2] [소식] {number}의 의뢰 달성 · 명성 6 획득");
+        check(news.log_text("[News] A has discovered the pair of heavy armored boots <My Boots> [0,7] in Port Kapul.")
+              == "[소식] A의 발견 · 카풀 항에서 묵직한 장갑 장화 〈My Boots〉 [0,7] 획득");
+        check(news.news_text("A has gained experience and achieved level 11.") == "A의 성장 · 레벨 11 달성");
+        check(news.news_text("A has fully recovered from injury.") == "A의 부상 완치");
+        check(news.news_text("A realized the limitations and retired.") == "A 은퇴");
+        check(!news.news_text("A has finished a quest and gained some fame."));
+        check(!news.log_text("[Other] A has fully recovered from injury."));
         const std::string board_row = "A request:{client} {ref} {reward}";
         const std::string board_key = "@board/%COLLECT,EN/" + elona::platform::sha256_hex(board_row.data(), board_row.size());
         write(board_key + "/title\t의뢰\n" + board_key + "/body\t{client} / {ref} / {reward}\n"
@@ -134,16 +174,39 @@ int main(int argc, char** argv) {
         check(rendered && rendered->title == "의뢰" && rendered->body == "<red>{ref}^$ / 장검 (매우 무거움!) / 금화 94닢, 방어구");
         fields[0] = "%COOK,1,JP";
         check(!elona::localization::board_post(postings, fields, 1));
-        write("@metric/page\t{1}/{2}쪽\n@metric/items\t{1}개 (무게 {2}/{3} · 화물 {4}/{5})\n"
+        write("@sheet/race/Fairy\t요정\n@sheet/race/妖精\t요정\n@sheet/Race\t종족\n@sheet/extra\t추가\n"
+              "@metric/page\t{1}/{2}쪽\n@metric/items\t{1}개 (무게 {2}/{3} · 화물 {4}/{5})\n"
               "@metric/appearance\t{1} {2}\n@appearance/Hair CL\t머리 색\n"
               "@weight/Medium\t보통\n@metric/equipment\t장비 {1} ({2}) 명중 {3} 피해 {4} DV/PV {5}/{6}\n");
         auto sheet = elona::localization::Catalog::load(file);
+        check(sheet.sheet_text("Race: Fairy") == "종족: 요정");
+        check(sheet.sheet_text("種族: (extra)妖精") == "종족: (추가) 요정");
+        check(sheet.sheet_text("(extra)Fairy") == "(추가) 요정");
+        check(!sheet.sheet_text("Race: Fox") && !sheet.sheet_text("(extra)Fox") && !sheet.sheet_text("Fairy"));
         check(sheet.sheet_text("Page.2/10") == "2/10쪽" && !sheet.sheet_text("My Page.2/10"));
         check(sheet.sheet_text("Hair CL  21") == "머리 색 21" && !sheet.sheet_text("Ari 21"));
         check(sheet.sheet_text("12 items  (Weight 33.8s/64.5s Cargo 16.0s/80.0s)") ==
               "12개 (무게 33.8s/64.5s · 화물 16.0s/80.0s)");
         check(sheet.sheet_text("Equip weight: 32.0s(Medium) Hit Bonus:0 Damage Bonus:-1  DV/PV:1/10") ==
               "장비 32.0s (보통) 명중 0 피해 -1 DV/PV 1/10");
+        write("@journal/ - Quest - \t의뢰\n@journal/progress\t<진행도 {1}>\n"
+              "@journal/Investigate the dungeon south of Vernis.\t베르니스 남쪽의 미궁을 조사하자.\n"
+              "@log-noun/{place}/Your Home\t우리 집\n"
+              "@option/1/7/Show\t일부만 표시\n@option/1/8/Show\t모두 표시\n");
+        auto menus = elona::localization::Catalog::load(file);
+        auto journal = elona::localization::journal_rows(menus,
+            " - Quest - \r\n@QM<Progress 9>\r\nInvestigate the dungeon \r\nsouth of Vernis.\r\n");
+        check(journal.size() == 4 && journal[0] == "의뢰" && journal[1] == "<진행도 9>");
+        check(journal[2] == "베르니스 남쪽의 미궁을 조사하자." && journal[3] == "");
+        check(!elona::localization::journal_rows(menus, "Unknown text.")[0]);
+        check(elona::localization::save_header(menus, "Rose Lv:2 Your Home") == "Rose · 레벨 2 · 우리 집");
+        check(elona::localization::save_header(menus, "Rose Lv:2 My Map") == "Rose · 레벨 2 · My Map");
+        check(!elona::localization::save_header(menus, "Rose Lv:foo My Map"));
+        check(!elona::localization::save_header(menus, "Rose Lv:1 My Lv:7 Arena"));
+        check(elona::localization::option_text(menus, "@option/1/7/", "Show") == "일부만 표시");
+        check(elona::localization::option_text(menus, "@option/1/8/", "Show") == "모두 표시");
+        check(elona::localization::option_text(menus, "@option/1/4/", "After 4 steps") == "4걸음부터");
+        check(elona::localization::option_text(menus, "@option/5/11/", "Button3") == "버튼 3");
         auto explicit_break = elona::localization::layout_rich_text("첫째<br>둘째<p>셋째", 100, 0);
         check(explicit_break.height == 58);
         bool rejected = false;

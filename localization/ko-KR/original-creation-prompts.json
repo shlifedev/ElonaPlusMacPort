@@ -63,7 +63,7 @@
     "id": "creation.prompt.296408.4",
     "source_ja": "記憶喪失で昔のことを思い出せない。",
     "source": "You have amnesia.",
-    "target": "기억을 잃어 지난날을 떠올리지 못한다.",
+    "target": "기억을 잃어 과거를 모른다.",
     "source_ref": [
       "2.335:start.hsp:296408"
     ],
@@ -258,7 +258,7 @@
     "id": "creation.prompt.296447.17",
     "source_ja": "わけあって永い眠りについていた。",
     "source": "For some reason, you were asleep for a long time.",
-    "target": "사연이 있어 기나긴 잠에 빠져 있었다.",
+    "target": "사연이 있어 긴 잠에 빠졌었다.",
     "source_ref": [
       "2.335:start.hsp:296447"
     ],
@@ -318,7 +318,7 @@
     "id": "creation.prompt.296459.21",
     "source_ja": "色々あって自分の故郷を滅ぼした。",
     "source": "You destroyed your own hometown, for various reasons.",
-    "target": "이런저런 사정으로 제 손으로 고향을 멸망시켰다.",
+    "target": "사정이 있어 고향을 직접 멸했다.",
     "source_ref": [
       "2.335:start.hsp:296459"
     ],
@@ -393,7 +393,7 @@
     "id": "creation.prompt.296474.26",
     "source_ja": "代々冒険者の家系。",
     "source": "Your family line is that of adventurers.",
-    "target": "대대로 모험가를 배출한 집안 출신이다.",
+    "target": "대대로 모험가를 낸 집안 출신이다.",
     "source_ref": [
       "2.335:start.hsp:296474"
     ],
@@ -471,7 +471,7 @@
     "id": "creation.prompt.296489.31",
     "source_ja": "跡継ぎとして厳しく育てられた。",
     "source": "You were brought up as the family heir.",
-    "target": "집안의 대를 이을 후계자로 엄하게 자랐다.",
+    "target": "집안의 후계자로 엄하게 자랐다.",
     "source_ref": [
       "2.335:start.hsp:296489"
     ],
@@ -546,7 +546,7 @@
     "id": "creation.prompt.296504.36",
     "source_ja": "幼い頃、遺跡で発見・保護された。",
     "source": "You were discovered and rescued in ruins as a child.",
-    "target": "어릴 적 유적에서 발견되어 보호를 받았다.",
+    "target": "어릴 적 유적에서 발견돼 구조됐다.",
     "source_ref": [
       "2.335:start.hsp:296504"
     ],
@@ -561,7 +561,7 @@
     "id": "creation.prompt.296507.37",
     "source_ja": "おぞましい因習のある村で育った。",
     "source": "You grew up in a village with horrific customs.",
-    "target": "끔찍한 악습이 남아 있는 마을에서 자랐다.",
+    "target": "끔찍한 악습이 있는 마을 출신이다.",
     "source_ref": [
       "2.335:start.hsp:296507"
     ],
@@ -591,7 +591,7 @@
     "id": "creation.prompt.296513.39",
     "source_ja": "浮気で生まれた隠し子。",
     "source": "You are the illegitimate child of an affair.",
-    "target": "불륜으로 태어나 남몰래 자란 자식이다.",
+    "target": "불륜으로 태어나 숨어 자랐다.",
     "source_ref": [
       "2.335:start.hsp:296513"
     ],
@@ -606,7 +606,7 @@
     "id": "creation.prompt.296516.40",
     "source_ja": "実は親の仇に育てられていた。",
     "source": "You were actually being raised by your parents' enemy.",
-    "target": "알고 보니 부모의 원수가 자신을 길렀다.",
+    "target": "실은 부모의 원수가 날 키웠다.",
     "source_ref": [
       "2.335:start.hsp:296516"
     ],
@@ -621,7 +621,7 @@
     "id": "creation.prompt.296519.41",
     "source_ja": "秘めた力が原因で隔離されていた。",
     "source": "You were isolated because of your hidden powers.",
-    "target": "몸에 깃든 힘 때문에 격리되어 지냈다.",
+    "target": "몸에 깃든 힘 탓에 격리됐다.",
     "source_ref": [
       "2.335:start.hsp:296519"
     ],
@@ -666,7 +666,7 @@
     "id": "creation.prompt.296528.44",
     "source_ja": "故郷を悪い冒険者に滅ぼされた。",
     "source": "Your hometown was destroyed by an evil adventurer.",
-    "target": "사악한 모험가가 고향을 멸망시켰다.",
+    "target": "악한 모험가가 고향을 멸했다.",
     "source_ref": [
       "2.335:start.hsp:296528"
     ],
@@ -696,7 +696,7 @@
     "id": "creation.prompt.296536.46",
     "source_ja": "なんとなく軽い気持ちで旅に出る。",
     "source": "You embark on your journey lightheartedly.",
-    "target": "별생각 없이 가벼운 마음으로 길을 떠났다.",
+    "target": "별생각 없이 가볍게 길을 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296536"
     ],
@@ -711,7 +711,7 @@
     "id": "creation.prompt.296539.47",
     "source_ja": "大事な約束を果たすため冒険に出る。",
     "source": "You embark to fulfill an important promise.",
-    "target": "소중한 약속을 지키려고 모험을 떠났다.",
+    "target": "소중한 약속을 지키러 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296539"
     ],
@@ -726,7 +726,7 @@
     "id": "creation.prompt.296542.48",
     "source_ja": "環境が気に入らず冒険者になる。",
     "source": "You embark as an adventurer because you didn't like your situation.",
-    "target": "처한 환경이 마음에 들지 않아 모험가가 되었다.",
+    "target": "처지가 싫어 모험가가 됐다.",
     "source_ref": [
       "2.335:start.hsp:296542"
     ],
@@ -786,7 +786,7 @@
     "id": "creation.prompt.296554.52",
     "source_ja": "生活が苦しくなり出稼ぎに出る。",
     "source": "Just living is tough, so you embark to find better work.",
-    "target": "살림이 어려워져 타향으로 돈을 벌러 떠났다.",
+    "target": "살림이 어려워 타향에 일하러 갔다.",
     "source_ref": [
       "2.335:start.hsp:296554"
     ],
@@ -816,7 +816,7 @@
     "id": "creation.prompt.296560.54",
     "source_ja": "命令されて諸国を巡ることになる。",
     "source": "You embark to travel the world.",
-    "target": "명령을 받고 여러 나라를 돌게 되었다.",
+    "target": "명령을 받고 여러 나라를 돌았다.",
     "source_ref": [
       "2.335:start.hsp:296560"
     ],
@@ -831,7 +831,7 @@
     "id": "creation.prompt.296563.55",
     "source_ja": "失恋を忘れるため旅に出る。",
     "source": "You embark to help forget a broken heart.",
-    "target": "실연의 아픔을 잊으려고 길을 떠났다.",
+    "target": "실연을 잊으려 길을 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296563"
     ],
@@ -891,7 +891,7 @@
     "id": "creation.prompt.296575.59",
     "source_ja": "命を狙われて逃亡する。",
     "source": "You embark because you fear for your life.",
-    "target": "목숨을 노리는 이들을 피해 달아났다.",
+    "target": "목숨을 노리는 자들을 피해 왔다.",
     "source_ref": [
       "2.335:start.hsp:296575"
     ],
@@ -936,7 +936,7 @@
     "id": "creation.prompt.296584.62",
     "source_ja": "冒険者に憧れ自分も冒険者になる。",
     "source": "You embark due to admiring an adventurer, and wanting to be one yourself.",
-    "target": "모험가를 동경하다가 자신도 모험가가 되었다.",
+    "target": "모험가를 동경해 그 길에 들었다.",
     "source_ref": [
       "2.335:start.hsp:296584"
     ],
@@ -966,7 +966,7 @@
     "id": "creation.prompt.296590.64",
     "source_ja": "儲かると聞いて冒険者になる。",
     "source": "You became an adventurer because you heard it was profitable.",
-    "target": "돈벌이가 좋다는 말에 모험가가 되었다.",
+    "target": "돈벌이가 좋다기에 모험가가 됐다.",
     "source_ref": [
       "2.335:start.hsp:296590"
     ],
@@ -1011,7 +1011,7 @@
     "id": "creation.prompt.296599.67",
     "source_ja": "大切なものを守るため冒険に出る。",
     "source": "You became an adventurer to protect something precious.",
-    "target": "소중한 것을 지키려고 모험을 떠났다.",
+    "target": "소중한 것을 지키러 모험을 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296599"
     ],
@@ -1071,7 +1071,7 @@
     "id": "creation.prompt.296611.71",
     "source_ja": "まだ見ぬ宝を探して冒険に出る。",
     "source": "You embark in search of undiscovered treasures.",
-    "target": "아직 발견되지 않은 보물을 찾아 모험을 떠났다.",
+    "target": "미지의 보물을 찾아 모험에 나섰다.",
     "source_ref": [
       "2.335:start.hsp:296611"
     ],
@@ -1086,7 +1086,7 @@
     "id": "creation.prompt.296614.72",
     "source_ja": "古代文明の謎を追い求め旅に出る。",
     "source": "You embark to pursue the mysteries of an ancient civilization.",
-    "target": "고대 문명의 수수께끼를 풀려고 길을 떠났다.",
+    "target": "고대 문명의 신비를 풀러 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296614"
     ],
@@ -1101,7 +1101,7 @@
     "id": "creation.prompt.296617.73",
     "source_ja": "なぜ旅しているのかも思い出せない。",
     "source": "You can not remember the reason of your travel.",
-    "target": "여행을 하는 이유조차 기억하지 못한다.",
+    "target": "여행하는 이유조차 기억이 없다.",
     "source_ref": [
       "2.335:start.hsp:296617"
     ],
@@ -1116,7 +1116,7 @@
     "id": "creation.prompt.296620.74",
     "source_ja": "命を落とし気づくと船に乗っていた。",
     "source": "You lose your life and suddenly find yourself on a ship.",
-    "target": "목숨을 잃었는데 눈을 떠 보니 배 위였다.",
+    "target": "죽었다 깨어 보니 배 위였다.",
     "source_ref": [
       "2.335:start.hsp:296620"
     ],
@@ -1131,7 +1131,7 @@
     "id": "creation.prompt.296623.75",
     "source_ja": "知人に勧められて冒険者になった。",
     "source": "You become an adventurer at the recommendation of an acquaintance.",
-    "target": "아는 사람의 권유로 모험가가 되었다.",
+    "target": "지인의 권유로 모험가가 됐다.",
     "source_ref": [
       "2.335:start.hsp:296623"
     ],
@@ -1146,7 +1146,7 @@
     "id": "creation.prompt.296626.76",
     "source_ja": "呪いを解く方法を探して旅に出る。",
     "source": "You set out on a journey to find a way to lift a curse.",
-    "target": "저주를 풀 방법을 찾아 길을 떠났다.",
+    "target": "저주를 풀 방도를 찾아 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296626"
     ],
@@ -1176,7 +1176,7 @@
     "id": "creation.prompt.296632.78",
     "source_ja": "情報収集のため各地の調査を開始。",
     "source": "You are investigating various locations to gather information.",
-    "target": "정보를 모으려고 각지에서 조사를 시작했다.",
+    "target": "정보를 모으러 각지를 조사한다.",
     "source_ref": [
       "2.335:start.hsp:296632"
     ],
@@ -1191,7 +1191,7 @@
     "id": "creation.prompt.296635.79",
     "source_ja": "人生失敗し冒険に出るしかなかった。",
     "source": "You have failed in life and have no choice but to set out on an adventure.",
-    "target": "인생이 꼬여 모험을 떠나는 수밖에 없었다.",
+    "target": "인생이 꼬여 모험밖에 길이 없었다.",
     "source_ref": [
       "2.335:start.hsp:296635"
     ],
@@ -1221,7 +1221,7 @@
     "id": "creation.prompt.296641.81",
     "source_ja": "時空の歪みに呑まれ迷い込んだ。",
     "source": "You got swallowed up and lost in a distortion in space-time.",
-    "target": "일그러진 시공간에 휩쓸려 이곳에 흘러들었다.",
+    "target": "시공의 틈에 휩쓸려 흘러들었다.",
     "source_ref": [
       "2.335:start.hsp:296641"
     ],
@@ -1236,7 +1236,7 @@
     "id": "creation.prompt.296644.82",
     "source_ja": "最悪な未来を変えるために旅に出る。",
     "source": "You set out on a journey to change a terrible future.",
-    "target": "끔찍한 미래를 바꾸려고 길을 떠났다.",
+    "target": "끔찍한 미래를 바꾸러 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296644"
     ],
@@ -1251,7 +1251,7 @@
     "id": "creation.prompt.296647.83",
     "source_ja": "まだ見ぬ結婚相手を求めて旅に出る。",
     "source": "You set out on a journey in search of a marriage partner you have yet to meet.",
-    "target": "아직 만난 적 없는 배필을 찾아 길을 떠났다.",
+    "target": "아직 모르는 배필을 찾아 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296647"
     ],
@@ -1266,7 +1266,7 @@
     "id": "creation.prompt.296650.84",
     "source_ja": "広い世界を見たくて各地を観光中。",
     "source": "You are traveling around the world, wanting to see a wider world.",
-    "target": "넓은 세상이 보고 싶어 이곳저곳을 구경하고 있다.",
+    "target": "넓은 세상이 궁금해 각지를 누빈다.",
     "source_ref": [
       "2.335:start.hsp:296650"
     ],
@@ -1296,7 +1296,7 @@
     "id": "creation.prompt.296656.86",
     "source_ja": "不労所得を夢見て冒険に出る。",
     "source": "You set out on an adventure, dreaming of passive income.",
-    "target": "일하지 않고 돈 벌기를 꿈꾸며 모험을 떠났다.",
+    "target": "불로소득을 꿈꾸며 모험에 나섰다.",
     "source_ref": [
       "2.335:start.hsp:296656"
     ],
@@ -1311,7 +1311,7 @@
     "id": "creation.prompt.296659.87",
     "source_ja": "一族再興のため旅に出る。",
     "source": "You set out on a journey to restore your clan.",
-    "target": "가문을 다시 일으키려고 길을 떠났다.",
+    "target": "가문을 다시 일으키러 떠났다.",
     "source_ref": [
       "2.335:start.hsp:296659"
     ],
@@ -1326,7 +1326,7 @@
     "id": "creation.prompt.296662.88",
     "source_ja": "一発逆転を夢見て冒険者になる。",
     "source": "You became an adventurer, dreaming of a sudden turnaround.",
-    "target": "인생을 단번에 뒤집을 꿈을 안고 모험가가 되었다.",
+    "target": "인생 역전을 꿈꾸며 모험가가 됐다.",
     "source_ref": [
       "2.335:start.hsp:296662"
     ],
@@ -1491,7 +1491,7 @@
     "id": "creation.prompt.296697.99",
     "source_ja": "強い向上心と挑戦心を持つが、",
     "source": "Although have a strong desire to improve,",
-    "target": "발전하려는 의지와 도전 정신이 강하지만,",
+    "target": "향상심과 도전 정신이 강하지만,",
     "source_ref": [
       "2.335:start.hsp:296697"
     ],
@@ -1671,7 +1671,7 @@
     "id": "creation.prompt.296733.111",
     "source_ja": "困った人を放っておかないが、",
     "source": "Although doesn't leave people in trouble alone,",
-    "target": "곤경에 처한 사람을 그냥 지나치지 못하지만,",
+    "target": "곤경에 처한 이를 꼭 도와주지만,",
     "source_ref": [
       "2.335:start.hsp:296733"
     ],
@@ -1716,7 +1716,7 @@
     "id": "creation.prompt.296742.114",
     "source_ja": "皆をまとめあげる統率力があるが、",
     "source": "Although have the ability to bring everyone together,",
-    "target": "사람들을 하나로 모으는 통솔력이 있지만,",
+    "target": "사람들을 뭉치게 하는 힘이 있지만,",
     "source_ref": [
       "2.335:start.hsp:296742"
     ],
@@ -1896,7 +1896,7 @@
     "id": "creation.prompt.296778.126",
     "source_ja": "なんだかんだで面倒見が良いが、",
     "source": "Although good at taking care of others,",
-    "target": "이러니저러니 해도 남을 잘 챙기지만,",
+    "target": "뭐니 뭐니 해도 남을 잘 챙기지만,",
     "source_ref": [
       "2.335:start.hsp:296778"
     ],
@@ -1911,7 +1911,7 @@
     "id": "creation.prompt.296781.127",
     "source_ja": "格下相手にも決して油断しないが、",
     "source": "Although never let guard down,",
-    "target": "한 수 아래인 상대에게도 방심하지 않지만,",
+    "target": "약한 상대에게도 방심하지 않지만,",
     "source_ref": [
       "2.335:start.hsp:296781"
     ],
@@ -1971,7 +1971,7 @@
     "id": "creation.prompt.296793.131",
     "source_ja": "誰かのためになら頑張れるが、",
     "source": "Although work hard for others,",
-    "target": "남을 위해서라면 힘을 낼 수 있지만,",
+    "target": "남을 위해선 힘을 낼 수 있지만,",
     "source_ref": [
       "2.335:start.hsp:296793"
     ],
@@ -2001,7 +2001,7 @@
     "id": "creation.prompt.296799.133",
     "source_ja": "他者との絆を大事にしているが、",
     "source": "Although value bonds with others,",
-    "target": "사람들과 맺은 인연을 소중히 여기지만,",
+    "target": "사람과의 인연을 소중히 여기지만,",
     "source_ref": [
       "2.335:start.hsp:296799"
     ],
@@ -2016,7 +2016,7 @@
     "id": "creation.prompt.296802.134",
     "source_ja": "誰にも頼らない強さを持つが、",
     "source": "Although have the strength to not rely on anyone,",
-    "target": "누구에게도 기대지 않을 만큼 강하지만,",
+    "target": "남에게 기대지 않을 만큼 강하지만,",
     "source_ref": [
       "2.335:start.hsp:296802"
     ],
@@ -2031,7 +2031,7 @@
     "id": "creation.prompt.296807.135",
     "source_ja": "熱中すると周りが見えなくなる。",
     "source": "enthusiasm drains from those around you.",
-    "target": "한 가지에 빠지면 주변을 보지 못한다.",
+    "target": "하나에 빠지면 주변을 못 본다.",
     "source_ref": [
       "2.335:start.hsp:296807"
     ],
@@ -2046,7 +2046,7 @@
     "id": "creation.prompt.296810.136",
     "source_ja": "好意に対して鈍感。",
     "source": "You are insensitive to the goodwill of others.",
-    "target": "남이 보이는 호의를 잘 눈치채지 못한다.",
+    "target": "남의 호의를 잘 눈치채지 못한다.",
     "source_ref": [
       "2.335:start.hsp:296810"
     ],
@@ -2632,7 +2632,7 @@
     "id": "creation.prompt.296930.175",
     "source_ja": "5行以上の文章が読めない。",
     "source": "You can't read texts longer than five lines.",
-    "target": "다섯 줄 이상 되는 글을 읽지 못한다.",
+    "target": "다섯 줄 이상은 읽지 못한다.",
     "source_ref": [
       "2.335:start.hsp:296930"
     ],
@@ -2662,7 +2662,7 @@
     "id": "creation.prompt.296936.177",
     "source_ja": "他人の顔と名前を覚えるのは苦手。",
     "source": "You are bad at remembering other people's names.",
-    "target": "남의 얼굴과 이름을 잘 기억하지 못한다.",
+    "target": "남의 얼굴과 이름을 잘 못 외운다.",
     "source_ref": [
       "2.335:start.hsp:296936"
     ],
@@ -2737,7 +2737,7 @@
     "id": "creation.prompt.296953.182",
     "source_ja": "苦痛に歪む顔を見るのが好き。",
     "source": "You like to see people's faces distorted in pain.",
-    "target": "고통으로 일그러진 얼굴을 보는 게 좋다.",
+    "target": "고통에 일그러진 얼굴이 좋다.",
     "source_ref": [
       "2.335:start.hsp:296953"
     ],
@@ -2918,7 +2918,7 @@
     "id": "creation.prompt.296989.194",
     "source_ja": "身体に謎の紋章を持つ。",
     "source": "Your body is branded with a mysterious coat of arms.",
-    "target": "몸에 수수께끼의 문장이 새겨져 있다.",
+    "target": "몸에 의문의 문장이 새겨져 있다.",
     "source_ref": [
       "2.335:start.hsp:296989"
     ],
@@ -3024,7 +3024,7 @@
     "id": "creation.prompt.297013.201",
     "source_ja": "誰にも知られたくない秘密がある。",
     "source": "You have a secret that you can't tell anyone.",
-    "target": "아무에게도 들키고 싶지 않은 비밀이 있다.",
+    "target": "남에게 들키기 싫은 비밀이 있다.",
     "source_ref": [
       "2.335:start.hsp:297013"
     ],
@@ -3221,7 +3221,7 @@
     "id": "creation.prompt.297055.214",
     "source_ja": "めちゃくちゃにされたい願望がある。",
     "source": "You have a desire to be messed up.",
-    "target": "엉망으로 망가지고 싶은 욕망이 있다.",
+    "target": "엉망으로 망가지고 싶어 한다.",
     "source_ref": [
       "2.335:start.hsp:297055"
     ],
@@ -3266,7 +3266,7 @@
     "id": "creation.prompt.297064.217",
     "source_ja": "食べ物の恨みは忘れない。",
     "source": "You never forget food grudges.",
-    "target": "먹을 것으로 맺힌 원한은 잊지 않는다.",
+    "target": "먹을 것에 맺힌 원한은 못 잊는다.",
     "source_ref": [
       "2.335:start.hsp:297064"
     ],
@@ -3446,7 +3446,7 @@
     "id": "creation.prompt.298662.229",
     "source_ja": "左右キー [変更]  ｷｬﾝｾﾙ [閉じる]",
     "source": "Right,left [Change]  Shift,Esc [Close]",
-    "target": "←,→ [변경]  Shift,Esc [닫기]",
+    "target": "←,→ [변경]  시프트·이스케이프 [닫기]",
     "source_ref": [
       "2.335:start.hsp:298662"
     ],
@@ -3461,7 +3461,7 @@
     "id": "creation.prompt.9256.230",
     "source_ja": "Shift,Esc [戻る]  ",
     "source": "Shift,Esc [Back]  ",
-    "target": "Shift,Esc [뒤로]  ",
+    "target": "시프트·이스케이프 [뒤로]",
     "source_ref": [
       "2.335:start.hsp:9256",
       "2.335:start.hsp:9284"
@@ -3477,7 +3477,7 @@
     "id": "creation.prompt.297289.231",
     "source_ja": "決定ｷｰ [再抽選]  p [ポートレイト変更]  Shift,Esc [最終確認]",
     "source": "Enter Key [Reroll]  p [Portrait]  Shift,Esc [Confirm]",
-    "target": "Enter [다시 뽑기]  p [초상화]  Shift,Esc [최종 확인]",
+    "target": "엔터 [다시 뽑기]  p [초상화]  시프트·이스케이프 [최종 확인]",
     "source_ref": [
       "2.335:start.hsp:297289",
       "2.335:start.hsp:9260",
@@ -3494,7 +3494,7 @@
     "id": "creation.prompt.289361.232",
     "source_ja": "決定 [フィート取得]  +,- [ページ切替]  Shift,Esc [閉じる]  z,x [仲間]",
     "source": "Enter [Gain Feat]  +,- [Page]  Shift,Esc [Close]  z,x [Ally]",
-    "target": "Enter [특성 습득]  +,- [쪽]  Shift,Esc [닫기]  z,x [동료]",
+    "target": "엔터 [특성 습득]  +,- [쪽]  시프트·이스케이프 [닫기]  z,x [동료]",
     "source_ref": [
       "2.335:start.hsp:289361",
       "2.335:start.hsp:9254",
@@ -4278,5 +4278,623 @@
       "reference": "ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "원문이 조합한 표시 전체를 2.335의 실제 영어 게임 관측값과 대조했다."
+  },
+  {
+    "source": "Elona  Developed by Noa",
+    "target": "엘로나 제작 · 노아",
+    "source_ref": [
+      "2.335:start.hsp:308510"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "시작 화면에서 개발자와 기여자를 소개하는 원문이다. 제작진의 이름은 한글로 음역했다."
+  },
+  {
+    "source": "ElonaPlus  Developed by Ano",
+    "target": "엘로나 플러스 제작 · 아노",
+    "source_ref": [
+      "2.335:start.hsp:308512"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "시작 화면에서 개발자와 기여자를 소개하는 원문이다. 제작진의 이름은 한글로 음역했다."
+  },
+  {
+    "source": "Contributor MSL / View the credits for more",
+    "target": "기여 · 엠에스엘 외 여러 분. 전체 명단은 제작진 소개에서 확인하세요.",
+    "source_ref": [
+      "2.335:start.hsp:308516"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "시작 화면에서 개발자와 기여자를 소개하는 원문이다. 제작진의 이름은 한글로 음역했다."
+  },
+  {
+    "source": "Contributor f1r3fly, Sunstrike, Schmidt, Elvenspirit / View the credits for more",
+    "target": "기여 · 파이어플라이, 선스트라이크, 슈미트, 엘븐스피릿 외. 전체 명단은 제작진 소개에서 확인하세요.",
+    "source_ref": [
+      "2.335:start.hsp:308518"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "시작 화면에서 개발자와 기여자를 소개하는 원문이다. 제작진의 이름은 한글로 음역했다."
+  },
+  {
+    "source": "@sheet/extra",
+    "target": "추가",
+    "source_ref": [
+      "2.335:start.hsp:223504"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "추가 종족 설정에서만 붙는 표식이다."
+  },
+  {
+    "source": "@sheet/Magic",
+    "target": "마력",
+    "source_ref": [
+      "2.335:start.hsp:1781",
+      "2.335:start.hsp:224038"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "기본 능력치의 마력을 가리킨다."
+  },
+  {
+    "source": "@sheet/Skill",
+    "target": "기술과 특수 능력",
+    "source_ref": [
+      "2.335:start.hsp:297118",
+      "2.335:start.hsp:297948"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "기술 목록에서 항목을 나누는 제목이다."
+  },
+  {
+    "source": "@sheet/Fire Breath",
+    "target": "화염 방사",
+    "source_ref": [
+      "2.335:start.hsp:2891",
+      "2.335:start.hsp:297849",
+      "2.335:start.hsp:292592"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "특성이 아닌 특수 능력명이다."
+  },
+  {
+    "source": "@sheet/Knockout",
+    "target": "녹아웃 공격",
+    "source_ref": [
+      "2.335:start.hsp:3989",
+      "2.335:start.hsp:297849",
+      "2.335:start.hsp:292592"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "특성이 아닌 특수 능력명이다."
+  },
+  {
+    "source": "@feat/Fire Breath",
+    "target": "불 뿜기 재주",
+    "source_ref": [
+      "2.335:start.hsp:5178",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "특성 창의 火炎芸다. 같은 영어를 쓰는 화염 방사 능력과 구분했다."
+  },
+  {
+    "source": "@feat/Knockout",
+    "target": "힘 조절",
+    "source_ref": [
+      "2.335:start.hsp:5122",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "특성 창의 手加減이다. 같은 영어를 쓰는 녹아웃 공격 능력과 구분했다."
+  },
+  {
+    "source": "@game-menu/Cancel",
+    "target": "취소",
+    "source_ref": [
+      "2.335:start.hsp:304604",
+      "2.335:start.hsp:304609"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "저장 후 종료를 확인하는 메뉴의 두 번째 선택지다."
+  },
+  {
+    "source": "@profile/Alias Selection",
+    "source_ja": "@profile/異名の選択",
+    "target": "이명 선택",
+    "source_ref": [
+      "2.335:start.hsp:223243",
+      "2.335:start.hsp:223244"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "이명을 고르는 창과 다른 이름을 고르는 창을 구분해 표시한다."
+  },
+  {
+    "source": "@profile/Alias List",
+    "source_ja": "@profile/異名の候補",
+    "target": "이명 후보",
+    "source_ref": [
+      "2.335:start.hsp:223252"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "이명을 고르는 창과 다른 이름을 고르는 창을 구분해 표시한다."
+  },
+  {
+    "source": "@game-menu/Alias Selection",
+    "source_ja": "@game-menu/名前の選択",
+    "target": "이름 선택",
+    "source_ref": [
+      "2.335:start.hsp:291375",
+      "2.335:start.hsp:291380"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "이명을 고르는 창과 다른 이름을 고르는 창을 구분해 표시한다."
+  },
+  {
+    "source": "@game-menu/Alias List",
+    "source_ja": "@game-menu/名前の候補",
+    "target": "이름 후보",
+    "source_ref": [
+      "2.335:start.hsp:291381"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original"
+    },
+    "review_reason": "이명을 고르는 창과 다른 이름을 고르는 창을 구분해 표시한다."
+  },
+  {
+    "source": "@sprite/input",
+    "target": "입력",
+    "source_ref": [
+      "2.335:start.hsp:308948",
+      "2.335:start.hsp:309049",
+      "2.335:start.hsp:309301"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 original input banner"
+    },
+    "review_reason": "글자·숫자 입력창의 양피지 표제에 그려진 Input을 번역했다. 입력값은 별도로 표시한다."
+  },
+  {
+    "id": "creation.mode.224241",
+    "source": "★Overdoseモードは基本部分はEssentialそのままに、得られる",
+    "target": "★오버도즈는 에센셜을 바탕으로 성장을 크게 앞당긴 모드입니다.",
+    "source_ref": [
+      "2.335:start.hsp:224241",
+      "2.335:start.hsp:415975"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224244",
+    "source": "能力経験値、スキル経験値、魔法経験値が大幅増加する超低難度モードです。",
+    "target": "능력치·스킬·마법 경험치를 훨씬 많이 얻어 난도가 매우 낮습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224244",
+      "2.335:start.hsp:415978"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224247",
+    "source": "デフォルトの増加倍率は3倍ですが、とある場所で最大30倍にまで変更可能。",
+    "target": "경험치는 기본 3배이며, 특정 장소에서 최대 30배까지 올릴 수 있습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224247",
+      "2.335:start.hsp:415981"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224250",
+    "source": "じっくり楽しまずにさっさとクリアしたい、とにかく楽をしたいなど、",
+    "target": "천천히 즐기기보다 빨리 끝내고 싶은 분이나 편하게 진행하고 싶은 분,",
+    "source_ref": [
+      "2.335:start.hsp:224250",
+      "2.335:start.hsp:415984"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224253",
+    "source": "飽きが早くなることを問題としない人にのみ、おすすめです。",
+    "target": "게임에 일찍 싫증이 나도 괜찮은 분께 권합니다.",
+    "source_ref": [
+      "2.335:start.hsp:224253",
+      "2.335:start.hsp:415987"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224256",
+    "source": "この成長速度に慣れると他では満足できなくなる恐れがあります。",
+    "target": "이 성장 속도에 익숙해지면 다른 모드가 답답하게 느껴질 수 있습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224256",
+      "2.335:start.hsp:415990"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224259",
+    "source": "遺伝子を残すこと(アイテム引継ぎ2週目)ができず、スコアも0になります。",
+    "target": "유전자를 남겨 다음 회차에 아이템을 물려줄 수 없고, 점수도 0점입니다.",
+    "source_ref": [
+      "2.335:start.hsp:224259",
+      "2.335:start.hsp:224304",
+      "2.335:start.hsp:415993",
+      "2.335:start.hsp:416053"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224264",
+    "source": "★Naturalモードは基本部分はEssentialですが、",
+    "target": "★내추럴의 기본 규칙은 에센셜과 같습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224264",
+      "2.335:start.hsp:416003"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224267",
+    "source": "EscキーかSでのセーブで終了しないとロード時にペナルティがあります。",
+    "target": "Esc나 S로 저장하고 종료하지 않으면 다음에 불러올 때 불이익을 받습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224267",
+      "2.335:start.hsp:416006"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224270",
+    "source": "それ以外の点ではEssentialと何も変わりません。",
+    "target": "그 밖의 규칙은 모두 에센셜과 같습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224270",
+      "2.335:start.hsp:416009"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224273",
+    "source": "悪い結果が出てもやり直しをせずそのまま受け止められる人、",
+    "target": "결과가 나빠도 되돌리지 않고 받아들일 수 있는 분,",
+    "source_ref": [
+      "2.335:start.hsp:224273",
+      "2.335:start.hsp:416012"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224276",
+    "source": "適度な難しさを求める人におすすめです。",
+    "target": "적당한 긴장감을 원하는 분께 권합니다.",
+    "source_ref": [
+      "2.335:start.hsp:224276",
+      "2.335:start.hsp:416015"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224281",
+    "source": "★Abnormalモードは死亡時のペナルティの増加やセーブロードの制限、",
+    "target": "★어브노멀에서는 사망 시 불이익이 커지고 저장과 불러오기가 제한됩니다.",
+    "source_ref": [
+      "2.335:start.hsp:224281",
+      "2.335:start.hsp:416025"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224284",
+    "source": "その他さまざまな危険要素が増えている異常なモードです。地道な積み重ねや",
+    "target": "그 밖에도 여러 위험이 도사립니다. 조금씩 쌓아 올리는 성취와",
+    "source_ref": [
+      "2.335:start.hsp:224284",
+      "2.335:start.hsp:416028"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224287",
+    "source": "慎重なプレイングを楽しめる人、もしくは貴重品を失うスリルやショックすら",
+    "target": "신중한 플레이를 즐기는 분, 귀중품을 잃을지도 모르는 긴장과 충격마저",
+    "source_ref": [
+      "2.335:start.hsp:224287",
+      "2.335:start.hsp:416031"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224290",
+    "source": "楽しめる変態な人におすすめです。特にメリットはありませんが、",
+    "target": "즐길 수 있는 분께 권합니다. 특별한 혜택은 없지만",
+    "source_ref": [
+      "2.335:start.hsp:224290",
+      "2.335:start.hsp:416034"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224293",
+    "source": "クリア時のスコアが20倍になります。",
+    "target": "게임을 클리어하면 점수가 20배가 됩니다.",
+    "source_ref": [
+      "2.335:start.hsp:224293",
+      "2.335:start.hsp:416037"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224296",
+    "source": "EscキーかSでのセーブで終了しないとロード時にペナルティあり。",
+    "target": "Esc나 S로 저장하고 종료하지 않으면 다음에 불러올 때 불이익을 받습니다.",
+    "source_ref": [
+      "2.335:start.hsp:224296",
+      "2.335:start.hsp:416040"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224301",
+    "source": "★Purgeモードはバランス調整から切り離されたゲームモードです。",
+    "target": "★퍼지는 게임 밸런스를 별도로 조정하지 않는 모드입니다.",
+    "source_ref": [
+      "2.335:start.hsp:224301",
+      "2.335:start.hsp:416050"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224307",
+    "source": "「都合のいい結果が出るまでひたすらやり直す作業こそが楽しい」",
+    "target": "“원하는 결과가 나올 때까지 다시 하는 게 재미있다.”",
+    "source_ref": [
+      "2.335:start.hsp:224307",
+      "2.335:start.hsp:416056"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224310",
+    "source": "「ゲームとは放置で自動カンストするくらい楽なほうが没入できるもの」",
+    "target": "“가만히 놔둬도 저절로 최고 수준에 도달해야 게임에 몰입할 수 있다.”",
+    "source_ref": [
+      "2.335:start.hsp:224310",
+      "2.335:start.hsp:416059"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224313",
+    "source": "「バランスブレイカーによって他の要素がゴミ同然になっていても、",
+    "target": "“지나치게 강한 요소 하나가 나머지를 무용지물로 만들어도",
+    "source_ref": [
+      "2.335:start.hsp:224313",
+      "2.335:start.hsp:416062"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224316",
+    "source": "オフラインゲームならそのままにしておくべき」",
+    "target": "혼자 하는 게임이라면 그대로 두어야 한다.”",
+    "source_ref": [
+      "2.335:start.hsp:224316",
+      "2.335:start.hsp:416065"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224319",
+    "source": "「むしろバランスブレイカーがあって使うかどうかは選ばせるのが理想」",
+    "target": "“그런 요소도 남겨 두고 쓸지 말지는 내가 정하고 싶다.”",
+    "source_ref": [
+      "2.335:start.hsp:224319",
+      "2.335:start.hsp:416068"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224322",
+    "source": "「強敵との死闘なんて楽しくない。ストレスフリーに蹴散らす戦闘が至高」",
+    "target": "“강적과 사투를 벌이기보다 시원하게 쓸어버리는 전투가 좋다.”",
+    "source_ref": [
+      "2.335:start.hsp:224322",
+      "2.335:start.hsp:416071"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224325",
+    "source": "「簡単にクリアできないと悔しいじゃないですか」",
+    "target": "“쉽게 클리어하지 못하면 분하지 않은가?”",
+    "source_ref": [
+      "2.335:start.hsp:224325",
+      "2.335:start.hsp:416074"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
+  },
+  {
+    "id": "creation.mode.224328",
+    "source": "といった価値観の人は、絶対にこのモード以外を選ばないでください。",
+    "target": "이런 생각이 드는 분은 꼭 이 모드를 선택하세요.",
+    "source_ref": [
+      "2.335:start.hsp:224328",
+      "2.335:start.hsp:416077"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 Japanese mode description"
+    }
   }
 ]

@@ -1,7 +1,7 @@
 """Bound text arguments to authored 2.335 story event branches."""
 
-# The fifth home line has separate EN/JP assignments. Only copy the value of
-# the exact VM variable used for the name or title; it never goes into a lookup.
+# The fifth home line has separate EN/JP assignments. Copy the exact VM field.
+# The two templates with {alias} use the stock title vocabulary at draw time.
 NAME_LINES = {
     373810: (373810, 'cdatan(0, 0)'),
     373856: (373856, 'cdatan(1, 0)'),
@@ -33,6 +33,12 @@ def story_inserts(source):
                    if lines[i].strip() == b'gosub *label_5487')
         yield offsets[end], f'\tnative_story_event = {event}\r\n'.encode(), 'event_begin'
         yield offsets[end+1], b'\tnative_story_event = 0\r\n', 'event_end'
+    # The normal Vernis reunion creates a fresh animal, then immediately recruits it.
+    # The selection ID must be copied before characreate reuses the VM scratch variable p.
+    if lines[614836 - 1].strip() != b'characreate -1, p, cdata(1, 0), cdata(2, 0)' or lines[614838 - 1].strip() != b'gosub *label_9492':
+        raise ValueError('Vernis starter pet recruitment changed')
+    yield offsets[614835], b'\t\tnative_starter_pet_id = p\r\n', 'starter_pet_begin'
+    yield offsets[614838], b'\t\tnative_starter_pet_id = 0\r\n', 'starter_pet_end'
     # Original wrapping still sets window height, and the regular draw remains
     # available for uncatalogued events and untranslated launches.
     for line_num, command, key, x, y, width, shadow, rgb in [

@@ -1,0 +1,2505 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 일본어 설정 메뉴와 영어 대응 항목"
+  },
+  "entries": [
+    {
+      "source": "@option/label/オプション",
+      "target": "설정",
+      "source_ref": [
+        "2.335:start.hsp:607178"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Option",
+      "target": "설정",
+      "source_ref": [
+        "2.335:start.hsp:607182"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ゲームの設定",
+      "target": "게임 설정",
+      "source_ref": [
+        "2.335:start.hsp:607179",
+        "2.335:start.hsp:607190"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Game Setting",
+      "target": "게임 설정",
+      "source_ref": [
+        "2.335:start.hsp:607183",
+        "2.335:start.hsp:607194"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/画面と音の設定",
+      "target": "화면과 소리",
+      "source_ref": [
+        "2.335:start.hsp:607179",
+        "2.335:start.hsp:607202"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Screen & Sound",
+      "target": "화면과 소리",
+      "source_ref": [
+        "2.335:start.hsp:607183",
+        "2.335:start.hsp:607206"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ネット機能の設定",
+      "target": "네트워크 설정",
+      "source_ref": [
+        "2.335:start.hsp:607179",
+        "2.335:start.hsp:607214"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Network Setting",
+      "target": "네트워크 설정",
+      "source_ref": [
+        "2.335:start.hsp:607183",
+        "2.335:start.hsp:607218"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/詳細な設定",
+      "target": "상세 설정",
+      "source_ref": [
+        "2.335:start.hsp:607179",
+        "2.335:start.hsp:607226"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Detailed Setting",
+      "target": "상세 설정",
+      "source_ref": [
+        "2.335:start.hsp:607183",
+        "2.335:start.hsp:607230"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ゲームパッド",
+      "target": "게임패드",
+      "source_ref": [
+        "2.335:start.hsp:607179",
+        "2.335:start.hsp:607238",
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Game Pad",
+      "target": "게임패드",
+      "source_ref": [
+        "2.335:start.hsp:607183",
+        "2.335:start.hsp:607242",
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/メッセージとログ",
+      "target": "메시지와 기록",
+      "source_ref": [
+        "2.335:start.hsp:607179",
+        "2.335:start.hsp:607250"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Message & Log",
+      "target": "메시지와 기록",
+      "source_ref": [
+        "2.335:start.hsp:607183"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/言語(Language)",
+      "target": "언어",
+      "source_ref": [
+        "2.335:start.hsp:607179",
+        "2.335:start.hsp:607262"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Language",
+      "target": "언어",
+      "source_ref": [
+        "2.335:start.hsp:607183",
+        "2.335:start.hsp:607266"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ノルンの冒険ガイド",
+      "target": "노른의 모험 안내",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Extra Help",
+      "target": "노른의 모험 안내",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/非好戦的NPCを無視",
+      "target": "중립 인물 대응",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Neutral Npcs",
+      "target": "중립 인물 대응",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/zキーの割当て",
+      "target": "z 키 동작",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Assign z key",
+      "target": "z 키 동작",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/xキーの割当て",
+      "target": "x 키 동작",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Assign x key",
+      "target": "x 키 동작",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/走り始める歩数",
+      "target": "달리기 시작",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Start Running After",
+      "target": "달리기 시작",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/歩きの速さ",
+      "target": "걷기 속도",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Walk Speed",
+      "target": "걷기 속도",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/攻撃の間隔",
+      "target": "공격 간격",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Attack Interval",
+      "target": "공격 간격",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/レコード表示",
+      "target": "모험 기록 표시",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Record",
+      "target": "모험 기록 표시",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/「攻撃する」選択肢",
+      "target": "공격 선택지 표시",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Attack Select",
+      "target": "공격 선택지 표시",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/汚物生成の阻止",
+      "target": "오물 생성 제한",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Block dust generation",
+      "target": "오물 생성 제한",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ゲージ技演出",
+      "target": "게이지 기술 연출",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Gauge action staging",
+      "target": "게이지 기술 연출",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/旅経験の整理確認",
+      "target": "여행 경험치 정리 확인",
+      "source_ref": [
+        "2.335:start.hsp:607191"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Confirmation of travelExp",
+      "target": "여행 경험치 정리 확인",
+      "source_ref": [
+        "2.335:start.hsp:607195"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/サウンドの再生*",
+      "target": "효과음*",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Sound*",
+      "target": "효과음*",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/midiの再生*",
+      "target": "음악*",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Music*",
+      "target": "음악*",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/画面モード*",
+      "target": "화면 모드*",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Screen Mode*",
+      "target": "화면 모드*",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/画面の大きさ*",
+      "target": "해상도*",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Screen Resolution*",
+      "target": "해상도*",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/スクロール",
+      "target": "부드러운 화면 이동",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Smooth Scroll",
+      "target": "부드러운 화면 이동",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/主人公中心に描写",
+      "target": "주인공 중심으로 표시",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Always Center",
+      "target": "주인공 중심으로 표시",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/心臓の音",
+      "target": "심장 박동음",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Heartbeat Sound",
+      "target": "심장 박동음",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/攻撃時アニメ",
+      "target": "공격 동작",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Attack Animation",
+      "target": "공격 동작",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/天候エフェクト",
+      "target": "날씨 효과",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Weather Effect",
+      "target": "날씨 효과",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/光源の描写",
+      "target": "조명 품질",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Lighting",
+      "target": "조명 품질",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/アイテムの影描写",
+      "target": "아이템 그림자",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/object Shadow",
+      "target": "아이템 그림자",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/PCC表示",
+      "target": "캐릭터 그래픽 크기",
+      "source_ref": [
+        "2.335:start.hsp:607203"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/PCC show",
+      "target": "캐릭터 그래픽 크기",
+      "source_ref": [
+        "2.335:start.hsp:607207"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ネットの使用",
+      "target": "네트워크 사용",
+      "source_ref": [
+        "2.335:start.hsp:607215"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Use Network",
+      "target": "네트워크 사용",
+      "source_ref": [
+        "2.335:start.hsp:607219"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/定期的に接続",
+      "target": "정기 접속",
+      "source_ref": [
+        "2.335:start.hsp:607215"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Constantly Connect",
+      "target": "정기 접속",
+      "source_ref": [
+        "2.335:start.hsp:607219"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/チャットをフィルタ",
+      "target": "채팅 필터",
+      "source_ref": [
+        "2.335:start.hsp:607215"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Filter Chat",
+      "target": "채팅 필터",
+      "source_ref": [
+        "2.335:start.hsp:607219"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/走りの速さ",
+      "target": "달리기 속도",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Run Speed",
+      "target": "달리기 속도",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/numlockを自動制御",
+      "target": "숫자 잠금 자동 제어",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Auto Numlock",
+      "target": "숫자 잠금 자동 제어",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/タイトルの水の波紋",
+      "target": "제목 화면 물결",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Title Water Effect",
+      "target": "제목 화면 물결",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/画面の更新頻度",
+      "target": "화면 갱신 간격",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Screen Refresh",
+      "target": "화면 갱신 간격",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/走り時スクロール",
+      "target": "달릴 때 화면 이동",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Scroll When Run",
+      "target": "달릴 때 화면 이동",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/オートターンの挙動",
+      "target": "자동 턴 속도",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Auto Turn Speed",
+      "target": "자동 턴 속도",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/イベントの短縮",
+      "target": "무작위 이벤트 단축",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Skip Random Events",
+      "target": "무작위 이벤트 단축",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ダメージ表示",
+      "target": "피해량 표시",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Damage show",
+      "target": "피해량 표시",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/エフェクトの速さ",
+      "target": "효과 속도",
+      "source_ref": [
+        "2.335:start.hsp:607227"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Effect Speed",
+      "target": "효과 속도",
+      "source_ref": [
+        "2.335:start.hsp:607231"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/決定キー",
+      "target": "결정",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Enter/Ok",
+      "target": "결정",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/キャンセルキー",
+      "target": "취소",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Cancel",
+      "target": "취소",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/所持品",
+      "target": "소지품",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Inventory",
+      "target": "소지품",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/行動",
+      "target": "행동",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Action",
+      "target": "행동",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/斜め移動(L)",
+      "target": "대각선 이동 (왼쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/diagonal Move/(L)",
+      "target": "대각선 이동 (왼쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/拾う(R)",
+      "target": "줍기 (오른쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Pick/(R)",
+      "target": "줍기 (오른쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/射撃(R)",
+      "target": "사격 (오른쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Shoot/(R)",
+      "target": "사격 (오른쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/目標(L)",
+      "target": "목표 (왼쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Target/(L)",
+      "target": "목표 (왼쪽)",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ポーズメニュー",
+      "target": "일시 정지 메뉴",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Peuse/Menu",
+      "target": "일시 정지 메뉴",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ヘルプ",
+      "target": "도움말",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Help",
+      "target": "도움말",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/キャラ情報",
+      "target": "캐릭터 정보",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Chara-sheet",
+      "target": "캐릭터 정보",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/装填",
+      "target": "장전",
+      "source_ref": [
+        "2.335:start.hsp:607239"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Reload",
+      "target": "장전",
+      "source_ref": [
+        "2.335:start.hsp:607243"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Message&Log",
+      "target": "메시지와 기록",
+      "source_ref": [
+        "2.335:start.hsp:607254"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ログに時刻表示追加",
+      "target": "기록에 시각 표시",
+      "source_ref": [
+        "2.335:start.hsp:607251"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Add time info",
+      "target": "기록에 시각 표시",
+      "source_ref": [
+        "2.335:start.hsp:607255"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/過去のﾒｯｾｰｼﾞの透過",
+      "target": "지난 메시지 투명도",
+      "source_ref": [
+        "2.335:start.hsp:607251"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Transparency",
+      "target": "지난 메시지 투명도",
+      "source_ref": [
+        "2.335:start.hsp:607255"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/起動時の注意書き",
+      "target": "시작 화면 주의 문구",
+      "source_ref": [
+        "2.335:start.hsp:607251"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Disclaimer in title",
+      "target": "시작 화면 주의 문구",
+      "source_ref": [
+        "2.335:start.hsp:607255"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/操作説明ウインドウ*",
+      "target": "조작 안내 창*",
+      "source_ref": [
+        "2.335:start.hsp:607251"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Operation instruct*",
+      "target": "조작 안내 창*",
+      "source_ref": [
+        "2.335:start.hsp:607255"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/言語*",
+      "target": "원문 언어*",
+      "source_ref": [
+        "2.335:start.hsp:607263"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Language*",
+      "target": "원문 언어*",
+      "source_ref": [
+        "2.335:start.hsp:607267"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/0/なし",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607403"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/0/Don't show",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607406"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/0/あり",
+      "target": "표시",
+      "source_ref": [
+        "2.335:start.hsp:607403"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/0/Show",
+      "target": "표시",
+      "source_ref": [
+        "2.335:start.hsp:607406"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/1/しない",
+      "target": "공격",
+      "source_ref": [
+        "2.335:start.hsp:607412"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/1/Attack",
+      "target": "공격",
+      "source_ref": [
+        "2.335:start.hsp:607415"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/1/する",
+      "target": "무시",
+      "source_ref": [
+        "2.335:start.hsp:607412"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/1/Ignore",
+      "target": "무시",
+      "source_ref": [
+        "2.335:start.hsp:607415"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/2/ｸｨｯｸﾒﾆｭｰ",
+      "target": "빠른 메뉴",
+      "source_ref": [
+        "2.335:start.hsp:607421"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/2/Quick menu",
+      "target": "빠른 메뉴",
+      "source_ref": [
+        "2.335:start.hsp:607424"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/2/道具を振る",
+      "target": "도구 휘두르기",
+      "source_ref": [
+        "2.335:start.hsp:607421"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/2/Zap",
+      "target": "도구 휘두르기",
+      "source_ref": [
+        "2.335:start.hsp:607424"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/2/割当なし",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607421"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/2/Don't assign",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607424"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/3/ｸｲｯｸｲﾝﾍﾞﾝﾄﾘ",
+      "target": "빠른 소지품",
+      "source_ref": [
+        "2.335:start.hsp:607430"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/3/Quick Inv",
+      "target": "빠른 소지품",
+      "source_ref": [
+        "2.335:start.hsp:607433"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/3/道具を調べる",
+      "target": "도구 살펴보기",
+      "source_ref": [
+        "2.335:start.hsp:607430"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/3/Identify",
+      "target": "도구 살펴보기",
+      "source_ref": [
+        "2.335:start.hsp:607433"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/3/割当なし",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607430"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/3/Don't assign",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607433"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/4/走らない",
+      "target": "달리지 않음",
+      "source_ref": [
+        "2.335:start.hsp:607440"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/4/Dont't run",
+      "target": "달리지 않음",
+      "source_ref": [
+        "2.335:start.hsp:607443"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/7/なし",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607463"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/7/Don't show",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607466"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/7/一部表示",
+      "target": "일부만 표시",
+      "source_ref": [
+        "2.335:start.hsp:607463"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/7/Show",
+      "target": "일부만 표시",
+      "source_ref": [
+        "2.335:start.hsp:607466"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/7/全表示",
+      "target": "모두 표시",
+      "source_ref": [
+        "2.335:start.hsp:607463"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/7/Show Max",
+      "target": "모두 표시",
+      "source_ref": [
+        "2.335:start.hsp:607466"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/8/全表示",
+      "target": "모두 표시",
+      "source_ref": [
+        "2.335:start.hsp:607472"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/8/Show",
+      "target": "모두 표시",
+      "source_ref": [
+        "2.335:start.hsp:607475"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/8/味方以外",
+      "target": "동료 외에 표시",
+      "source_ref": [
+        "2.335:start.hsp:607472"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/8/Neutral",
+      "target": "동료 외에 표시",
+      "source_ref": [
+        "2.335:start.hsp:607475"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/8/全非表示",
+      "target": "모두 숨김",
+      "source_ref": [
+        "2.335:start.hsp:607472"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/8/Don't show",
+      "target": "모두 숨김",
+      "source_ref": [
+        "2.335:start.hsp:607475"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/9/特になし",
+      "target": "허용",
+      "source_ref": [
+        "2.335:start.hsp:607481"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/9/No Block",
+      "target": "허용",
+      "source_ref": [
+        "2.335:start.hsp:607484"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/9/阻止あり",
+      "target": "차단",
+      "source_ref": [
+        "2.335:start.hsp:607481"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/9/Block",
+      "target": "차단",
+      "source_ref": [
+        "2.335:start.hsp:607484"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/10/全表示",
+      "target": "모두 표시",
+      "source_ref": [
+        "2.335:start.hsp:607490"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/10/Show",
+      "target": "모두 표시",
+      "source_ref": [
+        "2.335:start.hsp:607493"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/10/省略",
+      "target": "생략",
+      "source_ref": [
+        "2.335:start.hsp:607490"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/10/Don't show",
+      "target": "생략",
+      "source_ref": [
+        "2.335:start.hsp:607493"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/11/条件達成時",
+      "target": "조건 달성 시 확인",
+      "source_ref": [
+        "2.335:start.hsp:607499"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/11/Confirm",
+      "target": "조건 달성 시 확인",
+      "source_ref": [
+        "2.335:start.hsp:607502"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/11/確認なし",
+      "target": "확인 생략",
+      "source_ref": [
+        "2.335:start.hsp:607499"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/1/11/No confirm",
+      "target": "확인 생략",
+      "source_ref": [
+        "2.335:start.hsp:607502"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/0/なし",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607510"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/0/None",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607513"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/0/direct sound",
+      "target": "다이렉트 사운드",
+      "source_ref": [
+        "2.335:start.hsp:607510"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/0/Direct sound",
+      "target": "다이렉트 사운드",
+      "source_ref": [
+        "2.335:start.hsp:607513"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/0/MCI",
+      "target": "엠시아이",
+      "source_ref": [
+        "2.335:start.hsp:607510",
+        "2.335:start.hsp:607513"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/1/なし",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607519"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/1/None",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607522"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/1/direct music",
+      "target": "다이렉트 뮤직",
+      "source_ref": [
+        "2.335:start.hsp:607519"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/1/Direct music",
+      "target": "다이렉트 뮤직",
+      "source_ref": [
+        "2.335:start.hsp:607522"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/1/MCI",
+      "target": "엠시아이",
+      "source_ref": [
+        "2.335:start.hsp:607519",
+        "2.335:start.hsp:607522"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/2/ウィンドウ",
+      "target": "창 모드",
+      "source_ref": [
+        "2.335:start.hsp:607528"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/2/Window mode",
+      "target": "창 모드",
+      "source_ref": [
+        "2.335:start.hsp:607531"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/2/フルスクリーン",
+      "target": "전체 화면",
+      "source_ref": [
+        "2.335:start.hsp:607528"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/2/Full screen",
+      "target": "전체 화면",
+      "source_ref": [
+        "2.335:start.hsp:607531"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/4/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607540"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/4/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607543"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/4/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607540"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/4/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607543"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/5/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607549"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/5/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607552"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/5/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607549"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/5/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607552"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/6/再生しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607558"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/6/Don't play",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607561"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/6/再生する",
+      "target": "재생",
+      "source_ref": [
+        "2.335:start.hsp:607558"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/6/Play",
+      "target": "재생",
+      "source_ref": [
+        "2.335:start.hsp:607561"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/アニメなし",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607567"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607570"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/主人公のみ",
+      "target": "주인공만",
+      "source_ref": [
+        "2.335:start.hsp:607567"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/Only PC",
+      "target": "주인공만",
+      "source_ref": [
+        "2.335:start.hsp:607570"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/味方側のみ",
+      "target": "동료 측만",
+      "source_ref": [
+        "2.335:start.hsp:607567"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/Only ally",
+      "target": "동료 측만",
+      "source_ref": [
+        "2.335:start.hsp:607570"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/全員あり",
+      "target": "모두",
+      "source_ref": [
+        "2.335:start.hsp:607567"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/7/All",
+      "target": "모두",
+      "source_ref": [
+        "2.335:start.hsp:607570"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/8/アニメなし",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607576"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/8/No animation",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607579"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/8/アニメあり",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607576"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/8/Always",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607579"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/9/高画質",
+      "target": "높음",
+      "source_ref": [
+        "2.335:start.hsp:607585"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/9/High",
+      "target": "높음",
+      "source_ref": [
+        "2.335:start.hsp:607588"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/9/低画質",
+      "target": "낮음",
+      "source_ref": [
+        "2.335:start.hsp:607585"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/9/Low",
+      "target": "낮음",
+      "source_ref": [
+        "2.335:start.hsp:607588"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/10/なし（高速）",
+      "target": "끄기 (빠름)",
+      "source_ref": [
+        "2.335:start.hsp:607594"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/10/No(Fast)",
+      "target": "끄기 (빠름)",
+      "source_ref": [
+        "2.335:start.hsp:607597"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/10/あり（低速）",
+      "target": "켜기 (느림)",
+      "source_ref": [
+        "2.335:start.hsp:607594"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/10/Yes(Slow)",
+      "target": "켜기 (느림)",
+      "source_ref": [
+        "2.335:start.hsp:607597"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/11/原寸表示",
+      "target": "원래 크기",
+      "source_ref": [
+        "2.335:start.hsp:607603"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/11/Full-size",
+      "target": "원래 크기",
+      "source_ref": [
+        "2.335:start.hsp:607606"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/11/縮小表示",
+      "target": "축소",
+      "source_ref": [
+        "2.335:start.hsp:607603"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/2/11/Reduced",
+      "target": "축소",
+      "source_ref": [
+        "2.335:start.hsp:607606"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/0/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607614"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/0/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607617"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/0/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607614"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/0/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607617"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/1/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607623"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/1/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607626"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/1/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607623"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/1/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607626"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/2/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607632"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/2/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607635"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/2/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607632"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/3/2/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607635"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/1/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607646"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/1/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607649"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/1/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607646"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/1/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607649"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/2/オフ",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607655"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/2/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607658"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/2/オン",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607655"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/2/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607658"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/4/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607673"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/4/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607676"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/4/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607673"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/4/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607676"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/5/普通",
+      "target": "보통",
+      "source_ref": [
+        "2.335:start.hsp:607682"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/5/Normal",
+      "target": "보통",
+      "source_ref": [
+        "2.335:start.hsp:607685"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/5/速め",
+      "target": "빠르게",
+      "source_ref": [
+        "2.335:start.hsp:607682"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/5/High",
+      "target": "빠르게",
+      "source_ref": [
+        "2.335:start.hsp:607685"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/5/省略",
+      "target": "생략",
+      "source_ref": [
+        "2.335:start.hsp:607682"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/5/Highest",
+      "target": "생략",
+      "source_ref": [
+        "2.335:start.hsp:607685"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/6/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607691"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/6/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607694"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/6/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607691"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/6/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607694"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/7/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607700"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/7/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607703"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/7/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607700"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/7/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607703"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/7/吊るし時のみ",
+      "target": "샌드백만",
+      "source_ref": [
+        "2.335:start.hsp:607700"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/4/7/SandBag",
+      "target": "샌드백만",
+      "source_ref": [
+        "2.335:start.hsp:607703"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/0/使用しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607714"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/0/Don't use",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607717"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/0/使用する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607714"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/0/Use",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607717"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/0/しない",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607733"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/0/No",
+      "target": "끄기",
+      "source_ref": [
+        "2.335:start.hsp:607736"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/0/する",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607733"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/0/Yes",
+      "target": "켜기",
+      "source_ref": [
+        "2.335:start.hsp:607736"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/2/非表示",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607745"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/2/No",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607748"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/2/表示",
+      "target": "표시",
+      "source_ref": [
+        "2.335:start.hsp:607745"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/2/Yes",
+      "target": "표시",
+      "source_ref": [
+        "2.335:start.hsp:607748"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/3/非表示",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607754"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/3/No",
+      "target": "숨김",
+      "source_ref": [
+        "2.335:start.hsp:607757"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/3/表示",
+      "target": "표시",
+      "source_ref": [
+        "2.335:start.hsp:607754"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/6/3/Yes",
+      "target": "표시",
+      "source_ref": [
+        "2.335:start.hsp:607757"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/1/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/1/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/2/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/2/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/3/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/3/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/4/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/4/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/5/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/5/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/6/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/6/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/7/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/7/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/8/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/8/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/9/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/9/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/10/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/10/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/11/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/11/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/12/未設定",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/5/12/Unassigned",
+      "target": "지정 안 함",
+      "source_ref": [
+        "2.335:start.hsp:607723"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/7/0/Japanese",
+      "target": "일본어",
+      "source_ref": [
+        "2.335:start.hsp:607764"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/7/0/English",
+      "target": "영어",
+      "source_ref": [
+        "2.335:start.hsp:607764"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/項目",
+      "target": "설정 항목",
+      "source_ref": [
+        "2.335:start.hsp:607328"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Menu",
+      "target": "설정 항목",
+      "source_ref": [
+        "2.335:start.hsp:607328"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/* 印のついた項目は、ゲームの再起動後に適用されます",
+      "target": "* 표시가 있는 항목은 게임을 다시 시작하면 적용된다.",
+      "source_ref": [
+        "2.335:start.hsp:607776"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/Items marked with * require restart to apply changes.",
+      "target": "* 표시가 있는 항목은 게임을 다시 시작하면 적용된다.",
+      "source_ref": [
+        "2.335:start.hsp:607779"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/To assign a button, move the cursor to",
+      "target": "동작을 선택한 뒤 지정할",
+      "source_ref": [
+        "2.335:start.hsp:607791"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/an item and press the button.",
+      "target": "게임패드 버튼을 누른다.",
+      "source_ref": [
+        "2.335:start.hsp:607791"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ボタンを割り当てたい項目にカーソルをあわせて",
+      "target": "동작을 선택한 뒤 지정할 게임패드 버튼을 누른다.",
+      "source_ref": [
+        "2.335:start.hsp:607788"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/ゲームパッドのボタンを押してください。(L),(R)の付いている",
+      "target": "왼쪽·오른쪽 표시가 있는 동작은 메뉴에서",
+      "source_ref": [
+        "2.335:start.hsp:607788"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@option/label/項目は、メニュー画面でタブの移動に使われます。",
+      "target": "탭을 바꾸는 데에도 쓰인다.",
+      "source_ref": [
+        "2.335:start.hsp:607788"
+      ],
+      "review_status": "reviewed"
+    }
+  ]
+}

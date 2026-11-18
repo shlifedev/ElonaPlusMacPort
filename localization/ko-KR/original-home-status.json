@@ -750,5 +750,53 @@
       "kind": "independent-translation",
       "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
     }
+  },
+  {
+    "source": "@hud/destiny",
+    "target": "운명",
+    "source_ref": ["2.335:start.hsp:8876", "2.335:start.hsp:206358", "2.335:start.hsp:206363"],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "ElonaPlus 2.335 HUD, seven steps to the destiny bonus"
+    }
+  },
+  {
+    "source": "@hud/gp",
+    "target": "금화",
+    "source_ref": [
+      "2.335:start.hsp:205668"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "@hud/pp",
+    "target": "백금화",
+    "source_ref": [
+      "2.335:start.hsp:205674"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "No..",
+    "target": "아니…",
+    "source_ref": [
+      "2.335:start.hsp:9627",
+      "2.335:start.hsp:9631"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    },
+    "source_ja": "いや…"
   }
 ]

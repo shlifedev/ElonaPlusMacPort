@@ -170,7 +170,7 @@
   {
     "id": "exhelp.en.1.line.10",
     "source": "errors <def>which put you in danger like draining",
-    "target": "위험하다<def>는 게 그 이유야. MP가 바닥나거나",
+    "target": "위험하다<def>는 게 그 이유야. 마나가 바닥나거나",
     "source_ref": [
       "2.335:data/exhelp.txt:24"
     ],

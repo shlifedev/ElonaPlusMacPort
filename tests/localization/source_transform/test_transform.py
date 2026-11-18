@@ -54,6 +54,9 @@ class TransformTests(unittest.TestCase):
                 + b"\twy = winposy(468)\r\n\tpos wx, wy\r\n\tgcopy 4, 0, 0, 736, 448\r\n"
                 + b"\t\tpos x, y\r\n\t\tmes s\r\n\t\tif ( p \\ 20 == 0 ) {\r\n\t\t\tfont lang(cfg_font1, cfg_font2), 12 + sizefix - en * 2, 1\r\n"
                 + b'\t\t\tpos x + 90, y + 330\r\n\t\t\tmes "- " + (p / 20 + 1) + " -"\r\n\t\t}\r\n\tloop\r\n*label_5808\r\n'
+                + b"\tdisplay_topic itemname(ci), wx + 28, wy + 34\r\n\tmes display_topic_prm0\r\n"
+                + b"\t\ttx@m72 = limit(strlen(cs_list_prm0) * 7 + 32 + cs_list_prm4, 10, 480)\r\n"
+                + b"\tgcopy 3, 128, 288, 128, 32\r\n" * 3
                 + module.DIALOG_DRAW + b"\ttalk_conv buff, 56 - en * 3\r\n"
                 + b"\t\tcs_list s, wx + 84, wy + 60 + cnt * 19 - 1, 19, 0, 1, p\r\n"
                 + b"\t\tpos wx + 600 - strlen(s(1)) * 7, wy + 60 + cnt * 19 + 2\r\n"
@@ -63,6 +66,7 @@ class TransformTests(unittest.TestCase):
     def transform_fixture(self, data):
         with patch.object(module, "SOURCE_SHA256", module.digest(data)), patch.object(module, "dialogue_calls", return_value=[]), \
              patch.object(module, "creation_inserts", return_value=[]), \
+             patch.object(module, "option_inserts", return_value=[]), \
              patch.object(module, "menu_inserts", return_value=[]), \
              patch.object(module, "story_inserts", return_value=[]), \
              patch.object(module, "static_dialogue_inserts", return_value=[]):

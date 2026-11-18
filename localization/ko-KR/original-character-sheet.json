@@ -126,9 +126,12 @@
     },
     {
       "source": "@sheet/AP",
-      "target": "AP",
+      "target": "각성점",
       "source_ref": "2.335:start.hsp:297345-297689",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@sheet/ＡＰ"
+      ]
     },
     {
       "source": "@sheet/Level",
@@ -210,7 +213,7 @@
     },
     {
       "source": "@sheet/HP/MP",
-      "target": "HP/MP",
+      "target": "체력/마나",
       "source_ref": "2.335:start.hsp:297345-297689",
       "review_status": "reviewed"
     },

@@ -1,6 +1,6 @@
 {
-  "input_entries": 7966,
-  "runtime_keys": 11465,
+  "input_entries": 11502,
+  "runtime_keys": 15253,
   "conflicts": {},
   "omitted": [
     {
@@ -2061,6 +2061,10 @@
     },
     {
       "source": "@inv-action/Take",
+      "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "This doesn't work in this area.",
       "reason": "English alias disabled by contextual review"
     },
     {

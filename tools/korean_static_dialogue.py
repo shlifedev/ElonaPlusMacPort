@@ -28,6 +28,32 @@ def static_dialogue_inserts(source, reserved):
             yield offset, insert, 'static_npc_dialogue'
         else:
             yield offset, b'\tnative_dialog_pending = ""\r\n', 'clear_static_dialogue'
+    # English "Alright." covers five different authored replies. Keep the choice
+    # identity through the redraw loop and clear it when the dialog closes.
+    replies = {373951: (31, 'わかった'), 380932: (32, 'いいだろう'),
+               393890: (31, 'わかった'), 393943: (31, 'わかった'),
+               421598: (33, '欲しい…'), 421903: (34, '挑戦する'), 426312: (35, '頼む')}
+    reply_draw = b'cs_list listn(0, cnt), x + 30, y, 18, 4, 0'
+    offset = 0
+    for number, raw in enumerate(lines, 1):
+        offset += len(raw)
+        if number in replies:
+            scope, japanese = replies[number]
+            if raw.strip() != f'listn(0, listmax) = lang("{japanese}", "Alright.")'.encode('cp932'):
+                raise ValueError(f'NPC reply assignment changed at {number}')
+            yield offset, (f'\tnative_reply_scope = {scope}\r\n'
+                           '\tnative_reply_slot = listmax\r\n').encode(), 'npc_reply_identity'
+        elif number == 430275:
+            if raw.strip() != reply_draw:
+                raise ValueError('NPC reply draw changed')
+            yield offset - len(raw), (b'\t\tif ( native_reply_scope > 0 & cnt == native_reply_slot ) {\r\n'
+                                      b'\t\t\tnative_ko_menu native_reply_scope, listn(0, cnt)\r\n'
+                                      b'\t\t}\r\n'), 'npc_reply_begin'
+            yield offset, b'\t\tnative_ko_menu 0, ""\r\n', 'npc_reply_end'
+        elif number == 430313:
+            if raw.strip() != b'listmax = 0':
+                raise ValueError('NPC reply reset changed')
+            yield offset, b'\tnative_reply_scope = 0\r\n', 'npc_reply_reset'
     # Preserve the selected authored data/talk.txt line before speech endings
     # are substituted. No lookup is generated from an editable custom reply.
     anchor = b'\tnoteget s, p\r\n\tbuff = s\r\n\tgosub *label_0441\r\n\treturn\r\n*label_0448\r\n'

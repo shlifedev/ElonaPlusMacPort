@@ -2,7 +2,7 @@
 """Generate an opt-in display-hook source from the verified private 2.335 source.
 
 The original CP932 bytes are never decoded/re-encoded. Output remains private
-under work/. The Korean launcher selects the verified managed-creation-v8 AX. This requires the
+under work/. The Korean launcher selects the verified managed AX. This requires the
 native type-48 display command; the official Windows runtime cannot run it.
 """
 from __future__ import annotations
@@ -17,17 +17,18 @@ import subprocess
 import sys
 
 from korean_static_dialogue import static_dialogue_inserts
+from korean_option_hooks import option_inserts
 from korean_creation_hooks import creation_inserts
 from korean_event_hooks import story_inserts
 from korean_inventory_hooks import install_item_hooks
-from korean_menu_hooks import MENU_DRAWS, menu_inserts
+from korean_menu_hooks import menu_inserts
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SHA256 = "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
 COMMAND_TYPE = 48
 COMMAND_ID = 0
-DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n#cmd native_ko_menu $07\r\n#cmd native_ko_board $08\r\n#cmd native_ko_book $09\r\n"
+DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n#cmd native_ko_menu $07\r\n#cmd native_ko_board $08\r\n#cmd native_ko_book $09\r\n#cmd native_ko_input_caption $0a\r\n#cmd native_ko_alias_width $0b\r\n"
 ANCHOR = (b"#deffunc gmes str gmes_prm0\r\n"
           b'\tm@m111 = ""\r\n'
           b'\tmsg@m111 = "" + gmes_prm0 + "$end"\r\n')
@@ -41,6 +42,8 @@ HOOK = (b"\tnative_ko_gmes gmes_prm0, gmesx, gmesy, gmesw, gmestype, gmescol, gm
 
 LOG_ENTRY = b'\t\tmsgtemp += " "\r\n\t\trepeat\r\n\t\t\tawait\r\n'
 HUD_LINES = [
+    (b'\tbmes "" + cdata(30, 0) + " gp", 255, 255, 255\r\n', 1),
+    (b'\tbmes "" + cdata(31, 0) + " pp", 255, 255, 255\r\n', 1),
     (b'\tbmes "Sp" + cdata(52, 0) + "/" + cdata(53, 0), 255, 255, 255\r\n', 1),
     (b'\tbmes "Lv" + cdata(38, 0) + "/" + (cdata(36, 0) - cdata(35, 0)), 255, 255, 255\r\n', 1),
     (b'\t\tbmes _time(gdata(13) / 4) + " " + _weather(gdata(17)), 255, 255, 255\r\n', 1),
@@ -96,8 +99,14 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
             pos = source.index(line, start)
             start = pos + len(line)
             inserts.append((start if after else pos, addition, kind))
+    at(b"gcopy 3, 128, 288, 128, 32\r\n", b"\tnative_ko_input_caption\r\n",
+       "input_banner", after=True, count=3)
+    at(b"\t\ttx@m72 = limit(strlen(cs_list_prm0) * 7 + 32 + cs_list_prm4, 10, 480)\r\n",
+       b"\t\tif ( native_alias_width > 0 ) : tx@m72 = limit(native_alias_width + 32 + cs_list_prm4, tx@m72, 480)\r\n",
+       "alias_selection_highlight", after=True)
     install_item_hooks(at)
     inserts.extend(menu_inserts(source))
+    inserts.extend(option_inserts(source))
     inserts.extend(creation_inserts(source))
     inserts.extend(story_inserts(source))
     inserts.extend(dialogue_calls(source))
@@ -133,7 +142,7 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
     at(book_footer, b'\t\t\tnative_ko_menu 0, ""\r\n\t\t}\r\n', "book_original_end")
     # Copy only the presentation input, after English capitalization and before
     # the original loop destructively consumes one word at a time.
-    at(LOG_ENTRY, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen\r\n", "english_log_boundary")
+    at(LOG_ENTRY, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen, native_starter_pet_id\r\n", "english_log_boundary")
     for line, count in HUD_LINES:
         at(line, b"\tnative_ko_hud 1\r\n", "hud_begin", count=count)
         at(line, b"\tnative_ko_hud 0\r\n", "hud_end", after=True, count=count)
@@ -230,9 +239,10 @@ def main() -> int:
                   "original_bytes_unchanged": True, "changes": changes,
                   "abi": {"type": COMMAND_TYPE, "commands": {
                       "0": {"name": "gmes", "arguments": 8, "result": "stat < 0: original fallback; otherwise rendered height"},
-                      "1": {"name": "begin_english_log", "arguments": ["source", "used", "limit"], "result": "preserve stat"},
+                      "1": {"name": "begin_english_log", "arguments": ["source", "used", "limit", "starter_pet_id (optional, default 0)"], "result": "preserve stat"},
                       "2": {"name": "hud_draw", "arguments": ["enabled"], "result": "preserve stat"},
                       "6": {"name": "item_label", "arguments": ["label", "original", "alternate", "id"], "result": "preserve stat"},
+                      "10": {"name": "input_caption", "arguments": [], "result": "preserve stat"},
                       "9": {"name": "book", "arguments": ["id", "source", "spread", "x", "y"], "result": "1 if rendered, 0 for original"},
                       "8": {"name": "board", "arguments": ["section", "row", "objective", "ref", "reward", "client", "map", "item"], "result": "preserve stat"},
                       "7": {"name": "menu_draw", "arguments": ["scope", "original"], "result": "preserve stat"}}},
@@ -252,7 +262,9 @@ def main() -> int:
                 report.update(compiled=True, ax_sha256=digest(blob), ax_bytes=len(blob))
                 try:
                     report["token_check"] = command_counts(blob)
-                    success = report["token_check"]["type48_commands"] == {"0": 6, "1": 1, "2": 10, "6": 2, "7": 2 * len(MENU_DRAWS) + 3, "8": 1, "9": 1}
+                    hud_commands = 2 * sum(count for _, count in HUD_LINES)
+                    menu_commands = output.count(b"\tnative_ko_menu ")
+                    success = report["token_check"]["type48_commands"] == {"0": 6, "1": 1, "2": hud_commands, "6": 3, "7": menu_commands, "8": 1, "9": 1, "10": 3, "11": 2}
                     if not success:
                         report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:

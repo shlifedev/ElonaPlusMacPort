@@ -12,7 +12,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Kobolt",
+      "@sheet/race/コボルト"
+    ]
   },
   {
     "id": "race.label.orc",
@@ -27,7 +31,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Orc",
+      "@sheet/race/オーク"
+    ]
   },
   {
     "id": "race.label.largeanimal",
@@ -43,7 +51,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Largeanimal",
+      "@sheet/race/巨獣"
+    ]
   },
   {
     "id": "race.label.lizardman",
@@ -59,7 +71,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Lizardman",
+      "@sheet/race/竜人"
+    ]
   },
   {
     "id": "race.label.minotaur",
@@ -74,7 +90,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Minotaur",
+      "@sheet/race/ミノタウロス"
+    ]
   },
   {
     "id": "race.label.yerles",
@@ -91,7 +111,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Yerles"
+      "Yerles",
+      "@sheet/race/Yerles",
+      "@sheet/race/イェルス"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -119,7 +141,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Norland",
+      "@sheet/race/ノーランド"
+    ]
   },
   {
     "id": "race.label.eulderna",
@@ -136,7 +162,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Eulderna"
+      "Eulderna",
+      "@sheet/race/Eulderna",
+      "@sheet/race/エウダーナ"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -166,7 +194,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Fairy"
+      "Fairy",
+      "@sheet/race/Fairy",
+      "@sheet/race/妖精"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -194,7 +224,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Asura",
+      "@sheet/race/阿修羅"
+    ]
   },
   {
     "id": "race.label.slime",
@@ -209,7 +243,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Slime",
+      "@sheet/race/スライム"
+    ]
   },
   {
     "id": "race.label.doggod",
@@ -224,7 +262,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Doggod",
+      "@sheet/race/犬の神"
+    ]
   },
   {
     "id": "race.label.dwarf",
@@ -241,7 +283,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Dwarf"
+      "Dwarf",
+      "@sheet/race/Dwarf",
+      "@sheet/race/丘の民"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -271,7 +315,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Juere"
+      "Juere",
+      "@sheet/race/Juere",
+      "@sheet/race/ジューア"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -299,7 +345,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Zombie",
+      "@sheet/race/ゾンビ"
+    ]
   },
   {
     "id": "race.label.elea",
@@ -316,7 +366,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Elea"
+      "Elea",
+      "@sheet/race/Elea",
+      "@sheet/race/エレア"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -344,7 +396,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Rabbit",
+      "@sheet/race/ウサギ"
+    ]
   },
   {
     "id": "race.label.sheep",
@@ -359,7 +415,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Sheep",
+      "@sheet/race/羊"
+    ]
   },
   {
     "id": "race.label.frog",
@@ -374,7 +434,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Frog",
+      "@sheet/race/蛙"
+    ]
   },
   {
     "id": "race.label.worm",
@@ -389,7 +453,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Worm",
+      "@sheet/race/ワーム"
+    ]
   },
   {
     "id": "race.label.snail",
@@ -406,7 +474,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Snail"
+      "Snail",
+      "@sheet/race/Snail",
+      "@sheet/race/かたつむり"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -434,7 +504,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Mandrake",
+      "@sheet/race/マンドレイク"
+    ]
   },
   {
     "id": "race.label.beetle",
@@ -450,7 +524,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Beetle",
+      "@sheet/race/昆虫"
+    ]
   },
   {
     "id": "race.label.mushroom",
@@ -465,7 +543,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Mushroom",
+      "@sheet/race/きのこ"
+    ]
   },
   {
     "id": "race.label.bat",
@@ -480,7 +562,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Bat",
+      "@sheet/race/コウモリ"
+    ]
   },
   {
     "id": "race.label.ent",
@@ -495,7 +581,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Ent",
+      "@sheet/race/エント"
+    ]
   },
   {
     "id": "race.label.lich",
@@ -512,7 +602,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Lich"
+      "Lich",
+      "@sheet/race/Lich",
+      "@sheet/race/リッチ"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -540,7 +632,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Bacteria",
+      "@sheet/race/バクテリア"
+    ]
   },
   {
     "id": "race.label.ghost",
@@ -555,7 +651,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Ghost",
+      "@sheet/race/幽霊"
+    ]
   },
   {
     "id": "race.label.spirit",
@@ -570,7 +670,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Spirit",
+      "@sheet/race/精霊"
+    ]
   },
   {
     "id": "race.label.eye",
@@ -585,7 +689,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Eye",
+      "@sheet/race/目"
+    ]
   },
   {
     "id": "race.label.mazin",
@@ -600,7 +708,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Mazin",
+      "@sheet/race/魔人"
+    ]
   },
   {
     "id": "race.label.wasp",
@@ -615,7 +727,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Wasp",
+      "@sheet/race/ワスプ"
+    ]
   },
   {
     "id": "race.label.giant",
@@ -630,7 +746,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Giant",
+      "@sheet/race/巨人"
+    ]
   },
   {
     "id": "race.label.imp",
@@ -646,7 +766,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Imp",
+      "@sheet/race/悪魔"
+    ]
   },
   {
     "id": "race.label.hand",
@@ -661,7 +785,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Hand",
+      "@sheet/race/手"
+    ]
   },
   {
     "id": "race.label.snake",
@@ -676,7 +804,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Snake",
+      "@sheet/race/蛇"
+    ]
   },
   {
     "id": "race.label.drake",
@@ -691,7 +823,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Drake",
+      "@sheet/race/亜竜"
+    ]
   },
   {
     "id": "race.label.goblin",
@@ -708,7 +844,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Goblin"
+      "Goblin",
+      "@sheet/race/Goblin",
+      "@sheet/race/ゴブリン"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -736,7 +874,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Bear",
+      "@sheet/race/熊"
+    ]
   },
   {
     "id": "race.label.armor",
@@ -751,7 +893,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Armor",
+      "@sheet/race/鎧"
+    ]
   },
   {
     "id": "race.label.medusa",
@@ -766,7 +912,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Medusa",
+      "@sheet/race/メデューサ"
+    ]
   },
   {
     "id": "race.label.cupid",
@@ -782,7 +932,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Cupid",
+      "@sheet/race/天使"
+    ]
   },
   {
     "id": "race.label.karune",
@@ -797,7 +951,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Karune",
+      "@sheet/race/カルーン"
+    ]
   },
   {
     "id": "race.label.harpy",
@@ -813,7 +971,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Harpy",
+      "@sheet/race/鳥人"
+    ]
   },
   {
     "id": "race.label.dragon",
@@ -828,7 +990,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Dragon",
+      "@sheet/race/ドラゴン"
+    ]
   },
   {
     "id": "race.label.dinosaur",
@@ -843,7 +1009,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Dinosaur",
+      "@sheet/race/恐竜"
+    ]
   },
   {
     "id": "race.label.beast",
@@ -859,7 +1029,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Beast",
+      "@sheet/race/幻獣"
+    ]
   },
   {
     "id": "race.label.spider",
@@ -875,7 +1049,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 퀴즈·몬스터명의 まだら蜘蛛도 spider를 사용하므로 영어 전역 키를 비활성화한다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Spider",
+      "@sheet/race/蜘蛛"
+    ]
   },
   {
     "id": "race.label.golem",
@@ -892,7 +1070,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다.",
     "source_aliases": [
-      "Golem"
+      "Golem",
+      "@sheet/race/Golem",
+      "@sheet/race/ゴーレム"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -921,7 +1101,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Rock",
+      "@sheet/race/鉱物"
+    ]
   },
   {
     "id": "race.label.zanan",
@@ -936,7 +1120,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Zanan",
+      "@sheet/race/ザナン"
+    ]
   },
   {
     "id": "race.label.skeleton",
@@ -951,7 +1139,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Skeleton",
+      "@sheet/race/骸骨"
+    ]
   },
   {
     "id": "race.label.piece",
@@ -970,7 +1162,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다. 고성의 체스 말에 관한 캐릭터 카드 설명을 대조해 동물 말과 구분한다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Piece",
+      "@sheet/race/駒"
+    ]
   },
   {
     "id": "race.label.cat",
@@ -985,7 +1181,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Cat",
+      "@sheet/race/猫"
+    ]
   },
   {
     "id": "race.label.dog",
@@ -1000,7 +1200,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Dog",
+      "@sheet/race/犬"
+    ]
   },
   {
     "id": "race.label.roran",
@@ -1015,7 +1219,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Roran",
+      "@sheet/race/ローラン"
+    ]
   },
   {
     "id": "race.label.rat",
@@ -1030,7 +1238,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Rat",
+      "@sheet/race/ねずみ"
+    ]
   },
   {
     "id": "race.label.shell",
@@ -1047,7 +1259,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다. 카드의 소라게/갑각류 설명을 대조했다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Shell",
+      "@sheet/race/甲殻"
+    ]
   },
   {
     "id": "race.label.catgod",
@@ -1062,7 +1278,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Catgod",
+      "@sheet/race/猫の神"
+    ]
   },
   {
     "id": "race.label.machinegod",
@@ -1077,7 +1297,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Machinegod",
+      "@sheet/race/機械の神"
+    ]
   },
   {
     "id": "race.label.undeadgod",
@@ -1092,7 +1316,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Undeadgod",
+      "@sheet/race/死霊の神"
+    ]
   },
   {
     "id": "race.label.machine",
@@ -1107,7 +1335,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Machine",
+      "@sheet/race/機械"
+    ]
   },
   {
     "id": "race.label.wisp",
@@ -1122,7 +1354,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Wisp",
+      "@sheet/race/ウィスプ"
+    ]
   },
   {
     "id": "race.label.bird",
@@ -1137,7 +1373,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Bird",
+      "@sheet/race/鳥"
+    ]
   },
   {
     "id": "race.label.seamonster",
@@ -1152,7 +1392,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Seamonster",
+      "@sheet/race/海魔"
+    ]
   },
   {
     "id": "race.label.catsister",
@@ -1167,7 +1411,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Catsister",
+      "@sheet/race/ケモビト"
+    ]
   },
   {
     "id": "race.label.mutant",
@@ -1184,7 +1432,9 @@
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 대문자 별칭은 신규 캐릭터 생성 화면에서 실제 관찰된 독립 레이블만 명시했다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
     "source_aliases": [
-      "Mutant"
+      "Mutant",
+      "@sheet/race/Mutant",
+      "@sheet/race/カオスシェイプ"
     ],
     "alias_evidence": {
       "observed_file": "work/game-run/ko-newgame-01/missing.tsv",
@@ -1213,7 +1463,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Yeek",
+      "@sheet/race/イーク"
+    ]
   },
   {
     "id": "race.label.yith",
@@ -1229,7 +1483,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 무형 괴물의 부모인 외계 지배자를 가리키는 카드 문맥을 대조했다. 영문 식별자에서 신화 설정을 추가하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 무형 괴물의 부모인 외계 지배자를 가리키는 카드 문맥을 대조했다. 영문 식별자에서 신화 설정을 추가하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Yith",
+      "@sheet/race/異星主"
+    ]
   },
   {
     "id": "race.label.servant",
@@ -1245,7 +1503,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 소문자 영문은 일반 생물·직업·재질 표현과 의미가 달라질 수 있어 전역 키에서 제외한다. 관찰된 별칭도 compiler의 독립 충돌 검사를 거친다.",
-    "english_enabled": false
+    "english_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Servant",
+      "@sheet/race/神の化身"
+    ]
   },
   {
     "id": "race.label.horse",
@@ -1261,7 +1523,11 @@
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
     "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 탑승 대상 선택 레이블 馬는 말 이외의 탈것도 가리키므로 일본어 전역 키를 비활성화한다.",
-    "japanese_enabled": false
+    "japanese_enabled": false,
+    "source_aliases": [
+      "@sheet/race/Horse",
+      "@sheet/race/馬"
+    ]
   },
   {
     "id": "race.label.god",
@@ -1276,7 +1542,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 표시 기록의 God는 캐릭터 시트의 신앙 항목(297424/297427행)이므로 종족 별칭으로 사용하지 않는다. 종족 신의 실제 선택 표시는 추가 종족 목록에서 (extra)God가 되며 이번 실행의 God 관측과 구분한다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다. 표시 기록의 God는 캐릭터 시트의 신앙 항목(297424/297427행)이므로 종족 별칭으로 사용하지 않는다. 종족 신의 실제 선택 표시는 추가 종족 목록에서 (extra)God가 되며 이번 실행의 God 관측과 구분한다.",
+    "source_aliases": [
+      "@sheet/race/God",
+      "@sheet/race/神"
+    ]
   },
   {
     "id": "race.label.quickling",
@@ -1291,7 +1561,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Quickling",
+      "@sheet/race/クイックリング"
+    ]
   },
   {
     "id": "race.label.metal",
@@ -1306,7 +1580,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Metal",
+      "@sheet/race/メタル"
+    ]
   },
   {
     "id": "race.label.vehicle",
@@ -1321,7 +1599,11 @@
       "kind": "independent-translation",
       "reference": "user-provided ElonaPlus 2.335 Japanese original"
     },
-    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다."
+    "review_reason": "일본어의 종족/직업 DB 정의를 대조한 독자 번역. 용어집의 기존 고유명 표기를 따른다. VM 식별자와 저장 문자열은 변경하지 않는다.",
+    "source_aliases": [
+      "@sheet/race/Vehicle",
+      "@sheet/race/乗用機械"
+    ]
   },
   {
     "id": "class.label.warrior",

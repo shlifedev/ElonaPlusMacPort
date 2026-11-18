@@ -1801,6 +1801,19 @@ int cmdfunc_extcmd(int cmd) {
 // boundaries. Original 2.335 bytecode does not contain this extension.
 int cmdfunc_localization(int cmd) {
     code_next();
+    if (cmd == 11) {
+        PVal* pval = nullptr;
+        APTR aptr = code_getva(&pval);
+        int width = H->text ? H->text->alias_label_width(H->cur->font) : 0;
+        code_setva(pval, aptr, TYPE_INUM, &width);
+        return RUNMODE_RUN;
+    }
+    if (cmd == 10) {
+        if (H->opt.trace_commands) ++H->command_counts["native_ko_input_caption"];
+        if (H->text && H->text->draw_input_caption(H->cur->dib, H->cur->cx, H->cur->cy))
+            H->cur->mark_dirty();
+        return RUNMODE_RUN;
+    }
     if (cmd == 9) {
         const int id = code_geti();
         const std::string source = code_gets();
@@ -1838,7 +1851,8 @@ int cmdfunc_localization(int cmd) {
     if (cmd == 1) {
         const std::string source = code_gets();
         const int used = code_geti(), limit = code_geti();
-        if (H->text) H->text->begin_english_log(source, used, limit);
+        const int starter_pet_id = code_getdi(0);
+        if (H->text) H->text->begin_english_log(source, used, limit, starter_pet_id);
         return RUNMODE_RUN;
     }
     if (cmd == 2) {

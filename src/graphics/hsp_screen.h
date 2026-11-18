@@ -107,10 +107,12 @@ public:
     virtual TextExtent draw_display_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) {
         return draw_line(spec, dib, x, y, cp932, color);
     }
-    virtual void begin_english_log(std::string_view, int, int) {}
+    virtual void begin_english_log(std::string_view, int, int, int) {}
     virtual void set_log_word_draw(bool) {}
     virtual void set_hud_draw(bool) {}
+    virtual int alias_label_width(const FontSpec&) { return 0; }
     virtual void set_menu_draw(int, std::string_view) {}
+    virtual bool draw_input_caption(Dib&, int, int) { return false; }
     virtual bool draw_book(Dib&, int, std::string_view, int, int, int) { return false; }
     virtual void prepare_board_row(const std::array<std::string, 7>&, int) {}
     virtual void prepare_item_row(std::string_view, std::string_view, std::string_view, int) {}

@@ -4,28 +4,38 @@
 
 ## 현재 번역량과 플레이 검증
 
-원본 스크립트의 고정 일본어·영어 문장 12,405쌍 중 **9,309쌍(75.04%)**에 한국어 표시 키를 연결했다. 원문 위치를 추적하는 검수 사전에서 3,990쌍, 별도로 일본어와 대조하고 직접 고친 번역에서 1,054쌍, 자동 번역·기계 검사 후의 추가 초벌에서 4,265쌍을 계산했다. 한 쌍에 두 언어가 모두 등록되더라도 한 번만 센다. 미결합 3,096쌍, 실행 중 조립되는 표현식 후보 4,785개, 외부 책·대화 파일, 그림 속 글자는 별도로 관리한다. 특정 키가 있는 것만으로 모든 사용 화면에서 표시됐다고 계산하지 않는다. [집계와 입력 해시](../localization/ko-KR/coverage.json)
+한국어 런처에서 **이명 선택 → 다시 굴리기 → 선택 → 캐릭터 시트**까지 생성된 이명이 한글로 표시된다. `Dangerous Tomorrow`는 ‘위험한 내일’, `Sword of Flame`은 ‘불꽃의 검’이다. 영·일 어휘를 명사·수식형으로 번역한 뒤 원본 조합 순서와 연결어에 맞춰 표시한다. 세이브의 CP932 이명과 난수 호출은 그대로다. 자유 입력 이름은 그대로 읽으며, 라네이레의 작별 대사는 원본에서 플레이어 이명을 부르는 두 자리에서만 이명을 번역한다.
 
-Mac Release에서 원래 영문 기반 입력으로 전사·마법사 생성, 첫 집, 세계 지도, 베르니스, 장비, 전투·전리품 획득, 재시작을 포함한 8개 경로를 재생했다. 연속 영문자 3자 이상이 포함된 고유 미번역 표시값은 437종에서 **77종**, 그리기 횟수는 46,320회에서 **4,599회**로 줄었다. 반복 출력과 저장 슬롯명 `sav_Ari`, 사용자 이름 `Ari` 등도 포함한 값이다. 기본판과 검수판은 이 8경로에서 동일한 누락 건수였다. 두 판본 모두 기준 실행과 각 단계의 최종 프레임 및 압축 해제한 세이브 전체(단계별 154~170파일)가 일치했다. 집 출발 단계는 입력 스크립트가 정한 1,851프레임 대기 상한으로, 나머지 7단계는 게임의 정상 종료로 끝났다. 개인 세이브는 테스트에 사용하지 않았다.
+| 검증 | 관측 결과 |
+|---|---|
+| 영·일 이명 사전 | `ndata-e.csv`, `ndata.csv`의 1~14열에 나오는 고유 어휘 2,729개. 실제 C++ 변환기로 조합 표본 7,714개에서 영문과 사전 구분자 노출 0건. |
+| Mac 이명 화면·시트 | 첫 후보 16개와 재추첨 32개 모두 이명 사전만 뺀 대조 실행과 다른 글자를 그렸다. 후보 영역 바깥의 픽셀은 두 실행에서 같았다. 긴 후보로 커서를 옮겨도 선택 표시가 마지막 글자를 가리지 않는다. 두 번 다시 굴린 뒤 선택한 ‘사악한 신뢰’의 저장값은 `Wicked Trust`였다. 원본 AX가 만든 저장과 한국어 AX가 만든 저장 모두 새 프로세스로 불러와 시트 표시 및 저장 내용 154파일을 대조했다. |
+| 생성·설정 | 모험 모드 6종의 설명 38줄과 모호한 캐릭터 이력은 일본어 원문과 대조했다. 생성·시트 이력 222개의 폭을 검사했다. 설정 7개 분야에서 영문 닫기 안내를 포함해 연속 영문자 3자가 남은 미번역 조회가 0건이었다. |
+| Mac 실제 플레이 8경로 | 전사·마법사 생성, 첫 집, 세계 지도, 베르니스, 장비, 전투 및 재시작. 기본판과 검수 전용판 모두 v8 기준과 최종 프레임 및 압축 해제 세이브 154~170파일이 단계마다 같았다. 집 출발 시나리오는 예정된 1,851프레임 대기 상한, 나머지 7개는 정상 종료했다. 영문자 3자 이상인 미번역 조회는 77종·4,599회에서 저장 폴더명 `sav_Ari` 1종·600회로 줄었다. 사용자가 입력한 이름과 단축키는 계속 원래 표기로 나온다. |
+| Windows x64 Release | 일본어 기반 새 게임·불러오기·세계 지도, 원본·무번역·한국어 저장 대조, 폰트와 원본 보존을 포함한 헤드리스 검사 42/42 통과. 이명 화면의 16개 일본어 기반 후보가 모두 한글인 것을 렌더 결과로 확인했다. |
 
-- Mac Release CTest 12/12, 표시 키·소스 변환 단위 검사 12/12. 검수 사전 11,465키, 전체 추가 표시 키 7,317개(직접 교정 부분집합 1,398개)를 각각 CP932로 다시 전달해 한국어 폰트로 렌더했다. macOS SDL3 창의 실제 렌더 표면에서 1,600×1,200 종족 선택 화면을 캡처했다. `work/ko-broad/final-default/summary.json`, `work/ko-broad/final-reviewed-only/summary.json`, `work/ko-broad/sdl-final`에 재현 근거가 있다.
-- Windows x64 Release `gui-native-ko-broad-final01`에서 42/42 검사 통과. 원본/관리 원문/관리 한국어 각각 일본어 기반 신규 게임·소지품 확인 후 재저장·세계 지도 이동을 실행했다. 세이브 전체 154/154/162파일과 원본 불변을 대조했다. 실제 Windows 폰트와 게임 런타임을 사용한 headless 검사였다. 이전 Mac 결과와 동일하게 검수 키 11,465개·전체 추가 표시 키 7,317개를 모두 조회했다. `work/windows/reference-build/gui-native-ko-broad-final01/verify.json`에 결과가 있다.
+고정 일·영 문장 12,405쌍 중 9,336쌍(75.26%)에 한국어 표시 키가 있다. 검수 사전 4,050쌍, 추가 직접 교정 1,044쌍, 추가 자동 초벌 4,242쌍이다. 남은 3,069쌍, 동적 표현식 후보 4,785개와 외부 대화·책·그림 속 글자는 별도 검수 대상이다. 실게임 누락 건수는 위 입력에서 실제 조회한 값에 한정된다. [집계와 입력 해시](../localization/ko-KR/coverage.json)
 
-새 작업 폴더로 검사를 재현할 수 있다. 아래 `--reference`는 이전 8경로 실행의 결과가 있을 때만 추가한다.
+Mac Release CTest 13/13, 관리 소스·번역 키 검사 17/17, 전체 검수 키 15,253개에 대한 폰트 렌더 검사도 통과했다. 원본 어휘 파일의 SHA-256은 영문 `524efbec365434a311ae8e295f89c717e1c516a9d3aea3c2ff352a8b0e403e75`, 일문 `e1b6fc96ab3dac574c6eeda230261a4564e5b1a119df8103389049f6c9d7c0f7`이다. 이명 번역의 `id`는 이 두 파일의 행·열을 가리킨다.
 
 ```sh
-python3 tests/localization/run_play_audit.py --run ko-recheck --ax work/localization/managed-creation-v8/start.ax --catalog localization/ko-KR/runtime.tsv --fallback localization/ko-KR/draft-display.tsv --reference work/ko-broad/base
+python3 tests/localization/check_alias_coverage.py --runner build/native-macos-arm64-legacy-cp932-release/elona_alias_tests
+python3 tests/localization/run_alias_selection.py
+python3 tests/localization/run_play_audit.py --run ko-recheck --ax work/localization/managed-alias-v11/start.ax --catalog localization/ko-KR/runtime.tsv --fallback localization/ko-KR/draft-display.tsv --reference work/ko-broad/final-default
 python3 tools/reference/windows_managed_check.py --run gui-native-ko-recheck --catalog localization/ko-KR/runtime.tsv --fallback localization/ko-KR/draft-display.tsv
 ```
 
+이명 회귀 검사는 새 프로필로 생성·재추첨·로드·커서 이동을 실행한다. 두 번 재추첨한 생성 경로는 4,701프레임 대기 상한에서 저장을 회수한다. Mac SDL 창 캡처는 `work/localization/alias-v11-package-final/alias-window.png`, 이명 비교는 `work/ko-alias-selection/tmpg4xs5053/summary.json`, 8경로 비교는 `work/ko-broad/alias-v11-final`과 `work/ko-broad/alias-v11-final-reviewed`, 설정 화면은 `work/localization/alias-v11-settings-final`에 있다. Windows 결과는 `work/windows/reference-build/gui-native-ko-alias-v11-02/verify.json`이다. 새 작업공간에서 8경로를 처음 실행할 때는 위 명령의 `--reference`를 생략할 수 있다.
+
 ## 2.335 한국어판의 표시 경계
 
-현재 런처는 `managed-creation-v8`을 기본으로 선택한다. SHA-256은 `0584039d76e73535d07b7dd8157fba729a6204aa50e827ef27e9c0f5dac4ba17`이다. 검수 사전을 우선 조회하고 추가 정적 문구에는 별도의 한국어 초벌 사전을 사용한다. `--language ko --reviewed-only`로 검수 사전만 사용할 수 있다. [초벌 생성과 교정](KOREAN_STATIC_DRAFTS.md)
+현재 런처와 패키지가 사용하는 `managed-alias-v11/start.ax`의 SHA-256은 `3bc4bb1c30f0a31e845e2a3cf6c088028bd76e8bc9e0f533cba2518eefc60f1e`다. 검수 사전을 우선 조회하고 추가 정적 문구에는 별도의 한국어 초벌 사전을 사용한다. `--language ko --reviewed-only`로 검수 사전만 사용할 수 있다. [초벌 생성과 교정](KOREAN_STATIC_DRAFTS.md)
 
 | 표시 영역 | 근거 |
 |---|---|
 | 캐릭터 생성 | 종족 11종·직업 12종, 일본어/영어 고유 설명 44개. 같은 영문 자리표시자를 쓰는 두 직업은 원본 클래스 ID로 구별한다. 실제 425px 폭 문단에서 최대 높이 82px로 다음 제목까지의 여유 104px 안에 들어갔다. 획득 기술·능력 보너스·숙련 무기도 처음 화면에서 읽을 수 있다. |
-| 인벤토리·장비 | 원본에 이름이 있는 아이템 1,322종에 ID별 이름이 있다. 알려진 장비와 재료·수량·수치에 적용한다. 미감정 외관, 사용자가 지은 이름, 아직 해석하지 못한 조합은 원문을 표시한다. |
+| 이명·설정·일지 | 이명 후보와 시트, 설정 항목과 현재 값, 일지 본문·소식·저장 헤더에 문맥별 표시를 적용한다. 첫 동료 합류에서는 개·고양이·불곰·소녀의 원래 종 ID를 읽어 종명만 번역한다. |
+| 인벤토리·장비 | 낚시 결과 112개를 원래 종류와 물고기 ID로 구별한다. 원본에 이름이 있는 아이템 1,322종에 ID별 이름이 있다. 알려진 장비와 재료·수량·수치에 적용한다. 미감정 외관, 사용자가 지은 이름, 아직 해석하지 못한 조합은 원문을 표시한다. |
 | 마을·퀘스트 | 도시 고유 대사 226행과 상점·교관·동료·주민 614행을 원본 파일과 대조했다. 게시판 88종의 제목과 본문에서 목표·수량·지명·보상을 분리했다. 팔미아·레시마스·길드 등 별도 의뢰와 이야기 419문구를 독자 번역했다. |
 | 대화·도움말·책 | 내 집의 로미아스·라네이레, 양 판본의 프롤로그 5쪽, 마을 소문, 노른의 영문 도움말 18주제 46쪽(원문 182행), 초기 서적 4권의 양 판본 36쪽. JP의 「길 잃은 병사를 위한 교범」과 EN의 「초보 모험가 안내서」는 저자와 내용이 달라 따로 번역했다. |
 | 전투·성장 | 캐릭터 시트, 보유 특성·변이·에테르병, 각성 훈련, 상점, 전투·장비 로그에서 한국어를 표시한다. 전투 로그의 사용자 이름, 주사위, 턴, 수량은 그대로 전달한다. |
@@ -56,6 +66,7 @@ python3 tools/reference/windows_managed_check.py --run gui-native-ko-recheck --c
 | `original-ui.json`, `original-controls.json` | 메뉴·캐릭터 생성·시트·조작 안내 독자 번역 |
 | `original-database.json` | 초기 DB 범위 2,406항목; 검수2,263/문맥 보류143 |
 | `original-races-classes.json` | 종족76/직업12의 이름. 긴 종족/직업 설명까지 번역한 것은 아님 |
+| `original-alias-words.json`, `original-options.json`, `original-journal.json`, `original-fishing.json` | 이명 명사·수식형, 설정별 용어, 모험 일지, 낚시 아이템 |
 | `original-creation-prompts.json`, `original-dialogs.json` | 캐릭터 생성, 고지문, 첫 집 인물 칭호·대화 선택지 |
 | `original-english-help.json`, `original-home-status.json` | 영문판 노른의 초반 안내, 시간·날씨·집 등급·저장 로그 |
 | `original-tutorial.json` | 첫 집91항목, 노른18블록79본문행과 제목1개. 동적 템플릿6개는 현재 자동 적용 보류 |
@@ -86,6 +97,6 @@ python3 tools/korean_coverage.py --output localization/ko-KR/coverage.json
 
 ## 실행과 남은 일
 
-한국어판은 v8, 책 표시를 지원하는 v7, 초기 v2/v1 순서로 준비된 AX를 선택한다. v3–v6은 일본어 기반 게임에서 소지품을 열 때 영어 분류명 배열을 잘못 읽는 문제가 있어 자동선택에서 제외했다. 설치된 AX가 없으면 정규화한 원본으로 실행하고 준비 명령을 알려 준다. [준비 명령](DEVELOPMENT.md)
+한국어판은 v11, v8, 책 표시를 지원하는 v7, 초기 v2/v1 순서로 준비된 AX를 선택한다. v3–v6은 일본어 기반 게임에서 소지품을 열 때 영어 분류명 배열을 잘못 읽는 문제가 있어 자동선택에서 제외했다. 설치된 AX가 없으면 정규화한 원본으로 실행하고 준비 명령을 알려 준다. [준비 명령](DEVELOPMENT.md)
 
 후반 분기·무작위 조합·추가 서적·그래픽에 들어간 글자의 전체 검수와 한국어 이름 입력은 후속 범위다. 수치 적용이나 세이브를 바꾸지 않고 표시 경계에서 처리한다.

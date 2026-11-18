@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Prove localization changes display pixels without changing VM/edit strings."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import subprocess
@@ -65,7 +66,9 @@ reports['paragraph'] = {'passed': True, 'vm_string_unchanged': True, 'fallback_c
 # Draw a Japanese two-glyph fallback inside the original gmes convention,
 # and the identical first glyph as a standalone label after returning.
 glyph_source = work / 'glyph.hsp'
-glyph_source.write_bytes("""screen 0,320,120
+glyph_source.write_bytes("""#regcmd 48
+#cmd native_ko_gmes $00
+screen 0,320,200
 goto *main
 #deffunc gmes str paragraph
 value = paragraph
@@ -76,13 +79,21 @@ return
 *main
 gmes "猫舌"
 pos 8,64 : mes "猫"
+native_ko_gmes "@home-name/title/Drunken Ram",8,96,290,0,0,0,0
+native_ko_gmes "@home-name/player/Drunken Ram",8,120,290,0,0,0,0
+native_ko_gmes "Expected alias",8,144,290,0,0,0,0
+native_ko_gmes "Expected player name",8,168,290,0,0,0,0
 await 1
 end
 """.encode('cp932'))
 glyph_ax = work / 'glyph.ax'
 subprocess.run([str(a.compiler.resolve()), '--compath=' + str(a.common.resolve()) + '/',
                 '-o' + str(glyph_ax), str(glyph_source)], capture_output=True, check=True)
-(work / 'glyph.tsv').write_text('猫\t고양이\n', encoding='utf-8')
+(work / 'glyph.tsv').write_text(
+    '猫\t고양이\n@home-name/title\t{alias}\n@home-name/player\t{name}\n'
+    'Expected alias\t술에 취한 숫양\nExpected player name\tDrunken Ram\n'
+    + '@alias-word/' + hashlib.sha256(b'drunken').hexdigest() + '\t|술에 취한\n'
+    + '@alias-noun/' + hashlib.sha256(b'ram').hexdigest() + '\t숫양\n', encoding='utf-8')
 from struct import unpack_from
 def bitmap_rows(path):
     data = path.read_bytes()
@@ -97,7 +108,9 @@ images = []
 for name in ('raw', 'ko'):
     case = work / ('glyph-' + name)
     case.mkdir()
-    command = [str(a.host.resolve()), '--trusted-fixture', str(glyph_ax), '--work-dir', str(case),
+    (case / 'user-root').mkdir()
+    command = [str(a.host.resolve()), '--game', str(glyph_ax), '--work-dir', str(case),
+               '--game-root', str(work / 'paragraph/game'), '--user-root', str(case / 'user-root'),
                '--headless', '--deterministic', '--screenshot', str(case / 'screen.bmp')]
     if name == 'ko':
         command += ['--translation', str(work / 'glyph.tsv')]
@@ -105,7 +118,10 @@ for name in ('raw', 'ko'):
     images.append(bitmap_rows(case / 'screen.bmp'))
 assert any(row != images[0][0] for row in images[0][:48]), 'original fallback must draw visible glyphs'
 assert images[0][:48] == images[1][:48], 'fallback glyphs must retain original pixels'
-assert images[0][48:] != images[1][48:], 'standalone label must translate'
+assert images[0][48:96] != images[1][48:96], 'standalone label must translate'
+ko = images[1]
+assert ko[96:116] == ko[144:164] and ko[120:140] == ko[168:188] and ko[96:116] != ko[120:140], \
+    'the same saved bytes must render as Korean in an alias field and literally in a name field'
 reports['gmes_fragment'] = {'fallback_pixels_equal': True, 'standalone_translated': True}
 (work / 'results.json').write_text(json.dumps(reports, indent=2) + '\n')
 print('PASS Korean display differs; VM/save/edit value stays original:', work)

@@ -1,0 +1,680 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "2.335 fishdatan and fishdata entries; identity is base item and one-based catch index"
+  },
+  "entries": [
+    {
+      "source": "@catch/618/1",
+      "target": "금붕어",
+      "source_ref": "2.335:start.hsp:29460",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/2",
+      "target": "거북",
+      "source_ref": "2.335:start.hsp:29463",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/3",
+      "target": "제니납줄개",
+      "source_ref": "2.335:start.hsp:29466",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/4",
+      "target": "올챙이",
+      "source_ref": "2.335:start.hsp:29469",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/5",
+      "target": "수영 팬츠",
+      "source_ref": "2.335:start.hsp:29472",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/6",
+      "target": "꼬질꼬질한 장화",
+      "source_ref": "2.335:start.hsp:29475",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/7",
+      "target": "잉어",
+      "source_ref": "2.335:start.hsp:29478",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/8",
+      "target": "뱀장어",
+      "source_ref": "2.335:start.hsp:29481",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/9",
+      "target": "망둑어",
+      "source_ref": "2.335:start.hsp:29484",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/10",
+      "target": "금눈돔",
+      "source_ref": "2.335:start.hsp:29487",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/11",
+      "target": "빈 깡통",
+      "source_ref": "2.335:start.hsp:29490",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/12",
+      "target": "고장 난 기계",
+      "source_ref": "2.335:start.hsp:29493",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/13",
+      "target": "둑중개",
+      "source_ref": "2.335:start.hsp:29496",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/14",
+      "target": "농어",
+      "source_ref": "2.335:start.hsp:29499",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/15",
+      "target": "성게",
+      "source_ref": "2.335:start.hsp:29502",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/16",
+      "target": "옥두어",
+      "source_ref": "2.335:start.hsp:29505",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/17",
+      "target": "빈 병",
+      "source_ref": "2.335:start.hsp:29508",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/18",
+      "target": "때 묻은 반지",
+      "source_ref": "2.335:start.hsp:29511",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/19",
+      "target": "칼날전갱이",
+      "source_ref": "2.335:start.hsp:29514",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/20",
+      "target": "아로와나",
+      "source_ref": "2.335:start.hsp:29517",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/21",
+      "target": "바늘참치",
+      "source_ref": "2.335:start.hsp:29520",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/22",
+      "target": "고대어",
+      "source_ref": "2.335:start.hsp:29523",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/23",
+      "target": "찢어진 우산",
+      "source_ref": "2.335:start.hsp:29526",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/24",
+      "target": "가발",
+      "source_ref": "2.335:start.hsp:29529",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/25",
+      "target": "가다랑어",
+      "source_ref": "2.335:start.hsp:29532",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/26",
+      "target": "은어",
+      "source_ref": "2.335:start.hsp:29535",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/27",
+      "target": "흑점줄전갱이",
+      "source_ref": "2.335:start.hsp:29538",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/28",
+      "target": "검정우럭",
+      "source_ref": "2.335:start.hsp:29541",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/29",
+      "target": "북쪽에서 떠내려온 물건",
+      "source_ref": "2.335:start.hsp:29544",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/30",
+      "target": "성인 서적",
+      "source_ref": "2.335:start.hsp:29547",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/31",
+      "target": "고등어",
+      "source_ref": "2.335:start.hsp:29550",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/32",
+      "target": "먹보참치",
+      "source_ref": "2.335:start.hsp:29553",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/33",
+      "target": "빨판상어",
+      "source_ref": "2.335:start.hsp:29556",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/34",
+      "target": "고래",
+      "source_ref": "2.335:start.hsp:29559",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/35",
+      "target": "빈 상자",
+      "source_ref": "2.335:start.hsp:29562",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/36",
+      "target": "고장 난 휴대전화",
+      "source_ref": "2.335:start.hsp:29565",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/37",
+      "target": "무피",
+      "source_ref": "2.335:start.hsp:29568",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/38",
+      "target": "빈껍데기물고기",
+      "source_ref": "2.335:start.hsp:29571",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/39",
+      "target": "록피시",
+      "source_ref": "2.335:start.hsp:29574",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/40",
+      "target": "만사",
+      "source_ref": "2.335:start.hsp:29577",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/41",
+      "target": "금붕잉어",
+      "source_ref": "2.335:start.hsp:29580",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/42",
+      "target": "일본돌거북",
+      "source_ref": "2.335:start.hsp:29583",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/43",
+      "target": "비와납줄개",
+      "source_ref": "2.335:start.hsp:29586",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/44",
+      "target": "금구슬올챙이",
+      "source_ref": "2.335:start.hsp:29589",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/45",
+      "target": "반바지",
+      "source_ref": "2.335:start.hsp:29592",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/46",
+      "target": "구멍 난 부츠",
+      "source_ref": "2.335:start.hsp:29595",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/47",
+      "target": "니고로붕어",
+      "source_ref": "2.335:start.hsp:29598",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/48",
+      "target": "자라",
+      "source_ref": "2.335:start.hsp:29601",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/49",
+      "target": "큰납지리",
+      "source_ref": "2.335:start.hsp:29604",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/50",
+      "target": "영혼올챙이",
+      "source_ref": "2.335:start.hsp:29607",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/51",
+      "target": "레깅스",
+      "source_ref": "2.335:start.hsp:29610",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/52",
+      "target": "곰팡내 나는 부츠",
+      "source_ref": "2.335:start.hsp:29613",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/53",
+      "target": "누치",
+      "source_ref": "2.335:start.hsp:29616",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/54",
+      "target": "전기뱀장어",
+      "source_ref": "2.335:start.hsp:29619",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/55",
+      "target": "열동갈문절",
+      "source_ref": "2.335:start.hsp:29622",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/56",
+      "target": "반짝금눈돔",
+      "source_ref": "2.335:start.hsp:29625",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/57",
+      "target": "찌그러진 깡통",
+      "source_ref": "2.335:start.hsp:29628",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/58",
+      "target": "폐부품",
+      "source_ref": "2.335:start.hsp:29631",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/59",
+      "target": "참잉어",
+      "source_ref": "2.335:start.hsp:29634",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/60",
+      "target": "무태장어",
+      "source_ref": "2.335:start.hsp:29637",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/61",
+      "target": "검은반점망둑",
+      "source_ref": "2.335:start.hsp:29640",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/62",
+      "target": "검은메다이",
+      "source_ref": "2.335:start.hsp:29643",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/63",
+      "target": "삭은 깡통",
+      "source_ref": "2.335:start.hsp:29646",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/64",
+      "target": "녹슨 기계",
+      "source_ref": "2.335:start.hsp:29649",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/65",
+      "target": "하나둑중개",
+      "source_ref": "2.335:start.hsp:29652",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/66",
+      "target": "점농어",
+      "source_ref": "2.335:start.hsp:29655",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/67",
+      "target": "줄무늬성게",
+      "source_ref": "2.335:start.hsp:29658",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/68",
+      "target": "황옥돔",
+      "source_ref": "2.335:start.hsp:29661",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/69",
+      "target": "금 간 병",
+      "source_ref": "2.335:start.hsp:29664",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/70",
+      "target": "깨진 반지",
+      "source_ref": "2.335:start.hsp:29667",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/71",
+      "target": "은어잡이둑중개",
+      "source_ref": "2.335:start.hsp:29670",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/72",
+      "target": "넙치농어",
+      "source_ref": "2.335:start.hsp:29673",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/73",
+      "target": "검은수염성게",
+      "source_ref": "2.335:start.hsp:29676",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/74",
+      "target": "먹점옥돔",
+      "source_ref": "2.335:start.hsp:29679",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/75",
+      "target": "이 빠진 병",
+      "source_ref": "2.335:start.hsp:29682",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/76",
+      "target": "장난감 반지",
+      "source_ref": "2.335:start.hsp:29685",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/77",
+      "target": "글쓰기전갱이",
+      "source_ref": "2.335:start.hsp:29688",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/78",
+      "target": "바라문디",
+      "source_ref": "2.335:start.hsp:29691",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/79",
+      "target": "황다랑어",
+      "source_ref": "2.335:start.hsp:29694",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/80",
+      "target": "억년어",
+      "source_ref": "2.335:start.hsp:29697",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/81",
+      "target": "부서진 우산",
+      "source_ref": "2.335:start.hsp:29700",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/82",
+      "target": "때 묻은 가발",
+      "source_ref": "2.335:start.hsp:29703",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/83",
+      "target": "숨은맛전갱이",
+      "source_ref": "2.335:start.hsp:29706",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/84",
+      "target": "블랙아로와나",
+      "source_ref": "2.335:start.hsp:29709",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/85",
+      "target": "참다랑어",
+      "source_ref": "2.335:start.hsp:29712",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/86",
+      "target": "화석어",
+      "source_ref": "2.335:start.hsp:29715",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/87",
+      "target": "좀비 우산",
+      "source_ref": "2.335:start.hsp:29718",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/88",
+      "target": "곰팡이 핀 대걸레",
+      "source_ref": "2.335:start.hsp:29721",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/89",
+      "target": "줄삼치",
+      "source_ref": "2.335:start.hsp:29724",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/90",
+      "target": "빙어",
+      "source_ref": "2.335:start.hsp:29727",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/91",
+      "target": "황금전갱이",
+      "source_ref": "2.335:start.hsp:29730",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/92",
+      "target": "선피시",
+      "source_ref": "2.335:start.hsp:29733",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/93",
+      "target": "둥근 부표",
+      "source_ref": "2.335:start.hsp:29736",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/94",
+      "target": "성인 잡지",
+      "source_ref": "2.335:start.hsp:29739",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/95",
+      "target": "병어",
+      "source_ref": "2.335:start.hsp:29742",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/96",
+      "target": "열빙어",
+      "source_ref": "2.335:start.hsp:29745",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/97",
+      "target": "검은전갱이",
+      "source_ref": "2.335:start.hsp:29748",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/98",
+      "target": "검은선배스",
+      "source_ref": "2.335:start.hsp:29751",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/99",
+      "target": "엉킨 실뭉치",
+      "source_ref": "2.335:start.hsp:29754",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/100",
+      "target": "성인 동인지",
+      "source_ref": "2.335:start.hsp:29757",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/101",
+      "target": "줄무늬고등어",
+      "source_ref": "2.335:start.hsp:29760",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/102",
+      "target": "식인참치",
+      "source_ref": "2.335:start.hsp:29763",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/103",
+      "target": "긴빨판상어",
+      "source_ref": "2.335:start.hsp:29766",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/104",
+      "target": "브라이드고래",
+      "source_ref": "2.335:start.hsp:29769",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/105",
+      "target": "상한 나무 상자",
+      "source_ref": "2.335:start.hsp:29772",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/106",
+      "target": "고대의 단말기",
+      "source_ref": "2.335:start.hsp:29775",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/107",
+      "target": "망치고등어",
+      "source_ref": "2.335:start.hsp:29778",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/108",
+      "target": "제 동족을 먹는 참치",
+      "source_ref": "2.335:start.hsp:29781",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/109",
+      "target": "검은빨판상어",
+      "source_ref": "2.335:start.hsp:29784",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/618/110",
+      "target": "참고래",
+      "source_ref": "2.335:start.hsp:29787",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/111",
+      "target": "그을린 컨테이너",
+      "source_ref": "2.335:start.hsp:29790",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch/619/112",
+      "target": "피처폰",
+      "source_ref": "2.335:start.hsp:29793",
+      "review_status": "reviewed"
+    }
+  ]
+}

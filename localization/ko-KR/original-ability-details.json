@@ -1190,7 +1190,7 @@
   {
     "source": "[Feat]You are an apprentice of an ascetic. [HP+5%]",
     "source_ja": "[フィート]あなたは苦行者の見習いだ[HP+5%]",
-    "target": "[특성] 견습 고행자다 [HP +5%]",
+    "target": "[특성] 견습 고행자다 [체력 +5%]",
     "source_ref": [
       "2.335:start.hsp:5464",
       "2.335:start.hsp:5469",
@@ -1209,7 +1209,7 @@
   {
     "source": "[Feat]You are a journeyman of an ascetic. [HP+10%]",
     "source_ja": "[フィート]あなたは立派な苦行者だ[HP+10%]",
-    "target": "[특성] 훌륭한 고행자다 [HP +10%]",
+    "target": "[특성] 훌륭한 고행자다 [체력 +10%]",
     "source_ref": [
       "2.335:start.hsp:5464",
       "2.335:start.hsp:5469",
@@ -1228,7 +1228,7 @@
   {
     "source": "[Feat]You are an expert of an ascetic. [HP+15%]",
     "source_ja": "[フィート]あなたは熟練した苦行者だ[HP+15%]",
-    "target": "[특성] 숙련 고행자다 [HP +15%]",
+    "target": "[특성] 숙련 고행자다 [체력 +15%]",
     "source_ref": [
       "2.335:start.hsp:5464",
       "2.335:start.hsp:5469",
@@ -1247,7 +1247,7 @@
   {
     "source": "[Feat]You are a master of an ascetic. [HP+20%]",
     "source_ja": "[フィート]あなたは苦行の達人だ[HP+20%]",
-    "target": "[특성] 고행의 달인이다 [HP +20%]",
+    "target": "[특성] 고행의 달인이다 [체력 +20%]",
     "source_ref": [
       "2.335:start.hsp:5464",
       "2.335:start.hsp:5469",
@@ -1266,7 +1266,7 @@
   {
     "source": "[Feat]You are an legendary ascetic. [HP+25%]",
     "source_ja": "[フィート]あなたは伝説的名苦行者だ[HP+25%]",
-    "target": "[특성] 전설적인 고행자다 [HP +25%]",
+    "target": "[특성] 전설적인 고행자다 [체력 +25%]",
     "source_ref": [
       "2.335:start.hsp:5464",
       "2.335:start.hsp:5469",
@@ -1303,7 +1303,7 @@
   {
     "source": "[Feat]Your genes contain magic. [MP+5%]",
     "source_ja": "[フィート]あなたは魔力の遺伝子を持っている[MP+5%]",
-    "target": "[특성] 마력의 유전자를 지니고 있다 [MP +5%]",
+    "target": "[특성] 마력의 유전자를 지니고 있다 [마나 +5%]",
     "source_ref": [
       "2.335:start.hsp:5476",
       "2.335:start.hsp:5481",
@@ -1322,7 +1322,7 @@
   {
     "source": "[Feat]Your cells contain magica [MP+10%]",
     "source_ja": "[フィート]あなたは魔力の細胞を持っている[MP+10%]",
-    "target": "[특성] 마력의 세포를 지니고 있다 [MP +10%]",
+    "target": "[특성] 마력의 세포를 지니고 있다 [마나 +10%]",
     "source_ref": [
       "2.335:start.hsp:5476",
       "2.335:start.hsp:5481",
@@ -1341,7 +1341,7 @@
   {
     "source": "[Feat]Your blood contain magic [MP+15%]",
     "source_ja": "[フィート]あなたには魔力の血液が流れている[MP+15%]",
-    "target": "[특성] 당신에게는 마력의 피가 흐른다 [MP +15%]",
+    "target": "[특성] 당신에게는 마력의 피가 흐른다 [마나 +15%]",
     "source_ref": [
       "2.335:start.hsp:5476",
       "2.335:start.hsp:5481",
@@ -1360,7 +1360,7 @@
   {
     "source": "[Feat]Your body is made of magic. [MP+20%]",
     "source_ja": "[フィート]あなたの肉体は魔力を帯びている[MP+20%]",
-    "target": "[특성] 육체에는 마력이 깃들어 있다 [MP +20%]",
+    "target": "[특성] 육체에는 마력이 깃들어 있다 [마나 +20%]",
     "source_ref": [
       "2.335:start.hsp:5476",
       "2.335:start.hsp:5481",
@@ -1379,7 +1379,7 @@
   {
     "source": "[Feat]Magic dominats your entire body. [MP+25%",
     "source_ja": "[フィート]あなたは魔力を支配している[MP+25%]",
-    "target": "[특성] 마력을 지배한다 [MP +25%]",
+    "target": "[특성] 마력을 지배한다 [마나 +25%]",
     "source_ref": [
       "2.335:start.hsp:5476",
       "2.335:start.hsp:5481",
@@ -3981,7 +3981,7 @@
   {
     "source": "[AWAKE]You got Guts.",
     "source_ja": "[覚醒]あなたの意地は窮地すらも乗り越える[HP減るほど回避軽減クリティカル上昇]",
-    "target": "[각성] 위기에 몰릴수록 오기가 살아난다. [HP가 낮을수록 회피·피해 경감·치명타 상승]",
+    "target": "[각성] 위기에 몰릴수록 오기가 살아난다. [체력이 낮을수록 회피·피해 경감·치명타 상승]",
     "source_ref": [
       "2.335:start.hsp:289131",
       "2.335:start.hsp:289462"
@@ -3996,7 +3996,7 @@
   {
     "source": "[AWAKE]You got Boundless power.",
     "source_ja": "[覚醒]あなたの底力は窮地すらも乗り越える[HP減るほど最終与ダメージ上昇]",
-    "target": "[각성] 위기에서 저력을 발휘한다. [HP가 낮을수록 최종 가하는 피해 증가]",
+    "target": "[각성] 위기에서 저력을 발휘한다. [체력이 낮을수록 최종 가하는 피해 증가]",
     "source_ref": [
       "2.335:start.hsp:289136",
       "2.335:start.hsp:289462"
@@ -4011,7 +4011,7 @@
   {
     "source": "[AWAKE]You got Barrier.",
     "source_ja": "[覚醒]あなたの障壁は如何なる攻撃でも防ぐ[ダメージ分MP消費し攻撃無効化]",
-    "target": "[각성] 어떤 공격도 막는 장벽을 펼친다. [피해량만큼 MP를 써서 공격 무효화]",
+    "target": "[각성] 어떤 공격도 막는 장벽을 펼친다. [피해량만큼 마나를 써서 공격 무효화]",
     "source_ref": [
       "2.335:start.hsp:289141",
       "2.335:start.hsp:289462"
@@ -4541,7 +4541,7 @@
   {
     "source": "Alright, I can raise an ally's life by 10 by consuming AP depending on initial life and bit. Who's it gonna be?",
     "source_ja": "よし、初期生命力・マナや資質に応じたAPを消費して、生命力を10上げるぞ。誰の生命力を上昇させるんだ？",
-    "target": "좋아. 초기 생명력과 마나, 자질에 따라 AP를 써서 생명력을 10 올려 주지. 누구의 생명력을 높일까?",
+    "target": "좋아. 초기 생명력과 마나, 자질에 따라 각성점을 써서 생명력을 10 올려 주지. 누구의 생명력을 높일까?",
     "source_ref": [
       "2.335:start.hsp:415233"
     ],
@@ -4555,7 +4555,7 @@
   {
     "source": "100 bonus points will cost 500AP. Who's it gonna be?",
     "source_ja": "AP500をスキルボーナス100に変換する。誰を対象にするんだ？",
-    "target": "AP 500을 기술 보너스 100으로 바꾼다. 누구에게 쓸 거냐?",
+    "target": "각성점 500을 기술 보너스 100으로 바꾼다. 누구에게 쓸 거냐?",
     "source_ref": [
       "2.335:start.hsp:415251"
     ],
@@ -4569,7 +4569,7 @@
   {
     "source": "Alright, I can raise an ally's speed by 30 by consuming AP depending on initial speed. Who's it gonna be?",
     "source_ja": "よし、初期速度に応じたAPを消費して速度を30上げるぞ。誰の速度を上昇させるんだ？",
-    "target": "좋아. 초기 속도에 따라 AP를 써서 속도를 30 올려 주지. 누구의 속도를 높일까?",
+    "target": "좋아. 초기 속도에 따라 각성점을 써서 속도를 30 올려 주지. 누구의 속도를 높일까?",
     "source_ref": [
       "2.335:start.hsp:415270"
     ],
@@ -4583,7 +4583,7 @@
   {
     "source": "Charm (1500AP) [Dim enemies attacking at close range]",
     "source_ja": "魅惑(消費AP1500)[直接攻撃してきた敵が朦朧]",
-    "target": "매혹 (1,500 AP) [직접 공격해 온 적에게 몽롱 부여]",
+    "target": "매혹 (각성점 1,500) [직접 공격해 온 적에게 몽롱 부여]",
     "source_ref": [
       "2.335:start.hsp:415288",
       "2.335:start.hsp:416854"
@@ -4598,7 +4598,7 @@
   {
     "source": "Brave (1500AP) [Increase damage dealt as HP decreases]",
     "source_ja": "底力(消費AP1500)[HP減るほど最終与ダメージ上昇]",
-    "target": "저력 (1,500 AP) [HP가 낮을수록 최종 가하는 피해 증가]",
+    "target": "저력 (각성점 1,500) [체력이 낮을수록 최종 가하는 피해 증가]",
     "source_ref": [
       "2.335:start.hsp:415291",
       "2.335:start.hsp:416857"
@@ -4613,7 +4613,7 @@
   {
     "source": "Obstinate (1800AP) [Increase evasion, damage mitigation as HP decreases]",
     "source_ja": "意地(消費AP1800)[HP減るほど回避・軽減率上昇]",
-    "target": "오기 (1,800 AP) [HP가 낮을수록 회피율과 피해 경감률 상승]",
+    "target": "오기 (각성점 1,800) [체력이 낮을수록 회피율과 피해 경감률 상승]",
     "source_ref": [
       "2.335:start.hsp:415294",
       "2.335:start.hsp:416860"
@@ -4628,7 +4628,7 @@
   {
     "source": "Barrier (2000AP) [Negate attacks with equal amount of MP]",
     "source_ja": "障壁(消費AP2000)[ダメージ分MP消費し攻撃無効化]",
-    "target": "장벽 (2,000 AP) [피해량만큼 MP를 써서 공격 무효화]",
+    "target": "장벽 (각성점 2,000) [피해량만큼 마나를 써서 공격 무효화]",
     "source_ref": [
       "2.335:start.hsp:415297",
       "2.335:start.hsp:416863"
@@ -4657,7 +4657,7 @@
   {
     "source": "Insult(100AP)",
     "source_ja": "罵倒(消費AP100)",
-    "target": "매도 (100 AP)",
+    "target": "매도 (각성점 100)",
     "source_ref": [
       "2.335:start.hsp:415325"
     ],
@@ -4671,7 +4671,7 @@
   {
     "source": "Crystal Spear(600AP)",
     "source_ja": "魔力の集積(消費AP600)",
-    "target": "마력 집적 (600 AP)",
+    "target": "마력 집적 (각성점 600)",
     "source_ref": [
       "2.335:start.hsp:415328"
     ],
@@ -4685,7 +4685,7 @@
   {
     "source": "Dimensional Move(100AP)",
     "source_ja": "空間歪曲(消費AP100)",
-    "target": "공간 왜곡 (100 AP)",
+    "target": "공간 왜곡 (각성점 100)",
     "source_ref": [
       "2.335:start.hsp:415331"
     ],
@@ -4699,7 +4699,7 @@
   {
     "source": "Provoke(200AP)",
     "source_ja": "挑発(消費AP200)",
-    "target": "도발 (200 AP)",
+    "target": "도발 (각성점 200)",
     "source_ref": [
       "2.335:start.hsp:415334"
     ],
@@ -4713,7 +4713,7 @@
   {
     "source": "Charge Attack(1000AP)",
     "source_ja": "チャージ(消費AP1000)",
-    "target": "충전 (1,000 AP)",
+    "target": "충전 (각성점 1,000)",
     "source_ref": [
       "2.335:start.hsp:415337"
     ],
@@ -4727,7 +4727,7 @@
   {
     "source": "Tactical Martial Arts(600AP)",
     "source_ja": "タクティカルアーツ(消費AP600)",
-    "target": "전술 무술 (600 AP)",
+    "target": "전술 무술 (각성점 600)",
     "source_ref": [
       "2.335:start.hsp:415340"
     ],
@@ -4741,7 +4741,7 @@
   {
     "source": "Tactical Attack(400AP)",
     "source_ja": "タクティカルアタック(消費AP400)",
-    "target": "전술 공격 (400 AP)",
+    "target": "전술 공격 (각성점 400)",
     "source_ref": [
       "2.335:start.hsp:415343"
     ],
@@ -4755,7 +4755,7 @@
   {
     "source": "Tactical Heal(500AP)",
     "source_ja": "タクティカルヒール(消費AP500)",
-    "target": "전술 치유 (500 AP)",
+    "target": "전술 치유 (각성점 500)",
     "source_ref": [
       "2.335:start.hsp:415346"
     ],
@@ -4769,7 +4769,7 @@
   {
     "source": "Tactical Curse(500AP)",
     "source_ja": "タクティカルカース(消費AP500)",
-    "target": "전술 저주 (500 AP)",
+    "target": "전술 저주 (각성점 500)",
     "source_ref": [
       "2.335:start.hsp:415349"
     ],
@@ -4783,7 +4783,7 @@
   {
     "source": "Tactical Throw(500AP)",
     "source_ja": "タクティカルスロー(消費AP500)",
-    "target": "전술 투척 (500 AP)",
+    "target": "전술 투척 (각성점 500)",
     "source_ref": [
       "2.335:start.hsp:415352"
     ],
@@ -4797,7 +4797,7 @@
   {
     "source": "Zero shoot(500AP)",
     "source_ja": "零の間撃(消費AP500)",
-    "target": "영거리 사격 (500 AP)",
+    "target": "영거리 사격 (각성점 500)",
     "source_ref": [
       "2.335:start.hsp:415355"
     ],
@@ -4811,7 +4811,7 @@
   {
     "source": "Variable Breath(300AP)",
     "source_ja": "可変放射(消費AP400)",
-    "target": "가변 방사 (400 AP)",
+    "target": "가변 방사 (각성점 400)",
     "source_ref": [
       "2.335:start.hsp:415358"
     ],
@@ -4825,7 +4825,7 @@
   {
     "source": "Variable Storm(800AP)",
     "source_ja": "範囲魔法可変術式(消費AP800)",
-    "target": "범위 마법 가변 술식 (800 AP)",
+    "target": "범위 마법 가변 술식 (각성점 800)",
     "source_ref": [
       "2.335:start.hsp:415361"
     ],
@@ -4853,7 +4853,7 @@
   {
     "source": "Increased frequency of melee attack(30AP)",
     "source_ja": "近接攻撃頻度増加(消費AP30)",
-    "target": "근접 공격 빈도 증가 (30 AP)",
+    "target": "근접 공격 빈도 증가 (각성점 30)",
     "source_ref": [
       "2.335:start.hsp:415434"
     ],
@@ -4867,7 +4867,7 @@
   {
     "source": "Increased frequency of ranged attack(30AP)",
     "source_ja": "遠隔攻撃頻度増加(消費AP30)",
-    "target": "원거리 공격 빈도 증가 (30 AP)",
+    "target": "원거리 공격 빈도 증가 (각성점 30)",
     "source_ref": [
       "2.335:start.hsp:415437"
     ],
@@ -4881,7 +4881,7 @@
   {
     "source": "Use dart spell instead of regular attack(200AP)",
     "source_ja": "物理攻撃矢魔法化(消費AP200)",
-    "target": "일반 물리 공격을 화살 계열 마법으로 전환 (200 AP)",
+    "target": "일반 물리 공격을 화살 계열 마법으로 전환 (각성점 200)",
     "source_ref": [
       "2.335:start.hsp:415440"
     ],
@@ -4895,7 +4895,7 @@
   {
     "source": "Preferred distance +1(10AP)",
     "source_ja": "適正距離＋1(消費AP10)",
-    "target": "적정 거리 +1 (10 AP)",
+    "target": "적정 거리 +1 (각성점 10)",
     "source_ref": [
       "2.335:start.hsp:415443"
     ],
@@ -4909,7 +4909,7 @@
   {
     "source": "Preferred distance -1(10AP)",
     "source_ja": "適正距離－1(消費AP10)",
-    "target": "적정 거리 -1 (10 AP)",
+    "target": "적정 거리 -1 (각성점 10)",
     "source_ref": [
       "2.335:start.hsp:415446"
     ],
@@ -4923,7 +4923,7 @@
   {
     "source": "Movement probability -10%(5AP)",
     "source_ja": "移動確率＋10％(消費AP5)",
-    "target": "이동 확률 +10% (5 AP)",
+    "target": "이동 확률 +10% (각성점 5)",
     "source_ref": [
       "2.335:start.hsp:415449"
     ],
@@ -4938,7 +4938,7 @@
   {
     "source": "Movement probability -10%(5AP)",
     "source_ja": "移動確率－10％(消費AP5)",
-    "target": "이동 확률 -10% (5 AP)",
+    "target": "이동 확률 -10% (각성점 5)",
     "source_ref": [
       "2.335:start.hsp:415452"
     ],
@@ -4953,7 +4953,7 @@
   {
     "source": "Allow/disallow spell usage(20AP)",
     "source_ja": "魔法の使用封印/解除(消費AP20)",
-    "target": "마법 사용 봉인·해제 (20 AP)",
+    "target": "마법 사용 봉인·해제 (각성점 20)",
     "source_ref": [
       "2.335:start.hsp:415455"
     ],
@@ -4967,7 +4967,7 @@
   {
     "source": "Allow/disallow ability usage(20AP)",
     "source_ja": "技能の使用封印/解除(消費AP20)",
-    "target": "특수 기술 사용 봉인·해제 (20 AP)",
+    "target": "특수 기술 사용 봉인·해제 (각성점 20)",
     "source_ref": [
       "2.335:start.hsp:415458"
     ],
@@ -4981,7 +4981,7 @@
   {
     "source": "Increase character quality(1000AP)",
     "source_ja": "キャラ品質上昇(消費AP1000)",
-    "target": "캐릭터 품질 상승 (1,000 AP)",
+    "target": "캐릭터 품질 상승 (각성점 1,000)",
     "source_ref": [
       "2.335:start.hsp:415461"
     ],
@@ -4995,7 +4995,7 @@
   {
     "source": "How do you want them to change? Careful now, AP spent on these will never get refunded even if you pick the same option again.",
     "source_ja": "どう変更させるんだ？ちなみにこれらは、後で打ち消しても前に消費したAPは戻ってこない。気をつけろ。",
-    "target": "어떻게 바꿀 거냐? 나중에 되돌려도 이미 쓴 AP는 돌아오지 않아. 명심해라.",
+    "target": "어떻게 바꿀 거냐? 나중에 되돌려도 이미 쓴 각성점은 돌아오지 않아. 명심해라.",
     "source_ref": [
       "2.335:start.hsp:415463"
     ],
@@ -5023,7 +5023,7 @@
   {
     "source": "Gain 100 bonus points.(1500AP)",
     "source_ja": "スキルボーナス100獲得(消費AP1500)",
-    "target": "기술 보너스 100 획득 (1,500 AP)",
+    "target": "기술 보너스 100 획득 (각성점 1,500)",
     "source_ref": [
       "2.335:start.hsp:416744"
     ],
@@ -5037,7 +5037,7 @@
   {
     "source": "Continuous attacks (100AP) [Weak series of attacks]",
     "source_ja": "高速ラッシュ(消費AP100)[弱威力連続攻撃]",
-    "target": "고속 연타 (100 AP) [약한 공격을 연달아 가한다]",
+    "target": "고속 연타 (각성점 100) [약한 공격을 연달아 가한다]",
     "source_ref": [
       "2.335:start.hsp:416970"
     ],
@@ -5051,7 +5051,7 @@
   {
     "source": "Provoke (AP300) [Make enemies target self]",
     "source_ja": "挑発(消費AP300)[自分をターゲットにさせる]",
-    "target": "도발 (300 AP) [적이 자신을 노리게 한다]",
+    "target": "도발 (각성점 300) [적이 자신을 노리게 한다]",
     "source_ref": [
       "2.335:start.hsp:416975"
     ],
@@ -5065,7 +5065,7 @@
   {
     "source": "Metal Guard (500AP) [Next attack received deals 1/10 damage]",
     "source_ja": "メタルコート(消費AP500)[一度だけ受けるダメージ1/10]",
-    "target": "금속 피막 (500 AP) [한 번만 받는 피해를 1/10로 줄인다]",
+    "target": "금속 피막 (각성점 500) [한 번만 받는 피해를 1/10로 줄인다]",
     "source_ref": [
       "2.335:start.hsp:416980"
     ],
@@ -5079,7 +5079,7 @@
   {
     "source": "Synchro hearts (800AP) [Impress-dependent ally heal/buff when low on health]",
     "source_ja": "魂のシンクロ(消費AP800)[瀕死時、好感度依存仲間強化/回復]",
-    "target": "영혼 동조 (800 AP) [빈사 시 호감도에 따라 동료 강화·회복]",
+    "target": "영혼 동조 (각성점 800) [빈사 시 호감도에 따라 동료 강화·회복]",
     "source_ref": [
       "2.335:start.hsp:416985"
     ],
@@ -5093,7 +5093,7 @@
   {
     "source": "Charge Attack(AP1000) [Buff next attack/spell/breath]",
     "source_ja": "チャージ(消費AP1000)[一度だけ物理/魔法/放射の攻撃強化]",
-    "target": "충전 (1,000 AP) [다음 물리 공격·마법·방사 중 한 번을 강화]",
+    "target": "충전 (각성점 1,000) [다음 물리 공격·마법·방사 중 한 번을 강화]",
     "source_ref": [
       "2.335:start.hsp:416990"
     ],

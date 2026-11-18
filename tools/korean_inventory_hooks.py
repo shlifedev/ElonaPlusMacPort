@@ -1,6 +1,21 @@
 """Insert display-only item identity at the two 2.335 inventory row draws."""
 
 
+def catch_identity(index, indent):
+    # 618/619 have empty base names. inv(23) indexes the original fishdatan
+    # in both languages. Check the stored type as well as the array bounds.
+    lines = [
+        'native_catch_index = inv(23, ' + index + ')',
+        'if ( native_catch_index > 0 & native_catch_index < length(fishdatan) ) {',
+        '    if ( fishdata(7, native_catch_index) == inv(3, ' + index + ') ) {',
+        '        native_item_base = fishdatan(native_catch_index)',
+        '        native_item_classifier = str(native_catch_index)',
+        '    }',
+        '}',
+    ]
+    return ''.join(indent + line + '\r\n' for line in lines).encode()
+
+
 def install_item_hooks(at):
     inventory = b"\t\tcs_list s, wx + 84, wy + 60 + cnt * 19 - 1, 19, 0, 1, p\r\n"
     inventory += b"\t\tpos wx + 600 - strlen(s(1)) * 7, wy + 60 + cnt * 19 + 2\r\n"
@@ -19,7 +34,26 @@ def install_item_hooks(at):
                    b"\t\t\t\t\tif ( en & " + item + b" < length(ioriginalnameref2) ) {\r\n"
                    b"\t\t\t\t\t\tnative_item_classifier = ioriginalnameref2(" + item + b")\r\n"
                    b"\t\t\t\t\t}\r\n"
-                   b"\t\t\t\t\tnative_ko_item s, ioriginalnameref(" + item + b"), native_item_classifier, " +
+                   b"\t\t\t\t\tnative_item_base = ioriginalnameref(" + item + b")\r\n"
+                   b"\t\t\t\t\tif ( " + item + b" == 618 | " + item + b" == 619 ) {\r\n" +
+                   catch_identity(index.decode(), "\t\t\t\t\t\t") +
+                   b"\t\t\t\t\t}\r\n"
+                   b"\t\t\t\t\tnative_ko_item s, native_item_base, native_item_classifier, " +
                    item + b"\r\n"
                    b"\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n")
         at(line, capture, "inventory_item_label")
+
+    detail = b"\tdisplay_topic itemname(ci), wx + 28, wy + 34\r\n"
+    at(detail, (b"\tnative_detail_catch = 0\r\n"
+                b"\tif ( inv(3, ci) == 618 | inv(3, ci) == 619 ) {\r\n"
+                b"\t\tif ( inv(28, ci) == 0 ) {\r\n"
+                b'\t\t\tnative_item_base = ""\r\n' +
+                catch_identity("ci", "\t\t\t") +
+                b'\t\t\tif ( native_item_base != "" ) {\r\n'
+                b"\t\t\t\tnative_detail_catch = inv(3, ci)\r\n"
+                b"\t\t\t}\r\n\t\t}\r\n\t}\r\n"), "catch_detail_begin")
+    at(detail, b"\tnative_detail_catch = 0\r\n", "catch_detail_end", after=True)
+    at(b"\tmes display_topic_prm0\r\n",
+       b"\tif ( native_detail_catch != 0 ) {\r\n"
+       b"\t\tnative_ko_item display_topic_prm0, native_item_base, native_item_classifier, native_detail_catch\r\n"
+       b"\t}\r\n", "catch_detail_label")
