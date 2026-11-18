@@ -109,8 +109,9 @@ GitHub Actions는 `main`과 `dev` 브랜치를 대상으로 한다. 원본 게�
 
 `tools/package_release.py`가 패키지를 만든다.
 
-- mac: 호스트 rpath를 `@executable_path/../Frameworks`로 바꾸고 SDL 프레임워크와 `data/`를 `launcher/stage/`에 모은다. 그다음 Tauri로 `.app`(ad-hoc 서명)을 만들고 `hdiutil`로 `.dmg`를 만든다.
+- mac: 호스트 rpath를 `@executable_path/../Frameworks`로 바꾸고 SDL 프레임워크와 `data/`를 `launcher/stage/`에 모은다. 그다음 Tauri로 `.app`(ad-hoc 서명)을 만들고 `hdiutil`로 `.dmg`를 만든다. ad-hoc 서명에서는 hardened runtime을 끈다. 켜면 라이브러리 검증 때문에 호스트가 번들된 SDL 프레임워크를 불러오지 못한다(`different Team IDs`).
 - windows: `tauri build --no-bundle`로 만든 `ElonaPlus.exe`, `elona_gui_host.exe`, SDL DLL, `data/`를 `.zip`으로 묶는다. SDL VC 패키지는 `tools/reference/windows_gui_deps.py --extract .cache/windows-gui`로 준비하고, 호스트는 `windows-x64-legacy-cp932-release` preset으로 빌드한다.
+- 두 플랫폼 모두 패키징 중에 번들된 호스트를 알 수 없는 옵션으로 한 번 실행한다. 사용법이 출력되고 exit 2로 끝나야 통과다. 라이브러리를 불러오지 못하면 패키징이 실패한다.
 
 패키지에 넣는 게임 코드는 `packaging/game-data.json`의 파일 네 개(정규화 원본 AX, 한국어 AX, scene1/2.hsp)뿐이다. 그래픽·음악·효과음·맵은 넣지 않는다. CI에는 원본이 없으므로 이 파일들은 GitHub release `game-data-2.335`에 올려 두고 SHA-256으로 확인한다. 한국어 AX가 바뀌면 로컬에서 다시 만들고 다음 순서로 갱신한다.
 

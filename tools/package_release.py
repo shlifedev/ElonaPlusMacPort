@@ -87,6 +87,13 @@ def tauri_build(version: str, *extra: str) -> None:
                    cwd=LAUNCHER, check=True)
 
 
+def smoke_test(host: Path) -> None:
+    """Fail unless the packaged host loads its bundled libraries (it exits 2 on an unknown option)."""
+    r = subprocess.run([str(host), "--package-smoke-test"], capture_output=True, text=True, timeout=60)
+    if r.returncode != 2 or "Usage:" not in r.stdout + r.stderr:
+        raise SystemExit(f"packaged host failed to start ({r.returncode}):\n{r.stderr}")
+
+
 def package_mac(build: Path, out: Path, game_data, version: str) -> Path:
     fresh(STAGE)
     triple = next(l.split()[1] for l in run("rustc", "-vV").splitlines() if l.startswith("host:"))
@@ -105,6 +112,7 @@ def package_mac(build: Path, out: Path, game_data, version: str) -> Path:
 
     app = LAUNCHER / "target/release/bundle/macos/ElonaPlus.app"
     run("codesign", "--verify", "--deep", "--strict", app)
+    smoke_test(app / "Contents/MacOS/elona_gui_host")
     dmg_root = fresh(out / "dmg")
     shutil.copytree(app, dmg_root / app.name, symlinks=True)
     shutil.copy2(STAGE / "data/README.txt", dmg_root / "README.txt")
@@ -122,6 +130,7 @@ def package_windows(build: Path, out: Path, game_data, version: str, sdl_root: P
     shutil.copy2(build / "elona_gui_host.exe", app / "elona_gui_host.exe")
     for dll in ("SDL3.dll", "SDL3_ttf.dll"):
         shutil.copy2(next(sdl_root.glob(f"*/lib/x64/{dll}")), app / dll)
+    smoke_test(app / "elona_gui_host.exe")
     stage_data(app / "data", game_data, version)
     add_notices(app, version)
     archive = out / f"ElonaPlus-{version}-windows-x64.zip"

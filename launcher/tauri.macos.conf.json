@@ -5,7 +5,8 @@
     "macOS": {
       "frameworks": ["stage/Frameworks/SDL3.framework", "stage/Frameworks/SDL3_ttf.framework"],
       "minimumSystemVersion": "13.0",
-      "signingIdentity": "-"
+      "signingIdentity": "-",
+      "hardenedRuntime": false
     }
   }
 }
