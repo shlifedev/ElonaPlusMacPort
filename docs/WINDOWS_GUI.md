@@ -1,9 +1,43 @@
 # Windows 네이티브 GUI(SDL3/SDL3_ttf) 검증 (2026-11-18)
 
-**상태: 기본 GUI·신규게임·저장/로드 검증 완료, 장시간 실시간 플레이는 미검증.**
+**상태: 이전 `gui-native-02/03`은 기본 GUI·신규게임·저장/로드 검증 완료. 후속 `gui-native-04/05`는 실제 타이틀 창 캡처 판정 실패가 남아 있어 전체 통과가 아니다. 장시간 실시간 플레이는 미검증.**
 Claude 담당자가 사용량 한도로 중단한 뒤 root가 기존 실행 결과를 회수하고 검증 도구를 수정했다.
 `gui-native-01`은 빌드와 headless 게임 실행을 마쳤으나 window-startup 작업 폴더를 두 번 만들면서
 session 1 실행 전에 중단됐다. 이를 게임 실행 실패와 구분한다. 해당 실행의 잔여 프로세스/예약 작업은 없었다.
+
+## 후속 진단·안내 창 수정: gui-native-04/05 부분 완료
+
+2026-11-18 Codex 병렬 작업자가 팝업/종료 진단과 `--auxiliary-close-hide`를 포함한 C++ 소스를 Windows MSVC x64에서 다시 빌드했다. `04` 소스는 이후 root의 한국어 문단 helper/변환 AX 작업 전 스냅샷이다. `05`는 동시 소스 편집을 피하려고 같은 `04` 스냅샷을 명시적으로 재사용했다.
+
+```sh
+python3 tools/reference/windows_gui_run.py --run gui-native-04
+python3 tools/reference/windows_gui_run.py --run gui-native-05 --snapshot-from gui-native-04
+```
+
+- 두 실행 모두 Release 빌드 성공, fixture 11개×headless/SDL 창의 22개 기대 결과 통과. x86 BMP 기준과 renderer readback 일치 유지.
+- 원본 AX 신규게임→이동→저장·종료 exit0/4358프레임, 저장154파일. 복사 프로필의 새 프로세스 로드 exit124/max-waits/1101프레임. 미지원·HSP 오류 없음.
+- 예약 작업 삭제, 잔여 프로세스0, 원본 ZIP과 private 원본 트리1530항목 불변을 각각 확인했다.
+- **실제 타이틀 창의 외부 캡처 판정은 두 실행 모두 실패했다.** `04`는 15초 후 PrintWindow가 초기 언어 선택 화면(13색)을 반환했다. `05`는 자체 frame400 타이틀 screenshot 생성 marker를 관찰한 뒤 캡처했지만(`ready_file_observed=True`, 약1.9초) 같은 초기 화면이었다. 따라서 단순히 너무 일찍 캡처한 문제로 해결됐다고 할 수 없다. DC 캡처는 검정이었다.
+- 동일 프로세스의 CPU frame400와 종료 시 SDL renderer readback에는 정상 타이틀이 있다. 캡처 API/합성 문제인지 실제 표시 갱신 문제인지 구분할 증거가 부족하다. 둘 다 `all_automated_checks_passed=false`를 그대로 보존했다. `session_and_integrity_ok=false`는 타이틀 캡처 조건도 포함한 판정이며 작업 정리나 해시 불변 검사가 실패했다는 뜻은 아니다.
+- 최신 사용자 지시가 화면/팝업 **조사만**으로 바뀌어 여기서 추가 Windows 표시 수정·실행은 보류했다. 실제 사용자 창과 설정은 건드리지 않았다.
+
+증거: `work/windows/reference-build/gui-native-{04,05}/verify.json`, `window-results/probe.log`, `window-results/window-startup-window0-pw.png`, `png/window-startup-f0400.png`, `png/window-startup-window.png`. `tools/reference/WindowsGuiProbe.cs`의 ready-file marker, 실행기의 `--snapshot-from`이 재현을 지원한다.
+
+## Windows 한국어 표시와 팝업 경계 fixture: 통과
+
+위 전체 타이틀 캡처 실패와 별도로, `04` 실행물에 고정된 한국어 catalog를 주어 작은 전용 fixture를 실제 session1 창에서 확인했다.
+
+```sh
+python3 tools/reference/windows_localization_check.py --run gui-native-04
+```
+
+- `localization-check/verify.json`의 `passed=true`. 실제 PrintWindow 이미지에서 **모험의 이정표**를 확인했고, 입력 오버레이는 원문 **Starting Menu**를 유지했다. VM/저장 원문 바이트 불변, 한국어 표시 픽셀 변화, renderer readback 오버레이 외 불일치0(오버레이758픽셀).
+- 설치된 `C:\Windows\Fonts\malgun.ttf`를 직접 읽었고 복사·재배포하지 않았다. SHA-256 `7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f`.
+- 호스트 SHA-256 `4a8c7e116298fe2835526d443333a24ad055330bc4841877a27e68b934e1934f`, catalog SHA-256 `cb917c2eb12e1f203584b34e31521596f479b2fc78fa5bb5934a372c29058e27`(3837키).
+- 결정적 modal fixture의 1/6/7/1 결과와 안내 창 fixture의 기본 종료/옵션 적용 후 계속 실행→메인 창 닫기 분기를 확인했다. Windows의 실제 OS 모달 버튼을 수동 클릭한 검사는 아니다.
+- 실제 창은 probe가 시작한 자기 프로세스만 캡처했고 일회성 작업 삭제·잔여0. 증거 `work/windows/reference-build/gui-native-04/localization-check/{verify.json,window-with-edit.png,window-results/korean-window-window0-pw.png}`.
+
+이 검사는 **표시 catalog/VM 분리와 팝업 경계**에 대한 것이다. 이후 추가된 한국어 문단 helper/type48, 변환된 전체 AX, 최신 한국어 신규게임 전체 경로의 Windows 검증으로 확대 해석하지 않는다. 도구는 `tools/reference/windows_localization_check.py`와 `.ps1`이다.
 
 ## 확인한 결과: gui-native-02
 
