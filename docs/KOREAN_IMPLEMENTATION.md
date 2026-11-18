@@ -46,7 +46,8 @@ python3 tools/compile_localization.py \
 - 실제 catalog의 모든 키를 CP932 HSP fixture로 컴파일해 렌더하는 `tests/localization/run_catalog_smoke.py`. 최종 5,058키, 충돌0 catalog를 최신 Release에서 전부 그려 lookup 실패0/글리프 오류0을 확인했다(`work/localization-font-audit-release-final.log`). 이것은 글꼴 검사이며 모든 UI 배치가 맞다는 뜻이 아니다.
 - 초기 catalog와 후속 전체 catalog의 같은 신규게임 입력은 각각 exit0/4,358프레임, 미지원·오류0. 생성된 세이브154파일의 압축 해제 내용이 같았다. `work/game-run/ko-fullcatalog-newgame-01/save-display-parity.json`.
 - 노른79본문행/48페이지를 원래 본문폭330, 창480×175로 렌더한 fixture: 높이 초과0, 최대 다음y171, 글자 픽셀 최대x448/y166. 실제 일본어 기반 게임에서도 집 안내2페이지·세계지도 안내4페이지의 한글·강조를 확인했다. 신규게임/로드/집탈출 대조6/6, 저장154/154·154/154·162/162파일 압축 해제 내용 동일이다. [문단 경계 기록](KOREAN_RENDER_BOUNDARY.md).
-- Windows는 설치된 Malgun으로 한국어 표시·입력 값 보존·실제 창 fixture 통과. 최신 문단 확장 검증은 별도 기록으로 구분한다. [WINDOWS_GUI.md](WINDOWS_GUI.md).
+- Windows 실제 창의 기본 한글 표시/입력 값 보존은 별도 fixture에서 통과했다. 이후 `gui-native-ko-managed-03`에서는 최신 문단 ABI·5058키 렌더·기준/관리fallback/한국어 관리 AX의 신규게임/로드/노른/세계지도9회가 모두 통과했다(41개 검사). 저장154/154/162파일은 기준과 동일했다. 이 최신 전체 게임 검사는 headless이며 실제 OS 창 장시간 플레이를 뜻하지 않는다. [WINDOWS_GUI.md](WINDOWS_GUI.md).
+- Windows Malgun/Gulim에 U+30FB(일본어 가운데점)가 없어 전체 catalog 검사가 처음 실패했다. 해당 글자만 기존 원문용 MS Gothic에서 가져오는 글리프별 fallback을 추가했고5058키 전체 검사로 해결을 확인했다. 두 글꼴 모두 없는 글자는 오류로 진단한다. 구두점을 삭제하거나 다른 기호로 바꾸지 않았으며 해상도/HiDPI 정책도 변경하지 않았다.
 
 ## 실행과 남은 일
 

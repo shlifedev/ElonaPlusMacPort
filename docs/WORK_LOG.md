@@ -30,11 +30,21 @@ Windows의 외부 캡처 실패는 `docs/WINDOWS_GUI.md`에 정정했다. 단순
 
 ## 2026-11-18 — 한국어 DB 검수·실제 도움말 표시
 
+기록된 커밋: `622f8a5` — `Review Korean database and validate native tutorial paragraphs`.
+
 - DB 2,406개 중 검수2,263/문맥 보류143. 종족76·직업12 이름과 실제 표시 소스를 확인한 별칭23개를 추가했다. `God`는 종교 항목과 종족이 충돌하여 잘못된 별칭을 제거했다. 화자별 감사 인사, 관계 라벨/대사, 동명 종족/아이템도 문맥 없는 치환을 제외했다.
 - 최종 생성물5,058개 표시 키, 충돌0. SHA-256 `dc65f3548b0bcbaabfc655c23c05c90e84650434ef55115a676f9c5d7a32b613`. 각 키의 입력 파일·항목·출처·라이선스를 `runtime.sources.json`에서 추적한다. JP/EN 두 키가 같은 번역일 수 있으므로5,058문장을 번역했다고 표현하지 않는다.
 - 최신 Mac Release CTest11/11, 최종 모든 키의 실제 lookup/한글 글리프 렌더5058/5058, 미번역 fallback·원본 VM 문자열 유지 검사 통과. `work/root-korean-paragraph-ctest.log`, `work/localization-font-audit-release-final.log`.
 - JP 기준 AX와 한국어 관리 AX의 신규게임·저장 재로드·집 탈출/북부 티리스 진입6/6 통과. 세 단계 저장154/154·154/154·162/162 압축 해제 파일 동일, 턴 차이0. 실제 노른 안내6페이지를 한국어로 확인했고 전체48페이지 별도 레이아웃 fixture의 넘침도0이다. `work/localization/japanese-gate-final-01/summary.json` 및 [문단 경계 문서](KOREAN_RENDER_BOUNDARY.md).
 - 일반 한국어 런처는 아직 원본 AX의 고정 표시 catalog 미리보기다. 관리 문단 AX는 별도 개발 실행 경로로 유지한다. 긴 대사·동적 문장·사용자 작성 이름과 전역 키의 충돌 방지·범위 밖 본문은 남아 있다. Windows 최신 문단 검증은 별도 진행 중이다.
+
+## 2026-11-18 — Windows 한국어 글리프 수정·문단 교차 검증
+
+- Windows 최종 catalog 검사에서 실제 결함을 발견했다: Malgun/Gulim에는 U+30FB가 없어 `mes`가 명시적 미지원으로 끝났다. 984개 고유 대상 코드포인트를 조사했고 원문용 MS Gothic에는 해당 기호가 있지만 한글879개가 없었다. 따라서 한글 글꼴을 기본으로 유지하고 누락된 개별 기호만 기존 원문 글꼴에서 그린다. 캐시 키도 분리했다. 양쪽에 없는 글자는 계속 오류로 진단한다.
+- 이 변경은 기존 한국어 구현 작업의 글리프 오류 수정이다. 추가 “조사만” 요청의 해상도/전체 화면/OS팝업 정책과 사용자 설정은 변경하지 않았다.
+- Mac 최신 Release CTest11/11 및5058키 실제 lookup/글리프 전수 검사 통과. Windows `gui-native-ko-managed-03`은 MSVC 빌드, catalog/richtext50개 assertion,5058키·문단ABI·VM원문 보존과 기준/관리fallback/한국어 관리 AX의3단계씩9회 게임 실행, 총41개 검사 통과다.
+- Windows 게임 경로는 신규게임4358/재로드1158/집탈출·노른·북부티리스3008프레임, 모두end0/오류0. 각 단계의 기준 세이브154/154/162파일과 해제 내용 동일, 턴차이0. 한국어 노른 본문 명령12회와 화면을 확인했다. 원본 ZIP/private트리 불변, 소유 프로세스 잔여0. 이 검사는 headless이며 앞선 PrintWindow 캡처 실패를 해결한 것으로 표현하지 않는다.
+- 실패했던 `gui-native-ko-managed-02` 증거도 보존한다. 재현 도구는 `tools/reference/windows_managed_check.{py,ps1}`와 `WindowsFontGlyphProbe.cs`, 결과는 `work/windows/reference-build/gui-native-ko-managed-03/verify.json`이다.
 
 ### 다음 작업
 

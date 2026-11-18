@@ -213,12 +213,22 @@ private:
             Uint32 cp = decode_utf8(utf8.substr(i, n));
             i += n;
             if (cp == '\t') { int tab = std::max(1, px / 2) * 8; pen = x + ((pen - x) / tab + 1) * tab; continue; }
-            if (!TTF_FontHasGlyph(f, cp)) {
+            TTF_Font* glyph_font = f;
+            long glyph_key = key;
+            if (!TTF_FontHasGlyph(glyph_font, cp)) {
+                // Malgun covers Hangul but omits some original Japanese
+                // punctuation (for example U+30FB). Preserve the character
+                // using the already installed original-text font, with a
+                // separate cache key; never replace it with '?' or blank.
+                glyph_font = font_for(spec, false);
+                glyph_key -= 0x1000000;
+            }
+            if (!glyph_font || !TTF_FontHasGlyph(glyph_font, cp)) {
                 std::ostringstream message;
-                message << "Korean font missing glyph U+" << std::uppercase << std::hex << cp;
+                message << "Korean and original text fonts missing glyph U+" << std::uppercase << std::hex << cp;
                 throw Unsupported(message.str());
             }
-            const Glyph& g = glyph(f, key, cp);
+            const Glyph& g = glyph(glyph_font, glyph_key, cp);
             int advance = options_.cp932_cell_metrics ? localization::unicode_cell_width(cp, px) : g.w;
             blit(g, dib, pen + (advance - g.w) / 2, y + (px - g.h) / 2, color);
             pen += advance;

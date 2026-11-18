@@ -39,6 +39,56 @@ python3 tools/reference/windows_localization_check.py --run gui-native-04
 
 이 검사는 **표시 catalog/VM 분리와 팝업 경계**에 대한 것이다. 이후 추가된 한국어 문단 helper/type48, 변환된 전체 AX, 최신 한국어 신규게임 전체 경로의 Windows 검증으로 확대 해석하지 않는다. 도구는 `tools/reference/windows_localization_check.py`와 `.ps1`이다.
 
+## 최신 관리 AX·문단 렌더러: gui-native-ko-managed-03 통과
+
+2026-11-18 후속 Codex 검사. 최신 `native_ko_gmes` type48/$00와 `rich_text`를 포함한 Windows MSVC x64 호스트를 새 private 소스/빌드 디렉터리에서 만들었다. 기존 `gui-native-04/05`를 덮어쓰지 않았고, 그 실행의 외부 창 캡처 실패도 해결됐다고 기록하지 않는다. 이번 검사는 **Windows의 headless TTF/게임 버퍼 렌더링**이며 OS 창 표시·전체 화면·실제 IME 조작 검사가 아니다. 해상도/OS 팝업 동작이나 개인 설정은 바꾸지 않았다.
+
+재현 도구는 `tools/reference/windows_managed_check.py`, `.ps1`이다. 고정 catalog/AX와 새 실행 이름을 사용한다.
+
+```sh
+python3 tools/reference/windows_managed_check.py \
+  --run gui-native-ko-managed-03 \
+  --catalog localization/ko-KR/runtime.tsv
+```
+
+완료된 이름은 재사용할 수 없으므로 재실행 때는 새 이름을 지정한다. 기본 관리 AX 입력은 `work/localization/managed-gmes-v1-01/start.ax`, 비교 입력은 `work/localization/cp932-full-reference-01/start.ax`다. 후자는 원문을 native로 재컴파일한 기준이며 원본 Windows EXE의 직접 실행이 아니다.
+
+| 검사 | 실제 결과 |
+|---|---|
+| 최신 host/compiler/catalog 실행물 MSVC 빌드 | 성공, catalog/rich-text 단위 assertion 50개 통과. 전체 Windows CTest를 실행한 것은 아님 |
+| 원문/한국어 표시 fixture | 화면 픽셀 변화, VM/저장 원문 `Starting Menu` 유지 |
+| 문단 fixture | type48 두 번 호출, 강조·줄바꿈 높이·미번역 fallback·원문 저장 보존 통과 |
+| 전체 고정 catalog | 5,058키 모두 실제 `mes` 호출, 조회 누락0, 미지원/관찰 오류0 |
+| JP 신규게임→집→이동→저장 | 세 변형 모두 exit0, 4358프레임, 저장154파일 내용 동일 |
+| 새 프로세스 로드→인벤토리→재저장 | 세 변형 모두 exit0, 1158프레임, 저장154파일 내용 동일 |
+| 작별→노른 안내→북부 티리스→저장 | 세 변형 모두 exit0, 3008프레임, 저장162파일 내용 동일, 맵4/좌표(22,21) |
+| 게임 문단 경계 도달 | 관리 AX 두 변형 모두 `native_ko_gmes=12`, 노른 집 안내2페이지+세계 지도 안내4페이지 캡처 |
+| 보존·정리 | 원본 ZIP/private 원본 트리 불변, 검사 소유 잔여 프로세스0 |
+
+세 변형은 **무수정 native 참조 AX / 번역 catalog 없는 관리 AX / 한국어 catalog 있는 관리 AX**다. 두 관리 변형을 참조와 비교했을 때 압축 해제한 모든 저장 파일 내용이 단계별로 일치했다. 이름·좌표·레벨·맵·전체 인벤토리·기술 필드가 동일하고 양쪽 턴 차이는 0이었다. 번역 없는 관리 AX는 최종 화면 BMP도 참조와 동일했다. 한국어는 표시만 달라졌다.
+
+`evidence/managed-korean/world/cwd/shots/norne-home-1.png`, `norne-world-4.png`를 직접 열어 맑은 고딕 한국어 본문, 파란 강조, 기존 초상화/배경/다음 페이지 표시를 확인했다. 본문은 창 안에 표시됐고 주변 일부 원문 로그는 미번역 상태다. 이 장면 검수가 전체 UI 번역·레이아웃 완료를 의미하지 않는다.
+
+검증 산출물은 `work/windows/reference-build/gui-native-ko-managed-03/verify.json`이며 **41/41 조건 true, `passed=true`**다. `evidence/summary.json`, `catalog-unit.log`, 각 실행의 `argv.json`/`report.json`/`save_snapshot`/`cwd/shots`가 세부 근거다.
+
+| 고정 입력/출력 | SHA-256 |
+|---|---|
+| Windows host | `5912d086c87243cd8be2099ce0b5a86e25425f806e113012fad49bf648bb36af` |
+| 5,058키 catalog | `dc65f3548b0bcbaabfc655c23c05c90e84650434ef55115a676f9c5d7a32b613` |
+| 관리 AX | `8aa19643c4824fa98ee175194864ecdfde8d4871c13a0d9f8ffa99cf9b99ad03` |
+| native 참조 AX | `8575184fe1729c90736bc5f346759e6be06d06cf1cc8ff7d97456517cb8c9c5e` |
+| 소스 스냅샷 ZIP | `f72dc0c768b5c0714e4a2d728badafe43414d0864663aaf1abf62aac8e8da0d7` |
+
+### 발견·수정된 Windows 글꼴 경계
+
+앞선 `gui-native-ko-managed-02`의 전체 catalog smoke는 첫 `U+30FB` 일본어 가운데점에서 명시적 exit3을 냈다. 예를 들어 노동 에너지 상품의 한국어 번역문에 원문의 점선 구분자 `・・・・`가 남아 있었다. 단순 한글 fixture와 문단 fixture는 통과했으므로 전체 키 실제 렌더가 추가 결함을 발견한 것이다.
+
+`tools/reference/WindowsFontGlyphProbe.cs`로 동일 SDL3_ttf의 `TTF_FontHasGlyph`를 사용해 번역 대상에 포함된 고유 코드포인트984개를 읽기 전용 검사했다. 설치된 맑은 고딕과 굴림은 각각 U+30FB 하나가 없었고, MS Gothic은 이 글자를 제공하지만 한글879개가 없었다. 글꼴은 읽기만 했고 복사/설치하지 않았다. 근거는 `gui-native-ko-managed-02/glyph-audit/`다.
+
+root는 한국어 글꼴에 없는 글자를 기존 원문용 글꼴에서 찾는 **글자 단위 fallback**을 `src/graphics/text_renderer_ttf.cpp`에 추가했다. 두 글꼴 모두 없으면 여전히 명시적으로 실패하고, 문장 내용·논리 셀 폭·배율은 바꾸지 않는다. 번역의 구두점을 지우는 방식으로 실패를 피하지 않았다. 이 수정이 들어간 `03`에서 같은 5,058키가 모두 통과했다. 맑은 고딕 SHA는 위 한국어 fixture와 동일하다.
+
+이전 실패 기록도 남겼다. `01`은 새 검증 스크립트의 PowerShell 보고서 변수 범위 오류로 첫 fixture 뒤 멈췄고 게임 결함이 아니었다. `02`는 위 글꼴 실패 외에 EN용 이동 좌표를 JP 프로필에 적용한 첫 경로가 실제 노른 안내에 도달하지 못해 `gmes=0`이었다. 이를 도움말 통과로 세지 않았다. `03`은 이미 Mac에서 검증된 `tests/localization/source_transform/japanese_home_to_world.script`를 사용하고 정확한 맵/좌표·12호출·캡처를 필수 조건으로 추가했다. 회수 ZIP의 Windows 경로 구분자도 검사 도구에서 정규화했으며, 원본 실패 ZIP은 보존했다.
+
 ## 확인한 결과: gui-native-02
 
 재현: `python3 tools/reference/windows_gui_run.py --run gui-native-<새이름>`.

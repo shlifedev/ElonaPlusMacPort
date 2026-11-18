@@ -11,8 +11,11 @@
 - **네이티브 개선:** `--auxiliary-close-hide`는 screen 20의 창 닫기를 안내 창 숨기기로 처리한다. Python 플레이 런처가 이 옵션을 사용하며 직접 호스트 기본 동작은 참조 호환을 유지한다. 메인 창 닫기·게임 데이터·사용자 설정은 바꾸지 않는다. 새 안내 문구도 표시 계층에서만 바꾼다. 실제 Mac 창 닫기 후 본 게임 지속·이동·인벤토리·저장 종료를 확인했다. 상세/후속 로드 검사는 [PLAYABILITY.md](PLAYABILITY.md) 및 조사 기록을 따른다.
 - **진단 보강:** 관찰된 HSP 오류와 PC, 닫기 출처/창 번호, 최근 입력 메타데이터(입력 본문 제외), 팝업 본문·결과와 빌드 식별을 기록한다. `--fail-on-hsp-error`는 명시적 진단용이며 기본 오류 복구 의미는 보존한다. [PLAY_EXIT_INVESTIGATION.md](PLAY_EXIT_INVESTIGATION.md).
 - **확대 플레이:** 서로 다른 캐릭터, 집 튜토리얼·작별→북부 티리스→베르니스, 장비 변경·메뉴, 초원 전투·전리품·저장/새 프로세스 로드 8/8 통과. `work/playability/playcov-suite-02/summary.json`과 인벤토리/기술 바이트 비교가 근거다. 합성 입력에 의한 관측이며 장시간 수동 플레이 완료를 뜻하지 않는다.
-- **한국어:** 구판 사전7303행은 재사용 조건 미확인이라 private 참고 자료로 유지한다. CC BY-SA 3.0 위키 번역을 현행 JP 문맥과 대조하고 독자 번역을 별도로 작성한다. 용어집223개, 번역 지침·출처 명세, CP932 원문→UTF-8 표시 전용 catalog가 있다. 초기 UI·DB·첫 집·노른 도움말 번역은 진행 중이다. 전체 한글 패치 완료가 아니다. `gmes`의 글자별 출력, 대화의 사전 줄바꿈, 동적 문자열은 문단 경계 구현이 필요하다. [KOREAN_SOURCES.md](KOREAN_SOURCES.md), [KOREAN_TUTORIAL.md](KOREAN_TUTORIAL.md).
-- **새 검사:** `build/localization-check` CTest10/10, 한국어 표시 픽셀 변화와 원본 VM/입력·저장 문자열 유지, strict UTF-8 catalog 거부 조건 통과. 한국어 초기 catalog로 신규게임→이동→저장종료 `ko-newgame-01` exit0/4358프레임, 오류·미지원0. 이후 추가된 catalog compiler 검사도 단독 통과. 출시용 Release/Windows 검증 수치는 완료 후 아래에 갱신한다.
+- **한국어:** 구판 사전7303행은 재사용 조건 미확인이라 private 참고 자료로 유지한다. CC BY-SA 3.0 위키 번역을 현행 JP 문맥과 대조하고 독자 번역을 별도로 작성한다. 용어집235개, DB 검수2263개/문맥 보류143개, 종족·직업 이름88개, 첫 집·노른171항목을 정리했다. 생성 catalog는5058개 고정 표시 키·충돌0이다. JP/EN 키가 같은 번역일 수 있어 이 수를 번역 문장 수로 보지 않는다. 전체 한글 패치는 아직 아니다. [KOREAN_IMPLEMENTATION.md](KOREAN_IMPLEMENTATION.md).
+- **문단 표시:** 관리 소스 변환/type48 명령으로 `gmes`가 원문을 자르기 전에 전체 문단을 한국어로 렌더한다. 실제 JP기반 게임에서 노른6페이지를 확인했고 원래48페이지의 별도 레이아웃 검사도 넘침0이다. 무번역 fallback 및 한국어 신규게임/로드/집탈출6/6, 저장154/154·154/154·162/162 파일의 압축 해제 내용 동일. 일반 한국어 런처는 아직 원본 AX 고정 문구 미리보기이며 관리 문단 AX는 별도 개발 경로다. 긴 NPC 대사의 사전 줄바꿈, 동적 문자열/사용자 작성 이름 문맥은 남는다. [KOREAN_RENDER_BOUNDARY.md](KOREAN_RENDER_BOUNDARY.md).
+- **새 검사:** 최신 Mac 개발/Release CTest11/11, 최종5058키 실제 lookup/글리프 오류0, VM/입력·저장 문자열 유지, strict UTF-8/키 충돌/서식 검증 통과. 한국어 catalog 신규게임→이동→저장종료 exit0/4358프레임, 오류·미지원0. Windows 일반한국어표시는 별도 실제창fixture 통과. 최신 문단확장 `gui-native-ko-managed-03`도41개검사/9회게임경로·기준저장154/154/162파일대조 통과(headless)했다. Malgun의 U+30FB 누락은 기존원문글꼴의 글리프별fallback으로 수정했다. OS창 PrintWindow문제는 별도 미해결이다.
+- **추가 요청은 조사만:** 현재 사용자 설정1280×768/전체화면1 때문에 시작 시 미구현 `chgdisp`가 호출되어 `play-q_h9nwc4`가 exit3으로 끝났다. 설정/화면 모드/팝업 동작을 새로 바꾸지 않고 해상도·Retina 글자·원작 OS팝업·개선 선택지를 [DISPLAY_UX_RESEARCH.md](DISPLAY_UX_RESEARCH.md)에 정리했다. 앞선 안내창 닫기와 다른 원인이다.
+- **로컬 이력:** 초기기록54c3d96, 화면조사d268dff, 번역/문단검증622f8a5. 이후 기록과 한계는 [WORK_LOG.md](WORK_LOG.md)에 누적한다. 원본·개인세이브·캐시는 제외하며 원격 push는 하지 않았다.
 
 다음 인수인계 단위: popup 수정 후 Release/Windows 검사와 저장 재로드, 번역 키 충돌0 확인·실제 UI 검수, 관리 소스 변환을 통한 `gmes`/대화 문단 렌더 경계, 동적 문장·후반 콘텐츠 번역. 기존 원본/개인 세이브에 실험하지 않는다.
 
@@ -30,11 +33,11 @@
 
 **실험용 개발 빌드이며 전체 플레이 검증은 끝나지 않았다.** Mac 실제 창의 타이틀과 결정적 실행의 신규게임·이동·저장/재시작/로드를 확인했다. 실시간 장시간 플레이, 양 플랫폼 세이브 교환과 전체 게임의 동작 동등성은 추가 검증이 필요하다.
 
-### 최신 통합 검증과 사용자 실행
+### 이전 통합 검증과 사용자 실행 (팝업·한국어 후속 작업 이전)
 
 Claude Opus 5.5 담당자들이 사용량 한도로 멈춘 뒤 root와 후속 Codex 작업자들이 남은 통합을 이어받았다. 실패/부분 완료 보고를 성공으로 바꾸지 않고 추가 실행으로 확인했다.
 
-- **최신 Mac Release 빌드 CTest 7/7**, VM 의미 24개 포함. 근거 `work/root-final-build.log`. `Play ElonaPlus.command` / `tools/play_game.py`는 이 실행물을 실시간 입력·시간 제한 없이 시작한다. 기본 저장 폴더는 `work/player/2.335/user`, 실행 로그는 `sessions/play-*`다. 같은 프로필을 런처로 중복 실행하는 것을 OS 잠금으로 막는다.
+- **당시 Mac Release 빌드 CTest 7/7**, VM 의미 24개 포함. 근거 `work/root-final-build.log`. `Play ElonaPlus.command` / `tools/play_game.py`는 준비된 Release를 실시간 입력·시간 제한 없이 시작한다. 기본 저장 폴더는 `work/player/2.335/user`, 실행 로그는 `sessions/play-*`다. 같은 프로필을 런처로 중복 실행하는 것을 OS 잠금으로 막는다.
 - **Windows 실제 SDL 창 및 게임 경로:** `gui-native-02`와 최신 IME/오디오 수명 수정 후 `gui-native-03` 모두 fixture 11개×headless/창, 신규게임·저장·로드, 실제 session 1 타이틀 캡처 통과. 각 실행의 예약 작업 삭제·잔여 프로세스0·원본 트리/ZIP 불변 확인. Unicode 패치도 공유 소스에 적용돼 있다. [WINDOWS_GUI.md](WINDOWS_GUI.md).
 - **음악:** MIDI83곡/MP3 1곡 양 OS 오프라인 검사 및 Mac CoreAudio 실제 출력 콜백 검사 통과. 반복·정지·재시작·WAV 동시 재생, Mac/Win 렌더 수치 대조, 고지 병합 완료. `root-realtime-load-01`은 원본 AX를 **실시간 시계/오디오 + 스크립트 입력**으로 불러오기→인벤토리→저장종료(exit0,1158프레임)했고 `music at exit ... position_frames=913408 ... output=device`를 기록했다. 키보드 실사용/장시간 청취 검사로 확대 해석하지 않는다. [AUDIO_IMPLEMENTATION.md](AUDIO_IMPLEMENTATION.md).
 - **IME:** 조합·확정·취소·표시, 창별 전달, CP932 한도/삭제, 변환 실패 표시 구현. Mac 합성 SDL 15개 및 HSP headless/숨긴 창 검사 통과. 실제 OS 후보 선택과 원본 ANSI Edit 전체 동등성은 별도 검증 필요. [IME_IMPLEMENTATION.md](IME_IMPLEMENTATION.md).
