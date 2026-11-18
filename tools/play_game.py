@@ -123,10 +123,9 @@ def main():
         if not catalog.is_file():
             parser.error(f"Missing Korean catalog: {catalog}")
         base += ["--translation", str(catalog)]
-        if not args.reviewed_only:
-            fallback = catalog.with_name("draft-display.tsv")
-            if fallback.is_file():
-                base += ["--translation-fallback", str(fallback)]
+        fallback = catalog.with_name("reviewed-display.tsv" if args.reviewed_only else "draft-display.tsv")
+        if fallback.is_file():
+            base += ["--translation-fallback", str(fallback)]
     if args.diagnose_errors:
         base += ["--fail-on-hsp-error"]
     if args.reviewed_only and args.language != "ko":

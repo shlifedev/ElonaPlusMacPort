@@ -54,17 +54,24 @@ try{
  }
  $common=Join-Path $src '.cache\upstream\OpenHSP\common'
  $fixtures=@{display=(Join-Path $src 'tests\localization\display.hsp');paragraph=(Join-Path $src 'tests\localization\paragraph.hsp');catalog=(Join-Path $inp 'all-catalog.hsp')}
+ $cases=@('original','korean','paragraph','catalog')
+ if($manifest.draft_keys){
+  $fixtures['drafts']=Join-Path $inp 'drafts.hsp'
+  $summary.draftSha256=Hash (Join-Path $inp 'draft-display.tsv')
+  $cases+='drafts'
+ }
  foreach($n in $fixtures.Keys){
   $ErrorActionPreference='Continue'; & $compiler -d ('--compath='+$common+'\') ('-o'+(Join-Path $ev ($n+'.ax'))) $fixtures[$n] *> (Join-Path $ev ($n+'.compile.log'))
   $rc=$LASTEXITCODE;$ErrorActionPreference='Stop';if($rc -ne 0){throw ('fixture compile '+$n)}
  }
- foreach($n in @('original','korean','paragraph','catalog')){
+ foreach($n in $cases){
   $name='fixture-'+$n;$d=Join-Path $ev $name;$null=New-Item -ItemType Directory -Path $d
   $ax=$(if($n -eq 'original' -or $n -eq 'korean'){'display'}else{$n})
   $a=@('--work-dir',$d,'--headless','--deterministic','--report',(Join-Path $d 'report.json'),'--screenshot',(Join-Path $d 'screen.bmp'),'--trace-commands')
-  if($n -eq 'paragraph'){
+  if($n -eq 'paragraph' -or $n -eq 'drafts'){
    $null=New-Item -ItemType Directory -Path (Join-Path $d 'game'),(Join-Path $d 'user\user')
-   $a+=@('--game',(Join-Path $ev ($ax+'.ax')),'--game-root',(Join-Path $d 'game'),'--user-root',(Join-Path $d 'user'),'--translation',(Join-Path $inp 'paragraph.tsv'))
+   $a+=@('--game',(Join-Path $ev ($ax+'.ax')),'--game-root',(Join-Path $d 'game'),'--user-root',(Join-Path $d 'user'),'--translation',$(if($n -eq 'drafts'){Join-Path $inp 'empty.tsv'}else{Join-Path $inp 'paragraph.tsv'}))
+   if($n -eq 'drafts'){$a+=@('--translation-fallback',(Join-Path $inp 'draft-display.tsv'))}
   }else{$a+=@('--trusted-fixture',(Join-Path $ev ($ax+'.ax')))}
   if($n -eq 'korean'){$a+=@('--translation',(Join-Path $inp 'display.tsv'))}
   if($n -eq 'catalog'){$a+=@('--translation',(Join-Path $inp 'runtime.tsv'),'--translation-misses',(Join-Path $d 'misses.tsv'))}
@@ -84,6 +91,7 @@ try{
    $name=$variant+'/'+$st.name;$d=Join-Path $ev $name;$cwd=Join-Path $d 'cwd';$null=New-Item -ItemType Directory -Path $cwd
    $a=@('--game',(Join-Path $inp $ax),'--game-root',$game,'--user-root',$user,'--work-dir',$cwd,'--packed-dir',$packed,'--headless','--deterministic','--max-waits',"$($st.waits)",'--timeout-ms','120000','--script',(Join-Path $inp $st.script),'--report',(Join-Path $d 'report.json'),'--screenshot',(Join-Path $d 'screen.bmp'),'--trace-commands')
    if($variant -eq 'managed-korean'){$a+=@('--translation',(Join-Path $inp 'runtime.tsv'))}
+   if($variant -eq 'managed-korean' -and $manifest.draft_keys){$a+=@('--translation-fallback',(Join-Path $inp 'draft-display.tsv'))}
    RunHost $name $a
    $slot=Join-Path $user 'save\sav_Ari'
    if(Test-Path $slot){Copy-Item -LiteralPath $slot -Destination (Join-Path $d 'save_snapshot') -Recurse}

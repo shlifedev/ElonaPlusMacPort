@@ -64,6 +64,21 @@ def screen_checks(name, script_path, shots, frames, waits, expected_exit, refere
     return checks, details
 
 
+# (name, source stage, input, max waits, expected exit, save name, map, x, y)
+STAGES = [
+    ("newgame", None, "newgame_english.script", 4700, 0, "Ari", 7, 12, 17),
+    ("departure", "newgame", "home_departure.script", 1850, 124, "Ari", 7, 13, 21),
+    ("world", "departure", "home_to_world.script", 2700, 0, "Ari", 4, 22, 21),
+    ("vernis", "world", "world_to_vernis.script", 2900, 0, "Ari", 5, 26, 1),
+    ("equipment", "vernis", "equipment_roundtrip.script", 1550, 0, "Ari", 5, 26, 1),
+    ("combat", "world", "field_combat_loot.script", 2250, 0, "Ari", 2, 16, 11),
+    ("reload", "combat", "reload_after_combat.script", 1300, 0, "Ari", 2, 16, 11),
+    # Fairy speed/body/equipment differ: the same timed movement is not
+    # expected to end on the warrior's square. Observed stable variant path.
+    ("variant", None, "newgame_fairy_wizard.script", 4700, 0, "Mira", 7, 11, 13),
+]
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefix", default="playability-" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
@@ -73,19 +88,7 @@ def main():
         ap.error("prefix must be a plain run name")
     build = args.build.resolve()
     host = build / "elona_gui_host"
-    # (name, source stage, input, max waits, expected exit, save name, map, x, y)
-    stages = [
-        ("newgame", None, "newgame_english.script", 4700, 0, "Ari", 7, 12, 17),
-        ("departure", "newgame", "home_departure.script", 1850, 124, "Ari", 7, 13, 21),
-        ("world", "departure", "home_to_world.script", 2700, 0, "Ari", 4, 22, 21),
-        ("vernis", "world", "world_to_vernis.script", 2900, 0, "Ari", 5, 26, 1),
-        ("equipment", "vernis", "equipment_roundtrip.script", 1550, 0, "Ari", 5, 26, 1),
-        ("combat", "world", "field_combat_loot.script", 2250, 0, "Ari", 2, 16, 11),
-        ("reload", "combat", "reload_after_combat.script", 1300, 0, "Ari", 2, 16, 11),
-        # Fairy speed/body/equipment differ: the same timed movement is not
-        # expected to end on the warrior's square. Observed stable variant path.
-        ("variant", None, "newgame_fairy_wizard.script", 4700, 0, "Mira", 7, 11, 13),
-    ]
+    stages = STAGES
     evidence = ROOT / "work/playability" / args.prefix
     runs = ROOT / "work/game-run"
     if evidence.exists() or any((runs / f"{args.prefix}-{s[0]}").exists() for s in stages):

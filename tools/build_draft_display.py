@@ -16,7 +16,7 @@ EN_PLACEHOLDER = re.compile(r'untranslated|no translation|^\?+$', re.I)
 sha = lambda text: hashlib.sha256(text.encode('utf-8')).hexdigest()
 
 
-def build(pairs, translations, blocked):
+def build(pairs, translations, blocked, english_ids):
     keys = defaultdict(set)
     covered = set()
     by_source = defaultdict(set)
@@ -33,6 +33,8 @@ def build(pairs, translations, blocked):
         if RESERVED.search(ko) or not re.search('[가-힣]', ko) or len(ko) > 1500:
             continue
         for source in {ja, en}:
+            if source == en and source != ja and pid not in english_ids:
+                continue
             if not source or not source.strip() or RESERVED.search(source) or len(source.encode()) < 3:
                 continue
             if sha(source) in blocked or len(by_source[source]) != 1 or EN_PLACEHOLDER.search(source):
@@ -54,6 +56,10 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--pairs', type=Path, default=ROOT/'work/localization/2.335/static-pairs.json')
     ap.add_argument('--translations', type=Path, default=KO/'draft-static.tsv')
+    ap.add_argument('--english-ids', type=Path, default=KO/'draft-english-ids.txt',
+                    help='Pair IDs whose English actually matches the Japanese source.')
+    ap.add_argument('--reviewed-output', type=Path,
+                    help='Also emit the subset from the two manually edited pair-ID files.')
     ap.add_argument('--output', type=Path, default=KO/'draft-display.tsv')
     args = ap.parse_args()
     pairs = json.loads(args.pairs.read_text(encoding='utf-8'))
@@ -66,8 +72,22 @@ def main():
         translations[key] = ko
     if translations.keys() - {row['id'] for row in pairs}:
         raise ValueError('draft has IDs outside the current source')
-    keys, covered = build(pairs, translations, blocked)
+    english_ids = set(args.english_ids.read_text(encoding='utf-8').splitlines())
+    if english_ids - translations.keys():
+        raise ValueError('English display bindings include unknown translation IDs')
+    keys, covered = build(pairs, translations, blocked, english_ids)
     args.output.write_text(''.join(f'{key}\t{keys[key]}\n' for key in sorted(keys)), encoding='utf-8', newline='\n')
+    if args.reviewed_output:
+        manual_ids = set()
+        for name in ('draft-static-edits.tsv', 'draft-linguistic-edits.tsv'):
+            manual_ids.update(line.split('\t')[0] for line in (KO/name).read_text(encoding='utf-8').splitlines())
+        edits = {key: value for key, value in translations.items() if key in manual_ids}
+        reviewed, edited_pairs = build(pairs, edits, blocked, english_ids)
+        if any(keys.get(key) != target for key, target in reviewed.items()):
+            raise ValueError('reviewed display bindings must be a subset of the full catalog')
+        args.reviewed_output.write_text(''.join(f'{key}\t{reviewed[key]}\n' for key in sorted(reviewed)),
+                                        encoding='utf-8', newline='\n')
+        print(f'{len(edited_pairs)} manually edited pairs have an additional display binding')
     print(f'{len(covered)} source pairs have a draft binding, {len(keys)} distinct JP/EN display keys')
 
 

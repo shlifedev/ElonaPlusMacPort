@@ -23,6 +23,8 @@ from play_game import MANAGED_AX
 
 sys.path.insert(0, str(ROOT / "tests/localization/source_transform"))
 from run_game_gate import verify_norne_pages
+sys.path.insert(0, str(ROOT / "tests/localization"))
+from draft_fixture import write_fixture
 
 
 def digest(p):
@@ -82,6 +84,11 @@ def verify(dest, manifest):
     checks["paragraph_ABI_executed"] = reports["fixture-paragraph"].get("command_counts", {}).get("native_ko_gmes") == 2
     misses = [s for s in (ev / "fixture-catalog/misses.tsv").read_text().splitlines() if s and not s.startswith("#")]
     checks["catalog_all_keys"] = (not misses and reports["fixture-catalog"].get("command_counts", {}).get("mes") == manifest["catalog_keys"])
+    if manifest.get("draft_keys"):
+        checks["draft_hash"] = summary.get("draftSha256") == manifest["draft_sha256"]
+        draft = reports.get("fixture-drafts", {})
+        checks["draft_all_keys"] = (draft.get("endcode") == 0 and
+            draft.get("command_counts", {}).get("native_ko_gmes") == manifest["draft_keys"])
     comparisons = {}
     for variant in ("managed-fallback", "managed-korean"):
         comparisons[variant] = {}
@@ -99,7 +106,7 @@ def verify(dest, manifest):
                 item["screen_identical"] = (ev / "reference" / stage / "screen.bmp").read_bytes() == (ev / variant / stage / "screen.bmp").read_bytes()
                 checks[f"{variant}/{stage}_screen_equal"] = item["screen_identical"]
             comparisons[variant][stage] = item
-    checks["native_ABI_in_game"] = reports["managed-korean/world"].get("command_counts", {}).get("native_ko_gmes", 0) == 12
+    checks["native_ABI_in_game"] = reports["managed-korean/world"].get("command_counts", {}).get("native_ko_gmes", 0) >= 12
     if "game_stages" in manifest:
         for variant in ("reference", "managed-fallback", "managed-korean"):
             state = inspect(ev / variant / "world/save_snapshot")
@@ -126,6 +133,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--run", required=True)
     ap.add_argument("--catalog", type=Path, required=True)
+    ap.add_argument("--fallback", type=Path, help="Check all hash-only draft keys and enable them during Korean game runs.")
     ap.add_argument("--managed-ax", type=Path, default=ROOT / MANAGED_AX)
     ap.add_argument("--reference-ax", type=Path, default=ROOT / "work/localization/cp932-full-reference-01/start.ax")
     ap.add_argument("--japanese-script", type=Path, default=ROOT / "work/localization/newgame_japanese.script")
@@ -168,8 +176,16 @@ def main():
                 "game_stages": ["newgame", "reload", "world"],
                 "managed_ax_sha256": digest(args.managed_ax), "reference_ax_sha256": digest(args.reference_ax),
                 "snapshot_sha256": digest(stage / "snapshot.zip"), "deps": [{"name": n, "sha256": v["sha256"]} for n, v in lock.items()]}
+    if args.fallback:
+        manifest["draft_keys"] = write_fixture(ROOT/"work/localization/2.335/static-pairs.json", args.fallback,
+                                              stage/"drafts.hsp")
+        manifest["draft_sha256"] = digest(args.fallback)
+        (stage/"empty.tsv").write_bytes(b"")
     (stage / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
     uploads = {n: stage / n for n in ("snapshot.zip", "manifest.json", "runtime.tsv", "all-catalog.hsp", "display.tsv", "paragraph.tsv")}
+    if args.fallback:
+        uploads.update({"drafts.hsp": stage/"drafts.hsp", "empty.tsv": stage/"empty.tsv",
+                        "draft-display.tsv": args.fallback})
     uploads.update({"managed.ax": args.managed_ax, "reference.ax": args.reference_ax,
                     "newgame-jp.script": args.japanese_script,
                     "windows_managed_check.ps1": ROOT / "tools/reference/windows_managed_check.ps1"})
