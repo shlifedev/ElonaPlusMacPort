@@ -135,7 +135,7 @@ def main():
         score = scores.get(pair_hash(ja, ko), 0)
         # Short terms are often polysemous. A high score still needs editorial review.
         minimum = 0.78 if len(ja) <= 7 else 0.72
-        if score < minimum or not approved_shape(unicodedata.normalize('NFKC', ja),
+        if not minimum <= score <= 1.00001 or not approved_shape(unicodedata.normalize('NFKC', ja),
                                                   unicodedata.normalize('NFKC', ko), terms):
             continue
         # Avoid sentence stops appended to short interface labels and nouns.
