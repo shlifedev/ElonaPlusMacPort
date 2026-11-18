@@ -33,6 +33,10 @@ python3 tests/localization/run_play_audit.py --run ko-static-check --ax "$src/st
 python3 tests/localization/run_recipe_menu.py --profile work/ko-broad/ko-static-check/vernis/profile
 ```
 
+최종 Mac 패키지에서 이명 후보 16개와 두 차례 재추첨한 후보 32개, 선택 후 캐릭터 시트와 기존 세이브의 이명을 다시 대조했다. F1 도움말 99항목도 게임 메뉴에서 열었다. 조합 도구는 베르니스 복제 세이브로 실제 창에서 열어 다섯 재료와 한국어 조작 안내가 보이는 수량 선택 화면을 캡처했다. [이명 선택 검증](../work/ko-alias-selection/tmp4307xv4o/summary.json) · [도움말 검증](../work/localization/remaining-v13/final-manual/tmpss3_fma6/summary.json) · [Mac 실제 게임 창](../work/localization/remaining-v13/packaged-window-final/recipe-window.png)
+
+Mac의 신규 게임·출발·세계 지도·베르니스·장비·전투·다시 불러오기·마법사 생성 8개 경로에서 프레임 수와 압축 해제 세이브 154~170파일이 v12와 일치했다. 이 경로의 미번역 조회에 잡힌 연속 영문자 세 글자 이상의 문자열은 테스트 세이브 폴더명 `sav_Ari` 한 종류였다. Windows x64에서는 빌드·글꼴·게임 진행·저장 비교를 포함한 헤드리스 검사 42개를 통과했다. [Mac 경로별 결과](../work/ko-broad/ko-static-v13-package/summary.json) · [Windows 검사 결과](../work/windows/reference-build/gui-native-ko-static-v13-package/verify.json) · [v13 Mac 설치 이미지](../build/package/korean-2.335-v13/ElonaPlus-0.1.0-macos-arm64.dmg)
+
 ## 모험 중 표시와 실제 검증 (v12 기록)
 
 | 화면 | 원문에서 확인한 내용 | 확인한 결과 |

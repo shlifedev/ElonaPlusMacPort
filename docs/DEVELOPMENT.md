@@ -85,12 +85,12 @@ Mac에서는 루트의 `Play ElonaPlus.command`를 더블클릭하거나 `python
 
 ## 한국어판
 
-`Play ElonaPlus Korean.command`를 더블클릭하거나 `python3 tools/play_game.py --language ko`로 실행한다. 기존 세이브도 불러올 수 있다. 캐릭터 생성과 이명, 설정, 노른과 마을 의뢰 대화에 더해 장비 성능, 마법·기술, 카드 덱, 채집 재료와 생선 요리를 한국어로 표시한다. F1 도움말과 게임 속 책 33권은 영어판과 일본어판의 설명과 구성을 각각 반영한다. 검수 번역만 사용하려면 `--reviewed-only`를 추가한다.
+`Play ElonaPlus Korean.command`를 더블클릭하거나 `python3 tools/play_game.py --language ko`로 실행한다. 기존 세이브도 불러올 수 있다. 캐릭터 생성과 이명, 퀘스트, 장비·마법 외에 조합법과 재료, 동료 진화, 신앙 제단, 카드 1,165종의 제목과 설명을 한국어로 표시한다. F1 도움말과 게임 속 책 33권은 영어판과 일본어판의 설명과 구성을 각각 반영한다. 검수 번역만 사용하려면 `--reviewed-only`를 추가한다. 카드 설명 873종은 기본 모드에서 자동 초벌을 사용한다.
 
 새 작업공간에서는 위의 원본 복원·빌드 후 아래 명령으로 한국어 표시용 AX를 준비한다. 게임 원본과 세이브에는 CP932 문자열을 유지한다. [번역 범위와 재현 방법](KOREAN_IMPLEMENTATION.md)
 
 ```sh
-python3 tools/prepare_korean_game.py --output work/localization/managed-korean-adventure-v12 --compile
+python3 tools/prepare_korean_game.py --output work/localization/managed-korean-static-v13 --compile
 ```
 
 [번역 출처](KOREAN_SOURCES.md), [용어집](../localization/ko-KR/glossary.tsv), [번역 지침](../localization/ko-KR/style-guide.md)을 함께 관리한다.
