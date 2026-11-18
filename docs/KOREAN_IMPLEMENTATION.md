@@ -2,6 +2,22 @@
 
 기준은 사용자 제공 ElonaPlus 2.335다. 아직 전체 한글 패치나 배포판이 아니다. 번역된 데이터 수, 실제 화면에 적용되는 문자열 수, 플레이 검증 범위를 구분한다.
 
+## 현재 번역량과 플레이 검증
+
+원본 스크립트의 고정 일본어·영어 문장 12,405쌍 중 **9,309쌍(75.04%)**에 한국어 표시 키를 연결했다. 원문 위치를 추적하는 검수 사전에서 3,990쌍, 별도로 일본어와 대조하고 직접 고친 번역에서 1,054쌍, 자동 번역·기계 검사 후의 추가 초벌에서 4,265쌍을 계산했다. 한 쌍에 두 언어가 모두 등록되더라도 한 번만 센다. 미결합 3,096쌍, 실행 중 조립되는 표현식 후보 4,785개, 외부 책·대화 파일, 그림 속 글자는 별도로 관리한다. 특정 키가 있는 것만으로 모든 사용 화면에서 표시됐다고 계산하지 않는다. [집계와 입력 해시](../localization/ko-KR/coverage.json)
+
+Mac Release에서 원래 영문 기반 입력으로 전사·마법사 생성, 첫 집, 세계 지도, 베르니스, 장비, 전투·전리품 획득, 재시작을 포함한 8개 경로를 재생했다. 연속 영문자 3자 이상이 포함된 고유 미번역 표시값은 437종에서 **77종**, 그리기 횟수는 46,320회에서 **4,599회**로 줄었다. 반복 출력과 저장 슬롯명 `sav_Ari`, 사용자 이름 `Ari` 등도 포함한 값이다. 기본판과 검수판은 이 8경로에서 동일한 누락 건수였다. 두 판본 모두 기준 실행과 각 단계의 최종 프레임 및 압축 해제한 세이브 전체(단계별 154~170파일)가 일치했다. 집 출발 단계는 입력 스크립트가 정한 1,851프레임 대기 상한으로, 나머지 7단계는 게임의 정상 종료로 끝났다. 개인 세이브는 테스트에 사용하지 않았다.
+
+- Mac Release CTest 12/12, 표시 키·소스 변환 단위 검사 12/12. 검수 사전 11,465키, 전체 추가 표시 키 7,317개(직접 교정 부분집합 1,398개)를 각각 CP932로 다시 전달해 한국어 폰트로 렌더했다. macOS SDL3 창의 실제 렌더 표면에서 1,600×1,200 종족 선택 화면을 캡처했다. `work/ko-broad/final-default/summary.json`, `work/ko-broad/sdl-final`에 재현 근거가 있다.
+- Windows x64 Release `gui-native-ko-broad-final01`에서 42/42 검사 통과. 원본/관리 원문/관리 한국어 각각 일본어 기반 신규 게임·소지품 확인 후 재저장·세계 지도 이동을 실행했다. 세이브 전체 154/154/162파일과 원본 불변을 대조했다. 실제 Windows 폰트와 게임 런타임을 사용한 headless 검사였다. 이전 Mac 결과와 동일하게 검수 키 11,465개·전체 추가 표시 키 7,317개를 모두 조회했다. `work/windows/reference-build/gui-native-ko-broad-final01/verify.json`에 결과가 있다.
+
+새 작업 폴더로 검사를 재현할 수 있다. 아래 `--reference`는 이전 8경로 실행의 결과가 있을 때만 추가한다.
+
+```sh
+python3 tests/localization/run_play_audit.py --run ko-recheck --ax work/localization/managed-creation-v8/start.ax --catalog localization/ko-KR/runtime.tsv --fallback localization/ko-KR/draft-display.tsv --reference work/ko-broad/base
+python3 tools/reference/windows_managed_check.py --run gui-native-ko-recheck --catalog localization/ko-KR/runtime.tsv --fallback localization/ko-KR/draft-display.tsv
+```
+
 ## 2.335 한국어판의 표시 경계
 
 현재 런처는 `managed-creation-v8`을 기본으로 선택한다. SHA-256은 `0584039d76e73535d07b7dd8157fba729a6204aa50e827ef27e9c0f5dac4ba17`이다. 검수 사전을 우선 조회하고 추가 정적 문구에는 별도의 한국어 초벌 사전을 사용한다. `--language ko --reviewed-only`로 검수 사전만 사용할 수 있다. [초벌 생성과 교정](KOREAN_STATIC_DRAFTS.md)
@@ -53,7 +69,7 @@
 
 ```sh
 python3 tools/compile_localization.py --from-manifest localization/ko-KR/runtime.sources.json --output localization/ko-KR/runtime.tsv
-python3 tools/build_draft_display.py
+python3 tools/build_draft_display.py --reviewed-output localization/ko-KR/reviewed-display.tsv
 python3 tools/korean_coverage.py --output localization/ko-KR/coverage.json
 ```
 
