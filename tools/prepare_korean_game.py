@@ -24,6 +24,10 @@ from korean_inventory_hooks import install_item_hooks
 from korean_menu_hooks import menu_inserts
 from korean_manual_hooks import manual_inserts
 from korean_card_hooks import card_inserts
+from korean_evolution_hooks import install_evolution_hooks
+from korean_fixed_hooks import fixed_inserts
+from korean_recipe_hooks import recipe_inserts
+from korean_altar_hooks import install_altar_hooks
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -108,7 +112,10 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
        b"\t\tif ( native_manual_width > 0 ) : tx@m72 = limit(native_manual_width + 32, 10, 148)\r\n",
        "translated_selection_highlight", after=True)
     install_item_hooks(at)
+    install_evolution_hooks(at)
+    install_altar_hooks(at)
     inserts.extend(menu_inserts(source))
+    inserts.extend(recipe_inserts(source))
     inserts.extend(manual_inserts(source))
     inserts.extend(card_inserts(source))
     inserts.extend(option_inserts(source))
@@ -116,6 +123,7 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
     inserts.extend(story_inserts(source))
     inserts.extend(dialogue_calls(source))
     inserts.extend(static_dialogue_inserts(source, {offset for offset, _, _ in inserts}))
+    inserts.extend(fixed_inserts(source, {offset for offset, _, _ in inserts}))
     at(b"\tnoteget buff2, p\r\n", b'\tnative_board_row = buff2\r\n'
        b'\tnative_board_section = s + "," + lang("JP", "EN")\r\n', "board_identity", after=True)
     title_draw = b"\t\tcs_list s(3), wx + 96, y - 1, 19\r\n"
@@ -147,7 +155,10 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
     at(book_footer, b'\t\t\tnative_ko_menu 0, ""\r\n\t\t}\r\n', "book_original_end")
     # Copy only the presentation input, after English capitalization and before
     # the original loop destructively consumes one word at a time.
-    at(LOG_ENTRY, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen, native_starter_pet_id\r\n", "english_log_boundary")
+    at(LOG_ENTRY, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen, native_starter_pet_id, str(native_log_identity)\r\n", "english_log_boundary")
+    jp_log = b'\t\trepeat\r\n\t\t\tlen@txtfunc = strlen(msgtemp)\r\n'
+    at(jp_log, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen, native_starter_pet_id, str(native_log_identity), 1\r\n",
+       "japanese_log_boundary")
     for line, count in HUD_LINES:
         at(line, b"\tnative_ko_hud 1\r\n", "hud_begin", count=count)
         at(line, b"\tnative_ko_hud 0\r\n", "hud_end", after=True, count=count)
@@ -270,7 +281,7 @@ def main() -> int:
                     report["token_check"] = command_counts(blob)
                     hud_commands = 2 * sum(count for _, count in HUD_LINES)
                     menu_commands = output.count(b"\tnative_ko_menu ")
-                    success = report["token_check"]["type48_commands"] == {"0": 11, "1": 1, "2": hud_commands, "6": 6, "7": menu_commands, "8": 1, "9": 1, "10": 3, "11": 3}
+                    success = report["token_check"]["type48_commands"] == {"0": output.count(b"\tnative_ko_gmes "), "1": 2, "2": hud_commands, "6": 6, "7": menu_commands, "8": 1, "9": 1, "10": 3, "11": 3}
                     if not success:
                         report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:

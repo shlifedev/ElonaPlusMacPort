@@ -1,0 +1,2534 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "2.335 authored companion evolution branches, prior form and selected new form"
+  },
+  "entries": [
+    {
+      "source": "@evolution/1/new",
+      "target": "고양이 왕녀",
+      "source_ref": "2.335:start.hsp:366724",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/1/old",
+      "target": "고양이 여동생",
+      "source_ref": "2.335:start.hsp:366725",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/2/new",
+      "target": "여동생 고양이의 신",
+      "source_ref": "2.335:start.hsp:366731",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/2/old",
+      "target": "고양이 여동생",
+      "source_ref": "2.335:start.hsp:366732",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/3/new",
+      "target": "유니콘",
+      "source_ref": "2.335:start.hsp:366737",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/3/race/267/old",
+      "target": "짐말",
+      "source_ref": "2.335:start.hsp:366739",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/3/race/276/old",
+      "target": "야생마",
+      "source_ref": "2.335:start.hsp:366742",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/3/race/275/old",
+      "target": "노이엘 말",
+      "source_ref": "2.335:start.hsp:366745",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/3/race/268/old",
+      "target": "요우윈 말",
+      "source_ref": "2.335:start.hsp:366748",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/3/race/277/old",
+      "target": "서러브레드",
+      "source_ref": "2.335:start.hsp:366751",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/4/new",
+      "target": "기린",
+      "source_ref": "2.335:start.hsp:366759",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/4/old",
+      "target": "기린 씨",
+      "source_ref": "2.335:start.hsp:366760",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/5/new",
+      "target": "시바견",
+      "source_ref": "2.335:start.hsp:366769",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/5/old",
+      "target": "실버 팽",
+      "source_ref": "2.335:start.hsp:366770",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/6/new",
+      "target": "백호",
+      "source_ref": "2.335:start.hsp:366776",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/6/old",
+      "target": "네코마타",
+      "source_ref": "2.335:start.hsp:366777",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/7/new",
+      "target": "신형 무장병",
+      "source_ref": "2.335:start.hsp:366788",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/7/race/162/old",
+      "target": "이에르스 기계병",
+      "source_ref": "2.335:start.hsp:366790",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/7/race/234/old",
+      "target": "이에르스 정예 기계병",
+      "source_ref": "2.335:start.hsp:366793",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/8/new",
+      "target": "미노타우로스의 패왕",
+      "source_ref": "2.335:start.hsp:366802",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/8/race/282/old",
+      "target": "미노타우로스",
+      "source_ref": "2.335:start.hsp:366804",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/8/race/296/old",
+      "target": "미노타우로스의 술사",
+      "source_ref": "2.335:start.hsp:366807",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/8/race/298/old",
+      "target": "미노타우로스의 투사",
+      "source_ref": "2.335:start.hsp:366810",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/8/race/299/old",
+      "target": "미노타우로스 전사",
+      "source_ref": "2.335:start.hsp:366813",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/9/new",
+      "target": "알데바란",
+      "source_ref": "2.335:start.hsp:366822",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/9/old",
+      "target": "미노타우로스의 패왕",
+      "source_ref": "2.335:start.hsp:366823",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/10/new",
+      "target": "쿠쿨칸",
+      "source_ref": "2.335:start.hsp:366829",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/10/race/95/old",
+      "target": "코브라",
+      "source_ref": "2.335:start.hsp:366831",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/10/race/96/old",
+      "target": "킹코브라",
+      "source_ref": "2.335:start.hsp:366834",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/11/new",
+      "target": "킨나리",
+      "source_ref": "2.335:start.hsp:366846",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/11/old",
+      "target": "백금 거위",
+      "source_ref": "2.335:start.hsp:366847",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/12/new",
+      "target": "커다란 검은 고양이",
+      "source_ref": "2.335:start.hsp:366856",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/12/old",
+      "target": "검은 고양이",
+      "source_ref": "2.335:start.hsp:366857",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/13/new",
+      "target": "검은 고양이 소녀",
+      "source_ref": "2.335:start.hsp:366868",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/13/old",
+      "target": "검은 고양이",
+      "source_ref": "2.335:start.hsp:366869",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/14/new",
+      "target": "데스 사이즈",
+      "source_ref": "2.335:start.hsp:366880",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/14/old",
+      "target": "꼬마 요정",
+      "source_ref": "2.335:start.hsp:366881",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/15/new",
+      "target": "드리아스",
+      "source_ref": "2.335:start.hsp:366891",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/15/old",
+      "target": "꼬마 요정",
+      "source_ref": "2.335:start.hsp:366892",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/16/new",
+      "target": "건레이저",
+      "source_ref": "2.335:start.hsp:366903",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/16/old",
+      "target": "안드로이드",
+      "source_ref": "2.335:start.hsp:366904",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/17/new",
+      "target": "강그리프",
+      "source_ref": "2.335:start.hsp:366914",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/17/old",
+      "target": "안드로이드",
+      "source_ref": "2.335:start.hsp:366915",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/18/new",
+      "target": "검은 치천사",
+      "source_ref": "2.335:start.hsp:366925",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/18/old",
+      "target": "검은 천사",
+      "source_ref": "2.335:start.hsp:366926",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/19/new",
+      "target": "암흑마룡",
+      "source_ref": "2.335:start.hsp:366934",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/19/old",
+      "target": "추방자",
+      "source_ref": "2.335:start.hsp:366935",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/20/new",
+      "target": "영원한 추방자",
+      "source_ref": "2.335:start.hsp:366946",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/20/old",
+      "target": "추방자",
+      "source_ref": "2.335:start.hsp:366947",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/21/new",
+      "target": "황금 성기사",
+      "source_ref": "2.335:start.hsp:366956",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/21/old",
+      "target": "황금 기사",
+      "source_ref": "2.335:start.hsp:366957",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/22/new",
+      "target": "절대 수호자",
+      "source_ref": "2.335:start.hsp:366964",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/22/old",
+      "target": "수호자",
+      "source_ref": "2.335:start.hsp:366965",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/23/new",
+      "target": "로얄푸티",
+      "source_ref": "2.335:start.hsp:366972",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/23/race/3/old",
+      "target": "푸치",
+      "source_ref": "2.335:start.hsp:366974",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/23/race/4/old",
+      "target": "붉은 푸치",
+      "source_ref": "2.335:start.hsp:366978",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/24/new",
+      "target": "도깨비곰",
+      "source_ref": "2.335:start.hsp:366988",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/24/race/108/old",
+      "target": "브라운 베어",
+      "source_ref": "2.335:start.hsp:366991",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/24/race/109/old",
+      "target": "회색곰",
+      "source_ref": "2.335:start.hsp:366994",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/25/new",
+      "target": "푸치 특공대",
+      "source_ref": "2.335:start.hsp:367000",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/25/old",
+      "target": "군용 푸치",
+      "source_ref": "2.335:start.hsp:367001",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/26/new",
+      "target": "늑대왕",
+      "source_ref": "2.335:start.hsp:367006",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/26/old",
+      "target": "실버 팽",
+      "source_ref": "2.335:start.hsp:367008",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/27/new",
+      "target": "실버 팽",
+      "source_ref": "2.335:start.hsp:367017",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/27/race/165/old",
+      "target": "개",
+      "source_ref": "2.335:start.hsp:367020",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/27/race/50/old",
+      "target": "사냥개",
+      "source_ref": "2.335:start.hsp:367023",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/28/new",
+      "target": "네코마타",
+      "source_ref": "2.335:start.hsp:367029",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/28/race/164/old",
+      "target": "고양이",
+      "source_ref": "2.335:start.hsp:367032",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/28/race/246/old",
+      "target": "실버 캣",
+      "source_ref": "2.335:start.hsp:367035",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/28/race/332/old",
+      "target": "길 잃은 새끼 고양이",
+      "source_ref": "2.335:start.hsp:367038",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/29/new",
+      "target": "만티코어",
+      "source_ref": "2.335:start.hsp:367044",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/29/race/228/old",
+      "target": "카벙클",
+      "source_ref": "2.335:start.hsp:367047",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/29/race/229/old",
+      "target": "사자",
+      "source_ref": "2.335:start.hsp:367050",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/30/new",
+      "target": "여름 누나",
+      "source_ref": "2.335:start.hsp:367060",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/30/old",
+      "target": "언니",
+      "source_ref": "2.335:start.hsp:367061",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/31/new",
+      "target": "꼬마 누나",
+      "source_ref": "2.335:start.hsp:367067",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/31/old",
+      "target": "언니",
+      "source_ref": "2.335:start.hsp:367068",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/32/new",
+      "target": "여동생 고양이?",
+      "source_ref": "2.335:start.hsp:367077",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/32/old",
+      "target": "여동생",
+      "source_ref": "2.335:start.hsp:367078",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/33/new",
+      "target": "병든 여동생",
+      "source_ref": "2.335:start.hsp:367083",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/33/old",
+      "target": "여동생",
+      "source_ref": "2.335:start.hsp:367084",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/34/new",
+      "target": "다 자란 화염룡",
+      "source_ref": "2.335:start.hsp:367092",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/34/old",
+      "target": "새끼 화염룡",
+      "source_ref": "2.335:start.hsp:367093",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/35/new",
+      "target": "화염 기계룡",
+      "source_ref": "2.335:start.hsp:367104",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/35/old",
+      "target": "다 자란 화염룡",
+      "source_ref": "2.335:start.hsp:367105",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/36/new",
+      "target": "카부테리온",
+      "source_ref": "2.335:start.hsp:367114",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/36/old",
+      "target": "장수풍뎅이",
+      "source_ref": "2.335:start.hsp:367115",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/37/new",
+      "target": "하이퍼 비틀",
+      "source_ref": "2.335:start.hsp:367123",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/37/old",
+      "target": "헤븐즈비틀",
+      "source_ref": "2.335:start.hsp:367124",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/38/new",
+      "target": "블랙 드래곤",
+      "source_ref": "2.335:start.hsp:367128",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/38/old",
+      "target": "좀비 드래곤",
+      "source_ref": "2.335:start.hsp:367129",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/39/new",
+      "target": "오르가시즐",
+      "source_ref": "2.335:start.hsp:367136",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/39/race/47/old",
+      "target": "리치",
+      "source_ref": "2.335:start.hsp:367139",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/39/race/48/old",
+      "target": "마스터 리치",
+      "source_ref": "2.335:start.hsp:367142",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/39/race/49/old",
+      "target": "데미리치",
+      "source_ref": "2.335:start.hsp:367145",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/40/new",
+      "target": "해골 야수",
+      "source_ref": "2.335:start.hsp:367151",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/40/race/150/old",
+      "target": "해골 전사",
+      "source_ref": "2.335:start.hsp:367154",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/40/race/151/old",
+      "target": "해골 광전사",
+      "source_ref": "2.335:start.hsp:367157",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/41/new",
+      "target": "〈체크메이터〉",
+      "source_ref": "2.335:start.hsp:367165",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/41/race/153/old",
+      "target": "폰",
+      "source_ref": "2.335:start.hsp:367168",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/41/race/154/old",
+      "target": "룩",
+      "source_ref": "2.335:start.hsp:367171",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/41/race/155/old",
+      "target": "비숍",
+      "source_ref": "2.335:start.hsp:367174",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/41/race/156/old",
+      "target": "나이트",
+      "source_ref": "2.335:start.hsp:367177",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/41/race/157/old",
+      "target": "퀸",
+      "source_ref": "2.335:start.hsp:367180",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/41/race/158/old",
+      "target": "킹",
+      "source_ref": "2.335:start.hsp:367183",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/42/new",
+      "target": "황금용충",
+      "source_ref": "2.335:start.hsp:367192",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/42/race/148/old",
+      "target": "화염지네",
+      "source_ref": "2.335:start.hsp:367195",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/42/race/14/old",
+      "target": "지네",
+      "source_ref": "2.335:start.hsp:367198",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/43/new",
+      "target": "송곳니 식물",
+      "source_ref": "2.335:start.hsp:367206",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/43/race/93/old",
+      "target": "식인꽃",
+      "source_ref": "2.335:start.hsp:367209",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/43/race/94/old",
+      "target": "혼돈의 꽃",
+      "source_ref": "2.335:start.hsp:367212",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/44/new",
+      "target": "세세라기",
+      "source_ref": "2.335:start.hsp:367221",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/44/race/439/old",
+      "target": "갈색 악마",
+      "source_ref": "2.335:start.hsp:367224",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/44/race/523/old",
+      "target": "살인 바퀴벌레",
+      "source_ref": "2.335:start.hsp:367227",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/45/new",
+      "target": "듀라한",
+      "source_ref": "2.335:start.hsp:367235",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/45/race/110/old",
+      "target": "살아 있는 갑옷",
+      "source_ref": "2.335:start.hsp:367238",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/45/race/111/old",
+      "target": "쇳덩이",
+      "source_ref": "2.335:start.hsp:367241",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/46/new",
+      "target": "누나 늑대",
+      "source_ref": "2.335:start.hsp:367247",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/46/old",
+      "target": "개의 의붓누이",
+      "source_ref": "2.335:start.hsp:367248",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/47/new",
+      "target": "아네비스",
+      "source_ref": "2.335:start.hsp:367254",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/47/old",
+      "target": "누나 늑대",
+      "source_ref": "2.335:start.hsp:367255",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/48/new",
+      "target": "나누크",
+      "source_ref": "2.335:start.hsp:367262",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/48/race/108/old",
+      "target": "브라운 베어",
+      "source_ref": "2.335:start.hsp:367265",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/48/race/109/old",
+      "target": "회색곰",
+      "source_ref": "2.335:start.hsp:367268",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/49/new",
+      "target": "어린 여자아이",
+      "source_ref": "2.335:start.hsp:367277",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/49/old",
+      "target": "소녀",
+      "source_ref": "2.335:start.hsp:367278",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/50/new",
+      "target": "흡혈 아가씨",
+      "source_ref": "2.335:start.hsp:367285",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/50/old",
+      "target": "하얀 아가씨",
+      "source_ref": "2.335:start.hsp:367286",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/51/new",
+      "target": "하얀 아가씨",
+      "source_ref": "2.335:start.hsp:367294",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/51/old",
+      "target": "아가씨",
+      "source_ref": "2.335:start.hsp:367295",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/52/new",
+      "target": "마녀",
+      "source_ref": "2.335:start.hsp:367301",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/52/old",
+      "target": "어린 여자아이",
+      "source_ref": "2.335:start.hsp:367302",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/53/new",
+      "target": "양산형 멜가스트",
+      "source_ref": "2.335:start.hsp:367309",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/53/old",
+      "target": "이에르스 자율 비행 유닛",
+      "source_ref": "2.335:start.hsp:367310",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/54/new",
+      "target": "제이렌 인간형 전차",
+      "source_ref": "2.335:start.hsp:367316",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/54/old",
+      "target": "제이렌 자동 경전차",
+      "source_ref": "2.335:start.hsp:367317",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/55/new",
+      "target": "그리핀",
+      "source_ref": "2.335:start.hsp:367327",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/55/old",
+      "target": "새끼 그리핀",
+      "source_ref": "2.335:start.hsp:367328",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/56/new",
+      "target": "메셰라 솔다도",
+      "source_ref": "2.335:start.hsp:367337",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/56/old",
+      "target": "동화병",
+      "source_ref": "2.335:start.hsp:367338",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/57/new",
+      "target": "커피 푸딩 정령",
+      "source_ref": "2.335:start.hsp:367353",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/57/old",
+      "target": "푸딩의 정령",
+      "source_ref": "2.335:start.hsp:367354",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/58/new",
+      "target": "상급 정령",
+      "source_ref": "2.335:start.hsp:367361",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/58/old",
+      "target": "정령",
+      "source_ref": "2.335:start.hsp:367362",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/59/race/114/new",
+      "target": "저주에서 풀려난 메두사",
+      "source_ref": "2.335:start.hsp:367423",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/59/race/114/old",
+      "target": "메두사",
+      "source_ref": "2.335:start.hsp:367424",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/59/race/115/new",
+      "target": "저주에서 풀려난 에우리알레",
+      "source_ref": "2.335:start.hsp:367429",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/59/race/115/old",
+      "target": "에우리알레",
+      "source_ref": "2.335:start.hsp:367430",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/59/race/116/new",
+      "target": "저주에서 풀려난 스테노",
+      "source_ref": "2.335:start.hsp:367435",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/59/race/116/old",
+      "target": "스테노",
+      "source_ref": "2.335:start.hsp:367436",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/60/new",
+      "target": "용을 치는 자",
+      "source_ref": "2.335:start.hsp:367443",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/60/old",
+      "target": "리자드맨",
+      "source_ref": "2.335:start.hsp:367444",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/61/new",
+      "target": "라타토스크",
+      "source_ref": "2.335:start.hsp:367450",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/61/race/61/old",
+      "target": "거대 다람쥐",
+      "source_ref": "2.335:start.hsp:367453",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/61/race/62/old",
+      "target": "살인 다람쥐",
+      "source_ref": "2.335:start.hsp:367456",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/62/new",
+      "target": "냉기의 거인",
+      "source_ref": "2.335:start.hsp:367461",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/62/race/83/old",
+      "target": "사이클롭스",
+      "source_ref": "2.335:start.hsp:367464",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/62/race/84/old",
+      "target": "타이탄",
+      "source_ref": "2.335:start.hsp:367468",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/63/new",
+      "target": "검은 팬텀",
+      "source_ref": "2.335:start.hsp:367474",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/63/old",
+      "target": "하급 망령",
+      "source_ref": "2.335:start.hsp:367475",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/64/new",
+      "target": "『빅 시스터』",
+      "source_ref": "2.335:start.hsp:367482",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/64/old",
+      "target": "리틀 시스터",
+      "source_ref": "2.335:start.hsp:367483",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/65/new",
+      "target": "전기룡",
+      "source_ref": "2.335:start.hsp:367490",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/65/old",
+      "target": "전기양",
+      "source_ref": "2.335:start.hsp:367491",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/66/new",
+      "target": "바포메트",
+      "source_ref": "2.335:start.hsp:367499",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/66/old",
+      "target": "양",
+      "source_ref": "2.335:start.hsp:367500",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/67/new",
+      "target": "로드 큐피드",
+      "source_ref": "2.335:start.hsp:367509",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/67/old",
+      "target": "사랑의 큐피드",
+      "source_ref": "2.335:start.hsp:367510",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/68/new",
+      "target": "떠도는 천사",
+      "source_ref": "2.335:start.hsp:367516",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/68/old",
+      "target": "견습 천사",
+      "source_ref": "2.335:start.hsp:367517",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/69/new",
+      "target": "발키리",
+      "source_ref": "2.335:start.hsp:367526",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/69/old",
+      "target": "소녀",
+      "source_ref": "2.335:start.hsp:367527",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/70/new",
+      "target": "폭탄 흑수정",
+      "source_ref": "2.335:start.hsp:367535",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/70/old",
+      "target": "폭탄암",
+      "source_ref": "2.335:start.hsp:367536",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/71/new",
+      "target": "황제 이크",
+      "source_ref": "2.335:start.hsp:367542",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/71/race/236/old",
+      "target": "이이크",
+      "source_ref": "2.335:start.hsp:367545",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/71/race/238/old",
+      "target": "이이크 전사",
+      "source_ref": "2.335:start.hsp:367549",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/71/race/241/old",
+      "target": "이이크 궁수",
+      "source_ref": "2.335:start.hsp:367553",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/71/race/240/old",
+      "target": "마스터 이이크",
+      "source_ref": "2.335:start.hsp:367557",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/71/race/237/old",
+      "target": "자폭 이이크",
+      "source_ref": "2.335:start.hsp:367561",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/72/new",
+      "target": "전기 마우스",
+      "source_ref": "2.335:start.hsp:367568",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/72/old",
+      "target": "쥐",
+      "source_ref": "2.335:start.hsp:367571",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/73/new",
+      "target": "슬라임노이드",
+      "source_ref": "2.335:start.hsp:367577",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/73/race/169/old",
+      "target": "슬라임",
+      "source_ref": "2.335:start.hsp:367579",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/73/race/194/old",
+      "target": "약산성 슬라임",
+      "source_ref": "2.335:start.hsp:367584",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/74/new",
+      "target": "슬라임 로퍼",
+      "source_ref": "2.335:start.hsp:367594",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/74/race/169/old",
+      "target": "슬라임",
+      "source_ref": "2.335:start.hsp:367596",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/74/race/194/old",
+      "target": "약산성 슬라임",
+      "source_ref": "2.335:start.hsp:367601",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/75/new",
+      "target": "여왕 에일리언",
+      "source_ref": "2.335:start.hsp:367611",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/75/old",
+      "target": "외계인",
+      "source_ref": "2.335:start.hsp:367612",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/76/new",
+      "target": "죽음의 눈을 지닌 백골룡",
+      "source_ref": "2.335:start.hsp:367620",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/76/old",
+      "target": "해골 야수",
+      "source_ref": "2.335:start.hsp:367622",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/77/new",
+      "target": "궁극의 병아리",
+      "source_ref": "2.335:start.hsp:367630",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/77/old",
+      "target": "닭",
+      "source_ref": "2.335:start.hsp:367632",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/78/new",
+      "target": "장갑 기계병",
+      "source_ref": "2.335:start.hsp:367641",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/78/old",
+      "target": "신형 무장병",
+      "source_ref": "2.335:start.hsp:367642",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/79/new",
+      "target": "코볼트",
+      "source_ref": "2.335:start.hsp:367651",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/79/old",
+      "target": "툰 코볼트",
+      "source_ref": "2.335:start.hsp:367652",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/80/new",
+      "target": "데인저러스 블레이드",
+      "source_ref": "2.335:start.hsp:367660",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/80/race/186/old",
+      "target": "블레이드",
+      "source_ref": "2.335:start.hsp:367662",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/80/race/187/old",
+      "target": "블레이드 베타",
+      "source_ref": "2.335:start.hsp:367667",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/80/race/188/old",
+      "target": "블레이드 오메가",
+      "source_ref": "2.335:start.hsp:367672",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/81/new",
+      "target": "다크 소울",
+      "source_ref": "2.335:start.hsp:367680",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/81/race/65/old",
+      "target": "방전 구름",
+      "source_ref": "2.335:start.hsp:367683",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/81/race/66/old",
+      "target": "혼돈의 덩어리",
+      "source_ref": "2.335:start.hsp:367687",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/81/race/191/old",
+      "target": "위스프",
+      "source_ref": "2.335:start.hsp:367691",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/82/new",
+      "target": "남동생 불여우",
+      "source_ref": "2.335:start.hsp:367698",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/82/old",
+      "target": "여우 의붓동생",
+      "source_ref": "2.335:start.hsp:367699",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/83/new",
+      "target": "아홉 꼬리 남동생 여우",
+      "source_ref": "2.335:start.hsp:367707",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/83/old",
+      "target": "여우 의붓동생",
+      "source_ref": "2.335:start.hsp:367708",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/84/new",
+      "target": "집 없는 소라게",
+      "source_ref": "2.335:start.hsp:367715",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/84/old",
+      "target": "소라게",
+      "source_ref": "2.335:start.hsp:367717",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/85/new",
+      "target": "기갑 군용 푸치",
+      "source_ref": "2.335:start.hsp:367725",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/85/old",
+      "target": "푸치 특공대",
+      "source_ref": "2.335:start.hsp:367726",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/86/new",
+      "target": "천진난만한 전사",
+      "source_ref": "2.335:start.hsp:367733",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/86/old",
+      "target": "천진난만한 소녀",
+      "source_ref": "2.335:start.hsp:367734",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/87/new",
+      "target": "적을 농락하는 엘레아 전사",
+      "source_ref": "2.335:start.hsp:367742",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/87/old",
+      "target": "엘레아의 전사",
+      "source_ref": "2.335:start.hsp:367743",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/88/new",
+      "target": "엘레아의 마법 학자",
+      "source_ref": "2.335:start.hsp:367764",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/88/old",
+      "target": "엘레아의 마법사",
+      "source_ref": "2.335:start.hsp:367765",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/89/new",
+      "target": "불쥐",
+      "source_ref": "2.335:start.hsp:367787",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/89/old",
+      "target": "쥐",
+      "source_ref": "2.335:start.hsp:367790",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/90/new",
+      "target": "할로윈 나이트헤드",
+      "source_ref": "2.335:start.hsp:367796",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/90/race/63/old",
+      "target": "원한",
+      "source_ref": "2.335:start.hsp:367798",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/90/race/64/old",
+      "target": "아귀",
+      "source_ref": "2.335:start.hsp:367802",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/91/new",
+      "target": "영혼벌",
+      "source_ref": "2.335:start.hsp:367809",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/91/race/81/old",
+      "target": "말벌",
+      "source_ref": "2.335:start.hsp:367811",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/91/race/82/old",
+      "target": "레드 와스프",
+      "source_ref": "2.335:start.hsp:367816",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/91/race/507/old",
+      "target": "검은 말벌",
+      "source_ref": "2.335:start.hsp:367821",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/92/new",
+      "target": "마쉬루만",
+      "source_ref": "2.335:start.hsp:367829",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/92/race/15/old",
+      "target": "버섯",
+      "source_ref": "2.335:start.hsp:367832",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/92/race/283/old",
+      "target": "포자 버섯",
+      "source_ref": "2.335:start.hsp:367835",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/92/race/284/old",
+      "target": "혼돈 버섯",
+      "source_ref": "2.335:start.hsp:367838",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/93/new",
+      "target": "라미아",
+      "source_ref": "2.335:start.hsp:367845",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/93/race/95/old",
+      "target": "코브라",
+      "source_ref": "2.335:start.hsp:367848",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/93/race/96/old",
+      "target": "킹코브라",
+      "source_ref": "2.335:start.hsp:367851",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/94/new",
+      "target": "스프레드 와이번",
+      "source_ref": "2.335:start.hsp:367858",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/94/race/68/old",
+      "target": "와이번",
+      "source_ref": "2.335:start.hsp:367861",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/94/race/505/old",
+      "target": "용맹한 와이번",
+      "source_ref": "2.335:start.hsp:367865",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/95/new",
+      "target": "결투 게",
+      "source_ref": "2.335:start.hsp:367872",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/95/old",
+      "target": "불게",
+      "source_ref": "2.335:start.hsp:367874",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/96/new",
+      "target": "주아족 마갑 전사",
+      "source_ref": "2.335:start.hsp:367879",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/96/race/233/old",
+      "target": "주아 보병",
+      "source_ref": "2.335:start.hsp:367881",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/96/race/235/old",
+      "target": "주아 검투사",
+      "source_ref": "2.335:start.hsp:367885",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/97/new",
+      "target": "카부 = 트라이즈",
+      "source_ref": "2.335:start.hsp:367893",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/97/old",
+      "target": "커브",
+      "source_ref": "2.335:start.hsp:367895",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/98/new",
+      "target": "모닝스타",
+      "source_ref": "2.335:start.hsp:367903",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/98/old",
+      "target": "햄스터",
+      "source_ref": "2.335:start.hsp:367904",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/99/new",
+      "target": "찬란한 불꽃의 용",
+      "source_ref": "2.335:start.hsp:367909",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/99/old",
+      "target": "화염 기계룡",
+      "source_ref": "2.335:start.hsp:367910",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/100/new",
+      "target": "다크니스",
+      "source_ref": "2.335:start.hsp:367918",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/100/old",
+      "target": "검은 팬텀",
+      "source_ref": "2.335:start.hsp:367919",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/101/new",
+      "target": "베아가",
+      "source_ref": "2.335:start.hsp:367926",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/101/stage/1/old",
+      "target": "도깨비곰",
+      "source_ref": "2.335:start.hsp:367928",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/101/stage/2/old",
+      "target": "나누크",
+      "source_ref": "2.335:start.hsp:367933",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/102/new",
+      "target": "성채 골렘",
+      "source_ref": "2.335:start.hsp:367942",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/102/race/683/old",
+      "target": "꼬마 나무 골렘",
+      "source_ref": "2.335:start.hsp:367944",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/102/race/682/old",
+      "target": "꼬마 돌 골렘",
+      "source_ref": "2.335:start.hsp:367950",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/102/race/132/old",
+      "target": "나무 골렘",
+      "source_ref": "2.335:start.hsp:367956",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/102/race/133/old",
+      "target": "돌 골렘",
+      "source_ref": "2.335:start.hsp:367960",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/102/race/134/old",
+      "target": "스틸 골렘",
+      "source_ref": "2.335:start.hsp:367964",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/103/new",
+      "target": "궁극의 성채 골렘",
+      "source_ref": "2.335:start.hsp:367973",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/103/old",
+      "target": "성채 골렘",
+      "source_ref": "2.335:start.hsp:367974",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/104/new",
+      "target": "작열하는 구리 왕거미",
+      "source_ref": "2.335:start.hsp:367982",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/104/race/127/old",
+      "target": "얼룩거미",
+      "source_ref": "2.335:start.hsp:367984",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/104/race/128/old",
+      "target": "블랙 위도",
+      "source_ref": "2.335:start.hsp:367988",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/104/race/129/old",
+      "target": "패럴라이저",
+      "source_ref": "2.335:start.hsp:367992",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/104/race/130/old",
+      "target": "타란툴라",
+      "source_ref": "2.335:start.hsp:367996",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/104/race/131/old",
+      "target": "흡혈거미",
+      "source_ref": "2.335:start.hsp:368000",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/105/new",
+      "target": "붉은 수호수",
+      "source_ref": "2.335:start.hsp:368009",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/105/old",
+      "target": "티라노사우루스",
+      "source_ref": "2.335:start.hsp:368010",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/106/new",
+      "target": "암흑 티라노",
+      "source_ref": "2.335:start.hsp:368020",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/106/old",
+      "target": "티라노사우루스",
+      "source_ref": "2.335:start.hsp:368021",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/107/new",
+      "target": "작열하는 구리의 아라크니다",
+      "source_ref": "2.335:start.hsp:368031",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/107/old",
+      "target": "작열하는 구리 왕거미",
+      "source_ref": "2.335:start.hsp:368032",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/108/new",
+      "target": "흉포한 구리 왕전갈",
+      "source_ref": "2.335:start.hsp:368040",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/108/race/255/old",
+      "target": "전갈",
+      "source_ref": "2.335:start.hsp:368042",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/108/race/256/old",
+      "target": "황제전갈",
+      "source_ref": "2.335:start.hsp:368046",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/109/new",
+      "target": "흉포한 구리의 아라크니다",
+      "source_ref": "2.335:start.hsp:368055",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/109/old",
+      "target": "흉포한 구리 왕전갈",
+      "source_ref": "2.335:start.hsp:368056",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/110/new",
+      "target": "대왕펭귄",
+      "source_ref": "2.335:start.hsp:368064",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/110/old",
+      "target": "떠돌이 펭귄",
+      "source_ref": "2.335:start.hsp:368065",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/111/new",
+      "target": "스테이시",
+      "source_ref": "2.335:start.hsp:368073",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/111/old",
+      "target": "좀비 소녀",
+      "source_ref": "2.335:start.hsp:368074",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/112/new",
+      "target": "로마네스크",
+      "source_ref": "2.335:start.hsp:368080",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/112/old",
+      "target": "좀비 소녀",
+      "source_ref": "2.335:start.hsp:368081",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/113/new",
+      "target": "타나토스",
+      "source_ref": "2.335:start.hsp:368088",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/113/old",
+      "target": "좀비 소녀",
+      "source_ref": "2.335:start.hsp:368089",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/114/new",
+      "target": "민달팽이",
+      "source_ref": "2.335:start.hsp:368097",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/114/old",
+      "target": "달팽이",
+      "source_ref": "2.335:start.hsp:368098",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/115/new",
+      "target": "메탈슬러그",
+      "source_ref": "2.335:start.hsp:368103",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/115/old",
+      "target": "민달팽이",
+      "source_ref": "2.335:start.hsp:368104",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/116/new",
+      "target": "혼돈의 뇌운룡",
+      "source_ref": "2.335:start.hsp:368115",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/116/old",
+      "target": "다크 소울",
+      "source_ref": "2.335:start.hsp:368116",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/117/new",
+      "target": "윌 오거",
+      "source_ref": "2.335:start.hsp:368130",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/117/old",
+      "target": "다크 소울",
+      "source_ref": "2.335:start.hsp:368131",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/118/new",
+      "target": "크로스 모아이",
+      "source_ref": "2.335:start.hsp:368140",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/118/old",
+      "target": "모아이",
+      "source_ref": "2.335:start.hsp:368141",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/new",
+      "target": "네크로키마이라",
+      "source_ref": "2.335:start.hsp:368150",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/race/21/old",
+      "target": "좀비",
+      "source_ref": "2.335:start.hsp:368152",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/race/307/old",
+      "target": "사형 집행인",
+      "source_ref": "2.335:start.hsp:368156",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/race/47/old",
+      "target": "리치",
+      "source_ref": "2.335:start.hsp:368160",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/race/99/old",
+      "target": "하급 미라",
+      "source_ref": "2.335:start.hsp:368164",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/race/100/old",
+      "target": "미라",
+      "source_ref": "2.335:start.hsp:368168",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/race/101/old",
+      "target": "상급 미라",
+      "source_ref": "2.335:start.hsp:368172",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/119/race/254/old",
+      "target": "고대의 관",
+      "source_ref": "2.335:start.hsp:368176",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/120/new",
+      "target": "질풍의 은기사",
+      "source_ref": "2.335:start.hsp:368184",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/120/old",
+      "target": "켄타우로스",
+      "source_ref": "2.335:start.hsp:368185",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/121/new",
+      "target": "성난 황소신",
+      "source_ref": "2.335:start.hsp:368192",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/121/old",
+      "target": "소",
+      "source_ref": "2.335:start.hsp:368193",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/122/new",
+      "target": "이노부타",
+      "source_ref": "2.335:start.hsp:368201",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/122/old",
+      "target": "새끼 멧돼지",
+      "source_ref": "2.335:start.hsp:368202",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/123/new",
+      "target": "빅피그",
+      "source_ref": "2.335:start.hsp:368209",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/123/old",
+      "target": "이노부타",
+      "source_ref": "2.335:start.hsp:368210",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/124/new",
+      "target": "진홍의 눈을 가진 흰토끼",
+      "source_ref": "2.335:start.hsp:368218",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/124/old",
+      "target": "산토끼",
+      "source_ref": "2.335:start.hsp:368219",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/125/new",
+      "target": "실버니",
+      "source_ref": "2.335:start.hsp:368226",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/125/old",
+      "target": "산토끼",
+      "source_ref": "2.335:start.hsp:368227",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/126/new",
+      "target": "망령 공주",
+      "source_ref": "2.335:start.hsp:368234",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/126/old",
+      "target": "망령",
+      "source_ref": "2.335:start.hsp:368235",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/127/new",
+      "target": "로렐라이",
+      "source_ref": "2.335:start.hsp:368242",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/127/old",
+      "target": "님프",
+      "source_ref": "2.335:start.hsp:368243",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/128/new",
+      "target": "프로그 앤 롤러",
+      "source_ref": "2.335:start.hsp:368250",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/128/race/11/old",
+      "target": "날개구리",
+      "source_ref": "2.335:start.hsp:368252",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/128/race/797/old",
+      "target": "독화살개구리",
+      "source_ref": "2.335:start.hsp:368256",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/129/new",
+      "target": "메가 살라만더",
+      "source_ref": "2.335:start.hsp:368264",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/129/old",
+      "target": "멜카 살라만더",
+      "source_ref": "2.335:start.hsp:368265",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/130/new",
+      "target": "마그나 페어리",
+      "source_ref": "2.335:start.hsp:368274",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/130/old",
+      "target": "요정",
+      "source_ref": "2.335:start.hsp:368275",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/131/race/281/new",
+      "target": "리자드 마제스티",
+      "source_ref": "2.335:start.hsp:368284",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/131/race/281/old",
+      "target": "리자드맨",
+      "source_ref": "2.335:start.hsp:368285",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/131/race/811/new",
+      "target": "리자드 마제스티",
+      "source_ref": "2.335:start.hsp:368289",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/131/race/811/old",
+      "target": "리자드 메이지",
+      "source_ref": "2.335:start.hsp:368290",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/132/new",
+      "target": "플레어틱",
+      "source_ref": "2.335:start.hsp:368298",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/132/old",
+      "target": "하피",
+      "source_ref": "2.335:start.hsp:368299",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/133/new",
+      "target": "피니키안",
+      "source_ref": "2.335:start.hsp:368308",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/133/old",
+      "target": "플레어틱",
+      "source_ref": "2.335:start.hsp:368309",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/134/new",
+      "target": "잭 왕",
+      "source_ref": "2.335:start.hsp:368319",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/134/race/201/old",
+      "target": "강아지",
+      "source_ref": "2.335:start.hsp:368321",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/134/race/196/old",
+      "target": "펌프킨",
+      "source_ref": "2.335:start.hsp:368326",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/134/race/197/old",
+      "target": "호박 괴물",
+      "source_ref": "2.335:start.hsp:368331",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/134/race/198/old",
+      "target": "핼러윈의 악몽",
+      "source_ref": "2.335:start.hsp:368336",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/135/new",
+      "target": "소드 맨드레이크",
+      "source_ref": "2.335:start.hsp:368346",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/135/old",
+      "target": "맨드레이크",
+      "source_ref": "2.335:start.hsp:368347",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/136/new",
+      "target": "그레이트 임프",
+      "source_ref": "2.335:start.hsp:368354",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/136/race/85/old",
+      "target": "임프",
+      "source_ref": "2.335:start.hsp:368356",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/136/race/86/old",
+      "target": "명계의 사자",
+      "source_ref": "2.335:start.hsp:368360",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/136/race/87/old",
+      "target": "카오스 임프",
+      "source_ref": "2.335:start.hsp:368364",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/137/new",
+      "target": "우주 총잡이 개복치",
+      "source_ref": "2.335:start.hsp:368373",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/137/old",
+      "target": "총잡이 개복치",
+      "source_ref": "2.335:start.hsp:368374",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/138/new",
+      "target": "마이호머",
+      "source_ref": "2.335:start.hsp:368381",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/138/old",
+      "target": "집 없는 소라게",
+      "source_ref": "2.335:start.hsp:368382",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/139/new",
+      "target": "머신 스톰",
+      "source_ref": "2.335:start.hsp:368390",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/139/old",
+      "target": "대형 오토바이",
+      "source_ref": "2.335:start.hsp:368391",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/140/new",
+      "target": "단풍잎 용나무",
+      "source_ref": "2.335:start.hsp:368396",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/140/old",
+      "target": "화염수",
+      "source_ref": "2.335:start.hsp:368397",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/141/new",
+      "target": "눈잎 용나무",
+      "source_ref": "2.335:start.hsp:368406",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/141/old",
+      "target": "빙결수",
+      "source_ref": "2.335:start.hsp:368407",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/142/new",
+      "target": "카오스 스파우트",
+      "source_ref": "2.335:start.hsp:368416",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/142/old",
+      "target": "카오스 씨드",
+      "source_ref": "2.335:start.hsp:368417",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/143/new",
+      "target": "카오스 플랜트",
+      "source_ref": "2.335:start.hsp:368441",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/143/old",
+      "target": "카오스 스파우트",
+      "source_ref": "2.335:start.hsp:368442",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/144/new",
+      "target": "천충",
+      "source_ref": "2.335:start.hsp:368452",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/144/old",
+      "target": "애벌레 저격수",
+      "source_ref": "2.335:start.hsp:368453",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/145/new",
+      "target": "보블보블",
+      "source_ref": "2.335:start.hsp:368462",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/145/race/285/old",
+      "target": "블루버블",
+      "source_ref": "2.335:start.hsp:368464",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/145/race/286/old",
+      "target": "버블",
+      "source_ref": "2.335:start.hsp:368469",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/146/new",
+      "target": "마투 인형",
+      "source_ref": "2.335:start.hsp:368480",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/146/old",
+      "target": "꼭두각시",
+      "source_ref": "2.335:start.hsp:368481",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/147/new",
+      "target": "의적",
+      "source_ref": "2.335:start.hsp:368489",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/147/race/214/old",
+      "target": "견습 도적",
+      "source_ref": "2.335:start.hsp:368491",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/147/race/215/old",
+      "target": "강도",
+      "source_ref": "2.335:start.hsp:368496",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/148/new",
+      "target": "백의의 적십자",
+      "source_ref": "2.335:start.hsp:368505",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/148/old",
+      "target": "흰 가운의 간호사",
+      "source_ref": "2.335:start.hsp:368506",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/149/new",
+      "target": "불굴의 투장",
+      "source_ref": "2.335:start.hsp:368514",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/149/old",
+      "target": "패잔병",
+      "source_ref": "2.335:start.hsp:368515",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/150/new",
+      "target": "로드아머",
+      "source_ref": "2.335:start.hsp:368522",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/150/old",
+      "target": "듀라한",
+      "source_ref": "2.335:start.hsp:368523",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/151/new",
+      "target": "소년 정찰병",
+      "source_ref": "2.335:start.hsp:368534",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/151/old",
+      "target": "소년",
+      "source_ref": "2.335:start.hsp:368535",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/152/new",
+      "target": "투권 남사",
+      "source_ref": "2.335:start.hsp:368543",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/152/old",
+      "target": "소년 정찰병",
+      "source_ref": "2.335:start.hsp:368544",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/153/new",
+      "target": "집사 양",
+      "source_ref": "2.335:start.hsp:368551",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/153/old",
+      "target": "집사",
+      "source_ref": "2.335:start.hsp:368552",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/154/new",
+      "target": "비스크 돌즈",
+      "source_ref": "2.335:start.hsp:368559",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/154/old",
+      "target": "비스크 인형",
+      "source_ref": "2.335:start.hsp:368560",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/155/new",
+      "target": "오보르트",
+      "source_ref": "2.335:start.hsp:368566",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/155/old",
+      "target": "코볼트",
+      "source_ref": "2.335:start.hsp:368567",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/156/new",
+      "target": "왕체",
+      "source_ref": "2.335:start.hsp:368574",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/156/race/17/old",
+      "target": "오크",
+      "source_ref": "2.335:start.hsp:368576",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/156/race/20/old",
+      "target": "오크 전사",
+      "source_ref": "2.335:start.hsp:368581",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/157/new",
+      "target": "불타는 돼지",
+      "source_ref": "2.335:start.hsp:368591",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/157/old",
+      "target": "포르크",
+      "source_ref": "2.335:start.hsp:368592",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/158/new",
+      "target": "구두룡 공주",
+      "source_ref": "2.335:start.hsp:368599",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/158/old",
+      "target": "새끼 크툴루",
+      "source_ref": "2.335:start.hsp:368600",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/159/new",
+      "target": "아수라왕",
+      "source_ref": "2.335:start.hsp:368610",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/159/old",
+      "target": "아수라",
+      "source_ref": "2.335:start.hsp:368611",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/160/new",
+      "target": "미슬라",
+      "source_ref": "2.335:start.hsp:368618",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/160/old",
+      "target": "미트라",
+      "source_ref": "2.335:start.hsp:368619",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/161/new",
+      "target": "수천 바루나",
+      "source_ref": "2.335:start.hsp:368626",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/161/old",
+      "target": "바루나",
+      "source_ref": "2.335:start.hsp:368627",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/162/new",
+      "target": "메니 아이즈",
+      "source_ref": "2.335:start.hsp:368634",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/162/race/189/old",
+      "target": "기형의 눈",
+      "source_ref": "2.335:start.hsp:368636",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/162/race/190/old",
+      "target": "부정한 눈동자",
+      "source_ref": "2.335:start.hsp:368641",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/163/new",
+      "target": "사안의 소녀",
+      "source_ref": "2.335:start.hsp:368652",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/163/race/67/old",
+      "target": "떠다니는 눈",
+      "source_ref": "2.335:start.hsp:368654",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/163/race/315/old",
+      "target": "카오스아이",
+      "source_ref": "2.335:start.hsp:368659",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/163/race/316/old",
+      "target": "매드 게이즈",
+      "source_ref": "2.335:start.hsp:368664",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/163/race/314/old",
+      "target": "데스 게이즈",
+      "source_ref": "2.335:start.hsp:368669",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/164/new",
+      "target": "신수 발톱병",
+      "source_ref": "2.335:start.hsp:368681",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/164/old",
+      "target": "짐승발톱 병사",
+      "source_ref": "2.335:start.hsp:368682",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/165/new",
+      "target": "시필톤트리",
+      "source_ref": "2.335:start.hsp:368690",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/165/old",
+      "target": "흰악어",
+      "source_ref": "2.335:start.hsp:368691",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/166/new",
+      "target": "결정타",
+      "source_ref": "2.335:start.hsp:368699",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/166/race/88/old",
+      "target": "망자의 손",
+      "source_ref": "2.335:start.hsp:368701",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/166/race/89/old",
+      "target": "혼돈의 손",
+      "source_ref": "2.335:start.hsp:368706",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/166/race/90/old",
+      "target": "살인귀의 손",
+      "source_ref": "2.335:start.hsp:368711",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/167/new",
+      "target": "공주 오테구치",
+      "source_ref": "2.335:start.hsp:368723",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/167/race/88/old",
+      "target": "망자의 손",
+      "source_ref": "2.335:start.hsp:368725",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/167/race/89/old",
+      "target": "혼돈의 손",
+      "source_ref": "2.335:start.hsp:368730",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@evolution/167/race/90/old",
+      "target": "살인귀의 손",
+      "source_ref": "2.335:start.hsp:368735",
+      "review_status": "reviewed"
+    }
+  ]
+}

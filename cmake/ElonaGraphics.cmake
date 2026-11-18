@@ -54,6 +54,8 @@ add_library(elona_graphics STATIC
   src/graphics/poly_raster.cpp
   src/graphics/ui_text_codec.cpp
   src/localization/catalog.cpp
+  src/localization/evolution.cpp
+  src/localization/recipe.cpp
   src/localization/alias.cpp
   src/localization/adventure_log.cpp
   src/localization/book_reader.cpp

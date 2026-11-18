@@ -9,6 +9,17 @@
 
 namespace elona::localization {
 struct LogWord { std::string source, display; };
+// The Japanese VM supplies the actual CP932 chunks after wrapping. Consume
+// those chunks in order so translation never changes its counters or log.
+class JapaneseLog {
+public:
+    void begin(std::string_view original, std::string target);
+    std::optional<std::string> consume(std::string_view chunk);
+private:
+    std::string original_, target_;
+    std::vector<std::size_t> glyphs_;
+    std::size_t consumed_ = 0, displayed_ = 0;
+};
 // Display-only UTF-8 lookup. No pointers to VM variables or saved data.
 class Catalog {
 public:
@@ -20,7 +31,8 @@ public:
                                           std::string_view classifier, int id) const;
     std::optional<std::string> log_text(std::string_view source, int starter_pet_id = 0) const;
     std::optional<std::string> news_text(std::string_view source) const;
-    std::deque<LogWord> log_words(std::string source, int used, int limit, int starter_pet_id = 0) const;
+    std::deque<LogWord> log_words(std::string source, int used, int limit, int starter_pet_id = 0,
+                                  std::optional<std::string> target = {}) const;
     std::size_t size() const { return entries_.size(); }
 private:
     struct LogTemplate {

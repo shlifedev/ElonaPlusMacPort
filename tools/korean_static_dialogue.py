@@ -1,7 +1,8 @@
 """Identify authored dialogue before the 2.335 engine wraps the active language."""
+from collections import defaultdict
 import re
 
-from extract_localization import LITERAL
+from extract_localization import LITERAL, PAIR
 from korean_town_hooks import town_caption_inserts
 
 STATIC = re.compile(rf'buff = lang\(\s*({LITERAL}),\s*{LITERAL}\s*\)')
@@ -30,32 +31,7 @@ def static_dialogue_inserts(source, reserved):
             yield offset, insert, 'static_npc_dialogue'
         else:
             yield offset, b'\tnative_dialog_pending = ""\r\n', 'clear_static_dialogue'
-    # English "Alright." covers five different authored replies. Keep the choice
-    # identity through the redraw loop and clear it when the dialog closes.
-    replies = {373951: (31, 'わかった'), 380932: (32, 'いいだろう'),
-               393890: (31, 'わかった'), 393943: (31, 'わかった'),
-               421598: (33, '欲しい…'), 421903: (34, '挑戦する'), 426312: (35, '頼む')}
-    reply_draw = b'cs_list listn(0, cnt), x + 30, y, 18, 4, 0'
-    offset = 0
-    for number, raw in enumerate(lines, 1):
-        offset += len(raw)
-        if number in replies:
-            scope, japanese = replies[number]
-            if raw.strip() != f'listn(0, listmax) = lang("{japanese}", "Alright.")'.encode('cp932'):
-                raise ValueError(f'NPC reply assignment changed at {number}')
-            yield offset, (f'\tnative_reply_scope = {scope}\r\n'
-                           '\tnative_reply_slot = listmax\r\n').encode(), 'npc_reply_identity'
-        elif number == 430275:
-            if raw.strip() != reply_draw:
-                raise ValueError('NPC reply draw changed')
-            yield offset - len(raw), (b'\t\tif ( native_reply_scope > 0 & cnt == native_reply_slot ) {\r\n'
-                                      b'\t\t\tnative_ko_menu native_reply_scope, listn(0, cnt)\r\n'
-                                      b'\t\t}\r\n'), 'npc_reply_begin'
-            yield offset, b'\t\tnative_ko_menu 0, ""\r\n', 'npc_reply_end'
-        elif number == 430313:
-            if raw.strip() != b'listmax = 0':
-                raise ValueError('NPC reply reset changed')
-            yield offset, b'\tnative_reply_scope = 0\r\n', 'npc_reply_reset'
+    yield from story_choice_inserts(source, lines)
     # Preserve the selected authored data/talk.txt line before speech endings
     # are substituted. No lookup is generated from an editable custom reply.
     anchor = b'\tnoteget s, p\r\n\tbuff = s\r\n\tgosub *label_0441\r\n\treturn\r\n*label_0448\r\n'
@@ -68,3 +44,43 @@ def static_dialogue_inserts(source, reserved):
     if source.count(custom) != 1:
         raise ValueError("town custom reply anchor changed")
     yield source.index(custom) + len(custom), b'\t\t\t\t\tnative_dialog_pending = ""\r\n', 'town_custom_reply'
+
+CHOICE = re.compile(rf'listn\(0, listmax\) = lang\(\s*({LITERAL}),\s*({LITERAL})\s*\)')
+
+
+def story_choice_inserts(source, lines):
+    # Some option texts are unique among NPCs but are ambiguous elsewhere in
+    # the catalogue. Use the same original literal identities as the extractor.
+    english_keys = defaultdict(set)
+    for japanese, english in PAIR.findall(source.decode('cp932')):
+        english_keys[english].add(japanese)
+    dimension = b'sdim listn, 40, 2, 500'
+    draw = b'cs_list listn(0, cnt), x + 30, y, 18, 4, 0'
+    if lines[23813].strip() != dimension or lines[430274].strip() != draw:
+        raise ValueError('NPC choice dimensions or selection draw changed')
+    offset = 0
+    for number, raw in enumerate(lines, 1):
+        offset += len(raw)
+        if number == 23814:
+            # The game owns both listn columns. Use the original slot capacity
+            # with independent storage, including when a saved game is loaded.
+            yield offset, (b'\tsdim native_reply_key, 96, 500\r\n'
+                           b'\tdim native_reply_generation, 500\r\n'
+                           b'\tnative_reply_page = 1\r\n'), 'npc_reply_init'
+        if not 370000 <= number <= 430320:
+            continue
+        command = raw.strip()
+        if command == b'listmax = 0':
+            # Page rebuilds can discard a partially populated list without
+            # presenting the window. Invalidate all 500 slots in constant time.
+            yield offset, b'\tnative_reply_page++\r\n', 'npc_reply_reset'
+        elif number == 430275:
+            yield offset - len(raw), (b'\t\tif ( native_reply_generation(cnt) == native_reply_page ) {\r\n'
+                b'\t\t\tnative_ko_menu 20, native_reply_key(cnt) + "\\t" + listn(0, cnt)\r\n'
+                b'\t\t}\r\n'), 'npc_reply_begin'
+            yield offset, b'\t\tnative_ko_menu 0, ""\r\n', 'npc_reply_end'
+        elif command.startswith(b'listn(0, listmax) = lang('):
+            match = CHOICE.fullmatch(command.decode('cp932'))
+            if match and (len(english_keys[match[2]]) > 1 or not match[2][1:-1].strip()):
+                yield offset, (b'\tnative_reply_key(listmax) = ' + match[1].encode('cp932') +
+                               b'\r\n\tnative_reply_generation(listmax) = native_reply_page\r\n'), 'npc_reply_identity'

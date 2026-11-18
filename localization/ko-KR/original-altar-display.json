@@ -1,0 +1,444 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "2.335 label_5441, godname and reviewed Korean altar fragments and glossary"
+  },
+  "entries": [
+    {
+      "source": "@altar/0",
+      "target": "두려움도 의지할 신도 없이(지속: 신에게 주는 모든 피해 +40%)",
+      "source_ref": [
+        "2.335:start.hsp:275840"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Eyth of Infidel >",
+      "source_ja": "《 無のエイス 》",
+      "target": "《 무의 에이스 》",
+      "source_ref": [
+        "2.335:start.hsp:275975"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Eyth of Infidel",
+      "source_ja": "無のエイスを信仰する",
+      "target": "무의 에이스 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/1",
+      "target": "마니는 기계장치로 된 신이다. 마니를 믿는 이는 기계에 대한 방대한 지식을 얻고, 예리해진 감각으로 정밀한 공격을 가할 수 있다.<p>제물: 시체 / 총기 / 기계<p>보너스: 기교 / 감각 / 총기 / 치유 / 탐지 / 보석 세공 / 자물쇠 따기 / 목공<p>특수 능력: 정밀 공격(지속: 주는 물리 피해 +20%)",
+      "source_ref": [
+        "2.335:start.hsp:275843",
+        "2.335:start.hsp:275844",
+        "2.335:start.hsp:275845",
+        "2.335:start.hsp:275846"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Mani of Machine >",
+      "source_ja": "《 機械のマニ 》",
+      "target": "《 기계의 마니 》",
+      "source_ref": [
+        "2.335:start.hsp:275978"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Mani of Machine",
+      "source_ja": "機械のマニを信仰する",
+      "target": "기계의 마니 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Mani of Machine",
+      "source_ja": "機械のマニに改宗する",
+      "target": "기계의 마니 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/2",
+      "target": "룰위는 바람을 다스리는 여신이다. 룰위를 믿는 이는 바람의 축복을 받아 날렵하게 움직일 수 있다.<p>제물: 시체 / 활 / 화살<p>보너스: 감각 / 속도 / 활 / 석궁 / 은신 / 마도구<p>특수 능력: 룰위의 빙의(기술: 잠시 속도가 크게 오른다)",
+      "source_ref": [
+        "2.335:start.hsp:275849",
+        "2.335:start.hsp:275850",
+        "2.335:start.hsp:275851",
+        "2.335:start.hsp:275852"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Lulwy of Wind >",
+      "source_ja": "《 風のルルウィ 》",
+      "target": "《 바람의 룰위 》",
+      "source_ref": [
+        "2.335:start.hsp:275981"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Lulwy of Wind",
+      "source_ja": "風のルルウィを信仰する",
+      "target": "바람의 룰위 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Lulwy of Wind",
+      "source_ja": "風のルルウィに改宗する",
+      "target": "바람의 룰위 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/3",
+      "target": "이츠파로틀은 원소를 다스리는 신이다. 이츠파로틀을 믿는 이는 대기에서 마력을 흡수하고 원소의 가호를 받는다.<p>제물: 시체 / 마법 지팡이<p>보너스: 마력 / 명상 / 화염 저항 / 냉기 저항 / 전격 저항<p>특수 능력: 마력 흡수(기술: 주변 공기에서 마나를 빨아들인다)",
+      "source_ref": [
+        "2.335:start.hsp:275855",
+        "2.335:start.hsp:275856",
+        "2.335:start.hsp:275857",
+        "2.335:start.hsp:275858"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Itzpalt of Element >",
+      "source_ja": "《 元素のイツパロトル 》",
+      "target": "《 원소의 이츠파로틀 》",
+      "source_ref": [
+        "2.335:start.hsp:275984"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Itzpalt of Element",
+      "source_ja": "元素のイツパロトルを信仰する",
+      "target": "원소의 이츠파로틀 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Itzpalt of Element",
+      "source_ja": "元素のイツパロトルに改宗する",
+      "target": "원소의 이츠파로틀 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/4",
+      "target": "에헤카틀은 행운의 여신이다. 에헤카틀을 믿는 이는 운을 자기편으로 만든다.<p>제물: 시체 / 물고기<p>보너스: 매력 / 운 / 회피 / 마력의 한계 / 낚시 / 자물쇠 따기<p>특수 능력: 에헤카틀류 마법(지속: 주문에 드는 마나가 무작위로 바뀐다)",
+      "source_ref": [
+        "2.335:start.hsp:275861",
+        "2.335:start.hsp:275862",
+        "2.335:start.hsp:275863",
+        "2.335:start.hsp:275864"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Ehekatl of Luck >",
+      "source_ja": "《 幸運のエヘカトル 》",
+      "target": "《 행운의 에헤카틀 》",
+      "source_ref": [
+        "2.335:start.hsp:275987"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Ehekatl of Luck",
+      "source_ja": "幸運のエヘカトルを信仰する",
+      "target": "행운의 에헤카틀 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Ehekatl of Luck",
+      "source_ja": "幸運のエヘカトルに改宗する",
+      "target": "행운의 에헤카틀 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/5",
+      "target": "오파토스는 대지의 신이다. 오파토스를 믿는 이는 높은 방어력과 파괴력을 얻는다.<p>제물: 시체 / 광석<p>보너스: 근력 / 내구 / 방패 / 역도 / 채굴 / 마도구<p>특수 능력: 오파토스의 갑각(지속: 받는 모든 피해 -10%)",
+      "source_ref": [
+        "2.335:start.hsp:275867",
+        "2.335:start.hsp:275868",
+        "2.335:start.hsp:275869",
+        "2.335:start.hsp:275870"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Opatos of Earth >",
+      "source_ja": "《 地のオパートス 》",
+      "target": "《 대지의 오파토스 》",
+      "source_ref": [
+        "2.335:start.hsp:275990"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Opatos of Earth",
+      "source_ja": "地のオパートスを信仰する",
+      "target": "대지의 오파토스 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Opatos of Earth",
+      "source_ja": "地のオパートスに改宗する",
+      "target": "대지의 오파토스 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/6",
+      "target": "주아는 치유의 여신이다. 주아를 믿는 이는 다친 몸을 치유할 수 있다.<p>제물: 시체 / 꽃<p>보너스: 의지 / 치유 / 명상 / 해부학 / 요리 / 마도구 / 마력의 한계<p>특수 능력: 주아의 기도(기술: 잃은 체력을 회복한다)",
+      "source_ref": [
+        "2.335:start.hsp:275873",
+        "2.335:start.hsp:275874",
+        "2.335:start.hsp:275875",
+        "2.335:start.hsp:275876"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Jure of Healing >",
+      "source_ja": "《 癒しのジュア 》",
+      "target": "《 치유의 주아 》",
+      "source_ref": [
+        "2.335:start.hsp:275993"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Jure of Healing",
+      "source_ja": "癒しのジュアを信仰する",
+      "target": "치유의 주아 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Jure of Healing",
+      "source_ja": "癒しのジュアに改宗する",
+      "target": "치유의 주아 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/7",
+      "target": "쿠미로미는 수확의 신이다. 쿠미로미를 믿는 이는 대지의 결실을 거두고 이를 가공하는 법을 깨닫는다.<p>제물: 시체 / 채소<p>보너스: 감각 / 기교 / 습득 / 재배 / 연금술 / 재봉 / 독서<p>특수 능력: 끝없는 활력(지속: 스태미나의 자연 회복량이 늘어난다)",
+      "source_ref": [
+        "2.335:start.hsp:275879",
+        "2.335:start.hsp:275880",
+        "2.335:start.hsp:275881",
+        "2.335:start.hsp:275882"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Kumiromi of Harvest >",
+      "source_ja": "《 収穫のクミロミ 》",
+      "target": "《 수확의 쿠미로미 》",
+      "source_ref": [
+        "2.335:start.hsp:275996"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Kumiromi of Harvest",
+      "source_ja": "収穫のクミロミを信仰する",
+      "target": "수확의 쿠미로미 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Kumiromi of Harvest",
+      "source_ja": "収穫のクミロミに改宗する",
+      "target": "수확의 쿠미로미 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@altar/8",
+      "target": "야카테크트는 부의 여신이다. 야카테크트를 믿는 이는 뛰어난 교섭술을 익혀 막대한 부를 쌓는다.<p>제물: 시체 / 목걸이 / 반지<p>보너스: 감각 / 내구 / 교섭 / 자연 감정 / 여행 / 연금술 / 투자<p>특수 능력: 전리품 수집(지속: 아이템 획득 판정 횟수가 늘어난다)",
+      "source_ref": [
+        "2.335:start.hsp:275885",
+        "2.335:start.hsp:275886",
+        "2.335:start.hsp:275887",
+        "2.335:start.hsp:275888"
+      ],
+      "match_kind": "altar_paragraph",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "< Yacatect of Wealth >",
+      "source_ja": "《 富のヤカテクト 》",
+      "target": "《 부의 야카테크트 》",
+      "source_ref": [
+        "2.335:start.hsp:275999"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Believe in Yacatect of Wealth",
+      "source_ja": "富のヤカテクトを信仰する",
+      "target": "부의 야카테크트 신앙하기",
+      "source_ref": [
+        "2.335:start.hsp:275924"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Convert to Yacatect of Wealth",
+      "source_ja": "富のヤカテクトに改宗する",
+      "target": "부의 야카테크트 신앙으로 개종",
+      "source_ref": [
+        "2.335:start.hsp:275916"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "Abandon God",
+      "source_ja": "信仰を捨てる",
+      "target": "신앙을 버린다",
+      "source_ref": [
+        "2.335:start.hsp:275913"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "--- Are you... interested in machines? ---",
+      "source_ja": "「…機械に興味があるのか？」",
+      "target": "“……기계에 관심이 있나?”",
+      "source_ref": [
+        "2.335:start.hsp:276007"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "--- Ahaha! Looks like you finally realized that slow is going to die! ---",
+      "source_ja": "「ノロマは死ぬ、ってことにようやく気づいたみたいね」",
+      "target": "“굼뜨면 죽는다는 걸 이제야 깨달았나 보네.”",
+      "source_ref": [
+        "2.335:start.hsp:276010"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "--- Elements will be your great power ---",
+      "source_ja": "「研鑽せよ。元素は大いなる力を汝にもたらす」",
+      "target": "“연마하라. 원소가 그대에게 큰 힘을 주리라.”",
+      "source_ref": [
+        "2.335:start.hsp:276013"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "--- Mewmewmew! Coconut crab! ---",
+      "source_ja": "「たらばがに、すき！！！」",
+      "target": "“왕게, 정말 좋아해!!!”",
+      "source_ref": [
+        "2.335:start.hsp:276016"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "--- Muwahaha! A well-trained body will be your friend until the end! ---",
+      "source_ja": "「フハハー！鍛えたボディは最後までお前の味方だっ」",
+      "target": "“푸하하! 단련한 육체는 끝까지 네 편이다!”",
+      "source_ref": [
+        "2.335:start.hsp:276019"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "--- I-I say that I will heal your wounds... ---",
+      "source_ja": "「け、怪我を治してあげるって言ってんのよ…」",
+      "target": "“다, 다친 데를 치료해 주겠다는 말이야….”",
+      "source_ref": [
+        "2.335:start.hsp:276022"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "--- I give...vitality... ---",
+      "source_ja": "「僕、活力…与える…から」",
+      "target": "“내가… 활력을… 줄게.”",
+      "source_ref": [
+        "2.335:start.hsp:276025"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "--- Yeah~! No matter what you do, it's better to have property, right? ---",
+      "source_ja": "「何するにしても資産は有ったほうがええやろ？ウチの出番やん！」",
+      "target": "“뭘 하든 밑천은 있어야 안 되겠나? 이럴 때 내 차례 아이가!”",
+      "source_ref": [
+        "2.335:start.hsp:276028"
+      ],
+      "review_status": "reviewed",
+      "english_context_reviewed": true
+    },
+    {
+      "source": "@altar/cancel",
+      "target": "취소",
+      "source_ref": [
+        "2.335:start.hsp:275928"
+      ],
+      "review_status": "reviewed"
+    }
+  ]
+}

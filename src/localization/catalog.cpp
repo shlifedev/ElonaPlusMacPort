@@ -85,6 +85,12 @@ Catalog Catalog::load(const std::filesystem::path& path, const std::filesystem::
 const std::string* Catalog::find(std::string_view source, bool prose_context) const {
     const auto it = entries_.find(std::string(source));
     if (it != entries_.end()) return &it->second;
+    // Short authored labels may also be save names. These aliases are valid
+    // only at a known game-text boundary, including a verified source literal.
+    if (prose_context && !source.empty() && source.front() != '@') {
+        const auto fixed = entries_.find(std::string("@fixed/").append(source));
+        if (fixed != entries_.end()) return &fixed->second;
+    }
     if (draft_by_hash_.empty() || source.size() < 3 || source.front() == '@' || source.size() > 2048)
         return nullptr;
     // Arbitrary short labels can be a player name or a saved character's alias.
@@ -271,9 +277,10 @@ std::optional<std::string> Catalog::log_text(std::string_view s, int starter_pet
 // The original English logger wraps and prints one space-terminated word at a
 // time. Paint each translated row on its first word, while allowing the VM to
 // append, measure, scroll and save its original message exactly as before.
-std::deque<LogWord> Catalog::log_words(std::string source, int used, int limit, int starter_pet_id) const {
+std::deque<LogWord> Catalog::log_words(std::string source, int used, int limit, int starter_pet_id,
+                                       std::optional<std::string> target) const {
     std::deque<LogWord> words;
-    auto target = log_text(source, starter_pet_id);
+    if (!target) target = log_text(source, starter_pet_id);
     if (!target || used < 0 || limit <= 0) return words;
     source += ' ';
     std::size_t begin = 0, row_start = 0, target_start = 0;
@@ -311,5 +318,36 @@ std::deque<LogWord> Catalog::log_words(std::string source, int used, int limit, 
     }
     finish(source.size());
     return words;
+}
+
+void JapaneseLog::begin(std::string_view original, std::string target) {
+    original_.assign(original);
+    target_ = std::move(target);
+    consumed_ = displayed_ = 0;
+    glyphs_.clear();
+    for (std::size_t i = 0; i < target_.size(); ++i) {
+        if ((static_cast<unsigned char>(target_[i]) & 0xc0) != 0x80) glyphs_.push_back(i);
+    }
+    glyphs_.push_back(target_.size());
+}
+
+std::optional<std::string> JapaneseLog::consume(std::string_view chunk) {
+    if (original_.empty() || chunk.empty()) return {};
+    if (original_.compare(consumed_, chunk.size(), chunk) != 0) {
+        original_.clear();
+        return {};
+    }
+    consumed_ += chunk.size();
+    auto end = glyphs_[consumed_ * (glyphs_.size() - 1) / original_.size()];
+    if (consumed_ == original_.size()) {
+        original_.clear();
+    } else {
+        const auto space = target_.rfind(' ', end);
+        if (space != target_.npos && space > displayed_ && end - space < 12) end = space + 1;
+    }
+    end = std::max(end, displayed_);
+    auto part = target_.substr(displayed_, end - displayed_);
+    displayed_ = end;
+    return part;
 }
 }  // namespace elona::localization

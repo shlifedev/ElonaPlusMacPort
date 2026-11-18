@@ -50,6 +50,7 @@ class TransformTests(unittest.TestCase):
         # 0x815c contains a CP932 trail backslash. A Unicode round trip is not
         # needed; the check concerns preservation of every opaque source byte.
         return (b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + module.LOG_ENTRY
+                + b"\t\trepeat\r\n\t\t\tlen@txtfunc = strlen(msgtemp)\r\n"
                 + b"\tnoteget buff2, p\r\n\t\tcs_list s(3), wx + 96, y - 1, 19\r\n\t\tpos wx + 20, y + 20\r\n\t\tmes buff\r\n"
                 + b"\twy = winposy(468)\r\n\tpos wx, wy\r\n\tgcopy 4, 0, 0, 736, 448\r\n"
                 + b"\t\tpos x, y\r\n\t\tmes s\r\n\t\tif ( p \\ 20 == 0 ) {\r\n\t\t\tfont lang(cfg_font1, cfg_font2), 12 + sizefix - en * 2, 1\r\n"
@@ -73,6 +74,10 @@ class TransformTests(unittest.TestCase):
              patch.object(module, "menu_inserts", return_value=[]), \
              patch.object(module, "manual_inserts", return_value=[]), \
              patch.object(module, "card_inserts", return_value=[]), \
+             patch.object(module, "recipe_inserts", return_value=[]), \
+             patch.object(module, "install_evolution_hooks"), \
+             patch.object(module, "install_altar_hooks"), \
+             patch.object(module, "fixed_inserts", return_value=[]), \
              patch.object(module, "story_inserts", return_value=[]), \
              patch.object(module, "static_dialogue_inserts", return_value=[]):
             return module.transform(data)

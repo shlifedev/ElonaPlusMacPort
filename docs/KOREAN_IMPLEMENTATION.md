@@ -2,7 +2,38 @@
 
 사용자가 제공한 ElonaPlus 2.335의 영어판과 일본어판을 기준으로 한국어 표시문을 작성했다. 게임 로직과 세이브는 원본 CP932를 사용하고, 한국어 창은 UTF-8 사전을 읽는다.
 
-## 모험 중 표시와 실제 검증 (v12)
+## 남은 고정 문구와 모험 화면 (v13)
+
+v12에서 한국어 표시 키가 없었던 일·영 원문 2,695쌍을 모두 대조했다. 새로 2,630쌍을 연결했다. 고정 원문 12,405쌍 중 12,340쌍(99.48%)이 적어도 한 언어에서 한국어 표시에 연결된다. 그중 검수·직접 교정은 8,337쌍, 자동 초벌은 4,003쌍이다. 사전에는 화면별 이름·조합도 들어 있어 표시 키 25,910개와 원문 쌍 개수는 따로 집계한다. 키 충돌은 0건이다. [집계와 입력 지문](../localization/ko-KR/coverage.json)
+
+| 화면 | 바뀐 표시와 검증 |
+|---|---|
+| NPC 선택지와 모험 로그 | NPC 선택지 497곳은 같은 영어 대답이어도 원래 선택한 일본어 문장과 목록 위치로 구별한다. 목록을 버리고 새로 여는 경우까지 여섯 화면을 대조했다. 전투·탐험 로그는 원래 난수로 뽑은 대사에 맞춰 영어·일본어 양쪽을 표시한다. 서로 같은 영문을 쓰는 오의·운석 메시지, 연주·효과음을 포함해 348쌍의 양 언어 화면 696건을 픽셀 단위로 비교했다. 플레이어 상태 효과 71종도 완성된 문장 195건으로 확인했다. |
+| 동료 진화 | 영문판에서 종명이 `EV`와 `aaaaaaa`로 뭉개지던 167개 진화 모드의 이전·이후 종 421개를 원본 분기와 대조했다. 7개 대표 로그를 네이티브 호스트에서 검사했다. 직접 지은 이름과 진화 직전에 원본이 덮어쓰는 단계도 구별한다. |
+| 카드 덱 | 실제 선택할 수 있는 카드 1,165종의 제목·비용·희귀도와 본문이 기본 한국어 모드에서 표시된다. 설명 292종은 검수 전용 모드에서도 나오며, 873종에는 기존 자동 초벌을 사용한다. 전 카드의 원래 폭과 본문 높이를 검사했다. 복제 프로필의 덱 편집기에서는 거짓 예언자 제임, 섀도 시스터, 날벌레 황제의 제목과 본문을 직접 확인했다. 원문에서 메뚜기를 뜻하는 날벌레 황제의 설명도 교정했다. [덱 편집기 화면](../work/card-name-qa/editor-lore-final/verified.png) |
+| 조합 | 조합법·재료·보유량, 선택한 아이템 이름, 성공률·소요 시간, 재료를 넣는 로그와 수량 선택을 번역했다. 영문으로 똑같은 `any bait`가 표시돼도 재료 ID로 낚시 미끼와 나무통을 구분한다. 복제한 베르니스 세이브로 조합 도구를 열어 재료 다섯 개를 선택했다. 수량 창까지 조작 안내를 포함한 17개 화면 영역과 추가 표시 8건을 검사했다. |
+| 신앙 제단 | 무신앙과 여덟 신의 소개·제물·보너스·특수 능력, 귀의·개종·취소 선택지를 옮겼다. 신에 대한 피해 +40%, 주는 물리 피해 +20%, 받는 피해 -10% 등 원래 수치를 유지했다. 원본 제단 메뉴의 일·영 18개 화면에서 본문과 선택지가 겹치지 않았다. |
+
+남은 65쌍에는 언어별 파일명과 모델 문자, 카드 번호 범위와 기호, 이름을 만들 때 붙이는 관사·전치사, 실행되지 않는 중복 카드 분기가 포함된다. 각 ID의 판단 근거를 기록했다. 게임 도중 조합되는 표현식 후보 4,785개, 외부 파일·이미지 속 글자는 위 고정 원문 통계 밖에 있다. [표기 유지 및 문맥 메모](../localization/ko-KR/original-fixed-adventure.json)
+
+한국어 AX는 원본이 사용한 선택 번호, 이름과 대사를 보존한다. 고정 문구의 짧은 단어는 원래 게임 문구임을 확인한 표시 위치에서 조회하고, 플레이어 이름에는 이 조회를 적용하지 않는다. 양 언어 로그는 원본이 기록한 문자열과 줄 경계에 한국어를 그린다.
+
+```sh
+python3 tools/prepare_korean_game.py --output work/localization/managed-korean-static-v13 --compile
+python3 tools/compile_localization.py --from-manifest localization/ko-KR/runtime.sources.json --output localization/ko-KR/runtime.tsv
+python3 tools/korean_coverage.py --remaining work/localization/2.335/unbound-v13.json
+host=build/native-macos-arm64-legacy-cp932-release/elona_gui_host
+compiler=build/native-macos-arm64-legacy-cp932-release/elona_hspcmp
+ko=localization/ko-KR/runtime.tsv
+src=work/localization/managed-korean-static-v13
+python3 tests/localization/run_fixed_messages.py --host "$host" --compiler "$compiler" --catalog "$ko" --ax-source "$src/start.hsp" --work work/localization/static-check
+python3 tests/localization/run_card_names.py --host "$host" --compiler "$compiler" --catalog "$ko" --work work/localization/static-check
+python3 tests/localization/run_altar.py --host "$host" --compiler "$compiler" --catalog "$ko" --work work/localization/static-check
+python3 tests/localization/run_play_audit.py --run ko-static-check --ax "$src/start.ax" --catalog "$ko" --fallback localization/ko-KR/draft-display.tsv
+python3 tests/localization/run_recipe_menu.py --profile work/ko-broad/ko-static-check/vernis/profile
+```
+
+## 모험 중 표시와 실제 검증 (v12 기록)
 
 | 화면 | 원문에서 확인한 내용 | 확인한 결과 |
 |---|---|---|
@@ -67,7 +98,7 @@ python3 tools/reference/windows_managed_check.py --run gui-native-ko-recheck --c
 
 ## 2.335 한국어판의 표시 경계
 
-현재 런처와 패키지가 사용하는 `managed-korean-adventure-v12/start.ax`의 SHA-256은 `9a2e0a842f164d52281e192f41f60be75b0803e7ad915f765ac16702ccbbf202`다. 검수 사전을 우선 조회하고 추가 정적 문구에는 별도의 한국어 초벌 사전을 사용한다. `--language ko --reviewed-only`로 검수 사전만 사용할 수 있다. [초벌 생성과 교정](KOREAN_STATIC_DRAFTS.md)
+현재 런처와 패키지가 사용하는 `managed-korean-static-v13/start.ax`의 SHA-256은 `4ea855ff380640df4f862a5e1e08186f0572d1da2fdf95e81be80028fde8ddc8`다. 검수 사전을 우선 조회하고 추가 정적 문구에는 별도의 한국어 초벌 사전을 사용한다. `--language ko --reviewed-only`로 검수 번역을 선택할 수 있다. [초벌 생성과 교정](KOREAN_STATIC_DRAFTS.md)
 
 | 표시 영역 | 근거 |
 |---|---|
@@ -135,6 +166,6 @@ python3 tools/korean_coverage.py --output localization/ko-KR/coverage.json
 
 ## 실행과 남은 일
 
-한국어판은 현재 v12, 이명을 지원하는 v11, v8, 책 표시를 지원하는 v7, 초기 v2/v1 순서로 준비된 AX를 선택한다. v3–v6은 일본어 기반 게임에서 소지품을 열 때 영어 분류명 배열을 잘못 읽는 문제가 있어 자동선택에서 제외했다. 설치된 AX가 없으면 정규화한 원본으로 실행하고 준비 명령을 알려 준다. [준비 명령](DEVELOPMENT.md)
+한국어판은 현재 v13, v12, 이명을 지원하는 v11, v8, 책 표시를 지원하는 v7, 초기 v2/v1 순서로 준비된 AX를 선택한다. v3–v6은 일본어 기반 게임에서 소지품을 열 때 영어 분류명 배열을 잘못 읽는 문제가 있어 자동선택에서 제외했다. 설치된 AX가 없으면 정규화한 원본으로 실행하고 준비 명령을 알려 준다. [준비 명령](DEVELOPMENT.md)
 
 후반 분기·무작위 조합·추가 서적·그래픽에 들어간 글자의 전체 검수와 한국어 이름 입력은 후속 범위다. 수치 적용이나 세이브를 바꾸지 않고 표시 경계에서 처리한다.

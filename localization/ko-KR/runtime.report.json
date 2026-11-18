@@ -1,6 +1,6 @@
 {
-  "input_entries": 13655,
-  "runtime_keys": 18132,
+  "input_entries": 18023,
+  "runtime_keys": 25910,
   "conflicts": {},
   "omitted": [
     {
@@ -3982,6 +3982,86 @@
     {
       "source": "Movement probability -10%(5AP)",
       "reason": "English alias disabled by contextual review"
+    },
+    {
+      "source": "@fixed/Atheism (Passive: Increase all damage you<br>give to gods.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Atheism (Passive: Increase all damage you<br>give to gods.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Mani is a clockwork god of machinery. Those faithful to Mani<br>receive immense knowledge of machines and learn a way to use them<br>effectively.<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Mani is a clockwork god of machinery. Those faithful to Mani<br>receive immense knowledge of machines and learn a way to use them<br>effectively.<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Ability : Mani's covering fire (Passive: Increase physical damage you<br>give.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Ability : Mani's covering fire (Passive: Increase physical damage you<br>give.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Lulwy is a goddess of wind. Those faithful to Lulwy receive<br>the blessing of wind and can move swiftly.<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Lulwy is a goddess of wind. Those faithful to Lulwy receive<br>the blessing of wind and can move swiftly.<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Itzpalt is a god of elements. Those faithful to Itzpalt are<br>protected from elemental damages and learn to absorb mana from<br>their surroundings.<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Itzpalt is a god of elements. Those faithful to Itzpalt are<br>protected from elemental damages and learn to absorb mana from<br>their surroundings.<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Ehekatl is a goddess of luck. Those faithful to Ehekatl are<br>really lucky.<p><p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Ehekatl is a goddess of luck. Those faithful to Ehekatl are<br>really lucky.<p><p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Ability : Ehekatl school of magic (Passive: randomize casting mana<br>cost.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Ability : Ehekatl school of magic (Passive: randomize casting mana<br>cost.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Opatos is a god of earth. Those faithful to Opatos have massive<br>strength and defense.<p><p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Opatos is a god of earth. Those faithful to Opatos have massive<br>strength and defense.<p><p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Ability : Opatos' shell (Passive: Reduce any damage you<br>receive.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Ability : Opatos' shell (Passive: Reduce any damage you<br>receive.)<p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "@fixed/Kumiromi is a god of harvest. Those faithful to Kumiromi receive<br>the blessings of nature.<p><p>",
+      "reason": "format/control marker mismatch"
+    },
+    {
+      "source": "Kumiromi is a god of harvest. Those faithful to Kumiromi receive<br>the blessings of nature.<p><p>",
+      "reason": "format/control marker mismatch"
     }
   ],
   "coverage": "Catalog keys include exact UI strings and context-specific labels. Whole-game coverage is unknown."

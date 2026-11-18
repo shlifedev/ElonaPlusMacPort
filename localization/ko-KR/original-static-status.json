@@ -1,0 +1,593 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 start.hsp:434-644 bufftxt, 8313 name, 8357 _s, 197036 addbuff; complete player message inside msg_write only"
+  },
+  "entries": [
+    {
+      "source": "@log/You begin to shine.",
+      "source_aliases": [
+        "@log/you begin to shine.",
+        "@log/あなたは光り輝いた。"
+      ],
+      "target": "당신 주위가 눈부시게 빛났다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You wear the glow of gem.",
+      "source_aliases": [
+        "@log/you wear the glow of gem.",
+        "@log/あなたは宝石の輝きを纏った。"
+      ],
+      "target": "당신 주위에 보석 같은 광채가 감돌았다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You get Toil-Energy.",
+      "source_aliases": [
+        "@log/you get Toil-Energy.",
+        "@log/あなたに労働エナジーがみなぎった。"
+      ],
+      "target": "당신의 몸에 노동의 기운이 넘친다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You get surrounded by hazy mist.",
+      "source_aliases": [
+        "@log/you get surrounded by hazy mist.",
+        "@log/あなたはぼやけた霧に覆われた。"
+      ],
+      "target": "당신 주위에 흐릿한 안개가 깔렸다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to regenerate.",
+      "source_aliases": [
+        "@log/you start to regenerate.",
+        "@log/あなたの代謝が活性化した。"
+      ],
+      "target": "당신의 신진대사가 활발해졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You obtain resistance to attribution.",
+      "source_aliases": [
+        "@log/you obtain resistance to attribution.",
+        "@log/あなたは属性への耐性を得た。"
+      ],
+      "target": "당신의 속성 저항력이 올랐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You wore anti-magic aura.",
+      "source_aliases": [
+        "@log/you wore anti-magic aura.",
+        "@log/あなたは闘気を纏った。"
+      ],
+      "target": "당신의 몸에 투기가 감돌았다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You speed up.",
+      "source_aliases": [
+        "@log/you speed up.",
+        "@log/あなたは機敏になった。"
+      ],
+      "target": "당신의 움직임이 날렵해졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You slow down.",
+      "source_aliases": [
+        "@log/you slow down.",
+        "@log/あなたは鈍重になった。"
+      ],
+      "target": "당신의 움직임이 둔해졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel heroic.",
+      "source_aliases": [
+        "@log/you feel heroic.",
+        "@log/あなたの士気が向上した。"
+      ],
+      "target": "당신의 사기가 올랐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You shift to shooting mode.",
+      "source_aliases": [
+        "@log/you shift to shooting mode.",
+        "@log/あなたは姿勢を固定した。"
+      ],
+      "target": "당신의 자세가 단단히 고정됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You pour mana into throwing.",
+      "source_aliases": [
+        "@log/you pour mana into throwing.",
+        "@log/あなたは投擲に魂を込めた。"
+      ],
+      "target": "당신의 투척에 혼이 실렸다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You shift to the scanning mode.",
+      "source_aliases": [
+        "@log/you shift to the scanning mode.",
+        "@log/あなたはスキャンモードに移行した。"
+      ],
+      "target": "당신의 탐색 모드가 켜졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You get protection from pollution.",
+      "source_aliases": [
+        "@log/you get protection from pollution.",
+        "@log/あなたは汚染から守られた。"
+      ],
+      "target": "당신의 몸이 오염으로부터 보호받는다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You shine hands.",
+      "source_aliases": [
+        "@log/you shine hands.",
+        "@log/あなたの手が光りだした。"
+      ],
+      "target": "당신의 손이 빛나기 시작했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You represent the abyss in own eye.",
+      "source_aliases": [
+        "@log/you represent the abyss in own eye.",
+        "@log/あなたの眼に深みが増した。"
+      ],
+      "target": "당신의 눈빛이 깊어졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You copy your power.",
+      "source_aliases": [
+        "@log/you copy your power.",
+        "@log/あなたはあなたの力を写し取った。"
+      ],
+      "target": "당신에게 당신의 힘이 복사되었다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You put power on the legs.",
+      "source_aliases": [
+        "@log/you put power on the legs.",
+        "@log/あなたは脚に力を込めた。"
+      ],
+      "target": "당신의 다리에 힘이 들어갔다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You accel by gravity.",
+      "source_aliases": [
+        "@log/you accel by gravity.",
+        "@log/あなたの重力の向きが変わった。"
+      ],
+      "target": "당신에게 작용하는 중력의 방향이 바뀌었다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel concentration.",
+      "source_aliases": [
+        "@log/you feel concentration.",
+        "@log/あなたの集中力が向上した。"
+      ],
+      "target": "당신의 집중력이 높아졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You surrounded in miasma.",
+      "source_aliases": [
+        "@log/you surrounded in miasma.",
+        "@log/あなたは瘴気に包み込まれた。"
+      ],
+      "target": "당신 주위에 독기가 감돌았다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel weak.",
+      "source_aliases": [
+        "@log/you feel weak.",
+        "@log/あなたは脆くなった。"
+      ],
+      "target": "당신의 몸이 약해졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel hungry.",
+      "source_aliases": [
+        "@log/you feel hungry.",
+        "@log/あなたはお腹が減りやすくなった。"
+      ],
+      "target": "당신의 허기가 전보다 빨리 찾아온다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You lose resistance to element.",
+      "source_aliases": [
+        "@log/you lose resistance to element.",
+        "@log/あなたは元素への耐性を失った。"
+      ],
+      "target": "당신의 원소 저항력이 사라졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You receive holy protection.",
+      "source_aliases": [
+        "@log/you receive holy protection.",
+        "@log/あなたは聖なる衣に保護された。"
+      ],
+      "target": "당신의 몸을 신성한 옷이 감쌌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to suffer.",
+      "source_aliases": [
+        "@log/you start to suffer.",
+        "@log/あなたは悪夢に襲われた。"
+      ],
+      "target": "당신에게 악몽이 닥쳤다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to think clearly.",
+      "source_aliases": [
+        "@log/you start to think clearly.",
+        "@log/あなたの思考は冴え渡った。"
+      ],
+      "target": "당신의 머리가 맑아졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You incur the wrath of God.",
+      "source_aliases": [
+        "@log/you incur the wrath of God.",
+        "@log/あなたは雷に打たれた！"
+      ],
+      "target": "당신에게 벼락이 떨어졌다!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You repeatthe name of Lulwy.",
+      "source_aliases": [
+        "@log/you repeatthe name of Lulwy.",
+        "@log/あなたにルルウィが乗り移った。"
+      ],
+      "target": "당신에게 룰루위가 깃들었다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to disguise.",
+      "source_aliases": [
+        "@log/you start to disguise.",
+        "@log/あなたは別人になりすました。"
+      ],
+      "target": "당신의 모습이 다른 사람처럼 바뀌었다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You receive death verdict.",
+      "source_aliases": [
+        "@log/you receive death verdict.",
+        "@log/あなたは死の宣告を受けた！"
+      ],
+      "target": "당신에게 죽음이 선고되었다!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You gain massive power.",
+      "source_aliases": [
+        "@log/you gain massive power.",
+        "@log/あなたはブーストした！"
+      ],
+      "target": "당신의 힘이 폭발적으로 솟구쳤다!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel up contracts with the Reaper.",
+      "source_aliases": [
+        "@log/you feel up contracts with the Reaper.",
+        "@log/あなたは死神と契約した。"
+      ],
+      "target": "당신은 사신과 계약을 맺었다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel very unlucky today...",
+      "source_aliases": [
+        "@log/you feel very unlucky today...",
+        "@log/あなたに不幸な日が訪れた！"
+      ],
+      "target": "당신에게 불운한 날이 찾아왔다!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You became melancholy.",
+      "source_aliases": [
+        "@log/you became melancholy.",
+        "@log/あなたは鬱になった。"
+      ],
+      "target": "당신의 마음에 우울이 드리웠다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel distracted.",
+      "source_aliases": [
+        "@log/you feel distracted.",
+        "@log/あなたは気が散り始めた。"
+      ],
+      "target": "당신의 주의가 흐트러지기 시작했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You feel very lucky today!",
+      "source_aliases": [
+        "@log/you feel very lucky today!",
+        "@log/あなたに幸運な日が訪れた！"
+      ],
+      "target": "당신에게 행운의 날이 찾아왔다!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid skill growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid skill growth.",
+        "@log/あなたはスキルの成長期に突入した。"
+      ],
+      "target": "당신의 기술 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid STR growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid STR growth.",
+        "@log/あなたは筋力の成長期に突入した。"
+      ],
+      "target": "당신의 근력 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid END growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid END growth.",
+        "@log/あなたは耐久の成長期に突入した。"
+      ],
+      "target": "당신의 내구 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid DEX growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid DEX growth.",
+        "@log/あなたは器用の成長期に突入した。"
+      ],
+      "target": "당신의 기교 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid PER growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid PER growth.",
+        "@log/あなたは感覚の成長期に突入した。"
+      ],
+      "target": "당신의 감각 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid LER growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid LER growth.",
+        "@log/あなたは習得の成長期に突入した。"
+      ],
+      "target": "당신의 학습 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid WIL growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid WIL growth.",
+        "@log/あなたは意志の成長期に突入した。"
+      ],
+      "target": "당신의 의지 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid MAG growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid MAG growth.",
+        "@log/あなたは魔力の成長期に突入した。"
+      ],
+      "target": "당신의 마력 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid CHR growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid CHR growth.",
+        "@log/あなたは魅力の成長期に突入した。"
+      ],
+      "target": "당신의 매력 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You enters a period of rapid SPD growth.",
+      "source_aliases": [
+        "@log/you enters a period of rapid SPD growth.",
+        "@log/あなたは速度の成長期に突入した。"
+      ],
+      "target": "당신의 속도 성장기가 시작됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You sharpen the minds of self...",
+      "source_aliases": [
+        "@log/you sharpen the minds of self...",
+        "@log/あなたは己の心を研ぎ澄ました…。"
+      ],
+      "target": "당신의 정신이 날카로워졌다…….",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You 's body regenerate fast.",
+      "source_aliases": [
+        "@log/you 's body regenerate fast.",
+        "@log/あなたの体は超再生を始めた。"
+      ],
+      "target": "당신의 몸이 초재생을 시작했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You 's body change light as a feather.",
+      "source_aliases": [
+        "@log/you 's body change light as a feather.",
+        "@log/あなたの体が羽のように軽くなった。"
+      ],
+      "target": "당신의 몸이 깃털처럼 가벼워졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You charged power.",
+      "source_aliases": [
+        "@log/you charged power.",
+        "@log/あなたの力が最大限に達した。"
+      ],
+      "target": "당신의 힘이 한계에 이르렀다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You bring out the power of equipments.",
+      "source_aliases": [
+        "@log/you bring out the power of equipments.",
+        "@log/あなたは装備の力を引き出した。"
+      ],
+      "target": "당신의 장비에 깃든 힘이 깨어났다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You bring out the power of shield.",
+      "source_aliases": [
+        "@log/you bring out the power of shield.",
+        "@log/あなたは盾の力を引き出した。"
+      ],
+      "target": "당신의 방패에 깃든 힘이 깨어났다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You bring out the power of curse.",
+      "source_aliases": [
+        "@log/you bring out the power of curse.",
+        "@log/あなたは呪いの力を引き出した。"
+      ],
+      "target": "당신의 저주에 깃든 힘이 깨어났다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You bring out the power of voice.",
+      "source_aliases": [
+        "@log/you bring out the power of voice.",
+        "@log/あなたは言葉の力を引き出した。"
+      ],
+      "target": "당신의 말에 깃든 힘이 깨어났다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You optimized the killing pattern.",
+      "source_aliases": [
+        "@log/you optimized the killing pattern.",
+        "@log/あなたは戦闘動作を最適化した。"
+      ],
+      "target": "당신의 전투 동작이 최적화됐다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You taken into the body attributes.",
+      "source_aliases": [
+        "@log/you taken into the body attributes.",
+        "@log/あなたは己の属性を纏った。"
+      ],
+      "target": "당신의 몸에 고유 속성이 깃들었다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You joined  the posture that protect ally.",
+      "source_aliases": [
+        "@log/you joined  the posture that protect ally.",
+        "@log/あなたは仲間を庇う体勢に入った。"
+      ],
+      "target": "당신은 동료를 감쌀 태세를 취했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You bring out the power of Items.",
+      "source_aliases": [
+        "@log/you bring out the power of Items.",
+        "@log/あなたはアイテムの力を引き出した。"
+      ],
+      "target": "당신의 아이템에 깃든 힘이 깨어났다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You began to  uncontrollable.",
+      "source_aliases": [
+        "@log/you began to  uncontrollable.",
+        "@log/あなたは暴走を始めた。"
+      ],
+      "target": "당신의 힘이 폭주하기 시작했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You stabilize the space around.",
+      "source_aliases": [
+        "@log/you stabilize the space around.",
+        "@log/あなたは周囲の空間を掌握した。"
+      ],
+      "target": "당신의 지배 아래 주변 공간이 놓였다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You shine with the tag partner.",
+      "source_aliases": [
+        "@log/you shine with the tag partner.",
+        "@log/あなたは結束した。"
+      ],
+      "target": "당신의 힘이 짝과 하나가 되었다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You change the form.",
+      "source_aliases": [
+        "@log/you change the form.",
+        "@log/あなたに変化した。"
+      ],
+      "target": "당신의 모습이 변했다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You was chained with enchanted chain.",
+      "source_aliases": [
+        "@log/you was chained with enchanted chain.",
+        "@log/あなたは魔力を帯びた鎖に繋がれた。"
+      ],
+      "target": "당신의 몸에 마력 깃든 사슬이 채워졌다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You gained life force temporarily.",
+      "source_aliases": [
+        "@log/you gained life force temporarily.",
+        "@log/あなたの身体に生命力が満ち始めた。"
+      ],
+      "target": "당신의 몸에 생명력이 차오르기 시작했다.",
+      "review_status": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1017 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 start.hsp window_recipe, window_recipe2, com_blend, rpdatan and rfnameorg"
+  },
+  "entries": [
+    {
+      "source": "@recipe/name/がらくた錬成",
+      "target": "고물 연성",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/create junk"
+      ]
+    },
+    {
+      "source": "@recipe/name/不等価交換",
+      "target": "부등가 교환",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/inequivalent exchange"
+      ]
+    },
+    {
+      "source": "@recipe/name/蒸留",
+      "target": "증류",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/distillation"
+      ]
+    },
+    {
+      "source": "@recipe/name/瞬間発酵",
+      "target": "순간 발효",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/instant ale"
+      ]
+    },
+    {
+      "source": "@recipe/name/抗体結晶",
+      "target": "항체 결정",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/cure crystal"
+      ]
+    },
+    {
+      "source": "@recipe/name/有害ポーション",
+      "target": "유해 물약",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/harmful potion"
+      ]
+    },
+    {
+      "source": "@recipe/name/消毒薬",
+      "target": "소독약",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/antidote"
+      ]
+    },
+    {
+      "source": "@recipe/name/魔物よけ",
+      "target": "마물 퇴치제",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/encount canceller"
+      ]
+    },
+    {
+      "source": "@recipe/name/精油抽出",
+      "target": "정유 추출",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/extract essential oil"
+      ]
+    },
+    {
+      "source": "@recipe/name/古の薬",
+      "target": "고대의 약",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/ancient medicine"
+      ]
+    },
+    {
+      "source": "@recipe/name/新式の薬",
+      "target": "신식 약",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/new medicine"
+      ]
+    },
+    {
+      "source": "@recipe/name/苦しみの薬",
+      "target": "고통의 약",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/agony medicine"
+      ]
+    },
+    {
+      "source": "@recipe/name/呪いの薬",
+      "target": "저주의 약",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/calamity medicine"
+      ]
+    },
+    {
+      "source": "@recipe/name/手作りボール",
+      "target": "수제 공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/ball making"
+      ]
+    },
+    {
+      "source": "@recipe/name/誰かの日記",
+      "target": "누군가의 일기",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/mysterious diary"
+      ]
+    },
+    {
+      "source": "@recipe/name/生体復元",
+      "target": "생체 복원",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/fossil restoration"
+      ]
+    },
+    {
+      "source": "@recipe/name/錆取り",
+      "target": "녹 제거",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/rust removal"
+      ]
+    },
+    {
+      "source": "@recipe/name/硫酸",
+      "target": "황산",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/sulfuric"
+      ]
+    },
+    {
+      "source": "@recipe/name/自家製火炎瓶",
+      "target": "수제 화염병",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/homemade molotov"
+      ]
+    },
+    {
+      "source": "@recipe/name/撒き餌",
+      "target": "밑밥",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/ground bait"
+      ]
+    },
+    {
+      "source": "@recipe/name/にぎりプチ",
+      "target": "푸치 주먹밥",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/putitoro"
+      ]
+    },
+    {
+      "source": "@recipe/name/パンつくり",
+      "target": "빵 만들기",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/puff puff bread"
+      ]
+    },
+    {
+      "source": "@recipe/name/マンドラサラダ",
+      "target": "만드라 샐러드",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/mandrake salad"
+      ]
+    },
+    {
+      "source": "@recipe/name/特製の肉まん",
+      "target": "특제 고기만두",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/meat bun"
+      ]
+    },
+    {
+      "source": "@recipe/name/性転換の儀",
+      "target": "성전환 의식",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/sex change"
+      ]
+    },
+    {
+      "source": "@recipe/name/謎の種",
+      "target": "수수께끼의 씨앗",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/unknown seed"
+      ]
+    },
+    {
+      "source": "@recipe/name/ハーブ調合",
+      "target": "약초 조합",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/herb infusion"
+      ]
+    },
+    {
+      "source": "@recipe/name/進化の側枝",
+      "target": "진화의 곁가지",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/another evolution"
+      ]
+    },
+    {
+      "source": "@recipe/name/友情の証",
+      "target": "우정의 증표",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/friendship token"
+      ]
+    },
+    {
+      "source": "@recipe/name/ネクロマンシー",
+      "target": "강령술",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/necromancy"
+      ]
+    },
+    {
+      "source": "@recipe/name/ネクロチューニング",
+      "target": "망자 조율",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/necro remodel"
+      ]
+    },
+    {
+      "source": "@recipe/name/魔統合",
+      "target": "마력 통합",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/dark fusion"
+      ]
+    },
+    {
+      "source": "@recipe/name/ルビナス細工",
+      "target": "루비나스 세공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/brilliant rubynus"
+      ]
+    },
+    {
+      "source": "@recipe/name/エメラルド細工",
+      "target": "에메랄드 세공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/emerald tablet"
+      ]
+    },
+    {
+      "source": "@recipe/name/ダイヤモンド細工",
+      "target": "다이아몬드 세공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/brilliant diamond"
+      ]
+    },
+    {
+      "source": "@recipe/name/木の加工",
+      "target": "목재 가공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/wood craft"
+      ]
+    },
+    {
+      "source": "@recipe/name/石の加工",
+      "target": "석재 가공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/stone craft"
+      ]
+    },
+    {
+      "source": "@recipe/name/焼き物",
+      "target": "도자기",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/clay craft"
+      ]
+    },
+    {
+      "source": "@recipe/name/クラフトマイン",
+      "target": "수제 지뢰",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/craft mine"
+      ]
+    },
+    {
+      "source": "@recipe/name/たる爆弾",
+      "target": "통 폭탄",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/barrel bomb"
+      ]
+    },
+    {
+      "source": "@recipe/name/ウンチ爆弾",
+      "target": "똥 폭탄",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/poop bomb"
+      ]
+    },
+    {
+      "source": "@recipe/name/魔力爆弾",
+      "target": "마력 폭탄",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/crystal bomb"
+      ]
+    },
+    {
+      "source": "@recipe/name/すごい魔力爆弾",
+      "target": "강력한 마력 폭탄",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/big crystal bomb"
+      ]
+    },
+    {
+      "source": "@recipe/name/魔剣転生",
+      "target": "마검 전생",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/makenn tensei"
+      ]
+    },
+    {
+      "source": "@recipe/name/真・魔剣転生",
+      "target": "진정한 마검 전생",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/shin makenn tensei"
+      ]
+    },
+    {
+      "source": "@recipe/name/空の大型バスケット",
+      "target": "빈 대형 바구니",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/large empty basket"
+      ]
+    },
+    {
+      "source": "@recipe/name/ピクニックバスケット",
+      "target": "소풍 바구니",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/large picnic basket"
+      ]
+    },
+    {
+      "source": "@recipe/name/ファーストエイド",
+      "target": "구급상자",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/first aid kit"
+      ]
+    },
+    {
+      "source": "@recipe/name/特殊矢弾箱",
+      "target": "특수 탄약 상자",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/special ammos box"
+      ]
+    },
+    {
+      "source": "@recipe/name/戦術核",
+      "target": "전술 핵폭탄",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/tactical nuke"
+      ]
+    },
+    {
+      "source": "@recipe/name/煙草加工",
+      "target": "담배 가공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/tobacco processing"
+      ]
+    },
+    {
+      "source": "@recipe/name/にぎりめし",
+      "target": "주먹밥",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/onigiri"
+      ]
+    },
+    {
+      "source": "@recipe/name/こだわりコーヒー",
+      "target": "정성껏 내린 커피",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/coffee"
+      ]
+    },
+    {
+      "source": "@recipe/name/喫茶",
+      "target": "차 끓이기",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/tea"
+      ]
+    },
+    {
+      "source": "@recipe/name/麦加工",
+      "target": "밀과 보리 가공",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/barley and wheat"
+      ]
+    },
+    {
+      "source": "@recipe/name/乳製品",
+      "target": "유제품",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/dairy products"
+      ]
+    },
+    {
+      "source": "@recipe/name/発酵凝固",
+      "target": "발효 응고",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/fermentation coagulation"
+      ]
+    },
+    {
+      "source": "@recipe/name/配合飼料",
+      "target": "배합 사료",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/mix feed"
+      ]
+    },
+    {
+      "source": "@recipe/name/ジャンクフード",
+      "target": "정크 푸드",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/junk food"
+      ]
+    },
+    {
+      "source": "@recipe/name/ハンバーガー",
+      "target": "햄버거",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/hamburger"
+      ]
+    },
+    {
+      "source": "@recipe/name/鏡開き",
+      "target": "가가미모치 쪼개기",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/kagami biraki"
+      ]
+    },
+    {
+      "source": "@recipe/name/肉詰め蘇生",
+      "target": "고기 채워 되살리기",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Meat-filling resuscitation"
+      ]
+    },
+    {
+      "source": "@recipe/name/素敵な花束",
+      "target": "근사한 꽃다발",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/lovely bouquet"
+      ]
+    },
+    {
+      "source": "@recipe/name/ログハウス",
+      "target": "통나무집",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/log house"
+      ]
+    },
+    {
+      "source": "@recipe/name/柔武具改修",
+      "target": "연질 무구 개량",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Soft equip update"
+      ]
+    },
+    {
+      "source": "@recipe/name/剛武具改修",
+      "target": "경질 무구 개량",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Hard equip update"
+      ]
+    },
+    {
+      "source": "@recipe/name/鋭武具改修",
+      "target": "예리한 무구 개량",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Sharp equip update"
+      ]
+    },
+    {
+      "source": "@recipe/name/柔武具の作成",
+      "target": "연질 무구 제작",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Soft equip making"
+      ]
+    },
+    {
+      "source": "@recipe/name/剛武具の作成",
+      "target": "경질 무구 제작",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Hard equip making"
+      ]
+    },
+    {
+      "source": "@recipe/name/鋭武具の作成",
+      "target": "예리한 무구 제작",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Sharp equip making"
+      ]
+    },
+    {
+      "source": "@recipe/name/強化星維",
+      "target": "강화 별섬유",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Starfiber"
+      ]
+    },
+    {
+      "source": "@recipe/name/外見模倣",
+      "target": "외형 모방",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Appearance imitation"
+      ]
+    },
+    {
+      "source": "@recipe/name/家具の強化合成",
+      "target": "가구 강화 합성",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Furniture synthesis"
+      ]
+    },
+    {
+      "source": "@recipe/material/9010",
+      "target": "일기장",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9009",
+      "target": "채소 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9008",
+      "target": "씨앗 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9007",
+      "target": "희귀 약초",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9001",
+      "target": "조미료 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9002",
+      "target": "광석 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9003",
+      "target": "나무로 만든 물건",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9005",
+      "target": "해산물",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9006",
+      "target": "진화 아이템",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9011",
+      "target": "상태 이상 물약",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9029",
+      "target": "약화 물약",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9012",
+      "target": "과일 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9013",
+      "target": "빵 종류",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9014",
+      "target": "술 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9026",
+      "target": "정화 아이템",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9015",
+      "target": "마력 폭탄",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9016",
+      "target": "폭주 마검",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9027",
+      "target": "스타더스트 등",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9017",
+      "target": "꽃 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9018",
+      "target": "머리뼈 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9019",
+      "target": "경질 무구",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9020",
+      "target": "연질 무구",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9021",
+      "target": "예리한 무구",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9022",
+      "target": "관 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9004",
+      "target": "물건 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9023",
+      "target": "낚시 미끼",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9024",
+      "target": "나무통 아무거나",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9025",
+      "target": "약초류",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9028",
+      "target": "담요류",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9030",
+      "target": "본보기로 쓸 물건",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9031",
+      "target": "강화할 가구",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/material/9032",
+      "target": "재료로 쓸 가구",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/name/もう完璧！",
+      "target": "완벽하다!",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Perfect!"
+      ]
+    },
+    {
+      "source": "@recipe/name/朝飯前！",
+      "target": "누워서 떡 먹기!",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/A piece of cake!"
+      ]
+    },
+    {
+      "source": "@recipe/name/かんたんね",
+      "target": "아주 쉽다",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Very likely"
+      ]
+    },
+    {
+      "source": "@recipe/name/まず大丈夫",
+      "target": "무난하다",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/No problem"
+      ]
+    },
+    {
+      "source": "@recipe/name/たぶんいける",
+      "target": "해볼 만하다",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Probably OK"
+      ]
+    },
+    {
+      "source": "@recipe/name/ちょっと不安",
+      "target": "조금 불안하다",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Maybe"
+      ]
+    },
+    {
+      "source": "@recipe/name/だめかも",
+      "target": "어려울 듯하다",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Bad"
+      ]
+    },
+    {
+      "source": "@recipe/name/やばい",
+      "target": "매우 어렵다",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Very bad"
+      ]
+    },
+    {
+      "source": "@recipe/name/まず無理",
+      "target": "거의 불가능하다",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Almost impossible"
+      ]
+    },
+    {
+      "source": "@recipe/name/絶対ムリ！",
+      "target": "절대 무리다!",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@recipe/name/Impossible!"
+      ]
+    },
+    {
+      "source": "@recipe/form/rate",
+      "target": "성공률: {1}",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/time",
+      "target": "필요 시간: {1}턴",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/hours",
+      "target": "필요 시간: {1}턴 {2}시간",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/hint-close",
+      "target": "{1},{2} [쪽 이동]  시프트·이스케이프 [닫기]",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/hint-back",
+      "target": "{1},{2} [쪽 이동]  시프트·이스케이프 [뒤로]",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/procedure",
+      "target": "조합 순서",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/choose",
+      "target": "{1}. 레시피 선택",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/chosen",
+      "target": "{1}. {2} 레시피를 골랐다",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/stock",
+      "target": "{1}. {2} 추가 (보유: {3})",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/selected",
+      "target": "{1}. 선택한 재료: {2}",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/start",
+      "target": "{1}. 조합 시작!",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/recipe",
+      "target": "{1} 레시피",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/skills",
+      "target": "필요 기술",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/equipment",
+      "target": "필요 도구",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/skill",
+      "target": "{1}  {2}({3})",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/item",
+      "target": "{1}",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/gold",
+      "target": "교환할 금화 +{1}개.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/gold-limit",
+      "target": "금화는 한 번에 9999개까지 교환할 수 있다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/unidentified",
+      "target": "아직 감정하지 않은 물건이다.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/title",
+      "target": "레시피 선택",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/recipe-col",
+      "target": "레시피 이름",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/item-col",
+      "target": "아이템 이름",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/recipes",
+      "target": "레시피 {1}개",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/items",
+      "target": "아이템 {1}개",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/add",
+      "target": "{1} 추가",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/added",
+      "target": "재료를 더했다: {1}.",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/Which recipe do you want to use?",
+      "source_aliases": [
+        "@log/どのレシピを使う？"
+      ],
+      "target": "어느 레시피를 사용할까?",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/How many items do you want to create?",
+      "source_aliases": [
+        "@log/幾つ作る？"
+      ],
+      "target": "몇 개를 만들까?",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/confirm0",
+      "target": "조합 시작",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/confirm1",
+      "target": "이전 단계로",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/form/confirm2",
+      "target": "처음부터",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/name/putit corpse",
+      "source_aliases": [
+        "@recipe/name/プチの死体"
+      ],
+      "target": "푸치의 시체",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/name/mandrake corpse",
+      "source_aliases": [
+        "@recipe/name/マンドレイクの死体"
+      ],
+      "target": "맨드레이크의 시체",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@recipe/name/troll corpse",
+      "source_aliases": [
+        "@recipe/name/トロールの死体"
+      ],
+      "target": "트롤의 시체",
+      "review_status": "reviewed"
+    }
+  ]
+}

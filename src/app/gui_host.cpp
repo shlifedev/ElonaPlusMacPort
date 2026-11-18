@@ -1852,7 +1852,9 @@ int cmdfunc_localization(int cmd) {
         const std::string source = code_gets();
         const int used = code_geti(), limit = code_geti();
         const int starter_pet_id = code_getdi(0);
-        if (H->text) H->text->begin_english_log(source, used, limit, starter_pet_id);
+        const std::string identity = code_getdsi("");
+        const bool japanese = code_getdi(0) != 0;
+        if (H->text) H->text->begin_log(source, used, limit, starter_pet_id, identity, japanese);
         return RUNMODE_RUN;
     }
     if (cmd == 2) {

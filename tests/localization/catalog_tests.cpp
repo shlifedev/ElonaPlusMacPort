@@ -23,12 +23,20 @@ int main(int argc, char** argv) {
     int n = 0;
     auto check = [&](bool value) { ++n; if (!value) throw std::runtime_error("catalog check " + std::to_string(n)); };
     try {
-        write("# format\nStarting Menu\t모험의 이정표\n日本語\t일본어\nspace \\t\t공백 \\t\n");
+        write("# format\nStarting Menu\t모험의 이정표\n日本語\t일본어\nspace \\t\t공백 \\t\n@fixed/Star\t별\n");
         auto catalog = elona::localization::Catalog::load(file);
-        check(catalog.size() == 3);
+        check(catalog.size() == 4);
+        check(!catalog.find("Star") && catalog.find("Star", true) && *catalog.find("Star", true) == "별");
         check(catalog.find("Starting Menu") && *catalog.find("Starting Menu") == "모험의 이정표");
         check(catalog.find("日本語") && *catalog.find("日本語") == "일본어");
         check(catalog.find("space \t") && *catalog.find("space \t") == "공백 \t");
+        elona::localization::JapaneseLog message;
+        message.begin("12345678", "녹음한 노래");
+        auto first = message.consume("1234");
+        auto last = message.consume("5678");
+        check(first && last && *first + *last == "녹음한 노래" && !message.consume("5678"));
+        message.begin("1234", "다른 줄");
+        check(!message.consume("abcd") && !message.consume("1234"));
         check(!catalog.find("A Starting Menu")); // no unsafe substring substitution
         check(!catalog.find("starting menu")); // preserve intentional case/context
         check(bad("x\ta\nx\tb\n"));

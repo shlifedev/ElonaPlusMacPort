@@ -19,6 +19,8 @@
 #include "localization/book_reader.h"
 #include "localization/journal.h"
 #include "localization/manual.h"
+#include "localization/evolution.h"
+#include "localization/recipe.h"
 #include "localization/options.h"
 #include "localization/alias.h"
 
@@ -60,11 +62,34 @@ public:
         return catalog_ ? catalog_->find(key) : nullptr;
     }
 
-    void begin_english_log(std::string_view cp932, int used, int limit, int starter_pet_id) override {
+    void begin_log(std::string_view cp932, int used, int limit, int starter_pet_id,
+                   std::string_view identity, bool japanese) override {
         log_words_.clear();
-        std::string source;
-        if (catalog_ && cp932.size() <= 512 && ui_cp932_to_utf8(cp932, source)) {
-            log_words_ = catalog_->log_words(source, used, limit, starter_pet_id);
+        japanese_log_.begin({}, {});
+        std::string source, key;
+        if (!catalog_ || cp932.size() > 4096 || !ui_cp932_to_utf8(cp932, source)) return;
+        std::optional<std::string> target;
+        if (identity.size() <= 2048 && ui_cp932_to_utf8(identity, key)) {
+            if (key.rfind("@fixed-id/", 0) == 0) {
+                if (const auto* caption = catalog_->find(key)) target = *caption;
+            } else if (key.rfind("@evolution/", 0) == 0) {
+                target = localization::evolution_message(*catalog_, key);
+            } else if (key.rfind("@recipe/", 0) == 0) {
+                target = localization::recipe_log(*catalog_, key, source);
+            }
+        }
+        if (target && !source.empty() && source.front() == '[') {
+            const auto end = source.find("] ");
+            const auto colon = source.find(':');
+            if (colon != source.npos && colon < end && end != source.npos &&
+                source.substr(1, end - 1).find_first_not_of("0123456789:") == source.npos)
+                target->insert(0, source.substr(0, end + 2));
+        }
+        if (japanese) {
+            if (!target) target = catalog_->log_text(source, starter_pet_id);
+            if (target) japanese_log_.begin(cp932, std::move(*target));
+        } else {
+            log_words_ = catalog_->log_words(source, used, limit, starter_pet_id, std::move(target));
             if (log_words_.empty() && !options_.translation_misses.empty() && log_misses_.size() < 10000)
                 ++log_misses_[source];
         }
@@ -87,6 +112,16 @@ public:
             }
         }
         option_key_.clear();
+        if (scope == 28 && catalog_ && cp932.size() <= 2048) {
+            std::string fields;
+            if (ui_cp932_to_utf8(cp932, fields)) {
+                if (auto caption = localization::recipe_caption(*catalog_, fields)) {
+                    const auto last = cp932.rfind('\t');
+                    menu_label_ = {std::string(cp932.substr(last + 1)), std::move(*caption)};
+                }
+            }
+            return;
+        }
         if (scope >= 24 && scope <= 26 && catalog_ && cp932.size() <= 1024) {
             std::string fields;
             if (ui_cp932_to_utf8(cp932, fields)) {
@@ -207,6 +242,10 @@ public:
                 if (auto metric = catalog_->sheet_text(source))
                     menu_label_ = {std::string(cp932), std::move(*metric)};
             }
+            if (menu_label_.source.empty()) {
+                if (const auto* fixed = catalog_->find("@fixed/" + source))
+                    menu_label_ = {std::string(cp932), *fixed};
+            }
         }
     }
     bool draw_input_caption(Dib& dib, int x, int y) override {
@@ -318,6 +357,12 @@ public:
                         return measure_line(spec, cp932);
                     }
                     log_words_.clear();
+                }
+                if (log_word_draw_) {
+                    if (auto chunk = japanese_log_.consume(cp932)) {
+                        if (!chunk->empty()) layout_utf8(spec, &dib, x, y, *chunk, color);
+                        return measure_line(spec, cp932);
+                    }
                 }
                 // Japanese msg_write draws complete CP932 chunks without the English word queue.
                 if (log_word_draw_ && std::any_of(cp932.begin(), cp932.end(), [](unsigned char c) { return c >= 0x80; })) {
@@ -571,6 +616,7 @@ private:
     std::string ko_font_;
     bool log_word_draw_ = false, hud_draw_ = false;
     std::deque<localization::LogWord> log_words_;
+    localization::JapaneseLog japanese_log_;
     std::vector<std::optional<std::string>> journal_;
     std::unordered_map<std::string, const std::string*> manual_pages_;
     const std::string* map_label_ = nullptr;

@@ -115,6 +115,11 @@ def main():
                 if row.get('match_kind') == 'manual_section' and re.fullmatch(r'@manual/body/[0-9a-f]{64}', key):
                     if not manual_page_markup_valid(target):
                         raise ValueError(f'{path}: invalid rich text in manual section {row_number}')
+                elif row.get('match_kind') == 'altar_paragraph' and re.fullmatch(r'@altar/[0-8]', key):
+                    paragraphs = 1 if key == '@altar/0' else 4
+                    parts = target.split('<p>')
+                    if len(parts) != paragraphs or any(not p.strip() or re.search(r'[<>^$\t]', p) for p in parts):
+                        raise ValueError(f'{path}: invalid altar paragraphs for {key}')
                 elif tags(key) != tags(target):
                     omitted.append({'source': key, 'reason': 'format/control marker mismatch'})
                     continue

@@ -107,7 +107,7 @@ public:
     virtual TextExtent draw_display_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) {
         return draw_line(spec, dib, x, y, cp932, color);
     }
-    virtual void begin_english_log(std::string_view, int, int, int) {}
+    virtual void begin_log(std::string_view, int, int, int, std::string_view, bool) {}
     virtual void set_log_word_draw(bool) {}
     virtual void set_hud_draw(bool) {}
     virtual int selection_label_width(const FontSpec&) { return 0; }
