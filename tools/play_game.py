@@ -27,8 +27,12 @@ STORY_MANAGED_AX = Path("work/localization/managed-story-v3/start.ax")
 STORY_MANAGED_SHA256 = "bd0593e60aaa2c2ee4ead9efbfb6a9e154adb800a3739b022b7e9e5c449e90e8"
 
 
-MANAGED_AX = Path("work/localization/managed-menu-v4/start.ax")
-MANAGED_SHA256 = "19d0648199f04c697aff637c1a42d349f32381b8f2d45d77e1aff6fcde5b49e1"
+MENU_MANAGED_AX = Path("work/localization/managed-menu-v4/start.ax")
+MENU_MANAGED_SHA256 = "19d0648199f04c697aff637c1a42d349f32381b8f2d45d77e1aff6fcde5b49e1"
+
+MANAGED_AX = Path("work/localization/managed-events-v5/start.ax")
+MANAGED_SHA256 = "a44316f1668ca0d30154b4ca2375462073fea4038a757f1e673b51b2180ee052"
+
 
 def game_ax(root, language):
     original = root / "work/normalized/2.335/start.ax"
@@ -38,6 +42,12 @@ def game_ax(root, language):
             if hashlib.sha256(managed.read_bytes()).hexdigest() != MANAGED_SHA256:
                 raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {managed}")
             return managed
+        menu = root / MENU_MANAGED_AX
+        if menu.is_file():
+            if hashlib.sha256(menu.read_bytes()).hexdigest() != MENU_MANAGED_SHA256:
+                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {menu}")
+            print(f"Korean event AX missing at {managed}. Using menu AX {menu}.", file=sys.stderr)
+            return menu
         story = root / STORY_MANAGED_AX
         if story.is_file():
             if hashlib.sha256(story.read_bytes()).hexdigest() != STORY_MANAGED_SHA256:

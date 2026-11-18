@@ -99,6 +99,18 @@ int main(int argc, char** argv) {
         std::string compact;
         for (char c : visible) if (c != ' ') compact += c;
         check(compact == "마법서를읽으면주문을배운다.");
+        const std::string nickname = "<red>Fox$^/A";
+        auto literal = elona::localization::layout_rich_text(nickname, 200, 0, false);
+        std::string spelling;
+        for (const auto& glyph : literal.glyphs) {
+            spelling += glyph.utf8;
+            check(glyph.color == 0);
+        }
+        check(spelling == nickname);
+        write("@log-template/{name} gets furious!\t{name}의 분노가 폭발했다.\n");
+        auto angry = elona::localization::Catalog::load(file);
+        check(angry.log_text("[1:20] <red>Fox$^/A gets furious!") == "[1:20] <red>Fox$^/A의 분노가 폭발했다.");
+        check(!angry.log_text(" gets furious!"));
         auto explicit_break = elona::localization::layout_rich_text("첫째<br>둘째<p>셋째", 100, 0);
         check(explicit_break.height == 58);
         bool rejected = false;

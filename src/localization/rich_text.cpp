@@ -22,7 +22,7 @@ std::uint32_t codepoint(std::string_view s) {
     return value;
 }
 }
-RichLayout layout_rich_text(std::string_view text, int width, std::uint32_t base) {
+RichLayout layout_rich_text(std::string_view text, int width, std::uint32_t base, bool parse_tags) {
     if (!valid_utf8(text) || text.size() > 16384) throw std::runtime_error("invalid rich-text UTF-8");
     if (width < 14 || width > 16384) throw std::runtime_error("invalid rich-text width");
     RichLayout out;
@@ -41,7 +41,7 @@ RichLayout layout_rich_text(std::string_view text, int width, std::uint32_t base
         if (advance) y += height + 2;
     };
     for (std::size_t i = 0; i < text.size();) {
-        if (text[i] == '<') {
+        if (parse_tags && text[i] == '<') {
             auto end = text.find('>', i + 1);
             if (end == std::string_view::npos) throw std::runtime_error("unfinished rich-text tag");
             auto tag = text.substr(i + 1, end - i - 1);
@@ -58,7 +58,7 @@ RichLayout layout_rich_text(std::string_view text, int width, std::uint32_t base
             else throw std::runtime_error("unknown rich-text tag: " + std::string(tag));
             continue;
         }
-        if (static_cast<unsigned char>(text[i]) < 32 || text[i] == '$' || text[i] == '^')
+        if (static_cast<unsigned char>(text[i]) < 32 || (parse_tags && (text[i] == '$' || text[i] == '^')))
             throw std::runtime_error("unsupported rich-text control");
         const unsigned char c = text[i];
         const std::size_t n = c < 0x80 ? 1 : c < 0xe0 ? 2 : c < 0xf0 ? 3 : 4;

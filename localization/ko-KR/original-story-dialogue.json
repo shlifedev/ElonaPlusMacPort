@@ -1388,5 +1388,166 @@
       "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
       "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
     }
+  },
+  {
+    "id": "story.named.373810",
+    "source": "@home-name/373810",
+    "target": "그렇게 아쉬운 표정 짓지 말아요, {name}. 우리는 이 나라에 볼일이 있으니… 분명 다시 만날 수 있을 거예요.",
+    "source_ref": [
+      "2.335:start.hsp:373810"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "scoped_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.named.373856",
+    "source": "@home-name/373856",
+    "target": "…그럼 다시 만날 때까지, {name}. 당신에게 바람의 가호가 함께하기를.",
+    "source_ref": [
+      "2.335:start.hsp:373856"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "scoped_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.named.374293",
+    "source": "@home-name/374293",
+    "target": "{name}의 말이 맞아요. 우리에게 남은 시간은 얼마 없어요. 이러는 동안에도 신왕국에 있는 그자의 계획은 착착 진행되고 있겠지요… 출발해요, 로미아스.",
+    "source_ref": [
+      "2.335:start.hsp:374293"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "scoped_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.named.374319",
+    "source": "@home-name/374319",
+    "target": "얼마 안 되지만 물건 몇 가지를 두고 갈 테니 잘 써요. …그럼 다시 만날 때까지, {name}. 당신에게 바람의 가호가 함께하기를.",
+    "source_ref": [
+      "2.335:start.hsp:374319"
+    ],
+    "speaker": "Larnneire",
+    "match_kind": "scoped_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.named.418807",
+    "source": "@home-name/418807",
+    "target": "…그렇군. 내 나쁜 버릇이지. 나도 알고 있네. …그런데, 자네 이름이 {name} 맞나?",
+    "source_ref": [
+      "2.335:start.hsp:418807",
+      "2.335:start.hsp:418874"
+    ],
+    "speaker": "Lomias",
+    "match_kind": "scoped_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.event.12.title",
+    "source": "@event/12/title",
+    "target": "《 반려동물과의 재회 》",
+    "source_ref": [
+      "2.335:start.hsp:614803"
+    ],
+    "speaker": "narrator",
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.event.12.body",
+    "source": "@event/12/body",
+    "target": "광산 마을로 향하던 당신은 낯익은 울음소리에 발걸음을 멈췄다. 난파 때 헤어진 반려동물이 반갑게 달려오고 있다! 당신의 반려동물은…….",
+    "source_ref": [
+      "2.335:start.hsp:614805"
+    ],
+    "speaker": "narrator",
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.event.38.title",
+    "source": "@event/38/title",
+    "target": "《 숨어 있던 누군가 》",
+    "source_ref": [
+      "2.335:start.hsp:614737"
+    ],
+    "speaker": "narrator",
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.event.38.body",
+    "source": "@event/38/body",
+    "target": "등 뒤에서 인기척이 느껴져 문득 발걸음을 멈췄다. 당신이 고개를 돌리자 그곳에 서 있는 것은…….",
+    "source_ref": [
+      "2.335:start.hsp:614739"
+    ],
+    "speaker": "narrator",
+    "match_kind": "scoped_exact",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
+  },
+  {
+    "id": "story.log.374285",
+    "source": "@log-template/{name} gets furious!",
+    "target": "{name}의 분노가 폭발했다.",
+    "source_ref": [
+      "2.335:start.hsp:374285"
+    ],
+    "speaker": "narrator",
+    "match_kind": "scoped_template",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese source; English cross-check",
+      "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+    }
   }
 ]

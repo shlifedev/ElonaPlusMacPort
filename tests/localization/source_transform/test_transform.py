@@ -58,7 +58,8 @@ class TransformTests(unittest.TestCase):
 
     def transform_fixture(self, data):
         with patch.object(module, "SOURCE_SHA256", module.digest(data)), patch.object(module, "dialogue_calls", return_value=[]), \
-             patch.object(module, "menu_inserts", return_value=[]):
+             patch.object(module, "menu_inserts", return_value=[]), \
+             patch.object(module, "story_inserts", return_value=[]):
             return module.transform(data)
 
     def test_removing_inserted_spans_recovers_every_original_byte(self):

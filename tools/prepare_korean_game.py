@@ -2,7 +2,7 @@
 """Generate an opt-in display-hook source from the verified private 2.335 source.
 
 The original CP932 bytes are never decoded/re-encoded. Output remains private
-under work/. The Korean launcher selects the verified managed-menu-v4 AX. This requires the
+under work/. The Korean launcher selects the verified managed-events-v5 AX. This requires the
 native type-48 display command; the official Windows runtime cannot run it.
 """
 from __future__ import annotations
@@ -16,6 +16,7 @@ import struct
 import subprocess
 import sys
 
+from korean_event_hooks import story_inserts
 from korean_inventory_hooks import install_item_hooks
 from korean_menu_hooks import MENU_DRAWS, menu_inserts
 
@@ -95,6 +96,7 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
             inserts.append((start if after else pos, addition, kind))
     install_item_hooks(at)
     inserts.extend(menu_inserts(source))
+    inserts.extend(story_inserts(source))
     inserts.extend(dialogue_calls(source))
     at(b"\ttalk_conv buff, 56 - en * 3\r\n",
        b'\tnative_dialog_key = ""\r\n'
@@ -225,7 +227,7 @@ def main() -> int:
                 report.update(compiled=True, ax_sha256=digest(blob), ax_bytes=len(blob))
                 try:
                     report["token_check"] = command_counts(blob)
-                    success = report["token_check"]["type48_commands"] == {"0": 2, "1": 1, "2": 10, "6": 2, "7": 2 * len(MENU_DRAWS)}
+                    success = report["token_check"]["type48_commands"] == {"0": 4, "1": 1, "2": 10, "6": 2, "7": 2 * len(MENU_DRAWS)}
                     if not success:
                         report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:

@@ -18,5 +18,5 @@ struct RichLayout {
 };
 int unicode_cell_width(std::uint32_t cp, int pixels);
 // Known gmes tags only. Unknown controls fail explicitly before any drawing.
-RichLayout layout_rich_text(std::string_view utf8, int width, std::uint32_t color);
+RichLayout layout_rich_text(std::string_view utf8, int width, std::uint32_t color, bool parse_tags = true);
 }  // namespace elona::localization

@@ -146,10 +146,22 @@ public:
         if (!catalog_) return -1;
         std::string source;
         if (!ui_cp932_to_utf8(cp932, source)) return -1;
-        const auto* target = catalog_->find(source, true);
+        std::string formatted;
+        constexpr std::string_view prefix = "@home-name/";
+        const bool named = source.compare(0, prefix.size(), prefix) == 0;
+        const auto separator = named ? source.find('/', prefix.size()) : source.npos;
+        if (named && separator == source.npos) return -1;
+        const auto* target = catalog_->find(source.substr(0, separator), true);
         if (!target) return -1;
-        // Validate the complete run before drawing any pixels.
-        const auto paragraph = localization::layout_rich_text(*target, width, color);
+        if (named) {
+            const auto marker = target->find("{name}");
+            const auto name = source.substr(separator + 1);
+            if (marker == target->npos || name.find_first_of("\r\n\t") != name.npos) return -1;
+            formatted = *target;
+            formatted.replace(marker, 6, name);
+        }
+        // A name containing a tag, a dollar sign, or a caret is literal text.
+        const auto paragraph = localization::layout_rich_text(named ? formatted : *target, width, color, !named);
         FontSpec spec{"", 14, 0, 0};
         for (const auto& g : paragraph.glyphs) {
             spec.pixel_height = g.size; spec.style = g.style;
