@@ -11,7 +11,8 @@ void Catalog::add_log_template(std::string_view pattern, const std::string& tran
         throw std::runtime_error("expected one argument in a message log template");
     std::string argument(pattern.substr(open, close-open+1));
     const auto at = translation.find(argument);
-    if ((argument != "{name}" && argument != "{place}" && argument != "{object}" && argument != "{enemy}") ||
+    if ((argument != "{name}" && argument != "{place}" && argument != "{object}" && argument != "{enemy}" &&
+         argument != "{skill}") ||
         at == translation.npos || translation.find('{') != at ||
         translation.find('{', at+1) != translation.npos || translation.find('}') != at+argument.size()-1 ||
         translation.find('}', at+argument.size()) != translation.npos ||
@@ -21,8 +22,41 @@ void Catalog::add_log_template(std::string_view pattern, const std::string& tran
                               std::move(argument), translation});
 }
 
+namespace {
+std::optional<std::string> collection_log(const Catalog& catalog, std::string_view message) {
+    if (message.substr(0, 8) != "You get ") return {};
+    message.remove_prefix(8);
+    static const std::regex catch_form(R"(^(?:an? |the )?(?:([0-9]+)cm )?(.+)!$)");
+    static const std::regex material_form(R"(^([0-9]+) (.+)\. $)");
+    std::match_results<std::string_view::const_iterator> parts;
+    const bool caught = std::regex_match(message.begin(), message.end(), parts, catch_form);
+    if (!caught && !std::regex_match(message.begin(), message.end(), parts, material_form)) return {};
+    const char* domain = "@gather-log/name/";
+    if (caught) domain = parts[1].matched ? "@catch-log/fish/" : "@catch-log/object/";
+    const auto* noun = catalog.find(domain + parts[2].str());
+    const auto* pattern = catalog.find(caught ? "@catch-log/land" : "@gather-log/get");
+    if (!noun || !pattern) return {};
+    std::string result = *pattern;
+    if (caught && parts[1].matched) {
+        const auto* size = catalog.find("@catch-log/size");
+        const auto at = result.find("{item}");
+        if (!size || at == result.npos) return {};
+        result.replace(at, 6, *size);
+    }
+    if (parts[1].matched) {
+        const auto at = result.find("{size}");
+        if (at == result.npos) return {};
+        result.replace(at, 6, parts[1].str());
+    }
+    const auto at = result.find("{item}");
+    if (at == result.npos) return {};
+    result.replace(at, 6, *noun);
+    return result;
+}
+}
 std::optional<std::string> Catalog::adventure_log(std::string_view source, int starter_pet_id) const {
     if (source.size() > 512) return {};
+    if (auto collected = collection_log(*this, source)) return collected;
     const LogTemplate* match = nullptr;
     std::string replacement;
     for (const auto& rule : log_templates_) {

@@ -2803,5 +2803,1721 @@
       "reference": "2.335 reward category in board notices",
       "source_hash": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
     }
+  },
+  {
+    "source": "@npc-title/general vendor",
+    "target": "잡화상",
+    "source_ref": [
+      "2.335:start.hsp:9813"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/雑貨屋の",
+    "target": "잡화상",
+    "source_ref": [
+      "2.335:start.hsp:9813"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/Innkeeper",
+    "target": "여관 주인",
+    "source_ref": [
+      "2.335:start.hsp:9817"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/宿屋の",
+    "target": "여관 주인",
+    "source_ref": [
+      "2.335:start.hsp:9817"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/trader",
+    "target": "교역상",
+    "source_ref": [
+      "2.335:start.hsp:9821"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/交易店の",
+    "target": "교역상",
+    "source_ref": [
+      "2.335:start.hsp:9821"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/goods vendor",
+    "target": "만물상",
+    "source_ref": [
+      "2.335:start.hsp:9825"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/何でも屋の",
+    "target": "만물상",
+    "source_ref": [
+      "2.335:start.hsp:9825"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/baker",
+    "target": "제빵사",
+    "source_ref": [
+      "2.335:start.hsp:9829"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/パン屋の",
+    "target": "제빵사",
+    "source_ref": [
+      "2.335:start.hsp:9829"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/magic vendor",
+    "target": "마법 상인",
+    "source_ref": [
+      "2.335:start.hsp:9833"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/魔法店の",
+    "target": "마법 상인",
+    "source_ref": [
+      "2.335:start.hsp:9833"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/blacksmith",
+    "target": "대장장이",
+    "source_ref": [
+      "2.335:start.hsp:9837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/武具店の",
+    "target": "대장장이",
+    "source_ref": [
+      "2.335:start.hsp:9837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/trainer",
+    "target": "훈련사",
+    "source_ref": [
+      "2.335:start.hsp:9841"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/ギルドの",
+    "target": "훈련사",
+    "source_ref": [
+      "2.335:start.hsp:9841"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/fisher",
+    "target": "낚시용품상",
+    "source_ref": [
+      "2.335:start.hsp:9845"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/釣具店の",
+    "target": "낚시용품상",
+    "source_ref": [
+      "2.335:start.hsp:9845"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/blackmarket vendor",
+    "target": "암시장 상인",
+    "source_ref": [
+      "2.335:start.hsp:9849"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/ブラックマーケットの",
+    "target": "암시장 상인",
+    "source_ref": [
+      "2.335:start.hsp:9849"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/food vendor",
+    "target": "식료품상",
+    "source_ref": [
+      "2.335:start.hsp:9853"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/食品店",
+    "target": "식료품상",
+    "source_ref": [
+      "2.335:start.hsp:9853"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/town child",
+    "target": "마을 아이",
+    "source_ref": [
+      "2.335:start.hsp:480043"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/街の子供の",
+    "target": "마을 아이",
+    "source_ref": [
+      "2.335:start.hsp:480043"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/old butler",
+    "target": "노집사",
+    "source_ref": [
+      "2.335:start.hsp:496722"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/老執事の",
+    "target": "노집사",
+    "source_ref": [
+      "2.335:start.hsp:496722"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/butler",
+    "target": "집사",
+    "source_ref": [
+      "2.335:start.hsp:496843"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/執事の",
+    "target": "집사",
+    "source_ref": [
+      "2.335:start.hsp:496843"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/little boy",
+    "target": "소년",
+    "source_ref": [
+      "2.335:start.hsp:497157"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/少年の",
+    "target": "소년",
+    "source_ref": [
+      "2.335:start.hsp:497157"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/novice",
+    "target": "풋내기",
+    "source_ref": [
+      "2.335:start.hsp:503022"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/駆け出しの",
+    "target": "풋내기",
+    "source_ref": [
+      "2.335:start.hsp:503022"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/detective",
+    "target": "탐정",
+    "source_ref": [
+      "2.335:start.hsp:522674"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/探偵の",
+    "target": "탐정",
+    "source_ref": [
+      "2.335:start.hsp:522674"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/citizen",
+    "target": "주민",
+    "source_ref": [
+      "2.335:start.hsp:527412"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/丘の識者の",
+    "target": "언덕의 현자",
+    "source_ref": [
+      "2.335:start.hsp:527412"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/shopkeeper",
+    "target": "상점 주인",
+    "source_ref": [
+      "2.335:start.hsp:527935"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/店主の",
+    "target": "상점 주인",
+    "source_ref": [
+      "2.335:start.hsp:527935"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/丘の民の",
+    "target": "주민",
+    "source_ref": [
+      "2.335:start.hsp:528201"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/teacher",
+    "target": "교사",
+    "source_ref": [
+      "2.335:start.hsp:530409"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/先生の",
+    "target": "교사",
+    "source_ref": [
+      "2.335:start.hsp:530409"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/scholar",
+    "target": "학자",
+    "source_ref": [
+      "2.335:start.hsp:530827"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/学者の",
+    "target": "학자",
+    "source_ref": [
+      "2.335:start.hsp:530827"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/traveler",
+    "target": "여행자",
+    "source_ref": [
+      "2.335:start.hsp:545734"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/旅人の",
+    "target": "여행자",
+    "source_ref": [
+      "2.335:start.hsp:545734"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/refugee",
+    "target": "난민",
+    "source_ref": [
+      "2.335:start.hsp:545875"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/エレアの難民の",
+    "target": "난민",
+    "source_ref": [
+      "2.335:start.hsp:545875"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/staff",
+    "target": "카지노 직원",
+    "source_ref": [
+      "2.335:start.hsp:546016"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/カジノスタッフの",
+    "target": "카지노 직원",
+    "source_ref": [
+      "2.335:start.hsp:546016"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/ganmbler",
+    "target": "도박꾼",
+    "source_ref": [
+      "2.335:start.hsp:546646"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/遊び人の",
+    "target": "도박꾼",
+    "source_ref": [
+      "2.335:start.hsp:546646"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/fisherman",
+    "target": "어부",
+    "source_ref": [
+      "2.335:start.hsp:549048"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/漁師の",
+    "target": "어부",
+    "source_ref": [
+      "2.335:start.hsp:549048"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/pirate",
+    "target": "해적",
+    "source_ref": [
+      "2.335:start.hsp:549170"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/海賊の",
+    "target": "해적",
+    "source_ref": [
+      "2.335:start.hsp:549170"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/市民の",
+    "target": "주민",
+    "source_ref": [
+      "2.335:start.hsp:549295"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/bounty hunter",
+    "target": "현상금 사냥꾼",
+    "source_ref": [
+      "2.335:start.hsp:554085"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/バウンティハンターの",
+    "target": "현상금 사냥꾼",
+    "source_ref": [
+      "2.335:start.hsp:554085"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/caravan master",
+    "target": "대상단장",
+    "source_ref": [
+      "2.335:start.hsp:558230"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/キャラバンの隊長の",
+    "target": "대상단장",
+    "source_ref": [
+      "2.335:start.hsp:558230"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/bartender",
+    "target": "술집 주인",
+    "source_ref": [
+      "2.335:start.hsp:558414"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/バーテンダーの",
+    "target": "술집 주인",
+    "source_ref": [
+      "2.335:start.hsp:558414"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/informer",
+    "target": "정보상",
+    "source_ref": [
+      "2.335:start.hsp:558518"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/情報屋の",
+    "target": "정보상",
+    "source_ref": [
+      "2.335:start.hsp:558518"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/arena master",
+    "target": "투기장 관리인",
+    "source_ref": [
+      "2.335:start.hsp:558617"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/アリーナマスターの",
+    "target": "투기장 관리인",
+    "source_ref": [
+      "2.335:start.hsp:558617"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/healer",
+    "target": "치유사",
+    "source_ref": [
+      "2.335:start.hsp:558743"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/癒し手の",
+    "target": "치유사",
+    "source_ref": [
+      "2.335:start.hsp:558743"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/sister",
+    "target": "수녀",
+    "source_ref": [
+      "2.335:start.hsp:558927"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/シスターの",
+    "target": "수녀",
+    "source_ref": [
+      "2.335:start.hsp:558927"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/elder",
+    "target": "촌장",
+    "source_ref": [
+      "2.335:start.hsp:559024"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/長の",
+    "target": "촌장",
+    "source_ref": [
+      "2.335:start.hsp:559024"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/トレイナーの",
+    "target": "훈련사",
+    "source_ref": [
+      "2.335:start.hsp:559140"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/guild trainer",
+    "target": "길드 훈련사",
+    "source_ref": [
+      "2.335:start.hsp:559251"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/ギルドトレイナーの",
+    "target": "길드 훈련사",
+    "source_ref": [
+      "2.335:start.hsp:559251"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/guard",
+    "target": "경비병",
+    "source_ref": [
+      "2.335:start.hsp:559375"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/ガードの",
+    "target": "경비병",
+    "source_ref": [
+      "2.335:start.hsp:559375"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/beggar",
+    "target": "거지",
+    "source_ref": [
+      "2.335:start.hsp:565157"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/乞食の",
+    "target": "거지",
+    "source_ref": [
+      "2.335:start.hsp:565157"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/farmer",
+    "target": "농부",
+    "source_ref": [
+      "2.335:start.hsp:565282"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/農夫の",
+    "target": "농부",
+    "source_ref": [
+      "2.335:start.hsp:565282"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/cleaner",
+    "target": "청소부",
+    "source_ref": [
+      "2.335:start.hsp:565400"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/清掃員の",
+    "target": "청소부",
+    "source_ref": [
+      "2.335:start.hsp:565400"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/miner",
+    "target": "광부",
+    "source_ref": [
+      "2.335:start.hsp:565520"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/鉱夫の",
+    "target": "광부",
+    "source_ref": [
+      "2.335:start.hsp:565520"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/bard",
+    "target": "음유시인",
+    "source_ref": [
+      "2.335:start.hsp:565661"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/吟遊詩人の",
+    "target": "음유시인",
+    "source_ref": [
+      "2.335:start.hsp:565661"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/修道女の",
+    "target": "수녀",
+    "source_ref": [
+      "2.335:start.hsp:565762"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/rogue",
+    "target": "무법자",
+    "source_ref": [
+      "2.335:start.hsp:566171"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/ならずものの",
+    "target": "무법자",
+    "source_ref": [
+      "2.335:start.hsp:566171"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/prostitue",
+    "target": "매춘부",
+    "source_ref": [
+      "2.335:start.hsp:566288"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/娼婦の",
+    "target": "매춘부",
+    "source_ref": [
+      "2.335:start.hsp:566288"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/prisoner",
+    "target": "죄수",
+    "source_ref": [
+      "2.335:start.hsp:566405"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/囚人の",
+    "target": "죄수",
+    "source_ref": [
+      "2.335:start.hsp:566405"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/artist",
+    "target": "예술가",
+    "source_ref": [
+      "2.335:start.hsp:566522"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/芸術家の",
+    "target": "예술가",
+    "source_ref": [
+      "2.335:start.hsp:566522"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/noble",
+    "target": "귀족",
+    "source_ref": [
+      "2.335:start.hsp:566639"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/貴族の",
+    "target": "귀족",
+    "source_ref": [
+      "2.335:start.hsp:566639"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/mage guild member",
+    "target": "마법사 길드원",
+    "source_ref": [
+      "2.335:start.hsp:566756"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/魔術士ギルドの",
+    "target": "마법사 길드원",
+    "source_ref": [
+      "2.335:start.hsp:566756"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/thief guild member",
+    "target": "도적 길드원",
+    "source_ref": [
+      "2.335:start.hsp:566873"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/盗賊ギルドの",
+    "target": "도적 길드원",
+    "source_ref": [
+      "2.335:start.hsp:566873"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/fighter guild member",
+    "target": "전사 길드원",
+    "source_ref": [
+      "2.335:start.hsp:566990"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/戦士ギルドの",
+    "target": "전사 길드원",
+    "source_ref": [
+      "2.335:start.hsp:566990"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/old person",
+    "target": "노인",
+    "source_ref": [
+      "2.335:start.hsp:567273"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/老人の",
+    "target": "노인",
+    "source_ref": [
+      "2.335:start.hsp:567273"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/gangster",
+    "target": "건달",
+    "source_ref": [
+      "2.335:start.hsp:567683"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/ごろつきの",
+    "target": "건달",
+    "source_ref": [
+      "2.335:start.hsp:567683"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/温泉マニアの",
+    "target": "온천 애호가",
+    "source_ref": [
+      "2.335:start.hsp:568719"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/sales person",
+    "target": "외판원",
+    "source_ref": [
+      "2.335:start.hsp:569633"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/セールスマンの",
+    "target": "외판원",
+    "source_ref": [
+      "2.335:start.hsp:569633"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/sailor",
+    "target": "선원",
+    "source_ref": [
+      "2.335:start.hsp:569737"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/水夫の",
+    "target": "선원",
+    "source_ref": [
+      "2.335:start.hsp:569737"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/captain",
+    "target": "선장",
+    "source_ref": [
+      "2.335:start.hsp:569836"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/船長の",
+    "target": "선장",
+    "source_ref": [
+      "2.335:start.hsp:569836"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/wizard",
+    "target": "마법사",
+    "source_ref": [
+      "2.335:start.hsp:571164"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/魔術士の",
+    "target": "마법사",
+    "source_ref": [
+      "2.335:start.hsp:571164"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/warrior",
+    "target": "전사",
+    "source_ref": [
+      "2.335:start.hsp:571242"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/戦士の",
+    "target": "전사",
+    "source_ref": [
+      "2.335:start.hsp:571242"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/mercenary warrior",
+    "target": "용병 전사",
+    "source_ref": [
+      "2.335:start.hsp:580713"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/傭兵戦士の",
+    "target": "용병 전사",
+    "source_ref": [
+      "2.335:start.hsp:580713"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/mercenary archer",
+    "target": "용병 궁수",
+    "source_ref": [
+      "2.335:start.hsp:580817"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/傭兵射手の",
+    "target": "용병 궁수",
+    "source_ref": [
+      "2.335:start.hsp:580817"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/mercenary wizard",
+    "target": "용병 마법사",
+    "source_ref": [
+      "2.335:start.hsp:580921"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/傭兵魔術士の",
+    "target": "용병 마법사",
+    "source_ref": [
+      "2.335:start.hsp:580921"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/little girl",
+    "target": "소녀",
+    "source_ref": [
+      "2.335:start.hsp:583769"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/少女の",
+    "target": "소녀",
+    "source_ref": [
+      "2.335:start.hsp:583769"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/nurse",
+    "target": "간호사",
+    "source_ref": [
+      "2.335:start.hsp:585490"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/白衣のナースの",
+    "target": "간호사",
+    "source_ref": [
+      "2.335:start.hsp:585490"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/rich person",
+    "target": "대부호",
+    "source_ref": [
+      "2.335:start.hsp:585616"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/大富豪の",
+    "target": "대부호",
+    "source_ref": [
+      "2.335:start.hsp:585616"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/noble child",
+    "target": "귀족 아이",
+    "source_ref": [
+      "2.335:start.hsp:585742"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/貴族の子供の",
+    "target": "귀족 아이",
+    "source_ref": [
+      "2.335:start.hsp:585742"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/tourist",
+    "target": "관광객",
+    "source_ref": [
+      "2.335:start.hsp:585868"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/観光客の",
+    "target": "관광객",
+    "source_ref": [
+      "2.335:start.hsp:585868"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/festival tourist",
+    "target": "축제 관광객",
+    "source_ref": [
+      "2.335:start.hsp:586018"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/祭りの観光客の",
+    "target": "축제 관광객",
+    "source_ref": [
+      "2.335:start.hsp:586018"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/maid",
+    "target": "하녀",
+    "source_ref": [
+      "2.335:start.hsp:588033"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/メイドの",
+    "target": "하녀",
+    "source_ref": [
+      "2.335:start.hsp:588033"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/apprentice",
+    "target": "견습생",
+    "source_ref": [
+      "2.335:start.hsp:266758"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-prefix/見習い",
+    "target": "견습생",
+    "source_ref": [
+      "2.335:start.hsp:266758"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 authored NPC naming routine, occupation only"
+    }
+  },
+  {
+    "source": "@npc-title/guide",
+    "target": "길잡이",
+    "source_ref": [
+      "2.335:start.hsp:263274"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "original bilingual NPC name <Norne> the guide"
+    }
+  },
+  {
+    "source": "@npc-prefix/ガイドの",
+    "target": "길잡이",
+    "source_ref": [
+      "2.335:start.hsp:263274"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "original bilingual NPC name <Norne> the guide"
+    }
   }
 ]

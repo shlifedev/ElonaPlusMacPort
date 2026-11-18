@@ -395,85 +395,127 @@
       "source": "@appearance/Portrait",
       "target": "초상화",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/肖像"
+      ]
     },
     {
       "source": "@appearance/Hair",
       "target": "머리",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/髪"
+      ]
     },
     {
       "source": "@appearance/Sub Hair",
       "target": "덧머리",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/副髪"
+      ]
     },
     {
       "source": "@appearance/Hair CL",
       "target": "머리 색",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/髪の色"
+      ]
     },
     {
       "source": "@appearance/Body",
       "target": "몸",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/体"
+      ]
     },
     {
       "source": "@appearance/Cloth",
       "target": "옷",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/服"
+      ]
     },
     {
       "source": "@appearance/Pants",
       "target": "하의",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/ﾊﾟﾝﾂ"
+      ]
     },
     {
       "source": "@appearance/Body CL",
       "target": "피부색",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/体の色"
+      ]
     },
     {
       "source": "@appearance/Cloth CL",
       "target": "상의 색",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/服の色"
+      ]
     },
     {
       "source": "@appearance/Pants CL",
       "target": "하의 색",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/ﾊﾟﾝﾂの色"
+      ]
     },
     {
       "source": "@appearance/Etc1",
       "target": "장식 1",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/ｱｸｾｻﾘ1"
+      ]
     },
     {
       "source": "@appearance/Etc2",
       "target": "장식 2",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/ｱｸｾｻﾘ2"
+      ]
     },
     {
       "source": "@appearance/Etc3",
       "target": "장식 3",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/ｱｸｾｻﾘ3"
+      ]
     },
     {
       "source": "@appearance/Eyes",
       "target": "눈",
       "source_ref": "2.335:start.hsp:298963",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/目"
+      ]
     },
     {
       "source": "@appearance/Custom",
@@ -528,6 +570,57 @@
       "target": "아직 고맙다는 말도 못 했는데!",
       "source_ref": "2.335:start.hsp:9269",
       "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/N/A",
+      "target": "해당 없음",
+      "source_ref": "2.335:start.hsp:298956",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@appearance/apply:Pic_",
+      "target": "개별 그림",
+      "source_ref": "2.335:start.hsp:298627",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@appearance/適用 ：Pic_"
+      ]
+    },
+    {
+      "source": "@sheet/Original",
+      "target": "원래 모습",
+      "source_ref": "2.335:start.hsp:298627",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@sheet/元々の姿にする"
+      ]
+    },
+    {
+      "source": "@sheet/Set Detail",
+      "target": "상세 설정",
+      "source_ref": "2.335:start.hsp:298837",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@sheet/詳細設定"
+      ]
+    },
+    {
+      "source": "@sheet/Set Basic",
+      "target": "기본 설정",
+      "source_ref": "2.335:start.hsp:298852",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@sheet/基本設定"
+      ]
+    },
+    {
+      "source": "@sheet/Done    ",
+      "target": "완료",
+      "source_ref": "2.335:start.hsp:298837",
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@sheet/決定    "
+      ]
     }
   ]
 }

@@ -5,6 +5,7 @@ only the existing draw call, including its shadow passes. Never look up text
 from a save row, an item instance, or a player/NPC name as a menu caption.
 """
 from korean_journal_hooks import JOURNAL_DRAWS
+from korean_manual_hooks import MANUAL_DRAWS
 
 # scope 1 = body slot, 2 = inventory action, 3 = column, 4 = tab/window,
 # 5 = status, 6 = sprite editor, 7 = portrait editor, 8 = character sheet and generated counters, 9 = biography.
@@ -19,6 +20,17 @@ MENU_DRAWS = (
     (289375, 'display_topic s, wx + 46, wy + 36', 8, 's'),
     (289376, 'display_topic s(2), wx + 255, wy + 36', 8, 's(2)'),
     (289462, 'cs_list listn(0, p), wx + x, wy + 66 + cnt * 19 - 1, 19, 0, -1', 17, 'listn(0, p)'),
+    (292550, 'display_window (windoww - 600) / 2 + inf_screenx, winposy(438), 600, 438, 0, 60', 20, '"能力の発動" + "\\t" + s'),
+    (292791, 'display_window (windoww - 600) / 2 + inf_screenx, winposy(438), 600, 438, 0, 60', 20, '"広域能力の発動" + "\\t" + s'),
+    (295274, 'display_window (windoww - 720) / 2 + inf_screenx, winposy(438), 720, 438', 20, '"魔法書の作成" + "\\t" + s'),
+    (295544, 'display_window (windoww - 720) / 2 + inf_screenx, winposy(438), 720, 438', 20, '"不要なストックの選択" + "\\t" + s'),
+    (295740, 'display_window (windoww - 720) / 2 + inf_screenx, winposy(438), 720, 438', 20, '"魔法の詠唱" + "\\t" + s'),
+    (292595, 'mes s', 8, 's'),
+    (292836, 'mes s', 8, 's'),
+    (292792, 'display_topic lang("能力の名称", "Name"), wx + 28, wy + 36', 8, 'lang("能力の名称", "Name")'),
+    (295275, 'display_topic lang("魔法の名称", "Name"), wx + 28, wy + 36', 8, 'lang("魔法の名称", "Name")'),
+    (295545, 'display_topic lang("魔法の名称", "Name"), wx + 28, wy + 36', 8, 'lang("魔法の名称", "Name")'),
+    (295741, 'display_topic lang("魔法の名称", "Name"), wx + 28, wy + 36', 8, 'lang("魔法の名称", "Name")'),
     (292551, 'display_topic lang("能力の名称", "Name"), wx + 28, wy + 36', 8, 'lang("能力の名称", "Name")'),
     (292553, 'display_topic lang("能力の効果", "Detail"), wx + 320, wy + 36', 8, 'lang("能力の効果", "Detail")'),
     (292592, 'cs_list skillname(list(0, p)) + s, wx + 84, wy + 66 + cnt * 19 - 1, 19', 8, 'skillname(list(0, p)) + s'),
@@ -47,6 +59,7 @@ MENU_DRAWS = (
     (224024, 'display_topic lang("能力", "Attributes"), wx + 28, wy + 30', 8, 'lang("能力", "Attributes")'),
     (224187, 'display_topic lang("各モードの説明", "Detail"), wx + 178, wy + 30', 8, 'lang("各モードの説明", "Detail")'),
     (273972, 'display_topic lang("説明", "Detail"), wx + 296, wy + 36', 8, 'lang("説明", "Detail")'),
+    (274270, 'display_topic lang("所持マテリアル", "Name"), wx + 38, wy + 36', 8, 'lang("所持マテリアル", "Name")'),
     (274271, 'display_topic lang("説明", "Detail"), wx + 296, wy + 36', 8, 'lang("説明", "Detail")'),
     (283486, 'mes s@m195', 8, 's@m195'),
     (297431, 'mes s(cnt)', 8, 's(cnt)'),
@@ -64,6 +77,7 @@ MENU_DRAWS = (
     (297653, 'mes s(cnt)', 8, 's(cnt)'),
     (297689, 'mes s(cnt)', 8, 's(cnt)'),
     (223393, 'display_topic lang("経歴", "Attributes"), wx + 28, wy + 30', 9, 'lang("経歴", "Attributes")'),
+    (298709, 'cs_list s, wx + 60, wy + 66 + cnt * 21 - 1, 19, 0', 8, 's'),
     (298963, 'cs_list s, wx + 60, wy + 66 + cnt * 21 - 1, 19, 0', 8, 's'),
     (299507, 'mes q', 1, 'q'),
     (301073, 'mes "" + bodyn(p / 10000)', 1, 'bodyn(p / 10000)'),
@@ -83,7 +97,7 @@ MENU_DRAWS = (
     (line, 'mes "Gene from " + geneuse', 12, '"Gene from " + geneuse')
     for line in (223231, 223336, 223487, 223655, 223682, 223779,
                  223913, 223940, 223980, 224120, 224145, 224176)
-) + JOURNAL_DRAWS
+) + JOURNAL_DRAWS + MANUAL_DRAWS
 
 
 def menu_inserts(source):
@@ -104,7 +118,10 @@ def menu_inserts(source):
         begin = f'native_ko_menu {scope}, {value}\r\n'.encode('cp932')
         finish = b'native_ko_menu 0, ""\r\n'
         if number in (223271, 291403):
-            begin += indent + b'if ( cs == cnt ) : native_ko_alias_width native_alias_width\r\n'
+            begin += indent + b'if ( cs == cnt ) : native_ko_label_width native_alias_width\r\n'
             finish += indent + b'native_alias_width = 0\r\n'
+        if number == 603706:
+            begin += indent + b'if ( cs == cnt ) : native_ko_label_width native_manual_width\r\n'
+            finish += indent + b'native_manual_width = 0\r\n'
         yield start, indent + begin, 'menu_begin'
         yield end, indent + finish, 'menu_end'

@@ -1,0 +1,2660 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 item, fishing, and material collection display"
+  },
+  "entries": [
+    {
+      "source": "@gather/0/name/クズ",
+      "target": "잡동사니",
+      "source_ref": "2.335:start.hsp:38983",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/0/name/Garbage",
+      "target": "잡동사니",
+      "source_ref": "2.335:start.hsp:38983",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/0/desc/何の価値もないクズ",
+      "target": "아무 가치도 없는 잡동사니.",
+      "source_ref": "2.335:start.hsp:38984",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/0/desc/Just garbage.",
+      "target": "아무 가치도 없는 잡동사니.",
+      "source_ref": "2.335:start.hsp:38984",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/1/name/カジノチップ",
+      "target": "카지노 칩",
+      "source_ref": "2.335:start.hsp:38988",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/1/name/Casino chip",
+      "target": "카지노 칩",
+      "source_ref": "2.335:start.hsp:38988",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/1/desc/カジノで使うチップ",
+      "target": "카지노에서 사용하는 칩.",
+      "source_ref": "2.335:start.hsp:38989",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/1/desc/Chips used in casinos.",
+      "target": "카지노에서 사용하는 칩.",
+      "source_ref": "2.335:start.hsp:38989",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/40/name/100Yen硬貨",
+      "target": "100엔 동전",
+      "source_ref": "2.335:start.hsp:38993",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/40/name/100 Yen coin",
+      "target": "100엔 동전",
+      "source_ref": "2.335:start.hsp:38993",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/40/desc/異国のお金",
+      "target": "외국 돈이다.",
+      "source_ref": "2.335:start.hsp:38994",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/40/desc/Foreign money.",
+      "target": "외국 돈이다.",
+      "source_ref": "2.335:start.hsp:38994",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/41/name/500Yen硬貨",
+      "target": "500엔 동전",
+      "source_ref": "2.335:start.hsp:38998",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/41/name/500 Yen coin",
+      "target": "500엔 동전",
+      "source_ref": "2.335:start.hsp:38998",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/41/desc/異国のお金",
+      "target": "외국 돈이다.",
+      "source_ref": "2.335:start.hsp:38999",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/41/desc/Foreign money.",
+      "target": "외국 돈이다.",
+      "source_ref": "2.335:start.hsp:38999",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/43/name/紙",
+      "target": "종이",
+      "source_ref": "2.335:start.hsp:39003",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/43/name/Paper",
+      "target": "종이",
+      "source_ref": "2.335:start.hsp:39003",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/43/desc/白紙",
+      "target": "아무것도 쓰이지 않은 백지.",
+      "source_ref": "2.335:start.hsp:39004",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/43/desc/Blank paper.",
+      "target": "아무것도 쓰이지 않은 백지.",
+      "source_ref": "2.335:start.hsp:39004",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/2/name/炭",
+      "target": "숯",
+      "source_ref": "2.335:start.hsp:39008",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/2/name/Charcoal",
+      "target": "숯",
+      "source_ref": "2.335:start.hsp:39008",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/2/desc/良質な炭",
+      "target": "품질 좋은 숯이다.",
+      "source_ref": "2.335:start.hsp:39009",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/2/desc/This is good quality charcoal.",
+      "target": "품질 좋은 숯이다.",
+      "source_ref": "2.335:start.hsp:39009",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/3/name/流木",
+      "target": "유목",
+      "source_ref": "2.335:start.hsp:39013",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/3/name/Driftwood",
+      "target": "유목",
+      "source_ref": "2.335:start.hsp:39013",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/3/desc/あまり質の良くない木材",
+      "target": "흔히 떠내려오는, 그리 좋지 않은 목재다.",
+      "source_ref": "2.335:start.hsp:39014",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/3/desc/Common driftwood.",
+      "target": "흔히 떠내려오는, 그리 좋지 않은 목재다.",
+      "source_ref": "2.335:start.hsp:39014",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/48/name/石ころ",
+      "target": "조약돌",
+      "source_ref": "2.335:start.hsp:39018",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/48/name/Pebble",
+      "target": "조약돌",
+      "source_ref": "2.335:start.hsp:39018",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/48/desc/どこにでも落ちている",
+      "target": "어디서나 볼 수 있다.",
+      "source_ref": "2.335:start.hsp:39019",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/48/desc/These are around everywhere.",
+      "target": "어디서나 볼 수 있다.",
+      "source_ref": "2.335:start.hsp:39019",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/6/name/杖",
+      "target": "지팡이",
+      "source_ref": "2.335:start.hsp:39023",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/6/name/Stick",
+      "target": "지팡이",
+      "source_ref": "2.335:start.hsp:39023",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/6/desc/杖",
+      "target": "지팡이 모양의 나무토막.",
+      "source_ref": "2.335:start.hsp:39024",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/6/desc/A specially shaped piece of wood.",
+      "target": "지팡이 모양의 나무토막.",
+      "source_ref": "2.335:start.hsp:39024",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/45/name/布きれ",
+      "target": "천 조각",
+      "source_ref": "2.335:start.hsp:39028",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/45/name/Cloth",
+      "target": "천 조각",
+      "source_ref": "2.335:start.hsp:39028",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/45/desc/ただの布きれ",
+      "target": "평범한 천 조각.",
+      "source_ref": "2.335:start.hsp:39029",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/45/desc/A piece of cloth.",
+      "target": "평범한 천 조각.",
+      "source_ref": "2.335:start.hsp:39029",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/56/name/丈夫な布",
+      "target": "질긴 천",
+      "source_ref": "2.335:start.hsp:39033",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/56/name/ Durable cloth",
+      "target": "질긴 천",
+      "source_ref": "2.335:start.hsp:39033",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/56/desc/裂けない",
+      "target": "잘 찢어지지 않는다.",
+      "source_ref": "2.335:start.hsp:39034",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/56/desc/Not torn.",
+      "target": "잘 찢어지지 않는다.",
+      "source_ref": "2.335:start.hsp:39034",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/38/name/わめく狂人",
+      "target": "고함치는 광인",
+      "source_ref": "2.335:start.hsp:39038",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/38/name/Yelling madman",
+      "target": "고함치는 광인",
+      "source_ref": "2.335:start.hsp:39038",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/38/desc/黙らない",
+      "target": "한시도 조용할 때가 없다.",
+      "source_ref": "2.335:start.hsp:39039",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/38/desc/It never shuts up.",
+      "target": "한시도 조용할 때가 없다.",
+      "source_ref": "2.335:start.hsp:39039",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/30/name/マジックマス",
+      "target": "마력 덩어리",
+      "source_ref": "2.335:start.hsp:39043",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/30/name/Magic mass",
+      "target": "마력 덩어리",
+      "source_ref": "2.335:start.hsp:39043",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/30/desc/謎の魔力の塊",
+      "target": "정체를 알 수 없는 마력 덩어리.",
+      "source_ref": "2.335:start.hsp:39044",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/30/desc/Unknown magical mass.",
+      "target": "정체를 알 수 없는 마력 덩어리.",
+      "source_ref": "2.335:start.hsp:39044",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/23/name/電気",
+      "target": "전기",
+      "source_ref": "2.335:start.hsp:39048",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/23/name/Electricity",
+      "target": "전기",
+      "source_ref": "2.335:start.hsp:39048",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/23/desc/放電している",
+      "target": "전기를 방출하고 있다.",
+      "source_ref": "2.335:start.hsp:39049",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/23/desc/It is discharging.",
+      "target": "전기를 방출하고 있다.",
+      "source_ref": "2.335:start.hsp:39049",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/44/name/生成機械",
+      "target": "생성 장치",
+      "source_ref": "2.335:start.hsp:39053",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/44/name/Generator",
+      "target": "생성 장치",
+      "source_ref": "2.335:start.hsp:39053",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/44/desc/何かを生み出す機械",
+      "target": "무언가를 만들어 내는 기계.",
+      "source_ref": "2.335:start.hsp:39054",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/44/desc/This machine generates something.",
+      "target": "무언가를 만들어 내는 기계.",
+      "source_ref": "2.335:start.hsp:39054",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/50/name/魔力の欠片",
+      "target": "마력의 파편",
+      "source_ref": "2.335:start.hsp:39058",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/50/name/Magic fragment",
+      "target": "마력의 파편",
+      "source_ref": "2.335:start.hsp:39058",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/50/desc/魔力が込められている",
+      "target": "마력이 깃들어 있다.",
+      "source_ref": "2.335:start.hsp:39059",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/50/desc/This is magical.",
+      "target": "마력이 깃들어 있다.",
+      "source_ref": "2.335:start.hsp:39059",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/57/name/丸太",
+      "target": "통나무",
+      "source_ref": "2.335:start.hsp:39063",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/57/name/Log",
+      "target": "통나무",
+      "source_ref": "2.335:start.hsp:39063",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/57/desc/手ごろな太さ",
+      "target": "쓰기 알맞은 굵기다.",
+      "source_ref": "2.335:start.hsp:39064",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/57/desc/Affordable thickness.",
+      "target": "쓰기 알맞은 굵기다.",
+      "source_ref": "2.335:start.hsp:39064",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/46/name/枝",
+      "target": "나뭇가지",
+      "source_ref": "2.335:start.hsp:39068",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/46/name/Branch",
+      "target": "나뭇가지",
+      "source_ref": "2.335:start.hsp:39068",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/46/desc/枝",
+      "target": "나무에서 부러져 나온 가지.",
+      "source_ref": "2.335:start.hsp:39069",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/46/desc/Broken off of a tree.",
+      "target": "나무에서 부러져 나온 가지.",
+      "source_ref": "2.335:start.hsp:39069",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/33/name/革",
+      "target": "가죽",
+      "source_ref": "2.335:start.hsp:39073",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/33/name/Leather",
+      "target": "가죽",
+      "source_ref": "2.335:start.hsp:39073",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/33/desc/なめした皮",
+      "target": "무두질한 가죽.",
+      "source_ref": "2.335:start.hsp:39074",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/33/desc/A tanned hide.",
+      "target": "무두질한 가죽.",
+      "source_ref": "2.335:start.hsp:39074",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/53/name/ツル",
+      "target": "덩굴",
+      "source_ref": "2.335:start.hsp:39078",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/53/name/Vein",
+      "target": "덩굴",
+      "source_ref": "2.335:start.hsp:39078",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/53/desc/ツル",
+      "target": "길게 뻗어 자란 덩굴.",
+      "source_ref": "2.335:start.hsp:39079",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/53/desc/Vein.",
+      "target": "길게 뻗어 자란 덩굴.",
+      "source_ref": "2.335:start.hsp:39079",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/47/name/頑丈な枝",
+      "target": "튼튼한 나뭇가지",
+      "source_ref": "2.335:start.hsp:39083",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/47/name/Thick wood",
+      "target": "튼튼한 나뭇가지",
+      "source_ref": "2.335:start.hsp:39083",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/47/desc/なかなか折れない",
+      "target": "쉽게 부러지지 않는다.",
+      "source_ref": "2.335:start.hsp:39084",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/47/desc/This doesn't break down easily.",
+      "target": "쉽게 부러지지 않는다.",
+      "source_ref": "2.335:start.hsp:39084",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/37/name/曲がった杖",
+      "target": "휜 지팡이",
+      "source_ref": "2.335:start.hsp:39088",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/37/name/Curved stick",
+      "target": "휜 지팡이",
+      "source_ref": "2.335:start.hsp:39088",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/37/desc/杖の役割を果たさない",
+      "target": "지팡이 노릇을 못 한다.",
+      "source_ref": "2.335:start.hsp:39089",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/37/desc/Almost unusable.",
+      "target": "거의 쓸 수 없다.",
+      "source_ref": "2.335:start.hsp:39089",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/54/name/接着剤",
+      "target": "접착제",
+      "source_ref": "2.335:start.hsp:39093",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/54/name/Adhesive",
+      "target": "접착제",
+      "source_ref": "2.335:start.hsp:39093",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/54/desc/ネトネトしている",
+      "target": "끈적끈적하다.",
+      "source_ref": "2.335:start.hsp:39094",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/54/desc/It's sticky.",
+      "target": "끈적끈적하다.",
+      "source_ref": "2.335:start.hsp:39094",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/49/name/記憶の欠片",
+      "target": "기억의 조각",
+      "source_ref": "2.335:start.hsp:39098",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/49/name/Memory fragment",
+      "target": "기억의 조각",
+      "source_ref": "2.335:start.hsp:39098",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/49/desc/思い出が残っている",
+      "target": "누군가의 추억이 남아 있다.",
+      "source_ref": "2.335:start.hsp:39099",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/49/desc/ Reminds you of something.",
+      "target": "무언가를 떠올리게 한다.",
+      "source_ref": "2.335:start.hsp:39099",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/55/name/上質紙",
+      "target": "고급 종이",
+      "source_ref": "2.335:start.hsp:39103",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/55/name/Good paper",
+      "target": "고급 종이",
+      "source_ref": "2.335:start.hsp:39103",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/55/desc/手触りのよい紙",
+      "target": "촉감이 좋은 종이.",
+      "source_ref": "2.335:start.hsp:39104",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/55/desc/Good touch.",
+      "target": "촉감이 좋은 종이.",
+      "source_ref": "2.335:start.hsp:39104",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/35/name/魔法の紙",
+      "target": "마법 종이",
+      "source_ref": "2.335:start.hsp:39108",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/35/name/Magic paper",
+      "target": "마법 종이",
+      "source_ref": "2.335:start.hsp:39108",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/35/desc/魔力を秘めた紙",
+      "target": "마력이 깃든 종이.",
+      "source_ref": "2.335:start.hsp:39109",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/35/desc/Magical paper.",
+      "target": "마력이 깃든 종이.",
+      "source_ref": "2.335:start.hsp:39109",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/36/name/魔法のインク",
+      "target": "마법 잉크",
+      "source_ref": "2.335:start.hsp:39113",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/36/name/Magic ink",
+      "target": "마법 잉크",
+      "source_ref": "2.335:start.hsp:39113",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/36/desc/魔力を秘めたインク",
+      "target": "마력이 깃든 잉크.",
+      "source_ref": "2.335:start.hsp:39114",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/36/desc/Wizards love to use it.",
+      "target": "마법사들이 즐겨 쓰는 잉크.",
+      "source_ref": "2.335:start.hsp:39114",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/12/name/海水",
+      "target": "바닷물",
+      "source_ref": "2.335:start.hsp:39118",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/12/name/Seawater",
+      "target": "바닷물",
+      "source_ref": "2.335:start.hsp:39118",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/12/desc/しょっぱい水",
+      "target": "무척 짠 물.",
+      "source_ref": "2.335:start.hsp:39119",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/12/desc/Very salty.",
+      "target": "무척 짠 물.",
+      "source_ref": "2.335:start.hsp:39119",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/5/name/水滴",
+      "target": "물방울",
+      "source_ref": "2.335:start.hsp:39123",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/5/name/Waterdrop",
+      "target": "물방울",
+      "source_ref": "2.335:start.hsp:39123",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/5/desc/水滴",
+      "target": "물 한 방울.",
+      "source_ref": "2.335:start.hsp:39124",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/5/desc/A drop of water.",
+      "target": "물 한 방울.",
+      "source_ref": "2.335:start.hsp:39124",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/10/name/天使の涙",
+      "target": "천사의 눈물",
+      "source_ref": "2.335:start.hsp:39128",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/10/name/Angel's tear",
+      "target": "천사의 눈물",
+      "source_ref": "2.335:start.hsp:39128",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/10/desc/不思議な輝きを放つ涙",
+      "target": "신비한 빛이 나는 눈물.",
+      "source_ref": "2.335:start.hsp:39129",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/10/desc/Hard to gather.",
+      "target": "좀처럼 구하기 어렵다.",
+      "source_ref": "2.335:start.hsp:39129",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/25/name/お湯",
+      "target": "뜨거운 물",
+      "source_ref": "2.335:start.hsp:39133",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/25/name/Hot water",
+      "target": "뜨거운 물",
+      "source_ref": "2.335:start.hsp:39133",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/25/desc/なぜか冷めない",
+      "target": "어째서인지 식지 않는다.",
+      "source_ref": "2.335:start.hsp:39134",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/25/desc/Somehow it's not cooling down.",
+      "target": "어째서인지 식지 않는다.",
+      "source_ref": "2.335:start.hsp:39134",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/11/name/魔女の涙",
+      "target": "마녀의 눈물",
+      "source_ref": "2.335:start.hsp:39138",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/11/name/Witch's tear",
+      "target": "마녀의 눈물",
+      "source_ref": "2.335:start.hsp:39138",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/11/desc/決して乾かない涙",
+      "target": "결코 마르지 않는 눈물.",
+      "source_ref": "2.335:start.hsp:39139",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/11/desc/Never dries up.",
+      "target": "결코 마르지 않는 눈물.",
+      "source_ref": "2.335:start.hsp:39139",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/20/name/雪",
+      "target": "눈",
+      "source_ref": "2.335:start.hsp:39143",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/20/name/Snow",
+      "target": "눈",
+      "source_ref": "2.335:start.hsp:39143",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/20/desc/なぜか溶けない",
+      "target": "어째서인지 녹지 않는다.",
+      "source_ref": "2.335:start.hsp:39144",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/20/desc/It won't melt somehow.",
+      "target": "어째서인지 녹지 않는다.",
+      "source_ref": "2.335:start.hsp:39144",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/7/name/ミスリルの欠片",
+      "target": "미스릴 조각",
+      "source_ref": "2.335:start.hsp:39153",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/7/name/Mithril fragment",
+      "target": "미스릴 조각",
+      "source_ref": "2.335:start.hsp:39153",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/7/desc/ミスリルを含んだ鉱石の欠片",
+      "target": "미스릴이 든 광석 조각.",
+      "source_ref": "2.335:start.hsp:39154",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/7/desc/Contains mithril.",
+      "target": "미스릴이 든 광석 조각.",
+      "source_ref": "2.335:start.hsp:39154",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/9/name/鉄の欠片",
+      "target": "철 조각",
+      "source_ref": "2.335:start.hsp:39158",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/9/name/Iron fragment",
+      "target": "철 조각",
+      "source_ref": "2.335:start.hsp:39158",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/9/desc/鉄分を含んだ鉱石の欠片",
+      "target": "철분이 든 광석 조각.",
+      "source_ref": "2.335:start.hsp:39159",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/9/desc/Contains iron.",
+      "target": "철분이 든 광석 조각.",
+      "source_ref": "2.335:start.hsp:39159",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/26/name/火炎石",
+      "target": "화염석",
+      "source_ref": "2.335:start.hsp:39163",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/26/name/Fire stone",
+      "target": "화염석",
+      "source_ref": "2.335:start.hsp:39163",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/26/desc/熱を帯びた石",
+      "target": "열기를 품은 돌.",
+      "source_ref": "2.335:start.hsp:39164",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/26/desc/This is hot.",
+      "target": "열기를 품은 돌.",
+      "source_ref": "2.335:start.hsp:39164",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/27/name/冷凍石",
+      "target": "냉동석",
+      "source_ref": "2.335:start.hsp:39168",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/27/name/Ice stone",
+      "target": "냉동석",
+      "source_ref": "2.335:start.hsp:39168",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/27/desc/冷たい石",
+      "target": "차가운 돌.",
+      "source_ref": "2.335:start.hsp:39169",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/27/desc/This is cool.",
+      "target": "차가운 돌.",
+      "source_ref": "2.335:start.hsp:39169",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/28/name/帯電石",
+      "target": "대전석",
+      "source_ref": "2.335:start.hsp:39173",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/28/name/Discharging stone",
+      "target": "대전석",
+      "source_ref": "2.335:start.hsp:39173",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/28/desc/電気を帯びた石",
+      "target": "전기를 띤 돌.",
+      "source_ref": "2.335:start.hsp:39174",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/28/desc/It's electrified.",
+      "target": "전기를 띤 돌.",
+      "source_ref": "2.335:start.hsp:39174",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/52/name/上等な石",
+      "target": "질 좋은 돌",
+      "source_ref": "2.335:start.hsp:39178",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/52/name/Fine stone",
+      "target": "질 좋은 돌",
+      "source_ref": "2.335:start.hsp:39178",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/52/desc/状態の良い石",
+      "target": "상태가 좋은 돌.",
+      "source_ref": "2.335:start.hsp:39179",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/52/desc/A good quality stone.",
+      "target": "상태가 좋은 돌.",
+      "source_ref": "2.335:start.hsp:39179",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/8/name/エーテルの欠片",
+      "target": "에테르 조각",
+      "source_ref": "2.335:start.hsp:39183",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/8/name/Ether fragment",
+      "target": "에테르 조각",
+      "source_ref": "2.335:start.hsp:39183",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/8/desc/エーテルを含んだ鉱石の欠片",
+      "target": "에테르가 든 광석 조각.",
+      "source_ref": "2.335:start.hsp:39184",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/8/desc/Contains ether.",
+      "target": "에테르가 든 광석 조각.",
+      "source_ref": "2.335:start.hsp:39184",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/22/name/風切石",
+      "target": "바람가름돌",
+      "source_ref": "2.335:start.hsp:39188",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/22/name/Element fragment",
+      "target": "원소 조각",
+      "source_ref": "2.335:start.hsp:39188",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/22/desc/風を裂く不思議な石",
+      "target": "바람을 가르는 신비한 돌.",
+      "source_ref": "2.335:start.hsp:39189",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/22/desc/Elemental.",
+      "target": "원소의 힘을 띠고 있다.",
+      "source_ref": "2.335:start.hsp:39189",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/51/name/混沌の石",
+      "target": "혼돈의 돌",
+      "source_ref": "2.335:start.hsp:39193",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/51/name/Chaos stone",
+      "target": "혼돈의 돌",
+      "source_ref": "2.335:start.hsp:39193",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/51/desc/混沌の力が封じられた石",
+      "target": "혼돈의 힘이 봉인된 돌.",
+      "source_ref": "2.335:start.hsp:39194",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/51/desc/Chaotic.",
+      "target": "혼돈의 힘이 봉인된 돌.",
+      "source_ref": "2.335:start.hsp:39194",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/13/name/唸る草",
+      "target": "울부짖는 풀",
+      "source_ref": "2.335:start.hsp:39198",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/13/name/Howling weed",
+      "target": "울부짖는 풀",
+      "source_ref": "2.335:start.hsp:39198",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/13/desc/変な音を出す草",
+      "target": "기묘하게 칭얼거리는 소리를 낸다.",
+      "source_ref": "2.335:start.hsp:39199",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/13/desc/It's making a whining sound.",
+      "target": "기묘하게 칭얼거리는 소리를 낸다.",
+      "source_ref": "2.335:start.hsp:39199",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/14/name/赤い草",
+      "target": "붉은 풀",
+      "source_ref": "2.335:start.hsp:39203",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/14/name/Red weed",
+      "target": "붉은 풀",
+      "source_ref": "2.335:start.hsp:39203",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/14/desc/ほんのり赤い草",
+      "target": "옅은 붉은빛이 도는 풀.",
+      "source_ref": "2.335:start.hsp:39204",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/14/desc/A faintly reddish weed.",
+      "target": "옅은 붉은빛이 도는 풀.",
+      "source_ref": "2.335:start.hsp:39204",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/15/name/青い草",
+      "target": "푸른 풀",
+      "source_ref": "2.335:start.hsp:39208",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/15/name/Blue weed",
+      "target": "푸른 풀",
+      "source_ref": "2.335:start.hsp:39208",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/15/desc/ほんのり青い草",
+      "target": "옅은 푸른빛이 도는 풀.",
+      "source_ref": "2.335:start.hsp:39209",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/15/desc/A faintly blueish weed.",
+      "target": "옅은 푸른빛이 도는 풀.",
+      "source_ref": "2.335:start.hsp:39209",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/16/name/呪いの草",
+      "target": "저주받은 풀",
+      "source_ref": "2.335:start.hsp:39213",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/16/name/Curse weed",
+      "target": "저주받은 풀",
+      "source_ref": "2.335:start.hsp:39213",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/16/desc/呪われた草",
+      "target": "저주가 깃든 풀.",
+      "source_ref": "2.335:start.hsp:39214",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/16/desc/A cursed weed.",
+      "target": "저주가 깃든 풀.",
+      "source_ref": "2.335:start.hsp:39214",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/58/name/白い草",
+      "target": "흰 풀",
+      "source_ref": "2.335:start.hsp:39218",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/58/name/White weed",
+      "target": "흰 풀",
+      "source_ref": "2.335:start.hsp:39218",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/58/desc/白っぽい草",
+      "target": "희끄무레한 풀.",
+      "source_ref": "2.335:start.hsp:39219",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/58/desc/A faintly whitish weed.",
+      "target": "희끄무레한 풀.",
+      "source_ref": "2.335:start.hsp:39219",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/42/name/薬草",
+      "target": "약초",
+      "source_ref": "2.335:start.hsp:39223",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/42/name/Medicinal weed",
+      "target": "약초",
+      "source_ref": "2.335:start.hsp:39223",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/42/desc/少し傷を癒す",
+      "target": "상처를 조금 아물게 한다.",
+      "source_ref": "2.335:start.hsp:39224",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/42/desc/Slightly cures wounds.",
+      "target": "상처를 조금 아물게 한다.",
+      "source_ref": "2.335:start.hsp:39224",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/29/name/ヒカリソウ",
+      "target": "빛풀",
+      "source_ref": "2.335:start.hsp:39228",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/29/name/Shining weed",
+      "target": "빛풀",
+      "source_ref": "2.335:start.hsp:39228",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/29/desc/光輝く草",
+      "target": "환하게 빛나는 풀.",
+      "source_ref": "2.335:start.hsp:39229",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/29/desc/A shiny weed.",
+      "target": "환하게 빛나는 풀.",
+      "source_ref": "2.335:start.hsp:39229",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/17/name/聖なる草",
+      "target": "성스러운 풀",
+      "source_ref": "2.335:start.hsp:39233",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/17/name/Holy weed",
+      "target": "성스러운 풀",
+      "source_ref": "2.335:start.hsp:39233",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/17/desc/祝福された草",
+      "target": "축복받은 풀이다.",
+      "source_ref": "2.335:start.hsp:39234",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/17/desc/It's blessed.",
+      "target": "축복받은 풀이다.",
+      "source_ref": "2.335:start.hsp:39234",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/24/name/黒い霧",
+      "target": "검은 안개",
+      "source_ref": "2.335:start.hsp:39238",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/24/name/Black mist",
+      "target": "검은 안개",
+      "source_ref": "2.335:start.hsp:39238",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/24/desc/真っ黒な霧",
+      "target": "석탄처럼 새까만 안개.",
+      "source_ref": "2.335:start.hsp:39239",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/24/desc/It's as black as coal.",
+      "target": "석탄처럼 새까만 안개.",
+      "source_ref": "2.335:start.hsp:39239",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/34/name/世界樹の樹液",
+      "target": "세계수의 수액",
+      "source_ref": "2.335:start.hsp:39243",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/34/name/Sap of Yaggdrasil",
+      "target": "세계수의 수액",
+      "source_ref": "2.335:start.hsp:39243",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/34/desc/どんな傷も癒す樹液",
+      "target": "어떤 상처든 아물게 하는 수액.",
+      "source_ref": "2.335:start.hsp:39244",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/34/desc/It's pretty rare.",
+      "target": "좀처럼 구할 수 없는 수액이다.",
+      "source_ref": "2.335:start.hsp:39244",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/4/name/鳥の羽",
+      "target": "새의 깃털",
+      "source_ref": "2.335:start.hsp:39248",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/4/name/Bird's feather",
+      "target": "새의 깃털",
+      "source_ref": "2.335:start.hsp:39248",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/4/desc/普通の鳥の羽",
+      "target": "흔한 새의 깃털 한 장.",
+      "source_ref": "2.335:start.hsp:39249",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/4/desc/A piece of Feather.",
+      "target": "흔한 새의 깃털 한 장.",
+      "source_ref": "2.335:start.hsp:39249",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/18/name/ウサギの尻尾",
+      "target": "토끼 꼬리",
+      "source_ref": "2.335:start.hsp:39253",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/18/name/Rabbit's tail",
+      "target": "토끼 꼬리",
+      "source_ref": "2.335:start.hsp:39253",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/18/desc/幸運を呼ぶ尻尾",
+      "target": "행운을 부르는 꼬리.",
+      "source_ref": "2.335:start.hsp:39254",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/18/desc/Scut.",
+      "target": "짧고 뭉툭한 꼬리.",
+      "source_ref": "2.335:start.hsp:39254",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/31/name/ヒトの遺伝子",
+      "target": "인간의 유전자",
+      "source_ref": "2.335:start.hsp:39258",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/31/name/Human gene",
+      "target": "인간의 유전자",
+      "source_ref": "2.335:start.hsp:39258",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/31/desc/普通の遺伝子",
+      "target": "평범한 유전자.",
+      "source_ref": "2.335:start.hsp:39259",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/31/desc/It's common.",
+      "target": "평범한 유전자.",
+      "source_ref": "2.335:start.hsp:39259",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/39/name/クマの尻尾",
+      "target": "곰 꼬리",
+      "source_ref": "2.335:start.hsp:39263",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/39/name/Bear's tail",
+      "target": "곰 꼬리",
+      "source_ref": "2.335:start.hsp:39263",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/39/desc/とても短い",
+      "target": "아주 짧다.",
+      "source_ref": "2.335:start.hsp:39264",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/39/desc/Very short.",
+      "target": "아주 짧다.",
+      "source_ref": "2.335:start.hsp:39264",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/19/name/トロールの遺伝子",
+      "target": "트롤의 유전자",
+      "source_ref": "2.335:start.hsp:39268",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/19/name/Troll gene",
+      "target": "트롤의 유전자",
+      "source_ref": "2.335:start.hsp:39268",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/19/desc/再生する遺伝子",
+      "target": "스스로 재생하는 유전자.",
+      "source_ref": "2.335:start.hsp:39269",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/19/desc/It's regenerating.",
+      "target": "스스로 재생하는 유전자.",
+      "source_ref": "2.335:start.hsp:39269",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/32/name/魔女の瞳",
+      "target": "마녀의 눈동자",
+      "source_ref": "2.335:start.hsp:39273",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/32/name/Witch's eye",
+      "target": "마녀의 눈동자",
+      "source_ref": "2.335:start.hsp:39273",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/32/desc/まだ動いている",
+      "target": "아직도 눈동자가 움직인다.",
+      "source_ref": "2.335:start.hsp:39274",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/32/desc/These eyes are still moving.",
+      "target": "아직도 눈동자가 움직인다.",
+      "source_ref": "2.335:start.hsp:39274",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/21/name/フェアリーダスト",
+      "target": "요정 가루",
+      "source_ref": "2.335:start.hsp:39278",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/21/name/Fairy dust",
+      "target": "요정 가루",
+      "source_ref": "2.335:start.hsp:39278",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/21/desc/妖精の燐粉",
+      "target": "요정 날개의 비늘가루.",
+      "source_ref": "2.335:start.hsp:39279",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather/21/desc/Fairies leave it.",
+      "target": "요정들이 남긴 가루다.",
+      "source_ref": "2.335:start.hsp:39279",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/leftover {}",
+      "target": "남은 {}",
+      "source_ref": "2.335:start.hsp:13703",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}の残骸",
+      "target": "{} 잔해",
+      "source_ref": "2.335:start.hsp:13703",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/bony {}",
+      "target": "뼈만 남은 {}",
+      "source_ref": "2.335:start.hsp:13718",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/骨だけ残った{}",
+      "target": "뼈만 남은 {}",
+      "source_ref": "2.335:start.hsp:13718",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/fried {}",
+      "target": "{} 튀김",
+      "source_ref": "2.335:start.hsp:13733",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}のフライ",
+      "target": "{} 튀김",
+      "source_ref": "2.335:start.hsp:13733",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/stewed {}",
+      "target": "{} 조림",
+      "source_ref": "2.335:start.hsp:13748",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}の煮込み",
+      "target": "{} 조림",
+      "source_ref": "2.335:start.hsp:13748",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{} soup",
+      "target": "{} 수프",
+      "source_ref": "2.335:start.hsp:13763",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}スープ",
+      "target": "{} 수프",
+      "source_ref": "2.335:start.hsp:13763",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{} tenpura",
+      "target": "{} 덴푸라",
+      "source_ref": "2.335:start.hsp:13778",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}の天ぷら",
+      "target": "{} 덴푸라",
+      "source_ref": "2.335:start.hsp:13778",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{} sausage",
+      "target": "{} 소시지",
+      "source_ref": "2.335:start.hsp:13793",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}ソーセージ",
+      "target": "{} 소시지",
+      "source_ref": "2.335:start.hsp:13793",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{} sashimi",
+      "target": "{} 회",
+      "source_ref": "2.335:start.hsp:13808",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}の刺身",
+      "target": "{} 회",
+      "source_ref": "2.335:start.hsp:13808",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{} sushi",
+      "target": "{} 초밥",
+      "source_ref": "2.335:start.hsp:13823",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/{}の活け作り",
+      "target": "{} 활어회",
+      "source_ref": "2.335:start.hsp:13823",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/ rock fish",
+      "target": "록피시",
+      "source_ref": "2.335:start.hsp:29574",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/adult magazine",
+      "target": "성인 잡지",
+      "source_ref": "2.335:start.hsp:29739",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/alfonsino",
+      "target": "금눈돔",
+      "source_ref": "2.335:start.hsp:29487",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/ancient device",
+      "target": "고대의 단말기",
+      "source_ref": "2.335:start.hsp:29775",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/ancient fish",
+      "target": "고대어",
+      "source_ref": "2.335:start.hsp:29523",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/ashore from the north",
+      "target": "북쪽에서 떠내려온 물건",
+      "source_ref": "2.335:start.hsp:29544",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/barbus",
+      "target": "누치",
+      "source_ref": "2.335:start.hsp:29616",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/big tuna fish",
+      "target": "먹보참치",
+      "source_ref": "2.335:start.hsp:29553",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/billion year fish",
+      "target": "억년어",
+      "source_ref": "2.335:start.hsp:29697",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/biting tuna fish",
+      "target": "식인참치",
+      "source_ref": "2.335:start.hsp:29763",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/bitterling",
+      "target": "제니납줄개",
+      "source_ref": "2.335:start.hsp:29466",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/black arowana",
+      "target": "블랙아로와나",
+      "source_ref": "2.335:start.hsp:29709",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/black bass",
+      "target": "검정우럭",
+      "source_ref": "2.335:start.hsp:29541",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/black mackerel",
+      "target": "망치고등어",
+      "source_ref": "2.335:start.hsp:29778",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/black porgy",
+      "target": "검은메다이",
+      "source_ref": "2.335:start.hsp:29643",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/black sun bass",
+      "target": "검은선배스",
+      "source_ref": "2.335:start.hsp:29751",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/black trevally",
+      "target": "검은전갱이",
+      "source_ref": "2.335:start.hsp:29748",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/blackfin sea bass",
+      "target": "넙치농어",
+      "source_ref": "2.335:start.hsp:29673",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/bluefin tuna",
+      "target": "참다랑어",
+      "source_ref": "2.335:start.hsp:29712",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/bonito",
+      "target": "가다랑어",
+      "source_ref": "2.335:start.hsp:29532",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/boring tuna fish",
+      "target": "제 동족을 먹는 참치",
+      "source_ref": "2.335:start.hsp:29781",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/broken cell phone",
+      "target": "고장 난 휴대전화",
+      "source_ref": "2.335:start.hsp:29565",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/broken machine",
+      "target": "고장 난 기계",
+      "source_ref": "2.335:start.hsp:29493",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/broken ring",
+      "target": "깨진 반지",
+      "source_ref": "2.335:start.hsp:29667",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/broken umbrella",
+      "target": "찢어진 우산",
+      "source_ref": "2.335:start.hsp:29526",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/buergeri",
+      "target": "금붕잉어",
+      "source_ref": "2.335:start.hsp:29580",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/burnt container",
+      "target": "그을린 컨테이너",
+      "source_ref": "2.335:start.hsp:29790",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/carp",
+      "target": "잉어",
+      "source_ref": "2.335:start.hsp:29478",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/centrarchidae",
+      "target": "선피시",
+      "source_ref": "2.335:start.hsp:29733",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/charcoal tilefish",
+      "target": "먹점옥돔",
+      "source_ref": "2.335:start.hsp:29679",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/chipped bottle",
+      "target": "이 빠진 병",
+      "source_ref": "2.335:start.hsp:29682",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/collapsed can",
+      "target": "찌그러진 깡통",
+      "source_ref": "2.335:start.hsp:29628",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/corrosed can",
+      "target": "삭은 깡통",
+      "source_ref": "2.335:start.hsp:29646",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/cracked bottle",
+      "target": "금 간 병",
+      "source_ref": "2.335:start.hsp:29664",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/damaged box",
+      "target": "상한 나무 상자",
+      "source_ref": "2.335:start.hsp:29772",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/dark sea urchin",
+      "target": "검은수염성게",
+      "source_ref": "2.335:start.hsp:29676",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/dirty long boots",
+      "target": "꼬질꼬질한 장화",
+      "source_ref": "2.335:start.hsp:29475",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/dirty ring",
+      "target": "때 묻은 반지",
+      "source_ref": "2.335:start.hsp:29511",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/dirty wig",
+      "target": "때 묻은 가발",
+      "source_ref": "2.335:start.hsp:29703",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/eartadpole",
+      "target": "금구슬올챙이",
+      "source_ref": "2.335:start.hsp:29589",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/eel",
+      "target": "뱀장어",
+      "source_ref": "2.335:start.hsp:29481",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/electric eel",
+      "target": "전기뱀장어",
+      "source_ref": "2.335:start.hsp:29619",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/empty bottle",
+      "target": "빈 병",
+      "source_ref": "2.335:start.hsp:29508",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/empty box",
+      "target": "빈 상자",
+      "source_ref": "2.335:start.hsp:29562",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/empty can",
+      "target": "빈 깡통",
+      "source_ref": "2.335:start.hsp:29490",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/entangled ball",
+      "target": "엉킨 실뭉치",
+      "source_ref": "2.335:start.hsp:29754",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/erotic doujin",
+      "target": "성인 동인지",
+      "source_ref": "2.335:start.hsp:29757",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/feature phone",
+      "target": "피처폰",
+      "source_ref": "2.335:start.hsp:29793",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/fin whale",
+      "target": "참고래",
+      "source_ref": "2.335:start.hsp:29787",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/fossil fish",
+      "target": "화석어",
+      "source_ref": "2.335:start.hsp:29715",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/fourspine sculpin",
+      "target": "은어잡이둑중개",
+      "source_ref": "2.335:start.hsp:29670",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/glosso goby",
+      "target": "검은반점망둑",
+      "source_ref": "2.335:start.hsp:29640",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/goby",
+      "target": "망둑어",
+      "source_ref": "2.335:start.hsp:29484",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/goldfish",
+      "target": "금붕어",
+      "source_ref": "2.335:start.hsp:29460",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/grandoculis",
+      "target": "니고로붕어",
+      "source_ref": "2.335:start.hsp:29598",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/gulf saratoga",
+      "target": "바라문디",
+      "source_ref": "2.335:start.hsp:29691",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/hairpiece",
+      "target": "가발",
+      "source_ref": "2.335:start.hsp:29529",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/hide fish",
+      "target": "숨은맛전갱이",
+      "source_ref": "2.335:start.hsp:29706",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/hollow fish",
+      "target": "빈껍데기물고기",
+      "source_ref": "2.335:start.hsp:29571",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/junk parts",
+      "target": "폐부품",
+      "source_ref": "2.335:start.hsp:29631",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/kiralfonsino",
+      "target": "반짝금눈돔",
+      "source_ref": "2.335:start.hsp:29625",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/knickerbockers",
+      "target": "반바지",
+      "source_ref": "2.335:start.hsp:29592",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/koi",
+      "target": "참잉어",
+      "source_ref": "2.335:start.hsp:29634",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/leggings",
+      "target": "레깅스",
+      "source_ref": "2.335:start.hsp:29610",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/lined mackerel",
+      "target": "줄무늬고등어",
+      "source_ref": "2.335:start.hsp:29760",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/longipinnis",
+      "target": "비와납줄개",
+      "source_ref": "2.335:start.hsp:29586",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/mackerel",
+      "target": "고등어",
+      "source_ref": "2.335:start.hsp:29550",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/mana bonito",
+      "target": "병어",
+      "source_ref": "2.335:start.hsp:29742",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/marbled eel",
+      "target": "무태장어",
+      "source_ref": "2.335:start.hsp:29637",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/moldy boots",
+      "target": "곰팡내 나는 부츠",
+      "source_ref": "2.335:start.hsp:29613",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/moldy mop",
+      "target": "곰팡이 핀 대걸레",
+      "source_ref": "2.335:start.hsp:29721",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/moonfish",
+      "target": "아로와나",
+      "source_ref": "2.335:start.hsp:29517",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/moopy",
+      "target": "무피",
+      "source_ref": "2.335:start.hsp:29568",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/nozawae sculpin",
+      "target": "하나둑중개",
+      "source_ref": "2.335:start.hsp:29652",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/pond turtle",
+      "target": "일본돌거북",
+      "source_ref": "2.335:start.hsp:29583",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/pornographic book",
+      "target": "성인 서적",
+      "source_ref": "2.335:start.hsp:29547",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/red tilefish",
+      "target": "옥두어",
+      "source_ref": "2.335:start.hsp:29505",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/remora",
+      "target": "빨판상어",
+      "source_ref": "2.335:start.hsp:29556",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/rhombeus",
+      "target": "큰납지리",
+      "source_ref": "2.335:start.hsp:29604",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/rusted machine",
+      "target": "녹슨 기계",
+      "source_ref": "2.335:start.hsp:29649",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/sculpin",
+      "target": "둑중개",
+      "source_ref": "2.335:start.hsp:29496",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/sea bass",
+      "target": "농어",
+      "source_ref": "2.335:start.hsp:29499",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/sea urchin",
+      "target": "성게",
+      "source_ref": "2.335:start.hsp:29502",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/shark sucker",
+      "target": "긴빨판상어",
+      "source_ref": "2.335:start.hsp:29766",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/shishamo",
+      "target": "열빙어",
+      "source_ref": "2.335:start.hsp:29745",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/sicy goby",
+      "target": "열동갈문절",
+      "source_ref": "2.335:start.hsp:29622",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/soft turtle",
+      "target": "자라",
+      "source_ref": "2.335:start.hsp:29601",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/spearfish remora",
+      "target": "검은빨판상어",
+      "source_ref": "2.335:start.hsp:29784",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/spherical buoy",
+      "target": "둥근 부표",
+      "source_ref": "2.335:start.hsp:29736",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/spiritadpole",
+      "target": "영혼올챙이",
+      "source_ref": "2.335:start.hsp:29607",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/spotted sea bass",
+      "target": "점농어",
+      "source_ref": "2.335:start.hsp:29655",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/spotted trevally",
+      "target": "황금전갱이",
+      "source_ref": "2.335:start.hsp:29730",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/striped bonito",
+      "target": "줄삼치",
+      "source_ref": "2.335:start.hsp:29724",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/striped sea urchin",
+      "target": "줄무늬성게",
+      "source_ref": "2.335:start.hsp:29658",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/sweetfish",
+      "target": "은어",
+      "source_ref": "2.335:start.hsp:29535",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/swimming trunks",
+      "target": "수영 팬츠",
+      "source_ref": "2.335:start.hsp:29472",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/sword fish",
+      "target": "칼날전갱이",
+      "source_ref": "2.335:start.hsp:29514",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/tadpole",
+      "target": "올챙이",
+      "source_ref": "2.335:start.hsp:29469",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/tattered boots",
+      "target": "구멍 난 부츠",
+      "source_ref": "2.335:start.hsp:29595",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/toy ring",
+      "target": "장난감 반지",
+      "source_ref": "2.335:start.hsp:29685",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/tropical whale",
+      "target": "브라이드고래",
+      "source_ref": "2.335:start.hsp:29769",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/tuna fish",
+      "target": "바늘참치",
+      "source_ref": "2.335:start.hsp:29520",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/turtle",
+      "target": "거북",
+      "source_ref": "2.335:start.hsp:29463",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/umbrella wreckage",
+      "target": "부서진 우산",
+      "source_ref": "2.335:start.hsp:29700",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/wakasagi",
+      "target": "빙어",
+      "source_ref": "2.335:start.hsp:29727",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/whale",
+      "target": "고래",
+      "source_ref": "2.335:start.hsp:29559",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/write fish",
+      "target": "글쓰기전갱이",
+      "source_ref": "2.335:start.hsp:29688",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/yellow jack",
+      "target": "흑점줄전갱이",
+      "source_ref": "2.335:start.hsp:29538",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/yellow tilefish",
+      "target": "황옥돔",
+      "source_ref": "2.335:start.hsp:29661",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/yellowfin tuna",
+      "target": "황다랑어",
+      "source_ref": "2.335:start.hsp:29694",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/fish/yruas",
+      "target": "만사",
+      "source_ref": "2.335:start.hsp:29577",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/object/zombie umbrella",
+      "target": "좀비 우산",
+      "source_ref": "2.335:start.hsp:29718",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Garbage",
+      "target": "잡동사니",
+      "source_ref": "2.335:start.hsp:38983",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Casino chip",
+      "target": "카지노 칩",
+      "source_ref": "2.335:start.hsp:38988",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/100 Yen coin",
+      "target": "100엔 동전",
+      "source_ref": "2.335:start.hsp:38993",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/500 Yen coin",
+      "target": "500엔 동전",
+      "source_ref": "2.335:start.hsp:38998",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Paper",
+      "target": "종이",
+      "source_ref": "2.335:start.hsp:39003",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Charcoal",
+      "target": "숯",
+      "source_ref": "2.335:start.hsp:39008",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Driftwood",
+      "target": "유목",
+      "source_ref": "2.335:start.hsp:39013",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Pebble",
+      "target": "조약돌",
+      "source_ref": "2.335:start.hsp:39018",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Stick",
+      "target": "지팡이",
+      "source_ref": "2.335:start.hsp:39023",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Cloth",
+      "target": "천 조각",
+      "source_ref": "2.335:start.hsp:39028",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/ Durable cloth",
+      "target": "질긴 천",
+      "source_ref": "2.335:start.hsp:39033",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Yelling madman",
+      "target": "고함치는 광인",
+      "source_ref": "2.335:start.hsp:39038",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Magic mass",
+      "target": "마력 덩어리",
+      "source_ref": "2.335:start.hsp:39043",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Electricity",
+      "target": "전기",
+      "source_ref": "2.335:start.hsp:39048",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Generator",
+      "target": "생성 장치",
+      "source_ref": "2.335:start.hsp:39053",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Magic fragment",
+      "target": "마력의 파편",
+      "source_ref": "2.335:start.hsp:39058",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Log",
+      "target": "통나무",
+      "source_ref": "2.335:start.hsp:39063",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Branch",
+      "target": "나뭇가지",
+      "source_ref": "2.335:start.hsp:39068",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Leather",
+      "target": "가죽",
+      "source_ref": "2.335:start.hsp:39073",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Vein",
+      "target": "덩굴",
+      "source_ref": "2.335:start.hsp:39078",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Thick wood",
+      "target": "튼튼한 나뭇가지",
+      "source_ref": "2.335:start.hsp:39083",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Curved stick",
+      "target": "휜 지팡이",
+      "source_ref": "2.335:start.hsp:39088",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Adhesive",
+      "target": "접착제",
+      "source_ref": "2.335:start.hsp:39093",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Memory fragment",
+      "target": "기억의 조각",
+      "source_ref": "2.335:start.hsp:39098",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Good paper",
+      "target": "고급 종이",
+      "source_ref": "2.335:start.hsp:39103",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Magic paper",
+      "target": "마법 종이",
+      "source_ref": "2.335:start.hsp:39108",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Magic ink",
+      "target": "마법 잉크",
+      "source_ref": "2.335:start.hsp:39113",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Seawater",
+      "target": "바닷물",
+      "source_ref": "2.335:start.hsp:39118",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Waterdrop",
+      "target": "물방울",
+      "source_ref": "2.335:start.hsp:39123",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Angel's tear",
+      "target": "천사의 눈물",
+      "source_ref": "2.335:start.hsp:39128",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Hot water",
+      "target": "뜨거운 물",
+      "source_ref": "2.335:start.hsp:39133",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Witch's tear",
+      "target": "마녀의 눈물",
+      "source_ref": "2.335:start.hsp:39138",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Snow",
+      "target": "눈",
+      "source_ref": "2.335:start.hsp:39143",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Mithril fragment",
+      "target": "미스릴 조각",
+      "source_ref": "2.335:start.hsp:39153",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Iron fragment",
+      "target": "철 조각",
+      "source_ref": "2.335:start.hsp:39158",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Fire stone",
+      "target": "화염석",
+      "source_ref": "2.335:start.hsp:39163",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Ice stone",
+      "target": "냉동석",
+      "source_ref": "2.335:start.hsp:39168",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Discharging stone",
+      "target": "대전석",
+      "source_ref": "2.335:start.hsp:39173",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Fine stone",
+      "target": "질 좋은 돌",
+      "source_ref": "2.335:start.hsp:39178",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Ether fragment",
+      "target": "에테르 조각",
+      "source_ref": "2.335:start.hsp:39183",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Element fragment",
+      "target": "원소 조각",
+      "source_ref": "2.335:start.hsp:39188",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Chaos stone",
+      "target": "혼돈의 돌",
+      "source_ref": "2.335:start.hsp:39193",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Howling weed",
+      "target": "울부짖는 풀",
+      "source_ref": "2.335:start.hsp:39198",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Red weed",
+      "target": "붉은 풀",
+      "source_ref": "2.335:start.hsp:39203",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Blue weed",
+      "target": "푸른 풀",
+      "source_ref": "2.335:start.hsp:39208",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Curse weed",
+      "target": "저주받은 풀",
+      "source_ref": "2.335:start.hsp:39213",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/White weed",
+      "target": "흰 풀",
+      "source_ref": "2.335:start.hsp:39218",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Medicinal weed",
+      "target": "약초",
+      "source_ref": "2.335:start.hsp:39223",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Shining weed",
+      "target": "빛풀",
+      "source_ref": "2.335:start.hsp:39228",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Holy weed",
+      "target": "성스러운 풀",
+      "source_ref": "2.335:start.hsp:39233",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Black mist",
+      "target": "검은 안개",
+      "source_ref": "2.335:start.hsp:39238",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Sap of Yaggdrasil",
+      "target": "세계수의 수액",
+      "source_ref": "2.335:start.hsp:39243",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Bird's feather",
+      "target": "새의 깃털",
+      "source_ref": "2.335:start.hsp:39248",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Rabbit's tail",
+      "target": "토끼 꼬리",
+      "source_ref": "2.335:start.hsp:39253",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Human gene",
+      "target": "인간의 유전자",
+      "source_ref": "2.335:start.hsp:39258",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Bear's tail",
+      "target": "곰 꼬리",
+      "source_ref": "2.335:start.hsp:39263",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Troll gene",
+      "target": "트롤의 유전자",
+      "source_ref": "2.335:start.hsp:39268",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Witch's eye",
+      "target": "마녀의 눈동자",
+      "source_ref": "2.335:start.hsp:39273",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/name/Fairy dust",
+      "target": "요정 가루",
+      "source_ref": "2.335:start.hsp:39278",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/land",
+      "target": "낚시로 건졌다! 〈{item}〉",
+      "source_ref": "2.335:start.hsp:316881",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-log/size",
+      "target": "{size}센티미터 {item}",
+      "source_ref": "2.335:start.hsp:31109",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@gather-log/get",
+      "target": "재료 획득 · {item} ×{size}",
+      "source_ref": "2.335:start.hsp:273845",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start fishing.",
+      "target": "낚시를 시작했다.",
+      "source_ref": "2.335:start.hsp:316892",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You also use the super lure.",
+      "target": "특제 루어도 함께 사용했다.",
+      "source_ref": "2.335:start.hsp:316919",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You stop fishing...",
+      "target": "낚시를 마쳤다…",
+      "source_ref": "2.335:start.hsp:316967",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/A waste of a time...",
+      "target": "아무것도 낚지 못했다…",
+      "source_ref": "2.335:start.hsp:317076",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to search the spot.",
+      "target": "채집을 시작했다.",
+      "source_ref": "2.335:start.hsp:317092",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to dig the spot.",
+      "target": "채집 지점을 파헤치기 시작했다.",
+      "source_ref": "2.335:start.hsp:317115",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to dig the ground.",
+      "target": "땅을 파기 시작했다.",
+      "source_ref": "2.335:start.hsp:317127",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You finish digging.",
+      "target": "땅을 다 팠다.",
+      "source_ref": "2.335:start.hsp:317155",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/*click* ...something is there!",
+      "target": "딸깍… 뭔가 있다!",
+      "source_ref": "2.335:start.hsp:317173",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to dig the mining spot.",
+      "target": "광석을 캐기 시작했다.",
+      "source_ref": "2.335:start.hsp:317235",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/You start to dig the wall.",
+      "target": "벽을 파기 시작했다.",
+      "source_ref": "2.335:start.hsp:317247",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log/These walls look pretty hard!",
+      "target": "아주 단단한 벽처럼 보인다!",
+      "source_ref": "2.335:start.hsp:317261",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@catch-dish/rank",
+      "target": "등급",
+      "source_ref": "2.335:start.hsp:31606",
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@sheet/所持マテリアル",
+      "target": "보유 재료",
+      "source_ref": "2.335:start.hsp:274270",
+      "review_status": "reviewed"
+    }
+  ]
+}

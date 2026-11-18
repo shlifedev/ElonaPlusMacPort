@@ -110,7 +110,7 @@ public:
     virtual void begin_english_log(std::string_view, int, int, int) {}
     virtual void set_log_word_draw(bool) {}
     virtual void set_hud_draw(bool) {}
-    virtual int alias_label_width(const FontSpec&) { return 0; }
+    virtual int selection_label_width(const FontSpec&) { return 0; }
     virtual void set_menu_draw(int, std::string_view) {}
     virtual bool draw_input_caption(Dib&, int, int) { return false; }
     virtual bool draw_book(Dib&, int, std::string_view, int, int, int) { return false; }

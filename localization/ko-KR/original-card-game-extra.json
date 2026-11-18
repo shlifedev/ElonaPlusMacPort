@@ -1,0 +1,5588 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 Japanese card database, card reference screen and deck prompts"
+  },
+  "entries": [
+    {
+      "source": "頑丈で燃費が良いだけでなく、高い生命力と速度を持つ機械の馬。世話の仕方が違うため、馬屋では扱っていない。",
+      "target": "튼튼하고 연비도 좋은 기계 말. 생명력과 속도까지 뛰어나다. 보통 말과 돌보는 법이 달라 마구간에서는 취급하지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:270210",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/346"
+      ],
+      "card_id": 346
+    },
+    {
+      "source": "@card/header/346",
+      "target": "커브  번호 346  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:270213",
+        "2.335:start.hsp:270216",
+        "2.335:start.hsp:270218",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 346
+    },
+    {
+      "source": "冒険とロマンを求めてイルヴァの大海原をゆく者たち。だが、ロマンだけでは食っていけないため定期的に商船を襲う。",
+      "target": "모험과 낭만을 좇아 이르바의 바다를 누빈다. 낭만만으로는 먹고살 수 없어 정기적으로 상선을 턴다.",
+      "source_ref": [
+        "2.335:start.hsp:265387",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/442"
+      ],
+      "card_id": 442
+    },
+    {
+      "source": "@card/header/442",
+      "target": "해적  번호 442  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:265390",
+        "2.335:start.hsp:265393",
+        "2.335:start.hsp:265395",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 442
+    },
+    {
+      "source": "ガイアス・ヴィスと呼ばれる世界からやってきた。昔は頭の固い男だったがカルラの影響か最近ではだいぶ丸くなった。",
+      "target": "가이아스 비스라는 세계에서 왔다. 한때 고지식했지만 카를라의 영향인지 요즘은 성격이 꽤 누그러졌다.",
+      "source_ref": [
+        "2.335:start.hsp:265452",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/437"
+      ],
+      "card_id": 437
+    },
+    {
+      "source": "@card/header/437",
+      "target": "잊힌 세계의 미로스  번호 437  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:265455",
+        "2.335:start.hsp:265458",
+        "2.335:start.hsp:265460",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 437
+    },
+    {
+      "source": "怪しげな儀式で赤色の下級モンスターやゴーレムを召喚して炎を撒き散らす。年に一度、灼熱の塔に巡礼に行くらしい。",
+      "target": "수상한 의식으로 붉은 하급 괴물과 골렘을 불러내 불을 흩뿌린다. 해마다 한 번 작열의 탑을 순례한다고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:269443",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/149"
+      ],
+      "card_id": 149
+    },
+    {
+      "source": "@card/header/149",
+      "target": "불의 신도  번호 149  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269446",
+        "2.335:start.hsp:269449",
+        "2.335:start.hsp:269451",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 149
+    },
+    {
+      "source": "大戦時の罪を赦され、本来の力を取り戻したテスカトリポカ。煙の軍勢を率い、夜に紛れて現れては消え、敵を翻弄する。",
+      "target": "대전 때 지은 죄를 사면받고 본래 힘을 되찾았다. 연기의 군세를 이끌고 밤에 나타났다 사라지며 적을 농락한다.",
+      "source_ref": [
+        "2.335:start.hsp:257886",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1018",
+        "Tezcatlipoca has been forgiven for his sins during the Great War and regained his original power. He leads an army of smoke appearing and disappearing under the cover of night and plays with the enemy."
+      ],
+      "card_id": 1018
+    },
+    {
+      "source": "@card/header/1018",
+      "target": "검은 군신 테스카틀리포카  번호 1018  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257889",
+        "2.335:start.hsp:257892",
+        "2.335:start.hsp:257894",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1018
+    },
+    {
+      "source": "美しい氷の花を咲かせたエント。冷気に包まれた幹や枝は水晶のように輝いており、観賞用として貴族の間で人気が高い。",
+      "target": "아름다운 얼음꽃이 핀 엔트. 냉기에 싸인 줄기와 가지가 수정처럼 빛나 귀족들 사이에서 관상용으로 인기가 높다.",
+      "source_ref": [
+        "2.335:start.hsp:268182",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/46"
+      ],
+      "card_id": 46
+    },
+    {
+      "source": "@card/header/46",
+      "target": "빙결수  번호 46  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:268185",
+        "2.335:start.hsp:268188",
+        "2.335:start.hsp:268190",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 46
+    },
+    {
+      "source": "秘伝の技によって高位の精霊を宿らせた折り紙。式折神の上位存在。周囲の式折神を一瞬で取り込み、強大な力を発揮する。",
+      "target": "비전으로 고위 정령을 깃들인 종이접기. 다른 종이 식신보다 격이 높아 주위의 식신을 순식간에 흡수하고 막강한 힘을 낸다.",
+      "source_ref": [
+        "2.335:start.hsp:256508",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1124"
+      ],
+      "card_id": 1124
+    },
+    {
+      "source": "@card/header/1124",
+      "target": "비전의 종이신 가미카쿠시  번호 1124  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:256511",
+        "2.335:start.hsp:256514",
+        "2.335:start.hsp:256516",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1124
+    },
+    {
+      "source": "嵐と雷を操る神の欠片から生まれた大蛇。女好きで、興奮すると嵐を巻き起こし自分の身体を稲妻へと変化させて飛び回る。",
+      "target": "폭풍과 번개를 다스리는 신의 파편에서 태어난 큰 뱀. 여색을 밝히며 흥분하면 폭풍을 일으키고 번개가 되어 날아다닌다.",
+      "source_ref": [
+        "2.335:start.hsp:263853",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/560",
+        "A great serpent born from a piece of the god who controls storms and thunder. It is a womanizer and when it is aroused it storms around transforming its own body into a lightning bolt."
+      ],
+      "card_id": 560
+    },
+    {
+      "source": "@card/header/560",
+      "target": "수가르  번호 560  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:263856",
+        "2.335:start.hsp:263859",
+        "2.335:start.hsp:263861",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 560
+    },
+    {
+      "source": "まだらに彩られた体は毒々しく、警戒心を煽るが、その見た目に反して毒は持たない。糸で獲物を絡め取り餌にしてしまう。",
+      "target": "얼룩덜룩한 빛깔이 독을 경고하는 듯하지만 실은 독이 없다. 거미줄로 먹잇감을 휘감아 잡아먹는다.",
+      "source_ref": [
+        "2.335:start.hsp:269261",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/127"
+      ],
+      "card_id": 127
+    },
+    {
+      "source": "@card/header/127",
+      "target": "얼룩거미  번호 127  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269264",
+        "2.335:start.hsp:269267",
+        "2.335:start.hsp:269269",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 127
+    },
+    {
+      "source": "シュブ=ニグラスの夫にして風を司る異界の神性。イルヴァ土着の風神の妨害により完全な降臨が出来ず手をこまねいている。",
+      "target": "슈브 니구라스의 남편이자 바람을 다스리는 이계의 신. 이르바 토착 바람신의 방해로 온전히 강림하지 못해 애를 태우고 있다.",
+      "source_ref": [
+        "2.335:start.hsp:266076",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/389"
+      ],
+      "card_id": 389
+    },
+    {
+      "source": "@card/header/389",
+      "target": "황색의 왕  번호 389  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:266079",
+        "2.335:start.hsp:266082",
+        "2.335:start.hsp:266084",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 389
+    },
+    {
+      "source": "混沌の意志の介入により力が増幅されたオルフェ。更なる力と新たな混沌の剣を手にし、下級眷属を使役する能力にも目覚めた。",
+      "target": "혼돈의 의지가 개입해 힘이 커진 오르페. 새로운 혼돈의 검을 손에 넣고 하급 권속까지 부릴 수 있게 됐다.",
+      "source_ref": [
+        "2.335:start.hsp:266193",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/380"
+      ],
+      "card_id": 380
+    },
+    {
+      "source": "@card/header/380",
+      "target": "혼돈의 종자 오르페  번호 380  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:266196",
+        "2.335:start.hsp:266199",
+        "2.335:start.hsp:266201",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 380
+    },
+    {
+      "source": "人懐っこい犬科の血の繋がらない義理の姉。弟（妹）に仇なす者には精一杯威嚇するものの、あまり迫力がない。メイド服は趣味。",
+      "target": "사람을 잘 따르는 개과의 의붓누이. 동생을 위협하는 자에게 힘껏 으르렁대지만 그다지 무섭지는 않다. 하녀복은 취향이다.",
+      "source_ref": [
+        "2.335:start.hsp:266414",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/363"
+      ],
+      "card_id": 363
+    },
+    {
+      "source": "@card/header/363",
+      "target": "개의 의붓누이  번호 363  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:266417",
+        "2.335:start.hsp:266420",
+        "2.335:start.hsp:266422",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 363
+    },
+    {
+      "source": "混沌の力を取り込んだ菌糸類で、胞子で敵を狙い撃ちじわじわと弱らせる。その危険な胞子はさまざまな苦しみを与える力を持つ。",
+      "target": "혼돈의 힘을 흡수한 균류. 포자로 적을 정확히 노려 서서히 약하게 만든다. 포자에 당하면 갖가지 고통에 시달린다.",
+      "source_ref": [
+        "2.335:start.hsp:267740",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/284"
+      ],
+      "card_id": 284
+    },
+    {
+      "source": "@card/header/284",
+      "target": "혼돈 버섯  번호 284  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:267743",
+        "2.335:start.hsp:267746",
+        "2.335:start.hsp:267748",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 284
+    },
+    {
+      "source": "生前は魔術士だった者が死してなお現世にしがみつこうとした成れの果て。理性の残っていない者は人に害をもたらす仇敵となる。",
+      "target": "생전에 마법사였던 이가 죽어서도 현세에 매달린 끝에 이른 모습. 이성마저 잃은 리치는 인간에게 해를 끼치는 숙적이 된다.",
+      "source_ref": [
+        "2.335:start.hsp:268195",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/47"
+      ],
+      "card_id": 47
+    },
+    {
+      "source": "@card/header/47",
+      "target": "리치  번호 47  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:268198",
+        "2.335:start.hsp:268201",
+        "2.335:start.hsp:268203",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 47
+    },
+    {
+      "source": "ジューアの一般的な兵士。元が盗賊や悪人の集まりから始まった国であるため、協調性が無く、兵士としての統率された動きは苦手。",
+      "target": "주아의 평범한 병사. 도적과 악당이 모여 세운 나라 출신이라 협동심이 모자라고 대오를 맞춰 움직이는 데 서툴다.",
+      "source_ref": [
+        "2.335:start.hsp:269716",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/233"
+      ],
+      "card_id": 233
+    },
+    {
+      "source": "@card/header/233",
+      "target": "주아 보병  번호 233  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269719",
+        "2.335:start.hsp:269722",
+        "2.335:start.hsp:269724",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 233
+    },
+    {
+      "source": "猫が大好きであるということと同じくらい、ぶりっ子であるということが有名。その本性は…おや？こんな時間に誰か来たみたいだ。",
+      "target": "고양이를 좋아하는 만큼이나 귀여운 척으로도 유명하다. 그 본성은 말이지… 어라? 이 시간에 누가 찾아왔나 보다.",
+      "source_ref": [
+        "2.335:start.hsp:270535",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/247"
+      ],
+      "card_id": 247
+    },
+    {
+      "source": "@card/header/247",
+      "target": "내숭쟁이 미아  번호 247  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:270538",
+        "2.335:start.hsp:270541",
+        "2.335:start.hsp:270543",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 247
+    },
+    {
+      "source": "狐の血の繋がらない義理の弟。「おとおと」という、さらなる謎の存在との関係性が研究されている。狐耳が邪魔でフードを被れない。",
+      "target": "피가 섞이지 않은 여우 남동생. 한층 더 수수께끼 같은 존재인 ‘오토오토’와의 관계가 연구되고 있다. 여우 귀 때문에 후드를 못 쓴다.",
+      "source_ref": [
+        "2.335:start.hsp:264139",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/538",
+        "The fox's non-blooded brother-in-law. He can' t wear the hood because his fox ears are in the way."
+      ],
+      "card_id": 538
+    },
+    {
+      "source": "@card/header/538",
+      "target": "여우 의붓동생  번호 538  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:264142",
+        "2.335:start.hsp:264145",
+        "2.335:start.hsp:264147",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 538
+    },
+    {
+      "source": "人に似た姿を持つ獣。イークの中でも厳しい鍛錬に耐えたもののみが戦士の称号を授かる。そのため戦士であることを誇りとしている。",
+      "target": "사람을 닮은 짐승. 이이크 중에서도 혹독한 단련을 거친 이들만 전사라 불리기에 그 칭호를 자랑스러워한다.",
+      "source_ref": [
+        "2.335:start.hsp:267584",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/238"
+      ],
+      "card_id": 238
+    },
+    {
+      "source": "@card/header/238",
+      "target": "이이크 전사  번호 238  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:267587",
+        "2.335:start.hsp:267590",
+        "2.335:start.hsp:267592",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 238
+    },
+    {
+      "source": "世界の維持を行う神の欠片を宿した魔物。欠片として散る前の本来の神格は世界を３歩で踏破する、太陽光を操るなどの力を持っていた。",
+      "target": "세계를 유지하는 신의 파편이 깃든 괴물. 본래 신격은 세 걸음 만에 온 세상을 걷고 햇빛을 다스릴 수 있었다.",
+      "source_ref": [
+        "2.335:start.hsp:264113",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/540",
+        "A demon that possesses a piece of the god that maintains the world. The original deity before it was scattered as a fragment had the power to tread the world in three steps manipulate sunlight and so on."
+      ],
+      "card_id": 540
+    },
+    {
+      "source": "@card/header/540",
+      "target": "비슈누  번호 540  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:264116",
+        "2.335:start.hsp:264119",
+        "2.335:start.hsp:264121",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 540
+    },
+    {
+      "source": "まっすぐで頑張り屋な性格だが、錬金術に関してはマッドな一面も見せる。錬金術の師と色々あって、ふかふかパン恐怖症になっている。",
+      "target": "성실하고 올곧지만 연금술에 관해서만큼은 광기를 보인다. 스승과 겪은 모종의 사건 이후 폭신한 빵을 무서워하게 됐다.",
+      "source_ref": [
+        "2.335:start.hsp:264945",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/476"
+      ],
+      "card_id": 476
+    },
+    {
+      "source": "@card/header/476",
+      "target": "연금술사 나플라스  번호 476  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:264948",
+        "2.335:start.hsp:264951",
+        "2.335:start.hsp:264953",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 476
+    },
+    {
+      "source": "てんとう虫という古代昆虫の遺伝子を内包しており、太陽に向かって飛ぶことから天の道を行くとされる。強敵には加速能力で対抗する。",
+      "target": "무당벌레라는 고대 곤충의 유전자를 지녔다. 태양을 향해 날아 하늘의 길을 걷는다고 한다. 강적에게는 가속 능력으로 맞선다.",
+      "source_ref": [
+        "2.335:start.hsp:265881",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/404"
+      ],
+      "card_id": 404
+    },
+    {
+      "source": "@card/header/404",
+      "target": "헤븐즈비틀  번호 404  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:265884",
+        "2.335:start.hsp:265887",
+        "2.335:start.hsp:265889",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 404
+    },
+    {
+      "source": "千の刃を持つツル。長く生きたツルほど刃のコントールが熟達しており、千年生きたツルの刃は1万年生きた亀の甲羅さえ両断するという。",
+      "target": "천 개의 칼날을 지닌 학. 오래 살수록 칼날을 잘 다뤄 천 년 묵은 학은 만 년 묵은 거북의 등껍질도 두 동강 낸다고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:256053",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1159"
+      ],
+      "card_id": 1159
+    },
+    {
+      "source": "@card/header/1159",
+      "target": "천인학  번호 1159  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256056",
+        "2.335:start.hsp:256059",
+        "2.335:start.hsp:256061",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1159
+    },
+    {
+      "source": "元ロックスロアー。石を投げる側に回ったのはいいが、石をぶつけても平然としている者が多いことに逆切れし、グレネードに持ち替えた。",
+      "target": "한때는 돌을 던졌다. 돌을 맞고도 멀쩡한 상대가 많다는 사실에 되레 화를 내더니 수류탄으로 무기를 바꿨다.",
+      "source_ref": [
+        "2.335:start.hsp:263307",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/602",
+        "The vehicle is equipped with a heavy mortar gun. It is mass-produced because of its superior mobility and rapid-fire capabilities and its low cost. A disadvantage of the mortar is that it has a short range. Basically it is fully automated but there is still space for passengers."
+      ],
+      "card_id": 602
+    },
+    {
+      "source": "@card/header/602",
+      "target": "폭탄 투척수  번호 602  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:263310",
+        "2.335:start.hsp:263313",
+        "2.335:start.hsp:263315",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 602
+    },
+    {
+      "source": "イルヴァで最も強い毒を持つ生物として有名。特定の巣を持たず集団で移動と襲撃を繰り返し生活する。獰猛で攻撃的であり、非常に危険。",
+      "target": "이르바에서 독이 가장 강한 생물로 유명하다. 고정된 둥지 없이 무리 지어 이동하며 습격한다. 사납고 공격적이라 매우 위험하다.",
+      "source_ref": [
+        "2.335:start.hsp:264542",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/507",
+        "It is renowned as the most poisonous creature in Irva. They do not have a specific nest and live in groups repeatedly moving and attacking. They are fierce aggressive and very dangerous."
+      ],
+      "card_id": 507
+    },
+    {
+      "source": "@card/header/507",
+      "target": "검은 말벌  번호 507  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:264545",
+        "2.335:start.hsp:264548",
+        "2.335:start.hsp:264550",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 507
+    },
+    {
+      "source": "神と星の加護を受けて変異したサソリ。一見何の変哲もない普通のサソリだが、その神経毒で動けなくなり殺される冒険者は後を断たない。",
+      "target": "신과 별의 가호를 받아 변이한 전갈. 생김새는 평범하지만 신경독에 몸이 굳어 목숨을 잃는 모험가가 끊이지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:264555",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/506",
+        "A scorpion mutated with the blessings of the gods and stars. At first glance it appears to be an ordinary scorpion but there is no shortage of adventurers who are paralyzed and killed by its neurotoxin."
+      ],
+      "card_id": 506
+    },
+    {
+      "source": "@card/header/506",
+      "target": "오리온 킬러  번호 506  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:264558",
+        "2.335:start.hsp:264561",
+        "2.335:start.hsp:264563",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 506
+    },
+    {
+      "source": "燃え盛る灼熱の塔の頂上に居を構える、赤き義眼を持つ魔法使い。人間不信が高じて竜を夫としており、日々アツアツの生活を送っている。",
+      "target": "타오르는 작열의 탑 꼭대기에 사는 붉은 의안의 마법사. 사람을 믿지 못해 용을 남편으로 맞았다. 부부 사이는 날마다 뜨겁다.",
+      "source_ref": [
+        "2.335:start.hsp:266908",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/144"
+      ],
+      "card_id": 144
+    },
+    {
+      "source": "@card/header/144",
+      "target": "붉은 의안의 크루이츠아  번호 144  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:266911",
+        "2.335:start.hsp:266914",
+        "2.335:start.hsp:266916",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 144
+    },
+    {
+      "source": "希少な鉱石を惜しげもなく使って作られた。長らくゴーレムの最上級種とされていたくらいなので、並みの冒険者では歯が立たないだろう。",
+      "target": "희귀한 광석을 아낌없이 써서 만들었다. 오랫동안 최상급 골렘으로 꼽혔으니 어지간한 모험가는 흠집조차 내기 어렵다.",
+      "source_ref": [
+        "2.335:start.hsp:269404",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/138"
+      ],
+      "card_id": 138
+    },
+    {
+      "source": "@card/header/138",
+      "target": "아다만타이트 골렘  번호 138  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:269407",
+        "2.335:start.hsp:269410",
+        "2.335:start.hsp:269412",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 138
+    },
+    {
+      "source": "爆発四散した陸上自走爆雷がイルヴァに転生してきた。転生の際に無限にロケットブーストできるチート能力を得たが、結局は爆発四散する。",
+      "target": "폭발해 산산조각 난 지상 자주식 폭뢰가 이르바에 환생했다. 무한 로켓 추진이라는 사기 능력을 얻었지만 끝내 또 산산조각 난다.",
+      "source_ref": [
+        "2.335:start.hsp:256014",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1162"
+      ],
+      "card_id": 1162
+    },
+    {
+      "source": "@card/header/1162",
+      "target": "판잔의 정령  번호 1162  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256017",
+        "2.335:start.hsp:256020",
+        "2.335:start.hsp:256022",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1162
+    },
+    {
+      "source": "ハイレベルのリッチによって命を吹き込まれた腐ったドラゴンの死体。魔法で強化されているものの、筋肉が腐っているためあまり力はない。",
+      "target": "고위 리치가 생명을 불어넣은 썩은 용의 사체. 마법으로 강화했지만 근육이 썩어 힘은 그다지 세지 않다.",
+      "source_ref": [
+        "2.335:start.hsp:265725",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/416"
+      ],
+      "card_id": 416
+    },
+    {
+      "source": "@card/header/416",
+      "target": "좀비 드래곤  번호 416  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:265728",
+        "2.335:start.hsp:265731",
+        "2.335:start.hsp:265733",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 416
+    },
+    {
+      "source": "他の同族と比べて遠くから攻撃する知性を持ったイーク。弓を扱おうと弦を引き続けた結果、同族の戦士程ではないが身体が鍛えられている。",
+      "target": "동족과 달리 멀리서 공격할 지성이 있는 이이크. 활을 쏘려고 계속 시위를 당긴 덕에 다른 동족보다 몸도 단련됐다.",
+      "source_ref": [
+        "2.335:start.hsp:267597",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/241"
+      ],
+      "card_id": 241
+    },
+    {
+      "source": "@card/header/241",
+      "target": "이이크 궁수  번호 241  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:267600",
+        "2.335:start.hsp:267603",
+        "2.335:start.hsp:267605",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 241
+    },
+    {
+      "source": "夢破れた妹の自害がきっかけで精神を病んでしまった。気晴らしに美しいルミエストの景色を観たり、パーティーに参加するなどして静養中。",
+      "target": "꿈이 꺾인 여동생이 스스로 목숨을 끊은 뒤 마음의 병을 얻었다. 아름다운 루미에스트 풍경을 보고 파티에도 다니며 요양 중이다.",
+      "source_ref": [
+        "2.335:start.hsp:270548",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/252"
+      ],
+      "card_id": 252
+    },
+    {
+      "source": "@card/header/252",
+      "target": "고뇌하는 마법사 렌톤  번호 252  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:270551",
+        "2.335:start.hsp:270554",
+        "2.335:start.hsp:270556",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 252
+    },
+    {
+      "source": "滅亡の危機に陥っている同胞を守るため、弓を取り立ち向かう勇敢なクイックリング。異常な速さでの矢霰に、粉々にされる者も少なくない。",
+      "target": "멸종 위기에 처한 동족을 지키려 활을 든 용감한 퀵클링. 엄청난 속도로 쏟아지는 화살에 산산조각 난 이가 적지 않다.",
+      "source_ref": [
+        "2.335:start.hsp:271081",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/325"
+      ],
+      "card_id": 325
+    },
+    {
+      "source": "@card/header/325",
+      "target": "퀵클링 궁수  번호 325  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:271084",
+        "2.335:start.hsp:271087",
+        "2.335:start.hsp:271089",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 325
+    },
+    {
+      "source": "産まれた時からマスターとなるべく定められた、エリート中のエリート。同族を率いる指揮能力に秀でており、数多くのイークを使役している。",
+      "target": "태어날 때부터 우두머리가 되도록 길러진 정예 중의 정예. 동족을 통솔하는 재능이 뛰어나 수많은 이이크를 거느린다.",
+      "source_ref": [
+        "2.335:start.hsp:267610",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/240"
+      ],
+      "card_id": 240
+    },
+    {
+      "source": "@card/header/240",
+      "target": "마스터 이이크  번호 240  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:267613",
+        "2.335:start.hsp:267616",
+        "2.335:start.hsp:267618",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 240
+    },
+    {
+      "source": "暗い巣穴の中で暮らすうちに暗黒への耐性を身に着けた超獣。目が退化しており盲目状態にもならない。立ち塞がる壁は乗り越えずに掘り壊す派。",
+      "target": "어두운 굴에서 살다 암흑에 내성이 생긴 초수. 눈이 퇴화해 실명하지도 않는다. 벽을 만나면 넘는 대신 파서 부순다.",
+      "source_ref": [
+        "2.335:start.hsp:263450",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/591",
+        "A superbeast that has developed a resistance to darkness while living in a dark den. Their eyes have degenerated but they are not blinded. They prefer not to go over a wall that stands in their way but to dig through it."
+      ],
+      "card_id": 591
+    },
+    {
+      "source": "@card/header/591",
+      "target": "암흑두더지  번호 591  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:263453",
+        "2.335:start.hsp:263456",
+        "2.335:start.hsp:263458",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 591
+    },
+    {
+      "source": "正気を失っているジューアの戦士。弱点である筋力を補おうと、薬物による強化を試みたところ、副作用によって破壊衝動が増幅されてしまった。",
+      "target": "이성을 잃은 주아 전사. 약한 근력을 보충하려 약물로 몸을 강화했는데 부작용으로 파괴 충동까지 커졌다.",
+      "source_ref": [
+        "2.335:start.hsp:266258",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/375"
+      ],
+      "card_id": 375
+    },
+    {
+      "source": "@card/header/375",
+      "target": "주아 광전사  번호 375  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:266261",
+        "2.335:start.hsp:266264",
+        "2.335:start.hsp:266266",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 375
+    },
+    {
+      "source": "現在は何処かに封印されているという赤き悪魔に心を奪われ崇拝するようになった者。ローブに隠された貌は元の容を留めぬ程に焼け爛れている。",
+      "target": "어딘가에 봉인됐다는 붉은 악마에게 마음을 빼앗겨 숭배하게 됐다. 로브 아래 숨은 얼굴은 원래 모습을 알아볼 수 없게 타들어 갔다.",
+      "source_ref": [
+        "2.335:start.hsp:268936",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/106"
+      ],
+      "card_id": 106
+    },
+    {
+      "source": "@card/header/106",
+      "target": "붉은 세례자  번호 106  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:268939",
+        "2.335:start.hsp:268942",
+        "2.335:start.hsp:268944",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 106
+    },
+    {
+      "source": "かつては吟遊詩人をやっていた時期もあったが、才能が欠片もなくいつも石を投げつけられていた。その恨みを晴らすべく石を投げる側に回った。",
+      "target": "한때 음유시인이었으나 재능이 눈곱만큼도 없어 늘 돌을 맞았다. 그 원한을 풀려고 이제는 자기가 돌을 던진다.",
+      "source_ref": [
+        "2.335:start.hsp:269742",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/163"
+      ],
+      "card_id": 163
+    },
+    {
+      "source": "@card/header/163",
+      "target": "돌팔매꾼  번호 163  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269745",
+        "2.335:start.hsp:269748",
+        "2.335:start.hsp:269750",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 163
+    },
+    {
+      "source": "イーク族の身体能力の低さを克服しようと選んだ手段は、自身の命を犠牲にした自爆だった。だが、簡単に起爆してしまい味方も巻き込んでしまう。",
+      "target": "이이크 특유의 약한 몸을 극복하려 제 목숨을 건 자폭을 택했다. 문제는 너무 쉽게 터져 아군까지 휘말린다는 것이다.",
+      "source_ref": [
+        "2.335:start.hsp:267623",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/237"
+      ],
+      "card_id": 237
+    },
+    {
+      "source": "@card/header/237",
+      "target": "자폭 이이크  번호 237  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:267626",
+        "2.335:start.hsp:267629",
+        "2.335:start.hsp:267631",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 237
+    },
+    {
+      "source": "火炎の息吹を放つ犬。放たれる炎はインド象を一瞬で丸焼きにしてしまうほど。熱に強いのは頭部や毛皮だけであり、肉は普通に焼くことができる。",
+      "target": "인도코끼리를 순식간에 통구이로 만들 만큼 뜨거운 불을 뿜는다. 열에 강한 건 머리와 털가죽뿐이라 고기는 보통처럼 구울 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:268273",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/51"
+      ],
+      "card_id": 51
+    },
+    {
+      "source": "@card/header/51",
+      "target": "화염 사냥개  번호 51  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:268276",
+        "2.335:start.hsp:268279",
+        "2.335:start.hsp:268281",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 51
+    },
+    {
+      "source": "数十ｍサイズの霧状の怪物。肉食性であり、普段は雲に擬態して船などを襲っている。捕食の際には体の一部を固体化させ、口などの器官を作り出す。",
+      "target": "수십 미터에 이르는 안개 같은 육식 괴물. 구름으로 위장해 배를 덮친다. 먹을 때는 몸 일부를 굳혀 입 같은 기관을 만든다.",
+      "source_ref": [
+        "2.335:start.hsp:261760",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/721",
+        "A foggy monster several tens of meters in size. It is carnivorous and usually mimics a cloud to attack ships. During predation it solidifies parts of its body and produces organs such as its mouth."
+      ],
+      "card_id": 721
+    },
+    {
+      "source": "@card/header/721",
+      "target": "구름 짐승  번호 721  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261763",
+        "2.335:start.hsp:261766",
+        "2.335:start.hsp:261768",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 721
+    },
+    {
+      "source": "レシマス調査に雇われた冒険者でカルーン出身。孤高で有能な実力者ゆえに孤狼の二つ名を持つ…と本人は思い込んでいたが実力はそこまで高くない。",
+      "target": "레시마스 조사를 위해 고용된 카룬의 모험가. 고고하고 유능해서 별명이 외로운 늑대라고 본인은 믿지만 실력은 그저 그렇다.",
+      "source_ref": [
+        "2.335:start.hsp:266856",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/146"
+      ],
+      "card_id": 146
+    },
+    {
+      "source": "@card/header/146",
+      "target": "카룬의 외로운 늑대 카람  번호 146  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:266859",
+        "2.335:start.hsp:266862",
+        "2.335:start.hsp:266864",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 146
+    },
+    {
+      "source": "3つの頭を持つ獣。各々の頭が交代で眠るのだが、火を吐く頭がストライキを起こし怠けているため、最近は魔法属性ブレスを吐く頭が頑張っている。",
+      "target": "세 머리가 번갈아 자는 짐승. 불을 뿜는 머리가 파업하고 빈둥대는 탓에 요즘은 마력 숨결을 뿜는 머리가 애쓰고 있다.",
+      "source_ref": [
+        "2.335:start.hsp:269222",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/126"
+      ],
+      "card_id": 126
+    },
+    {
+      "source": "@card/header/126",
+      "target": "케르베로스  번호 126  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:269225",
+        "2.335:start.hsp:269228",
+        "2.335:start.hsp:269230",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 126
+    },
+    {
+      "source": "針のついた大きな尾が特徴的な節足動物。見た目は恐ろしいがそれほど毒は強くなく、殻も意外と柔らかい。結構美味しいとかで食料にもされている。",
+      "target": "큰 꼬리 끝에 침이 달린 절지동물. 험상궂게 생겼어도 독이 그리 세지 않고 껍데기도 뜻밖에 무르다. 제법 맛있다며 식용으로도 쓴다.",
+      "source_ref": [
+        "2.335:start.hsp:269235",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/255"
+      ],
+      "card_id": 255
+    },
+    {
+      "source": "@card/header/255",
+      "target": "전갈  번호 255  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269238",
+        "2.335:start.hsp:269241",
+        "2.335:start.hsp:269243",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 255
+    },
+    {
+      "source": "伝説のモンスターマシン。ABSや対障害物用レーダー、オートナビなどのシステムに加え、12000回転で200馬力以上出すエンジンを備える。",
+      "target": "전설의 괴물 머신. 잠김 방지 제동 장치, 장애물 레이더, 자동 항법 장치에 더해 분당 1만 2천 회전에서 200마력 이상을 낸다.",
+      "source_ref": [
+        "2.335:start.hsp:270197",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/345"
+      ],
+      "card_id": 345
+    },
+    {
+      "source": "@card/header/345",
+      "target": "카네다의 바이크  번호 345  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:270200",
+        "2.335:start.hsp:270203",
+        "2.335:start.hsp:270205",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 345
+    },
+    {
+      "source": "どこかから脱走したと思しき野生化した雑種の馬。駄馬と嘲られてはいるが、乗馬技術の低い駆け出しの冒険者には最高の相棒になってくれるだろう。",
+      "target": "어디선가 달아나 야생화한 잡종 말. 볼품없는 말이라고 얕보지만 승마 솜씨가 서툰 초보 모험가에게는 최고의 동반자다.",
+      "source_ref": [
+        "2.335:start.hsp:270808",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/267"
+      ],
+      "card_id": 267
+    },
+    {
+      "source": "@card/header/267",
+      "target": "짐말  번호 267  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:270811",
+        "2.335:start.hsp:270814",
+        "2.335:start.hsp:270816",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 267
+    },
+    {
+      "source": "イークの古代種。拳銃が大好きであり、よくノリノリで人間のガンマンの真似をしている。拳銃は拾いもの。自分たちで作るほどの技術は持っていない。",
+      "target": "권총을 좋아해 신이 나서 인간 총잡이를 흉내 내는 고대 이이크. 총은 주운 것이다. 직접 만들 기술은 없다.",
+      "source_ref": [
+        "2.335:start.hsp:259797",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/871",
+        "An ancient species of yeek. He loves guns and often imitates a human gunman. A handgun is scavenged. They don't have the skills to make it themselves."
+      ],
+      "card_id": 871
+    },
+    {
+      "source": "@card/header/871",
+      "target": "고대 이이크 총사  번호 871  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:259800",
+        "2.335:start.hsp:259803",
+        "2.335:start.hsp:259805",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 871
+    },
+    {
+      "source": "体温が上がらないとテンションが上がらないので、周囲の熱を吸収して冷気に変えて放出する。複数体集まれば熱い地域にも吹雪を起こせるほどになる。",
+      "target": "체온이 올라야 신이 나서 주위의 열을 흡수하고 냉기로 바꿔 내보낸다. 여러 마리가 모이면 더운 지방에도 눈보라를 일으킨다.",
+      "source_ref": [
+        "2.335:start.hsp:260525",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/815",
+        "When their body temperature doesn't rise their tension doesn't rise so they absorb the heat around them turn it into cold air and release it. If you collect more than one of them it's enough to cause a blizzard in a hot area."
+      ],
+      "card_id": 815
+    },
+    {
+      "source": "@card/header/815",
+      "target": "블리자드  번호 815  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:260528",
+        "2.335:start.hsp:260531",
+        "2.335:start.hsp:260533",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 815
+    },
+    {
+      "source": "アンドロイドに乗ったかたつむり。機械のマニと仲がいい。耐塩防御は完璧で、投げつけられた塩を無効化するシステムをアンドロイドが搭載している。",
+      "target": "기계의 마니와 친한 달팽이. 타고 다니는 안드로이드가 날아오는 소금을 무효화하므로 염분 방어만큼은 완벽하다.",
+      "source_ref": [
+        "2.335:start.hsp:266167",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/382"
+      ],
+      "card_id": 382
+    },
+    {
+      "source": "@card/header/382",
+      "target": "안드로이드를 탄 달팽이  번호 382  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:266170",
+        "2.335:start.hsp:266173",
+        "2.335:start.hsp:266175",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 382
+    },
+    {
+      "source": "小さめのバリスタであれば単独で扱えるように訓練された軍馬。馬の筋力を持ってしてもバリスタは相当重いらしく、足を止めて構えないと撃てない模様。",
+      "target": "작은 발리스타라면 혼자 다루도록 훈련된 군마. 말의 힘으로도 상당히 무거워 걸음을 멈추고 자세를 잡아야 쏠 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:261149",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/768",
+        "A military horse trained to handle a small ballista on its own. Even with the muscle strength of a horse the ballista seems to be quite heavy and it cannot be shot unless it stops its feet and takes a posture."
+      ],
+      "card_id": 768
+    },
+    {
+      "source": "@card/header/768",
+      "target": "발리스탈리온  번호 768  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:261152",
+        "2.335:start.hsp:261155",
+        "2.335:start.hsp:261157",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 768
+    },
+    {
+      "source": "集団で一撃離脱を繰り返す戦法を得意とする。1羽2羽では大して脅威にはならずチュンチュン鳴いてるだけで可愛いものだが、3羽以上揃うと牙をむく。",
+      "target": "무리 지어 치고 빠지기를 잘한다. 한두 마리면 짹짹거리는 귀여운 새에 불과하지만 셋 이상 모이면 본색을 드러낸다.",
+      "source_ref": [
+        "2.335:start.hsp:263216",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/609"
+      ],
+      "card_id": 609
+    },
+    {
+      "source": "@card/header/609",
+      "target": "목 베는 참새  번호 609  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:263219",
+        "2.335:start.hsp:263222",
+        "2.335:start.hsp:263224",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 609
+    },
+    {
+      "source": "商売が好きで相手が神でも人でも魔物でも分け隔てなく取引を行う。お金にうるさく1goldの無駄も許さない。最近手に入れた石のお金がお気に入り。",
+      "target": "상대를 신, 인간, 괴물로 가리지 않고 거래하는 장사꾼. 금화 한 닢도 허투루 쓰지 않는다. 최근 장만한 돌돈을 무척 좋아한다.",
+      "source_ref": [
+        "2.335:start.hsp:264867",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/482"
+      ],
+      "card_id": 482
+    },
+    {
+      "source": "@card/header/482",
+      "target": "부의 야카텍트  번호 482  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:264870",
+        "2.335:start.hsp:264873",
+        "2.335:start.hsp:264875",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 482
+    },
+    {
+      "source": "死の眼差しを放つ魔物。単独ではそれほど脅威ではないが、睨まれると体が麻痺して魔力を奪われてしまうため、敵の群れに混じっていると一大事である。",
+      "target": "죽음의 시선을 쏘는 괴물. 한 마리만 있으면 큰 위협은 아니지만 시선에 마비되고 마력까지 빼앗겨 적 무리에 섞여 있으면 큰일이다.",
+      "source_ref": [
+        "2.335:start.hsp:268546",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/314"
+      ],
+      "card_id": 314
+    },
+    {
+      "source": "@card/header/314",
+      "target": "데스 게이즈  번호 314  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:268549",
+        "2.335:start.hsp:268552",
+        "2.335:start.hsp:268554",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 314
+    },
+    {
+      "source": "ゴブリン族の中で魔力に長けた者。地味ながら魔法の矢で獲物の確実に追い詰めて行く、縁の下の力持ち。魔法が使えることを鼻にかけているフシがある。",
+      "target": "마법의 화살로 꾸준히 사냥감을 몰아붙이는 고블린 무리의 숨은 일꾼. 마법을 쓸 줄 안다는 사실이 꽤 자랑스러운 모양이다.",
+      "source_ref": [
+        "2.335:start.hsp:268923",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/105"
+      ],
+      "card_id": 105
+    },
+    {
+      "source": "@card/header/105",
+      "target": "고블린 마법사  번호 105  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:268926",
+        "2.335:start.hsp:268929",
+        "2.335:start.hsp:268931",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 105
+    },
+    {
+      "source": "別の惑星から到来した精神生命体。現在はイルヴァに生息していた円錐生命体の肉体を乗っ取っており、その天敵たる種族を地中深くに封じているという。",
+      "target": "다른 행성에서 온 정신 생명체. 이르바에 살던 원뿔형 생물의 몸을 차지하고 그 천적을 땅속 깊이 봉인했다고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:270639",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/216"
+      ],
+      "card_id": 216
+    },
+    {
+      "source": "@card/header/216",
+      "target": "이스의 위대한 종족  번호 216  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:270642",
+        "2.335:start.hsp:270645",
+        "2.335:start.hsp:270647",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 216
+    },
+    {
+      "source": "電撃を操る翼竜。自力で発電することはできないので、定期的に雷雲の中で充電している。充電しすぎると身体が焦げたり爆発したりするので命懸けらしい。",
+      "target": "번개를 다루지만 스스로 전기를 만들 수 없는 익룡. 먹구름 속에서 충전한다. 지나치면 몸이 타거나 폭발하니 목숨을 건 일이다.",
+      "source_ref": [
+        "2.335:start.hsp:257704",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1032"
+      ],
+      "card_id": 1032
+    },
+    {
+      "source": "@card/header/1032",
+      "target": "뇌운익룡  번호 1032  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257707",
+        "2.335:start.hsp:257710",
+        "2.335:start.hsp:257712",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1032
+    },
+    {
+      "source": "ザナンの現場叩き上げの兵士。歴戦のつわものだが士官学校を出ておらず軍での地位も名声も低い。何も知らされずに危険な任務に駆り出されることも多い。",
+      "target": "전장에서 잔뼈가 굵은 자난 병사. 사관학교 출신이 아니라 지위와 명성은 낮다. 사정도 듣지 못하고 위험한 임무에 투입되곤 한다.",
+      "source_ref": [
+        "2.335:start.hsp:262176",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/689",
+        "Zanan's field-raised soldier. He is a war veteran but he has not graduated from officer's school and has a low rank and fame in the military. They are often sent out on dangerous missions without being informed."
+      ],
+      "card_id": 689
+    },
+    {
+      "source": "@card/header/689",
+      "target": "자난 중장병  번호 689  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:262179",
+        "2.335:start.hsp:262182",
+        "2.335:start.hsp:262184",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 689
+    },
+    {
+      "source": "瞳を直視すると狂気に侵されてしまい、蛆虫が湧きあがるなどの幻影に悩まされることになる。その肉は幻惑に耐性をつけることができる貴重な手段の一つ。",
+      "target": "눈을 마주치면 광기에 사로잡혀 구더기가 들끓는 환영에 시달린다. 그 고기는 환혹에 내성을 얻는 몇 안 되는 수단이다.",
+      "source_ref": [
+        "2.335:start.hsp:268533",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/316"
+      ],
+      "card_id": 316
+    },
+    {
+      "source": "@card/header/316",
+      "target": "매드 게이즈  번호 316  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:268536",
+        "2.335:start.hsp:268539",
+        "2.335:start.hsp:268541",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 316
+    },
+    {
+      "source": "ノイエルの寒い気候に適応するように品種改良された馬。雪原を軽快に進めるように進化した脚は、野生の物より速く駆けることが出来るようになっている。",
+      "target": "노이엘의 추위에 맞춰 개량한 말. 설원을 경쾌하게 달리도록 발달한 다리 덕에 야생마보다 빠르다.",
+      "source_ref": [
+        "2.335:start.hsp:270834",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/275"
+      ],
+      "card_id": 275
+    },
+    {
+      "source": "@card/header/275",
+      "target": "노이엘 말  번호 275  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:270837",
+        "2.335:start.hsp:270840",
+        "2.335:start.hsp:270842",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 275
+    },
+    {
+      "source": "魔術士ギルドの門番と、加入者に課題を与える仕事をしている。自分の装備が呪われていないにも関わらずテレポートしている事があり、疑問に感じている。",
+      "target": "길드 문을 지키며 입회 희망자에게 과제를 내 준다. 장비에 저주가 걸리지 않았는데도 가끔 순간이동하는 걸 이상하게 여긴다.",
+      "source_ref": [
+        "2.335:start.hsp:270925",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/290"
+      ],
+      "card_id": 290
+    },
+    {
+      "source": "@card/header/290",
+      "target": "마법사 길드 문지기 렉서스  번호 290  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:270928",
+        "2.335:start.hsp:270931",
+        "2.335:start.hsp:270933",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 290
+    },
+    {
+      "source": "西イルヴァ観光協会に所属。野盗やモンスターを文字通りちぎっては投げる大迫力の殺戮ショーで人気がある。たまに間違えて客をちぎってしまうことがある。",
+      "target": "서부 이르바 관광 협회 소속. 도적과 괴물을 말 그대로 찢어 던지는 박력 넘치는 공연이 인기다. 가끔 실수로 손님까지 찢는다.",
+      "source_ref": [
+        "2.335:start.hsp:265296",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/449"
+      ],
+      "card_id": 449
+    },
+    {
+      "source": "@card/header/449",
+      "target": "안내원 알마  번호 449  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:265299",
+        "2.335:start.hsp:265302",
+        "2.335:start.hsp:265304",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 449
+    },
+    {
+      "source": "特殊部隊の隊長を務めるプロフェッショナル。任務に忠実で規律に厳しいがその分ストレスがたまっており、プチを横目でちらちら見ては密かに癒されている。",
+      "target": "임무에 충실하고 규율에 엄격한 전문가. 그만큼 스트레스가 쌓여 가끔 푸치를 곁눈질하며 몰래 위안을 얻는다.",
+      "source_ref": [
+        "2.335:start.hsp:266323",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/370"
+      ],
+      "card_id": 370
+    },
+    {
+      "source": "@card/header/370",
+      "target": "특수부대장 미리스  번호 370  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:266326",
+        "2.335:start.hsp:266329",
+        "2.335:start.hsp:266331",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 370
+    },
+    {
+      "source": "血なまぐさい戦いを観る趣味が行き過ぎて闘技場を作ってしまった。アリーナのために生活費をつぎ込むのが原因で、家族から再三やめるように言われている。",
+      "target": "피비린내 나는 싸움 구경을 너무 좋아한 나머지 투기장을 지었다. 생활비까지 쏟아붓는 탓에 가족이 번번이 그만두라고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:266531",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/73"
+      ],
+      "card_id": 73
+    },
+    {
+      "source": "@card/header/73",
+      "target": "투기장 관리자  번호 73  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:266534",
+        "2.335:start.hsp:266537",
+        "2.335:start.hsp:266539",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 73
+    },
+    {
+      "source": "一度はちゃんと討伐対象に挑んだのだが、昇格試験の緊張からくるストレスで惨敗した。現在はイークがトラウマになっており、眠るたびに悪夢にうなされる。",
+      "target": "승급 시험에서 토벌 대상과 정면으로 맞섰지만 긴장을 이기지 못해 참패했다. 이이크가 마음의 상처로 남아 밤마다 악몽을 꾼다.",
+      "source_ref": [
+        "2.335:start.hsp:270509",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/224"
+      ],
+      "card_id": 224
+    },
+    {
+      "source": "@card/header/224",
+      "target": "견습 기사 아인크  번호 224  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:270512",
+        "2.335:start.hsp:270515",
+        "2.335:start.hsp:270517",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 224
+    },
+    {
+      "source": "鳥のように羽ばたいて広大なイルヴァの空を飛び回っている種類のパンティー。気味悪がった術士によって身体を爆弾に変えられており、下手に触ると爆発する。",
+      "target": "새처럼 날갯짓하며 이르바의 하늘을 누비는 팬티. 기겁한 술사가 몸을 폭탄으로 바꿔 놓아 잘못 건드리면 터진다.",
+      "source_ref": [
+        "2.335:start.hsp:256027",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1161"
+      ],
+      "card_id": 1161
+    },
+    {
+      "source": "@card/header/1161",
+      "target": "팬티의 정령  번호 1161  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256030",
+        "2.335:start.hsp:256033",
+        "2.335:start.hsp:256035",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1161
+    },
+    {
+      "source": "イークの割には強い力と立派な勇気を持ち、イークの中でも英雄とされている者たち。集落を襲った猪を倒したり、腕試しに来た騎士と真っ向から戦ったりする。",
+      "target": "이이크치고 힘이 세고 용감해 동족의 영웅으로 꼽힌다. 마을을 덮친 멧돼지를 쓰러뜨리고 실력을 시험하러 온 기사와도 맞붙는다.",
+      "source_ref": [
+        "2.335:start.hsp:259758",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/874",
+        "They are considered heroes among the yeeks having strong power and admirable courage for a yeek. He defeats a boar that has attacked his village or fights head-on with a knight who has come to test his skills."
+      ],
+      "card_id": 874
+    },
+    {
+      "source": "@card/header/874",
+      "target": "영웅 이이크  번호 874  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259761",
+        "2.335:start.hsp:259764",
+        "2.335:start.hsp:259766",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 874
+    },
+    {
+      "source": "亡霊が宿り動き出した鎧。銀河の力に目覚めたそのパンチで発生するソリタリーウェーブは、１万ボルトのプラズマスパイラルを理論上無限遠にまで加速させる。",
+      "target": "망령이 깃들어 움직이는 갑옷. 은하의 힘을 깨우친 주먹이 고립파를 일으켜 1만 볼트의 플라스마 나선을 이론상 무한한 거리까지 가속한다.",
+      "source_ref": [
+        "2.335:start.hsp:263736",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/569",
+        "The armor in which the ghosts dwelt and began to move. Awakening to the power of the galaxy the solitary wave generated by its punch accelerates a 10000-volt plasma spiral to the theoretical limit of infinity."
+      ],
+      "card_id": 569
+    },
+    {
+      "source": "@card/header/569",
+      "target": "갤럭티카 팬텀  번호 569  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:263739",
+        "2.335:start.hsp:263742",
+        "2.335:start.hsp:263744",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 569
+    },
+    {
+      "source": "全ての魔族の頂点に立つ王。退屈症のため暇つぶし感覚でイルヴァにやってきている。強い魔力を持ち、深い絆が無ければ王の洗脳を跳ね除けるのは困難である。",
+      "target": "모든 마족의 정점에 선 왕. 따분함을 견디지 못해 심심풀이로 이르바에 온다. 강력한 마력으로 세뇌하므로 깊은 유대 없이는 뿌리치기 어렵다.",
+      "source_ref": [
+        "2.335:start.hsp:264490",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/511",
+        "The king who stands at the top of all the demon races. They come to Irva to pass the time due to boredom. Without strong magic and a deep bond it would be difficult to repel the king's brainwashing."
+      ],
+      "card_id": 511
+    },
+    {
+      "source": "@card/header/511",
+      "target": "마왕  번호 511  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:264493",
+        "2.335:start.hsp:264496",
+        "2.335:start.hsp:264498",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 511
+    },
+    {
+      "source": "長を決めることになった際に誰も立候補者がいなかったため、くじ引きで決められた。長としての仕事は放置気味だが、みんな面倒くさがって文句すら言わない。",
+      "target": "아무도 출마하지 않아 제비뽑기로 뽑힌 촌장. 일을 거의 손 놓았지만 모두가 귀찮아해서 불평조차 하지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:266570",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/38"
+      ],
+      "card_id": 38
+    },
+    {
+      "source": "@card/header/38",
+      "target": "촌장  번호 38  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:266573",
+        "2.335:start.hsp:266576",
+        "2.335:start.hsp:266578",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 38
+    },
+    {
+      "source": "盗賊団に金で雇われている、傭兵崩れ。古くからの慣習でセンセイと呼ばれることもあるとか。用心棒という響きにどこか魅力的なものがあるからかもしれない。",
+      "target": "도적단에 돈을 받고 고용된 전직 용병. 옛 관습에 따라 ‘선생’이라 불리기도 한다. 호위라는 말에 묘한 매력이 있어서인지도 모른다.",
+      "source_ref": [
+        "2.335:start.hsp:269625",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/303"
+      ],
+      "card_id": 303
+    },
+    {
+      "source": "@card/header/303",
+      "target": "도적단의 호위  번호 303  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:269628",
+        "2.335:start.hsp:269631",
+        "2.335:start.hsp:269633",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 303
+    },
+    {
+      "source": "神、悪魔、地霊などの側面を持つ妖怪だが元々は人間。鬼の中でも上位の存在。自らでも抑えきれないほどの高い魔力を持ち、体から漏れる魔力が「輝き」を放つ。",
+      "target": "신과 악마, 지령의 성질을 함께 지닌 상급 오니로, 본래는 인간이었다. 스스로도 억누르지 못할 마력이 몸에서 새어 나와 빛을 발한다.",
+      "source_ref": [
+        "2.335:start.hsp:261786",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/719",
+        "They are originally human though they have aspects such as gods demons and earth spirits. It is a high ranking among the demons. It possesses a high level of magical power that is uncontrollable even by itself and the magical power leaking from its body gives off a glow."
+      ],
+      "card_id": 719
+    },
+    {
+      "source": "@card/header/719",
+      "target": "휘귀  번호 719  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261789",
+        "2.335:start.hsp:261792",
+        "2.335:start.hsp:261794",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 719
+    },
+    {
+      "source": "あまりに無能なため警備部隊の隊長もとい全自動の警備システムの見張り、という役職につけられた。一応そのことに負い目を感じているがサボることはやめない。",
+      "target": "너무 무능해서 경비부대장, 정확히는 전자동 경비 시스템을 지켜보는 일을 맡았다. 미안한 마음은 있지만 농땡이를 그만둘 생각은 없다.",
+      "source_ref": [
+        "2.335:start.hsp:266310",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/371"
+      ],
+      "card_id": 371
+    },
+    {
+      "source": "@card/header/371",
+      "target": "경비부대장 오빌  번호 371  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:266313",
+        "2.335:start.hsp:266316",
+        "2.335:start.hsp:266318",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 371
+    },
+    {
+      "source": "知識欲に駆られ地位も自由も捨てた魔術士。例えレシマスの下層ごと封印されなかったとしても、彼は自ら地下に留まり《常闇の眼》を眺め続けていたことだろう。",
+      "target": "알고 싶은 마음에 지위와 자유를 버린 마법사. 레시마스 깊은 곳에 봉인되지 않았더라도 스스로 남아 영원한 어둠의 눈을 바라봤을 것이다.",
+      "source_ref": [
+        "2.335:start.hsp:266648",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/2"
+      ],
+      "card_id": 2
+    },
+    {
+      "source": "@card/header/2",
+      "target": "거짓 예언자 제임  번호 2  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:266651",
+        "2.335:start.hsp:266654",
+        "2.335:start.hsp:266656",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 2
+    },
+    {
+      "source": "元はアリーナで命を懸けて怪物と闘っていたが、そんな自らの境遇から脱却するために戦場に出てきたジューアの剣闘士。その瞳は悲壮なまでの決意を湛えている。",
+      "target": "투기장에서 괴물과 목숨을 걸고 싸우던 처지에서 벗어나려 전장에 나선 검투사. 눈에는 비장하리만큼 굳은 결의가 어려 있다.",
+      "source_ref": [
+        "2.335:start.hsp:269729",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/235"
+      ],
+      "card_id": 235
+    },
+    {
+      "source": "@card/header/235",
+      "target": "주아 검투사  번호 235  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269732",
+        "2.335:start.hsp:269735",
+        "2.335:start.hsp:269737",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 235
+    },
+    {
+      "source": "大人になりきれてない女性全般を指す。イルヴァではペットとしても一般的で、奴隷として買うこともできるし、脱走して野生化した個体を捕まえることもできる。",
+      "target": "아직 어른이 되지 않은 여성을 일컫는다. 이르바에서는 흔히 동료로 데리고 다니며, 노예로 사들이거나 달아나 야생에서 사는 소녀를 붙잡기도 한다.",
+      "source_ref": [
+        "2.335:start.hsp:269885",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/166"
+      ],
+      "card_id": 166
+    },
+    {
+      "source": "@card/header/166",
+      "target": "소녀  번호 166  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269888",
+        "2.335:start.hsp:269891",
+        "2.335:start.hsp:269893",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 166
+    },
+    {
+      "source": "肉体から分離した生霊の成れの果て。元は高貴な魔法使いだったようで、強い魔力を持つ。特に力の強い個体は君主級として区別され、アークの接頭辞をつけられる。",
+      "target": "육체를 떠난 생령의 말로. 한때 고귀한 마법사여서 강력한 마력이 남았다. 특히 강한 개체는 군주급으로 분류해 ‘아크’를 붙인다.",
+      "source_ref": [
+        "2.335:start.hsp:260785",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/795",
+        "The end of the life spirit that separated from the body. It seems he was a noble wizard in the past and has strong magical powers. Particularly powerful individuals are distinguished as monarchs and are prefixed with arch."
+      ],
+      "card_id": 795
+    },
+    {
+      "source": "@card/header/795",
+      "target": "아크 레이스  번호 795  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:260788",
+        "2.335:start.hsp:260791",
+        "2.335:start.hsp:260793",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 795
+    },
+    {
+      "source": "イルヴァで広く飼われている愛玩動物。何故これほどまでに可愛いのかは謎だが、俊敏な捕食者としての顔も併せ持つ。その肉を食した者は強烈な罪悪感に襲われる。",
+      "target": "이르바에서 널리 기르는 반려동물. 왜 그렇게 귀여운지는 수수께끼지만 날렵한 사냥꾼이기도 하다. 고기를 먹은 이는 심한 죄책감에 시달린다.",
+      "source_ref": [
+        "2.335:start.hsp:269755",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/164"
+      ],
+      "card_id": 164
+    },
+    {
+      "source": "@card/header/164",
+      "target": "고양이  번호 164  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269758",
+        "2.335:start.hsp:269761",
+        "2.335:start.hsp:269763",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 164
+    },
+    {
+      "source": "かわいそうな私アピールのためだけに地雷原に住んでいるメンヘラ。すぐ感情などを爆発させるし、一緒に死のうとしてくるので厄介。ピンクと黒の組み合わせが好き。",
+      "target": "불쌍해 보이고 싶어 지뢰밭에 산다. 감정이 금방 폭발하고 같이 죽자고 달려들기도 한다. 분홍과 검정의 조합을 좋아한다.",
+      "source_ref": [
+        "2.335:start.hsp:256859",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1097"
+      ],
+      "card_id": 1097
+    },
+    {
+      "source": "@card/header/1097",
+      "target": "지뢰계 소녀  번호 1097  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:256862",
+        "2.335:start.hsp:256865",
+        "2.335:start.hsp:256867",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1097
+    },
+    {
+      "source": "塩を体にふりかけられると体内の水分を奪われて溶けるように縮んで消えてしまう。イルヴァで最も鈍く情けない生き物でありながら今日まで絶滅していない理由は謎。",
+      "target": "몸에 소금을 뿌리면 수분을 빼앗겨 녹아 없어지듯 오그라든다. 이르바에서 가장 둔하고 가엾은 생물이 어찌 지금껏 멸종하지 않았는지는 수수께끼다.",
+      "source_ref": [
+        "2.335:start.hsp:267220",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/6"
+      ],
+      "card_id": 6
+    },
+    {
+      "source": "@card/header/6",
+      "target": "달팽이  번호 6  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:267223",
+        "2.335:start.hsp:267226",
+        "2.335:start.hsp:267228",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 6
+    },
+    {
+      "source": "イルヴァを熱狂させる偶像をプロデュースしようと、その候補生達を集める為に旅する謎の男。魅力的な人物を見ると、男女構わずつい手を出してしまう悪い癖がある。",
+      "target": "이르바를 열광시킬 우상을 키우려 후보생을 찾아다니는 수수께끼의 남자. 매력적인 사람을 보면 남녀를 가리지 않고 손을 대는 나쁜 버릇이 있다.",
+      "source_ref": [
+        "2.335:start.hsp:271042",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/334"
+      ],
+      "card_id": 334
+    },
+    {
+      "source": "@card/header/334",
+      "target": "수수께끼의 프로듀서  번호 334  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:271045",
+        "2.335:start.hsp:271048",
+        "2.335:start.hsp:271050",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 334
+    },
+    {
+      "source": "「ケサランパサランは幸運をもたらす」という迷信によって人間たちの欲望を一身に受け続けた結果、いつしか黒く汚れてしまった毛玉の妖怪。心もすっかり荒んでいる。",
+      "target": "케사란파사란이 행운을 준다는 속설 때문에 사람의 욕심을 한 몸에 받아 검게 더러워진 털뭉치 요괴. 마음까지 거칠어졌다.",
+      "source_ref": [
+        "2.335:start.hsp:263086",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/619",
+        "As a result of the superstition that Kesalanpatharan brings good fortune they have been subjected to the desires of humans and as a result they have become blackened and stained. Its mind is in a state of total disarray."
+      ],
+      "card_id": 619
+    },
+    {
+      "source": "@card/header/619",
+      "target": "더티 파사란  번호 619  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:263089",
+        "2.335:start.hsp:263092",
+        "2.335:start.hsp:263094",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 619
+    },
+    {
+      "source": "ガイアス・ヴィスに生息する攻撃的な野生動物。イルヴァのライオンより筋肉質で、体色も黄色い。タイマンでこいつを倒せるようになれば一人前の戦士として認められる。",
+      "target": "가이아스 비스의 사나운 야생동물. 이르바의 사자보다 근육질이고 털빛도 노랗다. 일대일 대결에서 이겨야 한 사람 몫의 전사로 인정받는다.",
+      "source_ref": [
+        "2.335:start.hsp:258718",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/954",
+        "This is an aggressive wild animal that lives in North Tyris towards Gaius Vis. It is more muscular than the lion of Irva and has a yellow body color. If you can beat this guy in a match you will be recognized as a full-fledged warrior."
+      ],
+      "card_id": 954
+    },
+    {
+      "source": "@card/header/954",
+      "target": "사자  번호 954  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:258721",
+        "2.335:start.hsp:258724",
+        "2.335:start.hsp:258726",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 954
+    },
+    {
+      "source": "神、悪魔、地霊などの側面を持つ妖怪だが元々は人間。荒々しい性格で非常に力も強く、邪魔するものを粉々に「砕き」排除する。人と意気投合し、親しくなることもある。",
+      "target": "신과 악마, 지령의 성질을 지닌 요괴로 본래는 인간이었다. 난폭하고 힘이 세서 방해물을 산산조각 낸다. 때로는 사람과 마음이 맞아 친구가 된다.",
+      "source_ref": [
+        "2.335:start.hsp:261812",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/717",
+        "They were originally human though they have aspects such as gods demons and earth spirits. They have a rugged personality and are extremely powerful shattering and eliminating anything that gets in their way. It is possible to hit it off with them and get to know them well."
+      ],
+      "card_id": 717
+    },
+    {
+      "source": "@card/header/717",
+      "target": "쇄귀  번호 717  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261815",
+        "2.335:start.hsp:261818",
+        "2.335:start.hsp:261820",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 717
+    },
+    {
+      "source": "地下世界で崇拝されている神の一柱。比較的寛容で、敬虔な信者には力を貸す事すらある。このイルヴァにおいては他の神の力が強い為、完全な形で降臨する事はできない。",
+      "target": "지하 세계의 신 가운데 하나. 너그러운 편이라 독실한 신도에게 힘을 빌려주기도 한다. 이르바에서는 토착 신들의 힘에 밀려 온전히 강림하지 못한다.",
+      "source_ref": [
+        "2.335:start.hsp:266050",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/391"
+      ],
+      "card_id": 391
+    },
+    {
+      "source": "@card/header/391",
+      "target": "차토구아  번호 391  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:266053",
+        "2.335:start.hsp:266056",
+        "2.335:start.hsp:266058",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 391
+    },
+    {
+      "source": "赤い義眼のクルイツゥアの夫である邪悪な竜。魔石を保持する妻と共に、灼熱の塔を支配していた。皮膚だけでなく消化器官も鋼鉄のように丈夫であり、何でもよく食べる。",
+      "target": "붉은 의안의 크루이츠아와 결혼한 사악한 용. 마석을 지닌 아내와 함께 작열의 탑을 지배했다. 가죽뿐 아니라 위장도 강철처럼 튼튼해 무엇이든 잘 먹는다.",
+      "source_ref": [
+        "2.335:start.hsp:266921",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/145"
+      ],
+      "card_id": 145
+    },
+    {
+      "source": "@card/header/145",
+      "target": "강철룡 코르곤  번호 145  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:266924",
+        "2.335:start.hsp:266927",
+        "2.335:start.hsp:266929",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 145
+    },
+    {
+      "source": "イルヴァに存在しない物質で作られている。このゴーレムが空から降ってきたという目撃談があり、天空に別の世界が存在するのではないかと議論の的になっていたことも。",
+      "target": "이르바에 없는 물질로 만든 골렘. 하늘에서 떨어졌다는 목격담이 돌아 한동안 하늘 위에 다른 세계가 있는지를 두고 논란이 일었다.",
+      "source_ref": [
+        "2.335:start.hsp:269391",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/137"
+      ],
+      "card_id": 137
+    },
+    {
+      "source": "@card/header/137",
+      "target": "스카이 골렘  번호 137  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:269394",
+        "2.335:start.hsp:269397",
+        "2.335:start.hsp:269399",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 137
+    },
+    {
+      "source": "別名、クイックリングの仕事人。小さい体を活かして闇に紛れ、標的を待ち伏せする。そして糸を自在に操って目にもとまらぬ速さで標的を惨殺するのだ。その腕前は鮮やか。",
+      "target": "일명 퀵클링 해결사. 작은 몸을 어둠에 숨겨 표적을 기다렸다가 눈에 보이지 않을 만큼 빠르게 실을 놀려 해치운다. 솜씨 하나는 일품이다.",
+      "source_ref": [
+        "2.335:start.hsp:259849",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/867",
+        "Also known as a quickling workman. He uses his small body to blend in with the darkness and ambush his targets. He then manipulates the string to slaughter the target with uncanny speed. His skills are superb."
+      ],
+      "card_id": 867
+    },
+    {
+      "source": "@card/header/867",
+      "target": "헬 스트링  번호 867  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259852",
+        "2.335:start.hsp:259855",
+        "2.335:start.hsp:259857",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 867
+    },
+    {
+      "source": "石のように重い声で鳴く蛇。よって鳴蛇。4枚の翼を持ち、水中に巣を作る。水源地を占拠したり雲の中の水分を吸ったりするため、天敵のいない地域ではかんばつが起きる。",
+      "target": "돌처럼 묵직한 소리로 울어 명사라 불리는 네 날개 뱀. 물속에 둥지를 틀고 수원을 차지하거나 구름의 물기를 빨아들여 천적이 없는 곳에는 가뭄이 든다.",
+      "source_ref": [
+        "2.335:start.hsp:261669",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/728",
+        "A snake with a voice as heavy as stone. They have four wings and build a nest in the water. As they occupy water source areas and absorb moisture in the clouds drought occurs in areas without natural enemies."
+      ],
+      "card_id": 728
+    },
+    {
+      "source": "@card/header/728",
+      "target": "명사  번호 728  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:261672",
+        "2.335:start.hsp:261675",
+        "2.335:start.hsp:261677",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 728
+    },
+    {
+      "source": "宇宙の海をまたにかける伝説の勇者鮫の子孫。宇宙でも空でも海でも活動できる掟破りの海賊野郎。黄金の地とされる、先祖の生まれ故郷を探すうちにイルヴァに辿りついた。",
+      "target": "우주의 바다를 누볐다는 전설의 용사 상어의 후손. 우주와 하늘과 바다를 가리지 않는 해적이다. 황금의 땅이라는 선조의 고향을 찾아 이르바까지 왔다.",
+      "source_ref": [
+        "2.335:start.hsp:261955",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/706",
+        "A descendant of the legendary brave shark that ventured across the seas of space. He's a law-breaking pirate who can operate in space in the air and at sea. While searching for his ancestral birthplace which is said to be the land of gold he found himself in Irva."
+      ],
+      "card_id": 706
+    },
+    {
+      "source": "@card/header/706",
+      "target": "캡틴 샤크  번호 706  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261958",
+        "2.335:start.hsp:261961",
+        "2.335:start.hsp:261963",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 706
+    },
+    {
+      "source": "王妃を象った大きな駒。高い機動力と２種類の魔法の矢を使いこなす最強の駒。そのためキングは尻に敷かれている。一応言っておくが、別に王国を持っているわけではない。",
+      "target": "왕비를 본뜬 커다란 말. 기동력이 뛰어나고 두 종류의 마법 화살을 다뤄 기물 중 가장 강하다. 킹도 꼼짝 못 한다. 그렇다고 왕국이 있는 건 아니다.",
+      "source_ref": [
+        "2.335:start.hsp:269547",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/157"
+      ],
+      "card_id": 157
+    },
+    {
+      "source": "@card/header/157",
+      "target": "퀸  번호 157  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269550",
+        "2.335:start.hsp:269553",
+        "2.335:start.hsp:269555",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 157
+    },
+    {
+      "source": "冥界の僻地に吹きすさぶという、瘴気の嵐の中で生まれる特殊なクイックリング。風の噂でストームブリンガーとかいう黒い剣があると聞いてから、運命めいたものを感じている。",
+      "target": "명계 변두리의 독기 폭풍 속에서 태어나는 특이한 퀵클링. 스톰브링어라는 검은 검이 있다는 소문을 듣고부터 운명 같은 걸 느끼고 있다.",
+      "source_ref": [
+        "2.335:start.hsp:259862",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/866",
+        "This special quickling is created by a storm of miasma that blew into a remote area of the underworld. They've felt a sense of destiny after hearing that there was a black sword called Stormbringer from rumors in the wind."
+      ],
+      "card_id": 866
+    },
+    {
+      "source": "@card/header/866",
+      "target": "스톰브링  번호 866  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259865",
+        "2.335:start.hsp:259868",
+        "2.335:start.hsp:259870",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 866
+    },
+    {
+      "source": "イルヴァ土着の深海の住人。もとは別の神を崇めていたが、ミヅキの祖先の強い神気にあてられて改宗した。生まれた時はほぼ人の姿だが、歳をとるにつれて魚っぽくなっていく。",
+      "target": "이르바 심해의 토착민. 다른 신을 섬기다가 미즈키의 선조에게서 뿜어져 나오는 신기를 맞고 개종했다. 태어날 때는 사람에 가깝지만 나이가 들수록 물고기를 닮는다.",
+      "source_ref": [
+        "2.335:start.hsp:264815",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/486"
+      ],
+      "card_id": 486
+    },
+    {
+      "source": "@card/header/486",
+      "target": "심연의 주민  번호 486  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:264818",
+        "2.335:start.hsp:264821",
+        "2.335:start.hsp:264823",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 486
+    },
+    {
+      "source": "神、悪魔、地霊などの側面を持つ妖怪だが元々は人間。クールで冷静だが荒々しい衝動を秘めている。力と技をあわせ持ち、刃物の扱いに長け、邪魔するものを「切裂き」排除する。",
+      "target": "본래 인간이었으나 신과 악마, 지령의 면모를 얻은 요괴. 냉정한 태도 속에 사나운 충동을 감췄다. 힘과 기교를 겸비해 앞을 막는 자를 칼로 찢어 버린다.",
+      "source_ref": [
+        "2.335:start.hsp:261799",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/718",
+        "They are originally human though they have aspects such as gods demons and earth spirits. They're cool and calm but they have wild impulses. They possess a combination of strength and skill and are skilled with blades and can cut through anything that gets in their way."
+      ],
+      "card_id": 718
+    },
+    {
+      "source": "@card/header/718",
+      "target": "열귀  번호 718  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261802",
+        "2.335:start.hsp:261805",
+        "2.335:start.hsp:261807",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 718
+    },
+    {
+      "source": "粗末にされた栗たちが恨みを晴らすため寄り集まって巨人に化けた姿。強固な肉体を持ち、火を浴びても熱ではじけたりはしない。仲間想いな性格で、栗をぶつけられると心が痛む。",
+      "target": "함부로 다뤄진 밤들이 원한을 풀려고 모여 거인으로 변했다. 몸이 단단해 불을 맞아도 터지지 않는다. 동료애가 깊어 밤을 던져 맞히면 마음이 아프다.",
+      "source_ref": [
+        "2.335:start.hsp:262982",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/627",
+        "Chestnuts that were mistreated gather together to get rid of their resentment and transform themselves into giants. It has a strong body and does not burst from the heat even when exposed to fire. It has a companionate nature and its heart aches when it hits another chestnut."
+      ],
+      "card_id": 627
+    },
+    {
+      "source": "@card/header/627",
+      "target": "밤 거인  번호 627  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:262985",
+        "2.335:start.hsp:262988",
+        "2.335:start.hsp:262990",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 627
+    },
+    {
+      "source": "決戦兵器の追加武装として開発された。接続して最大出力で発射した場合、余波でイルヴァの地殻が崩壊する危険性があると判明したため、やむなく砲台として単機運用されている。",
+      "target": "결전 병기의 추가 무장으로 개발됐다. 본체에 연결해 최대 출력으로 쏘면 여파로 이르바의 지각이 무너질 위험이 있어 독립 포대로만 운용한다.",
+      "source_ref": [
+        "2.335:start.hsp:263944",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/553",
+        "It was developed as an additional armament to the decisive weapon. When connected and fired at maximum power it was found that there was a danger of the crust of Irva collapsing in the aftermath so it was reluctantly operated as a stand-alone turret."
+      ],
+      "card_id": 553
+    },
+    {
+      "source": "@card/header/553",
+      "target": "이에르스 초중력포  번호 553  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:263947",
+        "2.335:start.hsp:263950",
+        "2.335:start.hsp:263952",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 553
+    },
+    {
+      "source": "追加武装で機動力と防御力が向上しており、プチなのにエリート機械兵より戦力になる場合も多い。迷子にならないよう、行軍の際はジョイントを用いて列車のように連結走行する。",
+      "target": "추가 무장으로 기동력과 방어력이 높아져 푸치인데도 정예 기계병보다 든든할 때가 많다. 행군할 때는 길을 잃지 않도록 열차처럼 연결해 달린다.",
+      "source_ref": [
+        "2.335:start.hsp:270444",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/212"
+      ],
+      "card_id": 212
+    },
+    {
+      "source": "@card/header/212",
+      "target": "푸치 탱크  번호 212  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:270447",
+        "2.335:start.hsp:270450",
+        "2.335:start.hsp:270452",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 212
+    },
+    {
+      "source": "低級の神や精霊を宿らせた折り紙。十字に分かれた口を開閉することで対象の運気を操作し死に至らしめる。興味本位で口の中に指を突っ込むとパックンチョと噛みつかれるので注意。",
+      "target": "하급 신이나 정령을 깃들인 종이접기. 십자로 난 입을 여닫아 상대의 운을 조종하고 죽음에 이르게 한다. 호기심에 손가락을 넣었다간 덥석 물린다.",
+      "source_ref": [
+        "2.335:start.hsp:256001",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1163"
+      ],
+      "card_id": 1163
+    },
+    {
+      "source": "@card/header/1163",
+      "target": "점치는 종이 식신  번호 1163  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:256004",
+        "2.335:start.hsp:256007",
+        "2.335:start.hsp:256009",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1163
+    },
+    {
+      "source": "５体の竜族が融合して産まれた。その圧倒的な力に魅せられた人々の畏敬を集め、もはや神としての側面すらもつ。一斉にブレスを吐くと酸欠になるため、一本ずつ交代で吐いている。",
+      "target": "다섯 용이 융합해 태어났다. 압도적인 힘에 경외를 바치는 이들이 늘어 신의 면모도 지니게 됐다. 동시에 숨결을 뿜으면 산소가 부족해 머리마다 번갈아 뿜는다.",
+      "source_ref": [
+        "2.335:start.hsp:265491",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/434"
+      ],
+      "card_id": 434
+    },
+    {
+      "source": "@card/header/434",
+      "target": "오두룡신  번호 434  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:265494",
+        "2.335:start.hsp:265497",
+        "2.335:start.hsp:265499",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 434
+    },
+    {
+      "source": "髪の毛でもある蛇は一匹一匹が自我を持っており、ときおり本体と喧嘩している姿が目撃されている。脱皮の時期は頭がすごいことになる。蛇とのコンビネーションで相手を幻惑する。",
+      "target": "머리카락인 뱀은 저마다 자아가 있어 가끔 본체와 싸우기도 한다. 허물 벗는 계절이면 머리가 볼만하다. 뱀들과 호흡을 맞춰 상대를 현혹한다.",
+      "source_ref": [
+        "2.335:start.hsp:269066",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/115"
+      ],
+      "card_id": 115
+    },
+    {
+      "source": "@card/header/115",
+      "target": "에우리알레  번호 115  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:269069",
+        "2.335:start.hsp:269072",
+        "2.335:start.hsp:269074",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 115
+    },
+    {
+      "source": "武人の魂を宿した勇猛なキュウリ。伝説生物カッパはこのキュウリの抵抗にあい滅んだことにされている。だが実際は食料不足で人里を荒らすようになったため人間に滅ぼされたのである。",
+      "target": "무사의 혼이 깃든 용맹한 오이. 전설 속 갓파는 오이의 항전에 멸종했다고 전해진다. 실은 먹을 것이 모자라 마을을 털다가 인간에게 멸종당했다.",
+      "source_ref": [
+        "2.335:start.hsp:260356",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/828",
+        "A brave cucumber with the soul of a warrior. It is believed that the legendary creature Kappa perished due to the resistance of these cucumber species. In reality however they were destroyed by humans because of a shortage of food which caused them to wreak havoc in the countryside."
+      ],
+      "card_id": 828
+    },
+    {
+      "source": "@card/header/828",
+      "target": "오이 무사  번호 828  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:260359",
+        "2.335:start.hsp:260362",
+        "2.335:start.hsp:260364",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 828
+    },
+    {
+      "source": "より戦闘に特化したエイリアン。過去に寄生した生物の遺伝子を取り込んでおり、知能、身体能力ともに普通のエイリアンとは比べ物にならない。酸性の粘液を積極的に武器として用いる。",
+      "target": "과거에 기생한 생물의 유전자를 흡수해 전투에 특화됐다. 지능이며 신체 능력이며 보통 에일리언과 비교가 되지 않는다. 산성 점액을 무기로 써먹는다.",
+      "source_ref": [
+        "2.335:start.hsp:261825",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/716",
+        "An alien that specializes more in combat. It has taken in the genes of a parasitic organism from the past and its intelligence and physical abilities are beyond those of ordinary aliens. It actively uses acidic mucus as a weapon."
+      ],
+      "card_id": 716
+    },
+    {
+      "source": "@card/header/716",
+      "target": "전투 에일리언  번호 716  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261828",
+        "2.335:start.hsp:261831",
+        "2.335:start.hsp:261833",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 716
+    },
+    {
+      "source": "ポート・カプールの好色男。幼少時母親の愛を得られなかった気の毒な過去があり、母の面影を人妻の中に探している。同情する人も多いが、迷惑なエロオヤジであることに変わりはない。",
+      "target": "포트 카풀의 호색한. 어린 시절 받지 못한 어머니의 사랑을 남의 아내에게서 찾는다. 동정하는 이도 많지만 성가신 음흉한 아저씨인 건 달라지지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:270496",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/223"
+      ],
+      "card_id": 223
+    },
+    {
+      "source": "@card/header/223",
+      "target": "바람둥이 라파엘로  번호 223  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:270499",
+        "2.335:start.hsp:270502",
+        "2.335:start.hsp:270504",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 223
+    },
+    {
+      "source": "魔神の力を宿した下級神。シンプルに暴力を得意とするが、場合によっては酸の嵐も吐いたりする。知能が低く、ほとんど本能で動いている。見た目は蟹っぽいが身体構造は全く別物である。",
+      "target": "마신의 힘이 깃든 하급 신. 주로 힘으로 싸우지만 때로는 산성 폭풍을 뿜는다. 지능이 낮아 거의 본능대로 움직인다. 게처럼 생겼지만 몸의 구조는 딴판이다.",
+      "source_ref": [
+        "2.335:start.hsp:257379",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1057"
+      ],
+      "card_id": 1057
+    },
+    {
+      "source": "@card/header/1057",
+      "target": "붉은 마신병  번호 1057  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257382",
+        "2.335:start.hsp:257385",
+        "2.335:start.hsp:257387",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1057
+    },
+    {
+      "source": "イークの古代種。体が頑丈で力も強いが、他の生物に比べるとやはり劣る。そのためか現代では繁殖力が高く小型の種類のイークが台頭している。あまり群れようとしないが仲間意識は強い。",
+      "target": "튼튼하고 힘센 고대 이이크도 다른 생물과 견주면 약하다. 그래서인지 요즘은 작고 번식력 좋은 이이크가 대세다. 무리를 잘 짓지 않아도 동료 의식은 강하다.",
+      "source_ref": [
+        "2.335:start.hsp:259810",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/870",
+        "An ancient species of yeek. Their bodies are strong and sturdy but they are not as strong as other creatures. Perhaps because of this small highly fertile species of yeek have emerged in modern times. They don't try to flock but they have a strong sense of camaraderie."
+      ],
+      "card_id": 870
+    },
+    {
+      "source": "@card/header/870",
+      "target": "고대 이이크  번호 870  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:259813",
+        "2.335:start.hsp:259816",
+        "2.335:start.hsp:259818",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 870
+    },
+    {
+      "source": "大人しい性格と白く流れるような毛並みで、家飼いに大人気の猫。小柄で大人になっても大きさは子猫とそう変わらないが、これは相当無茶な交雑を繰り返しての品種「改良」の成果である。",
+      "target": "온순한 성격과 흰 비단결 같은 털로 사랑받는 집고양이. 다 자라도 새끼와 크기가 비슷하다. 무리한 교배를 거듭한 품종 ‘개량’의 결과다.",
+      "source_ref": [
+        "2.335:start.hsp:269768",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/246"
+      ],
+      "card_id": 246
+    },
+    {
+      "source": "@card/header/246",
+      "target": "실버 캣  번호 246  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:269771",
+        "2.335:start.hsp:269774",
+        "2.335:start.hsp:269776",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 246
+    },
+    {
+      "source": "化け物サイズに育った南瓜に自我が宿った。初めて遭遇したヨウィンの農夫によってそのまんまの名前をつけられた。肉食に目覚めて動物を食べまくった結果、実から野菜っぽい味が消えた。",
+      "target": "괴물만큼 커진 호박에 자아가 생겼다. 요윈에서 처음 마주친 농부가 보이는 대로 이름을 지었다. 고기 맛을 알고 짐승을 먹어치운 끝에 속살에서 채소 맛마저 사라졌다.",
+      "source_ref": [
+        "2.335:start.hsp:270353",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/197"
+      ],
+      "card_id": 197
+    },
+    {
+      "source": "@card/header/197",
+      "target": "호박 괴물  번호 197  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:270356",
+        "2.335:start.hsp:270359",
+        "2.335:start.hsp:270361",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 197
+    },
+    {
+      "source": "最近の安売りの結果、質の低下が懸念されている。なお、イルヴァでは男性であってもメイドと呼ぶ。どんな屈強な冒険者であろうと、主人が会うと言うまで玄関に入らせない気丈さを持つ。",
+      "target": "최근 헐값에 팔리면서 자질이 떨어진다는 걱정이 많다. 이르바에서는 남자도 메이드라 부른다. 아무리 건장한 모험가라도 주인이 만나겠다고 하기 전에는 문턱을 못 넘는다.",
+      "source_ref": [
+        "2.335:start.hsp:270431",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/205"
+      ],
+      "card_id": 205
+    },
+    {
+      "source": "@card/header/205",
+      "target": "메이드  번호 205  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:270434",
+        "2.335:start.hsp:270437",
+        "2.335:start.hsp:270439",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 205
+    },
+    {
+      "source": "より効率よく、残忍に生物を殺戮する為に改良された機械兵士。その身は返り血で赤く染まりもはや元の色すら分からない。刃の部分は切れ味が鈍ると勝手に折れて次の新しい刃が生えてくる。",
+      "target": "더 효율적이고 잔인하게 생물을 죽이도록 개량한 기계병. 튄 피로 붉게 물들어 원래 색도 알 수 없다. 칼날이 무뎌지면 저절로 부러지고 새 칼날이 돋는다.",
+      "source_ref": [
+        "2.335:start.hsp:270184",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/188"
+      ],
+      "card_id": 188
+    },
+    {
+      "source": "@card/header/188",
+      "target": "블레이드 오메가  번호 188  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:270187",
+        "2.335:start.hsp:270190",
+        "2.335:start.hsp:270192",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 188
+    },
+    {
+      "source": "強い魔力と知性を持った狐。昔は滅びた村の周囲にひっそりと生息していたが最近は孤独に耐えられず、人間に化けて街に紛れ込み生活している。同じく紛れ込んでいる人狼を邪魔に思っている。",
+      "target": "마력과 지성이 높은 여우. 한때 폐촌에 숨어 살았지만 외로움을 견디지 못해 요즘은 사람으로 둔갑해 마을에 섞여 산다. 똑같이 숨어든 늑대인간이 눈엣가시다.",
+      "source_ref": [
+        "2.335:start.hsp:262384",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/673",
+        "A fox with strong magic and intelligence. They used to live quietly around a ruined village but these days they can't stand the solitude so they disguise themselves as humans and live among the city. They think that the werewolves who are also among them are in the way."
+      ],
+      "card_id": 673
+    },
+    {
+      "source": "@card/header/673",
+      "target": "요호  번호 673  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:262387",
+        "2.335:start.hsp:262390",
+        "2.335:start.hsp:262392",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 673
+    },
+    {
+      "source": "魔神の力を宿した下級神。頭部から精神を蝕む怪光を放つ。精神攻撃が主なため、知能の低い相手は苦手。１つの身体に２つの女性人格が同居しているが、特に喧嘩もせず仲良くやっているようだ。",
+      "target": "마신의 힘이 깃든 하급 신. 머리에서 정신을 갉아먹는 괴광선을 쏜다. 지능이 낮은 적은 상대하기 힘들다. 한 몸에 여성 인격 둘이 깃들었지만 사이가 좋다.",
+      "source_ref": [
+        "2.335:start.hsp:257353",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1059"
+      ],
+      "card_id": 1059
+    },
+    {
+      "source": "@card/header/1059",
+      "target": "비취 마신병  번호 1059  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257356",
+        "2.335:start.hsp:257359",
+        "2.335:start.hsp:257361",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1059
+    },
+    {
+      "source": "事故で人間並みの知性を手に入れたが、代償に理性が欠如したイーク。それゆえに悪魔や邪神の強大さに簡単に魅入られてしまった。他のイークたちからは、近寄るとヤバイやつだと認識されている。",
+      "target": "사고로 인간만 한 지능을 얻은 대신 이성을 잃었다. 악마와 사신의 힘에 쉽게 매료된다. 다른 이이크들은 가까이하면 위험한 녀석이라고 여긴다.",
+      "source_ref": [
+        "2.335:start.hsp:259771",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/873",
+        "In an accident he gains human-level intelligence but at the cost of his mind losing his reason. That's why he was so easily enchanted by the mighty power of demons and evil gods. The other yeeks recognize him as a dangerous individual if he gets close to them."
+      ],
+      "card_id": 873
+    },
+    {
+      "source": "@card/header/873",
+      "target": "루나틱 이이크  번호 873  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259774",
+        "2.335:start.hsp:259777",
+        "2.335:start.hsp:259779",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 873
+    },
+    {
+      "source": "妄人はワンニンと読む。邪気に侵され半分冷蔵庫になってしまった人間。妄想し続けないと自我を失い完全に冷蔵庫になってしまう状態にある。属性攻撃を一部吸収し、即座に射出することができる。",
+      "target": "사기에 물들어 반쯤 냉장고가 된 인간. 계속 망상하지 않으면 자아를 잃고 아예 냉장고가 된다. 속성 공격을 일부 흡수했다가 즉시 되쏠 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:261994",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/703",
+        "A person who has been invaded by evil spirits and has become half a refrigerator. It is in a state where if it does not continue to fantasize it will lose its ego and become a complete fridge. It absorbs some of the attribute attacks and can be immediately ejected."
+      ],
+      "card_id": 703
+    },
+    {
+      "source": "@card/header/703",
+      "target": "초급 왕닌  번호 703  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261997",
+        "2.335:start.hsp:262000",
+        "2.335:start.hsp:262002",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 703
+    },
+    {
+      "source": "イークの古代種。種類関係なくイーク族を使役する能力を持つ。イークのイークによるイークのための国家を創る、という大層な野望を持っているが、具体的にどうすればいいのかまでは考えていない。",
+      "target": "종류를 가리지 않고 이이크를 부리는 고대종. 이이크의, 이이크에 의한, 이이크를 위한 나라를 세우겠다는 야망은 크지만 방법까지 생각해 둔 건 아니다.",
+      "source_ref": [
+        "2.335:start.hsp:259784",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/872",
+        "An ancient species of yeeks. It has the ability to employ yeek tribes regardless of type. He has grand ambitions to create a nation of yeeks by yeeks for yeeks but he doesn't even think about how to go about it concretely."
+      ],
+      "card_id": 872
+    },
+    {
+      "source": "@card/header/872",
+      "target": "마스터 고대 이이크  번호 872  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:259787",
+        "2.335:start.hsp:259790",
+        "2.335:start.hsp:259792",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 872
+    },
+    {
+      "source": "遠い昔に集落を去った丘の民たちの子孫。外の世界に出て何世代も生活してきたためか、本来の丘の民たちよりも開放的で挑戦的な性格をしている。何者かに召喚され、先祖ゆかりの地へたどり着いた。",
+      "target": "오래전 마을을 떠난 언덕 사람들의 후손. 바깥세상에서 대를 이어 살아 본래의 언덕 사람들보다 개방적이고 도전적이다. 누군가의 소환으로 조상의 땅에 돌아왔다.",
+      "source_ref": [
+        "2.335:start.hsp:262657",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/652",
+        "The descendants of the hillfolk who left the settlement in the distant past. Perhaps because she has lived in the outside world for generations she has a more open and challenging personality than the original hillfolk. She was summoned by someone and arrived at a place related to her ancestors."
+      ],
+      "card_id": 652
+    },
+    {
+      "source": "@card/header/652",
+      "target": "이방의 연구자 일마  번호 652  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:262660",
+        "2.335:start.hsp:262663",
+        "2.335:start.hsp:262665",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 652
+    },
+    {
+      "source": "暗黒をもたらす息吹を放つ犬。対象が見えなければ多くの魔法は発動できないため、多くの魔法使いの天敵と言える。性格もダークで、かわいそうなインド象をもそそのかし暗黒面に叩き落とすという。",
+      "target": "어둠을 뿜어 표적을 봐야 주문을 쓸 수 있는 마법사들의 천적이다. 성격도 어두워 불쌍한 인도코끼리마저 꾀어 암흑면에 빠뜨린다고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:268312",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/54"
+      ],
+      "card_id": 54
+    },
+    {
+      "source": "@card/header/54",
+      "target": "암흑 사냥개  번호 54  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:268315",
+        "2.335:start.hsp:268318",
+        "2.335:start.hsp:268320",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 54
+    },
+    {
+      "source": "かわいそうな私アピールのためだけに地雷原に住んでいるメンヘラ。すぐ感情などを爆発させるし、一緒に死のうとしてくるので厄介。対戦車といっても人がぞんざいに扱って大丈夫というわけではない。",
+      "target": "불쌍해 보이려고 지뢰밭에서 산다. 감정이 금방 폭발하고 같이 죽자고 접근한다. 대전차용이라는 말만 믿고 사람이 함부로 다뤘다간 큰일 난다.",
+      "source_ref": [
+        "2.335:start.hsp:256820",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1100"
+      ],
+      "card_id": 1100
+    },
+    {
+      "source": "@card/header/1100",
+      "target": "대전차 지뢰계 소녀  번호 1100  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256823",
+        "2.335:start.hsp:256826",
+        "2.335:start.hsp:256828",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1100
+    },
+    {
+      "source": "ガイアス・ヴィスに生息する野生動物。タートルラビットとソックリで、背に亀の甲羅がついている…のだが、合成獣であるあちらと違ってこちらは天然進化の結果。背骨が外骨格として発達したらしい。",
+      "target": "가이아스 비스의 야생동물. 거북 등딱지를 져 거북토끼와 판박이지만 합성수는 아니다. 진화하면서 척추가 외골격으로 발달했다고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:258653",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/959",
+        "A wild animal that lives in North Tyris towards Gaius Vis. It looks a lot like the Turtle Rabbit with a turtle shell on its back... but unlike the synthetic beast this one is the result of natural evolution. Apparently the spine developed as an external skeleton."
+      ],
+      "card_id": 959
+    },
+    {
+      "source": "@card/header/959",
+      "target": "토끼  번호 959  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:258656",
+        "2.335:start.hsp:258659",
+        "2.335:start.hsp:258661",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 959
+    },
+    {
+      "source": "クイックリングの近縁種。草原で踊り狂う小人。手先が器用で陽気な性格。普段はステップが速すぎてどんな踊りなのかよくわからないが、時折見せる魅力的な動作と妖しい視線は、観客の心を一瞬で惑わす。",
+      "target": "초원에서 춤에 미쳐 사는 퀵클링의 친척. 손재주가 좋고 명랑하다. 발놀림이 너무 빨라 무슨 춤인지 모르다가도 매혹적인 몸짓과 묘한 눈길에 관객은 금세 홀린다.",
+      "source_ref": [
+        "2.335:start.hsp:259888",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/864",
+        "A close relative of Quickling. A midget dancing in the meadow. He has a dexterous hand and a cheerful personality. Usually the steps are too fast to know what kind of dance they are doing but sometimes their charming movements and mysterious gazes will bewitch the audience in an instant."
+      ],
+      "card_id": 864
+    },
+    {
+      "source": "@card/header/864",
+      "target": "풀밭 춤꾼  번호 864  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259891",
+        "2.335:start.hsp:259894",
+        "2.335:start.hsp:259896",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 864
+    },
+    {
+      "source": "まだ子供だが見た目は大人とほとんど変わらない。喋り方もほぼ同じだが丘の民の間では服装や雰囲気で区別できるらしい。職人の厳しさと苦しさを子供ながらに予見しており、その道を選ぼうとはしない。",
+      "target": "어른과 생김새도 말투도 거의 같다. 언덕 사람들은 옷과 분위기로 구분한다고 한다. 어린 나이에 벌써 장인의 고생을 짐작해 그 길을 택하려 하지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:262709",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/648",
+        "He's still a child but he looks almost the same as an adult. The way they speak is almost the same but among the hillfolk they can be distinguished by their clothes and atmosphere. Even as a child he foresees the harshness and pain of the craftsman and he does not choose to follow that path."
+      ],
+      "card_id": 648
+    },
+    {
+      "source": "@card/header/648",
+      "target": "언덕 아이  번호 648  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:262712",
+        "2.335:start.hsp:262715",
+        "2.335:start.hsp:262717",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 648
+    },
+    {
+      "source": "魔神の力を宿した下級神。胴体から魔力の熱線を発射し敵を焼き払う。力押しで来る相手を削り殺すのが得意だが、精神攻撃が苦手。身体が青いのに高熱攻撃するのはイメージ違いだろうか？と悩んでいる。",
+      "target": "마신의 힘이 깃든 하급 신. 몸통에서 마력의 열선을 쏴 힘으로 밀어붙이는 적을 서서히 태워 죽인다. 정신 공격에는 약하다. 파란 몸에 열선이 어울리는지 고민한다.",
+      "source_ref": [
+        "2.335:start.hsp:257366",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1058"
+      ],
+      "card_id": 1058
+    },
+    {
+      "source": "@card/header/1058",
+      "target": "푸른 마신병  번호 1058  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257369",
+        "2.335:start.hsp:257372",
+        "2.335:start.hsp:257374",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1058
+    },
+    {
+      "source": "強靭な筋肉の塊。構造・成り立ちから間違いなくゴーレムに分類され、人造人間などとはまた趣が異なる。筋肉の維持に生物を取り込む必要があるのだが、他生物の遺伝子が混ざりすぎると暴走してしまう。",
+      "target": "강인한 근육 덩어리. 구조와 기원으로 보아 인조인간과는 다른 엄연한 골렘이다. 근육을 유지하려면 생물을 흡수해야 하지만 남의 유전자가 너무 많이 섞이면 폭주한다.",
+      "source_ref": [
+        "2.335:start.hsp:261708",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/725",
+        "A mass of strong muscle. It is definitely categorized as a golem because of its structure and composition and it has a different flavor from an artificial person. They need to take the organism in to maintain their muscles but if the genes of other organisms get mixed in too much they run amok."
+      ],
+      "card_id": 725
+    },
+    {
+      "source": "@card/header/725",
+      "target": "근육 골렘  번호 725  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261711",
+        "2.335:start.hsp:261714",
+        "2.335:start.hsp:261716",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 725
+    },
+    {
+      "source": "強力な神々の中の帝王を自称する。戦争に負けることもたまにあったが、それでも雷を象徴する強力無比な英雄神として信仰されていた。大戦時にはゼウスやトール相手に激しい電撃合戦を繰り広げたという。",
+      "target": "강대한 신들의 제왕임을 자처한다. 전쟁에서 지기도 했지만 천둥을 상징하는 막강한 영웅신으로 숭배받았다. 대전 때는 제우스, 토르와 격렬한 번개전을 벌였다고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:257951",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1013",
+        "He is a self-proclaimed emperor among the mighty gods. Although he occasionally lost wars he was still believed to be a powerful and matchless heroic god symbolizing lightning. During the Great War he fought a fierce blitzkrieg against Zeus and Thor."
+      ],
+      "card_id": 1013
+    },
+    {
+      "source": "@card/header/1013",
+      "target": "제석천 인드라  번호 1013  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257954",
+        "2.335:start.hsp:257957",
+        "2.335:start.hsp:257959",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1013
+    },
+    {
+      "source": "ヴァリウスが失脚した際に解体された、ロスリア騎士団が母体。ヴァリウスの復権に伴って密かに再招集され、影で様々な任務を遂行していた。エウダーナから流入した魔鎧を改良した物を着用している。",
+      "target": "바리우스가 실각할 때 해체된 로스리아 기사단이 전신이다. 그가 복권되자 비밀리에 다시 모여 여러 임무를 수행했다. 에우다나에서 들어온 마갑을 개량해 입는다.",
+      "source_ref": [
+        "2.335:start.hsp:259953",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/859",
+        "The parent company is the Knights of Lothria which was disbanded when Vallius was deposed. He was secretly recalled with the return of Vallius and carried out various missions in the shadows. He wears a modified version of the magical armor that came in from Eulderna."
+      ],
+      "card_id": 859
+    },
+    {
+      "source": "@card/header/859",
+      "target": "로스리아 특무부대  번호 859  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259956",
+        "2.335:start.hsp:259959",
+        "2.335:start.hsp:259961",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 859
+    },
+    {
+      "source": "丘の民の中でも情報通で外との架け橋。今でこそ髭はファッション扱いで言葉遣いも多様だが、彼らが外の世界の情報を流布させなければ、今でも女子供全員髭を生やし老人言葉なのが常識だっただろう。",
+      "target": "바깥 소식을 전하는 언덕 사람들의 가교. 이들 덕에 수염은 멋이 되고 말씨도 다양해졌다. 아니었다면 아직도 여자와 아이까지 수염을 기르고 노인 말투를 썼을 것이다.",
+      "source_ref": [
+        "2.335:start.hsp:262644",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/653",
+        "Even among the hillfolk he is a well-informed person and a bridge to the outside world. Nowadays beards are treated as a fashion and language is diverse but if they hadn't let the outside world influence them it would still be commonplace for all women and children to grow beards and use the old language."
+      ],
+      "card_id": 653
+    },
+    {
+      "source": "@card/header/653",
+      "target": "언덕의 현자  번호 653  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:262647",
+        "2.335:start.hsp:262650",
+        "2.335:start.hsp:262652",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 653
+    },
+    {
+      "source": "丘の民を仕切る長。昔は集落の中でも一番の名工で多くの弟子がいたが、弟子が自分を超えるのを恐れて難癖をつけ全員破門。職人として生きる自信を奪い、結果として若い民の伝統工芸離れを促進した。",
+      "target": "한때 마을 최고의 장인이었으나 제자들이 자신을 뛰어넘을까 두려워 트집을 잡아 모두 파문했다. 장인으로 살 자신감을 꺾어 젊은이들이 전통 공예를 멀리하게 만들었다.",
+      "source_ref": [
+        "2.335:start.hsp:262683",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/650",
+        "He is the chief in charge of the hill people. In the past he was the best craftsman in the village and had many pupils but all of them were excommunicated because he was afraid that his pupils would surpass him. It deprived them of the confidence to live as artisans and as a result it encouraged the young people to leave traditional crafts."
+      ],
+      "card_id": 650
+    },
+    {
+      "source": "@card/header/650",
+      "target": "언덕 족장 다인  번호 650  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:262686",
+        "2.335:start.hsp:262689",
+        "2.335:start.hsp:262691",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 650
+    },
+    {
+      "source": "生化学文明期に使われていた最上級アンデッド兵器。現存しないものと思われていたが、最近エウダーナの古代遺跡から他の兵器を伴い現れた。ある女性が制御に成功するまで破壊の限りを尽くしたという。",
+      "target": "생화학 문명기의 최상급 언데드 병기. 남아 있지 않다던 이 병기가 에우다나의 고대 유적에서 다른 병기들을 이끌고 나타났다. 한 여인이 통제하기까지 닥치는 대로 파괴했다.",
+      "source_ref": [
+        "2.335:start.hsp:259706",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/878",
+        "A superlative undead weapon used by the biochemical civilization. It was thought to be extinct but it recently emerged from the ancient ruins of Eulderna accompanied by other weapons. It is said that one woman went to great lengths to destroy it until she managed to get it under control."
+      ],
+      "card_id": 878
+    },
+    {
+      "source": "@card/header/878",
+      "target": "유나이데드 킹  번호 878  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259709",
+        "2.335:start.hsp:259712",
+        "2.335:start.hsp:259714",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 878
+    },
+    {
+      "source": "食べ歩きと剣客商売をしながら様々な星を渡り歩く剣士。普通の腕の他に、肩から伸びる２本の触手を用いて戦う。根っからの戦闘種族なのだが、性格は呑気。胃酸が特殊で、幻覚成分を含むゲップが出る。",
+      "target": "별들을 떠돌며 먹거리를 즐기고 검을 판다. 두 팔과 어깨의 촉수 두 개로 싸운다. 타고난 전투 종족치고는 느긋하다. 독특한 위산 때문에 트림에 환각 성분이 섞인다.",
+      "source_ref": [
+        "2.335:start.hsp:260499",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/817",
+        "A swordsman who travels the various stars while eating and peddling swords. In addition to his normal arms he fights with two tentacles that extend from his shoulders. He is a warrior at heart but his personality is a bit of a drinker. Stomach acid is special and burps with a hallucinogenic component."
+      ],
+      "card_id": 817
+    },
+    {
+      "source": "@card/header/817",
+      "target": "우주 검객 벨파르트  번호 817  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:260502",
+        "2.335:start.hsp:260505",
+        "2.335:start.hsp:260507",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 817
+    },
+    {
+      "source": "百ｍ前後もの体長を持つ巨大で細長い生物。不可視の存在。旺盛な食欲で大地を食らい、他の星を死滅させたこともある。イルヴァではギガモールという天敵がおり、たまらず地上へ逃げてくることが多い。",
+      "target": "몸길이 약 100미터의 가늘고 긴 투명 생물. 땅을 먹어 치우는 왕성한 식욕으로 다른 별을 멸망시킨 적도 있다. 이르바에서는 천적 기가몰을 못 견뎌 지상으로 달아나곤 한다.",
+      "source_ref": [
+        "2.335:start.hsp:261773",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/720",
+        "A huge slender creature with a body length of around one hundred meters. An invisible presence. It has devoured the earth with its voracious appetite and has even killed other stars. In Irva there is a natural enemy called Gigamor and it often runs away to the ground in desperation."
+      ],
+      "card_id": 720
+    },
+    {
+      "source": "@card/header/720",
+      "target": "돌  번호 720  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261776",
+        "2.335:start.hsp:261779",
+        "2.335:start.hsp:261781",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 720
+    },
+    {
+      "source": "古代より植林・搾取されてきた恨みから、人類を強烈花粉で苦しめて報復している。かつて杉山を焼き払いに向かった冒険者がいたが、寄ってたかって穴という穴に花粉を詰められ、変死体として発見された。",
+      "target": "옛날부터 심고 착취해 온 인간에게 독한 꽃가루로 복수한다. 삼나무산을 불태우러 간 한 모험가는 온몸의 구멍마다 꽃가루가 채워진 변사체로 발견됐다.",
+      "source_ref": [
+        "2.335:start.hsp:257327",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1061"
+      ],
+      "card_id": 1061
+    },
+    {
+      "source": "@card/header/1061",
+      "target": "원한 삼나무  번호 1061  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257330",
+        "2.335:start.hsp:257333",
+        "2.335:start.hsp:257335",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1061
+    },
+    {
+      "source": "かつては百発百中の魔弾の射手として恐れられた。いい気になって長年サボってしまい、ブランクにより腕前がカス同然に低下。過去の栄光を取り戻すため、チートに手を染めることを選んだ正真正銘のカス。",
+      "target": "한때 백발백중의 마탄 사수였으나 우쭐해 오래 놀다 보니 형편없는 솜씨만 남았다. 과거의 영광을 되찾겠다고 결국 진짜로 반칙에 손을 댔다.",
+      "source_ref": [
+        "2.335:start.hsp:257613",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1039"
+      ],
+      "card_id": 1039
+    },
+    {
+      "source": "@card/header/1039",
+      "target": "자동 조준 치타  번호 1039  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257616",
+        "2.335:start.hsp:257619",
+        "2.335:start.hsp:257621",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1039
+    },
+    {
+      "source": "自称、夜のエンターテイナー。仕える相手を次々に変え、骨抜きにして魔力を奪い取っていく悪魔のメイド。他のメイドたちに嫌われており、嫌味混じりに「魔女」と呼ばれている。チビなことが最大の悩み。",
+      "target": "자칭 밤의 흥행사. 주인을 갈아치우며 혼을 빼고 마력을 앗아 가는 악마 메이드다. 다른 메이드들은 비꼬아 마녀라 부른다. 가장 큰 고민은 작은 키다.",
+      "source_ref": [
+        "2.335:start.hsp:260252",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/836",
+        "She is a self-proclaimed night entertainer. A demon maid who transforms the partners she works with one after another stripping them of their bones and taking away their magical power. She is disliked by the other maids and is derisively referred to as a witch. Being small is her biggest annoyance."
+      ],
+      "card_id": 836
+    },
+    {
+      "source": "@card/header/836",
+      "target": "악마 메이드 마녀  번호 836  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:260255",
+        "2.335:start.hsp:260258",
+        "2.335:start.hsp:260260",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 836
+    },
+    {
+      "source": "子供の姿をしているが身体能力がやたらと高く、さらに戦闘慣れしている。記憶喪失だが、肝心なところが思い出せないだけで色々と断片は残っているのだとか。イルヴァの風景には全く見覚えが無いらしい。",
+      "target": "아이의 모습을 하고도 힘이 대단하고 싸움에 익숙하다. 기억을 잃었다지만 중요한 부분이 비었을 뿐 조각은 남아 있다고 한다. 이르바 풍경만은 전혀 낯이 익지 않다.",
+      "source_ref": [
+        "2.335:start.hsp:262202",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/687",
+        "Although she has the appearance of a child her physical abilities are extremely high and she is used to fighting. She has amnesia she just can't remember the important parts but there are many fragments left. Apparently she isn't at all familiar with the landscape of Irva."
+      ],
+      "card_id": 687
+    },
+    {
+      "source": "@card/header/687",
+      "target": "기억을 잃은 네레스  번호 687  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:262205",
+        "2.335:start.hsp:262208",
+        "2.335:start.hsp:262210",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 687
+    },
+    {
+      "source": "実戦に投入されることのなかったイェルスード２号機を改修した新型決戦兵器。表向きは性能強化と武装変更ということになっているが、一度没になった合体機構が開発主任の独断で秘密裏に復元されている。",
+      "target": "실전에 투입되지 않은 이에르수드 2호기를 개수한 결전 병기. 표면상 성능과 무장만 바뀌었지만 개발 주임이 독단으로 폐기됐던 합체 기구를 몰래 되살렸다.",
+      "source_ref": [
+        "2.335:start.hsp:262501",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/664",
+        "A new type of decisive weapon that is a modified version of the Yerleswood prototype which was never used in actual battle. On the surface it's supposed to be a performance enhancement and armament change but the merging mechanism which once disappeared has been restored in secret by the chief developer's discretion."
+      ],
+      "card_id": 664
+    },
+    {
+      "source": "@card/header/664",
+      "target": "네오 이에르수드  번호 664  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:262504",
+        "2.335:start.hsp:262507",
+        "2.335:start.hsp:262509",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 664
+    },
+    {
+      "source": "イェルス軍の公式広報キャラクター。余った広報予算を使い切るため開発主任にPR用の実機を作らせたところ、決戦兵器の規格落ち部品や不採用部品を流用。宣伝目的なのにやたら強力な機体へと仕上がった。",
+      "target": "이에르스군의 공식 홍보 캐릭터. 남은 홍보비를 쓰려고 개발 주임에게 실물을 맡겼더니 결전 병기의 규격 외·미채택 부품을 재활용해 홍보용치고 지나치게 강해졌다.",
+      "source_ref": [
+        "2.335:start.hsp:256300",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1140"
+      ],
+      "card_id": 1140
+    },
+    {
+      "source": "@card/header/1140",
+      "target": "기동 홍보 프로파 간더  번호 1140  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256303",
+        "2.335:start.hsp:256306",
+        "2.335:start.hsp:256308",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1140
+    },
+    {
+      "source": "かわいそうな私アピールのためだけに地雷原に住んでいるメンヘラ。すぐ感情などを爆発させるし、一緒に死のうとしてくるので厄介。見えている地雷なのだが、扇状に散弾をぶちかましてくるので回避は困難。",
+      "target": "불쌍해 보이고 싶어 지뢰밭에 산다. 감정을 터뜨리고 함께 죽자고 달려든다. 눈앞에 보이는 지뢰지만 산탄을 부채꼴로 뿌려 피하기가 어렵다.",
+      "source_ref": [
+        "2.335:start.hsp:256846",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1098"
+      ],
+      "card_id": 1098
+    },
+    {
+      "source": "@card/header/1098",
+      "target": "방향성 산탄 지뢰계 소녀  번호 1098  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:256849",
+        "2.335:start.hsp:256852",
+        "2.335:start.hsp:256854",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1098
+    },
+    {
+      "source": "人間に友好的な犬の神。人間嫌いの弟と喧嘩になり、森を出て彷徨った結果メイルーンへ辿り着いた。吹雪で遭難した旅人を導いている内に一部地域で信仰されるようになったが、まだまだマイナーな神らしい。",
+      "target": "인간에게 우호적인 개의 신. 인간을 싫어하는 남동생과 다투고 숲을 떠나 메이룬에 닿았다. 눈보라에 길 잃은 여행자를 인도해 일부 지방에서 섬기지만 아직 무명에 가깝다.",
+      "source_ref": [
+        "2.335:start.hsp:260187",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/841",
+        "A dog god who is friendly to humans. He got into a fight with his brother who hates humans and wandered out of the forest resulting in his arrival in Mayroon. While guiding travelers who were lost in a blizzard the god came to be worshipped in some areas but it seems that it is still a minor god."
+      ],
+      "card_id": 841
+    },
+    {
+      "source": "@card/header/841",
+      "target": "흰 얼음의 사이메브  번호 841  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:260190",
+        "2.335:start.hsp:260193",
+        "2.335:start.hsp:260195",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 841
+    },
+    {
+      "source": "深海で眠っていた九頭竜。半覚醒状態で本来の力は出せていないが強力な精神干渉能力と不死性を持つ。その正体は太古に飛来した宇宙生物で、第一期文明の覇権争いにも参加していた。ツァトゥグァとは親戚。",
+      "target": "심해에서 잠들었던 아홉 머리 용. 반쯤 깨어도 강대한 정신력과 불사성을 지녔다. 실은 태고에 날아온 우주 생물로 제1기 문명의 패권 다툼에도 끼었다. 차토구아의 친척이다.",
+      "source_ref": [
+        "2.335:start.hsp:262397",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/672",
+        "The nine head dragon was asleep in the deep sea. In his half-awakened state he does not have his original powers but he does have a powerful mental interference ability and immortality. Its true identity is a space creature that flew in from time immemorial and participated in the struggle for supremacy of the first civilization. He is related to Tsathoggua."
+      ],
+      "card_id": 672
+    },
+    {
+      "source": "@card/header/672",
+      "target": "깨어난 구두룡  번호 672  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:262400",
+        "2.335:start.hsp:262403",
+        "2.335:start.hsp:262405",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 672
+    },
+    {
+      "source": "かわいそうな私アピールのためだけに地雷原に住んでいるメンヘラ。すぐ感情などを爆発させるし、一緒に死のうとしてくるので厄介。普段は大人しいが、油断した頃にいきなり飛びついて加害してくるので危険。",
+      "target": "불쌍해 보이려고 지뢰밭에 산다. 감정을 폭발시키고 같이 죽자고 들이댄다. 평소에는 얌전하다가 방심한 순간 훌쩍 뛰어들어 해를 끼친다.",
+      "source_ref": [
+        "2.335:start.hsp:256833",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1099"
+      ],
+      "card_id": 1099
+    },
+    {
+      "source": "@card/header/1099",
+      "target": "도약 지뢰계 소녀  번호 1099  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:256836",
+        "2.335:start.hsp:256839",
+        "2.335:start.hsp:256841",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1099
+    },
+    {
+      "source": "黒いオーラの部分が本体。バフォメットの死骸を操って活動する。細菌を魔術で生成・制御して甚大な被害をもたらす。だが扱うのが封印当時の細菌ベースで、制御なしだとイルヴァの現代生物にはほぼ効かない。",
+      "target": "검은 기운이 본체로, 바포메트의 시체를 조종해 움직인다. 마술로 세균을 만들어 큰 피해를 낸다. 봉인 당시에 쓰던 균이라 통제 없이는 오늘날 이르바 생물에 거의 듣지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:261318",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/755",
+        "The black aura is the main body. It operates by manipulating the corpse of Baphomet. The germs are generated and controlled by magic to cause great damage. But the infection is based on germs from the time of the sealing and without control it is almost ineffective against modern creatures in Irva."
+      ],
+      "card_id": 755
+    },
+    {
+      "source": "@card/header/755",
+      "target": "역병의 악마 로아토니스  번호 755  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261321",
+        "2.335:start.hsp:261324",
+        "2.335:start.hsp:261326",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 755
+    },
+    {
+      "source": "宇宙のテクノロジーで強化された蜘蛛のような巨大生物。鋼のようなボディと驚異的な跳躍力を持つ。酸を練り混ぜた糸を吐いているが、イルヴァの大気とは相性が悪く、糸が分解され酸だけが飛び散ってしまう。",
+      "target": "우주 기술로 강화된 거대한 거미형 생물. 강철 같은 몸과 놀라운 도약력을 지녔다. 산을 섞은 실을 뱉는데 이르바 대기에서는 실이 분해돼 산만 튄다.",
+      "source_ref": [
+        "2.335:start.hsp:261851",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/714",
+        "A spider-like behemoth enhanced by space technology. It has a steel-like body and tremendous jumping power. It spits out a thread of kneaded acid but it is incompatible with Irva's atmosphere so the thread breaks down and only the acid splashes out."
+      ],
+      "card_id": 714
+    },
+    {
+      "source": "@card/header/714",
+      "target": "강철흉충  번호 714  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:261854",
+        "2.335:start.hsp:261857",
+        "2.335:start.hsp:261859",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 714
+    },
+    {
+      "source": "エレアの母とノーランドの父を持つ。両親の才能を受け継いでいるのか、若くしてとんでもない腕っぷしを誇る。アリベル七箇条という独自のルール・心構えを持っているが、これは父親の教えを参考にしたらしい。",
+      "target": "엘레아인 어머니와 놀랜드인 아버지 사이에서 태어났다. 부모의 재능을 물려받았는지 어린 나이에도 힘이 장사다. 자신만의 아리벨 칠계명은 아버지의 가르침에서 따왔다.",
+      "source_ref": [
+        "2.335:start.hsp:260772",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/796",
+        "She has a mother of Elea and a father of Norland. She may have inherited the talents of her parents but she is also proud of her skill at a young age. Aribel has her own rules and mindset called the Seven Articles which she refers to as her father's teachings."
+      ],
+      "card_id": 796
+    },
+    {
+      "source": "@card/header/796",
+      "target": "말괄량이 아리벨  번호 796  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:260775",
+        "2.335:start.hsp:260778",
+        "2.335:start.hsp:260780",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 796
+    },
+    {
+      "source": "別名ムジナ。味方を囲んで防御力の高い密集陣形を作る。狸とは親戚ではないのだが見た目が似ており、穴熊が掘った巣穴に狸が勝手に住み着くことがあるので本当に紛らわしい。同じ穴のムジナと言われて混同されがち。",
+      "target": "일명 무지나. 아군을 둘러싸 튼튼한 밀집 진형을 이룬다. 너구리와 친척도 아니지만 생김새가 비슷하고 파 둔 굴에 너구리가 눌러살아 같은 굴의 무지나라며 자주 혼동한다.",
+      "source_ref": [
+        "2.335:start.hsp:256339",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1137"
+      ],
+      "card_id": 1137
+    },
+    {
+      "source": "@card/header/1137",
+      "target": "진을 치는 오소리  번호 1137  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★",
+      "source_ref": [
+        "2.335:start.hsp:256342",
+        "2.335:start.hsp:256345",
+        "2.335:start.hsp:256347",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1137
+    },
+    {
+      "source": "カードに宿る精霊。カードを通じて使い手とシンクロすることでパワーアップし、姿を変えていく。魔力を帯びた翼で凄まじい風を巻き起こし敵を攻撃する怪鳥。仲間外のこのモンスターの速度はランク×2％アップする。",
+      "target": "카드를 통해 사용자와 동조하며 강해지고 모습을 바꾸는 카드 정령. 마력을 띤 날개로 거센 바람을 일으킨다. 동료가 아닌 이 괴물은 속도가 랭크당 2% 오른다.",
+      "source_ref": [
+        "2.335:start.hsp:256456",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1128"
+      ],
+      "card_id": 1128
+    },
+    {
+      "source": "@card/header/1128",
+      "target": "클로버 페더  번호 1128  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:256459",
+        "2.335:start.hsp:256462",
+        "2.335:start.hsp:256464",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1128
+    },
+    {
+      "source": "毛を刈った羊とそっくりな古代の獣。生贄として悪魔に捧げられそうになった際に、とっさに悪魔と契約してほぼ不死身となった。破壊と混沌をもたらしたが、この世の理を破りすぎた反動が一気に来て破滅したとされる。",
+      "target": "털 깎인 양을 닮은 고대 짐승. 제물로 바쳐질 찰나 악마와 계약해 거의 불사신이 됐다. 파괴와 혼돈을 일으키다 세상의 이치를 너무 많이 거스른 반동으로 몰락했다고 한다.",
+      "source_ref": [
+        "2.335:start.hsp:256729",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1107"
+      ],
+      "card_id": 1107
+    },
+    {
+      "source": "@card/header/1107",
+      "target": "복원된 짐승 염소  번호 1107  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256732",
+        "2.335:start.hsp:256735",
+        "2.335:start.hsp:256737",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1107
+    },
+    {
+      "source": "ゴーレムの技術を応用した人形。人形の意思でパーツを魔力変形させることができ、この機構がシームレスな表情変化を実現している。漏れた魔力が作用して髪の毛が少しずつ伸びることもあるが、不気味がらないように。",
+      "target": "골렘 기술을 응용한 인형. 스스로 마력으로 부품을 변형해 표정이 매끄럽게 바뀐다. 새어 나온 마력으로 머리카락이 조금씩 자라도 무서워할 일은 아니다.",
+      "source_ref": [
+        "2.335:start.hsp:258484",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/972",
+        "This is a doll based on the technology of a golem. The doll's parts can be magically transformed at will and this mechanism allows for seamless facial changes. The leaked magic may act on your hair and cause it to grow a little bit but don't be scared."
+      ],
+      "card_id": 972
+    },
+    {
+      "source": "@card/header/972",
+      "target": "비스크 인형  번호 972  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:258487",
+        "2.335:start.hsp:258490",
+        "2.335:start.hsp:258492",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 972
+    },
+    {
+      "source": "Unique-subconscious-extra-reactunt（特有潜在意識による範囲外反応体）の略称。特有の人間の潜在意識がこの世界の外の物と反応して、こちら側にその存在を定着させてしまった。",
+      "target": "특수 잠재의식 역외 반응체의 머리글자를 딴 이름. 어느 인간의 독특한 잠재의식이 이 세계 밖의 무언가와 반응해 그 존재를 이쪽 세계에 정착시켰다.",
+      "source_ref": [
+        "2.335:start.hsp:266466",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/343"
+      ],
+      "card_id": 343
+    },
+    {
+      "source": "@card/header/343",
+      "target": "유저  번호 343  효과: 아무것도 하지 않음  랭크 0  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:266469",
+        "2.335:start.hsp:266472",
+        "2.335:start.hsp:266474",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 343
+    },
+    {
+      "source": "あなたの血の繋がらない兄。ローランの雄はひどく病弱で大抵子供のうちに死ぬのだが、「弟妹たちを守る」という使命感のみで奇跡的に病魔に抗っている。本来なら今すぐ全身から血を吹きだして爆発四散するほどの重体。",
+      "target": "피가 섞이지 않은 오라비. 로란의 수컷은 대개 병약해 어릴 때 죽지만 동생들을 지키겠다는 사명감으로 버틴다. 사실 온몸에서 피를 뿜으며 터져도 이상하지 않을 만큼 위중하다.",
+      "source_ref": [
+        "2.335:start.hsp:259134",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/922",
+        "A brother with whom you are not related. Roran's males are so sickly that they usually die as children but he miraculously resists the disease with only his sense of duty to protect his brothers and sisters. Normally he would be in such serious condition that he would have bled out his entire body and exploded into four pieces right now."
+      ],
+      "card_id": 922
+    },
+    {
+      "source": "@card/header/922",
+      "target": "병약한 오라비  번호 922  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259137",
+        "2.335:start.hsp:259140",
+        "2.335:start.hsp:259142",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 922
+    },
+    {
+      "source": "弟狐のメイルーンでの姿。寒冷地に適応して耳や尻尾が小さくなり、表面積と体積の比が低くなっている。しかし小さくなっても狐耳が邪魔で防寒着のフードが被れない。クールな人に憧れて真似しているが根は寂しがり屋。",
+      "target": "여우 남동생이 메이룬의 추위에 적응하면서 귀와 꼬리가 작아져 몸집에 비해 표면적이 줄었다. 그래도 귀 때문에 후드를 못 쓴다. 차가운 척하지만 실은 외로움을 탄다.",
+      "source_ref": [
+        "2.335:start.hsp:259147",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/921",
+        "The brother fox in Mayroon. They are adapted to cold climates with smaller ears and tails and a lower ratio of surface area to volume. However even though he is smaller his fox ears are in the way and he can't cover the hood of his winter clothing. He admires and imitates cool people but he is lonely at heart."
+      ],
+      "card_id": 921
+    },
+    {
+      "source": "@card/header/921",
+      "target": "은여우 남동생  번호 921  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:259150",
+        "2.335:start.hsp:259153",
+        "2.335:start.hsp:259155",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 921
+    },
+    {
+      "source": "ダルフィに迷い込んできた大人しい大蛇。お腹を空かせて弱っている様子を見た住民がふざけて乾燥クラムベリーを食わせたところ、とってもキマる煙を吐き出した。それからは街のマスコット兼喫煙所として皆に可愛がられている。",
+      "target": "달피에 흘러든 순한 큰 뱀. 굶어 약해졌을 때 주민이 장난으로 말린 크람베리를 먹이자 취기가 도는 연기를 뿜었다. 그 뒤로 마을의 마스코트 겸 흡연장이 됐다.",
+      "source_ref": [
+        "2.335:start.hsp:256222",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1146"
+      ],
+      "card_id": 1146
+    },
+    {
+      "source": "@card/header/1146",
+      "target": "연기 뿜는 시샤 서펜트  번호 1146  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256225",
+        "2.335:start.hsp:256228",
+        "2.335:start.hsp:256230",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1146
+    },
+    {
+      "source": "カードに宿る精霊。カードを通じて使い手とシンクロすることでパワーアップし、姿を変えていく。身体についている真紅のダイヤは、眼としての機能も持つらしい。仲間外のこのモンスターが受けるダメージはランク×2％ダウンする。",
+      "target": "카드를 통해 사용자와 동조하며 강해지고 변신하는 정령. 몸의 새빨간 다이아몬드는 눈 역할도 한다. 동료가 아닌 이 괴물은 받는 피해가 랭크당 2% 줄어든다.",
+      "source_ref": [
+        "2.335:start.hsp:256443",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1129"
+      ],
+      "card_id": 1129
+    },
+    {
+      "source": "@card/header/1129",
+      "target": "다이아 아이즈  번호 1129  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:256446",
+        "2.335:start.hsp:256449",
+        "2.335:start.hsp:256451",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1129
+    },
+    {
+      "source": "カードに宿る精霊。カードを通じて使い手とシンクロすることでパワーアップし、姿を変えていく。スペード状の剣を振るう鎧の戦士。スピードには特に興味がない。仲間外のこのモンスターが与えるダメージはランク×2％アップする。",
+      "target": "카드로 사용자와 동조해 강해지고 변신하는 정령. 갑옷을 입고 스페이드 모양 검을 휘두른다. 속도에는 관심이 없다. 동료가 아니면 주는 피해가 랭크당 2% 오른다.",
+      "source_ref": [
+        "2.335:start.hsp:256469",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1127"
+      ],
+      "card_id": 1127
+    },
+    {
+      "source": "@card/header/1127",
+      "target": "스페이드 워리어  번호 1127  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:256472",
+        "2.335:start.hsp:256475",
+        "2.335:start.hsp:256477",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1127
+    },
+    {
+      "source": "現代イルヴァにおける人間ぶっ殺しナンバーワン生物。目立たないだけで死因の7～8割が蚊。ほぼビッグモスキートに自宅で襲われて死ぬ。インド象とかマンモスとか関係なく鉄拳で叩きのめし、性別とか産卵時期とか関係なく吸血する。",
+      "target": "오늘날 이르바에서 사람을 가장 많이 죽이는 생물. 눈에 안 띄지만 사망 원인의 7~8할이 집으로 쳐들어온 모기다. 코끼리도 매머드도 주먹으로 눕히고 성별과 산란기조차 가리지 않고 피를 빤다.",
+      "source_ref": [
+        "2.335:start.hsp:256274",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1142"
+      ],
+      "card_id": 1142
+    },
+    {
+      "source": "@card/header/1142",
+      "target": "거대 모기  번호 1142  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256277",
+        "2.335:start.hsp:256280",
+        "2.335:start.hsp:256282",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1142
+    },
+    {
+      "source": "食べすぎた者の元へなぜか飛んできて腹に激突し、相手を爆死させる怪鳥。かつてサウスティリスで大飢饉が起きて以降サウスティリスにのみ現れるようになったため、餓死者の怨念が宿っていて食べ過ぎを戒めているのだ、とウワサされる。",
+      "target": "과식한 이에게 날아와 배를 들이받아 폭사시키는 괴조. 남부 티리스의 대기근 뒤 그곳에서만 나타나 굶어 죽은 자들의 원한이 과식을 꾸짖는다는 소문이 돈다.",
+      "source_ref": [
+        "2.335:start.hsp:256092",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1156"
+      ],
+      "card_id": 1156
+    },
+    {
+      "source": "@card/header/1156",
+      "target": "충돌 딱따구리  번호 1156  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256095",
+        "2.335:start.hsp:256098",
+        "2.335:start.hsp:256100",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1156
+    },
+    {
+      "source": "エウダーナでポーション開発に用いられていた実験動物。度重なる実験の中で変異し、投与された薬物を貯蔵・合成する臓器…通称、ポーションぶくろが形成されている。体内合成した麻痺薬をまき散らして研究員たちを無力化し、脱走した。",
+      "target": "에우다나의 물약 실험동물. 반복 실험으로 변이해 약물을 저장하고 합성하는 ‘물약 주머니’가 생겼다. 몸속에서 만든 마비약을 뿌려 연구원들을 무력화하고 탈출했다.",
+      "source_ref": [
+        "2.335:start.hsp:256560",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1120"
+      ],
+      "card_id": 1120
+    },
+    {
+      "source": "@card/header/1120",
+      "target": "약물 모르모트  번호 1120  효과: 아무것도 하지 않음  랭크 1  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:256563",
+        "2.335:start.hsp:256566",
+        "2.335:start.hsp:256568",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1120
+    },
+    {
+      "source": "人型の巨大ドブネズミ。中に人など入っていない。直接戦闘はあまり得意ではなく、獲物が他の生物と戦っているところを見計らって全力で接近して襲い掛かる。どうでもいいが、大型のネズミがラット、小型のネズミがマウスという区分である。",
+      "target": "사람 모습을 한 거대한 시궁쥐. 안에 사람이 든 건 아니다. 정면 승부에 약해 먹잇감이 다른 생물과 싸우는 틈에 전속력으로 덮친다. 덧붙이자면 큰 쥐가 랫, 작은 쥐가 마우스다.",
+      "source_ref": [
+        "2.335:start.hsp:256586",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1118"
+      ],
+      "card_id": 1118
+    },
+    {
+      "source": "@card/header/1118",
+      "target": "돌격쥐  번호 1118  효과: 아무것도 하지 않음  랭크 1  희귀도 ★",
+      "source_ref": [
+        "2.335:start.hsp:256589",
+        "2.335:start.hsp:256592",
+        "2.335:start.hsp:256594",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1118
+    },
+    {
+      "source": "エウダーナに現れた忘却の女神の化身が捕獲・改造された姿。危険な魔術を応用して、特殊能力の制御と身体能力の向上が行われている。才ある術者なら記憶抹消能力を使わせることもできるが、術者の方も反動で記憶が蝕まれてしまうので危険。",
+      "target": "에우다나에 나타난 망각 여신의 화신을 붙잡아 개조했다. 위험한 마술로 특수 능력을 통제하고 몸을 강화했다. 재능 있는 술사는 기억 말소를 부릴 수 있지만 반동으로 제 기억도 잠식된다.",
+      "source_ref": [
+        "2.335:start.hsp:258965",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/935",
+        "A captured and altered incarnation of the Goddess of Oblivion that appeared in Eulderna. Dangerous magic has been applied to control special abilities and improve physical abilities. A skilled magician can use the memory wiping ability but the magician's memory will also be eroded by the reaction."
+      ],
+      "card_id": 935
+    },
+    {
+      "source": "@card/header/935",
+      "target": "망각의 흉수 나고레우  번호 935  효과: 아무것도 하지 않음  랭크 0  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:258968",
+        "2.335:start.hsp:258971",
+        "2.335:start.hsp:258973",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 935
+    },
+    {
+      "source": "中身だけ抜き取られて放置された宝箱に、自我が芽生えた。空っぽな自分を埋めるために人を食らい続け、小さな村を２つ壊滅させた過去を持つ。ゼミ創始者に敗れて無理やりマスコットにされたが、今は結構満たされた日々を送っているらしい。",
+      "target": "내용물만 털리고 버려진 보물 상자에 자아가 생겼다. 속을 채우려 사람을 먹어 작은 마을 둘을 멸망시켰다. 연구회 창시자에게 져 억지로 마스코트가 됐지만 요즘은 꽤 충만하게 산다.",
+      "source_ref": [
+        "2.335:start.hsp:259394",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/902",
+        "His soul was caught up by a treasure chest that had been plucked clean of its contents and abandoned. He has a history of devouring people to fill his empty self and destroying two small villages. He was defeated by the founder of the seminar and was made a mascot forcibly but now he seems to be living a pretty fulfilling life."
+      ],
+      "card_id": 902
+    },
+    {
+      "source": "@card/header/902",
+      "target": "마스코트 카라타  번호 902  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:259397",
+        "2.335:start.hsp:259400",
+        "2.335:start.hsp:259402",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 902
+    },
+    {
+      "source": "ソピアーの兄姉たちの集合体。深淵より流出したアイオンという神族。超永遠世界から、イルヴァおよびガイアス・ヴィスに移住してきた。超永遠世界の理を使って時間のありように干渉し、止まった時の中でも行動可能。そのため時間神としても扱われる。",
+      "target": "소피아의 형제자매가 뭉친 신족 아이온. 심연에서 나와 초영원세계에서 이르바와 가이아스 비스로 이주했다. 고향의 이치로 멈춘 시간에도 움직여 시간신으로 여겨진다.",
+      "source_ref": [
+        "2.335:start.hsp:257938",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1014",
+        "A collection of Sophia's brothers and sisters. Aion a race of gods who have flowed out of the abyss. They migrated to Irva and Gaius Vis from the Trans-Eternal World. They can interfere with the existence of time using the logic of the Trans-Eternal World and can act even when it is stopped. Therefore they are also treated as time gods."
+      ],
+      "card_id": 1014
+    },
+    {
+      "source": "@card/header/1014",
+      "target": "결속의 미크라네시스  번호 1014  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257941",
+        "2.335:start.hsp:257944",
+        "2.335:start.hsp:257946",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1014
+    },
+    {
+      "source": "ポート・カプールへの処女航海中にエーテル風で沈没したはずの帆船。一度は船体が引き裂かれて海の藻屑と化したがその時不思議なことが起こり、なんか人型になって目的の港へたどり着いた。女王様気どりだが元が商船なのでカネにうるさく、戦闘力も低い。",
+      "target": "포트 카풀로 향한 첫 항해에서 에테르 바람에 난파한 범선. 조각나 가라앉다 어쩐 일인지 사람 모습으로 목적항에 닿았다. 여왕 행세를 하지만 상선 출신이라 돈에 깐깐하고 싸움에는 약하다.",
+      "source_ref": [
+        "2.335:start.hsp:256287",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1141"
+      ],
+      "card_id": 1141
+    },
+    {
+      "source": "@card/header/1141",
+      "target": "돛 아가씨 퀸 세드나  번호 1141  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★★",
+      "source_ref": [
+        "2.335:start.hsp:256290",
+        "2.335:start.hsp:256293",
+        "2.335:start.hsp:256295",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1141
+    },
+    {
+      "source": "カードに宿る精霊。カードを通じて使い手とシンクロすることでパワーアップし、姿を変えていく。ラブリーな仕草で笑顔をふりまき人の心を惑わす魔女。仲間外のこのモンスターは通常の魔力制御判定とは別にランク×5％の確率で味方の巻き込みを無効にする。",
+      "target": "카드로 사용자와 동조하며 강해지고 변신하는 정령. 사랑스러운 미소와 몸짓으로 사람을 홀린다. 동료가 아니면 마력 제어와 별개로 랭크당 5% 확률로 아군이 공격에 휘말리지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:256430",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1130"
+      ],
+      "card_id": 1130
+    },
+    {
+      "source": "@card/header/1130",
+      "target": "하트 위치  번호 1130  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:256433",
+        "2.335:start.hsp:256436",
+        "2.335:start.hsp:256438",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1130
+    },
+    {
+      "source": "エレアを扇動しているジューア。サウスティリスの風土に疎いエレア達を、支援するという名目で利用しているならずものだ。エレア迫害を盾にして強引に金や物資を募るが、その全てを着服しており困っているエレアたちには金貨一枚届かない。バレそうになる前に行方をくらます予定。",
+      "target": "남부 티리스 사정에 어두운 엘레아인을 돕는다며 이용하는 주아인. 박해를 명분으로 거둔 돈과 물자는 죄다 빼돌려 정작 엘레아인에게는 금화 한 닢도 안 간다. 들키기 전에 잠적할 작정이다.",
+      "source_ref": [
+        "2.335:start.hsp:257015",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/1085"
+      ],
+      "card_id": 1085
+    },
+    {
+      "source": "@card/header/1085",
+      "target": "엘레아 선동꾼  번호 1085  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★★",
+      "source_ref": [
+        "2.335:start.hsp:257018",
+        "2.335:start.hsp:257021",
+        "2.335:start.hsp:257023",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 1085
+    },
+    {
+      "source": "All Options-Implemented、すなわち全オプションを実装されたメルガスト。青いからではない。全装着した場合のバランステストと言う名目で用意されたのだが、増加装甲や本体に謎の可動部が設けられている。あまりにゴテゴテしているため、乗るのには向いてない。",
+      "target": "모든 옵션을 단 멜가스트라는 뜻으로, 파란색이라 붙인 이름이 아니다. 전체 장착 시 균형 시험용이라지만 추가 장갑과 본체에 수상한 가동부가 있다. 덕지덕지 달린 탓에 타기엔 불편하다.",
+      "source_ref": [
+        "2.335:start.hsp:258952",
+        "2.335:start.hsp:271369",
+        "2.335:start.hsp:273035",
+        "2.335:start.hsp:273040"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card biography",
+      "source_aliases": [
+        "@card/lore/936",
+        "All Options-Implemented i.e. All Options-Implemented Melugast. It's not because it' s blue but it was prepared for a fully equipped balnce test the moving parts were added to the body to increase armor. It is not suitable for riding because it is too lumpy."
+      ],
+      "card_id": 936
+    },
+    {
+      "source": "@card/header/936",
+      "target": "초투기 멜가스트 에이오아이  번호 936  효과: 아무것도 하지 않음  랭크 1  희귀도 ★★★",
+      "source_ref": [
+        "2.335:start.hsp:258955",
+        "2.335:start.hsp:258958",
+        "2.335:start.hsp:258960",
+        "2.335:start.hsp:271356",
+        "2.335:start.hsp:271366",
+        "2.335:start.hsp:271367"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card heading",
+      "card_id": 936
+    },
+    {
+      "source": "これ以上は場に出せない。",
+      "target": "이미 전장이 가득 찼다.",
+      "source_ref": [
+        "2.335:start.hsp:272310"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI",
+      "source_aliases": [
+        "Your field is full."
+      ]
+    },
+    {
+      "source": "デッキの構築",
+      "target": "덱 편집",
+      "source_ref": [
+        "2.335:start.hsp:272568"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI",
+      "source_aliases": [
+        "Edit Deck"
+      ]
+    },
+    {
+      "source": "デッキをしまった。",
+      "target": "덱을 집어넣었다.",
+      "source_ref": [
+        "2.335:start.hsp:369479"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI",
+      "source_aliases": [
+        "@log/デッキをしまった。",
+        "@log/You put away the deck.",
+        "You put away the deck."
+      ]
+    },
+    {
+      "source": "白のデッキ",
+      "target": "백색 덱",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "White Deck"
+      ]
+    },
+    {
+      "source": "白のデッキ (新規作成)",
+      "target": "백색 덱 (새로 만들기)",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "White Deck (New)"
+      ]
+    },
+    {
+      "source": "白のデッキ [Use]",
+      "target": "백색 덱 [사용 중]",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "White Deck [Use]"
+      ]
+    },
+    {
+      "source": "青のデッキ",
+      "target": "청색 덱",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Blue Deck"
+      ]
+    },
+    {
+      "source": "青のデッキ (新規作成)",
+      "target": "청색 덱 (새로 만들기)",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Blue Deck (New)"
+      ]
+    },
+    {
+      "source": "青のデッキ [Use]",
+      "target": "청색 덱 [사용 중]",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Blue Deck [Use]"
+      ]
+    },
+    {
+      "source": "銀のデッキ",
+      "target": "은색 덱",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Silver Deck"
+      ]
+    },
+    {
+      "source": "銀のデッキ (新規作成)",
+      "target": "은색 덱 (새로 만들기)",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Silver Deck (New)"
+      ]
+    },
+    {
+      "source": "銀のデッキ [Use]",
+      "target": "은색 덱 [사용 중]",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Silver Deck [Use]"
+      ]
+    },
+    {
+      "source": "赤のデッキ",
+      "target": "적색 덱",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Red Deck"
+      ]
+    },
+    {
+      "source": "赤のデッキ (新規作成)",
+      "target": "적색 덱 (새로 만들기)",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Red Deck (New)"
+      ]
+    },
+    {
+      "source": "赤のデッキ [Use]",
+      "target": "적색 덱 [사용 중]",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Red Deck [Use]"
+      ]
+    },
+    {
+      "source": "黒のデッキ",
+      "target": "흑색 덱",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Black Deck"
+      ]
+    },
+    {
+      "source": "黒のデッキ (新規作成)",
+      "target": "흑색 덱 (새로 만들기)",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Black Deck (New)"
+      ]
+    },
+    {
+      "source": "黒のデッキ [Use]",
+      "target": "흑색 덱 [사용 중]",
+      "source_ref": [
+        "2.335:start.hsp:272540",
+        "2.335:start.hsp:272542",
+        "2.335:start.hsp:272546",
+        "2.335:start.hsp:272553"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck selector",
+      "source_aliases": [
+        "Black Deck [Use]"
+      ]
+    },
+    {
+      "source": "↑   カードを出す。",
+      "target": "↑  카드 내기",
+      "source_ref": [
+        "2.335:start.hsp:273356",
+        "2.335:start.hsp:273402"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card action line",
+      "source_aliases": [
+        "UP: Put the card."
+      ]
+    },
+    {
+      "source": "↓   カードを捧げてマナを得る(1ターンに1回)。",
+      "target": "↓  카드를 바쳐 마나 얻기 (턴마다 한 번)",
+      "source_ref": [
+        "2.335:start.hsp:273362",
+        "2.335:start.hsp:273402"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card action line",
+      "source_aliases": [
+        "Down: Sacrifice the card."
+      ]
+    },
+    {
+      "source": "↑   攻撃を宣言する。",
+      "target": "↑  공격 선언",
+      "source_ref": [
+        "2.335:start.hsp:273371",
+        "2.335:start.hsp:273402"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card action line",
+      "source_aliases": [
+        "UP: Declare an attack."
+      ]
+    },
+    {
+      "source": "↑   ブロックする。",
+      "target": "↑  방어",
+      "source_ref": [
+        "2.335:start.hsp:273378",
+        "2.335:start.hsp:273402"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card action line",
+      "source_aliases": [
+        "UP: Block."
+      ]
+    },
+    {
+      "source": "決定 スキルを使用する。",
+      "target": "엔터  스킬 사용",
+      "source_ref": [
+        "2.335:start.hsp:273383",
+        "2.335:start.hsp:273402"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card action line",
+      "source_aliases": [
+        "ENTER: Use the skill."
+      ]
+    },
+    {
+      "source": "@card-ui/List",
+      "target": "후보",
+      "source_ref": [
+        "2.335:start.hsp:273078"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI",
+      "source_aliases": [
+        "@card-ui/候補"
+      ]
+    },
+    {
+      "source": "@card-ui/Deck",
+      "target": "덱",
+      "source_ref": [
+        "2.335:start.hsp:273078"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI",
+      "source_aliases": [
+        "@card-ui/デッキ"
+      ]
+    },
+    {
+      "source": "@card-ui/All",
+      "target": "전체",
+      "source_ref": [
+        "2.335:start.hsp:272416"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI",
+      "source_aliases": [
+        "@card-ui/ALL"
+      ]
+    },
+    {
+      "source": "@card-ui/Player",
+      "target": "플레이어",
+      "source_ref": [
+        "2.335:start.hsp:272984"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI"
+    },
+    {
+      "source": "@card-ui/Opponent",
+      "target": "상대",
+      "source_ref": [
+        "2.335:start.hsp:272988"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI"
+    },
+    {
+      "source": "@card-ui/Begin",
+      "target": "시작",
+      "source_ref": [
+        "2.335:start.hsp:272408"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI"
+    },
+    {
+      "source": "@card-ui/Draw",
+      "target": "뽑기",
+      "source_ref": [
+        "2.335:start.hsp:272408"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI"
+    },
+    {
+      "source": "@card-ui/Main",
+      "target": "메인",
+      "source_ref": [
+        "2.335:start.hsp:272408"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI"
+    },
+    {
+      "source": "@card-ui/End",
+      "target": "종료",
+      "source_ref": [
+        "2.335:start.hsp:272408"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card UI"
+    },
+    {
+      "source": "@card-counter/Page",
+      "target": "쪽",
+      "source_ref": [
+        "2.335:start.hsp:272935"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "@card-counter/Turn",
+      "target": "턴",
+      "source_ref": [
+        "2.335:start.hsp:272953"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "@card-counter/Deck",
+      "target": "덱",
+      "source_ref": [
+        "2.335:start.hsp:273012"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "@card-counter/Life",
+      "target": "생명력",
+      "source_ref": [
+        "2.335:start.hsp:273015"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "@card-counter/Mana",
+      "target": "마나",
+      "source_ref": [
+        "2.335:start.hsp:273017"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "@card-counter/Card",
+      "target": "시작 패",
+      "source_ref": [
+        "2.335:start.hsp:273019"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "@card-counter/Domain *",
+      "target": "영역 수",
+      "source_ref": [
+        "2.335:start.hsp:273021"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "@card-ui/ Editor",
+      "target": " 편집",
+      "source_ref": [
+        "2.335:start.hsp:273001",
+        "2.335:start.hsp:273004"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "card HUD"
+    },
+    {
+      "source": "セーブして終了",
+      "target": "저장하고 나가기",
+      "source_ref": [
+        "2.335:start.hsp:273259"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck editor exit",
+      "source_aliases": [
+        "Save & Exit"
+      ]
+    },
+    {
+      "source": "セーブしないで終了",
+      "target": "저장하지 않고 나가기",
+      "source_ref": [
+        "2.335:start.hsp:273261"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "deck editor exit",
+      "source_aliases": [
+        "Just Exit"
+      ]
+    },
+    {
+      "source": "9 ,7  [Change Filter]  Enter [Select]  Cancel [Exit]",
+      "target": "9,7 [필터 전환]  엔터 [카드 선택]  취소 키 [종료]",
+      "source_ref": [
+        "2.335:start.hsp:272933"
+      ],
+      "review_status": "reviewed",
+      "display_kind": "default deck controls",
+      "source_aliases": [
+        "9 ,7 ,Tab [フィルター切替]  決定ｷｰ [カード選択]  ｷｬﾝｾﾙｷｰ [終了]"
+      ]
+    }
+  ]
+}

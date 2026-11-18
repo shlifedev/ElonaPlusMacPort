@@ -150,7 +150,8 @@ std::optional<std::string> Catalog::sheet_text(std::string_view source) const {
     };
     static const Form forms[] = {
         {"page", "Page.", std::regex(R"(^Page\.([0-9]+)/([0-9]+)$)")},
-        {"appearance", " ", std::regex(R"(^(Portrait|Hair|Sub Hair|Hair CL|Body|Cloth|Pants|Body CL|Cloth CL|Pants CL|Etc1|Etc2|Etc3|Eyes|Custom|Riding) +(u?[0-9]+|N/A)$)"), 1},
+        {"appearance", " ", std::regex(R"(^(.+?)(?: |　)+(u?[0-9]+|N/A)$)"), 1},
+        {"ability-cost", " Sp", std::regex(R"(^([0-9]+) Sp$)")},
         {"turns", " Turns", std::regex(R"(^([0-9]+) Turns$)")},
         {"level", " level", std::regex(R"(^([0-9]+) level$)")},
         {"time", " Sec", std::regex(R"(^([0-9]+):([0-9]+):([0-9]+) Sec$)")},
@@ -168,9 +169,13 @@ std::optional<std::string> Catalog::sheet_text(std::string_view source) const {
         for (std::size_t i = 1; i < groups.size(); ++i) {
             std::string value = groups[i].str();
             if (i == form.label_group) {
-                const auto* weight = find(scoped_key(std::string_view(form.key) == "appearance" ? "@appearance/" : "@weight/", value));
-                if (!weight) return {};
-                value = *weight;
+                const auto* label = find(scoped_key(std::string_view(form.key) == "appearance" ? "@appearance/" : "@weight/", value));
+                if (!label) return {};
+                value = *label;
+            } else if (value == "N/A") {
+                const auto* unavailable = find("@appearance/N/A");
+                if (!unavailable) return {};
+                value = *unavailable;
             }
             const auto mark = "{" + std::to_string(i) + "}";
             auto at = result.find(mark);

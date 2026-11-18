@@ -177,6 +177,7 @@ int main(int argc, char** argv) {
         write("@sheet/race/Fairy\t요정\n@sheet/race/妖精\t요정\n@sheet/Race\t종족\n@sheet/extra\t추가\n"
               "@metric/page\t{1}/{2}쪽\n@metric/items\t{1}개 (무게 {2}/{3} · 화물 {4}/{5})\n"
               "@metric/appearance\t{1} {2}\n@appearance/Hair CL\t머리 색\n"
+              "@appearance/髪の色\t머리 색\n@appearance/N/A\t해당 없음\n"
               "@weight/Medium\t보통\n@metric/equipment\t장비 {1} ({2}) 명중 {3} 피해 {4} DV/PV {5}/{6}\n");
         auto sheet = elona::localization::Catalog::load(file);
         check(sheet.sheet_text("Race: Fairy") == "종족: 요정");
@@ -185,6 +186,8 @@ int main(int argc, char** argv) {
         check(!sheet.sheet_text("Race: Fox") && !sheet.sheet_text("(extra)Fox") && !sheet.sheet_text("Fairy"));
         check(sheet.sheet_text("Page.2/10") == "2/10쪽" && !sheet.sheet_text("My Page.2/10"));
         check(sheet.sheet_text("Hair CL  21") == "머리 색 21" && !sheet.sheet_text("Ari 21"));
+        check(sheet.sheet_text("髪の色　 N/A") == "머리 색 해당 없음");
+        check(sheet.sheet_text("Hair CL  u17") == "머리 색 u17");
         check(sheet.sheet_text("12 items  (Weight 33.8s/64.5s Cargo 16.0s/80.0s)") ==
               "12개 (무게 33.8s/64.5s · 화물 16.0s/80.0s)");
         check(sheet.sheet_text("Equip weight: 32.0s(Medium) Hit Bonus:0 Damage Bonus:-1  DV/PV:1/10") ==
@@ -213,6 +216,25 @@ int main(int argc, char** argv) {
         try { elona::localization::layout_rich_text("<unknown>bad", 100, 0); }
         catch (const std::exception&) { rejected = true; }
         check(rejected);
+        write("@npc-title/baker\t제빵사\n@npc-title/apprentice\t견습생\n"
+              "@npc-prefix/パン屋の\t제빵사\nFemale\t여성\n"
+              "<Guide> the wanderer\t방랑자 『길잡이』\n<Guide> the wanderer Female\t방랑자 『길잡이』 (여성)\n");
+        auto town = elona::localization::Catalog::load(file);
+        auto caption = [&](int scope, const std::string& value) {
+            return elona::localization::town_caption(town, scope, value);
+        };
+        check(caption(24, "Page 2/12") == "2/12쪽");
+        check(!caption(24, "Page 2/X"));
+        check(caption(25, "Arrorel the baker\tArrorel the bak") == "제빵사 Arrorel");
+        check(caption(25, "パン屋のシホ\tパン屋のシホ") == "제빵사 シホ");
+        check(!caption(25, "The custom name\tThe custom name"));
+        check(!caption(25, "Arrorel the baker\tbad\trow"));
+        check(caption(26, "<Miches> the apprentice\t\t<Miches> the apprentice Female") == "견습생 <Miches> 여성");
+        check(caption(26, "<Guide> the wanderer\t\t<Guide> the wanderer Female") == "방랑자 『길잡이』 (여성)");
+        check(caption(26, "Female\t\tFemale Female") == "Female 여성");
+        check(caption(26, "Ada\tCustom Fame: 3\tAda of Custom Fame: 3 Female Fame: 57") ==
+              "Ada 〈Custom Fame: 3〉 여성 · 명성 57");
+        check(!caption(26, "Ada\t\tSomeone else Female"));
         std::cout << "catalog " << n << " checks passed\n";
         return 0;
     } catch (const std::exception& e) { std::cerr << e.what() << '\n'; return 1; }

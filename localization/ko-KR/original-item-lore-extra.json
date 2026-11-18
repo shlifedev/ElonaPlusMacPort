@@ -1,0 +1,864 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 equipment knowledge window and inventory prompts"
+  },
+  "entries": [
+    {
+      "source": "@item-detail/It protects you from mutation.",
+      "target": "돌연변이로부터 보호한다.",
+      "source_ref": [
+        "2.335:start.hsp:27411"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それはあなたを変異から保護する"
+      ]
+    },
+    {
+      "source": "@item-detail/It enchances your spells.",
+      "target": "주문의 위력을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27430"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは魔法の威力を高める"
+      ]
+    },
+    {
+      "source": "@item-detail/It enchances your breath.",
+      "target": "브레스의 위력을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27449"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは放射の威力を高める"
+      ]
+    },
+    {
+      "source": "@item-detail/It enchances your throwingRock.",
+      "target": "투석의 위력을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27468"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは投石の性能を高める"
+      ]
+    },
+    {
+      "source": "@item-detail/It combine fire and cold spells.",
+      "target": "화염과 냉기 주문을 함께 시전할 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27487"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは火炎と冷気の複合詠唱を可能にする"
+      ]
+    },
+    {
+      "source": "@item-detail/It combine mind and sound spells.",
+      "target": "환혹과 음파 주문을 함께 시전할 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27506"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは幻惑と音の複合詠唱を可能にする"
+      ]
+    },
+    {
+      "source": "@item-detail/It combine poison and nerve spells.",
+      "target": "독과 신경 주문을 함께 시전할 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27525"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは毒と神経の複合詠唱を可能にする"
+      ]
+    },
+    {
+      "source": "@item-detail/It combine darkness and nether spells.",
+      "target": "암흑과 지옥 주문을 함께 시전할 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27544"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは暗黒と地獄の複合詠唱を可能にする"
+      ]
+    },
+    {
+      "source": "@item-detail/It enchances when charging.",
+      "target": "충전하면 성능이 향상된다.",
+      "source_ref": [
+        "2.335:start.hsp:27563"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それはチャージ時に性能を高める"
+      ]
+    },
+    {
+      "source": "@item-detail/It allows quick shooting.",
+      "target": "속사를 할 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27582"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは早撃ちを可能にする"
+      ]
+    },
+    {
+      "source": "@item-detail/It allows you to see invisible creatures.",
+      "target": "보이지 않는 생물을 볼 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27601"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは透明な存在を見ることを可能にする"
+      ]
+    },
+    {
+      "source": "@item-detail/It brings an end.",
+      "target": "모든 것에 종말을 가져온다.",
+      "source_ref": [
+        "2.335:start.hsp:27620"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは全てを終結させる"
+      ]
+    },
+    {
+      "source": "@item-detail/It gives you a chance to throw an absolute piercing attak.",
+      "target": "완전 관통 공격이 발동할 확률을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27639"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは完全貫通攻撃発動の機会を増やす"
+      ]
+    },
+    {
+      "source": "@item-detail/It increases your chance to deliver critical hits.",
+      "target": "치명타를 가할 확률을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27658"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それはクリティカルヒットの機会を増やす"
+      ]
+    },
+    {
+      "source": "@item-detail/It increases the chance of extra melee attack.",
+      "target": "근접 추가 공격이 발동할 확률을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27677"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは追加打撃の機会を増やす"
+      ]
+    },
+    {
+      "source": "@item-detail/It increases the chance of extra ranged attack.",
+      "target": "추가 사격이 발동할 확률을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27696"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは追加射撃の機会を増やす"
+      ]
+    },
+    {
+      "source": "@item-detail/It occasionally stops time.",
+      "target": "드물게 시간을 멈춘다.",
+      "source_ref": [
+        "2.335:start.hsp:27715"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは稀に時を止める"
+      ]
+    },
+    {
+      "source": "@item-detail/It is covered with time.",
+      "target": "시간을 두르고 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27734"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは時を纏っている"
+      ]
+    },
+    {
+      "source": "@item-detail/It decreases enemy chance to deliver critical hits.",
+      "target": "치명타를 받을 확률을 낮춘다.",
+      "source_ref": [
+        "2.335:start.hsp:27753"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それはクリティカルを受ける機会を減らす"
+      ]
+    },
+    {
+      "source": "@item-detail/It provides an interlocking shooting mechanism.",
+      "target": "연동 사격 장치를 갖추고 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27772"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは連動射撃機構を備える"
+      ]
+    },
+    {
+      "source": "@item-detail/It provides a proximity assist weapon.",
+      "target": "근접 보조 무기를 갖추고 있다.",
+      "source_ref": [
+        "2.335:start.hsp:27791"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは近接補助武器を備える"
+      ]
+    },
+    {
+      "source": "@item-detail/It change mana to attack power.",
+      "target": "사용자의 마나를 공격력으로 바꾼다.",
+      "source_ref": [
+        "2.335:start.hsp:27810"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは使用者のマナを攻撃力に変える"
+      ]
+    },
+    {
+      "source": "@item-detail/It protects you from cursing words.",
+      "target": "저주의 말로부터 보호한다.",
+      "source_ref": [
+        "2.335:start.hsp:27829"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは呪いの言葉から保護する"
+      ]
+    },
+    {
+      "source": "@item-detail/It increases the qualitiy of reward.",
+      "target": "연주 보상의 품질을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:27848"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは演奏報酬の品質を上げる"
+      ]
+    },
+    {
+      "source": "@item-detail/It decreases physical damage you take.",
+      "target": "받는 물리 피해를 줄인다.",
+      "source_ref": [
+        "2.335:start.hsp:27867"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは被る物理ダメージを軽減する"
+      ]
+    },
+    {
+      "source": "@item-detail/It sometimes nullifies damage you take.",
+      "target": "드물게 받는 피해를 무효화한다.",
+      "source_ref": [
+        "2.335:start.hsp:27886"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは被るダメージを稀に無効にする"
+      ]
+    },
+    {
+      "source": "@item-detail/It deals cut damage to the attacker.",
+      "target": "공격한 상대에게 베인 상처를 입힌다.",
+      "source_ref": [
+        "2.335:start.hsp:27905"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは攻撃された時、相手に切り傷のダメージを与える"
+      ]
+    },
+    {
+      "source": "@item-detail/It diminishs bleeding.",
+      "target": "출혈을 억제한다.",
+      "source_ref": [
+        "2.335:start.hsp:27924"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは出血を抑える"
+      ]
+    },
+    {
+      "source": "@item-detail/It catches signals from God.",
+      "target": "신이 보내는 전파를 수신한다.",
+      "source_ref": [
+        "2.335:start.hsp:27943"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは神が発する電波をキャッチする"
+      ]
+    },
+    {
+      "source": "@item-detail/It inflicts massive damage to dragons.",
+      "target": "용족에게 큰 피해를 준다.",
+      "source_ref": [
+        "2.335:start.hsp:27962"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは竜族に対して強力な威力を発揮する"
+      ]
+    },
+    {
+      "source": "@item-detail/It inflicts massive damage to undeads.",
+      "target": "언데드에게 큰 피해를 준다.",
+      "source_ref": [
+        "2.335:start.hsp:27981"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは不死者に対して強力な威力を発揮する"
+      ]
+    },
+    {
+      "source": "@item-detail/It inflicts massive damage to enemy in flight.",
+      "target": "공중의 적에게 큰 피해를 준다.",
+      "source_ref": [
+        "2.335:start.hsp:28000"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは空中の敵に対して威力を発揮する"
+      ]
+    },
+    {
+      "source": "@item-detail/It inflicts massive damage to metals.",
+      "target": "특수 금속으로 된 적에게 큰 피해를 준다.",
+      "source_ref": [
+        "2.335:start.hsp:28019"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは特殊金属にも絶大な威力を発揮する"
+      ]
+    },
+    {
+      "source": "@item-detail/It prevents the natural decline in Piety.",
+      "target": "신앙심이 저절로 낮아지는 것을 막는다.",
+      "source_ref": [
+        "2.335:start.hsp:28038"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは信仰の深さの自然減少を防ぐ"
+      ]
+    },
+    {
+      "source": "@item-detail/It makes audience drunk with haunting tones.",
+      "target": "깊이 있는 음색으로 청중을 취하게 한다.",
+      "source_ref": [
+        "2.335:start.hsp:28057"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは深い音色で聴衆を酔わす"
+      ]
+    },
+    {
+      "source": "@item-detail/It inflicts massive damage to Gods.",
+      "target": "신에게 큰 피해를 준다.",
+      "source_ref": [
+        "2.335:start.hsp:28076"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは神に対して強力な威力を発揮する"
+      ]
+    },
+    {
+      "source": "@item-detail/It deals magic damage to the magic attacker.",
+      "target": "마법으로 공격받으면 해당 속성으로 공격자에게 피해를 준다.",
+      "source_ref": [
+        "2.335:start.hsp:28095"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは魔法攻撃された時、相手にその属性のダメージを与える"
+      ]
+    },
+    {
+      "source": "@item-detail/It make possible to remote blow.",
+      "target": "멀리 떨어진 적에게 타격을 가할 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:28114"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは遠隔打撃を可能とする"
+      ]
+    },
+    {
+      "source": "@item-detail/It gives a tremendous rotation to plug.",
+      "target": "탄환에 강한 회전을 건다.",
+      "source_ref": [
+        "2.335:start.hsp:28133"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは弾に凄まじい回転をかける"
+      ]
+    },
+    {
+      "source": "@item-detail/It has high basic power.",
+      "target": "기본 위력이 높다.",
+      "source_ref": [
+        "2.335:start.hsp:28152"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは基本威力が高い"
+      ]
+    },
+    {
+      "source": "@item-detail/It speeds up the ether disease while equipping.",
+      "target": "착용하는 동안 에테르병의 진행이 빨라진다.",
+      "source_ref": [
+        "2.335:start.hsp:303634"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは装備している間、エーテルの病の進行を早める"
+      ]
+    },
+    {
+      "source": "@item-detail/It is acidproof.",
+      "target": "산에 손상되지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:303640"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは酸では傷つかない"
+      ]
+    },
+    {
+      "source": "@item-detail/It is fireproof.",
+      "target": "불에 타지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:303646"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは炎では燃えない"
+      ]
+    },
+    {
+      "source": "@item-detail/It is coldproof.",
+      "target": "냉기에 깨지지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:303651"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは冷気では砕けない"
+      ]
+    },
+    {
+      "source": "@item-detail/It is precious.",
+      "target": "귀중품이다.",
+      "source_ref": [
+        "2.335:start.hsp:303656"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは貴重な品だ"
+      ]
+    },
+    {
+      "source": "@item-detail/It is blessed by Ehekatl.",
+      "target": "에헤카틀의 축복을 받았다.",
+      "source_ref": [
+        "2.335:start.hsp:303661"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それはエヘカトルの祝福を受けている"
+      ]
+    },
+    {
+      "source": "@item-detail/It is a stolen item.",
+      "target": "장물이다.",
+      "source_ref": [
+        "2.335:start.hsp:303666"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは盗品だ"
+      ]
+    },
+    {
+      "source": "@item-detail/It can be only used in a show room.",
+      "target": "쇼룸에서만 쓸 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:303676"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それはショウルームでのみ使用できる。"
+      ]
+    },
+    {
+      "source": "@item-detail/It is a hand-made item.",
+      "target": "정성 들여 손수 만든 물건이다.",
+      "source_ref": [
+        "2.335:start.hsp:303681"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは心温まる手作り品だ"
+      ]
+    },
+    {
+      "source": "@item-detail/It is a light weapon.",
+      "target": "한 손으로도 다루기 쉽다.",
+      "source_ref": [
+        "2.335:start.hsp:303699"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは片手でも扱いやすい"
+      ]
+    },
+    {
+      "source": "@item-detail/It is a heavy weapon.",
+      "target": "두 손으로 쓰기에 적합하다.",
+      "source_ref": [
+        "2.335:start.hsp:303704"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/それは両手持ちに適している"
+      ]
+    },
+    {
+      "source": "@item-detail/You have to identify the item to gain knowledge.",
+      "target": "어떤 물건인지 알려면 감정을 받아야 한다.",
+      "source_ref": [
+        "2.335:start.hsp:303724"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/このアイテムに関する知識を得るには、鑑定する必要がある。"
+      ]
+    },
+    {
+      "source": "@item-detail/material",
+      "target": "재질 · {1}",
+      "source_ref": [
+        "2.335:start.hsp:303629"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/weapon",
+      "target": "무기로 사용할 수 있다. (피해 {1}, 관통 {2}%)",
+      "source_ref": [
+        "2.335:start.hsp:303694"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/attack",
+      "target": "명중 보정 {1}, 피해 보정 {2}.",
+      "source_ref": [
+        "2.335:start.hsp:303712"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/defense",
+      "target": "회피 보정 {1}, 방어 보정 {2}.",
+      "source_ref": [
+        "2.335:start.hsp:303718"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/alive",
+      "target": "살아 있는 무기다. [레벨 {1}, 경험치 {2}%]",
+      "source_ref": [
+        "2.335:start.hsp:303671"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/experience",
+      "target": "경험치 {1} / 다음 레벨 {2}",
+      "source_ref": [
+        "2.335:start.hsp:303686"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/resist",
+      "target": "{1} 내성을 높인다.",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/weak",
+      "target": "{1} 내성을 낮춘다.",
+      "source_ref": [
+        "2.335:start.hsp:26952"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@item-detail/element/fire",
+      "target": "화염",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/火炎"
+      ]
+    },
+    {
+      "source": "@item-detail/element/cold",
+      "target": "냉기",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/冷気"
+      ]
+    },
+    {
+      "source": "@item-detail/element/lightning",
+      "target": "전격",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/電撃"
+      ]
+    },
+    {
+      "source": "@item-detail/element/darkness",
+      "target": "암흑",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/暗黒"
+      ]
+    },
+    {
+      "source": "@item-detail/element/mind",
+      "target": "환혹",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/幻惑"
+      ]
+    },
+    {
+      "source": "@item-detail/element/poison",
+      "target": "독",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/毒"
+      ]
+    },
+    {
+      "source": "@item-detail/element/nether",
+      "target": "지옥",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/地獄"
+      ]
+    },
+    {
+      "source": "@item-detail/element/sound",
+      "target": "음파",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/音"
+      ]
+    },
+    {
+      "source": "@item-detail/element/nerve",
+      "target": "신경",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/神経"
+      ]
+    },
+    {
+      "source": "@item-detail/element/chaos",
+      "target": "혼돈",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/混沌"
+      ]
+    },
+    {
+      "source": "@item-detail/element/magic",
+      "target": "마법",
+      "source_ref": [
+        "2.335:start.hsp:26957"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@item-detail/element/魔法"
+      ]
+    },
+    {
+      "source": "@log/Read what? ",
+      "target": "무엇을 읽을까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/どれを読む？ "
+      ]
+    },
+    {
+      "source": "@log/Drink what? ",
+      "target": "무엇을 마실까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/どれを飲む？ "
+      ]
+    },
+    {
+      "source": "@log/Zap what? ",
+      "target": "어느 마법봉을 휘두를까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/どれを振る？ "
+      ]
+    },
+    {
+      "source": "@log/Open what? ",
+      "target": "무엇을 열까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/どれを開ける？ "
+      ]
+    },
+    {
+      "source": "@log/Cook what? ",
+      "target": "무엇을 요리할까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/何を料理する？ "
+      ]
+    },
+    {
+      "source": "@log/Blend what? ",
+      "target": "무엇을 섞을까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/何を混ぜる？ "
+      ]
+    },
+    {
+      "source": "@log/Use what? ",
+      "target": "무엇을 사용할까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/どのアイテムを使用する？ "
+      ]
+    },
+    {
+      "source": "@log/Eat what? ",
+      "target": "무엇을 먹을까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/何を食べよう？ "
+      ]
+    },
+    {
+      "source": "@log/Which item do you want to identify? ",
+      "target": "어느 물건을 감정할까? ",
+      "source_ref": [
+        "2.335:start.hsp:300741"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/どのアイテムを鑑定する？ "
+      ]
+    }
+  ]
+}

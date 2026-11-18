@@ -8630,7 +8630,7 @@
   },
   {
     "source": "7 ,9 ,Tab [Change]",
-    "target": "7,9,Tab [메뉴 전환]",
+    "target": "7,9,탭 [메뉴 전환]",
     "source_ref": [
       "2.335:start.hsp:38937",
       "2.335:start.hsp:300937"

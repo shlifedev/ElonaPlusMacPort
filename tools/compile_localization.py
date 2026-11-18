@@ -19,6 +19,21 @@ def escaped(s):
     return s.replace('\\', '\\\\').replace('\t', '\\t')
 
 
+def manual_page_markup_valid(text):
+    """Hashed manual keys have no source markup to compare against."""
+    emphasized = False
+    for part in re.split(r'(<[^<>]*>)', text):
+        if part == '<emp1>' and not emphasized:
+            emphasized = True
+        elif part == '<def>' and emphasized:
+            emphasized = False
+        elif part in ('<br>', '<p>'):
+            continue
+        elif any(c in part for c in '<>$^\t'):
+            return False
+    return not emphasized
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('inputs', nargs='*', type=Path)
@@ -97,7 +112,10 @@ def main():
                 # Retain inline format/control tags exactly; runtime does not
                 # invent replacements for parameters or remove color markers.
                 tags = lambda x: re.findall(r'<(?:emp\d+|def|title1|p|br|b|green|red|col)>|%[0-9.]*[sdif]', x)
-                if tags(key) != tags(target):
+                if row.get('match_kind') == 'manual_section' and re.fullmatch(r'@manual/body/[0-9a-f]{64}', key):
+                    if not manual_page_markup_valid(target):
+                        raise ValueError(f'{path}: invalid rich text in manual section {row_number}')
+                elif tags(key) != tags(target):
                     omitted.append({'source': key, 'reason': 'format/control marker mismatch'})
                     continue
                 candidates[key].add(target)

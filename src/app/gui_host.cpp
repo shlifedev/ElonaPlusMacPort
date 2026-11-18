@@ -1804,7 +1804,7 @@ int cmdfunc_localization(int cmd) {
     if (cmd == 11) {
         PVal* pval = nullptr;
         APTR aptr = code_getva(&pval);
-        int width = H->text ? H->text->alias_label_width(H->cur->font) : 0;
+        int width = H->text ? H->text->selection_label_width(H->cur->font) : 0;
         code_setva(pval, aptr, TYPE_INUM, &width);
         return RUNMODE_RUN;
     }

@@ -2,11 +2,13 @@
 import re
 
 from extract_localization import LITERAL
+from korean_town_hooks import town_caption_inserts
 
 STATIC = re.compile(rf'buff = lang\(\s*({LITERAL}),\s*{LITERAL}\s*\)')
 
 
 def static_dialogue_inserts(source, reserved):
+    yield from town_caption_inserts(source)
     lines = source.splitlines(keepends=True)
     # These labels enclose the shipped NPC story branches and the dialogue
     # window. An unknown revision must be inspected before reusing the range.

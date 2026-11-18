@@ -61,6 +61,9 @@ class TransformTests(unittest.TestCase):
                 + b"\t\tcs_list s, wx + 84, wy + 60 + cnt * 19 - 1, 19, 0, 1, p\r\n"
                 + b"\t\tpos wx + 600 - strlen(s(1)) * 7, wy + 60 + cnt * 19 + 2\r\n"
                 + b"\t\tcs_list s, wx + 140 - 26, wy + 60 + cnt * 19 - 1, 19, 30, p(1) != (-1), p(1)\r\n"
+                + b"\t\tmes listn(0, p)\r\n\t\tif ( list(0, p) > 0 ) {\r\n"
+                + b"\t\tcs_list s, wx + 96, wy + 66 + cnt * 19 - 1, 19, 0, 0\r\n\t\ts = matdesc(i)\r\n"
+                + b"\t\tmes s\r\n\t\tp(1) = matref(2, i)\r\n"
                 + b"".join(line * count for line, count in module.HUD_LINES) + b"\treturn\r\n")
 
     def transform_fixture(self, data):
@@ -68,6 +71,8 @@ class TransformTests(unittest.TestCase):
              patch.object(module, "creation_inserts", return_value=[]), \
              patch.object(module, "option_inserts", return_value=[]), \
              patch.object(module, "menu_inserts", return_value=[]), \
+             patch.object(module, "manual_inserts", return_value=[]), \
+             patch.object(module, "card_inserts", return_value=[]), \
              patch.object(module, "story_inserts", return_value=[]), \
              patch.object(module, "static_dialogue_inserts", return_value=[]):
             return module.transform(data)

@@ -1,0 +1,1653 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 Japanese original. Complete txt_select messages at the message-log boundary and skill activation cost at the two ability list draws."
+  },
+  "entries": [
+    {
+      "id": "combat.log.214418",
+      "source": "@log/注意！スペルボーナスは100以上あると新たに獲得できない。",
+      "target": "주문 보너스가 100 이상이면 더 얻을 수 없다!",
+      "source_ref": [
+        "2.335:start.hsp:214418"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "combat.log.214453",
+      "source": "@log/注意！スキルボーナスは100以上あると新たに獲得できない。",
+      "target": "스킬 보너스가 100 이상이면 더 얻을 수 없다!",
+      "source_ref": [
+        "2.335:start.hsp:214453"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Caution! While the skill bonus is 100 or more, you cannot get new."
+      ]
+    },
+    {
+      "id": "combat.log.218136",
+      "source": "@log/「危ない！」魔力の渦の発生に気がついた仲間が、読書を中断させた。",
+      "target": "“위험해!” 마력의 소용돌이를 알아챈 동료가 독서를 멈춰 세웠다.",
+      "source_ref": [
+        "2.335:start.hsp:218136"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Ally who noticed the occurrence of vortex of magic, was interrupted reading."
+      ]
+    },
+    {
+      "id": "combat.log.218183",
+      "source": "@log/魔力の渦が何かを召喚した！",
+      "target": "마력의 소용돌이가 무언가를 소환했다!",
+      "source_ref": [
+        "2.335:start.hsp:218183"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Several creatures are summoned from a vortex of magic."
+      ]
+    },
+    {
+      "id": "combat.log.228608",
+      "source": "@log/魔力の向上を感じる。",
+      "target": "마력이 솟아나는 것이 느껴진다.",
+      "source_ref": [
+        "2.335:start.hsp:228608"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You feel magical power springs up inside you."
+      ]
+    },
+    {
+      "id": "combat.log.250886",
+      "source": "@log/この階層には毒が充満しているようだ。",
+      "target": "이 층에는 독기가 가득한 듯하다.",
+      "source_ref": [
+        "2.335:start.hsp:250886"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Poison seems to be filled in this floor."
+      ]
+    },
+    {
+      "id": "combat.log.254910",
+      "source": "@log/敵の魔法使いたちは復讐心を煽られた。",
+      "target": "적 마법사들의 복수심이 타올랐다.",
+      "source_ref": [
+        "2.335:start.hsp:254910"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Rebel magicians were fueled by revenge."
+      ]
+    },
+    {
+      "id": "combat.log.255111",
+      "source": "@log/ネフィアが猛毒を噴きだした！",
+      "target": "네피아가 맹독을 뿜어냈다!",
+      "source_ref": [
+        "2.335:start.hsp:255111"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Nefia was poison dischareged!"
+      ]
+    },
+    {
+      "id": "combat.log.310334",
+      "source": "@log/魔法の力がテレポートを防いだ。",
+      "target": "마법의 힘이 순간이동을 막았다.",
+      "source_ref": [
+        "2.335:start.hsp:310334"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Magical field prevents teleportation."
+      ]
+    },
+    {
+      "id": "combat.log.312154",
+      "source": "@log/*フルチャージ！！*",
+      "target": "*충전 완료!*",
+      "source_ref": [
+        "2.335:start.hsp:312154"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*Full Charge!!*"
+      ]
+    },
+    {
+      "id": "combat.log.312220",
+      "source": "@log/しかし、わずかに距離が足りず当たらなかった。",
+      "target": "거리가 조금 모자라 빗나갔다.",
+      "source_ref": [
+        "2.335:start.hsp:312220"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/However, the distance was just a little short and it missed."
+      ]
+    },
+    {
+      "id": "combat.log.313830",
+      "source": "@log/…駄目だ、何かが足りていない！",
+      "target": "…안 된다. 뭔가 부족하다!",
+      "source_ref": [
+        "2.335:start.hsp:313830"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/...Something is missing!"
+      ]
+    },
+    {
+      "id": "combat.log.315185",
+      "source": "@log/寝る仕度を始めた。",
+      "target": "잠자리를 준비하기 시작했다.",
+      "source_ref": [
+        "2.335:start.hsp:315185"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You lie down."
+      ]
+    },
+    {
+      "id": "combat.log.315193",
+      "source": "@log/露営の準備を始めた。",
+      "target": "야영 준비를 시작했다.",
+      "source_ref": [
+        "2.335:start.hsp:315193"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You start to camp."
+      ]
+    },
+    {
+      "id": "combat.log.315289",
+      "source": "@log/トレーニングを始めた。",
+      "target": "훈련을 시작했다.",
+      "source_ref": [
+        "2.335:start.hsp:315289"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You start training."
+      ]
+    },
+    {
+      "id": "combat.log.315300",
+      "source": "@log/古霜の栞も用意した。",
+      "target": "옛 서리의 책갈피도 준비했다.",
+      "source_ref": [
+        "2.335:start.hsp:315300"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You were prepared bookmark."
+      ]
+    },
+    {
+      "id": "combat.log.315314",
+      "source": "@log/ヘヴィダンベルも用意した。",
+      "target": "무거운 아령도 준비했다.",
+      "source_ref": [
+        "2.335:start.hsp:315314"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You were prepared dumbbell."
+      ]
+    },
+    {
+      "id": "combat.log.315326",
+      "source": "@log/外が悪天候なので、じっくりと取り組むことにした。",
+      "target": "바깥 날씨가 궂어 느긋하게 전념하기로 했다.",
+      "source_ref": [
+        "2.335:start.hsp:315326"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/The weather's bad outside, you have plenty of time to waste."
+      ]
+    },
+    {
+      "id": "combat.log.315612",
+      "source": "@log/盗みを見咎められた！",
+      "target": "도둑질을 들켰다!",
+      "source_ref": [
+        "2.335:start.hsp:315612"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You are found stealing."
+      ]
+    },
+    {
+      "id": "combat.log.315633",
+      "source": "@log/対象は死んでいる",
+      "target": "대상이 이미 죽었다.",
+      "source_ref": [
+        "2.335:start.hsp:315633"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/The target is dead."
+      ]
+    },
+    {
+      "id": "combat.log.315643",
+      "source": "@log/それは盗めない。",
+      "target": "그건 훔칠 수 없다.",
+      "source_ref": [
+        "2.335:start.hsp:315643"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/It can't be stolen."
+      ]
+    },
+    {
+      "id": "combat.log.315653",
+      "source": "@log/対象が見当たらない。",
+      "target": "대상을 놓쳤다.",
+      "source_ref": [
+        "2.335:start.hsp:315653"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You loose the target."
+      ]
+    },
+    {
+      "id": "combat.log.315677",
+      "source": "@log/重すぎて手に負えない。",
+      "target": "너무 무거워 감당할 수 없다.",
+      "source_ref": [
+        "2.335:start.hsp:315677"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/It's too heavy."
+      ]
+    },
+    {
+      "id": "combat.log.315687",
+      "source": "@log/そのアイテムは他の誰かが使用中だ。",
+      "target": "다른 누군가가 이미 쓰고 있다.",
+      "source_ref": [
+        "2.335:start.hsp:315687"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Someone else is using the item."
+      ]
+    },
+    {
+      "id": "combat.log.315696",
+      "source": "@log/行動を中断した。",
+      "target": "행동을 중단했다.",
+      "source_ref": [
+        "2.335:start.hsp:315696"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You abort stealing."
+      ]
+    },
+    {
+      "id": "combat.log.315781",
+      "source": "@log/あなたは良心の呵責を感じた。",
+      "target": "양심의 가책을 느꼈다.",
+      "source_ref": [
+        "2.335:start.hsp:315781"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You feel the stings of conscience."
+      ]
+    },
+    {
+      "id": "combat.log.315871",
+      "source": "@log/トレーニングを終えた。",
+      "target": "훈련을 마쳤다.",
+      "source_ref": [
+        "2.335:start.hsp:315871"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You finish training."
+      ]
+    },
+    {
+      "id": "combat.log.316335",
+      "source": "@log/刻まれていた死紋は、いつの間にか消えていた。",
+      "target": "몸에 새겨졌던 죽음의 문양이 어느새 사라졌다.",
+      "source_ref": [
+        "2.335:start.hsp:316335"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Death-Crest that had been carved into you had disappeared before you knew it."
+      ]
+    },
+    {
+      "id": "combat.log.316391",
+      "source": "@log/終末の日が訪れた。",
+      "target": "종말의 날이 찾아왔다.",
+      "source_ref": [
+        "2.335:start.hsp:316391"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Let's Ragnarok!"
+      ]
+    },
+    {
+      "id": "combat.log.316399",
+      "source": "@log/*カーテンコール*",
+      "target": "*커튼콜*",
+      "source_ref": [
+        "2.335:start.hsp:316399"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/ *Curtain Call* "
+      ]
+    },
+    {
+      "id": "combat.log.316475",
+      "source": "@log/あなたは横になった。",
+      "target": "쉬려고 몸을 뉘었다.",
+      "source_ref": [
+        "2.335:start.hsp:316475"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You lie down to rest."
+      ]
+    },
+    {
+      "id": "combat.log.316527",
+      "source": "@log/あなたは休息を終えた。",
+      "target": "휴식을 마쳤다.",
+      "source_ref": [
+        "2.335:start.hsp:316527"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You finished taking a rest."
+      ]
+    },
+    {
+      "id": "combat.log.317839",
+      "source": "@log/それは既に解読済みだ。",
+      "target": "이미 해독한 책이다.",
+      "source_ref": [
+        "2.335:start.hsp:317839"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You already have decoded the book."
+      ]
+    },
+    {
+      "id": "combat.log.331191",
+      "source": "@log/扉が出現した。",
+      "target": "문이 나타났다.",
+      "source_ref": [
+        "2.335:start.hsp:331191"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/A door appears."
+      ]
+    },
+    {
+      "id": "combat.log.331219",
+      "source": "@log/地面から無数の気が迸る！",
+      "target": "땅에서 무수한 기운이 솟구친다!",
+      "source_ref": [
+        "2.335:start.hsp:331219"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Haaaaaaaaaa!"
+      ]
+    },
+    {
+      "id": "combat.log.331226",
+      "source": "@log/むぅ 最大の奥義がかき消されるとは！",
+      "target": "으윽, 내 최고의 오의가 지워지다니!",
+      "source_ref": [
+        "2.335:start.hsp:331226"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "combat.log.331389",
+      "source": "@log/スウォーム！",
+      "target": "휩쓸기!",
+      "source_ref": [
+        "2.335:start.hsp:331389"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Swarm!"
+      ]
+    },
+    {
+      "id": "combat.log.331443",
+      "source": "@log/ストラックアウト！",
+      "target": "스트라이크 아웃!",
+      "source_ref": [
+        "2.335:start.hsp:331443"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Struck Out!"
+      ]
+    },
+    {
+      "id": "combat.log.332106",
+      "source": "@log/隕石は大気圏で燃え尽きてしまったようだ…。",
+      "target": "운석은 대기권에서 불타 버린 모양이다….",
+      "source_ref": [
+        "2.335:start.hsp:332106"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "combat.log.332437",
+      "source": "@log/読む対象は？",
+      "target": "어느 책을 읽을까?",
+      "source_ref": [
+        "2.335:start.hsp:332437"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Which Book?"
+      ]
+    },
+    {
+      "id": "combat.log.332480",
+      "source": "@log/あなたはひとりぼっちだ…。",
+      "target": "곁에 아무도 없다….",
+      "source_ref": [
+        "2.335:start.hsp:332480"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You're all alone."
+      ]
+    },
+    {
+      "id": "combat.log.332487",
+      "source": "@log/あなたと仲間たちは読書会を始めた。",
+      "target": "동료들과 독서 모임을 시작했다.",
+      "source_ref": [
+        "2.335:start.hsp:332487"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You started the reading party with Friends."
+      ]
+    },
+    {
+      "id": "combat.log.332502",
+      "source": "@log/開ける対象は？",
+      "target": "어느 상자를 열까?",
+      "source_ref": [
+        "2.335:start.hsp:332502"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Which Box?"
+      ]
+    },
+    {
+      "id": "combat.log.332568",
+      "source": "@log/…力任せでも無理だということがわかった。",
+      "target": "…힘으로는 어림없다는 걸 깨달았다.",
+      "source_ref": [
+        "2.335:start.hsp:332568"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/...You realized that it was impossible even if you left it to brute strength."
+      ]
+    },
+    {
+      "id": "combat.log.332578",
+      "source": "@log/…なかなか頑丈だ。",
+      "target": "…꽤 튼튼하다.",
+      "source_ref": [
+        "2.335:start.hsp:332578"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You fail to break it."
+      ]
+    },
+    {
+      "id": "combat.log.332587",
+      "source": "@log/錠の破壊に成功した！",
+      "target": "자물쇠를 부쉈다!",
+      "source_ref": [
+        "2.335:start.hsp:332587"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You've successfully destroyed the lock!"
+      ]
+    },
+    {
+      "id": "combat.log.332675",
+      "source": "@log/使用するポーションは？",
+      "target": "어떤 물약을 쓸까?",
+      "source_ref": [
+        "2.335:start.hsp:332675"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Which potion?"
+      ]
+    },
+    {
+      "id": "combat.log.333464",
+      "source": "@log/沈黙の霧が魔力の発生を阻止した。",
+      "target": "침묵의 안개가 마력이 일어나는 것을 막았다.",
+      "source_ref": [
+        "2.335:start.hsp:333464"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/The mist of silence interrupts a spell."
+      ]
+    },
+    {
+      "id": "combat.log.333676",
+      "source": "@log/窮地でなければ発動しない。",
+      "target": "궁지에 몰렸을 때만 발동한다.",
+      "source_ref": [
+        "2.335:start.hsp:333676"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Did not meet the conditions of use."
+      ]
+    },
+    {
+      "id": "combat.log.333684",
+      "source": "@log/集いし絆が、更なる力を紡ぎだす！",
+      "target": "하나로 모인 유대가 더 큰 힘을 자아낸다!",
+      "source_ref": [
+        "2.335:start.hsp:333684"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Ties with peers further spinning force."
+      ]
+    },
+    {
+      "id": "combat.log.335165",
+      "source": "@log/仲間の最大数に達しているため、呼び出せない。",
+      "target": "동료가 가득 차 더 부를 수 없다.",
+      "source_ref": [
+        "2.335:start.hsp:335165"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "combat.log.335173",
+      "source": "@log/このモードでは使えない… ",
+      "target": "이 모드에서는 쓸 수 없다….",
+      "source_ref": [
+        "2.335:start.hsp:335173"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You can not use it in No future mode..."
+      ]
+    },
+    {
+      "id": "combat.log.335204",
+      "source": "@log/まずは輸血元を選ぶ必要がある。",
+      "target": "먼저 피를 내어 줄 대상을 골라야 한다.",
+      "source_ref": [
+        "2.335:start.hsp:335204"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Choose a blood transfusion source."
+      ]
+    },
+    {
+      "id": "combat.log.335220",
+      "source": "@log/輸血先を選ぶ必要がある。",
+      "target": "수혈받을 대상을 골라야 한다.",
+      "source_ref": [
+        "2.335:start.hsp:335220"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Choose a blood transfusion destination."
+      ]
+    },
+    {
+      "id": "combat.log.335272",
+      "source": "@log/アンサンブル！",
+      "target": "합주!",
+      "source_ref": [
+        "2.335:start.hsp:335272"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Ensemble!"
+      ]
+    },
+    {
+      "id": "combat.log.335317",
+      "source": "@log/あなたと仲間たちはアンサンブルを始めた。",
+      "target": "동료들과 합주를 시작했다.",
+      "source_ref": [
+        "2.335:start.hsp:335317"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You started the ensemble with Friends."
+      ]
+    },
+    {
+      "id": "combat.log.335405",
+      "source": "@log/これ以上やると死んでしまう…。",
+      "target": "더 하면 상대가 죽고 만다….",
+      "source_ref": [
+        "2.335:start.hsp:335405"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/If you attack any more, opponent will die ...."
+      ]
+    },
+    {
+      "id": "combat.log.335628",
+      "source": "@log/霧とともに周囲に海が広がった。",
+      "target": "안개와 함께 주위가 바다로 변했다.",
+      "source_ref": [
+        "2.335:start.hsp:335628"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/An expanse of ocean and fog spreads out."
+      ]
+    },
+    {
+      "id": "combat.log.336034",
+      "source": "@log/これ以上は同時に使役できない。",
+      "target": "한 번에 더 많은 종이접기를 부릴 수는 없다.",
+      "source_ref": [
+        "2.335:start.hsp:336034"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You can not control origami more than."
+      ]
+    },
+    {
+      "id": "combat.log.336041",
+      "source": "@log/消費する魔法書は？",
+      "target": "어느 마법서를 소모할까?",
+      "source_ref": [
+        "2.335:start.hsp:336041"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Which spellbook?"
+      ]
+    },
+    {
+      "id": "combat.log.336217",
+      "source": "@log/カード精霊が5体必要だ。",
+      "target": "카드 정령 다섯이 필요하다.",
+      "source_ref": [
+        "2.335:start.hsp:336217"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Requires 5 card spirits."
+      ]
+    },
+    {
+      "id": "combat.log.336279",
+      "source": "@log/パワーゲージが足りない。",
+      "target": "파워 게이지가 부족하다.",
+      "source_ref": [
+        "2.335:start.hsp:336279"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Your power gauge is insufficient."
+      ]
+    },
+    {
+      "id": "combat.log.336404",
+      "source": "@log/1体しかジョーカーになれない。",
+      "target": "조커가 될 수 있는 건 하나뿐이다.",
+      "source_ref": [
+        "2.335:start.hsp:336404"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Only one can be the Joker."
+      ]
+    },
+    {
+      "id": "combat.log.336477",
+      "source": "@log/役が成立していない。",
+      "target": "족보가 완성되지 않았다.",
+      "source_ref": [
+        "2.335:start.hsp:336477"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Your hand ranking is not established."
+      ]
+    },
+    {
+      "id": "combat.log.337294",
+      "source": "@log/*魔力増強*　",
+      "target": "*마력 증강*",
+      "source_ref": [
+        "2.335:start.hsp:337294"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*MP Charge* "
+      ]
+    },
+    {
+      "id": "combat.log.337302",
+      "source": "@log/*生命の転換*　",
+      "target": "*생명 전환*",
+      "source_ref": [
+        "2.335:start.hsp:337302"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*HP Convert* "
+      ]
+    },
+    {
+      "id": "combat.log.337310",
+      "source": "@log/*外道式炸裂弾*　",
+      "target": "*외도식 작렬탄*",
+      "source_ref": [
+        "2.335:start.hsp:337310"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*Brutal Burst* "
+      ]
+    },
+    {
+      "id": "combat.log.337318",
+      "source": "@log/*コールアンデッド*　",
+      "target": "*언데드 소환*",
+      "source_ref": [
+        "2.335:start.hsp:337318"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*Convocation* "
+      ]
+    },
+    {
+      "id": "combat.log.337526",
+      "source": "@log/*死者狂乱*　",
+      "target": "*망자의 광란*",
+      "source_ref": [
+        "2.335:start.hsp:337526"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*Necro Charge* "
+      ]
+    },
+    {
+      "id": "combat.log.337539",
+      "source": "@log/*奴隷搾取*　",
+      "target": "*노예 착취*",
+      "source_ref": [
+        "2.335:start.hsp:337539"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*HP Drain* "
+      ]
+    },
+    {
+      "id": "combat.log.337930",
+      "source": "@log/力が足りない…。",
+      "target": "힘이 부족하다….",
+      "source_ref": [
+        "2.335:start.hsp:337930"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Force is not enough..."
+      ]
+    },
+    {
+      "id": "combat.log.339934",
+      "source": "@log/現在のフィールド変化は解除できない…。",
+      "target": "지금은 전장의 변화를 해제할 수 없다….",
+      "source_ref": [
+        "2.335:start.hsp:339934"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/The current field state cannot be reset..."
+      ]
+    },
+    {
+      "id": "combat.log.339943",
+      "source": "@log/フィールド変化が解除された。",
+      "target": "전장의 변화가 해제됐다.",
+      "source_ref": [
+        "2.335:start.hsp:339943"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/The field state was reset."
+      ]
+    },
+    {
+      "id": "combat.log.340368",
+      "source": "@log/*紙隠し*　",
+      "target": "*종이 은신*",
+      "source_ref": [
+        "2.335:start.hsp:340368"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/*Kamikakushi* "
+      ]
+    },
+    {
+      "id": "combat.log.340500",
+      "source": "@log/地面から毒を帯びた蔓が飛び出した！",
+      "target": "땅에서 독을 머금은 덩굴이 튀어나왔다!",
+      "source_ref": [
+        "2.335:start.hsp:340500"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Poisonous vines popped out from the ground!"
+      ]
+    },
+    {
+      "id": "combat.log.340988",
+      "source": "@log/*創神の息吹*",
+      "target": "*창조신의 숨결*",
+      "source_ref": [
+        "2.335:start.hsp:340988"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<Respiration of Creative Gods>"
+      ]
+    },
+    {
+      "id": "combat.log.341001",
+      "source": "@log/*闘神の咆哮*",
+      "target": "*투신의 포효*",
+      "source_ref": [
+        "2.335:start.hsp:341001"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<Roar of Fighting Gods>"
+      ]
+    },
+    {
+      "id": "combat.log.341013",
+      "source": "@log/*獣神の烈爪*",
+      "target": "*짐승신의 맹렬한 발톱*",
+      "source_ref": [
+        "2.335:start.hsp:341013"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<Assault of Beast Gods>"
+      ]
+    },
+    {
+      "id": "combat.log.341021",
+      "source": "@log/*司神の審判*",
+      "target": "*심판신의 판결*",
+      "source_ref": [
+        "2.335:start.hsp:341021"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<Referee of Judicial Gods>"
+      ]
+    },
+    {
+      "id": "combat.log.341029",
+      "source": "@log/*忌神の怨嗟*",
+      "target": "*재앙신의 원한*",
+      "source_ref": [
+        "2.335:start.hsp:341029"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<Grudge of Abominable Gods>"
+      ]
+    },
+    {
+      "id": "combat.log.341037",
+      "source": "@log/*獄神の呪縛*",
+      "target": "*옥신의 속박*",
+      "source_ref": [
+        "2.335:start.hsp:341037"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<Commandment of Hell Gods>"
+      ]
+    },
+    {
+      "id": "combat.log.341093",
+      "source": "@log/*森羅万象殺*",
+      "target": "*삼라만상살*",
+      "source_ref": [
+        "2.335:start.hsp:341093"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<Elements Killing>"
+      ]
+    },
+    {
+      "id": "combat.log.341117",
+      "source": "@log/*滅火の神槍*",
+      "target": "*멸화의 신창*",
+      "source_ref": [
+        "2.335:start.hsp:341117"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/<HOROBINOYARI>"
+      ]
+    },
+    {
+      "id": "combat.log.341347",
+      "source": "@log/魔力を帯びた芳香が周囲にたちこめた。",
+      "target": "마력을 머금은 향기가 주위에 가득 퍼졌다.",
+      "source_ref": [
+        "2.335:start.hsp:341347"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Magical aroma was floating around."
+      ]
+    },
+    {
+      "id": "combat.log.342609",
+      "source": "@log/何も起きない…カルマが低すぎるようだ。",
+      "target": "아무 일도 일어나지 않는다…. 카르마가 너무 낮은 듯하다.",
+      "source_ref": [
+        "2.335:start.hsp:342609"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Nothing happens....It seems like your karma is too low."
+      ]
+    },
+    {
+      "id": "combat.log.353473",
+      "source": "@log/SPを最大分消費して無差別全域攻撃魔法を発動する？",
+      "target": "최대 스태미나만큼 소모해 전역에 무차별 공격 마법을 발동할까?",
+      "source_ref": [
+        "2.335:start.hsp:353473"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Do you want to consume your maximum amount of SP to activate indiscriminate attack magic?"
+      ]
+    },
+    {
+      "id": "combat.log.356841",
+      "source": "@log/ボーナスに変換するには、対応するスキルのレベルが5は必要だ。このまま使うとスキルが消滅するが、本当に使う？",
+      "target": "보너스로 바꾸려면 해당 스킬이 5레벨 이상이어야 한다. 지금 쓰면 스킬이 사라진다. 그래도 쓸까?",
+      "source_ref": [
+        "2.335:start.hsp:356841"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/It need 5Lv for the corresponding skill. If you use it as it is, the skill will disappear, but will you really use it?"
+      ]
+    },
+    {
+      "id": "combat.log.356878",
+      "source": "@log/対応スキルが半減するが、本当に使う？",
+      "target": "해당 스킬 레벨이 절반으로 줄어든다. 그래도 쓸까?",
+      "source_ref": [
+        "2.335:start.hsp:356878"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Corresponding skills will be halved, do you really use it?"
+      ]
+    },
+    {
+      "id": "combat.log.360241",
+      "source": "@log/敵対していて調教どころではない。",
+      "target": "적대 중이라 조련할 수 없다.",
+      "source_ref": [
+        "2.335:start.hsp:360241"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You can not train the enemy."
+      ]
+    },
+    {
+      "id": "combat.log.369182",
+      "source": "@log/魔力を吸わせて成長を促した。",
+      "target": "마력을 흡수시켜 성장을 촉진했다.",
+      "source_ref": [
+        "2.335:start.hsp:369182"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/You gave magical power."
+      ]
+    },
+    {
+      "id": "combat.log.610236",
+      "source": "@log/今日は絶好の修行日和だ。",
+      "target": "오늘은 수련하기 딱 좋은 날이다.",
+      "source_ref": [
+        "2.335:start.hsp:610236"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log/Training will progress today."
+      ]
+    },
+    {
+      "id": "ability.cost",
+      "source": "@metric/ability-cost",
+      "target": "{1} 기력",
+      "source_ref": [
+        "2.335:start.hsp:292593",
+        "2.335:start.hsp:292834"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "source": "@log-noun/{skill}/盾",
+      "target": "방패",
+      "source_ref": [
+        "2.335:start.hsp:1877",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Shield"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/回避",
+      "target": "회피",
+      "source_ref": [
+        "2.335:start.hsp:1883",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Evasion"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/二刀流",
+      "target": "쌍수 무기",
+      "source_ref": [
+        "2.335:start.hsp:1889",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Dual Wield"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/両手持ち",
+      "target": "양손 무기",
+      "source_ref": [
+        "2.335:start.hsp:1895",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Two Hand"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/重量挙げ",
+      "target": "역도",
+      "source_ref": [
+        "2.335:start.hsp:1973",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Weight Lifting"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/戦術",
+      "target": "전술",
+      "source_ref": [
+        "2.335:start.hsp:1979",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Tactics"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/射撃",
+      "target": "사격",
+      "source_ref": [
+        "2.335:start.hsp:1985",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Marksman"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/治癒",
+      "target": "치유",
+      "source_ref": [
+        "2.335:start.hsp:1991",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Healing"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/採掘",
+      "target": "채굴",
+      "source_ref": [
+        "2.335:start.hsp:1997",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Mining"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/工作",
+      "target": "목공",
+      "source_ref": [
+        "2.335:start.hsp:2003",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Carpentry"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/重装備",
+      "target": "중갑",
+      "source_ref": [
+        "2.335:start.hsp:2009",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Heavy Armor"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/中装備",
+      "target": "중형 갑옷",
+      "source_ref": [
+        "2.335:start.hsp:2015",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Medium Armor"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/軽装備",
+      "target": "경갑",
+      "source_ref": [
+        "2.335:start.hsp:2021",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Light Armor"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/鍵開け",
+      "target": "자물쇠 따기",
+      "source_ref": [
+        "2.335:start.hsp:2027",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Lock Picking"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/罠の知識",
+      "target": "함정 해제",
+      "source_ref": [
+        "2.335:start.hsp:2033",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Disarm Trap"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/裁縫",
+      "target": "재봉",
+      "source_ref": [
+        "2.335:start.hsp:2039",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Tailoring"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/宝石細工",
+      "target": "보석 세공",
+      "source_ref": [
+        "2.335:start.hsp:2045",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Jeweler"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/着衣水泳",
+      "target": "착의 수영",
+      "source_ref": [
+        "2.335:start.hsp:2057",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Swimming"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/隠密",
+      "target": "은밀",
+      "source_ref": [
+        "2.335:start.hsp:2063",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Stealth"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/探知",
+      "target": "탐지",
+      "source_ref": [
+        "2.335:start.hsp:2069",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Detection"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/分析",
+      "target": "분석",
+      "source_ref": [
+        "2.335:start.hsp:2075",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Analysis"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/心眼",
+      "target": "심안",
+      "source_ref": [
+        "2.335:start.hsp:2081",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Eye of Mind"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/釣り",
+      "target": "낚시",
+      "source_ref": [
+        "2.335:start.hsp:2087",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Fishing"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/見切り",
+      "target": "간파",
+      "source_ref": [
+        "2.335:start.hsp:2093",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Greater Evasion"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/解剖学",
+      "target": "해부학",
+      "source_ref": [
+        "2.335:start.hsp:2099",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Anatomy"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/読書",
+      "target": "독서",
+      "source_ref": [
+        "2.335:start.hsp:2105",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Literacy"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/暗記",
+      "target": "암기",
+      "source_ref": [
+        "2.335:start.hsp:2111",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Memorization"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/錬金術",
+      "target": "연금술",
+      "source_ref": [
+        "2.335:start.hsp:2117",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Alchemy"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/栽培",
+      "target": "재배",
+      "source_ref": [
+        "2.335:start.hsp:2123",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Gardening"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/生化学",
+      "target": "생화학",
+      "source_ref": [
+        "2.335:start.hsp:2129",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Gene engineer"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/料理",
+      "target": "요리",
+      "source_ref": [
+        "2.335:start.hsp:2135",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Cooking"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/瞑想",
+      "target": "명상",
+      "source_ref": [
+        "2.335:start.hsp:2141",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Meditation"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/魔道具",
+      "target": "마도구",
+      "source_ref": [
+        "2.335:start.hsp:2147",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Magic Device"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/詠唱",
+      "target": "시전",
+      "source_ref": [
+        "2.335:start.hsp:2153",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Casting"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/魔力制御",
+      "target": "마력 제어",
+      "source_ref": [
+        "2.335:start.hsp:2159",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Control Magic"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/魔力の限界",
+      "target": "마력의 한계",
+      "source_ref": [
+        "2.335:start.hsp:2165",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Magic Capacity"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/信仰",
+      "target": "신앙",
+      "source_ref": [
+        "2.335:start.hsp:2171",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Faith"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/旅歩き",
+      "target": "여행",
+      "source_ref": [
+        "2.335:start.hsp:2177",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Traveling"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/交渉",
+      "target": "교섭",
+      "source_ref": [
+        "2.335:start.hsp:2189",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Negotiation"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/投資",
+      "target": "투자",
+      "source_ref": [
+        "2.335:start.hsp:2195",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Investing"
+      ]
+    },
+    {
+      "source": "@log-noun/{skill}/演奏",
+      "target": "연주",
+      "source_ref": [
+        "2.335:start.hsp:2201",
+        "2.335:start.hsp:5066",
+        "2.335:start.hsp:227162"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-noun/{skill}/Performer"
+      ]
+    },
+    {
+      "source": "@log-template/{skill}の学習を始めた。",
+      "target": "{skill} 공부를 시작했다.",
+      "source_ref": [
+        "2.335:start.hsp:315282"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-template/You begin to study {skill}."
+      ]
+    },
+    {
+      "source": "@log-template/{skill}の学習を終えた。",
+      "target": "{skill} 공부를 마쳤다.",
+      "source_ref": [
+        "2.335:start.hsp:315864"
+      ],
+      "review_status": "reviewed",
+      "source_aliases": [
+        "@log-template/You finish studying {skill}."
+      ]
+    }
+  ]
+}

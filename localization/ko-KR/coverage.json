@@ -1,19 +1,19 @@
 {
   "version": "2.335",
   "source_pairs": 12405,
-  "reviewed": 5483,
-  "reviewed_catalog": 4483,
-  "additional_manually_edited": 1000,
+  "reviewed": 5647,
+  "reviewed_catalog": 4649,
+  "additional_manually_edited": 998,
   "additional_via_draft": 4063,
-  "unbound": 2859,
-  "total_bound": 9546,
-  "reviewed_display_keys": 16195,
+  "unbound": 2695,
+  "total_bound": 9710,
+  "reviewed_display_keys": 18132,
   "draft_display_hashes": 7317,
   "manual_display_hashes": 1398,
   "scope": "Distinct literal lang(ja,en) pairs with a Korean key in at least one language. Dynamic expressions, external data and images are outside this denominator. Some keys can only be used at a confirmed prose call site.",
   "sha256": {
     "static_pairs": "6ae7dbdfbda424d3674a0b4b41c9bb9d74a4c20e25c168292a6edeb4e4d196fa",
-    "runtime_sources": "007ccaeec0333f5e14b694712db895406853823dd9ab63b24f866b4624bb5ce8",
+    "runtime_sources": "840dbbb535fb8400ffed9633287fe47853d99ad6a67ddcbb2f8e6d872d7dbf86",
     "draft_display": "d0701c27200e0acfb40fbe3833b06aa908f644ffa70ac01a397d0bdc7f516906",
     "reviewed_display": "f3bb481965dd496a48c2547678f82ce56e696fd65d150a0825572fa09b97b2d6"
   }

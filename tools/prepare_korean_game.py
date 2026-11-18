@@ -22,13 +22,15 @@ from korean_creation_hooks import creation_inserts
 from korean_event_hooks import story_inserts
 from korean_inventory_hooks import install_item_hooks
 from korean_menu_hooks import menu_inserts
+from korean_manual_hooks import manual_inserts
+from korean_card_hooks import card_inserts
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SHA256 = "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
 COMMAND_TYPE = 48
 COMMAND_ID = 0
-DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n#cmd native_ko_menu $07\r\n#cmd native_ko_board $08\r\n#cmd native_ko_book $09\r\n#cmd native_ko_input_caption $0a\r\n#cmd native_ko_alias_width $0b\r\n"
+DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n#cmd native_ko_menu $07\r\n#cmd native_ko_board $08\r\n#cmd native_ko_book $09\r\n#cmd native_ko_input_caption $0a\r\n#cmd native_ko_label_width $0b\r\n"
 ANCHOR = (b"#deffunc gmes str gmes_prm0\r\n"
           b'\tm@m111 = ""\r\n'
           b'\tmsg@m111 = "" + gmes_prm0 + "$end"\r\n')
@@ -102,10 +104,13 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
     at(b"gcopy 3, 128, 288, 128, 32\r\n", b"\tnative_ko_input_caption\r\n",
        "input_banner", after=True, count=3)
     at(b"\t\ttx@m72 = limit(strlen(cs_list_prm0) * 7 + 32 + cs_list_prm4, 10, 480)\r\n",
-       b"\t\tif ( native_alias_width > 0 ) : tx@m72 = limit(native_alias_width + 32 + cs_list_prm4, tx@m72, 480)\r\n",
-       "alias_selection_highlight", after=True)
+       b"\t\tif ( native_alias_width > 0 ) : tx@m72 = limit(native_alias_width + 32 + cs_list_prm4, tx@m72, 480)\r\n"
+       b"\t\tif ( native_manual_width > 0 ) : tx@m72 = limit(native_manual_width + 32, 10, 148)\r\n",
+       "translated_selection_highlight", after=True)
     install_item_hooks(at)
     inserts.extend(menu_inserts(source))
+    inserts.extend(manual_inserts(source))
+    inserts.extend(card_inserts(source))
     inserts.extend(option_inserts(source))
     inserts.extend(creation_inserts(source))
     inserts.extend(story_inserts(source))
@@ -241,7 +246,8 @@ def main() -> int:
                       "0": {"name": "gmes", "arguments": 8, "result": "stat < 0: original fallback; otherwise rendered height"},
                       "1": {"name": "begin_english_log", "arguments": ["source", "used", "limit", "starter_pet_id (optional, default 0)"], "result": "preserve stat"},
                       "2": {"name": "hud_draw", "arguments": ["enabled"], "result": "preserve stat"},
-                      "6": {"name": "item_label", "arguments": ["label", "original", "alternate", "id"], "result": "preserve stat"},
+                      "6": {"name": "item_label", "arguments": ["label", "original", "alternate", "id"], "special_rows": "id -1: equipment detail; -2 and -3: material name/count and description with original text and material ID", "result": "preserve stat"},
+                      "11": {"name": "label_width", "arguments": ["destination"], "result": "localized selection width in pixels or zero"},
                       "10": {"name": "input_caption", "arguments": [], "result": "preserve stat"},
                       "9": {"name": "book", "arguments": ["id", "source", "spread", "x", "y"], "result": "1 if rendered, 0 for original"},
                       "8": {"name": "board", "arguments": ["section", "row", "objective", "ref", "reward", "client", "map", "item"], "result": "preserve stat"},
@@ -264,7 +270,7 @@ def main() -> int:
                     report["token_check"] = command_counts(blob)
                     hud_commands = 2 * sum(count for _, count in HUD_LINES)
                     menu_commands = output.count(b"\tnative_ko_menu ")
-                    success = report["token_check"]["type48_commands"] == {"0": 6, "1": 1, "2": hud_commands, "6": 3, "7": menu_commands, "8": 1, "9": 1, "10": 3, "11": 2}
+                    success = report["token_check"]["type48_commands"] == {"0": 11, "1": 1, "2": hud_commands, "6": 6, "7": menu_commands, "8": 1, "9": 1, "10": 3, "11": 3}
                     if not success:
                         report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:

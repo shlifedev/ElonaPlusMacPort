@@ -7,8 +7,8 @@
   "files": [
     {"name": "start.ax", "source": "work/normalized/2.335/start.ax",
      "sha256": "5c941a6728066a439f4397e21431b3b3fb579d49e397eb7425665d88ddddf4bc"},
-    {"name": "start-ko.ax", "source": "work/localization/managed-alias-v11/start.ax",
-     "sha256": "3bc4bb1c30f0a31e845e2a3cf6c088028bd76e8bc9e0f533cba2518eefc60f1e"},
+    {"name": "start-ko.ax", "source": "work/localization/managed-korean-adventure-v12/start.ax",
+     "sha256": "9a2e0a842f164d52281e192f41f60be75b0803e7ad915f765ac16702ccbbf202"},
     {"name": "scene1.hsp", "source": "work/extracted/2.335/scene1.hsp",
      "sha256": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"},
     {"name": "scene2.hsp", "source": "work/extracted/2.335/scene2.hsp",
