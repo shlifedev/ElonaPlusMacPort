@@ -23,6 +23,47 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def host_checks(report, returncode, expected):
+    return {
+        "exit_code": returncode == expected == report["exit_code"],
+        "exit_reason": report["exit_reason"] == ("max-waits" if expected == 124 else "end"),
+        "no_hsp_error": not report["hsp_error"],
+        "no_unsupported": not report["first_unsupported"],
+        "no_observed_hsp_error": report.get("observed_hsp_error_count") == 0,
+    }
+
+
+def screen_checks(name, script_path, shots, frames, waits, expected_exit, references):
+    # The suite uses the English deterministic 800x600 host. Approved BMP
+    # digests include the header, dimensions and every pixel. Two independent
+    # Mac runs and the pinned SDL frameworks matched exactly. Any new
+    # rasterizer baseline requires independent visual review.
+    actions = [line.split() for line in script_path.read_text().splitlines()
+               if line.strip() and not line.lstrip().startswith("#")]
+    last_input = max(int(frame) for frame, command, *_ in actions if command != "screenshot")
+    checkpoints = {Path(args[0]).name: int(frame) for frame, command, *args in actions
+                   if command == "screenshot"}
+    # New-game scripts include an intentional probe after the save/exit.
+    # Use the approved set, independently of the observed termination frame.
+    approved = references[name]
+    scheduled = {key for key, frame in checkpoints.items() if frame <= frames}
+    captured = {path.name: path for path in shots}
+    mismatches = sorted(key for key in approved.keys() & captured.keys()
+                        if sha(captured[key]) != approved[key])
+    checks = {
+        "reached_final_input": frames >= last_input and (expected_exit != 124 or frames == waits + 1),
+        "scheduled_screens_match_reference": scheduled == approved.keys(),
+        "all_screens_written": captured.keys() == approved.keys(),
+        "screen_pixels_match": not mismatches,
+    }
+    details = {
+        "missing": sorted(approved.keys() - captured.keys()),
+        "unexpected": sorted(captured.keys() - approved.keys()),
+        "different_bmp": mismatches,
+    }
+    return checks, details
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefix", default="playability-" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
@@ -53,6 +94,7 @@ def main():
         ap.error(f"host missing: {host}")
     evidence.mkdir(parents=True)
     host_hash = sha(host)
+    references = json.loads((ROOT / "tests/game/playability_screens.json").read_text())
     original = manifest(ROOT / "elonaplus2.335")
     zip_hash = sha(ROOT / "elonaplus2.335.zip")
     summary = {
@@ -87,12 +129,11 @@ def main():
             save = run / "user/save" / f"sav_{character}"
             state = inspect(save)
             screenshots = list((run / "cwd/shots").glob("*.bmp"))
+            screen_results, screen_differences = screen_checks(
+                name, script_path, screenshots, report["frames"], waits, expected, references)
             checks = {
-                "exit_code": result.returncode == expected == report["exit_code"],
-                "exit_reason": report["exit_reason"] == ("max-waits" if expected == 124 else "end"),
-                "no_hsp_error": not report["hsp_error"],
-                "no_unsupported": not report["first_unsupported"],
-                "screenshots_written": bool(screenshots),
+                **host_checks(report, result.returncode, expected),
+                **screen_results,
                 "original_zip_exe_unchanged": (run / "original-before.sha256").read_bytes() == (run / "original-after.sha256").read_bytes(),
                 "source_profile_unchanged": source is None or before == manifest(source),
                 "host_unchanged": sha(host) == host_hash,
@@ -105,6 +146,7 @@ def main():
                 "script_sha256": sha(script_path), "report": str(run / "report.json"),
                 "frames": report["frames"], "exit_code": result.returncode,
                 "screenshots": [str(p) for p in sorted(screenshots)],
+                "screen_differences": screen_differences,
                 "state": state, "checks": checks,
             })
             if not all(checks.values()):
