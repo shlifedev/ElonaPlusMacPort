@@ -10,12 +10,12 @@ import unittest
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(ROOT / "tools"))
 spec = importlib.util.spec_from_file_location("prepare_korean_game", ROOT / "tools/prepare_korean_game.py")
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 
-sys.path.insert(0, str(ROOT / "tools"))
 import play_game
 
 
@@ -49,10 +49,15 @@ class TransformTests(unittest.TestCase):
     def fixture(self):
         # 0x815c contains a CP932 trail backslash. A Unicode round trip is not
         # needed; the check concerns preservation of every opaque source byte.
-        return b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + module.LOG_ENTRY + b"".join(line * count for line,count in module.HUD_LINES) + b"\treturn\r\n"
+        return (b';fixture\r\nmes "\x81\x5c"\n' + module.ANCHOR + module.LOG_ENTRY
+                + module.DIALOG_DRAW + b"\ttalk_conv buff, 56 - en * 3\r\n"
+                + b"\t\tcs_list s, wx + 84, wy + 60 + cnt * 19 - 1, 19, 0, 1, p\r\n"
+                + b"\t\tpos wx + 600 - strlen(s(1)) * 7, wy + 60 + cnt * 19 + 2\r\n"
+                + b"\t\tcs_list s, wx + 140 - 26, wy + 60 + cnt * 19 - 1, 19, 30, p(1) != (-1), p(1)\r\n"
+                + b"".join(line * count for line, count in module.HUD_LINES) + b"\treturn\r\n")
 
     def transform_fixture(self, data):
-        with patch.object(module, "SOURCE_SHA256", module.digest(data)):
+        with patch.object(module, "SOURCE_SHA256", module.digest(data)), patch.object(module, "dialogue_calls", return_value=[]):
             return module.transform(data)
 
     def test_removing_inserted_spans_recovers_every_original_byte(self):
@@ -63,7 +68,7 @@ class TransformTests(unittest.TestCase):
             at = change["output_byte_offset"]
             del body[at:at + change["inserted_bytes"]]
         self.assertEqual(bytes(body), source)
-        self.assertEqual(output.count(b"native_ko_gmes"), 2)
+        self.assertEqual(output.count(b"native_ko_gmes"), 3)
         self.assertIn(b"\t\treturn 0\r\n", output)
 
     def test_unknown_source_hash_is_rejected(self):

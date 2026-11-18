@@ -2,7 +2,7 @@
 """Generate an opt-in display-hook source from the verified private 2.335 source.
 
 The original CP932 bytes are never decoded/re-encoded. Output remains private
-under work/. The Korean launcher selects the verified managed-home-v2 AX. This requires the
+under work/. The Korean launcher selects the verified managed-story-v3 AX. This requires the
 native type-48 display command; the official Windows runtime cannot run it.
 """
 from __future__ import annotations
@@ -16,12 +16,14 @@ import struct
 import subprocess
 import sys
 
+from korean_inventory_hooks import install_item_hooks
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SHA256 = "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
 COMMAND_TYPE = 48
 COMMAND_ID = 0
-DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n"
+DECLARATIONS = b"#regcmd 48\r\n#cmd native_ko_gmes $00\r\n#cmd native_ko_log $01\r\n#cmd native_ko_hud $02\r\n#cmd native_ko_item $06\r\n"
 ANCHOR = (b"#deffunc gmes str gmes_prm0\r\n"
           b'\tm@m111 = ""\r\n'
           b'\tmsg@m111 = "" + gmes_prm0 + "$end"\r\n')
@@ -46,6 +48,32 @@ def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+DIALOG_DRAW = (b"\tnotesel buff\r\n"
+               b"\tif ( evochat < 2 | evochat == 11 ) {\r\n"
+               b"\t\trepeat noteinfo(0)\r\n")
+
+
+def dialogue_calls(source):
+    """Mark only authored, reviewed NPC lines. Player and mod text never sets a key."""
+    lines = source.splitlines(keepends=True)
+    offsets = [0]
+    for line in lines:
+        offsets.append(offsets[-1] + len(line))
+    rows = json.loads((ROOT / "localization/ko-KR/original-tutorial.json").read_text(encoding="utf-8"))
+    for row in rows:
+        if row["review_status"] != "reviewed" or row["match_kind"] != "exact":
+            continue
+        for ref in row["source_ref"]:
+            if not ref.startswith("2.335:start.hsp:"):
+                continue
+            index = int(ref.rsplit(":", 1)[1]) - 1
+            if not lines[index].lstrip().startswith(b"buff = "):
+                continue
+            key = row["source_ja"].replace('"', '\\"').encode("cp932")
+            yield offsets[index + 1], (b'\tnative_dialog_original = buff\r\n'
+                                       b'\tnative_dialog_pending = "' + key + b'"\r\n'), "dialogue_line_identity"
+
+
 def transform(source: bytes) -> tuple[bytes, list[dict]]:
     """Hash-pinned, insertion-only transform; unknown/changed inputs fail closed."""
     if digest(source) != SOURCE_SHA256:
@@ -64,6 +92,18 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
             pos = source.index(line, start)
             start = pos + len(line)
             inserts.append((start if after else pos, addition, kind))
+    install_item_hooks(at)
+    inserts.extend(dialogue_calls(source))
+    at(b"\ttalk_conv buff, 56 - en * 3\r\n",
+       b'\tnative_dialog_key = ""\r\n'
+       b'\tif ( buff == str(native_dialog_original) ) {\r\n'
+       b'\t\tnative_dialog_key = str(native_dialog_pending)\r\n\t}\r\n'
+       b'\tnative_dialog_original = ""\r\n\tnative_dialog_pending = ""\r\n', "before_dialogue_wrap")
+    at(DIALOG_DRAW, b'\tif ( evochat < 2 | evochat == 11 ) {\r\n'
+       b'\t\tif ( strlen(native_dialog_key) > 1 ) {\r\n'
+       b'\t\t\tnative_ko_gmes native_dialog_key, wx + 150, wy + 43, 425, 0, 20, 10, 5\r\n'
+       b'\t\t\tif ( stat >= 0 ) {\r\n\t\t\t\tnotesel buff\r\n\t\t\t\treturn\r\n\t\t\t}\r\n'
+       b'\t\t}\r\n\t}\r\n', "dialogue_draw")
     # Copy only the presentation input, after English capitalization and before
     # the original loop destructively consumes one word at a time.
     at(LOG_ENTRY, b"\t\tnative_ko_log msgtemp, msglen, inf_maxmsglen\r\n", "english_log_boundary")
@@ -164,7 +204,8 @@ def main() -> int:
                   "abi": {"type": COMMAND_TYPE, "commands": {
                       "0": {"name": "gmes", "arguments": 8, "result": "stat < 0: original fallback; otherwise rendered height"},
                       "1": {"name": "begin_english_log", "arguments": ["source", "used", "limit"], "result": "preserve stat"},
-                      "2": {"name": "hud_draw", "arguments": ["enabled"], "result": "preserve stat"}}},
+                      "2": {"name": "hud_draw", "arguments": ["enabled"], "result": "preserve stat"},
+                      "6": {"name": "item_label", "arguments": ["label", "original", "alternate", "id"], "result": "preserve stat"}}},
                   "compiled": False,
                   "executed": False}
         success = True
@@ -181,7 +222,7 @@ def main() -> int:
                 report.update(compiled=True, ax_sha256=digest(blob), ax_bytes=len(blob))
                 try:
                     report["token_check"] = command_counts(blob)
-                    success = report["token_check"]["type48_commands"] == {"0": 1, "1": 1, "2": 10}
+                    success = report["token_check"]["type48_commands"] == {"0": 2, "1": 1, "2": 10, "6": 2}
                     if not success:
                         report["error"] = "unexpected managed display command counts"
                 except ValueError as exc:

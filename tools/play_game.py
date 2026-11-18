@@ -20,8 +20,11 @@ ROOT = Path(__file__).resolve().parents[1]
 LEGACY_MANAGED_AX = Path("work/localization/managed-gmes-v1-01/start.ax")
 LEGACY_MANAGED_SHA256 = "8aa19643c4824fa98ee175194864ecdfde8d4871c13a0d9f8ffa99cf9b99ad03"
 
-MANAGED_AX = Path("work/localization/managed-home-v2/start.ax")
-MANAGED_SHA256 = "bfb23aebb6a9a78983f717a361ce5691da4e520590d3013d686798e6e6d691b8"
+HOME_MANAGED_AX = Path("work/localization/managed-home-v2/start.ax")
+HOME_MANAGED_SHA256 = "bfb23aebb6a9a78983f717a361ce5691da4e520590d3013d686798e6e6d691b8"
+
+MANAGED_AX = Path("work/localization/managed-story-v3/start.ax")
+MANAGED_SHA256 = "bd0593e60aaa2c2ee4ead9efbfb6a9e154adb800a3739b022b7e9e5c449e90e8"
 
 
 def game_ax(root, language):
@@ -32,6 +35,12 @@ def game_ax(root, language):
             if hashlib.sha256(managed.read_bytes()).hexdigest() != MANAGED_SHA256:
                 raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {managed}")
             return managed
+        home = root / HOME_MANAGED_AX
+        if home.is_file():
+            if hashlib.sha256(home.read_bytes()).hexdigest() != HOME_MANAGED_SHA256:
+                raise RuntimeError(f"Unexpected Korean 2.335 AX hash: {home}")
+            print(f"Korean dialogue AX missing at {managed}. Using HUD/log AX {home}.", file=sys.stderr)
+            return home
         legacy = root / LEGACY_MANAGED_AX
         if legacy.is_file():
             if hashlib.sha256(legacy.read_bytes()).hexdigest() != LEGACY_MANAGED_SHA256:

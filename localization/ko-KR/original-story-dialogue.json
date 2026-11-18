@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "prologue.scene2.hsp.6",
+    "source": "Ages ago, in the times when the scars",
+    "target": "아득한 옛날,",
+    "source_ref": [
+      "2.335:scene2.hsp:6"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    },
+    "source_aliases": [
+      "@prologue:Ages ago, in the times when the scars"
+    ]
+  },
+  {
+    "id": "prologue.scene2.hsp.7",
+    "source": "of Rehm-Ido still marred the land of Irva,",
+    "target": "레므 이도의 상흔이 아직 이르바에 선명하던 때,",
+    "source_ref": [
+      "2.335:scene2.hsp:7"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.8",
+    "source": "the 11th era of Sierre Terre began.",
+    "target": "제11기 시에라 테르의 시대가 열렸다.",
+    "source_ref": [
+      "2.335:scene2.hsp:8"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.10",
+    "source": "In those days the land of Irva was",
+    "target": "그 시절에도 이르바 땅에는",
+    "source_ref": [
+      "2.335:scene2.hsp:10"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.11",
+    "source": "still plagued by destruction and war",
+    "target": "파괴와 전쟁이 끊이지 않았다.",
+    "source_ref": [
+      "2.335:scene2.hsp:11"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.12",
+    "source": "and though prophesized as the beginnings of peace,",
+    "target": "평화의 시작이 되리라는 예언과 달리",
+    "source_ref": [
+      "2.335:scene2.hsp:12"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.13",
+    "source": "Sierre Terre brought chaos as well as hope.",
+    "target": "시에라 테르는 희망과 함께 혼돈을 가져왔다.",
+    "source_ref": [
+      "2.335:scene2.hsp:13"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.16",
+    "source": "It rained for over a month.",
+    "target": "비는 한 달이 넘도록 쏟아졌다.",
+    "source_ref": [
+      "2.335:scene2.hsp:16"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    },
+    "source_aliases": [
+      "@prologue:It rained for over a month."
+    ]
+  },
+  {
+    "id": "prologue.scene2.hsp.17",
+    "source": "When the torrents finally subsided",
+    "target": "마침내 빗줄기가 잦아들자",
+    "source_ref": [
+      "2.335:scene2.hsp:17"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.18",
+    "source": "the forests surrounding the region of Karune slowly",
+    "target": "카룬을 둘러싼 숲은 서서히 변해",
+    "source_ref": [
+      "2.335:scene2.hsp:18"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.19",
+    "source": "transformed into an inhospitable blight.",
+    "target": "사람이 살 수 없는 땅이 되었다.",
+    "source_ref": [
+      "2.335:scene2.hsp:19"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.20",
+    "source": "Strange fogs oozed forth from the forest and",
+    "target": "기이한 안개가 숲에서 스며 나왔고",
+    "source_ref": [
+      "2.335:scene2.hsp:20"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.21",
+    "source": "the creatures grow violent and mad.",
+    "target": "숲속 짐승들은 사납게 미쳐 날뛰었다.",
+    "source_ref": [
+      "2.335:scene2.hsp:21"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.23",
+    "source": "The Elean forest grew with frightening speed,",
+    "target": "엘레아의 숲은 무서운 속도로 자라났다.",
+    "source_ref": [
+      "2.335:scene2.hsp:23"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.24",
+    "source": "and though it originated in Vindale,",
+    "target": "빈데일에서 뻗어 나온 숲은",
+    "source_ref": [
+      "2.335:scene2.hsp:24"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.25",
+    "source": "it rapidly began to consume the whole of Karune. ",
+    "target": "이내 카룬 전역을 집어삼키기 시작했다.",
+    "source_ref": [
+      "2.335:scene2.hsp:25"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.27",
+    "source": "As the forest devoured the land,",
+    "target": "숲에 삶의 터전을 빼앗긴",
+    "source_ref": [
+      "2.335:scene2.hsp:27"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.28",
+    "source": "it drove countless refugees into the",
+    "target": "수많은 피란민이",
+    "source_ref": [
+      "2.335:scene2.hsp:28"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.29",
+    "source": "western reaches of the continent.",
+    "target": "대륙 서쪽 변방으로 밀려들었다.",
+    "source_ref": [
+      "2.335:scene2.hsp:29"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.32",
+    "source": "But then, not so long ago,",
+    "target": "그러던 어느 날,",
+    "source_ref": [
+      "2.335:scene2.hsp:32"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    },
+    "source_aliases": [
+      "@prologue:But then, not so long ago,"
+    ]
+  },
+  {
+    "id": "prologue.scene2.hsp.33",
+    "source": "Saimore, prince of the Western Empire of Zanan,",
+    "target": "서방 제국 자난의 황자 사이모어가 칙령을 내렸다.",
+    "source_ref": [
+      "2.335:scene2.hsp:33"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.34",
+    "source": "issued a proclamation blaming the destruction of the",
+    "target": "세계를 파멸로 몰아넣고",
+    "source_ref": [
+      "2.335:scene2.hsp:34"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.35",
+    "source": "world and the end of Rehm-Ido on the forests.",
+    "target": "레므 이도를 멸망시킨 것이 바로 이 숲이라는 선언이었다.",
+    "source_ref": [
+      "2.335:scene2.hsp:35"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.37",
+    "source": "His orders demanded the annihilation",
+    "target": "황자는 엘레아를",
+    "source_ref": [
+      "2.335:scene2.hsp:37"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.38",
+    "source": "of the Eleas and subsequently,",
+    "target": "남김없이 없애고",
+    "source_ref": [
+      "2.335:scene2.hsp:38"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.39",
+    "source": "the obliteration of the Vindale forests. ",
+    "target": "빈데일의 숲까지 모조리 짓밟으라 명했다.",
+    "source_ref": [
+      "2.335:scene2.hsp:39"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.41",
+    "source": "In short order, the violence grew.",
+    "target": "폭력은 순식간에 번졌다.",
+    "source_ref": [
+      "2.335:scene2.hsp:41"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.42",
+    "source": "Suspicion and mistrust infected the hearts of",
+    "target": "사람들의 마음에 의심과 불신이 뿌리내렸고",
+    "source_ref": [
+      "2.335:scene2.hsp:42"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.43",
+    "source": "the people. Many of the Eleas, fearing persecution,",
+    "target": "박해를 두려워한 수많은 엘레아가",
+    "source_ref": [
+      "2.335:scene2.hsp:43"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.44",
+    "source": "fled deep into the Vindale.",
+    "target": "빈데일 깊숙한 곳으로 몸을 피했다.",
+    "source_ref": [
+      "2.335:scene2.hsp:44"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.46",
+    "source": "Now, the conflict grows worse with each passing day",
+    "target": "이제 갈등은 날이 갈수록 깊어지고",
+    "source_ref": [
+      "2.335:scene2.hsp:46"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.47",
+    "source": "and a final confrontation becomes more and more inevitable.",
+    "target": "마지막 충돌을 피할 길도 점차 사라지고 있다.",
+    "source_ref": [
+      "2.335:scene2.hsp:47"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.51",
+    "source": "The night has almost passed.",
+    "target": "동이 트려는 참이었다.",
+    "source_ref": [
+      "2.335:scene2.hsp:51"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    },
+    "source_aliases": [
+      "@prologue:The night has almost passed."
+    ]
+  },
+  {
+    "id": "prologue.scene2.hsp.53",
+    "source": "You have stowed away aboard the Queen Sedona,",
+    "target": "당신은 북부 티리스로 떠나는 마지막 배 가운데 하나인",
+    "source_ref": [
+      "2.335:scene2.hsp:53"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.54",
+    "source": "one of the last ships to leave for North Tyris. It is",
+    "target": "퀸 세도나 호에 몰래 올라탔다.",
+    "source_ref": [
+      "2.335:scene2.hsp:54"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.55",
+    "source": "her maiden voyage, and she is bound for Port Kapul.",
+    "target": "카풀 항으로 향하는 그 배의 첫 항해였다.",
+    "source_ref": [
+      "2.335:scene2.hsp:55"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.57",
+    "source": "Suddenly, you are awakened by the sound",
+    "target": "갑자기 하늘이 찢어지는 듯한",
+    "source_ref": [
+      "2.335:scene2.hsp:57"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.58",
+    "source": "of sky-shattering thunder. Heavy winds pitch the seas",
+    "target": "천둥소리에 잠이 깼다. 거센 바람에 바다가 뒤집히고",
+    "source_ref": [
+      "2.335:scene2.hsp:58"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.59",
+    "source": "into disarray and the ship wails in agony as increasingly",
+    "target": "갈수록 사나워지는 파도가 이물에 부딪칠 때마다",
+    "source_ref": [
+      "2.335:scene2.hsp:59"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.60",
+    "source": "violent waves slam into her bow.",
+    "target": "배는 고통에 찬 비명을 질렀다.",
+    "source_ref": [
+      "2.335:scene2.hsp:60"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.62",
+    "source": "A gust of fierce, dry wind buffets the ship.",
+    "target": "메마른 돌풍이 배를 후려쳤다.",
+    "source_ref": [
+      "2.335:scene2.hsp:62"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.63",
+    "source": "A faint blue light creeps across the night skies and",
+    "target": "희미한 푸른빛이 밤하늘에 번지고",
+    "source_ref": [
+      "2.335:scene2.hsp:63"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.64",
+    "source": "wisp-like tendrils of shimmering air begin to",
+    "target": "실오라기처럼 가늘게 일렁이는 기운이",
+    "source_ref": [
+      "2.335:scene2.hsp:64"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.65",
+    "source": "sweep over the oceans. ",
+    "target": "바다 위를 휩쓸기 시작했다.",
+    "source_ref": [
+      "2.335:scene2.hsp:65"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.67",
+    "source": "An old sailor mutters a faint curse under his breath.",
+    "target": "늙은 뱃사람이 나지막이 저주를 내뱉었다.",
+    "source_ref": [
+      "2.335:scene2.hsp:67"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.69",
+    "source": "\"The ether wind descends upon us...\"",
+    "target": "“에테르 바람이 우리를 덮치는구나…….”",
+    "source_ref": [
+      "2.335:scene2.hsp:69"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.72",
+    "source": "The ship roars in misery as the very planks",
+    "target": "배가 고통스레 울부짖었다.",
+    "source_ref": [
+      "2.335:scene2.hsp:72"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    },
+    "source_aliases": [
+      "@prologue:The ship roars in misery as the very planks"
+    ]
+  },
+  {
+    "id": "prologue.scene2.hsp.73",
+    "source": "holding her together are eaten away by the ether's light.",
+    "target": "선체를 지탱하던 널빤지마저 에테르의 빛에 스러졌다.",
+    "source_ref": [
+      "2.335:scene2.hsp:73"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.75",
+    "source": "Then... without so much as a moment's warning,",
+    "target": "그리고…… 미처 눈치챌 새도 없이",
+    "source_ref": [
+      "2.335:scene2.hsp:75"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.76",
+    "source": "the hull and all the ships passengers are swept into the oceans.",
+    "target": "선체와 배에 탄 모든 이가 파도에 휩쓸렸다.",
+    "source_ref": [
+      "2.335:scene2.hsp:76"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.78",
+    "source": "You feel a surge of wild emotion in your",
+    "target": "거센 물살이 당신을 파도 밑으로 끌어내리자",
+    "source_ref": [
+      "2.335:scene2.hsp:78"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.79",
+    "source": "heart as you are pulled beneath the waves by powerful",
+    "target": "가슴속에서는 걷잡을 수 없는 감정이 솟구쳤다.",
+    "source_ref": [
+      "2.335:scene2.hsp:79"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.80",
+    "source": "tides. The last thing you remember as the Queen Sedona",
+    "target": "퀸 세도나 호가 깊은 바닷속에 삼켜질 때",
+    "source_ref": [
+      "2.335:scene2.hsp:80"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.81",
+    "source": "is swallowed into the depths of the sea, is the mysterious",
+    "target": "당신의 기억에 마지막으로 남은 것은",
+    "source_ref": [
+      "2.335:scene2.hsp:81"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.82",
+    "source": "dancing light of the ether winds drifting away",
+    "target": "춤추듯 일렁이던 에테르 바람의 신비한 빛,",
+    "source_ref": [
+      "2.335:scene2.hsp:82"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene2.hsp.83",
+    "source": "from you as sink into the depths...",
+    "target": "가라앉는 당신에게서 점점 멀어지던 그 빛이었다…….",
+    "source_ref": [
+      "2.335:scene2.hsp:83"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene2.hsp, scene 0",
+      "source_hash": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.6",
+    "source_ja": "今はもう忘れ去られた昔",
+    "target": "이제는 잊힌 먼 옛날,",
+    "source_ref": [
+      "2.335:scene1.hsp:6"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    },
+    "source_aliases": [
+      "@prologue:今はもう忘れ去られた昔"
+    ]
+  },
+  {
+    "id": "prologue.scene1.hsp.7",
+    "source_ja": "イルヴァの地に十の文明の残骸が埋もれ",
+    "target": "열 문명의 잔해가 이르바의 땅에 묻히고",
+    "source_ref": [
+      "2.335:scene1.hsp:7"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.8",
+    "source_ja": "レム・イドの傷跡が癒えぬまま迎えた十一紀、",
+    "target": "레므 이도의 상처가 채 아물기도 전에 제11기가 밝았다.",
+    "source_ref": [
+      "2.335:scene1.hsp:8"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.9",
+    "source_ja": "最も多くを破壊し生み出したと語られる時代",
+    "target": "가장 많은 것이 스러지고 또 태어났다 전해지는 시대,",
+    "source_ref": [
+      "2.335:scene1.hsp:9"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.10",
+    "source_ja": "シエラ・テールの物語。",
+    "target": "이것은 시에라 테르의 이야기다.",
+    "source_ref": [
+      "2.335:scene1.hsp:10"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.12",
+    "source_ja": "ひと月の雨が降り終えた後",
+    "target": "한 달 동안 내리던 비가 그치자",
+    "source_ref": [
+      "2.335:scene1.hsp:12"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    },
+    "source_aliases": [
+      "@prologue:ひと月の雨が降り終えた後"
+    ]
+  },
+  {
+    "id": "prologue.scene1.hsp.13",
+    "source_ja": "辺境の地カルーンの森が姿を変えた。",
+    "target": "변방 카룬의 숲이 모습을 바꾸었다.",
+    "source_ref": [
+      "2.335:scene1.hsp:13"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.14",
+    "source_ja": "奇妙な光の霧に覆われた森は急速に根を広げ",
+    "target": "기이한 빛안개에 덮인 숲이 빠르게 뿌리를 뻗었고",
+    "source_ref": [
+      "2.335:scene1.hsp:14"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.15",
+    "source_ja": "人の住めない生態を作り出した。",
+    "target": "그곳은 더 이상 사람이 살 수 없는 땅이 되었다.",
+    "source_ref": [
+      "2.335:scene1.hsp:15"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.17",
+    "source_ja": "東の大陸、ヴィンデールの森から始まったこの異変は",
+    "target": "동쪽 대륙의 빈데일 숲에서 시작된 이변은",
+    "source_ref": [
+      "2.335:scene1.hsp:17"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.18",
+    "source_ja": "すぐにカルーンの民の生きる土地を奪い",
+    "target": "이내 카룬 사람들의 터전을 앗아갔다.",
+    "source_ref": [
+      "2.335:scene1.hsp:18"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.19",
+    "source_ja": "多くの難民がノースティリスに流れ込んだ。",
+    "target": "수많은 피란민이 북부 티리스로 밀려들었다.",
+    "source_ref": [
+      "2.335:scene1.hsp:19"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.21",
+    "source_ja": "西方国の皇子は、この現象をレム・イドの災厄であると説き",
+    "target": "서방의 황자는 이것이 레므 이도의 재앙이라며",
+    "source_ref": [
+      "2.335:scene1.hsp:21"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.22",
+    "source_ja": "異形の森とその民の根絶を唱えた。",
+    "target": "이형의 숲과 그곳 백성을 뿌리 뽑으라 외쳤다.",
+    "source_ref": [
+      "2.335:scene1.hsp:22"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.24",
+    "source_ja": "ヴィンデールの民エレアは、やがて憎しみを避けるように",
+    "target": "빈데일의 백성 엘레아는 증오를 피해",
+    "source_ref": [
+      "2.335:scene1.hsp:24"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.25",
+    "source_ja": "人間の土地から離れていったが、対立の溝はうまらず",
+    "target": "인간의 땅을 떠났으나 갈등의 골은 메워지지 않았다.",
+    "source_ref": [
+      "2.335:scene1.hsp:25"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.26",
+    "source_ja": "掃討戦は、今にも始まろうとしていた。",
+    "target": "토벌전은 당장이라도 시작될 참이었다.",
+    "source_ref": [
+      "2.335:scene1.hsp:26"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.33",
+    "source_ja": "まもなく夜の明ける頃だった。",
+    "target": "머지않아 날이 밝을 무렵이었다.",
+    "source_ref": [
+      "2.335:scene1.hsp:33"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    },
+    "source_aliases": [
+      "@prologue:まもなく夜の明ける頃だった。"
+    ]
+  },
+  {
+    "id": "prologue.scene1.hsp.34",
+    "source_ja": "ノースティリスに向かう商船クイーン・セドナの",
+    "target": "북부 티리스로 향하는 상선 퀸 세도나 호.",
+    "source_ref": [
+      "2.335:scene1.hsp:34"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.35",
+    "source_ja": "貨物にまぎれ込み眠っていたあなたは",
+    "target": "그 화물 틈에 숨어 잠들어 있던 당신은",
+    "source_ref": [
+      "2.335:scene1.hsp:35"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.36",
+    "source_ja": "突然、悲鳴のような轟音に起こされた。",
+    "target": "비명 같은 굉음에 화들짝 깨어났다.",
+    "source_ref": [
+      "2.335:scene1.hsp:36"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.40",
+    "source_ja": "木材の裂ける音、船体をゆさぶる波の振動",
+    "target": "나무가 쩍 갈라지는 소리, 선체를 뒤흔드는 파도,",
+    "source_ref": [
+      "2.335:scene1.hsp:40"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    },
+    "source_aliases": [
+      "@prologue:木材の裂ける音、船体をゆさぶる波の振動"
+    ]
+  },
+  {
+    "id": "prologue.scene1.hsp.41",
+    "source_ja": "帆を食い千切る風の唸り",
+    "target": "돛을 물어뜯으며 울부짖는 바람.",
+    "source_ref": [
+      "2.335:scene1.hsp:41"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.42",
+    "source_ja": "まるで悪魔がもたらしたような突風の中で",
+    "target": "악마가 몰고 온 듯한 돌풍 속에서",
+    "source_ref": [
+      "2.335:scene1.hsp:42"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.43",
+    "source_ja": "年老いた水夫が神を呪って呟いた。",
+    "target": "늙은 뱃사람이 신을 저주하며 중얼거렸다.",
+    "source_ref": [
+      "2.335:scene1.hsp:43"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.45",
+    "source_ja": "「エーテルの風だ」",
+    "target": "“에테르 바람이다.”",
+    "source_ref": [
+      "2.335:scene1.hsp:45"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.51",
+    "source_ja": "…そして、船が二度目の悲鳴をあげた。",
+    "target": "……그리고 배가 두 번째 비명을 질렀다.",
+    "source_ref": [
+      "2.335:scene1.hsp:51"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    },
+    "source_aliases": [
+      "@prologue:…そして、船が二度目の悲鳴をあげた。"
+    ]
+  },
+  {
+    "id": "prologue.scene1.hsp.52",
+    "source_ja": "波の重壁が何もかもを押しつぶし、人々が祈る間もなく",
+    "target": "물벽이 모든 것을 짓눌렀다. 미처 기도를 올릴 새도 없이",
+    "source_ref": [
+      "2.335:scene1.hsp:52"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  },
+  {
+    "id": "prologue.scene1.hsp.53",
+    "source_ja": "クイーン・セドナは夜の海にのまれていった。",
+    "target": "퀸 세도나 호는 밤바다에 삼켜졌다.",
+    "source_ref": [
+      "2.335:scene1.hsp:53"
+    ],
+    "speaker": "narrator",
+    "match_kind": "external_line",
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 scene1.hsp, scene 0",
+      "source_hash": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"
+    }
+  }
+]

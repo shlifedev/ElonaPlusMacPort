@@ -92,6 +92,12 @@ public:
                     }
                 }
                 if (const auto* target = catalog_->find(source)) return layout_utf8(spec, dib, x, y, *target, color);
+                // Scene 0 starts its first note one byte into the CRLF after {txt}.
+                // Only reviewed prologue lines have this source-qualified alias.
+                if (!source.empty() && source.front() == '\n') {
+                    if (const auto* target = catalog_->find("@prologue:" + source.substr(1)))
+                        return layout_utf8(spec, dib, x, y, *target, color);
+                }
                 if (!options_.translation_misses.empty() && source.size() <= 2048 && misses_.size() < 10000) ++misses_[source];
             }
         }
