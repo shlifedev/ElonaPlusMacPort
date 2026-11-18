@@ -2,6 +2,28 @@
 
 2026-11-18에 커밋 `01754e3cbfe23f868d8b22708d21dea6221262ca`를 검수했다. Astra 6.2 병렬 작업자 세 명이 호스트·파일 처리, 한국어 표시, Windows x64를 각각 맡았다. Mac에서는 새 Release 빌드로 기존 플레이 경로와 사용자가 실행하는 한국어 런처의 옵션을 따로 검사했다.
 
+## 수정 후 결과
+
+사용자의 후속 요청에 따라 아래 검수에서 발견한 결함을 수정하고 더블클릭 런처의 Mac Release를 다시 빌드했다. 다음 수치는 수정 후의 측정이다. 뒤쪽의 재현 기록은 수정 전 커밋을 설명한다.
+
+| 항목 | 수정과 재검증 |
+| --- | --- |
+| 전체 화면 시작 및 복원 | `2e4f93a`, 통합 `d6b39e6`. 호스트가 HSP의 `chgdisp` 요청을 SDL 데스크톱 전체 화면과 게임의 논리 해상도에 반영한다. 사용 중인 config의 바이트 그대로 복사한 프로필과 기본 한국어 런처 실행물로 1280×768, SDL 전체 화면 플래그 true, 801프레임, 관찰 오류 및 미지원 0건. 이 실행은 자동 입력용 숨긴 SDL 창으로 프레임 한도에서 종료했다. 보이는 Mac SDL 창에서도 전환과 복원을 별도 검사했다. |
+| 세이브 가져오기 | `5a6fa3b`. 원본의 파일 종류를 유지하고 호출별 전용 임시 디렉터리에 복사·검증한 뒤 기존 슬롯을 덮어쓰지 않는 원자적 연산으로 공개한다. `表` 파일의 종류·내용·SHA, 기존 표식 파일 보존, 동시 가져오기를 검사했다. Mac·Windows 파일 계층 검사와 합성 세이브 회귀 통과. |
+| 한국어 번역 | `5a6fa3b`. 공개 소스에 버전과 입력 판정값을 고정했다. 빈 작업공간에서 동일한 TSV와 두 보고서를 재생성했다. 단독 `猫`는 ‘고양이’로 표시하고 미등록 문장 `猫舌`의 글자 조각은 원문 픽셀을 유지한다. 기본 한국어 런처는 준비된 관리 AX의 해시를 확인해 문단 번역도 적용한다. |
+| 검증 도구 | `44e524d`, `11abec5`. Mac 영어 플레이 8단계의 91개 화면·예상 입력 시점·복구된 VM 오류·저장 상태를 검사한다. 일본어 참조, 대체 표시, 한국어 각각에서 노른 도움말 6페이지의 지정 본문 영역을 OS별 기준과 비교한다. 화면 누락·교체와 복구된 VM 오류를 각각 주입했을 때 해당 검사가 실패했다. |
+| Windows 실제 창 | `d6256c6`. Win32 창 표면으로 프레임을 표시하도록 기본값을 바꾸고 창 캡처를 타이틀과 비교한다. 언어 선택 화면이 남았던 이전 실행은 같은 판정에서 4.5%, 최신 실행은 97.9%가 일치했다. [Windows 검증 기록](WINDOWS_GUI.md) |
+| Mac 런타임 의존성 | `b5a6a43`. Release가 고정된 SDL·SDL_ttf 공식 프레임워크를 로드한다. ARM64 Mach-O의 최소 버전은 호스트 13.0, 두 프레임워크 모두 11.0이다. 실제 macOS 13 장치에서의 실행은 별도 검증이 남는다. |
+
+**최종 실행 증거**
+
+- Mac 더블클릭 런처 Release에서 CTest 12/12(세이브 파일 계층 포함), 영어 플레이 8/8·화면 91/91, 전체 번역표 5,058키 글리프 검사 통과. `work/astra62-fixes/launcher-ctest.log`, `work/playability/astra62-launcher-final/summary.json`, `work/astra62-fixes/release-font.log`.
+- Mac 한국어 런처와 실사용 config 복사본의 창 플래그와 렌더러 캡처는 `work/astra62-fixes/actual-launcher/`에 있다. 별도 선택 언어 실험에서는 일본어·영어 모두 캐릭터 생성과 집 저장 종료까지 확인했다. `work/review-ko-fix/fullscreen-language/{jp,en-final}/report.json`.
+- Mac 및 Windows의 결정적 일본어 기반 게임에서는 OS별 참조·대체 표시·한국어 3가지로 신규 게임, 재로드, 북부 티리스를 각각 검사했다. 세이브 154/154/162파일의 압축 해제 내용과 본문 18개 모두 기대값과 일치했다. `work/astra62-fixes/launcher-norne/summary.json`, `work/windows/reference-build/gui-native-fix62-managed-final/verify.json`.
+- 원격 Windows 기본값으로 실행한 창과 헤드리스 fixture 22개, 실제 창 타이틀, 신규 게임과 세이브 재로드가 통과했다. 예약 작업과 실행 프로세스는 정리됐다. `work/windows/reference-build/gui-native-fix62-final/verify.json`.
+- Windows 최종 실행물로 헤드리스와 세션 1의 실제 창에서 전체 화면 전환·복원을 검사했다. 각각 `chgdisp` 7회, 종료 0, 원래 크기로 복원, 잔여 프로세스 0이었다. `work/windows/reference-build/gui-fullscreen-fix62/gui-fullscreen-1c32a41b05.json`.
+- 조작 안내 창을 먼저 닫는 경우와 메인 창을 닫는 경우를 Mac 런처 Release에서 재검사했다. 대상 창에 따른 세 가지 종료 판정과 원본 VM 문자열 보존이 통과했다. `work/astra62-fixes/launcher-help-close/results.json`.
+
 ## 플레이어가 보고한 종료
 
 | 실행 조건 | 관찰한 결과 |
