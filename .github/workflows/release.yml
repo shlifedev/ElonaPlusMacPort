@@ -83,11 +83,11 @@ jobs:
           python tools/reference/windows_gui_deps.py --extract .cache/windows-gui
           cmake --preset windows-x64-legacy-cp932-release
           cmake --build --preset windows-x64-legacy-cp932-release --target elona_gui_host
+      # pwsh, not bash: Git Bash puts coreutils `link` ahead of the MSVC linker.
       - name: Package
-        shell: bash
         run: |
           gh release download game-data-2.335 -D work/game-data
-          python tools/package_release.py --platform windows --build-dir build/native-windows-x64-legacy-cp932-release --game-data work/game-data --sdl-root .cache/windows-gui --version "$VERSION"
+          python tools/package_release.py --platform windows --build-dir build/native-windows-x64-legacy-cp932-release --game-data work/game-data --sdl-root .cache/windows-gui --version $env:VERSION
       - uses: actions/upload-artifact@v4
         with:
           name: windows
