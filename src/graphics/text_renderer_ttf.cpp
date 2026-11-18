@@ -68,11 +68,28 @@ public:
     }
     void set_log_word_draw(bool active) override { log_word_draw_ = active; }
     void set_hud_draw(bool active) override { hud_draw_ = active; }
+    void prepare_item_row(std::string_view row, std::string_view base, std::string_view classifier, int id) override {
+        item_row_ = {};
+        std::string source, name, kind;
+        if (catalog_ && row.size() <= 1024 && ui_cp932_to_utf8(row, source) &&
+            ui_cp932_to_utf8(base, name) && ui_cp932_to_utf8(classifier, kind)) {
+            if (auto translated = catalog_->item_label(source, name, kind, id))
+                item_row_ = {std::string(row), std::move(*translated)};
+        }
+    }
 
     TextExtent draw_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) override {
         return layout(spec, &dib, x, y, cp932, color);
     }
     TextExtent draw_display_line(const FontSpec& spec, Dib& dib, int x, int y, std::string_view cp932, colorref color) override {
+        if (!item_row_.source.empty()) {
+            auto item = std::move(item_row_);
+            item_row_ = {};
+            if (cp932 == item.source) {
+                layout_utf8(spec, dib, x, y, item.display, color);
+                return measure_line(spec, cp932);
+            }
+        }
         if (catalog_) {
             std::string source;
             if (ui_cp932_to_utf8(cp932, source)) {
@@ -111,7 +128,7 @@ public:
         if (!catalog_) return -1;
         std::string source;
         if (!ui_cp932_to_utf8(cp932, source)) return -1;
-        const auto* target = catalog_->find(source);
+        const auto* target = catalog_->find(source, true);
         if (!target) return -1;
         // Validate the complete run before drawing any pixels.
         const auto paragraph = localization::layout_rich_text(*target, width, color);
@@ -285,6 +302,7 @@ private:
     std::string ko_font_;
     bool log_word_draw_ = false, hud_draw_ = false;
     std::deque<localization::LogWord> log_words_;
+    localization::LogWord item_row_;
     std::optional<localization::Catalog> catalog_;
     std::map<std::string, std::size_t> misses_;
     std::map<long, TTF_Font*> fonts_;
@@ -302,7 +320,7 @@ std::unique_ptr<TextRenderer> create_ttf_text_renderer(const TtfTextOptions& opt
     std::optional<localization::Catalog> catalog;
     std::string ko_font;
     if (!options.translation_catalog.empty()) {
-        try { catalog = localization::Catalog::load(options.translation_catalog); }
+        try { catalog = localization::Catalog::load(options.translation_catalog, options.translation_fallback); }
         catch (const std::exception& e) { error = e.what(); return nullptr; }
         std::vector<std::string> korean_candidates = options.font_files;
 #if defined(__APPLE__)

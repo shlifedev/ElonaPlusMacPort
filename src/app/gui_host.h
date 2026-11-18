@@ -34,6 +34,7 @@ struct HostOptions {
     bool list_dll = false;
     std::filesystem::path soundfont;     // SF2 for MIDI (default: build-time GeneralUser GS)
     std::filesystem::path translation_catalog;  // display-only UTF-8 translations
+    std::filesystem::path translation_fallback; // optional draft, hashed display keys
     std::filesystem::path translation_misses;   // optional private display audit
     // Deterministic clock sources: randomize default seed = seed_tick + virtual ms
     // (GetTickCount analogue); gettime = virtual_epoch (UTC seconds) + virtual ms.

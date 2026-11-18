@@ -18,6 +18,7 @@ void usage() {
                  "  --script-realtime       scripted input/dialogs with real clock and audio (requires --script)\n"
                  "  --fail-on-hsp-error     diagnostic: stop before the game's onerror handler\n"
                  "  --translation FILE.tsv display-only UTF-8 translation catalog\n"
+                 "  --translation-fallback F  lower-priority Korean draft catalog (SHA-256 keys)\n"
                  "  --translation-misses F private audit of untranslated displayed strings\n"
                  "  --script FILE           deterministic input: '<frame> key|down|up VK', 'mouse X Y', 'click X Y',\n"
                  "                          'screenshot PATH', 'capture PATH', 'exit [code]'\n"
@@ -70,6 +71,7 @@ int host_main(const std::vector<std::filesystem::path>& argv) {
         else if (a == "--script-realtime") o.scripted_realtime = true;
         else if (a == "--fail-on-hsp-error") o.fail_on_hsp_error = true;
         else if (a == "--translation") o.translation_catalog = next_path();
+        else if (a == "--translation-fallback") o.translation_fallback = next_path();
         else if (a == "--translation-misses") o.translation_misses = next_path();
         else if (a == "--script") o.script = next_path();
         else if (a == "--max-waits") o.max_waits = std::atol(next().c_str());
@@ -100,8 +102,9 @@ int host_main(const std::vector<std::filesystem::path>& argv) {
         std::fprintf(stderr, "--game requires --game-root, --user-root and --work-dir\n");
         return 2;
     }
+    if (!o.translation_fallback.empty() && o.translation_catalog.empty()) { usage(); return 2; }
     // Make output paths independent of --work-dir.
-    for (auto* p : {&o.script, &o.screenshot, &o.window_capture, &o.report, &o.game_root, &o.user_root, &o.work_dir, &o.packed_dir, &o.soundfont, &o.translation_catalog, &o.translation_misses})
+    for (auto* p : {&o.script, &o.screenshot, &o.window_capture, &o.report, &o.game_root, &o.user_root, &o.work_dir, &o.packed_dir, &o.soundfont, &o.translation_catalog, &o.translation_fallback, &o.translation_misses})
         if (!p->empty()) *p = std::filesystem::absolute(*p);
     return elona::app::run_host(o);
 }

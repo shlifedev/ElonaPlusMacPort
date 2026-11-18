@@ -1,4 +1,5 @@
 #include "catalog.h"
+#include "platform/game_files.h"
 #include <algorithm>
 #include <fstream>
 #include <regex>
@@ -43,7 +44,7 @@ std::string unescape(std::string_view in) {
     return out;
 }
 }
-Catalog Catalog::load(const std::filesystem::path& path) {
+Catalog Catalog::load(const std::filesystem::path& path, const std::filesystem::path& fallback) {
     std::ifstream in(path, std::ios::binary);
     if (!in) throw std::runtime_error("cannot open translation catalog");
     Catalog catalog;
@@ -68,11 +69,30 @@ Catalog Catalog::load(const std::filesystem::path& path) {
             throw std::runtime_error("translation catalog line " + std::to_string(number) + ": " + e.what());
         }
     }
+    if (!fallback.empty()) {
+        auto lower_priority = Catalog::load(fallback);
+        for (const auto& entry : lower_priority.entries_) {
+            if (entry.first.size() != 64 || entry.first.find_first_not_of("0123456789abcdef") != std::string::npos)
+                throw std::runtime_error("translation fallback requires lowercase SHA-256 display keys");
+        }
+        catalog.draft_by_hash_ = std::move(lower_priority.entries_);
+    }
     return catalog;
 }
-const std::string* Catalog::find(std::string_view source) const {
+const std::string* Catalog::find(std::string_view source, bool prose_context) const {
     const auto it = entries_.find(std::string(source));
-    return it == entries_.end() ? nullptr : &it->second;
+    if (it != entries_.end()) return &it->second;
+    if (draft_by_hash_.empty() || source.size() < 3 || source.front() == '@' || source.size() > 2048)
+        return nullptr;
+    // Arbitrary short labels can be a player name or a saved character's alias.
+    // Standalone draft words are allowed only at a known prose boundary.
+    if (!prose_context && (source.size() < 12 ||
+            (source.find_first_of(".!?") == source.npos && source.find("。") == source.npos &&
+             source.find("？") == source.npos && source.find("！") == source.npos &&
+             (source.size() < 24 || source.find(' ') == source.npos))))
+        return nullptr;
+    const auto match = draft_by_hash_.find(platform::sha256_hex(source.data(), source.size()));
+    return match == draft_by_hash_.end() ? nullptr : &match->second;
 }
 namespace {
 bool digits(std::string_view s) {
@@ -125,6 +145,10 @@ std::optional<std::string> Catalog::log_text(std::string_view s) const {
     }
     if (s != "home-rank") {
         if (auto target = find(scoped_key("@log/", s))) return timestamp + *target;
+    }
+    // msg_write splits a complete English sentence into individual words.
+    if (s.size() > 3 && s.find(' ') != s.npos && s.find_last_of(".?!") == s.size()-1) {
+        if (auto target = find(s, true)) return timestamp + *target;
     }
     if (s.size() > 256 || s.substr(0, 16) != "Furniture Value:") return {};
     static const std::regex rank(R"(^Furniture Value:(-?[0-9]+) Heirloom Value:(-?[0-9]+) Home Rank:([0-9]+)(?:st|nd|rd|th)->([0-9]+)(?:st|nd|rd|th) Your home is now known as <([^<>]+)>\.$)");

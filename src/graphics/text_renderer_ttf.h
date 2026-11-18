@@ -21,6 +21,7 @@ struct TtfTextOptions {
     bool cp932_cell_metrics = true;
     // Optional display-only UTF-8 catalog; VM strings stay CP932. Empty = original.
     std::filesystem::path translation_catalog;
+    std::filesystem::path translation_fallback;
     std::filesystem::path translation_misses;
 };
 

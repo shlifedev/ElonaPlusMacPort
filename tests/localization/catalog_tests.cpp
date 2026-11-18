@@ -66,6 +66,25 @@ int main(int argc, char** argv) {
             }
             check(original == rank + " " && displayed == *home.log_text(rank));
         }
+        write("@item/7\t흉갑\n@item/11\t중장화\n@item/14\t감정의 두루마리\n@item/233\t휴대 식량\n"
+              "@item-mod/bronze\t청동\n@item-mod/ブロンズ\t청동\n");
+        auto inventory = elona::localization::Catalog::load(file);
+        check(inventory.item_label("a bronze breastplate [0,3]", "breastplate", "", 7) == "청동 흉갑 [0,3]");
+        check(inventory.item_label("a pair of bronze heavy boots", "heavy boots", "", 11) == "청동 중장화");
+        check(inventory.item_label("2 scrolls of identify", "identify", "scroll", 14) == "감정의 두루마리 ×2");
+        check(inventory.item_label("4 rations", "ration", "", 233) == "휴대 식량 ×4");
+        check(inventory.item_label("★ブロンズの鎧 [0,3]", "鎧", "", 7) == "★청동 흉갑 [0,3]");
+        check(!inventory.item_label("a scroll titled Ari", "identify", "scroll", 14));
+        check(!inventory.item_label("a breastplate <Ari>", "breastplate", "", 7));
+        const auto fallback_file = root / "draft-test.tsv";
+        std::ofstream(fallback_file, std::ios::binary) <<
+            "1774c8b890bd7ae052be670183279bdc938d38f01937359cbf2a955c94ee0e62\t비가 또 온다.\na6d20aa6a4c73f0d2eb57088f6d57ff3e8ef6fa0c4e726b6a6b7d31a2e587662\t빗방울\n";
+        auto layered = elona::localization::Catalog::load(file, fallback_file);
+        check(layered.find("It is raining again.") && *layered.find("It is raining again.") == "비가 또 온다.");
+        check(!layered.find("Rain") && *layered.find("Rain", true) == "빗방울");
+        write("It is raining again.\t또 비가 내린다.\n");
+        layered = elona::localization::Catalog::load(file, fallback_file);
+        check(*layered.find("It is raining again.") == "또 비가 내린다.");
         auto rich = elona::localization::layout_rich_text("<emp1>마법서<def>를 읽으면 주문을 배운다.", 84, 0);
         check(rich.height > 18);
         check(rich.glyphs.front().style == 4 && rich.glyphs.front().color != 0);

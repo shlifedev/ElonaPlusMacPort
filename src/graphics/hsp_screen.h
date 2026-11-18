@@ -110,6 +110,7 @@ public:
     virtual void begin_english_log(std::string_view, int, int) {}
     virtual void set_log_word_draw(bool) {}
     virtual void set_hud_draw(bool) {}
+    virtual void prepare_item_row(std::string_view, std::string_view, std::string_view, int) {}
     // Explicit whole-paragraph boundary for managed game-source transforms.
     // -1 means no reviewed whole-string translation: caller runs original gmes.
     virtual int draw_localized_paragraph(Dib&, int, int, int, bool, colorref,

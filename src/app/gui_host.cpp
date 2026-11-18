@@ -1801,6 +1801,14 @@ int cmdfunc_extcmd(int cmd) {
 // boundaries. Original 2.335 bytecode does not contain this extension.
 int cmdfunc_localization(int cmd) {
     code_next();
+    if (cmd == 6) {
+        const std::string row = code_gets();
+        const std::string base = code_gets();
+        const std::string classifier = code_gets();
+        const int id = code_geti();
+        if (H->text) H->text->prepare_item_row(row, base, classifier, id);
+        return RUNMODE_RUN;
+    }
     if (cmd == 1) {
         const std::string source = code_gets();
         const int used = code_geti(), limit = code_geti();
@@ -2192,6 +2200,7 @@ int run_host(const HostOptions& options) {
     gfx::TtfTextOptions topt;
     topt.translation_catalog = options.translation_catalog;
     topt.translation_misses = options.translation_misses;
+    topt.translation_fallback = options.translation_fallback;
     topt.font_files = options.fonts;
     topt.antialias = options.text_antialias;
     std::string terr;
