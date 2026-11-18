@@ -34,7 +34,7 @@ def sha256(path: Path) -> str:
 
 
 def run(*args, cwd=None) -> str:
-    return subprocess.run([str(a) for a in args], cwd=cwd, check=True, capture_output=True, text=True).stdout
+    return subprocess.run([str(a) for a in args], cwd=cwd, check=True, capture_output=True, encoding="utf-8").stdout
 
 
 def fresh(path: Path) -> Path:
