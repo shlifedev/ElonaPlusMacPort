@@ -1,0 +1,5913 @@
+[
+  {
+    "source": "It's not yours.",
+    "source_ja": "それは拾えない。",
+    "target": "주울 수 없는 물건이다.",
+    "source_ref": [
+      "2.335:start.hsp:299921",
+      "2.335:start.hsp:299923",
+      "2.335:start.hsp:301456",
+      "2.335:start.hsp:301458",
+      "2.335:start.hsp:345364",
+      "2.335:start.hsp:345366"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's not your property.",
+    "source_ja": "それはあなたの物ではない。",
+    "target": "당신의 물건이 아니다.",
+    "source_ref": [
+      "2.335:start.hsp:299923",
+      "2.335:start.hsp:301458",
+      "2.335:start.hsp:345366"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's nothing to steal.",
+    "source_ja": "そこに盗めるものはない。",
+    "target": "여기에는 훔칠 물건이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:300674"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's no altar here.",
+    "source_ja": "ここには祭壇がない。",
+    "target": "여기에는 제단이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:300687"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't want to rob your ally.",
+    "source_ja": "仲間からは盗みたくない。",
+    "target": "동료의 물건까지 훔치고 싶지는 않다.",
+    "source_ref": [
+      "2.335:start.hsp:300698"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You have no quota for Mages Guild.",
+    "source_ja": "現在魔術士ギルドのノルマはない。",
+    "target": "현재 마법사 길드에 납품해야 할 물건이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:300711"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Examine what? ",
+    "source_ja": "どのアイテムを調べる？ ",
+    "target": "어떤 물건을 살펴보시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Drop what? ",
+    "source_ja": "どのアイテムを置く？ ",
+    "target": "어떤 물건을 내려놓으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which item do you want to pick up? ",
+    "source_ja": "どのアイテムを拾う？ ",
+    "target": "어떤 물건을 주우시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Equip what?",
+    "source_ja": "何を装備する？",
+    "target": "무엇을 장비하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Eat what? ",
+    "source_ja": "何を食べよう？ ",
+    "target": "무엇을 드시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Read what? ",
+    "source_ja": "どれを読む？ ",
+    "target": "무엇을 읽으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Drink what? ",
+    "source_ja": "どれを飲む？ ",
+    "target": "무엇을 마시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Zap what? ",
+    "source_ja": "どれを振る？ ",
+    "target": "어느 지팡이를 휘두르시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which item do you want to give? ",
+    "source_ja": "どれを渡す？ ",
+    "target": "무엇을 건네시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What do you want to buy? ",
+    "source_ja": "どれを購入する？ ",
+    "target": "무엇을 구입하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What do you want to sell? ",
+    "source_ja": "どれを売却する？ ",
+    "target": "무엇을 파시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which item do you want to identify? ",
+    "source_ja": "どのアイテムを鑑定する？ ",
+    "target": "어떤 물건을 감정하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Use what? ",
+    "source_ja": "どのアイテムを使用する？ ",
+    "target": "어떤 물건을 사용하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Open what? ",
+    "source_ja": "どれを開ける？ ",
+    "target": "무엇을 여시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Cook what? ",
+    "source_ja": "何を料理する？ ",
+    "target": "무엇을 요리하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Blend what? ",
+    "source_ja": "何を混ぜる？ ",
+    "target": "무엇을 섞으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What do you want to offer to your God? ",
+    "source_ja": "何を神に捧げる？ ",
+    "target": "무엇을 신에게 바치시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which item do you want to trade? ",
+    "source_ja": "何を交換する？ ",
+    "target": "무엇을 교환하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take what? ",
+    "source_ja": "何を取る？ ",
+    "target": "무엇을 꺼내시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Target what? ",
+    "source_ja": "何を対象にする？ ",
+    "target": "무엇을 대상으로 삼으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Put what? ",
+    "source_ja": "何を入れる？ ",
+    "target": "무엇을 넣으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which item do you want to take? ",
+    "source_ja": "何をもらう？ ",
+    "target": "무엇을 받으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Throw what? ",
+    "source_ja": "何を投げる？ ",
+    "target": "무엇을 던지시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Steal what? ",
+    "source_ja": "何を盗む？ ",
+    "target": "무엇을 훔치시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Trade what? ",
+    "source_ja": "何と交換する？ ",
+    "target": "무엇과 교환하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which item do you want to reserve? ",
+    "source_ja": "何を予約する？",
+    "target": "무엇을 예약하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:300741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The item doesn't exist.",
+    "source_ja": "そのアイテムは存在しない。",
+    "target": "그 물건은 존재하지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:300828"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The item is empty!",
+    "source_ja": "そのアイテムはもう空っぽだ。",
+    "target": "이미 텅 비었다.",
+    "source_ref": [
+      "2.335:start.hsp:300836"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Tag No-Drop]",
+    "source_ja": "[保持指定]",
+    "target": "[보관 지정]",
+    "source_ref": [
+      "2.335:start.hsp:300950"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Multi Drop]",
+    "source_ja": "[連続で置く]",
+    "target": "[연속으로 내려놓기]",
+    "source_ref": [
+      "2.335:start.hsp:300954"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Price",
+    "source_ja": "値段",
+    "target": "가격",
+    "source_ref": [
+      "2.335:start.hsp:300964"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Medal",
+    "source_ja": "メダル",
+    "target": "메달",
+    "source_ref": [
+      "2.335:start.hsp:300968"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "ticket",
+    "source_ja": "チケット",
+    "target": "티켓",
+    "source_ref": [
+      "2.335:start.hsp:300971"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "EquipWt:",
+    "source_ja": "装備重量:",
+    "target": "장비 무게:",
+    "source_ref": [
+      "2.335:start.hsp:301028",
+      "2.335:start.hsp:301055"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Equip:",
+    "source_ja": "装備箇所:",
+    "target": "장비 부위:",
+    "source_ref": [
+      "2.335:start.hsp:301059"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": " (Ground)",
+    "source_ja": "(足元)",
+    "target": "(발밑)",
+    "source_ref": [
+      "2.335:start.hsp:301121"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": " (Range)",
+    "source_ja": "(遠隔)",
+    "target": "(원거리)",
+    "source_ref": [
+      "2.335:start.hsp:301204"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's set as no-drop. You can reset it from the <examine> menu.",
+    "source_ja": "それはあなたの大事なものだ。<調べる>メニューから解除できる。",
+    "target": "소중한 물건으로 지정되어 있다. <살펴보기> 메뉴에서 해제할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:301276",
+      "2.335:start.hsp:301340",
+      "2.335:start.hsp:301596",
+      "2.335:start.hsp:301743",
+      "2.335:start.hsp:302694",
+      "2.335:start.hsp:302715",
+      "2.335:start.hsp:330895",
+      "2.335:start.hsp:331083",
+      "2.335:start.hsp:345386",
+      "2.335:start.hsp:389409",
+      "2.335:start.hsp:389473",
+      "2.335:start.hsp:404668",
+      "2.335:start.hsp:423831"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't drop items any more.",
+    "source_ja": "これ以上は置けない。",
+    "target": "더는 내려놓을 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:301284",
+      "2.335:start.hsp:301295"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The container is full.",
+    "source_ja": "これ以上入らない。",
+    "target": "더는 들어가지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:301352"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The cemetery is full.",
+    "source_ja": "これ以上送れない。",
+    "target": "더는 보낼 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:301363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The container is full.",
+    "source_ja": "これ以上置けない。",
+    "target": "더는 내려놓을 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:301374"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The container cannot hold cargos",
+    "source_ja": "荷物は入らない。",
+    "target": "짐이 들어가지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:301394"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't have a claim.",
+    "source_ja": "遺産の相続権を持っていない。",
+    "target": "유산을 상속받을 권리가 없다.",
+    "source_ref": [
+      "2.335:start.hsp:301427"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You need to earn more money!",
+    "source_ja": "もっと稼がないと買えない！",
+    "target": "돈을 더 벌어야 살 수 있다!",
+    "source_ref": [
+      "2.335:start.hsp:301528",
+      "2.335:start.hsp:301530"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You check your wallet and shake your head.",
+    "source_ja": "あなたは財布を開いてがっかりした…",
+    "target": "지갑을 열어 보고는 실망했다…",
+    "source_ref": [
+      "2.335:start.hsp:301530"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You are too bloated to eat any more.",
+    "source_ja": "腹がさける…",
+    "target": "배가 터지겠다…",
+    "source_ref": [
+      "2.335:start.hsp:301606",
+      "2.335:start.hsp:301608"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your stomach can't digest any more.",
+    "source_ja": "まだ腹は減っていない。",
+    "target": "아직 배가 고프지 않다.",
+    "source_ref": [
+      "2.335:start.hsp:301606",
+      "2.335:start.hsp:301608"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your are too full to eat.",
+    "source_ja": "今はとても食べられない。",
+    "target": "지금은 도저히 먹을 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:301608"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's too heavy to equip.",
+    "source_ja": "それは重すぎて装備できない。",
+    "target": "너무 무거워서 장비할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:301623"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's too unfair to equip.",
+    "source_ja": "それは反則すぎて装備できない。",
+    "target": "이걸 장비하는 건 아무리 봐도 반칙이다.",
+    "source_ref": [
+      "2.335:start.hsp:301641",
+      "2.335:start.hsp:301650",
+      "2.335:start.hsp:302514",
+      "2.335:start.hsp:302523"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You are too bloated to drink any more.",
+    "source_ja": "膀胱がやぶける…",
+    "target": "방광이 터지겠다…",
+    "source_ref": [
+      "2.335:start.hsp:301709",
+      "2.335:start.hsp:301711",
+      "2.335:start.hsp:355405",
+      "2.335:start.hsp:355407"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your stomach can't digest any more.",
+    "source_ja": "まだ喉は渇いていない。",
+    "target": "아직 목이 마르지 않다.",
+    "source_ref": [
+      "2.335:start.hsp:301709",
+      "2.335:start.hsp:301711",
+      "2.335:start.hsp:355405",
+      "2.335:start.hsp:355407"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your are too full to drink.",
+    "source_ja": "これ以上飲めない…。",
+    "target": "더는 마실 수 없다…",
+    "source_ref": [
+      "2.335:start.hsp:301711",
+      "2.335:start.hsp:355407"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You have to wait next February.",
+    "source_ja": "次の２月を待とう。",
+    "target": "다음 2월을 기다리자.",
+    "source_ref": [
+      "2.335:start.hsp:301985"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Will you be equipped it at Range?",
+    "source_ja": "それは遠隔装備だが手にも装備できる。どちらに装備させる？",
+    "target": "원거리 장비지만 손에도 들 수 있다. 어디에 장비하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:302554"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Will you be equipped it at Hand?",
+    "source_ja": "それは手装備だが遠隔にも装備できる。どちらに装備させる？",
+    "target": "손에 드는 장비지만 원거리 장비로도 쓸 수 있다. 어디에 장비하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:302561"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which hand?",
+    "source_ja": "何番目の手？",
+    "target": "몇 번째 손에 장비하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:302588"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You need higher identification to gain new knowledge.",
+    "source_ja": "新しい知識は得られなかった。より上位の鑑定で調べる必要がある。",
+    "target": "새로 알아낸 것은 없다. 더 정밀한 감정이 필요하다.",
+    "source_ref": [
+      "2.335:start.hsp:302636"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You fulfill the quota!",
+    "source_ja": "ノルマを達成した！",
+    "target": "납품 목표를 달성했다!",
+    "source_ref": [
+      "2.335:start.hsp:302785"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": " Delivered ",
+    "source_ja": "  納入済み",
+    "target": "  납품 완료",
+    "source_ref": [
+      "2.335:start.hsp:302795"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Quota ",
+    "source_ja": "納入ノルマ",
+    "target": "납품 목표",
+    "source_ref": [
+      "2.335:start.hsp:302795"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't have enough money.",
+    "source_ja": "金が足りない…",
+    "target": "돈이 부족하다…",
+    "source_ref": [
+      "2.335:start.hsp:302808",
+      "2.335:start.hsp:302817",
+      "2.335:start.hsp:302826",
+      "2.335:start.hsp:330665"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't have to pay your tax yet.",
+    "source_ja": "まだ納税する必要はない。",
+    "target": "아직 세금을 낼 때가 아니다.",
+    "source_ref": [
+      "2.335:start.hsp:302836"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The location is blocked.",
+    "source_ja": "そこには投げられない。",
+    "target": "그곳에는 던질 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:303017"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your inventory is full.",
+    "source_ja": "これ以上持てない。",
+    "target": "더는 들 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:303037",
+      "2.335:start.hsp:303088"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't have enough coins.",
+    "source_ja": "メダルの数が足りない…",
+    "target": "메달이 부족하다…",
+    "source_ref": [
+      "2.335:start.hsp:303064"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't have enough tickets.",
+    "source_ja": "チケットの数が足りない…",
+    "target": "티켓이 부족하다…",
+    "source_ref": [
+      "2.335:start.hsp:303115"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can continuously drop items.",
+    "source_ja": "続けてアイテムを置くことができる。",
+    "target": "물건을 연달아 내려놓을 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:303234"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Really leave these items?",
+    "source_ja": "まだアイテムが残っているがいい？",
+    "target": "아직 물건이 남아 있습니다. 계속하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:303263"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't make a shortcut for cargo stuff.",
+    "source_ja": "荷車の荷物は登録できない。",
+    "target": "짐수레에 실린 물건은 등록할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:303310"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It speeds up the ether disease while equipping.",
+    "source_ja": "それは装備している間、エーテルの病の進行を早める",
+    "target": "장비하면 에테르병의 진행이 빨라진다.",
+    "source_ref": [
+      "2.335:start.hsp:303634"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is acidproof.",
+    "source_ja": "それは酸では傷つかない",
+    "target": "산에 부식되지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:303640"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is fireproof.",
+    "source_ja": "それは炎では燃えない",
+    "target": "불에 타지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:303646"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is coldproof.",
+    "source_ja": "それは冷気では砕けない",
+    "target": "냉기로 깨지지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:303651"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is precious.",
+    "source_ja": "それは貴重な品だ",
+    "target": "귀중품이다.",
+    "source_ref": [
+      "2.335:start.hsp:303656"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is blessed by Ehekatl.",
+    "source_ja": "それはエヘカトルの祝福を受けている",
+    "target": "에헤카틀의 축복을 받았다.",
+    "source_ref": [
+      "2.335:start.hsp:303661"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is a stolen item.",
+    "source_ja": "それは盗品だ",
+    "target": "도난품이다.",
+    "source_ref": [
+      "2.335:start.hsp:303666"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is alive.",
+    "source_ja": "それは生きている",
+    "target": "살아 있다.",
+    "source_ref": [
+      "2.335:start.hsp:303671"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It can be only used in a show room.",
+    "source_ja": "それはショウルームでのみ使用できる。",
+    "target": "전시장에서만 쓸 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:303676"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is a hand-made item.",
+    "source_ja": "それは心温まる手作り品だ",
+    "target": "정성이 담긴 수제품이다.",
+    "source_ref": [
+      "2.335:start.hsp:303681"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It can be wielded as a weapon.",
+    "source_ja": "それは武器として扱うことができる",
+    "target": "무기로 쓸 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:303694"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": " Pierce ",
+    "source_ja": " 貫通 ",
+    "target": " 관통 ",
+    "source_ref": [
+      "2.335:start.hsp:303694"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is a light weapon.",
+    "source_ja": "それは片手でも扱いやすい",
+    "target": "한 손으로도 다루기 쉽다.",
+    "source_ref": [
+      "2.335:start.hsp:303699"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is a heavy weapon.",
+    "source_ja": "それは両手持ちに適している",
+    "target": "두 손으로 쓰기에 적합하다.",
+    "source_ref": [
+      "2.335:start.hsp:303704"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You have to identify the item to gain knowledge.",
+    "source_ja": "このアイテムに関する知識を得るには、鑑定する必要がある。",
+    "target": "이 물건을 자세히 알려면 감정을 받아야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:303724"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There is no information about this object.",
+    "source_ja": "特に情報はない",
+    "target": "별다른 정보가 없다.",
+    "source_ref": [
+      "2.335:start.hsp:304107"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Known Information",
+    "source_ja": "アイテムの知識",
+    "target": "물건에 관한 지식",
+    "source_ref": [
+      "2.335:start.hsp:304136"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You find no target.",
+    "source_ja": "ターゲットが見当たらない。",
+    "target": "대상이 보이지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:304249"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You need to equip a firing weapon.",
+    "source_ja": "射撃用の道具を装備していない。",
+    "target": "사격할 무기를 장비하지 않았다.",
+    "source_ref": [
+      "2.335:start.hsp:304307"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You need to equip ammos or arrows.",
+    "source_ja": "矢/弾丸を装備する必要がある。",
+    "target": "화살이나 탄환을 장비해야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:304317"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You're equipped with wrong type of ammos.",
+    "source_ja": "矢/弾丸の種類が適していない。",
+    "target": "장비한 화살이나 탄환이 무기에 맞지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:304327"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's not possible on the world map.",
+    "source_ja": "ワールドマップでは無理だ。",
+    "target": "세계 지도에서는 할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:304463"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't save the game in a user made map. Exit anyway?",
+    "source_ja": "ここではセーブできない。それでも終了する？",
+    "target": "여기서는 저장할 수 없습니다. 그래도 종료하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304592"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Do you want to save the game and exit?",
+    "source_ja": "これまでの冒険を記録して終了する？",
+    "target": "지금까지의 모험을 저장하고 종료하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304599"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your game has been saved successfully.",
+    "source_ja": "無事に記録された。",
+    "target": "무사히 저장했다.",
+    "source_ref": [
+      "2.335:start.hsp:304621"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Returning while taking a quest if forbidden. Are you sure you want to return?",
+    "source_ja": "依頼請負中の帰還は法律で禁止されている。それでも帰還する？",
+    "target": "의뢰를 수행하는 동안에는 법으로 귀환을 금지합니다. 그래도 귀환하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304659"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "If you do not weaken the <Chaos Child>, it will come out of God's prison!",
+    "source_ja": "無力化しないと奴が神の間から出てきてしまう！",
+    "target": "놈을 무력화하지 않으면 신의 방에서 빠져나올 것이다!",
+    "source_ref": [
+      "2.335:start.hsp:304676",
+      "2.335:start.hsp:348910"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't know any location you can return to",
+    "source_ja": "この大陸には帰還できる場所が無い。",
+    "target": "이 대륙에는 귀환할 수 있는 곳이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:304765"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Where do you want to go?",
+    "source_ja": "どの場所に帰還する？",
+    "target": "어디로 귀환하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304772"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The air around you becomes charged.",
+    "source_ja": "周囲の大気がざわめきだした。",
+    "target": "주변 공기가 술렁이기 시작했다.",
+    "source_ref": [
+      "2.335:start.hsp:304782",
+      "2.335:start.hsp:329336"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The lord of the dungeon might disappear if you escape now.",
+    "source_ja": "このままダンジョンを出ると、この階のクエストは達成できない…",
+    "target": "이대로 던전을 나가면 이 층의 퀘스트를 완수할 수 없다…",
+    "source_ref": [
+      "2.335:start.hsp:304790",
+      "2.335:start.hsp:329344"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You are not interested in this book. Do you want to read it anyway? ",
+    "source_ja": "この本の内容には興味がない。それでも読む？ ",
+    "target": "흥미가 가지 않는 책입니다. 그래도 읽으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304855"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "This function is disabled in the wizard's mode.",
+    "source_ja": "デバッグモードでは無効だ。",
+    "target": "디버그 모드에서는 효과가 없다.",
+    "source_ref": [
+      "2.335:start.hsp:304876"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't user it in this area.",
+    "source_ja": "このマップでは利用できない。",
+    "target": "이 지도에서는 사용할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:304886"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Customize Menu] What do you want to do?",
+    "source_ja": "[カスタム機能]何をする？",
+    "target": "[사용자 설정] 무엇을 하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304904"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Save current area",
+    "source_ja": "ショウルームを記録",
+    "target": "전시장 저장",
+    "source_ref": [
+      "2.335:start.hsp:304906"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Save your pet team",
+    "source_ja": "ペットチームを記録",
+    "target": "펫 팀 저장",
+    "source_ref": [
+      "2.335:start.hsp:304908"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Change your team name",
+    "source_ja": "チームネーム変更",
+    "target": "팀 이름 변경",
+    "source_ref": [
+      "2.335:start.hsp:304910"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Make custom NPC",
+    "source_ja": "カスタムNPCを作成",
+    "target": "사용자 NPC 만들기",
+    "source_ref": [
+      "2.335:start.hsp:304912"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Upload",
+    "source_ja": "アップロード",
+    "target": "업로드",
+    "source_ref": [
+      "2.335:start.hsp:304915"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Setting",
+    "source_ja": "設定",
+    "target": "설정",
+    "source_ref": [
+      "2.335:start.hsp:304917"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't save this area.",
+    "source_ja": "このマップは保存できない。",
+    "target": "이 지도는 저장할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:304931"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Enter file name.",
+    "source_ja": "どのファイル名で保存する？",
+    "target": "어떤 파일 이름으로 저장하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304939",
+      "2.335:start.hsp:304998"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which members do you want to save?",
+    "source_ja": "どのメンバー構成を記録する？",
+    "target": "어느 팀 구성을 저장하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:304962"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't do it in this area.",
+    "source_ja": "この場所からはできない。",
+    "target": "이곳에서는 할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:305040"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You need to be at least level 10 to upload.",
+    "source_ja": "それはレベルが10以上でないとできない。",
+    "target": "레벨 10 이상이어야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:305048"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You need to equip an ammo.",
+    "source_ja": "矢弾を装備していない。",
+    "target": "화살이나 탄환을 장비하지 않았다.",
+    "source_ref": [
+      "2.335:start.hsp:305324"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Current Ammo Type:",
+    "source_ja": "現在の装填弾:",
+    "target": "현재 장전한 탄:",
+    "source_ref": [
+      "2.335:start.hsp:305369"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Unlimited",
+    "source_ja": "無限",
+    "target": "무한",
+    "source_ref": [
+      "2.335:start.hsp:305373",
+      "2.335:start.hsp:345264",
+      "2.335:start.hsp:365151"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I don't want to meet anyone.",
+    "source_ja": "追い返す",
+    "target": "돌려보내기",
+    "source_ref": [
+      "2.335:start.hsp:419754"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Return>",
+    "source_ja": "戻る",
+    "target": "돌아가기",
+    "source_ref": [
+      "2.335:start.hsp:419808"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Be kind>",
+    "source_ja": "優しくする",
+    "target": "다정하게 대하기",
+    "source_ref": [
+      "2.335:start.hsp:419814"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<To embarrass>",
+    "source_ja": "困らせる",
+    "target": "곤란하게 만들기",
+    "source_ref": [
+      "2.335:start.hsp:419817"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<<Interest in a little tail t'night>>",
+    "source_ja": "【特別な気持ちいいこと】",
+    "target": "【특별히 기분 좋은 일】",
+    "source_ref": [
+      "2.335:start.hsp:419825"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Mind unlock>",
+    "source_ja": "心の開錠",
+    "target": "마음의 자물쇠 열기",
+    "source_ref": [
+      "2.335:start.hsp:419829"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Evochat without you>",
+    "source_ja": "タッグ間でevochatさせる",
+    "target": "짝을 이룬 동료끼리 evochat 시키기",
+    "source_ref": [
+      "2.335:start.hsp:419834"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<<Get excited>>",
+    "source_ja": "【暴走する】",
+    "target": "【폭주하기】",
+    "source_ref": [
+      "2.335:start.hsp:419839"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<End evochat>",
+    "source_ja": "おしまい",
+    "target": "그만두기",
+    "source_ref": [
+      "2.335:start.hsp:419844",
+      "2.335:start.hsp:419871"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Whipping>",
+    "source_ja": "ムチでひっぱたく",
+    "target": "채찍으로 후려치기",
+    "source_ref": [
+      "2.335:start.hsp:419850"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Stick the candy in>",
+    "source_ja": "アメをしゃぶらせる",
+    "target": "사탕 물려 주기",
+    "source_ref": [
+      "2.335:start.hsp:419853"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Give lots of love>",
+    "source_ja": "たっぷりと可愛がってやる",
+    "target": "실컷 예뻐해 주기",
+    "source_ref": [
+      "2.335:start.hsp:419856"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<<Violent>>",
+    "source_ja": "【乱暴する】（未実装）",
+    "target": "【난폭하게 굴기】(미구현)",
+    "source_ref": [
+      "2.335:start.hsp:419859"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Dark tickling recording>",
+    "source_ja": "暗黒くすぐり撮影会",
+    "target": "암흑 간지럼 촬영회",
+    "source_ref": [
+      "2.335:start.hsp:419862"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<<Torture anyway>>",
+    "source_ja": "【とにかく拷問する】（未実装）",
+    "target": "【무작정 고문하기】(미구현)",
+    "source_ref": [
+      "2.335:start.hsp:419866"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<<Hug>>",
+    "source_ja": "抱きつく",
+    "target": "끌어안기",
+    "source_ref": [
+      "2.335:start.hsp:419881"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<<Pat>>",
+    "source_ja": "なでなでする",
+    "target": "쓰다듬기",
+    "source_ref": [
+      "2.335:start.hsp:419884"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<<Kiss>>",
+    "source_ja": "キスしまくる",
+    "target": "계속 입 맞추기",
+    "source_ref": [
+      "2.335:start.hsp:419887"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Return>",
+    "source_ja": "我に返る",
+    "target": "정신 차리기",
+    "source_ref": [
+      "2.335:start.hsp:419894"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Gently>",
+    "source_ja": "優しく",
+    "target": "부드럽게",
+    "source_ref": [
+      "2.335:start.hsp:419899"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Violently>",
+    "source_ja": "激しく",
+    "target": "격렬하게",
+    "source_ref": [
+      "2.335:start.hsp:419902"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Small break>",
+    "source_ja": "小休憩",
+    "target": "잠깐 쉬기",
+    "source_ref": [
+      "2.335:start.hsp:419905"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Let's have a meal together.[Total-EXP 200%, Satiety increase halved]",
+    "source_ja": "一緒に食事する[総経験値200％・満腹度増加量半減]",
+    "target": "함께 식사하기 [총 경험치 200% · 포만도 증가량 절반]",
+    "source_ref": [
+      "2.335:start.hsp:419916"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Have a tag team meal.[Total-EXP 200%, Satiety increase halved]",
+    "source_ja": "タッグで食事させる[総経験値200％・満腹度増加量半減]",
+    "target": "짝을 이룬 동료끼리 식사시키기 [총 경험치 200% · 포만도 증가량 절반]",
+    "source_ref": [
+      "2.335:start.hsp:419924"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Recieve materials.",
+    "source_ja": "マテリアルを受け取る",
+    "target": "재료 받기",
+    "source_ref": [
+      "2.335:start.hsp:419931"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Let's Talk.",
+    "source_ja": "話がしたい",
+    "target": "대화하기",
+    "source_ref": [
+      "2.335:start.hsp:419941"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Prepare to die!",
+    "source_ja": "襲撃するよ",
+    "target": "습격하기",
+    "source_ref": [
+      "2.335:start.hsp:419953"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "(Ram your ship and get in) (success rate:100%)",
+    "source_ja": "船をぶつけて飛び移る（成功率:100％）",
+    "target": "배를 들이받고 건너뛰기 (성공률 100%)",
+    "source_ref": [
+      "2.335:start.hsp:419967"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want a kiseru.",
+    "source_ja": "「キセル」が欲しい",
+    "target": "곰방대 달라고 하기",
+    "source_ref": [
+      "2.335:start.hsp:419977"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Need someone to invest in your shop?",
+    "source_ja": "投資したい",
+    "target": "투자하기",
+    "source_ref": [
+      "2.335:start.hsp:419982"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Bring me something to drink.",
+    "source_ja": "飲み物を注文する",
+    "target": "음료 주문하기",
+    "source_ref": [
+      "2.335:start.hsp:419988"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Bring me special drink. (1 bronze) ",
+    "source_ja": "スペシャルメニューを頼む (ブロンズ硬貨1枚)",
+    "target": "특별 메뉴 주문하기 (동화 1개)",
+    "source_ref": [
+      "2.335:start.hsp:419991"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "call back my allies.",
+    "source_ja": "仲間を呼び戻す",
+    "target": "동료 다시 부르기",
+    "source_ref": [
+      "2.335:start.hsp:419994"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to buy a slave.",
+    "source_ja": "奴隷を買う",
+    "target": "노예 사기",
+    "source_ref": [
+      "2.335:start.hsp:420000"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to sell a slave.",
+    "source_ja": "奴隷を売る",
+    "target": "노예 팔기",
+    "source_ref": [
+      "2.335:start.hsp:420004"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to buy a horse.",
+    "source_ja": "馬を買う",
+    "target": "말 사기",
+    "source_ref": [
+      "2.335:start.hsp:420010"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Interested in a little tail t'night?",
+    "source_ja": "気持ちいいことしよう",
+    "target": "기분 좋은 일 하기",
+    "source_ref": [
+      "2.335:start.hsp:420019"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Interested in a hard little tail t'night?",
+    "source_ja": "激しく気持ちいいことしよう",
+    "target": "격렬하게 기분 좋은 일 하기",
+    "source_ref": [
+      "2.335:start.hsp:420022"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Acknowledge child's growth>",
+    "source_ja": "【子供が成長したことを認める】",
+    "target": "【아이의 성장을 인정하기】",
+    "source_ref": [
+      "2.335:start.hsp:420037"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Invest in education>",
+    "source_ja": "【教育に投資】",
+    "target": "【교육에 투자하기】",
+    "source_ref": [
+      "2.335:start.hsp:420044"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<evochat>",
+    "source_ja": "【evochat】",
+    "target": "【evochat】",
+    "source_ref": [
+      "2.335:start.hsp:420051"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<tag evochat>",
+    "source_ja": "【タッグごとevochat】",
+    "target": "【짝과 함께 evochat】",
+    "source_ref": [
+      "2.335:start.hsp:420058"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Talk to your tag team partner.",
+    "source_ja": "タッグ間のやりとりを見る",
+    "target": "짝을 이룬 동료의 대화 보기",
+    "source_ref": [
+      "2.335:start.hsp:420068"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I'm going to abandon you.",
+    "source_ja": "縁を切る",
+    "target": "인연 끊기",
+    "source_ref": [
+      "2.335:start.hsp:420074"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Work instructions (under development) ",
+    "source_ja": "作業の指示(未実装)　",
+    "target": "작업 지시하기 (미구현)",
+    "source_ref": [
+      "2.335:start.hsp:420103"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Darkness evochat>",
+    "source_ja": "【暗黒evochat】",
+    "target": "【암흑 evochat】",
+    "source_ref": [
+      "2.335:start.hsp:420118"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I have decided to release you.",
+    "source_ja": "収容者を解放する",
+    "target": "수감자 풀어 주기",
+    "source_ref": [
+      "2.335:start.hsp:420122"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I have decided to execute you as a demonstration.",
+    "source_ja": "見せしめに処刑する",
+    "target": "본보기로 처형하기",
+    "source_ref": [
+      "2.335:start.hsp:420125"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I will teach you performance. (item consume) ",
+    "source_ja": "芸を仕込む (アイテム消費)",
+    "target": "재주 가르치기 (아이템 소모)",
+    "source_ref": [
+      "2.335:start.hsp:420131"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I offer you to my god.",
+    "source_ja": "家畜を神に捧げる",
+    "target": "가축을 신에게 바치기",
+    "source_ref": [
+      "2.335:start.hsp:420136"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I need ammos for my weapon.",
+    "source_ja": "矢弾の充填",
+    "target": "탄약 보충",
+    "source_ref": [
+      "2.335:start.hsp:420142"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to harden my equipment.",
+    "source_ja": "武具の強化",
+    "target": "무기·방어구 강화",
+    "source_ref": [
+      "2.335:start.hsp:420145"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to make light my equipment.",
+    "source_ja": "武具の軽量化",
+    "target": "무기·방어구 무게 줄이기",
+    "source_ref": [
+      "2.335:start.hsp:420148"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to make heavy my equipment.",
+    "source_ja": "武具の重量化",
+    "target": "무기·방어구 무게 늘리기",
+    "source_ref": [
+      "2.335:start.hsp:420151"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Bring me something to eat.",
+    "source_ja": "食事をとる",
+    "target": "식사하기",
+    "source_ref": [
+      "2.335:start.hsp:420157"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Bring me special dish. (1 bronze) ",
+    "source_ja": "スペシャルメニューを頼む (ブロンズ硬貨1枚)",
+    "target": "특별 메뉴 주문하기 (동화 1개)",
+    "source_ref": [
+      "2.335:start.hsp:420160"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take me to the shelter.",
+    "source_ja": "シェルターに入る",
+    "target": "대피소에 들어가기",
+    "source_ref": [
+      "2.335:start.hsp:420164"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I need you to identify an item.",
+    "source_ja": "鑑定したい",
+    "target": "감정 의뢰하기",
+    "source_ref": [
+      "2.335:start.hsp:420171"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Identify all of my stuff.",
+    "source_ja": "全て鑑定してほしい",
+    "target": "모두 감정받기",
+    "source_ref": [
+      "2.335:start.hsp:420174"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Investigate an item.",
+    "source_ja": "調査したい",
+    "target": "조사 의뢰하기",
+    "source_ref": [
+      "2.335:start.hsp:420177"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Attend a magic practice.",
+    "source_ja": "魔法実習を受けたい",
+    "target": "마법 실습 받기",
+    "source_ref": [
+      "2.335:start.hsp:420180"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Exchange unnecessary magic stocks.",
+    "source_ja": "不要な魔法ストックの交換",
+    "target": "쓰지 않는 마법 사용 횟수 교환",
+    "source_ref": [
+      "2.335:start.hsp:420183"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Exchange unnecessary all magic stocks.",
+    "source_ja": "不要な魔法ストックまとめて交換",
+    "target": "쓰지 않는 마법 사용 횟수 일괄 교환",
+    "source_ref": [
+      "2.335:start.hsp:420186"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Train me.",
+    "source_ja": "訓練したい",
+    "target": "훈련받기",
+    "source_ref": [
+      "2.335:start.hsp:420191"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What skills can you teach me?",
+    "source_ja": "新しいスキルを覚えたい",
+    "target": "새 기술 배우기",
+    "source_ref": [
+      "2.335:start.hsp:420194"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to run the town management.",
+    "source_ja": "街の管理コマンド",
+    "target": "마을 관리",
+    "source_ref": [
+      "2.335:start.hsp:420205"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "How popular is my management?",
+    "source_ja": "管理代行者の人気は？",
+    "target": "관리 대행자의 평판 묻기",
+    "source_ref": [
+      "2.335:start.hsp:420210"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Show me the list of adventurers.(100Gold)",
+    "source_ja": "冒険者の情報(100Gold)",
+    "target": "모험가 정보 (금화 100개)",
+    "source_ref": [
+      "2.335:start.hsp:420218"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Convey my message to other adventurers.(2000Gold)",
+    "source_ja": "冒険者への伝言(2000Gold)",
+    "target": "모험가에게 전언 보내기 (금화 2,000개)",
+    "source_ref": [
+      "2.335:start.hsp:420221"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tell me the quest strategy information.(300Gold)",
+    "source_ja": "クエストの攻略情報(300Gold)",
+    "target": "퀘스트 공략 정보 (금화 300개)",
+    "source_ref": [
+      "2.335:start.hsp:420224"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[ I will inform my birthday.]",
+    "source_ja": "【誕生日を教える】",
+    "target": "【생일 알려 주기】",
+    "source_ref": [
+      "2.335:start.hsp:420227"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Restore my attributes.",
+    "source_ja": "能力の復元",
+    "target": "능력치 회복",
+    "source_ref": [
+      "2.335:start.hsp:420241"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to uncurse equipped items.",
+    "source_ja": "装備中のアイテム解呪",
+    "target": "착용 중인 장비의 저주 해제",
+    "source_ref": [
+      "2.335:start.hsp:420244"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Are you interested in trade?",
+    "source_ja": "アイテム交換",
+    "target": "물건 교환",
+    "source_ref": [
+      "2.335:start.hsp:420249",
+      "2.335:start.hsp:420306"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to hire you.",
+    "source_ja": "護衛を依頼する",
+    "target": "호위 의뢰",
+    "source_ref": [
+      "2.335:start.hsp:420253"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Join me!",
+    "source_ja": "仲間に誘う",
+    "target": "동료로 영입",
+    "source_ref": [
+      "2.335:start.hsp:420256"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I'm entering the arena. [Duel]",
+    "source_ja": "試合に出る[決闘]",
+    "target": "시합 출전 [결투]",
+    "source_ref": [
+      "2.335:start.hsp:420263"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I'm entering the arena. [Rumble]",
+    "source_ja": "試合に出る[ランブル]",
+    "target": "시합 출전 [난투]",
+    "source_ref": [
+      "2.335:start.hsp:420266"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tell me my scores.",
+    "source_ja": "成績を聞く",
+    "target": "전적 묻기",
+    "source_ref": [
+      "2.335:start.hsp:420269",
+      "2.335:start.hsp:420283"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to register my pet. [Duel]",
+    "source_ja": "ペットデュエル",
+    "target": "펫 결투",
+    "source_ref": [
+      "2.335:start.hsp:420274"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to register my team. [Team]",
+    "source_ja": "チームバトル",
+    "target": "단체전",
+    "source_ref": [
+      "2.335:start.hsp:420277"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to see extra teams. [Ex Battle]",
+    "source_ja": "EXバトル",
+    "target": "EX 전투",
+    "source_ref": [
+      "2.335:start.hsp:420280"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Think of a nice name for my house.",
+    "source_ja": "家の名前を考えてくれ",
+    "target": "집 이름 지어 달라고 하기",
+    "source_ref": [
+      "2.335:start.hsp:420288"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to buy an indulgence.",
+    "source_ja": "免罪符を買いたい",
+    "target": "면죄부 구입",
+    "source_ref": [
+      "2.335:start.hsp:420294"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Let's talk about work.",
+    "source_ja": "仕事の話がしたい",
+    "target": "일거리 묻기",
+    "source_ref": [
+      "2.335:start.hsp:420299",
+      "2.335:start.hsp:420395"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to drive out guest.",
+    "source_ja": "邪魔者を追い出したい",
+    "target": "방해꾼 내쫓기",
+    "source_ref": [
+      "2.335:start.hsp:420312"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Here is a lost wallet I found.",
+    "source_ja": "落し物の財布を届ける",
+    "target": "주운 지갑 가져다주기",
+    "source_ref": [
+      "2.335:start.hsp:420328"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Here is a lost suitcase I found.",
+    "source_ja": "落し物のカバンを届ける。",
+    "target": "주운 가방 가져다주기",
+    "source_ref": [
+      "2.335:start.hsp:420334"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to return.",
+    "source_ja": "帰還したい",
+    "target": "귀환하기",
+    "source_ref": [
+      "2.335:start.hsp:420341"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want to reserve book that I have deciphered.",
+    "source_ja": "魔法書の予約(要：解読経験)",
+    "target": "마법서 예약 (해독한 적이 있어야 함)",
+    "source_ref": [
+      "2.335:start.hsp:420347"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I want potion plugs.",
+    "source_ja": "ポーションの栓を分けて欲しい",
+    "target": "물약 마개 나눠 달라고 하기",
+    "source_ref": [
+      "2.335:start.hsp:420353"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Interested in a little tail t'night?",
+    "source_ja": "気持ちいいことしない？",
+    "target": "기분 좋은 일 하자고 하기",
+    "source_ref": [
+      "2.335:start.hsp:420361"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Exchange for my place.",
+    "source_ja": "そこをどいて",
+    "target": "비켜 달라고 하기",
+    "source_ref": [
+      "2.335:start.hsp:420373"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I do not make gene in this game mode.",
+    "source_ja": "このゲームモードでは遺伝子を残せない。",
+    "target": "이 게임 모드에서는 유전자를 남길 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:294006",
+      "2.335:start.hsp:424234"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "*blush*",
+    "source_ja": "「いやん、あなたったら…」",
+    "target": "“어머, 당신도 참…”",
+    "source_ref": [
+      "2.335:start.hsp:294031"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The ally currently stays in this area.",
+    "source_ja": "滞在中の仲間はタッグを組めない。",
+    "target": "다른 곳에 머무는 동료와는 짝을 이룰 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:294458"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's no place.",
+    "source_ja": "充分なスペースがない。",
+    "target": "공간이 부족하다.",
+    "source_ref": [
+      "2.335:start.hsp:294503",
+      "2.335:start.hsp:294539",
+      "2.335:start.hsp:378141",
+      "2.335:start.hsp:378155",
+      "2.335:start.hsp:379177",
+      "2.335:start.hsp:379191",
+      "2.335:start.hsp:383857",
+      "2.335:start.hsp:383871",
+      "2.335:start.hsp:385853",
+      "2.335:start.hsp:385867",
+      "2.335:start.hsp:386628",
+      "2.335:start.hsp:386642",
+      "2.335:start.hsp:392097",
+      "2.335:start.hsp:392111",
+      "2.335:start.hsp:392574",
+      "2.335:start.hsp:392588"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You put back the original graphic.",
+    "source_ja": "元の姿に戻した。",
+    "target": "원래 모습으로 돌아왔다.",
+    "source_ref": [
+      "2.335:start.hsp:294704"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Default Tone",
+    "source_ja": "デフォルトの口調",
+    "target": "기본 말투",
+    "source_ref": [
+      "2.335:start.hsp:294870"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tone of Voice",
+    "source_ja": "口調一覧",
+    "target": "말투 목록",
+    "source_ref": [
+      "2.335:start.hsp:294897"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Enter [Change Tone] ",
+    "source_ja": "決定 [口調の変更]  ",
+    "target": "결정 [말투 변경]",
+    "source_ref": [
+      "2.335:start.hsp:294897"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Title",
+    "source_ja": "題名",
+    "target": "제목",
+    "source_ref": [
+      "2.335:start.hsp:294905"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which one do you wish to summon?",
+    "source_ja": "どの者を召喚したいと願うか？",
+    "target": "누구를 소환해 달라고 소원을 비시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:295016"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Custom NPC",
+    "source_ja": "カスタムNPC一覧",
+    "target": "사용자 NPC 목록",
+    "source_ref": [
+      "2.335:start.hsp:295036"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Enter [Summon] ",
+    "source_ja": "決定 [召喚]  ",
+    "target": "결정 [소환]",
+    "source_ref": [
+      "2.335:start.hsp:295036"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Spellbook make",
+    "source_ja": "魔法書の作成",
+    "target": "마법서 제작",
+    "source_ref": [
+      "2.335:start.hsp:295273"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Cost(Stock) Lv/Chance",
+    "source_ja": "消費MP(ｽﾄｯｸ)　LV/成功　(潜在) ",
+    "target": "소모 MP(사용 횟수)  레벨/성공률 (잠재력)",
+    "source_ref": [
+      "2.335:start.hsp:295276",
+      "2.335:start.hsp:295546",
+      "2.335:start.hsp:295742"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Number",
+    "source_ja": "冊数",
+    "target": "권수",
+    "source_ref": [
+      "2.335:start.hsp:295277"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Need more than 2000 stock ",
+    "source_ja": "ストックが2000以上必要 ",
+    "target": "마법 사용 횟수가 2,000회 이상 필요하다.",
+    "source_ref": [
+      "2.335:start.hsp:295357"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Can't make ",
+    "source_ja": "魔法書に変換できない ",
+    "target": "마법서로 바꿀 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:295360"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Select unnecessary stock",
+    "source_ja": "不要なストックの選択",
+    "target": "쓰지 않는 마법 선택",
+    "source_ref": [
+      "2.335:start.hsp:295543"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Gain",
+    "source_ja": "獲得数",
+    "target": "획득량",
+    "source_ref": [
+      "2.335:start.hsp:295547"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Need more than 200 stock ",
+    "source_ja": "ストックが200以上必要 ",
+    "target": "마법 사용 횟수가 200회 이상 필요하다.",
+    "source_ref": [
+      "2.335:start.hsp:295597"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Spell",
+    "source_ja": "魔法の詠唱",
+    "target": "마법 시전",
+    "source_ref": [
+      "2.335:start.hsp:295739"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Sealed skills release]",
+    "source_ja": "【魔法・全表示】",
+    "target": "【모든 마법 표시】",
+    "source_ref": [
+      "2.335:start.hsp:295866"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Skill",
+    "source_ja": "◆ スキルと特殊能力",
+    "target": "◆ 기술과 특수 능력",
+    "source_ref": [
+      "2.335:start.hsp:297118"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Weapon Proficiency",
+    "source_ja": "◆ 武器の専門",
+    "target": "◆ 무기 숙련",
+    "source_ref": [
+      "2.335:start.hsp:297146"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Resistance",
+    "source_ja": "◆ 耐性と抵抗力",
+    "target": "◆ 내성과 저항력",
+    "source_ref": [
+      "2.335:start.hsp:297171"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Spell",
+    "source_ja": "◆ スペル",
+    "target": "◆ 마법",
+    "source_ref": [
+      "2.335:start.hsp:297183"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Skill Training",
+    "source_ja": "能力訓練",
+    "target": "능력 훈련",
+    "source_ref": [
+      "2.335:start.hsp:297204"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Skill Learning",
+    "source_ja": "能力の習得",
+    "target": "능력 습득",
+    "source_ref": [
+      "2.335:start.hsp:297207"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Skill Select",
+    "source_ja": "選択スキル",
+    "target": "기술 선택",
+    "source_ref": [
+      "2.335:start.hsp:297210"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Train which skill?",
+    "source_ja": "どの能力を訓練する？",
+    "target": "어떤 능력을 훈련하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:297248"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Cursor [Hint]  ",
+    "source_ja": "ｶｰｿﾙ [祝福と呪いの情報]  ",
+    "target": "커서 [축복과 저주 정보]",
+    "source_ref": [
+      "2.335:start.hsp:297282"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Enter [Spend Bonus]  ",
+    "source_ja": "決定 [ボーナスの分配]  ",
+    "target": "결정 [보너스 분배]",
+    "source_ref": [
+      "2.335:start.hsp:297285"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Enter [Train Skill]  ",
+    "source_ja": "決定 [スキルを訓練]  ",
+    "target": "결정 [기술 훈련]",
+    "source_ref": [
+      "2.335:start.hsp:297296"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Enter [Learn Skill]  ",
+    "source_ja": "決定 [スキルを習得]  ",
+    "target": "결정 [기술 습득]",
+    "source_ref": [
+      "2.335:start.hsp:297304"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Track Skill",
+    "source_ja": "スキルトラック",
+    "target": "기술 추적",
+    "source_ref": [
+      "2.335:start.hsp:297317"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Lv(Potential)",
+    "source_ja": "Lv(潜在)",
+    "target": "레벨(잠재력)",
+    "source_ref": [
+      "2.335:start.hsp:297737"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Damage less than1%",
+    "source_ja": "(最終被ダメージ1%未満)",
+    "target": "(최종 받는 피해 1% 미만)",
+    "source_ref": [
+      "2.335:start.hsp:297904"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Bonuses can't be used for that spell.",
+    "source_ja": "その魔法には使えない。",
+    "target": "그 마법에는 쓸 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:298071"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Parts to hide",
+    "source_ja": "装備表示の変更",
+    "target": "장비 표시 변경",
+    "source_ref": [
+      "2.335:start.hsp:299114"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Category/Name",
+    "source_ja": "部位/装備品名称",
+    "target": "부위/장비 이름",
+    "source_ref": [
+      "2.335:start.hsp:299453"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Equip weight: ",
+    "source_ja": "装備重量: ",
+    "target": "장비 무게: ",
+    "source_ref": [
+      "2.335:start.hsp:299482"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": " Hit Bonus:",
+    "source_ja": " 命中修正:",
+    "target": " 명중 보정:",
+    "source_ref": [
+      "2.335:start.hsp:299482"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": " Damage Bonus:",
+    "source_ja": " ダメージ修正:",
+    "target": " 피해 보정:",
+    "source_ref": [
+      "2.335:start.hsp:299482"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Hand*",
+    "source_ja": "利手",
+    "target": "주로 쓰는 손",
+    "source_ref": [
+      "2.335:start.hsp:299502"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You nip a young plant.",
+    "source_ja": "芽を摘み取った。",
+    "target": "싹을 땄다.",
+    "source_ref": [
+      "2.335:start.hsp:299741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You nip a dead plant.",
+    "source_ja": "枯れた草を摘み取った。",
+    "target": "시든 풀을 뽑았다.",
+    "source_ref": [
+      "2.335:start.hsp:299750"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can not remove the building until relocation.",
+    "source_ja": "この建物は移設するまで撤去できない。",
+    "target": "이 건물은 이전한 뒤에야 철거할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:299827"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Really remove this building?",
+    "source_ja": "本当にこの建物を撤去する？（注意！建物と中の物は完全に失われます）",
+    "target": "정말 철거하시겠습니까? 건물과 안에 있는 모든 물건이 영구히 사라집니다.",
+    "source_ref": [
+      "2.335:start.hsp:299834"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You remove the building.",
+    "source_ja": "建物を撤去した。",
+    "target": "건물을 철거했다.",
+    "source_ref": [
+      "2.335:start.hsp:299856"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You rake up a handful of snow.",
+    "source_ja": "雪をかきあつめた。",
+    "target": "눈을 긁어모았다.",
+    "source_ref": [
+      "2.335:start.hsp:299873"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You are too exhausted!",
+    "source_ja": "疲労し過ぎて失敗した！",
+    "target": "너무 지쳐서 실패했다!",
+    "source_ref": [
+      "2.335:start.hsp:299880",
+      "2.335:start.hsp:301405",
+      "2.335:start.hsp:301438",
+      "2.335:start.hsp:313996",
+      "2.335:start.hsp:314452",
+      "2.335:start.hsp:319700",
+      "2.335:start.hsp:323765",
+      "2.335:start.hsp:323789",
+      "2.335:start.hsp:324040",
+      "2.335:start.hsp:324069",
+      "2.335:start.hsp:324178",
+      "2.335:start.hsp:353486"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You grasp at the air.",
+    "source_ja": "あなたは空気をつかんだ。",
+    "target": "허공을 움켜쥐었다.",
+    "source_ref": [
+      "2.335:start.hsp:299898"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't carry it.",
+    "source_ja": "それは持ち運べない。",
+    "target": "들고 갈 수 없는 물건이다.",
+    "source_ref": [
+      "2.335:start.hsp:299916",
+      "2.335:start.hsp:301451"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't just take it.",
+    "source_ja": "盗むなんてとんでもない。",
+    "target": "훔치다니, 당치도 않다.",
+    "source_ref": [
+      "2.335:start.hsp:299921",
+      "2.335:start.hsp:299923",
+      "2.335:start.hsp:301456",
+      "2.335:start.hsp:301458",
+      "2.335:start.hsp:345364",
+      "2.335:start.hsp:345366"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It falls on the ground and melts.",
+    "source_ja": "それは地面に落ちて溶けた。",
+    "target": "바닥에 떨어져 녹았다.",
+    "source_ref": [
+      "2.335:start.hsp:345842"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It falls on the ground and shatters.",
+    "source_ja": "それは地面に落ちて砕けた。",
+    "target": "바닥에 떨어져 산산조각 났다.",
+    "source_ref": [
+      "2.335:start.hsp:345853",
+      "2.335:start.hsp:346420"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It falls on the ground and explodes.",
+    "source_ja": "それは地面に落ちて炸裂した。",
+    "target": "바닥에 떨어져 폭발했다.",
+    "source_ref": [
+      "2.335:start.hsp:345863"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It falls on the ground and died.",
+    "source_ja": "それは地面に落ちて絶命した。",
+    "target": "바닥에 떨어져 숨이 끊어졌다.",
+    "source_ref": [
+      "2.335:start.hsp:345873"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Caution! While the platinum coin is 100 or more, you cannot get new.",
+    "source_ja": "注意！プラチナ硬貨は100枚以上あると新たに獲得できない。",
+    "target": "주의! 백금화를 100개 이상 갖고 있으면 더는 얻을 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:346454",
+      "2.335:start.hsp:346485"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your inventory is full.",
+    "source_ja": "これ以上持ち歩けない。",
+    "target": "더는 들고 다닐 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:346545"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tag partner is using it.",
+    "source_ja": "それはタッグパートナーが使用中だ。",
+    "target": "짝을 이룬 동료가 사용 중이다.",
+    "source_ref": [
+      "2.335:start.hsp:346568"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Poison drips from your hands.",
+    "source_ja": "あなたの手から毒が滴った。",
+    "target": "손에서 독이 뚝뚝 떨어졌다.",
+    "source_ref": [
+      "2.335:start.hsp:346679"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Poison has melted the snow...",
+    "source_ja": "毒で雪が溶けてしまった…。",
+    "target": "독에 눈이 녹아 버렸다…",
+    "source_ref": [
+      "2.335:start.hsp:346685"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Shopkeeper's inventory is full.",
+    "source_ja": "店の倉庫が一杯のため売れない。",
+    "target": "상점 창고가 가득 차서 팔 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:346710"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The place is too crowded. You can't drop stuff anymore.",
+    "source_ja": "もう周りに物を置くスペースがない！ ",
+    "target": "주변에 물건을 내려놓을 자리가 없다!",
+    "source_ref": [
+      "2.335:start.hsp:346993"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The water is blessed.",
+    "source_ja": "水は祝福を受けた。",
+    "target": "물이 축복을 받았다.",
+    "source_ref": [
+      "2.335:start.hsp:347038"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can add a recipe of the item you previously created.(Not implemented yet)",
+    "source_ja": "最後に調合したアイテムを、レシピに加えることができる。",
+    "target": "마지막으로 조합한 물건을 제조법에 추가할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:347108"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It seems there are no fruits left on the tree.",
+    "source_ja": "もう実はないようだ… ",
+    "target": "이제 열매가 없는 모양이다…",
+    "source_ref": [
+      "2.335:start.hsp:347215"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You bash up the door. The door is destroyed.",
+    "source_ja": "扉に体当たりして破壊した。",
+    "target": "몸으로 들이받아 문을 부쉈다.",
+    "source_ref": [
+      "2.335:start.hsp:347375"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You bash up the door.",
+    "source_ja": "扉に体当たりした。",
+    "target": "문에 몸을 부딪쳤다.",
+    "source_ref": [
+      "2.335:start.hsp:347387"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "As might be expected, the door of the Jail is hard.",
+    "source_ja": "さすがに牢獄の扉は頑丈だ。",
+    "target": "과연 감옥 문은 튼튼하다.",
+    "source_ref": [
+      "2.335:start.hsp:347393"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The door is cracked a bit.",
+    "source_ja": "扉は少しだけ壊れた。",
+    "target": "문이 조금 부서졌다.",
+    "source_ref": [
+      "2.335:start.hsp:347432"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tag partner looked away you with dissatisfaction.",
+    "source_ja": "タッグパートナーはあなたを不満げに見つめた。",
+    "target": "짝을 이룬 동료가 못마땅한 눈으로 당신을 바라봤다.",
+    "source_ref": [
+      "2.335:start.hsp:347580"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tag partner looked disappointing.",
+    "source_ja": "タッグパートナーは残念そうにうなだれた。",
+    "target": "짝을 이룬 동료가 풀이 죽어 고개를 숙였다.",
+    "source_ref": [
+      "2.335:start.hsp:347587"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tag partner nodded small.",
+    "source_ja": "タッグパートナーは小さく頷いた。",
+    "target": "짝을 이룬 동료가 작게 고개를 끄덕였다.",
+    "source_ref": [
+      "2.335:start.hsp:347594"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tag partner went down one step without saying anything.",
+    "source_ja": "タッグパートナーは何も言わず一歩下がった。",
+    "target": "짝을 이룬 동료가 말없이 한 걸음 물러섰다.",
+    "source_ref": [
+      "2.335:start.hsp:347601"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You carry too much to move!",
+    "source_ja": "潰れていて動けない！ ",
+    "target": "짐에 짓눌려 움직일 수 없다!",
+    "source_ref": [
+      "2.335:start.hsp:347616"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You carry too heavy cargo to move!",
+    "source_ja": "荷車が重すぎて動けない！ ",
+    "target": "짐수레가 너무 무거워 움직일 수 없다!",
+    "source_ref": [
+      "2.335:start.hsp:347628"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Warning! You are going to abandon your current quest.",
+    "source_ja": "注意！現在のクエストは現時点で終了となる。",
+    "target": "주의! 지금 진행 중인 퀘스트가 여기서 끝난다.",
+    "source_ref": [
+      "2.335:start.hsp:347954"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Warning! You are going to abandon your current quest.",
+    "source_ja": "注意！現在のクエストは失敗に終わってしまう。",
+    "target": "주의! 지금 진행 중인 퀘스트가 실패로 끝난다.",
+    "source_ref": [
+      "2.335:start.hsp:347963"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Chocolate that adheres body was fell down.",
+    "source_ja": "付着していたチョコが流れ落ちた。",
+    "target": "달라붙어 있던 초콜릿이 씻겨 내려갔다.",
+    "source_ref": [
+      "2.335:start.hsp:348156"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Encount canceller is gone.",
+    "source_ja": "魔よけが切れた。",
+    "target": "마물 퇴치 효과가 사라졌다.",
+    "source_ref": [
+      "2.335:start.hsp:348175"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You were stopped by rogues, but you smashed them using your battleship.",
+    "source_ja": "盗賊団が絡んできたが無視して轢いた。",
+    "target": "도적떼가 시비를 걸어왔지만 무시하고 그대로 치고 지나갔다.",
+    "source_ref": [
+      "2.335:start.hsp:348263"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Ambush!",
+    "source_ja": "襲撃だ！",
+    "target": "습격이다!",
+    "source_ref": [
+      "2.335:start.hsp:348368"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It is completely ash...",
+    "source_ja": "完全に灰になっている…。",
+    "target": "완전히 잿더미가 되었다…",
+    "source_ref": [
+      "2.335:start.hsp:348413"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You sense something under your foot.",
+    "source_ja": "地面に何かがあるようだ。",
+    "target": "바닥에 뭔가 있는 듯하다.",
+    "source_ref": [
+      "2.335:start.hsp:348429"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It seems suitable for growing plants.",
+    "source_ja": "植物の栽培に適していそうだ。",
+    "target": "식물을 재배하기에 알맞아 보인다.",
+    "source_ref": [
+      "2.335:start.hsp:348449"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It only works on the Crop.",
+    "source_ja": "それは畑でのみ機能する。",
+    "target": "밭에서만 효과가 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348457",
+      "2.335:start.hsp:348477"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "If organic matter is left, it will turn into fertilizer.",
+    "source_ja": "有機物を置いておくと肥料に変わりそうだ。",
+    "target": "유기물을 두면 비료가 될 것 같다.",
+    "source_ref": [
+      "2.335:start.hsp:348469"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "If cooking ingredients is left, it will turn into dry food.",
+    "source_ja": "料理素材を置いておくと乾物に変わりそうだ。",
+    "target": "식재료를 두면 건조 식품이 될 것 같다.",
+    "source_ref": [
+      "2.335:start.hsp:348489"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It only works on the Ranch.",
+    "source_ja": "それは牧場でのみ機能する。",
+    "target": "목장에서만 효과가 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348497"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There is a crevice of space.",
+    "source_ja": "空間の裂け目がある。",
+    "target": "공간에 균열이 나 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348672",
+      "2.335:start.hsp:348681"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There is a stair leading downwards here.",
+    "source_ja": "降り階段がある。",
+    "target": "내려가는 계단이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348690"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There is a mooring point.",
+    "source_ja": "停泊ポイントがある。",
+    "target": "배를 댈 곳이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348700"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There is a stair leading upwards here.",
+    "source_ja": "昇り階段がある。",
+    "target": "올라가는 계단이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348707"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can search this location to collect some materials.",
+    "source_ja": "何かが見つかりそうだ。",
+    "target": "뭔가 찾아낼 수 있을 것 같다.",
+    "source_ref": [
+      "2.335:start.hsp:348725"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can collect materials from the remains lying here.",
+    "source_ja": "何かの残骸がある。",
+    "target": "무언가의 잔해가 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348732"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can collect materials from the mining spot here.",
+    "source_ja": "採掘場がある。",
+    "target": "채굴장이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348739"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can collect materials from the spring here.",
+    "source_ja": "泉がある。",
+    "target": "샘이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348746"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can collect materials from plants here.",
+    "source_ja": "色んな植物が生えている。",
+    "target": "온갖 식물이 자라고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348753"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "A waribasi is planted.",
+    "source_ja": "わりばしが植えてある。",
+    "target": "나무젓가락이 심겨 있다.",
+    "source_ref": [
+      "2.335:start.hsp:348760"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't perform the action while in the debug mode.",
+    "source_ja": "デバッグ中はその操作はできない。",
+    "target": "디버그 중에는 이 조작을 할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:348853"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can not run away from the duel!",
+    "source_ja": "今は決闘中だ！",
+    "target": "지금은 결투 중이다!",
+    "source_ref": [
+      "2.335:start.hsp:348865",
+      "2.335:start.hsp:363423"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Really get into the Kotatsu?",
+    "source_ja": "本当にこたつの中に入る？",
+    "target": "정말 고타쓰 안에 들어가시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:348885"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's dark here!",
+    "source_ja": "まっくらだ！",
+    "target": "캄캄하다!",
+    "source_ref": [
+      "2.335:start.hsp:348899"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't go down any more.",
+    "source_ja": "これ以上降りられない。",
+    "target": "더는 내려갈 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:348939"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't go up any more.",
+    "source_ja": "これ以上昇れない。",
+    "target": "더는 올라갈 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:348963"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There're no downstairs here.",
+    "source_ja": "降りる階段は見つからない。",
+    "target": "내려가는 계단이 보이지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:348989"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The path is blocked by a strange barrier.",
+    "source_ja": "階段は不思議なバリアで塞がれている。",
+    "target": "기묘한 장벽이 계단을 가로막고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:349000"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The path is blocked by a strange barrier.",
+    "source_ja": "階段は不思議なバリアで塞がれている。「先には進ませない」",
+    "target": "기묘한 장벽이 계단을 가로막고 있다. “여기서 더는 갈 수 없다.”",
+    "source_ref": [
+      "2.335:start.hsp:349008"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The path is blocked by a strange barrier.",
+    "source_ja": "階段は不思議なバリアで塞がれている。「緊急防御プラグラム作動中」",
+    "target": "기묘한 장벽이 계단을 가로막고 있다. “긴급 방어 프로그램 가동 중.”",
+    "source_ref": [
+      "2.335:start.hsp:349016"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The path is blocked by chaos barrier.",
+    "source_ja": "階段は混沌の力で塞がれている。",
+    "target": "혼돈의 힘이 계단을 가로막고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:349024",
+      "2.335:start.hsp:349040"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "I need to report to Gavela completion of the request.",
+    "source_ja": "先に依頼を完了させて報告しなくては。",
+    "target": "먼저 의뢰를 완수하고 보고해야 한다.",
+    "source_ref": [
+      "2.335:start.hsp:349048"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There're no upstaris here.",
+    "source_ja": "昇る階段は見つからない。",
+    "target": "올라가는 계단이 보이지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:349083"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The magic stones shine softly as you approach the sealed door.",
+    "source_ja": "厳重に封印された扉の前に立つと、三つの魔石が鈍い光を放った。",
+    "target": "굳게 봉인된 문 앞에 서자 마석 세 개가 희미한 빛을 냈다.",
+    "source_ref": [
+      "2.335:start.hsp:349145"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You unlock the door",
+    "source_ja": "地下への扉を開けた。",
+    "target": "지하로 통하는 문을 열었다.",
+    "source_ref": [
+      "2.335:start.hsp:349152"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The door is locked. It seems you need a specific key to unlock the door.",
+    "source_ja": "鍵のかかった扉が行く手を塞いでいる。",
+    "target": "잠긴 문이 앞길을 가로막고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:349163"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Really give up the quest and move over?",
+    "source_ja": "クエストを放棄して階を移動する？",
+    "target": "퀘스트를 포기하고 다른 층으로 이동하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:349173"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You don't have lockpicks.",
+    "source_ja": "ロックピックを所持していない。",
+    "target": "자물쇠따개가 없다.",
+    "source_ref": [
+      "2.335:start.hsp:349243"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You use a lockpick.",
+    "source_ja": "ロックピックを使用した。",
+    "target": "자물쇠따개를 사용했다.",
+    "source_ref": [
+      "2.335:start.hsp:349251"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You also use the skeleton key.",
+    "source_ja": "スケルトンキーも使用した。",
+    "target": "해골 열쇠도 사용했다.",
+    "source_ref": [
+      "2.335:start.hsp:349261"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The lock mechanism is beyond your skill.",
+    "source_ja": "この鍵を開ける技術はない。",
+    "target": "이 자물쇠를 딸 만큼 솜씨가 좋지 않다.",
+    "source_ref": [
+      "2.335:start.hsp:349272"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Easy.",
+    "source_ja": "楽勝だ。",
+    "target": "식은 죽 먹기다.",
+    "source_ref": [
+      "2.335:start.hsp:349281"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You fail to unlock it.",
+    "source_ja": "開錠に失敗した。",
+    "target": "자물쇠를 따지 못했다.",
+    "source_ref": [
+      "2.335:start.hsp:349289"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your lockpick breaks.",
+    "source_ja": "ロックピックは壊れた。",
+    "target": "자물쇠따개가 부러졌다.",
+    "source_ref": [
+      "2.335:start.hsp:349303"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Try again?",
+    "source_ja": "もう一度試みる？",
+    "target": "다시 시도하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:349310"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You successfully unlock it.",
+    "source_ja": "開錠に成功した。",
+    "target": "자물쇠를 땄다.",
+    "source_ref": [
+      "2.335:start.hsp:349330"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You unlock the shackle.",
+    "source_ja": "足枷を外した。",
+    "target": "족쇄를 풀었다.",
+    "source_ref": [
+      "2.335:start.hsp:349360"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can only use it at your home.",
+    "source_ja": "それは家の中でのみ使用できる。",
+    "target": "집 안에서만 쓸 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:349399"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can only use it at your shop",
+    "source_ja": "それは店の中でのみ使用できる。",
+    "target": "상점 안에서만 쓸 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:349410"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's empty!",
+    "source_ja": "中身は空っぽだ。",
+    "target": "속이 텅 비었다.",
+    "source_ref": [
+      "2.335:start.hsp:349512"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Jackpot!",
+    "source_ja": "当たりだ！",
+    "target": "당첨이다!",
+    "source_ref": [
+      "2.335:start.hsp:349770"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Jackpot>",
+    "source_ja": "これは…大当たりだ！！",
+    "target": "이건… 대박이다!!",
+    "source_ref": [
+      "2.335:start.hsp:349780"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Something jumps out from the pack!",
+    "source_ja": "悪意を持った何かが袋から飛び出してきた！",
+    "target": "악의를 품은 무언가가 주머니에서 튀어나왔다!",
+    "source_ref": [
+      "2.335:start.hsp:349903"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's trap! The gift ignites.",
+    "source_ja": "罠だ！お年玉袋は発火した。",
+    "target": "함정이다! 세뱃돈 주머니에 불이 붙었다.",
+    "source_ref": [
+      "2.335:start.hsp:349920"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You find a cursed letter inside.",
+    "source_ja": "中には呪いの手紙が入っていた。",
+    "target": "안에 저주받은 편지가 들어 있었다.",
+    "source_ref": [
+      "2.335:start.hsp:349939"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The pack contains your younger sister!",
+    "source_ja": "妹が入っていた！",
+    "target": "여동생이 들어 있었다!",
+    "source_ref": [
+      "2.335:start.hsp:349975"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's something inside the pack.",
+    "source_ja": "何かが袋から出てきた。",
+    "target": "주머니에서 뭔가가 나왔다.",
+    "source_ref": [
+      "2.335:start.hsp:349989",
+      "2.335:start.hsp:350040"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "This is truely a wonderful gift!",
+    "source_ja": "これは素晴らしい贈り物だ！",
+    "target": "멋진 선물이다!",
+    "source_ref": [
+      "2.335:start.hsp:350027"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The box contains a cat!",
+    "source_ja": "猫が入っていた！",
+    "target": "고양이가 들어 있었다!",
+    "source_ref": [
+      "2.335:start.hsp:350068"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's something inside the box.",
+    "source_ja": "死んだ猫が入ってい…ゾンビだこれー！？",
+    "target": "죽은 고양이가 들어 있… 이거 좀비잖아!?",
+    "source_ref": [
+      "2.335:start.hsp:350083"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which door do you want to close? ",
+    "source_ja": "何を閉める？",
+    "target": "무엇을 닫으시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:350171"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's nothing to close.",
+    "source_ja": "その方向に閉められるものはない。",
+    "target": "그쪽에는 닫을 만한 것이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:350190"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's something on the floor.",
+    "source_ja": "何かが邪魔で閉められない。",
+    "target": "뭔가가 가로막고 있어 닫을 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:350199"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You load normal ammo.",
+    "source_ja": "通常弾を装填した。",
+    "target": "일반탄을 장전했다.",
+    "source_ref": [
+      "2.335:start.hsp:350311"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What a waste of a wish!",
+    "source_ja": "あら、そのままでいいの？",
+    "target": "어머, 그대로도 괜찮겠어?",
+    "source_ref": [
+      "2.335:start.hsp:291677"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What's your new job?",
+    "source_ja": "なりたい職業は？",
+    "target": "어떤 직업을 갖고 싶어?",
+    "source_ref": [
+      "2.335:start.hsp:291687"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You changed your mind.",
+    "source_ja": "やっぱりやめた。",
+    "target": "역시 그만둘래.",
+    "source_ref": [
+      "2.335:start.hsp:291697",
+      "2.335:start.hsp:291761",
+      "2.335:start.hsp:356666",
+      "2.335:start.hsp:361273",
+      "2.335:start.hsp:362980",
+      "2.335:start.hsp:369104"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What's your new race?",
+    "source_ja": "生まれ変わりたい種族は？",
+    "target": "어떤 종족으로 다시 태어나고 싶어?",
+    "source_ref": [
+      "2.335:start.hsp:291751"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You aren't a sinner.",
+    "source_ja": "…罪なんて犯してないじゃない。",
+    "target": "…넌 죄를 짓지도 않았잖아.",
+    "source_ref": [
+      "2.335:start.hsp:291796"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "What a convenient wish!",
+    "source_ja": "あら…都合のいいことを言うのね。",
+    "target": "어머… 참 편한 소리를 하네.",
+    "source_ref": [
+      "2.335:start.hsp:291804"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "If you wish so...",
+    "source_ja": "それがお望みなら…",
+    "target": "그게 네 소원이라면…",
+    "source_ref": [
+      "2.335:start.hsp:291812"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Lots of gold pieces appear.",
+    "source_ja": "金貨が降ってきた！",
+    "target": "금화가 비처럼 쏟아졌다!",
+    "source_ref": [
+      "2.335:start.hsp:291826"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "A small coin appears.",
+    "source_ja": "小さなメダルが降ってきた！",
+    "target": "작은 메달이 비처럼 쏟아졌다!",
+    "source_ref": [
+      "2.335:start.hsp:291837"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Platinum pieces appear.",
+    "source_ja": "プラチナ硬貨が降ってきた！",
+    "target": "백금화가 비처럼 쏟아졌다!",
+    "source_ref": [
+      "2.335:start.hsp:291848"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "skill ticket",
+    "source_ja": "スキルチケット",
+    "target": "기술 티켓",
+    "source_ref": [
+      "2.335:start.hsp:291992"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "card",
+    "source_ja": "カード",
+    "target": "카드",
+    "source_ref": [
+      "2.335:start.hsp:292010"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "figure",
+    "source_ja": "剥製",
+    "target": "박제",
+    "source_ref": [
+      "2.335:start.hsp:292013"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It does not come out now, please be patient with this.",
+    "source_ja": "うーん。ちょっと今は出ないから、これで我慢して。",
+    "target": "음, 지금은 안 나오네. 이걸로 참아 줘.",
+    "source_ref": [
+      "2.335:start.hsp:292104"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's sold out.",
+    "source_ja": "あ、それ在庫切れ。",
+    "target": "아, 그건 품절이야.",
+    "source_ref": [
+      "2.335:start.hsp:292116",
+      "2.335:start.hsp:292127",
+      "2.335:start.hsp:292138",
+      "2.335:start.hsp:292155",
+      "2.335:start.hsp:292167",
+      "2.335:start.hsp:411969"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "The key is unassigned.",
+    "source_ja": "そのキーにはショートカットが割り当てられていない。",
+    "target": "그 키에는 단축 명령이 지정되어 있지 않다.",
+    "source_ref": [
+      "2.335:start.hsp:292361"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't do that while you're in a global area.",
+    "source_ja": "その行為は、ワールドマップにいる間はできない。",
+    "target": "세계 지도에서는 그 행동을 할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:292381",
+      "2.335:start.hsp:292406",
+      "2.335:start.hsp:300844",
+      "2.335:start.hsp:300859",
+      "2.335:start.hsp:360738",
+      "2.335:start.hsp:612289",
+      "2.335:start.hsp:612312",
+      "2.335:start.hsp:612345",
+      "2.335:start.hsp:612368",
+      "2.335:start.hsp:612386",
+      "2.335:start.hsp:612417",
+      "2.335:start.hsp:612434",
+      "2.335:start.hsp:612451",
+      "2.335:start.hsp:612477",
+      "2.335:start.hsp:612511",
+      "2.335:start.hsp:612536",
+      "2.335:start.hsp:612552",
+      "2.335:start.hsp:612586",
+      "2.335:start.hsp:612605",
+      "2.335:start.hsp:612621"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't use this shortcut any more.",
+    "source_ja": "もうその行動はできない。",
+    "target": "이제 그 행동은 할 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:292392"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You can't use that spell anymore.",
+    "source_ja": "その魔法はもう使えない。",
+    "target": "이제 그 마법은 쓸 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:292417"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which direction do you want to dig? ",
+    "source_ja": "どの方向を掘る？ ",
+    "target": "어느 방향을 파시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:292429"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "It's impossible.",
+    "source_ja": "それは無理だ。",
+    "target": "그건 무리다.",
+    "source_ref": [
+      "2.335:start.hsp:292437",
+      "2.335:start.hsp:292457",
+      "2.335:start.hsp:292477",
+      "2.335:start.hsp:319985",
+      "2.335:start.hsp:323041",
+      "2.335:start.hsp:330156",
+      "2.335:start.hsp:335397",
+      "2.335:start.hsp:350180",
+      "2.335:start.hsp:355226",
+      "2.335:start.hsp:355381",
+      "2.335:start.hsp:355450",
+      "2.335:start.hsp:355462",
+      "2.335:start.hsp:355649",
+      "2.335:start.hsp:355661",
+      "2.335:start.hsp:355765",
+      "2.335:start.hsp:355777",
+      "2.335:start.hsp:355803",
+      "2.335:start.hsp:355896",
+      "2.335:start.hsp:355908",
+      "2.335:start.hsp:356013",
+      "2.335:start.hsp:356025",
+      "2.335:start.hsp:356120",
+      "2.335:start.hsp:356132",
+      "2.335:start.hsp:356217",
+      "2.335:start.hsp:356229",
+      "2.335:start.hsp:356349",
+      "2.335:start.hsp:356361",
+      "2.335:start.hsp:356417",
+      "2.335:start.hsp:356429",
+      "2.335:start.hsp:356552",
+      "2.335:start.hsp:356564",
+      "2.335:start.hsp:356683",
+      "2.335:start.hsp:356695",
+      "2.335:start.hsp:356780",
+      "2.335:start.hsp:356792",
+      "2.335:start.hsp:356818",
+      "2.335:start.hsp:357012",
+      "2.335:start.hsp:357024",
+      "2.335:start.hsp:357050",
+      "2.335:start.hsp:357118",
+      "2.335:start.hsp:357130",
+      "2.335:start.hsp:357330",
+      "2.335:start.hsp:357342",
+      "2.335:start.hsp:357467",
+      "2.335:start.hsp:357479",
+      "2.335:start.hsp:358640",
+      "2.335:start.hsp:358652",
+      "2.335:start.hsp:358746",
+      "2.335:start.hsp:358842",
+      "2.335:start.hsp:358940",
+      "2.335:start.hsp:359061",
+      "2.335:start.hsp:359097",
+      "2.335:start.hsp:359106",
+      "2.335:start.hsp:359320",
+      "2.335:start.hsp:359390",
+      "2.335:start.hsp:359500",
+      "2.335:start.hsp:359561",
+      "2.335:start.hsp:359602",
+      "2.335:start.hsp:359610",
+      "2.335:start.hsp:359774",
+      "2.335:start.hsp:360233",
+      "2.335:start.hsp:360317",
+      "2.335:start.hsp:360606",
+      "2.335:start.hsp:361213",
+      "2.335:start.hsp:361255",
+      "2.335:start.hsp:361295",
+      "2.335:start.hsp:361390",
+      "2.335:start.hsp:361560",
+      "2.335:start.hsp:362273",
+      "2.335:start.hsp:362524",
+      "2.335:start.hsp:362547",
+      "2.335:start.hsp:362559",
+      "2.335:start.hsp:362649",
+      "2.335:start.hsp:362661",
+      "2.335:start.hsp:362747",
+      "2.335:start.hsp:362759",
+      "2.335:start.hsp:362864",
+      "2.335:start.hsp:362912",
+      "2.335:start.hsp:362954",
+      "2.335:start.hsp:363038",
+      "2.335:start.hsp:368783"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which direction do you want to bash? ",
+    "source_ja": "どの方向に体当たりする？ ",
+    "target": "어느 방향으로 몸통박치기를 하시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:292469"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Skill",
+    "source_ja": "能力の発動",
+    "target": "능력 사용",
+    "source_ref": [
+      "2.335:start.hsp:292549"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Cost",
+    "source_ja": "コスト",
+    "target": "소모량",
+    "source_ref": [
+      "2.335:start.hsp:292552",
+      "2.335:start.hsp:292793"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Directly connected skills can not be sealed.",
+    "source_ja": "スキル連動型技能は非表示にできない。",
+    "target": "기술과 연동되는 능력은 숨길 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:292658"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Sealed skills release]",
+    "source_ja": "【技能・全表示】",
+    "target": "【모든 능력 표시】",
+    "source_ref": [
+      "2.335:start.hsp:292679"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Wide Skill",
+    "source_ja": "広域能力の発動",
+    "target": "광역 능력 사용",
+    "source_ref": [
+      "2.335:start.hsp:292790"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Sealed skills release]",
+    "source_ja": "【広域技能・全表示】",
+    "target": "【모든 광역 능력 표시】",
+    "source_ref": [
+      "2.335:start.hsp:292909"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Stack items of the same type and sort by increasing freshness and value?",
+    "source_ja": "同じアイテムを、鮮度や価値の低いほうにあわせてまとめる？",
+    "target": "같은 물건을 한데 묶으시겠습니까? 신선도와 가치는 낮은 쪽에 맞춰집니다.",
+    "source_ref": [
+      "2.335:start.hsp:292980"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which direction? ",
+    "source_ja": "どの方向に？ ",
+    "target": "어느 방향입니까?",
+    "source_ref": [
+      "2.335:start.hsp:293021"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Choose the direction of the target.",
+    "source_ja": "操作する対象の方向は？",
+    "target": "조작할 대상은 어느 방향에 있습니까?",
+    "source_ref": [
+      "2.335:start.hsp:293090"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "<Rank Change>",
+    "source_ja": "【ランクチェンジ】",
+    "target": "【등급 변경】",
+    "source_ref": [
+      "2.335:start.hsp:293305"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Spade Change]",
+    "source_ja": "[スペードチェンジ]",
+    "target": "[스페이드 변경]",
+    "source_ref": [
+      "2.335:start.hsp:293308"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Club Change]",
+    "source_ja": "[クラブチェンジ]",
+    "target": "[클로버 변경]",
+    "source_ref": [
+      "2.335:start.hsp:293312"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Diamond Change]",
+    "source_ja": "[ダイヤチェンジ]",
+    "target": "[다이아몬드 변경]",
+    "source_ref": [
+      "2.335:start.hsp:293316"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "[Heart Change]",
+    "source_ja": "[ハートチェンジ]",
+    "target": "[하트 변경]",
+    "source_ref": [
+      "2.335:start.hsp:293320"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Talk",
+    "source_ja": "話しかける",
+    "target": "말 걸기",
+    "source_ref": [
+      "2.335:start.hsp:293326"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Attack",
+    "source_ja": "攻撃する",
+    "target": "공격하기",
+    "source_ref": [
+      "2.335:start.hsp:293330",
+      "2.335:start.hsp:293371"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tell feelings",
+    "source_ja": "気持ちを伝える",
+    "target": "마음 전하기",
+    "source_ref": [
+      "2.335:start.hsp:293339"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Give or Take",
+    "source_ja": "何かを渡す/もらう",
+    "target": "물건 주고받기",
+    "source_ref": [
+      "2.335:start.hsp:293344"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Give",
+    "source_ja": "何かを渡す",
+    "target": "물건 건네기",
+    "source_ref": [
+      "2.335:start.hsp:293348"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Bring Out",
+    "source_ja": "連れ出す",
+    "target": "데리고 나가기",
+    "source_ref": [
+      "2.335:start.hsp:293352"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take out bone",
+    "source_ja": "骨を引きずり出す",
+    "target": "뼈 뽑아내기",
+    "source_ref": [
+      "2.335:start.hsp:293357"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take out heart",
+    "source_ja": "心臓を抜き取る",
+    "target": "심장 꺼내기",
+    "source_ref": [
+      "2.335:start.hsp:293359"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take out eye",
+    "source_ja": "目玉を抉り取る",
+    "target": "눈알 도려내기",
+    "source_ref": [
+      "2.335:start.hsp:293361"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take out blood",
+    "source_ja": "体液を搾り取る",
+    "target": "체액 짜내기",
+    "source_ref": [
+      "2.335:start.hsp:293363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Take out skin",
+    "source_ja": "皮を剥ぐ",
+    "target": "가죽 벗기기",
+    "source_ref": [
+      "2.335:start.hsp:293365"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Teach Words",
+    "source_ja": "言葉を教える",
+    "target": "말 가르치기",
+    "source_ref": [
+      "2.335:start.hsp:293376"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Change Tone",
+    "source_ja": "口調を変える",
+    "target": "말투 바꾸기",
+    "source_ref": [
+      "2.335:start.hsp:293378"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Silence",
+    "source_ja": "黙らせる",
+    "target": "말하지 못하게 하기",
+    "source_ref": [
+      "2.335:start.hsp:293383"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Make speak",
+    "source_ja": "喋らせる",
+    "target": "말하게 하기",
+    "source_ref": [
+      "2.335:start.hsp:293387"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Designated as precious",
+    "source_ja": "大事な仲間に指定",
+    "target": "소중한 동료로 지정",
+    "source_ref": [
+      "2.335:start.hsp:293392"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Cancel precious ally",
+    "source_ja": "大事な仲間指定解除",
+    "target": "소중한 동료 지정 해제",
+    "source_ref": [
+      "2.335:start.hsp:293396"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Endure foot items",
+    "source_ja": "足元のアイテム我慢",
+    "target": "발밑 물건에 손대지 않게 하기",
+    "source_ref": [
+      "2.335:start.hsp:293400"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Endure items release",
+    "source_ja": "アイテム我慢解除",
+    "target": "물건에 손대지 않기 해제",
+    "source_ref": [
+      "2.335:start.hsp:293404"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Wait at the town",
+    "source_ja": "街で待機させる",
+    "target": "마을에 대기시키기",
+    "source_ref": [
+      "2.335:start.hsp:293411"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Release",
+    "source_ja": "縄を解く",
+    "target": "밧줄 풀기",
+    "source_ref": [
+      "2.335:start.hsp:293420"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Release",
+    "source_ja": "檻から解き放つ",
+    "target": "우리에서 풀어 주기",
+    "source_ref": [
+      "2.335:start.hsp:293427"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Shape change",
+    "source_ja": "姿を変える",
+    "target": "모습 바꾸기",
+    "source_ref": [
+      "2.335:start.hsp:293438"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Change Tatie",
+    "source_ja": "立ち姿を変える",
+    "target": "서 있는 모습 바꾸기",
+    "source_ref": [
+      "2.335:start.hsp:293441"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Item mark set",
+    "source_ja": "アイテム画像の付与",
+    "target": "아이템 그림 추가",
+    "source_ref": [
+      "2.335:start.hsp:293443"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Item mark adjust",
+    "source_ja": "アイテム画像の調整",
+    "target": "아이템 그림 조정",
+    "source_ref": [
+      "2.335:start.hsp:293446"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Item mark move",
+    "source_ja": "アイテム画像の移動",
+    "target": "아이템 그림 이동",
+    "source_ref": [
+      "2.335:start.hsp:293450"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Item mark delete",
+    "source_ja": "アイテム画像の削除",
+    "target": "아이템 그림 삭제",
+    "source_ref": [
+      "2.335:start.hsp:293454"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tag organization.",
+    "source_ja": "タッグ編成",
+    "target": "짝 편성",
+    "source_ref": [
+      "2.335:start.hsp:293462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Tag dissolution.",
+    "source_ja": "タッグ解散",
+    "target": "짝 해제",
+    "source_ref": [
+      "2.335:start.hsp:293467"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Info",
+    "source_ja": "能力の開示",
+    "target": "능력 공개",
+    "source_ref": [
+      "2.335:start.hsp:293478"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Remand",
+    "source_ja": "帰ってもらう",
+    "target": "돌려보내기",
+    "source_ref": [
+      "2.335:start.hsp:293489"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "chocolate",
+    "source_ja": "チョコをねだる",
+    "target": "초콜릿 조르기",
+    "source_ref": [
+      "2.335:start.hsp:293496"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "chocolate",
+    "source_ja": "自分をプレゼント",
+    "target": "나 자신을 선물하기",
+    "source_ref": [
+      "2.335:start.hsp:293501"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Remand",
+    "source_ja": "棺に戻す",
+    "target": "관에 돌려놓기",
+    "source_ref": [
+      "2.335:start.hsp:293510"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "You cannot leave livestock on hanging.",
+    "source_ja": "吊るしたままでは連れ出せない。",
+    "target": "매달린 상태로는 데리고 나갈 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:293559"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Your party is already full. You can't invite someone anymore.",
+    "source_ja": "仲間の最大数に達しているため連れ出せない。",
+    "target": "동료 수가 한도에 달해 데리고 나갈 수 없다.",
+    "source_ref": [
+      "2.335:start.hsp:293568"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "There's no place to get off.",
+    "source_ja": "降りるスペースがない。",
+    "target": "내릴 공간이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:293739",
+      "2.335:start.hsp:323805",
+      "2.335:start.hsp:421775",
+      "2.335:start.hsp:422332"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  },
+  {
+    "source": "Which rank?",
+    "source_ja": "変化後のランクは？",
+    "target": "어느 등급으로 바꾸시겠습니까?",
+    "source_ref": [
+      "2.335:start.hsp:293799"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original"
+    }
+  }
+]
