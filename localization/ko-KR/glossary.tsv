@@ -234,3 +234,12 @@ consensus.009	skill-description	狂気回復の球	Cure insane area	광기 치�
 consensus.010	skill-description	盗んで食べる	Steal food	훔쳐 먹기		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3318	reviewed-proposed	盗む와 食べる 두 동작을 모두 보존하는 자연스러운 연결형으로 통일한다.
 consensus.011	skill	マナの眼差し	Eye of Mana	마나의 응시		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3599	reviewed-proposed	전투 기술 眼差し 계열은 응시로 통일한다.
 consensus.012	skill-description	退却する	Escape self.	퇴각한다.		2.335 기술/효과 정의; 2026-11-18 병렬 번역 정본 결정	2.335:start.hsp:3648	reviewed-proposed	원문에 없는 현재 지역이라는 목적지를 덧붙이지 않는다. 해당 행동의 실제 이동 경로는 번역에서 추정하지 않는다.
+quest.001	place	ロストイルヴァ	Lost Irva	로스트 이르바		후반 세계·이동	2.335:start.hsp:12676	reviewed-proposed	세계 이름으로 통일.
+quest.002	place	混沌の巨城	Cradle of Chaos	혼돈의 거성		메인 스토리 후반 던전	2.335:start.hsp:12734	reviewed-proposed	영문 별칭 Cradle을 직역하면 일본어 지명과 달라짐.
+quest.003	npc	エリステア	Erystia / Eristia	에리스테아		팔미아 성 도서관의 역사학자	2.335:start.hsp:266875	reviewed-proposed	영문 인물명과 퀘스트의 두 표기를 같은 인물로 처리.
+quest.004	npc	サイモア	Saimore	사이모어		자난의 인물·비보 추적	2.335:start.hsp:376280	reviewed-proposed	팔미아와 자난의 이야기에서 동일 표기.
+quest.005	npc	カラム	Karam	카람		레시마스 탐사 의뢰	2.335:start.hsp:10673	reviewed-proposed	개인 이름이며 저장 슬롯 이름과 구별.
+quest.006	npc	オルフェ	Orphe	오르페		망국의 왕자	2.335:start.hsp:257918	reviewed-proposed	영어 표기 및 주인공 상대 대사에 동일 이름 사용.
+quest.007	place	サウスティリス	South Tyris	남부 티리스		남부 세계 지도	2.335:start.hsp:12646	reviewed-proposed	북부 티리스와 짝을 맞춘다.
+quest.008	place	ルミエスト	Lumiest	루미에스트		도시	2.335:start.hsp:10259	reviewed-proposed	게임 내 지역 데이터와 일치.
+quest.009	place	ノイエル	Noyel	노이엘		도시·축제	2.335:start.hsp:10913	reviewed-proposed	지역 데이터 및 축제 대사에서 동일 표기.
