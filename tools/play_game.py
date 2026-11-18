@@ -115,7 +115,7 @@ def main():
         parser.error("The writable profile cannot be inside the original game folder.")
     for path in (host, ax, packed / "scene1.hsp", packed / "scene2.hsp", original / "elonaplus.exe"):
         if not path.is_file():
-            parser.error(f"Missing {path}; follow README build/preparation steps first.")
+            parser.error(f"Missing {path}; follow docs/DEVELOPMENT.md build/preparation steps first.")
     base = [str(host), "--game", str(ax), "--game-root", str(original),
             "--user-root", str(profile), "--packed-dir", str(packed), "--auxiliary-close-hide"]
     if args.language == "ko":
