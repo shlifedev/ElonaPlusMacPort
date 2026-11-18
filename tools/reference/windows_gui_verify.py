@@ -18,6 +18,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 X86_REF = ROOT / "work/windows/reference-build/gui-fixtures-02/cases"
+REFERENCE_FILES = {
+    "bitmap_export": ("fixture-buffer.bmp",),
+    "gui_pattern_dump": ("pt-screen0.bmp", "pt-buffer1.bmp", "pt-pget.txt"),
+    "gui_colorkey_dump": ("ck-buffer1.bmp", "ck-screen0.bmp"),
+    "gui_pixel_dump": ("pr-screen0.bmp", "pr-buffer1-before.bmp", "pr-buffer1-after.bmp"),
+}
 
 
 def load_table():
@@ -101,6 +107,33 @@ def compare_scaled(screen, capture, overlay=None):
     return out
 
 
+def title_capture_match(png, shots):
+    """Compare the native client to the persistent artwork in three animated title frames."""
+    references = [shots / f"f{frame:04}.bmp" for frame in (400, 800, 1500)]
+    if not png.is_file() or not all(path.is_file() for path in references):
+        return {"ok": False, "error": "missing external window capture or title frame"}
+    w, h, pixels = read_png(png)
+    frames = [read_bmp(path) for path in references]
+    if any((sw, sh) != (800, 600) for sw, sh, _ in frames):
+        return {"ok": False, "error": "expected the 800x600 deterministic title"}
+    scale = w // 800
+    if scale < 1 or (w, h) != (800 * scale, 600 * scale):
+        return {"ok": False, "error": f"unexpected client size {w}x{h}"}
+    stable = matched = 0
+    colors = set()
+    for y, rows in enumerate(zip(*(p for _, _, p in frames))):
+        capture_row = pixels[y * scale]
+        for x, (a, b, c) in enumerate(zip(*rows)):
+            if a == b == c:
+                colors.add(a)
+                stable += 1
+                matched += capture_row[x * scale] == a
+    # Water animates continuously between the reference and OS capture; even
+    # a pixel equal in three samples can change again. Reject flat references.
+    return {"stable_pixels": stable, "matching_pixels": matched, "scale": scale,
+            "ok": len(colors) > 100 and stable >= 800 * 600 // 2 and matched >= stable * 0.90}
+
+
 def main() -> int:
     run = Path(sys.argv[1])
     mod = load_table()
@@ -130,21 +163,25 @@ def main() -> int:
                 ok = ok and (bw, bh) == (w, h) and bad == 0
             elif "bmp" in exp:
                 ok = False; m["bmp"] = "missing"
-            if exp.get("text") and (case / "screen0.bmp").exists():
-                _, _, px = read_bmp(case / "screen0.bmp")
-                m["text_pixels_non_white"] = sum(1 for rr in px for v in rr if v != (255, 255, 255))
+            if exp.get("text"):
+                m["text_pixels_non_white"] = 0
+                if (case / "screen0.bmp").exists():
+                    _, _, px = read_bmp(case / "screen0.bmp")
+                    m["text_pixels_non_white"] = sum(1 for rr in px for v in rr if v != (255, 255, 255))
                 ok = ok and m["text_pixels_non_white"] > 50
             refdir = X86_REF / name
-            if name in {**mod.FIXTURES, **mod.REFERENCE_FIXTURES} and refdir.is_dir():
+            if name in REFERENCE_FILES:
                 comp = []
-                for ref in sorted(refdir.iterdir()):
-                    if ref.suffix.lower() in (".bmp", ".txt"):
-                        mine = case / ref.name
-                        a = mine.read_bytes() if mine.exists() else None
-                        same = a is not None and (a.replace(b"\r\n", b"\n") == ref.read_bytes().replace(b"\r\n", b"\n")
-                                                  if ref.suffix.lower() == ".txt" else a == ref.read_bytes())
-                        comp.append({"file": ref.name, "identical_to_x86": same})
-                        ok = ok and same
+                for filename in REFERENCE_FILES[name]:
+                    ref, mine = refdir / filename, case / filename
+                    same = False
+                    if ref.is_file() and mine.is_file():
+                        a, b = mine.read_bytes(), ref.read_bytes()
+                        if ref.suffix == ".txt":
+                            a, b = a.replace(b"\r\n", b"\n"), b.replace(b"\r\n", b"\n")
+                        same = a == b
+                    comp.append({"file": filename, "identical_to_x86": same})
+                    ok = ok and same
                 m["x86_reference"] = comp
             if mode == "window":
                 if (case / "window.bmp").exists() and (case / "screen0.bmp").exists() and r.get("exit_code") != 3:
@@ -200,13 +237,13 @@ def main() -> int:
     out["automated_fixture_checks_passed"] = all(v["ok"] for row in out["fixtures"].values() for v in row.values())
     session, original = out["session"] or {}, out["original"] or {}
     game_window = out["games"]["window-startup"]
-    capture = game_window.get("printwindow_png", {})
+    game_window["external_title_match"] = title_capture_match(png, run / "evidence/game-window-startup/shots")
     out["session_and_integrity_ok"] = (
         session.get("probeCompleted") is True and session.get("taskRemoved") is True and
         session.get("leftoverAfterCleanup") == 0 and original.get("zipUnchanged") is True and
         original.get("privateUnchanged") is True and
         int(game_window.get("probe", {}).get("visible_windows", "0").split()[0]) > 0 and
-        capture.get("distinct_colors", 0) > 100 and game_window.get("display") == "sdl3")
+        game_window["external_title_match"]["ok"] and game_window.get("display") == "sdl3")
     failed |= not out["session_and_integrity_ok"]
     out["all_automated_checks_passed"] = not failed
     (run / "verify.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

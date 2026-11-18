@@ -312,6 +312,12 @@ private:
 
 std::unique_ptr<Display> create_sdl_display(std::string& error) {
     SDL_SetHint(SDL_HINT_APP_NAME, "ElonaPlus Native");
+#ifdef _WIN32
+    // The game draws into a CPU DIB. Present it through the native window
+    // surface so Win32 also sees the *current* frame after a window resize.
+    SDL_SetHintWithPriority(SDL_HINT_RENDER_DRIVER, "software", SDL_HINT_DEFAULT);
+    SDL_SetHintWithPriority(SDL_HINT_FRAMEBUFFER_ACCELERATION, "0", SDL_HINT_DEFAULT);
+#endif
     // The edit overlay draws the preedit; candidate selection remains native.
     SDL_SetHint(SDL_HINT_IME_IMPLEMENTED_UI, "composition");
     if (!SDL_InitSubSystem(SDL_INIT_VIDEO)) {
