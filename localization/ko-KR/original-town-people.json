@@ -1,0 +1,6131 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 built-in data/talk.txt, exact authored line before speech conversion; start.hsp:20097/20373",
+    "source_sha256": "c813032c1ee62d0eb45d5515509d25acffbe780baf3c319cd5ff201fecb1a1a5"
+  },
+  "entries": [
+    {
+      "id": "people.748",
+      "source": "@town/暇{だ}。",
+      "target": "한가하네.",
+      "source_ref": [
+        "2.335:data/talk.txt:748"
+      ],
+      "section": "DEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.749",
+      "source": "@town/ん？ 何か用{かな}？",
+      "target": "응? 무슨 볼일이야?",
+      "source_ref": [
+        "2.335:data/talk.txt:749"
+      ],
+      "section": "DEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.750",
+      "source": "@town/たまには豪勢な食事をしたい{な}。",
+      "target": "가끔은 거하게 한 상 차려 놓고 먹고 싶어.",
+      "source_ref": [
+        "2.335:data/talk.txt:750"
+      ],
+      "section": "DEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.751",
+      "source": "@town/神の存在なくしてこの世は無意味{だ}！",
+      "target": "신들이 없다면 이 세상에 무슨 의미가 있겠어!",
+      "source_ref": [
+        "2.335:data/talk.txt:751"
+      ],
+      "section": "DEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.755",
+      "source": "@town/Scut stands for \"it's cute\".",
+      "target": "스컷이 무슨 뜻이냐고? 영어로 ‘귀엽다’는 말, 잇츠 큐트를 줄인 거래.",
+      "source_ref": [
+        "2.335:data/talk.txt:755"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.756",
+      "source": "@town/I've got nothing to do.",
+      "target": "할 일이 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:756"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.760",
+      "source": "@town/Some say the Vindale forest is the source of the etherwind.  I guess it's not impossible but it seems a bit silly.",
+      "target": "빈데일 숲에서 에테르 바람이 불어온다던데. 불가능하진 않겠지만 좀 우스운 얘기 같아.",
+      "source_ref": [
+        "2.335:data/talk.txt:760"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.761",
+      "source": "@town/Our lives would be meaningless without the gods.",
+      "target": "신들이 없다면 우리 삶도 의미가 없을 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:761"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.762",
+      "source": "@town/The land of North Tyris has countless ruins and dungeons on it.  They are part of a long lost civilization we call Nefia.",
+      "target": "북부 티리스에는 유적과 던전이 수도 없이 많아. 우리가 네피아라고 부르는, 오래전에 사라진 문명의 흔적이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:762"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.764",
+      "source": "@town/You're an adventurer right? Got any news from afar?",
+      "target": "모험자지? 먼 곳에서 들은 소식 없어?",
+      "source_ref": [
+        "2.335:data/talk.txt:764"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.765",
+      "source": "@town/Nothing beats a good old crim ale after work.",
+      "target": "일 끝나고 마시는 크림 에일만 한 게 없지.",
+      "source_ref": [
+        "2.335:data/talk.txt:765"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.766",
+      "source": "@town/Cats... why are they so cute?",
+      "target": "고양이는… 어쩜 그렇게 귀여울까?",
+      "source_ref": [
+        "2.335:data/talk.txt:766",
+        "2.335:data/talk.txt:807"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.767",
+      "source": "@town/What are you looking at?",
+      "target": "뭘 그렇게 봐?",
+      "source_ref": [
+        "2.335:data/talk.txt:767"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.768",
+      "source": "@town/It is rumored that the prince of Zanan is planning a massive attack on the Vindale forests.",
+      "target": "자난의 황자가 빈데일 숲에 대대적인 공격을 계획하고 있다는 소문이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:768"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.769",
+      "source": "@town/The ether plague spreads from land to land. It started in the Vindale forest and brought ruin upon the eastern country of Karune. Fortunately, the great central ocean has, to some extent, been protecting us from the winds. I can't imagine any of the countries in North Tyris would have survived that disaster.",
+      "target": "에테르 역병은 땅에서 땅으로 번져 가. 빈데일 숲에서 시작해 동방의 카루네를 멸망시켰지. 그나마 중앙의 큰 바다가 바람을 좀 막아 줬기에 망정이지. 북부 티리스에 그 재앙을 버텨 낼 나라가 있었을까?",
+      "source_ref": [
+        "2.335:data/talk.txt:769"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.770",
+      "source": "@town/Ah, another adventurer looking for a fortune.",
+      "target": "아, 한몫 잡으려는 모험자가 또 왔군.",
+      "source_ref": [
+        "2.335:data/talk.txt:770"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.771",
+      "source": "@town/Eh? What do you want?",
+      "target": "응? 무슨 일이야?",
+      "source_ref": [
+        "2.335:data/talk.txt:771"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.772",
+      "source": "@town/I hear that South Tyris is a violent and uninhabitable land.  Who knows what sort of horrors lurk there.",
+      "target": "남부 티리스는 험하고 사람 살 곳이 못 된다던데. 거기 무슨 끔찍한 것들이 도사리고 있을지 누가 알겠어?",
+      "source_ref": [
+        "2.335:data/talk.txt:772"
+      ],
+      "section": "DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.777",
+      "source": "@town/街中に突っ立っているだけで給料がもらえる{のだ}。",
+      "target": "마을에 가만히 서 있기만 해도 월급이 나온다니까.",
+      "source_ref": [
+        "2.335:data/talk.txt:777"
+      ],
+      "section": "ADEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.778",
+      "source": "@town/用もないのに話しかけると、突然攻撃されることがある{よ}。",
+      "target": "볼일도 없이 말을 걸면 갑자기 얻어맞을 때가 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:778"
+      ],
+      "section": "ADEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.779",
+      "source": "@town/アピの実を肉と一緒に煮込むと硬い肉も柔らかくなる{な}。",
+      "target": "질긴 고기도 아피 열매랑 같이 푹 끓이면 부드러워져.",
+      "source_ref": [
+        "2.335:data/talk.txt:779"
+      ],
+      "section": "ADEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.780",
+      "source": "@town/神にチェーンソーを見せると慌てて逃げていくらしい{よ}。",
+      "target": "신도 전기톱만 보면 질겁해서 달아난다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:780"
+      ],
+      "section": "ADEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.785",
+      "source": "@town/You will receive a salary just for standing around in town and doing nothing.",
+      "target": "마을에 가만히 서 있기만 해도 월급이 나온다니까.",
+      "source_ref": [
+        "2.335:data/talk.txt:785"
+      ],
+      "section": "ADEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.786",
+      "source": "@town/People will sometimes attack you if you talk to them for no reason.",
+      "target": "볼일도 없이 말을 걸면 갑자기 얻어맞을 때가 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:786"
+      ],
+      "section": "ADEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.787",
+      "source": "@town/Cooking meat with api nuts makes it a lot more tender. It works even with blade meat!",
+      "target": "아피 열매랑 고기를 함께 끓이면 훨씬 부드러워져. 칼날 고기도 그렇게 하면 돼!",
+      "source_ref": [
+        "2.335:data/talk.txt:787"
+      ],
+      "section": "ADEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.788",
+      "source": "@town/The gods run away from the sight of a chainsaw.",
+      "target": "신도 전기톱만 보면 질겁해서 달아난다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:788"
+      ],
+      "section": "ADEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.792",
+      "source": "@town/クリムエールをふらふらになるまで飲みたい{な}。",
+      "target": "휘청거릴 때까지 크림 에일을 들이켜고 싶어.",
+      "source_ref": [
+        "2.335:data/talk.txt:792"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.793",
+      "source": "@town/猫は何故こんなにかわいいの{かな}。",
+      "target": "고양이는 왜 이렇게 귀여울까?",
+      "source_ref": [
+        "2.335:data/talk.txt:793"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.794",
+      "source": "@town/イェルスは最近台頭してきた新王国{だ}。",
+      "target": "이에르스는 요즘 두각을 나타내는 신흥 왕국이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:794"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.795",
+      "source": "@town/エウダーナは、他のどの国よりも先に、ネフィアの探索と研究をはじめた{のだ}。",
+      "target": "네피아를 제일 먼저 탐색하고 연구한 나라는 에우데르나야.",
+      "source_ref": [
+        "2.335:data/talk.txt:795"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.796",
+      "source": "@town/店の主人は不死身なの{かな}。",
+      "target": "가게 주인들은 정말 불사신일까?",
+      "source_ref": [
+        "2.335:data/talk.txt:796"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.797",
+      "source": "@town/どうやら、アーティファクトの所在を知る方法があるみたい{だ}。",
+      "target": "아티팩트가 어디 있는지 알아내는 방법이 있나 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:797"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.798",
+      "source": "@town/何度かやれば命乞いが通用するモンスターもいるみたい{だ}。逆に、人間でも命乞いが通用しない相手もいる{よ}。",
+      "target": "몇 번씩 싹싹 빌면 살려 주는 몬스터도 있대. 반대로 사람인데도 아무리 목숨을 구걸해 봐야 안 통하는 놈이 있고.",
+      "source_ref": [
+        "2.335:data/talk.txt:798"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.799",
+      "source": "@town/病気や体調が悪い時は、十分に睡眠をとって休むのが大事{だ}。祝福された回復のポーションも病気に効くと、昔からよくいわれてい{る}。",
+      "target": "병이 났거나 몸이 안 좋을 땐 푹 자고 쉬어야지. 축복받은 회복 물약도 병에 잘 듣는다는 말이 옛날부터 있었어.",
+      "source_ref": [
+        "2.335:data/talk.txt:799"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.800",
+      "source": "@town/６月になると、野外にお尻の光る虫が出没する{よ}。夜に見るとキレイ{だろ}。",
+      "target": "6월이면 들에 꽁무니가 반짝이는 벌레들이 나타나. 밤에 보면 참 예쁘겠지?",
+      "source_ref": [
+        "2.335:data/talk.txt:800"
+      ],
+      "section": "PERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.804",
+      "source": "@town/I want to drink crim ale to death!",
+      "target": "크림 에일에 빠져 죽도록 마시고 싶다!",
+      "source_ref": [
+        "2.335:data/talk.txt:804"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.805",
+      "source": "@town/What's another name for a hare's tail?",
+      "target": "산토끼 꼬리를 다른 말로 뭐라고 하는지 알아?",
+      "source_ref": [
+        "2.335:data/talk.txt:805"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.806",
+      "source": "@town/Sometimes I drink crim ale until I pass out.",
+      "target": "어쩔 땐 정신을 잃을 때까지 크림 에일을 마셔.",
+      "source_ref": [
+        "2.335:data/talk.txt:806"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.808",
+      "source": "@town/Yerles is a new kingdom that has recently risen to prominence.",
+      "target": "이에르스는 최근 두각을 나타낸 신흥 왕국이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:808"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.809",
+      "source": "@town/Eulderna was the first country to explore and research the ruins of Nefia.",
+      "target": "에우데르나는 네피아의 유적을 처음으로 탐사하고 연구한 나라야.",
+      "source_ref": [
+        "2.335:data/talk.txt:809"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.810",
+      "source": "@town/I wonder if the shopkeepers really are invincible...",
+      "target": "가게 주인들은 정말 불사신일까?",
+      "source_ref": [
+        "2.335:data/talk.txt:810"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.811",
+      "source": "@town/Apparently, there is a way to learn the location of artifacts after all.",
+      "target": "역시 아티팩트가 어디 있는지 알아내는 방법이 있나 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:811"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.812",
+      "source": "@town/Even if you're dealing with a monster, it seems that begging for your life can sometimes work if you do it a few times. On the other hand, there are also humans who won't respond to pleading for your life.",
+      "target": "몬스터라도 몇 번씩 싹싹 빌면 살려 줄 때가 있대. 반대로 목숨을 구걸해 봐야 안 통하는 인간도 있고.",
+      "source_ref": [
+        "2.335:data/talk.txt:812"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.813",
+      "source": "@town/Sleep and rest well when you are sick! My grandma told me that blessed healing potion also works.",
+      "target": "아플 땐 푹 자고 쉬어! 우리 할머니 말씀으론 축복받은 회복 물약도 잘 듣는대.",
+      "source_ref": [
+        "2.335:data/talk.txt:813"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.814",
+      "source": "@town/In June, insects with glowing rear ends start appearing wilderness. They must look beautiful at night.",
+      "target": "6월이면 들에 꽁무니가 반짝이는 벌레들이 나타나. 밤에 보면 참 예쁘겠지?",
+      "source_ref": [
+        "2.335:data/talk.txt:814"
+      ],
+      "section": "PERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.818",
+      "source": "@town/クリムエールを短期間に大量に飲むとクラムベリー中毒になる{のだ}。",
+      "target": "크림 에일을 짧은 시간에 많이 마시면 크림베리 중독에 걸린대.",
+      "source_ref": [
+        "2.335:data/talk.txt:818"
+      ],
+      "section": "APERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.819",
+      "source": "@town/前文明が滅びたのは、猫派と犬派が互いを認めずに最終戦争を始めたからだとされている。",
+      "target": "지난 문명은 개가 좋다는 파와 고양이가 좋다는 파가 서로를 인정하지 않고 끝장 전쟁을 벌이는 바람에 망했다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:819"
+      ],
+      "section": "APERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.820",
+      "source": "@town/新王国では人に化けたロボットが人間社会に紛れている{よ}。",
+      "target": "신흥 왕국에는 사람으로 위장한 로봇이 인간들 사이에 숨어 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:820"
+      ],
+      "section": "APERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.821",
+      "source": "@town/エウダーナのネフィア探索研究は財政難が理由で頓挫した{のだ}。",
+      "target": "에우데르나는 돈이 모자라서 네피아 연구를 중단했어.",
+      "source_ref": [
+        "2.335:data/talk.txt:821"
+      ],
+      "section": "APERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.822",
+      "source": "@town/店の主人はコアを潰さない限り不死身{だな}。",
+      "target": "상점 주인은 핵을 부수지 않는 한 불사신이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:822"
+      ],
+      "section": "APERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.823",
+      "source": "@town/固定アーティファクト全てをそろえた時、青き星の神が降臨するという伝説が{ある}。",
+      "target": "고정 아티팩트를 모두 모으면 푸른 별의 신이 강림한다는 전설이 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:823"
+      ],
+      "section": "APERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.825",
+      "source": "@town/祝福されたポーションを飲み続けた結果、祝福された乳が出始めて止まらなくなったという事例が{ある}。",
+      "target": "축복받은 물약을 계속 마셨다가 축복받은 젖이 흐르기 시작해서 안 멎었다는 사례가 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:825"
+      ],
+      "section": "APERSONALITY,0,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.829",
+      "source": "@town/Drinking a lot of crim ales in a short span of time will cause crimberry addiction.",
+      "target": "크림 에일을 짧은 시간에 많이 마시면 크림베리 중독에 걸린대.",
+      "source_ref": [
+        "2.335:data/talk.txt:829"
+      ],
+      "section": "APERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.830",
+      "source": "@town/The downfall of previous ages was caused by people arguing whether dogs or cats were better.",
+      "target": "지난 문명은 개가 좋다는 파와 고양이가 좋다는 파가 서로를 인정하지 않고 끝장 전쟁을 벌이는 바람에 망했다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:830"
+      ],
+      "section": "APERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.831",
+      "source": "@town/There are robots disguised as humans in the new kingdom.",
+      "target": "신흥 왕국에는 사람으로 위장한 로봇이 인간들 사이에 숨어 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:831"
+      ],
+      "section": "APERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.832",
+      "source": "@town/Eulderna have halted their Nefia research because of budget issues.",
+      "target": "에우데르나는 돈이 모자라서 네피아 연구를 중단했어.",
+      "source_ref": [
+        "2.335:data/talk.txt:832"
+      ],
+      "section": "APERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.833",
+      "source": "@town/The only way to defeat a shopkeeper is to destroy its core.",
+      "target": "상점 주인은 핵을 부수지 않는 한 불사신이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:833"
+      ],
+      "section": "APERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.835",
+      "source": "@town/If you keep drinking blessed healing potions, blessed milk will start coming out of you. And when it starts oozing out, there's no stopping it.",
+      "target": "축복받은 물약을 계속 마셨다가 축복받은 젖이 흐르기 시작해서 안 멎었다는 사례가 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:835"
+      ],
+      "section": "APERSONALITY,0,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.839",
+      "source": "@town/ともかく、世の中お金が大事{だ}。",
+      "target": "뭐니 뭐니 해도 세상에 돈이 중요하지.",
+      "source_ref": [
+        "2.335:data/talk.txt:839"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.840",
+      "source": "@town/どこかにお金が落ちていない{かな}。",
+      "target": "어디 돈 떨어진 데 없나?",
+      "source_ref": [
+        "2.335:data/talk.txt:840"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.841",
+      "source": "@town/経済の話題には関心がある{のだ}。",
+      "target": "경제 이야기라면 관심이 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:841"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.842",
+      "source": "@town/プラチナ硬貨はなかなか手に入らない{な}。",
+      "target": "백금화는 구하기가 영 힘들어.",
+      "source_ref": [
+        "2.335:data/talk.txt:842"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.843",
+      "source": "@town/エウダーナの財政は、少し苦しいらしい{よ}。",
+      "target": "에우데르나는 요즘 재정이 좀 어렵다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:843"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.844",
+      "source": "@town/聞いたところによると、職業を変えるアイテムがあるみたい{だ}。",
+      "target": "듣자 하니 직업을 바꿀 수 있는 물건이 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:844"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.845",
+      "source": "@town/戦後のザナンは形式こそ王国制をとるものの、実質的にはエイス・テールの諸国をモデルにした経済国家{だ}。",
+      "target": "전쟁이 끝난 뒤 자난은 겉으론 왕국이지만, 실제로는 에이스 테르 시대의 여러 나라를 본뜬 경제 국가야.",
+      "source_ref": [
+        "2.335:data/talk.txt:845"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.846",
+      "source": "@town/机のうちのいくつかは、インスピレーションを消費して原稿を書くのに使える{よ}。大作ができればお金になるかもしれない{な}。",
+      "target": "책상 중에는 영감을 소모해 원고를 쓸 수 있는 것도 있어. 대작이 나오면 꽤 벌지도 몰라.",
+      "source_ref": [
+        "2.335:data/talk.txt:846"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.847",
+      "source": "@town/冒険を進めていけばいくほど、同じ出来事でも得られる経験値は増える{のだ}。",
+      "target": "모험을 더 진행할수록 똑같은 일을 해도 더 많은 경험치를 얻어.",
+      "source_ref": [
+        "2.335:data/talk.txt:847"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.848",
+      "source": "@town/技術や能力が最深攻略階層の値に追いつくまでは、得られる経験値が増えるらしい{よ}。",
+      "target": "기술과 능력이 가장 깊이 공략한 층수에 따라잡을 때까지는 경험치를 더 받는대.",
+      "source_ref": [
+        "2.335:data/talk.txt:848"
+      ],
+      "section": "PERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.852",
+      "source": "@town/Money makes the world go round.  I wonder where I can get some more money.",
+      "target": "세상은 돈으로 굴러가. 어디 더 구할 데 없나?",
+      "source_ref": [
+        "2.335:data/talk.txt:852"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.853",
+      "source": "@town/Money and currency are critical to our society. ",
+      "target": "돈과 화폐는 우리 사회를 떠받치는 기둥이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:853"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.854",
+      "source": "@town/Do you have any good ideas for investments?",
+      "target": "좋은 투자처 아는 데 있어?",
+      "source_ref": [
+        "2.335:data/talk.txt:854"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.855",
+      "source": "@town/I'm very much into economics. ",
+      "target": "경제 이야기라면 관심이 많아.",
+      "source_ref": [
+        "2.335:data/talk.txt:855"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.856",
+      "source": "@town/Platinum coins are a lot rarer than gold.  Spend them wisely. ",
+      "target": "백금화는 금화보다 훨씬 귀해. 아껴 써.",
+      "source_ref": [
+        "2.335:data/talk.txt:856"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.857",
+      "source": "@town/Eulderna always suffers from huge deficits, but it never really seems to slow them down.  They can't just invent money like that forever.",
+      "target": "에우데르나는 늘 적자투성이인데도 좀처럼 기세가 꺾이지 않더라고. 그렇다고 언제까지고 없는 돈을 만들어 낼 수야 없겠지.",
+      "source_ref": [
+        "2.335:data/talk.txt:857"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.858",
+      "source": "@town/Zanan's postwar system is a monarchy, but internally the country still operates on the outdated systems used during Eyth Terre.",
+      "target": "전후 자난은 겉으론 왕국이지만 속을 들여다보면 여전히 에이스 테르 시대의 낡은 제도로 굴러가.",
+      "source_ref": [
+        "2.335:data/talk.txt:858"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.859",
+      "source": "@town/Some of the desks can be used to consume inspiration and write manuscripts. If you can make a masterpiece, you might make money.",
+      "target": "영감을 소모해 원고를 쓸 수 있는 책상도 있어. 대작을 써내면 꽤 벌지도 몰라.",
+      "source_ref": [
+        "2.335:data/talk.txt:859"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.860",
+      "source": "@town/The further you progress in your adventure, the more experience points you'll gain even by taking the same action.",
+      "target": "모험을 더 진행할수록 똑같은 행동으로 더 많은 경험치를 얻어.",
+      "source_ref": [
+        "2.335:data/talk.txt:860"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.861",
+      "source": "@town/It seems that the experience points gained will increase until the skills and abilities catch up with the values of the deepest cleared floor.",
+      "target": "기술과 능력이 가장 깊이 공략한 층수에 이를 때까지 경험치를 더 받는대.",
+      "source_ref": [
+        "2.335:data/talk.txt:861"
+      ],
+      "section": "PERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.865",
+      "source": "@town/死んだ回数が一定数を超えると女神が情けをかけてくれる{よ}。",
+      "target": "일정 횟수 넘게 죽으면 여신이 가엾이 여겨 주신대.",
+      "source_ref": [
+        "2.335:data/talk.txt:865"
+      ],
+      "section": "APERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.866",
+      "source": "@town/野原にはたまに流れ星の欠片が落ちていることがある{のだ}。",
+      "target": "들판에는 가끔 별똥별 조각이 떨어져 있지.",
+      "source_ref": [
+        "2.335:data/talk.txt:866"
+      ],
+      "section": "APERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.867",
+      "source": "@town/ネフィアからいくらでも金貨が採れるので、貨幣価値が暴落するのも時間の問題{だ}。",
+      "target": "네피아에서 금화가 끝도 없이 나오니 화폐 가치가 폭락하는 것도 시간문제야.",
+      "source_ref": [
+        "2.335:data/talk.txt:867"
+      ],
+      "section": "APERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.868",
+      "source": "@town/プラチナ硬貨の鉱山は一部の役人が独占している{な}。",
+      "target": "백금화 광산은 관리 몇 놈이 독차지하고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:868"
+      ],
+      "section": "APERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.869",
+      "source": "@town/エウダーナ人は３０歳未満だと魔法使いになれない{よ}。",
+      "target": "에우데르나 사람은 서른 살이 안 되면 마법사가 될 수 없대.",
+      "source_ref": [
+        "2.335:data/talk.txt:869"
+      ],
+      "section": "APERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.870",
+      "source": "@town/永い間無職でいると、街中に洗濯物を配置する仕事に就かされるみたい{だ}。",
+      "target": "오랫동안 무직이면 온 마을에 빨래를 널어 놓는 일을 떠맡게 된다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:870"
+      ],
+      "section": "APERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.871",
+      "source": "@town/戦後のザナンは形式こそ王国制をとるものの、実質的には猫が主権を握っているにゃんにゃん国家{だ}。",
+      "target": "전후 자난은 겉으론 왕국이지만 사실 주권은 고양이한테 있는 야옹야옹 국가야.",
+      "source_ref": [
+        "2.335:data/talk.txt:871"
+      ],
+      "section": "APERSONALITY,1,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.875",
+      "source": "@town/If you die a certain number of times, a goddess will take pity on you.",
+      "target": "일정 횟수 넘게 죽으면 여신이 가엾이 여겨 주신대.",
+      "source_ref": [
+        "2.335:data/talk.txt:875"
+      ],
+      "section": "APERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.876",
+      "source": "@town/You can sometimes find meteorite fragments in the wilderness.",
+      "target": "들판에는 가끔 별똥별 조각이 떨어져 있지.",
+      "source_ref": [
+        "2.335:data/talk.txt:876"
+      ],
+      "section": "APERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.877",
+      "source": "@town/It's only a matter of time before our economy collapses. The amount of gold people keep finding in dungeons is making our coins worth nothing.",
+      "target": "네피아에서 금화가 끝도 없이 나오니 화폐 가치가 폭락하는 것도 시간문제야.",
+      "source_ref": [
+        "2.335:data/talk.txt:877"
+      ],
+      "section": "APERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.878",
+      "source": "@town/The mine where the platinum coins come from is controlled by an oligarchy of government officials.",
+      "target": "백금화 광산은 관리 몇 놈이 독차지하고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:878"
+      ],
+      "section": "APERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.879",
+      "source": "@town/The Eulderna don't become wizards until they reach 30 years of age.",
+      "target": "에우데르나 사람은 서른 살이 안 되면 마법사가 될 수 없대.",
+      "source_ref": [
+        "2.335:data/talk.txt:879"
+      ],
+      "section": "APERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.880",
+      "source": "@town/Putting your laundry out in the street can help you find a job if you've been unemployed for a long time.",
+      "target": "오랫동안 일자리가 없었다면 거리에 빨래를 널어 봐. 일자리가 생길지도 몰라.",
+      "source_ref": [
+        "2.335:data/talk.txt:880"
+      ],
+      "section": "APERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.881",
+      "source": "@town/Zanan's postwar system is a monarchy, but the entire country is actually controlled by cats. It's a country of cats.",
+      "target": "전후 자난은 겉으론 왕국이지만 사실 주권은 고양이한테 있는 야옹야옹 국가야.",
+      "source_ref": [
+        "2.335:data/talk.txt:881"
+      ],
+      "section": "APERSONALITY,1,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.885",
+      "source": "@town/ティリス各地には、数々の遺跡やダンジョンがあり、ネフィアとよばれている{のだ}。",
+      "target": "티리스 곳곳에 흩어진 수많은 유적과 던전을 통틀어 네피아라 부르지.",
+      "source_ref": [
+        "2.335:data/talk.txt:885"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.886",
+      "source": "@town/エイス・テールは第七期の文明{だ}。高度な科学を持っていた{のだ}。",
+      "target": "제7기 문명 에이스 테르는 과학이 고도로 발달했어.",
+      "source_ref": [
+        "2.335:data/talk.txt:886"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.887",
+      "source": "@town/エイス・テールは、魔法と科学を対立するものと考えていたよう{だ}。",
+      "target": "에이스 테르의 사람들은 마법과 과학을 서로 대립하는 것으로 여겼던 모양이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:887"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.888",
+      "source": "@town/科学について語るのが好き{だ}。",
+      "target": "난 과학 이야기를 좋아해.",
+      "source_ref": [
+        "2.335:data/talk.txt:888"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.889",
+      "source": "@town/ヴェルニースはパルミアで一番大きな炭鉱街{だ}。",
+      "target": "베르니스는 팔미아에서 가장 큰 탄광 마을이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:889"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.890",
+      "source": "@town/ルミエストは芸術の街として有名{だな}。",
+      "target": "루미에스트는 예술의 도시로 유명하지.",
+      "source_ref": [
+        "2.335:data/talk.txt:890"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.891",
+      "source": "@town/ダルフィのならずものはスリが得意{だ}。すれ違っただけで金貨を盗まれるから、気をつけるべき{だな}。",
+      "target": "데르피의 무뢰배들은 소매치기의 달인이야. 스치기만 해도 금화를 털리니 조심해.",
+      "source_ref": [
+        "2.335:data/talk.txt:891"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.892",
+      "source": "@town/畑や牧場や収容所といった物件は5日おきに状況が変わるから、たまに様子を見に行くといい{よ}。",
+      "target": "밭이며 목장, 수용소 같은 부동산은 닷새마다 상황이 바뀌어. 가끔 들러 보는 게 좋아.",
+      "source_ref": [
+        "2.335:data/talk.txt:892"
+      ],
+      "section": "PERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.896",
+      "source": "@town/Sierre Terre is the 11th era on Irva.",
+      "target": "이르바의 제11기는 시에라 테르야.",
+      "source_ref": [
+        "2.335:data/talk.txt:896"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.897",
+      "source": "@town/Are you on drugs? Irva is our world, of course.",
+      "target": "약이라도 한 거야? 이르바는 우리가 사는 이 세계잖아.",
+      "source_ref": [
+        "2.335:data/talk.txt:897"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.898",
+      "source": "@town/The land of Tyris has countless ruins and dungeons on it.  They are part of a long lost civilization called Nefia.",
+      "target": "티리스에는 유적과 던전이 수도 없이 많아. 네피아라는 고대 문명의 흔적이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:898"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.899",
+      "source": "@town/Science in the seventh era of Eyth Terre was far more advanced than ours.",
+      "target": "제7기 에이스 테르의 과학은 우리보다 훨씬 앞서 있었어.",
+      "source_ref": [
+        "2.335:data/talk.txt:899"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.900",
+      "source": "@town/In Eyth Terre, magic and science were thought to be opposites.",
+      "target": "에이스 테르에서는 마법과 과학을 서로 대립하는 것으로 여겼어.",
+      "source_ref": [
+        "2.335:data/talk.txt:900"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.901",
+      "source": "@town/I like talking about science. ",
+      "target": "난 과학 이야기를 좋아해.",
+      "source_ref": [
+        "2.335:data/talk.txt:901"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.902",
+      "source": "@town/Vernis is the biggest coal-mining town in the Palmian Kingdom.",
+      "target": "베르니스는 팔미아 왕국에서 가장 큰 탄광 마을이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:902"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.903",
+      "source": "@town/Lumiest is the famous city of art. ",
+      "target": "루미에스트는 예술의 도시로 유명하지.",
+      "source_ref": [
+        "2.335:data/talk.txt:903"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.904",
+      "source": "@town/Derphy rogues are good at pickpocketing. You should be careful because your gold coins will be stolen just by passing each other.",
+      "target": "데르피의 무뢰배들은 소매치기의 달인이야. 스치기만 해도 금화를 털리니 조심해.",
+      "source_ref": [
+        "2.335:data/talk.txt:904"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.905",
+      "source": "@town/Properties such as crops, ranches, and camps change status every five days, so it's a good idea to check in on them every now and then.",
+      "target": "밭이며 목장, 수용소 같은 부동산은 닷새마다 상황이 바뀌어. 가끔 들러 보는 게 좋아.",
+      "source_ref": [
+        "2.335:data/talk.txt:905"
+      ],
+      "section": "PERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.909",
+      "source": "@town/ネフィアという遺跡群の総称は、旧文明の製紙メーカー名が語源{だ}。",
+      "target": "유적을 통틀어 네피아라고 하잖아? 그 말이 옛 문명의 제지 회사 이름에서 왔대.",
+      "source_ref": [
+        "2.335:data/talk.txt:909"
+      ],
+      "section": "APERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.910",
+      "source": "@town/第四期文明のウソツイ・テールは高度なユーモアで繁栄していた{のだ}。",
+      "target": "제4기 문명 뻥이야 테르는 수준 높은 농담으로 번성했다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:910"
+      ],
+      "section": "APERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.911",
+      "source": "@town/魔法の出し方は人それぞれ{だ}。ちなみに{me}の魔法は尻から出る。",
+      "target": "마법을 쓰는 방법은 사람마다 달라. 참고로 내 건 엉덩이에서 나와.",
+      "source_ref": [
+        "2.335:data/talk.txt:911"
+      ],
+      "section": "APERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.912",
+      "source": "@town/ヨウィンは世界最高の人肉生産量を誇る村{だ}。",
+      "target": "요우윈은 인육 생산량이 세계 으뜸인 마을이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:912"
+      ],
+      "section": "APERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.913",
+      "source": "@town/ルミエストの女神の石像が夜になると動き回るらしい。",
+      "target": "밤이 되면 루미에스트의 여신상이 돌아다닌대.",
+      "source_ref": [
+        "2.335:data/talk.txt:913"
+      ],
+      "section": "APERSONALITY,2,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.917",
+      "source": "@town/\"Nefia\", the term we use for ruins, came from a paper manufacturing company in a previous age.",
+      "target": "유적을 통틀어 네피아라고 하잖아? 그 말이 옛 문명의 제지 회사 이름에서 왔대.",
+      "source_ref": [
+        "2.335:data/talk.txt:917"
+      ],
+      "section": "APERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.918",
+      "source": "@town/The fourth age is Justkidding Terre. People of that age came up with great jokes.",
+      "target": "제4기 문명 뻥이야 테르는 수준 높은 농담으로 번성했다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:918"
+      ],
+      "section": "APERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.919",
+      "source": "@town/Everyone has their own style when it comes to casting magic. My spells come out from my butt.",
+      "target": "마법을 쓰는 방법은 사람마다 달라. 참고로 내 건 엉덩이에서 나와.",
+      "source_ref": [
+        "2.335:data/talk.txt:919"
+      ],
+      "section": "APERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.920",
+      "source": "@town/Yowyn is world-renowned for its human flesh production.",
+      "target": "요우윈은 인육 생산량이 세계 으뜸인 마을이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:920"
+      ],
+      "section": "APERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.921",
+      "source": "@town/The Goddess statues in Lumiest come alive when the sun goes down.",
+      "target": "밤이 되면 루미에스트의 여신상이 돌아다닌대.",
+      "source_ref": [
+        "2.335:data/talk.txt:921"
+      ],
+      "section": "APERSONALITY,2,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.925",
+      "source": "@town/食料の供給源は、しっかり決めておいたほうがいい{よ}。",
+      "target": "먹을 건 어디서 구할지 미리 정해 두는 게 좋아.",
+      "source_ref": [
+        "2.335:data/talk.txt:925"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.926",
+      "source": "@town/闘技場で戦って負けたけど、そこで治療を受けたら戦う前より元気になった{よ}。",
+      "target": "투기장에서 졌는데 거기서 치료받고 나니 싸우기 전보다 팔팔해졌어.",
+      "source_ref": [
+        "2.335:data/talk.txt:926"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.927",
+      "source": "@town/まだ解き明かされない謎が多く眠るネフィアは、冒険者にとって聖地のようなもの{だ}。",
+      "target": "아직 풀리지 않은 수수께끼가 숱하게 잠든 네피아는 모험자에게 성지나 다름없지.",
+      "source_ref": [
+        "2.335:data/talk.txt:927"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.928",
+      "source": "@town/永遠の盟約…？そんな言葉は聞いたことがない{な}。",
+      "target": "영원의 맹약…? 그런 말은 처음 듣는데.",
+      "source_ref": [
+        "2.335:data/talk.txt:928"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.929",
+      "source": "@town/シエラ・テールは十一期目の文明{だ}。",
+      "target": "시에라 테르는 열한 번째 문명이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:929"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.930",
+      "source": "@town/色々なところを旅するのが好き{だ}。",
+      "target": "난 여기저기 돌아다니는 게 좋아.",
+      "source_ref": [
+        "2.335:data/talk.txt:930"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.931",
+      "source": "@town/もし冒険が難しくなってきたら、名声を下げてみればいいかもしれない{な}。",
+      "target": "모험이 너무 버거워졌다 싶으면 명성을 좀 낮춰 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:931"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.932",
+      "source": "@town/宝くじ箱は鍵開けの訓練にもってこい{だ}。",
+      "target": "복권 상자는 자물쇠 따기 연습에 딱이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:932"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.933",
+      "source": "@town/姫の洗脳をキスで解いた王子の話は知ってる{かな}？",
+      "target": "입맞춤으로 공주의 세뇌를 풀어 준 왕자 이야기 들어 봤어?",
+      "source_ref": [
+        "2.335:data/talk.txt:933"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.934",
+      "source": "@town/栗を投げつけまくっていると、恐ろしい怪物が現れるらしい{な}。",
+      "target": "밤을 마구 던져 대면 무시무시한 괴물이 나타난다는 말이 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:934"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.935",
+      "source": "@town/人間に化けた殺人狼が街に潜伏していることがあるらしい{よ}。",
+      "target": "사람으로 둔갑한 살인 늑대가 마을에 숨어들 때가 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:935"
+      ],
+      "section": "PERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.939",
+      "source": "@town/You should never leave home without an ample supply of food.  Starving to death would be a pretty abysmal fate.",
+      "target": "집을 떠날 땐 먹을 걸 넉넉히 챙겨. 굶어 죽는 것만큼 서러운 일도 없잖아.",
+      "source_ref": [
+        "2.335:data/talk.txt:939"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.940",
+      "source": "@town/Eternal League...? I've never heard of that. ",
+      "target": "영원의 맹약…? 그런 말은 처음 듣는데.",
+      "source_ref": [
+        "2.335:data/talk.txt:940"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.941",
+      "source": "@town/Sierre Terre is the 11th era.",
+      "target": "시에라 테르는 제11기야.",
+      "source_ref": [
+        "2.335:data/talk.txt:941"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.942",
+      "source": "@town/I like travelling.  I've been to so many places.",
+      "target": "난 여행이 좋아. 안 가 본 곳이 별로 없다니까.",
+      "source_ref": [
+        "2.335:data/talk.txt:942"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.943",
+      "source": "@town/If you find adventuring too difficult by yourself, go to Derphy and buy a few slaves to watch your back.",
+      "target": "혼자 모험하기가 너무 힘들면 데르피에 가서 등을 맡길 노예를 몇 명 사 와.",
+      "source_ref": [
+        "2.335:data/talk.txt:943"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.944",
+      "source": "@town/Don't drop items in your shop that you want to keep. They will probably be sold!",
+      "target": "간직할 물건은 네 가게에 내려놓지 마. 아마 팔려 버릴걸!",
+      "source_ref": [
+        "2.335:data/talk.txt:944"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.945",
+      "source": "@town/You can safely store items in buildings that you own.",
+      "target": "자기 소유의 건물에는 안심하고 물건을 보관해도 돼.",
+      "source_ref": [
+        "2.335:data/talk.txt:945"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.946",
+      "source": "@town/If you drop items in a town, the janitors will probably dump them.",
+      "target": "마을에 물건을 버려두면 청소부가 치워 버릴 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:946"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.947",
+      "source": "@town/Guards will attack you if your karma drops too low.  At least *try* to keep a low profile.",
+      "target": "카르마가 너무 떨어지면 경비병들이 공격해. 눈에 안 띄도록 노력이라도 해 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:947"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.948",
+      "source": "@town/If your pets and allies fall in combat, bartenders in town can bring them back.",
+      "target": "펫이나 동료가 싸우다 쓰러지면 마을의 바텐더가 불러 줄 수 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:948"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.949",
+      "source": "@town/Be sure to give good equipment to your allies and pets, since it will make them more effective in battle.",
+      "target": "동료나 펫에게도 좋은 장비를 챙겨 줘. 싸울 때 훨씬 도움이 될 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:949"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.950",
+      "source": "@town/Potions that reverse the effects of the etherwind exist, but they are rare and quite valuable.",
+      "target": "에테르 바람의 영향을 되돌리는 물약도 있어. 다만 귀하고 값도 비싸지.",
+      "source_ref": [
+        "2.335:data/talk.txt:950"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.951",
+      "source": "@town/If you're planning to buy a building, start with a museum. The maintenance cost is cheap and they start making a profit quickly.",
+      "target": "건물을 살 생각이라면 박물관부터 시작해. 유지비가 싸고 금세 수익이 나.",
+      "source_ref": [
+        "2.335:data/talk.txt:951"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.952",
+      "source": "@town/One of your best sources of income and fame is the arena.",
+      "target": "돈과 명성을 함께 얻으려면 투기장이 손꼽히지.",
+      "source_ref": [
+        "2.335:data/talk.txt:952"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.953",
+      "source": "@town/If you are having hard time traveling, maybe you should purposely lower your fame.",
+      "target": "여행이 너무 힘들다 싶으면 일부러 명성을 좀 낮춰 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:953"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.954",
+      "source": "@town/Gamble chests are good for practicing lock picking.",
+      "target": "도박 상자는 자물쇠 따기 연습에 좋아.",
+      "source_ref": [
+        "2.335:data/talk.txt:954"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.955",
+      "source": "@town/I lost an arena battle, but they healed me up so I feel better than ever now.",
+      "target": "투기장에서 졌는데 거기서 치료받고 나니 싸우기 전보다 팔팔해졌어.",
+      "source_ref": [
+        "2.335:data/talk.txt:955"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.956",
+      "source": "@town/Dungeons are quite the veritable gold mine for adventurers like us.",
+      "target": "우리 같은 모험자한테 던전은 그야말로 금광이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:956"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.957",
+      "source": "@town/Have you heard of the story of the prince who cured a princess of brainwash with a kiss?",
+      "target": "입맞춤으로 공주의 세뇌를 풀어 준 왕자 이야기 들어 봤어?",
+      "source_ref": [
+        "2.335:data/talk.txt:957"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.958",
+      "source": "@town/I've heard that you will meet a fearful monster if you throw too many chestnuts.",
+      "target": "밤을 너무 많이 던지면 무서운 괴물이 찾아온대.",
+      "source_ref": [
+        "2.335:data/talk.txt:958"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.959",
+      "source": "@town/There are some werewolves who will disguise themselves as townsfolk and murder people.",
+      "target": "마을 사람으로 위장해 사람을 죽이는 늑대인간도 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:959"
+      ],
+      "section": "PERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.963",
+      "source": "@town/食料の供給源？乞食になれば食料を街の人たちから恵んでもらえて安泰{だ}。",
+      "target": "먹을 돈이 없다니? 거지가 돼서 동네 사람들한테 얻어먹으면 걱정 끝이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:963"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.964",
+      "source": "@town/闘技場で戦って負けたけど、美人な癒し手に色々してもらってすっかり元気になった{よ}。",
+      "target": "투기장에서 졌지만 예쁜 치유사한테 이것저것 받고 나니 아주 팔팔해졌어.",
+      "source_ref": [
+        "2.335:data/talk.txt:964"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.965",
+      "source": "@town/ネフィアではごく稀に、子犬がぎっしり詰まった子犬ハウスが発見され{る}。",
+      "target": "네피아에서는 아주 가끔 강아지가 빼곡하게 들어찬 강아지 방을 찾아낸대.",
+      "source_ref": [
+        "2.335:data/talk.txt:965"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.966",
+      "source": "@town/永遠の盟約、聞いたことがある{な}。ああ、思い出すだけでも忌まわしい…！",
+      "target": "영원의 맹약? 나도 들어 봤지. 아, 이름만 떠올려도 치가 떨려…!",
+      "source_ref": [
+        "2.335:data/talk.txt:966"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.967",
+      "source": "@town/ダマサレ・テールは五期目の文明{だ}。",
+      "target": "제5기 문명은 깜빡속았 테르야.",
+      "source_ref": [
+        "2.335:data/talk.txt:967"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.968",
+      "source": "@town/ここだけの話、旅歩きは地雷スキル{だ}。",
+      "target": "너한테만 말하는데, 여행 기술은 배우면 손해야.",
+      "source_ref": [
+        "2.335:data/talk.txt:968"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.969",
+      "source": "@town/もし冒険が難しくなってきたら、すぐに混沌の城に肉をお供えしに行った方がいい{な}。",
+      "target": "모험이 막혔으면 얼른 혼돈의 성에 가서 고기를 바쳐야 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:969"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.970",
+      "source": "@town/癒しの女神の、ジュアという名前は出身地のジューアからとった偽名{だ}。",
+      "target": "치유의 여신 주아라는 이름은 고향 주아에서 따온 가명이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:970"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.971",
+      "source": "@town/仲が良くない相手でも、積極的にキスをしていけばすぐに友達になれる{よ}。",
+      "target": "사이가 좀 나빠도 먼저 다가가 입을 맞추다 보면 금방 친구가 될 수 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:971"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.972",
+      "source": "@town/栗を投げ続けていると素敵な出会いが舞い込んでくるらしい{な}。",
+      "target": "밤을 계속 던지면 멋진 인연이 굴러들어 온대.",
+      "source_ref": [
+        "2.335:data/talk.txt:972"
+      ],
+      "section": "APERSONALITY,3,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.976",
+      "source": "@town/Don't have any money to buy food? Just become a beggar and mooch off the townsfolk. Piece of cake.",
+      "target": "먹을 돈이 없다니? 거지가 돼서 동네 사람들한테 얻어먹으면 걱정 끝이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:976"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.977",
+      "source": "@town/I lost an arena battle, but there was this smokin' hot babe of a healer there who patched me up in a jiffy.",
+      "target": "투기장에서 졌지만 예쁜 치유사한테 이것저것 받고 나니 아주 팔팔해졌어.",
+      "source_ref": [
+        "2.335:data/talk.txt:977"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.978",
+      "source": "@town/People sometimes discover rooms in the dungeons, filled to the brim with puppies. They're so packed that moment you open the door they start pouring out.",
+      "target": "네피아에서는 아주 가끔 강아지가 빼곡하게 들어찬 강아지 방을 찾아낸대.",
+      "source_ref": [
+        "2.335:data/talk.txt:978"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.979",
+      "source": "@town/The Eternal League? Of course I've heard of that damn thing before. That name alone makes my blood boil!",
+      "target": "영원의 맹약? 나도 들어 봤지. 아, 이름만 떠올려도 치가 떨려…!",
+      "source_ref": [
+        "2.335:data/talk.txt:979"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.980",
+      "source": "@town/The fifth age is called Pullingyourleg Terre.",
+      "target": "제5기 문명은 깜빡속았 테르야.",
+      "source_ref": [
+        "2.335:data/talk.txt:980"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.981",
+      "source": "@town/(Psst. Hey buddy. Want a secret tip? Traveling skill is utterly useless. Don't get it!)",
+      "target": "너한테만 말하는데, 여행 기술은 배우면 손해야.",
+      "source_ref": [
+        "2.335:data/talk.txt:981"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.982",
+      "source": "@town/If you feel like you have hit a wall and can't seem to get any stronger, offer some corpses at any of the Forts of Chaos.",
+      "target": "모험이 막혔으면 얼른 혼돈의 성에 가서 고기를 바쳐야 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:982"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.983",
+      "source": "@town/The name \"Jure\" of the Goddess of Healing is actually a pseudonym based off her homeland of Juere.",
+      "target": "치유의 여신 주아라는 이름은 고향 주아에서 따온 가명이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:983"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.984",
+      "source": "@town/You'll meet sexy singles out in the wilderness if you throw a lot of chestnuts.",
+      "target": "밤을 계속 던지면 멋진 인연이 굴러들어 온대.",
+      "source_ref": [
+        "2.335:data/talk.txt:984"
+      ],
+      "section": "APERSONALITY,3,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.990",
+      "source": "@town/うさぎの尻尾は幸運を呼ぶみたい{だな}。",
+      "target": "토끼 꼬리는 행운을 불러온대.",
+      "source_ref": [
+        "2.335:data/talk.txt:990"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.991",
+      "source": "@town/乞食は体内を浄化する魔法のペンダントを持っていることがあるみたい{だ}。奴らは何でも食べるから{な}。",
+      "target": "거지들은 가끔 속을 깨끗하게 해 주는 마법 목걸이를 지니고 있대. 뭐든 먹고 사니까.",
+      "source_ref": [
+        "2.335:data/talk.txt:991"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.992",
+      "source": "@town/そういえば、以前とてつもない名器を奏でる詩人の演奏を聴いたことが{ある}。感動して、つい、履いていた高価な靴を投げてしまった{よ}。",
+      "target": "예전에 기막힌 명기로 연주하는 음유시인을 봤어. 어찌나 감동했는지 신고 있던 비싼 신발을 그만 던져 버렸지.",
+      "source_ref": [
+        "2.335:data/talk.txt:992"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.993",
+      "source": "@town/なんでもマミーは死者を蘇らせる書をもっているそう{だ}。",
+      "target": "미라는 죽은 이를 되살리는 책을 가지고 있다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:993"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.994",
+      "source": "@town/見てしまった{のだ}！死刑執行人が、首を切られたのに生きかえるのを！",
+      "target": "내가 봤다니까! 사형 집행인이 목이 잘리고도 되살아나는 걸!",
+      "source_ref": [
+        "2.335:data/talk.txt:994"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.995",
+      "source": "@town/異形の目に見入られた者の肉体は変化するという{が}、たまに生物の進化を促すポーションを落とすらしい{よ}。",
+      "target": "이형의 눈에 홀리면 몸이 변한대. 그 눈이 가끔 생물의 진화를 재촉하는 물약을 떨어뜨린다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:995"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.996",
+      "source": "@town/妖精はとっても秘密な経験を隠しているらしい{よ}！",
+      "target": "요정들은 뭔가 아주 은밀한 경험을 숨기고 있다던데!",
+      "source_ref": [
+        "2.335:data/talk.txt:996"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.997",
+      "source": "@town/ロックスロアーの投げる石をあなどってはいけない{よ}。",
+      "target": "돌팔매꾼이 던지는 돌을 얕보지 마.",
+      "source_ref": [
+        "2.335:data/talk.txt:997"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.998",
+      "source": "@town/銀眼の魔女には気をつけるの{だな}。あの大剣に斬りつけられたらひとたまりもない{だろ}。たまにとんでもない業物を持っていることもあるらしい{が}。",
+      "target": "은안의 마녀를 조심해. 그 대검에 한 번 베이면 버틸 재간이 없어. 가끔은 무시무시한 명검을 들고 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:998"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.999",
+      "source": "@town/キューピットが重そうなものを運んでいるのをみた{よ}。",
+      "target": "큐피드가 뭔가 묵직해 보이는 걸 나르는 걸 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:999"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1000",
+      "source": "@town/夢で神様に会える{かな}？",
+      "target": "꿈에서 신을 만날 수 있을까?",
+      "source_ref": [
+        "2.335:data/talk.txt:1000"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1001",
+      "source": "@town/黄色い首輪をつけた四本腕の化け物に出会ったのなら、すぐに逃げるのが賢明{だな}",
+      "target": "노란 목걸이를 한 팔 넷 달린 괴물을 보면 얼른 도망치는 게 현명해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1001"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1002",
+      "source": "@town/盗賊団の殺し屋は、射撃の回数を増やす魔法の首輪を稀に所持しているらしい。",
+      "target": "도적단의 암살자는 가끔 사격 횟수를 늘려 주는 마법 목걸이를 지니고 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1002"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1003",
+      "source": "@town/貴族の中には変わった物を収集している者がいるらしい{が}。",
+      "target": "별난 물건을 모으는 귀족도 있다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1003"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1004",
+      "source": "@town/パーティーで演奏していると、酔った客がたまに変なものを投げてくるの{だ}。",
+      "target": "잔치에서 연주하다 보면 취한 손님들이 별 희한한 걸 다 던져.",
+      "source_ref": [
+        "2.335:data/talk.txt:1004"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1005",
+      "source": "@town/赤い腰当をしたロボットを見たことがある{な}。",
+      "target": "붉은 허리받이를 두른 로봇을 본 적이 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1005"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1006",
+      "source": "@town/インプが持つ魔法の巻物は、アーティファクトの名前を変えられるそう{だな}。",
+      "target": "임프가 가진 마법 두루마리로 아티팩트의 이름을 바꿀 수 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1006"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1007",
+      "source": "@town/ヨウィンの無邪気な少女は、不思議な宝物を大切に持っているみたい{だ}。",
+      "target": "요우윈의 천진한 소녀가 신기한 보물을 애지중지한다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1007"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1008",
+      "source": "@town/この前、とても綺麗な貝をかぶったやどかりを見た{よ}。",
+      "target": "얼마 전에 아주 고운 조가비를 등에 진 소라게를 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1008"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1009",
+      "source": "@town/盗賊団の連中は、何やら怪しい薬を常用しているらしい{な}。",
+      "target": "도적단 녀석들은 수상한 약을 늘 달고 산대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1009"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1010",
+      "source": "@town/血まみれの包丁を持ったまま放心している妹を見かけた{よ}。",
+      "target": "피 묻은 식칼을 쥔 채 멍하니 서 있는 여동생을 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1010"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1011",
+      "source": "@town/イェルスの防衛システムの中にはとんでもない機関銃を搭載しているものもあるらしい。",
+      "target": "이에르스의 방위 장치 중에는 엄청난 기관총을 탑재한 것도 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1011"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1012",
+      "source": "@town/沈んだ船の残骸がよく海辺に流れ着くそう{だな}。",
+      "target": "침몰한 배의 잔해가 바닷가에 자주 밀려온다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1012"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1013",
+      "source": "@town/よれよれのマントを大事そうにしている旅人を見た{よ}。",
+      "target": "너덜너덜한 망토를 소중히 간직한 여행자를 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1013"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1014",
+      "source": "@town/紫色のスライムは宇宙から来た謎の物体を取り込んでいるらしい。",
+      "target": "보라색 슬라임은 우주에서 온 정체불명의 물체를 몸속에 품고 있다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1014"
+      ],
+      "section": "RUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1018",
+      "source": "@town/Rabbit's tails are said to bring good luck to those who eat them.",
+      "target": "토끼 꼬리를 먹으면 행운이 찾아온대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1018"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1019",
+      "source": "@town/It's rumored that some beggars carry a magical pendant which purifies their stomach.",
+      "target": "거지들은 가끔 속을 깨끗하게 해 주는 마법 목걸이를 지니고 있대. 뭐든 먹고 사니까.",
+      "source_ref": [
+        "2.335:data/talk.txt:1019"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1020",
+      "source": "@town/Once I met this extraordinary bard who played a truly exquisite stringed instrument. He was so good that I even threw my expensive shoes at him!",
+      "target": "예전에 기막힌 명기로 연주하는 음유시인을 봤어. 어찌나 감동했는지 신고 있던 비싼 신발을 그만 던져 버렸지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1020"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1021",
+      "source": "@town/I've heard mummies carry a book that has power to resurrect the dead.",
+      "target": "미라는 죽은 이를 되살리는 책을 가지고 있다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1021"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1022",
+      "source": "@town/I swear I saw it. The executioner came back to life after he got his head lopped off!",
+      "target": "내가 봤다니까! 사형 집행인이 목이 잘리고도 되살아나는 걸!",
+      "source_ref": [
+        "2.335:data/talk.txt:1022"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1023",
+      "source": "@town/Those who gaze into deformed eyes mutate. But they say that sometimes the eyes carry a potion that makes creatures evolve.",
+      "target": "이형의 눈에 홀리면 몸이 변한대. 그 눈이 가끔 생물의 진화를 재촉하는 물약을 떨어뜨린다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1023"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1024",
+      "source": "@town/Fairies hide a secret experience!",
+      "target": "요정들은 뭔가 아주 은밀한 경험을 숨기고 있다던데!",
+      "source_ref": [
+        "2.335:data/talk.txt:1024"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1025",
+      "source": "@town/Don't underestimate the rock thrower.  His rock can be very deadly.",
+      "target": "돌팔매꾼이 던지는 돌을 얕보지 마.",
+      "source_ref": [
+        "2.335:data/talk.txt:1025"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1026",
+      "source": "@town/Those silver-eyed witches are deadly. You won't stand a chance against their huge swords.  I've heard they're not completely human and supposedly one of them carries even deadlier weapon.",
+      "target": "은안의 마녀들은 치명적이야. 그 대검에 맞설 가망은 없어. 온전한 인간도 아니라던데, 그중 하나는 더 무서운 무기를 들고 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1026"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1027",
+      "source": "@town/I saw a cupid carrying very heavy... thing.",
+      "target": "큐피드가 뭔가 묵직해 보이는 걸 나르는 걸 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1027"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1028",
+      "source": "@town/I met my god in a dream!",
+      "target": "꿈에서 내가 섬기는 신을 만났어!",
+      "source_ref": [
+        "2.335:data/talk.txt:1028"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1029",
+      "source": "@town/If you ever encounter a four-armed monster wearing a yellow necklace, you'd better run like hell.",
+      "target": "노란 목걸이를 한 팔 넷 달린 괴물을 보면 얼른 도망치는 게 현명해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1029"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1030",
+      "source": "@town/Rogue assassins sometimes carry a magical necklace that gives the wearer an extra attack.",
+      "target": "도적단의 암살자는 가끔 한 번 더 공격하게 해 주는 마법 목걸이를 지니고 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1030"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1031",
+      "source": "@town/Some nobles collect strange things.",
+      "target": "별난 물건을 모으는 귀족도 있다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1031"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1032",
+      "source": "@town/Watch out for drunkards at parties! They sometimes throw crazy things at you.",
+      "target": "잔치에서 연주하다 보면 취한 손님들이 별 희한한 걸 다 던져.",
+      "source_ref": [
+        "2.335:data/talk.txt:1032"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1033",
+      "source": "@town/I saw a robot wearing a red plate girdle.",
+      "target": "붉은 허리받이를 두른 로봇을 본 적이 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1033"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1034",
+      "source": "@town/A magical scroll imps carry can change the name of an artifact.",
+      "target": "임프가 가진 마법 두루마리로 아티팩트의 이름을 바꿀 수 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1034"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1035",
+      "source": "@town/The innocent girl in Yowyn has a secret treasure.",
+      "target": "요우윈의 천진한 소녀가 신기한 보물을 애지중지한다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1035"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1036",
+      "source": "@town/Some time ago, I saw a hermit crab carrying the most beautiful shell I've ever seen before.",
+      "target": "얼마 전에 아주 고운 조가비를 등에 진 소라게를 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1036"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1037",
+      "source": "@town/Those robbing bastards, I hear they are addicted to some kind of drug.",
+      "target": "도적단 녀석들은 수상한 약을 늘 달고 산대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1037"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1038",
+      "source": "@town/There was once I saw a younger sister standing around with a blank look on her face and a bloody cleaver in her hands.",
+      "target": "피 묻은 식칼을 쥔 채 멍하니 서 있는 여동생을 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1038"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1039",
+      "source": "@town/Some security systems come equipped with an unbelievably powerful machine gun.",
+      "target": "이에르스의 방위 장치 중에는 엄청난 기관총을 탑재한 것도 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1039"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1040",
+      "source": "@town/You can often find wreckage from sunken ships washed up on the shores.",
+      "target": "침몰한 배의 잔해가 바닷가에 자주 밀려온다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1040"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1041",
+      "source": "@town/I saw a traveler wearing a really tattered cloak the other day.",
+      "target": "너덜너덜한 망토를 소중히 간직한 여행자를 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1041"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1042",
+      "source": "@town/You know, I've heard that the purple slimes have some kind of object from outer space lodged in their bodies.",
+      "target": "보라색 슬라임은 우주에서 온 정체불명의 물체를 몸속에 품고 있다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1042"
+      ],
+      "section": "RUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1046",
+      "source": "@town/グリフォンは体力がぴったり半分になると鷲とライオンに分離するみたい{だな}。",
+      "target": "그리핀의 체력이 정확히 절반이 되면 독수리와 사자로 나뉜대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1046"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1047",
+      "source": "@town/マンモスを上手く仕留めると、巨大な骨つき肉が手に入るみたい{だ}。",
+      "target": "매머드를 솜씨 좋게 잡으면 거대한 뼈고기를 얻을 수 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1047"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1048",
+      "source": "@town/乳は、腐るとき稀にチーズに変化すること{ある}。特に英雄の乳からは特別なチーズができる{よ}。",
+      "target": "우유는 상할 때 드물게 치즈가 되기도 해. 특히 영웅의 젖에선 특별한 치즈가 나온대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1048"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1049",
+      "source": "@town/体当たりするとかぶと虫が降ってくる木があるよう{だ}。",
+      "target": "몸으로 들이받으면 장수풍뎅이가 우수수 떨어지는 나무가 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1049"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1050",
+      "source": "@town/ニンジャは強力な忍術を記した巻物を隠しているらしい{よ}！",
+      "target": "닌자는 강력한 인술을 적은 두루마리를 숨기고 있다더라!",
+      "source_ref": [
+        "2.335:data/talk.txt:1050"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1051",
+      "source": "@town/巨大なプリンに何度も体当たりするとひっくり返って逆さまになってしまう{のだ}。",
+      "target": "거대한 푸딩을 계속 들이받으면 홀랑 뒤집힌대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1051"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1052",
+      "source": "@town/ドラゴンの心臓からは強力な回復薬が作れる{よ}。",
+      "target": "용의 심장으로 강력한 회복약을 만들 수 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1052"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1053",
+      "source": "@town/エロ本を大量に持ち歩いている傭兵を見たことがある{のだ}。",
+      "target": "야한 잡지를 잔뜩 짊어지고 다니는 용병을 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1053"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1054",
+      "source": "@town/清掃員の中には特に潔癖なものがいて、特殊な洗剤を常備しているらしい{よ}。",
+      "target": "청소부 중에 유난히 결벽이 심한 사람들은 특별한 세제를 늘 지니고 다닌대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1054"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1055",
+      "source": "@town/イークの持っている槍には稀に業物が紛れ込んでいることが{ある}。",
+      "target": "이크가 들고 다니는 창 중에는 가끔 명품이 섞여 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1055"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1056",
+      "source": "@town/巨大な蟹の鋏は強力なハンマーにもなる{よ}。",
+      "target": "거대한 게의 집게발은 강력한 망치로도 쓸 수 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1056"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1057",
+      "source": "@town/ベルの魔物が稀に落とす小さな鐘には、幸運を呼び込む力があるそう{だな}。",
+      "target": "종 모양 마물이 드물게 떨어뜨리는 작은 종은 행운을 부른대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1057"
+      ],
+      "section": "ARUMOR,LOOT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1061",
+      "source": "@town/It seems like if you can get a gryffon down to half health exactly, it will split into an eagle and a lion.",
+      "target": "그리핀의 체력이 정확히 절반이 되면 독수리와 사자로 나뉜대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1061"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1062",
+      "source": "@town/If you defeat a mammoth with a clean hit or two, you can obtain a gigantic hunk of meat.",
+      "target": "매머드를 솜씨 좋게 잡으면 거대한 뼈고기를 얻을 수 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1062"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1063",
+      "source": "@town/Milk will sometimes turn into cheese when it rots. You can make a special kind of cheese from the milk of a hero.",
+      "target": "우유는 상할 때 드물게 치즈가 되기도 해. 특히 영웅의 젖에선 특별한 치즈가 나온대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1063"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1064",
+      "source": "@town/There's a tree that drops beetles when you bash it.",
+      "target": "몸으로 들이받으면 장수풍뎅이가 우수수 떨어지는 나무가 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1064"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1065",
+      "source": "@town/Ninjas have a powerful technique recorded on a scroll they sometimes carry!",
+      "target": "닌자는 강력한 인술을 적은 두루마리를 숨기고 있다더라!",
+      "source_ref": [
+        "2.335:data/talk.txt:1065"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1066",
+      "source": "@town/If you bash a gigantic pudding enough times, you can flip it upside-down.",
+      "target": "거대한 푸딩을 계속 들이받으면 홀랑 뒤집힌대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1066"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1067",
+      "source": "@town/You can make a powerful healing potion from the heart of a dragon.",
+      "target": "용의 심장으로 강력한 회복약을 만들 수 있대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1067"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1068",
+      "source": "@town/I've seen this mercenary who was carrying a huge stash of pornographic magazines.",
+      "target": "야한 잡지를 잔뜩 짊어지고 다니는 용병을 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1068"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1069",
+      "source": "@town/Some cleaners are more particular about cleanliness than others, and will carry a special detergent on them.",
+      "target": "청소부 중에 유난히 결벽이 심한 사람들은 특별한 세제를 늘 지니고 다닌대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1069"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1070",
+      "source": "@town/Sometimes Yeeks will carry a sword instead of a spear.",
+      "target": "이크가 가끔 창 대신 검을 들고 다니기도 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1070"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1071",
+      "source": "@town/You can use the pincers of giant crabs as a hammer.",
+      "target": "거대한 게의 집게발은 강력한 망치로도 쓸 수 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1071"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1072",
+      "source": "@town/The tiny bell that bell monsters sometimes drop brings luck to those who ring it.",
+      "target": "종 모양 마물이 드물게 떨어뜨리는 작은 종은 행운을 부른대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1072"
+      ],
+      "section": "ARUMOR,LOOT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1078",
+      "source": "@town/店の経営は、なかなか難しい{な}。",
+      "target": "가게 꾸려 나가는 게 여간 어려운 일이 아니야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1078"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1079",
+      "source": "@town/他の店では、足元を見られないよう、気をつけたほうがいい{よ}。",
+      "target": "다른 가게에선 약점 잡혀 바가지 쓰지 않게 조심해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1079"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1080",
+      "source": "@town/ごろつきを追い払えるぐらい強くないと、店主はつとまらない{よ}。",
+      "target": "건달 정도는 쫓아낼 힘이 있어야 가게 주인을 해 먹지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1080"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1081",
+      "source": "@town/何かの時のために、店を継ぐ人は決めて{る}。",
+      "target": "만일을 생각해서 가게를 물려받을 사람은 정해 뒀어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1081"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1082",
+      "source": "@town/いらっしゃい。ゆっくり見ていって{くれ}。",
+      "target": "어서 와. 천천히 둘러봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1082"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1083",
+      "source": "@town/品揃えには自信がある{のだ}。",
+      "target": "물건 구색만큼은 자신 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1083"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1084",
+      "source": "@town/さあ、自慢の商品を見ていって{くれ}。",
+      "target": "자, 우리 가게가 자랑하는 물건을 보고 가.",
+      "source_ref": [
+        "2.335:data/talk.txt:1084"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1085",
+      "source": "@town/最近は物騒な人が多くて大変{だ}。",
+      "target": "요즘은 험악한 손님이 많아서 힘들어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1085"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1086",
+      "source": "@town/武器と防具はきちんと鑑定されたものでないと、高くは買い取れない{よ}。",
+      "target": "무기랑 방어구는 제대로 감정받은 게 아니면 비싸게 쳐 줄 수 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1086"
+      ],
+      "section": "SHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1090",
+      "source": "@town/Welcome to my shop!",
+      "target": "어서 오세요!",
+      "source_ref": [
+        "2.335:data/talk.txt:1090"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1091",
+      "source": "@town/We have the best selection of goods!",
+      "target": "물건 구색은 우리 가게가 최고죠!",
+      "source_ref": [
+        "2.335:data/talk.txt:1091"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1092",
+      "source": "@town/I hate thieves.  No, not you, right?",
+      "target": "도둑은 딱 질색이야. 뭐, 당신 이야기는 아니겠지?",
+      "source_ref": [
+        "2.335:data/talk.txt:1092"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1093",
+      "source": "@town/It's difficult to maintain a shop.",
+      "target": "가게 꾸려 나가는 게 쉽지가 않아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1093"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1094",
+      "source": "@town/I can handle bandits myself. We have to be tough.",
+      "target": "도적쯤은 혼자 상대할 수 있어. 장사하려면 그 정도 배짱은 있어야지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1094"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1095",
+      "source": "@town/Running a store is hard work! ",
+      "target": "가게를 한다는 게 만만찮아!",
+      "source_ref": [
+        "2.335:data/talk.txt:1095"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1096",
+      "source": "@town/Come in.  Take a closer look at my wares. ",
+      "target": "어서 와. 물건 좀 찬찬히 보고 가.",
+      "source_ref": [
+        "2.335:data/talk.txt:1096"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1097",
+      "source": "@town/I have confidence in my assortment of goods. ",
+      "target": "물건 구색만큼은 자신 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1097"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1098",
+      "source": "@town/Look at our fine selection.",
+      "target": "자, 우리 가게가 자랑하는 물건을 보고 가.",
+      "source_ref": [
+        "2.335:data/talk.txt:1098"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1099",
+      "source": "@town/I feel the world is growing more and more dangerous.",
+      "target": "세상이 갈수록 험해지는 것 같아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1099"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1100",
+      "source": "@town/I can't give you a fair price if your weapons and armors aren't fully identified.",
+      "target": "무기랑 방어구는 제대로 감정받은 게 아니면 제값을 쳐 줄 수 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1100"
+      ],
+      "section": "SHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1104",
+      "source": "@town/この店の経営者は別にいて、{me}はそのペットな{のだ}。",
+      "target": "이 가게 주인은 따로 있어. 나는 주인이 기르는 펫이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1104"
+      ],
+      "section": "ASHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1105",
+      "source": "@town/装備は身につけなくても効果がある{よ}。",
+      "target": "장비는 몸에 걸치지 않아도 효과가 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1105"
+      ],
+      "section": "ASHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1106",
+      "source": "@town/矢はクロスボウ用のものと長弓用のもの、短弓用のものの計３種類があるから注意して{くれ}。",
+      "target": "화살은 석궁용, 장궁용, 단궁용 세 종류야. 서로 헷갈리지 않게 조심해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1106"
+      ],
+      "section": "ASHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1107",
+      "source": "@town/地面に置いた魚にアイスボルトを当てると、冷凍された魚が手に入る{よ}。",
+      "target": "바닥에 놓인 생선에 얼음 화살을 쏘면 냉동 생선이 돼.",
+      "source_ref": [
+        "2.335:data/talk.txt:1107"
+      ],
+      "section": "ASHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1108",
+      "source": "@town/うちは同じ商品でも他店より安く売っている{のだ}。",
+      "target": "같은 물건이라도 우리 가게에선 다른 가게보다 싸게 팔지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1108"
+      ],
+      "section": "ASHOPKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1112",
+      "source": "@town/Me? I don't own this shop. I'm actually the owner's pet.",
+      "target": "이 가게 주인은 따로 있어. 나는 주인이 기르는 펫이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1112"
+      ],
+      "section": "ASHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1113",
+      "source": "@town/Equipment works even if you don't have it equipped on you.",
+      "target": "장비는 몸에 걸치지 않아도 효과가 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1113"
+      ],
+      "section": "ASHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1114",
+      "source": "@town/There are three types of arrows - one for crossbows, another for long bows, and a third for short bows. Be careful that you don't get them mixed up.",
+      "target": "화살은 석궁용, 장궁용, 단궁용 세 종류야. 서로 헷갈리지 않게 조심해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1114"
+      ],
+      "section": "ASHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1115",
+      "source": "@town/If you cast an ice bolt at a fish on the ground, it will turn into frozen fish.",
+      "target": "바닥에 놓인 생선에 얼음 화살을 쏘면 냉동 생선이 돼.",
+      "source_ref": [
+        "2.335:data/talk.txt:1115"
+      ],
+      "section": "ASHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1116",
+      "source": "@town/The prices at my shop are lower than the ones you'll find anywhere else!",
+      "target": "같은 물건이라도 우리 가게에선 다른 가게보다 싸게 팔지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1116"
+      ],
+      "section": "ASHOPKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1121",
+      "source": "@town/どこのトレイナーでも訓練はできる{が}、覚えられるスキルは街やギルドごとに異なる{よ}。",
+      "target": "어디서든 훈련은 받을 수 있지만 새로 배울 수 있는 기술은 마을과 길드마다 달라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1121"
+      ],
+      "section": "SKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1122",
+      "source": "@town/訓練すればスキルの潜在能力が大きく上がる{よ}。潜在能力が低すぎると経験値が得られないこともある{のだ}。",
+      "target": "훈련하면 기술의 잠재력이 크게 올라. 너무 낮으면 경험치를 전혀 못 받을 때도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1122"
+      ],
+      "section": "SKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1123",
+      "source": "@town/潜在能力が高ければ高いほど経験値が多く得られる{のだ}。実戦経験を積む前に高めておきたい{な}。",
+      "target": "잠재력이 높을수록 얻는 경험치가 많아져. 실전을 뛰기 전에 올려 두는 게 좋지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1123"
+      ],
+      "section": "SKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1124",
+      "source": "@town/潜在能力を何パーセントくらいでキープするかは、{you}のプラチナ硬貨獲得量で調整するべき{だろ}。",
+      "target": "잠재력을 몇 퍼센트로 유지할지는 백금화를 얼마나 버느냐에 맞춰 정해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1124"
+      ],
+      "section": "SKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1125",
+      "source": "@town/ペットを訓練させたい？それならペットに金貨や宝石や訓練券を持たせて自主性に任せるべき{だな}。",
+      "target": "펫을 훈련시키고 싶다고? 금화나 보석, 훈련권을 쥐여 주고 알아서 하게 둬.",
+      "source_ref": [
+        "2.335:data/talk.txt:1125"
+      ],
+      "section": "SKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1126",
+      "source": "@town/鍛えたスキルの数だけ、{you}のやれることが広がる{よ}。スキルが一定値以上で会得できる技能もある{のだ}。",
+      "target": "기술을 익힌 만큼 할 수 있는 일도 늘어나. 숙련도가 일정 수준에 이르러야 배울 수 있는 특기도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1126"
+      ],
+      "section": "SKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1127",
+      "source": "@town/役に立たないスキルなど無い…{が}、自分にとっての優先順位は考えるべき{だ}。",
+      "target": "쓸모없는 기술은 없어. 그래도 자기한테 뭐가 먼저인지는 생각해 봐야지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1127"
+      ],
+      "section": "SKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1131",
+      "source": "@town/You can train with any trainer, but the skills you can learn vary depending on the town and guild.",
+      "target": "어디서든 훈련은 받을 수 있지만 새로 배울 수 있는 기술은 마을과 길드마다 달라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1131"
+      ],
+      "section": "SKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1132",
+      "source": "@town/Training will greatly increase the skill's potential. If the potential is too low, you may not gain any experience points.",
+      "target": "훈련하면 기술의 잠재력이 크게 올라. 너무 낮으면 경험치를 전혀 못 받을 때도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1132"
+      ],
+      "section": "SKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1133",
+      "source": "@town/The higher your potential, the more experience points you'll get. You'll want to increase it before gaining actual combat experience.",
+      "target": "잠재력이 높을수록 얻는 경험치가 많아져. 실전을 뛰기 전에 올려 두는 게 좋지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1133"
+      ],
+      "section": "SKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1134",
+      "source": "@town/You should adjust the percentage of your potential you want to keep at depending on how many platinum coins you earn.",
+      "target": "잠재력을 몇 퍼센트로 유지할지는 백금화를 얼마나 버느냐에 맞춰 정해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1134"
+      ],
+      "section": "SKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1135",
+      "source": "@town/Want to train your pet? Then you should give it gold coins, gems, and training vouchers and let it do its own thing.",
+      "target": "펫을 훈련시키고 싶다고? 금화나 보석, 훈련권을 쥐여 주고 알아서 하게 둬.",
+      "source_ref": [
+        "2.335:data/talk.txt:1135"
+      ],
+      "section": "SKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1136",
+      "source": "@town/The more skills you train, the more you'll be able to do. There are also skills that can only be acquired once your skill level reaches a certain level.",
+      "target": "기술을 익힌 만큼 할 수 있는 일도 늘어나. 숙련도가 일정 수준에 이르러야 배울 수 있는 특기도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1136"
+      ],
+      "section": "SKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1137",
+      "source": "@town/There are no useless skills... but you should think about your own priorities.",
+      "target": "쓸모없는 기술은 없어. 그래도 자기한테 뭐가 먼저인지는 생각해 봐야지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1137"
+      ],
+      "section": "SKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1141",
+      "source": "@town/この世は結局、才能が全て！凡人が訓練なんかしても無意味{だ}。",
+      "target": "결국 이 세상은 재능이 전부야! 평범한 사람이 훈련해 봐야 소용없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1141"
+      ],
+      "section": "ASKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1142",
+      "source": "@town/他人の訓練で忙しくなければ、{me}だって自分の潜在能力を伸ばしている{よ}。",
+      "target": "남들 훈련시키느라 바쁘지만 않으면 나도 내 잠재력 좀 키울 텐데.",
+      "source_ref": [
+        "2.335:data/talk.txt:1142"
+      ],
+      "section": "ASKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1143",
+      "source": "@town/訓練代でプラチナ硬貨ばかり貰う{が}、それだけじゃ生活していけない{よ}…。",
+      "target": "훈련비는 줄곧 백금화로만 받는데 그것만으론 먹고살 수가 없어…",
+      "source_ref": [
+        "2.335:data/talk.txt:1143"
+      ],
+      "section": "ASKILLTRAINER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1147",
+      "source": "@town/In the end, talent is everything in this world! There's no point in average people training.",
+      "target": "결국 이 세상은 재능이 전부야! 평범한 사람이 훈련해 봐야 소용없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1147"
+      ],
+      "section": "ASKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1148",
+      "source": "@town/If I wasn't busy training others, I'd be developing my own potential too.",
+      "target": "남들 훈련시키느라 바쁘지만 않으면 나도 내 잠재력 좀 키울 텐데.",
+      "source_ref": [
+        "2.335:data/talk.txt:1148"
+      ],
+      "section": "ASKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1149",
+      "source": "@town/I get a lot of platinum coins for training, but I can't make a living off of that only...",
+      "target": "훈련비는 줄곧 백금화로만 받는데 그것만으론 먹고살 수가 없어…",
+      "source_ref": [
+        "2.335:data/talk.txt:1149"
+      ],
+      "section": "ASKILLTRAINER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1155",
+      "source": "@town/神々の大戦では多くの神がこの地で散ったとされている。",
+      "target": "신들의 대전 때 이 땅에서 수많은 신이 스러졌다고 전해지지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1155"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1156",
+      "source": "@town/この寺院は大戦の戒めとして建造されたもの{だ}。",
+      "target": "이 사원은 대전의 참상을 잊지 말라는 뜻으로 세워졌어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1156"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1157",
+      "source": "@town/大戦後の神々の争いは、殺し合いではなく信者の獲得競争に変わった{のだ}。",
+      "target": "대전 이후 신들의 싸움은 서로 죽이는 대신 신자를 모으는 경쟁으로 바뀌었지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1157"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1158",
+      "source": "@town/大戦を生き残った神々は、話し合って様々な取り決めを交わしたそうな。",
+      "target": "대전에서 살아남은 신들은 서로 의논해 여러 약조를 맺었다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1158"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1159",
+      "source": "@town/神々の争いでマナが不安定になり、異常な気候が収まらず大陸丸ごと隔離が必要になったらしい{よ}。",
+      "target": "신들의 싸움으로 마나가 불안정해져 이상 기후가 가시질 않았대. 결국 대륙 하나를 통째로 격리해야 했다더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1159"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1160",
+      "source": "@town/大戦で敗れた神々は、神力ごと吸収されたり、魔物に身を堕としたり、粉微塵にされてバラまかれたり、と悲惨なものばかりだったとか。",
+      "target": "대전에서 패한 신들은 신력째 흡수되거나 마물로 전락하거나, 산산이 부서져 흩어지는 등 하나같이 비참한 최후를 맞았대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1160"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1161",
+      "source": "@town/火の神が放った火球と石の神が投げた岩山がぶつかり合い、北西の火山ができたという話{だ}。",
+      "target": "불의 신이 날린 화염구와 돌의 신이 내던진 바위산이 부딪쳐 북서쪽 화산이 생겼다는 이야기야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1161"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1162",
+      "source": "@town/周囲の沼は、クレーターに水が溜まってできたものらしい{よ}。",
+      "target": "주변의 늪은 충돌로 생긴 구덩이에 물이 고인 것이래.",
+      "source_ref": [
+        "2.335:data/talk.txt:1162"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1163",
+      "source": "@town/大戦初期、テスカトリポカはこの地に神を呼び出しては騙し討ちしていたらしい{よ}。",
+      "target": "대전 초기에 테스카틀리포카가 이곳으로 신들을 하나씩 불러내 기습했다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1163"
+      ],
+      "section": "SENTI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1167",
+      "source": "@town/It is said that many gods died here during the great war of the gods.",
+      "target": "신들의 대전 때 이 땅에서 수많은 신이 스러졌다고 전해지지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1167"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1168",
+      "source": "@town/This temple was built as a memorial to that war.",
+      "target": "이 사원은 대전의 참상을 잊지 말라는 뜻으로 세워졌어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1168"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1169",
+      "source": "@town/After the Great War, the battle between the gods turned into a competition to acquire believers instead of killing each other.",
+      "target": "대전 이후 신들의 싸움은 서로 죽이는 대신 신자를 모으는 경쟁으로 바뀌었지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1169"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1170",
+      "source": "@town/It seems that the gods who survived the Great War talked and made various arrangements.",
+      "target": "대전에서 살아남은 신들은 서로 의논해 여러 약조를 맺었다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1170"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1171",
+      "source": "@town/It seems that a battle between the gods caused mana to become unstable, and the abnormal climate continued to cause the entire continent to have to be quarantined.",
+      "target": "신들의 싸움으로 마나가 불안정해져 이상 기후가 가시질 않았대. 결국 대륙 하나를 통째로 격리해야 했다더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1171"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1172",
+      "source": "@town/The gods who were defeated in the war suffered miserable fates, such as having their divine power absorbed, being turned into monsters, or being blown to pieces and scattered around.",
+      "target": "대전에서 패한 신들은 신력째 흡수되거나 마물로 전락하거나, 산산이 부서져 흩어지는 등 하나같이 비참한 최후를 맞았대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1172"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1173",
+      "source": "@town/The story goes that the volcano in the northwest was formed when a fireball fired by the god of fire and a rock mountain thrown by the god of stone collided.",
+      "target": "불의 신이 날린 화염구와 돌의 신이 내던진 바위산이 부딪쳐 북서쪽 화산이 생겼다는 이야기야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1173"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1174",
+      "source": "@town/The surrounding swamp appears to have been formed by water filling a crater.",
+      "target": "주변의 늪은 충돌로 생긴 구덩이에 물이 고인 것이래.",
+      "source_ref": [
+        "2.335:data/talk.txt:1174"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1175",
+      "source": "@town/At the beginning of the war, it seems that Tezcatlipoca summoned the gods to this area and deceived them into defeating them.",
+      "target": "대전 초기에 테스카틀리포카가 이곳으로 신들을 하나씩 불러내 기습했다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1175"
+      ],
+      "section": "SENTI,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1180",
+      "source": "@town/{you}もノルンとかいう妖精に案内されたの{か}。この遺跡は、そしてロストイルヴァとは一体なんなの{だろ}。",
+      "target": "너도 노른이라는 요정이 안내해 줬어? 이 유적은 뭘까. 로스트 이르바는 또 대체 뭐지?",
+      "source_ref": [
+        "2.335:data/talk.txt:1180"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1181",
+      "source": "@town/人だけじゃない、地上のモンスターもこちらに召喚されてい{る}。",
+      "target": "사람만이 아니야. 지상의 몬스터도 이쪽으로 소환되고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1181"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1182",
+      "source": "@town/ここはエウダーナ上空に出現した浮遊大陸の西端のよう{だな}。",
+      "target": "여기는 에우데르나 상공에 나타난 부유 대륙의 서쪽 끝인가 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1182"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1183",
+      "source": "@town/突然こっちに連れてこられてわけがわからない{よ}。",
+      "target": "갑자기 여기 끌려왔는데 무슨 영문인지 모르겠어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1183"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1184",
+      "source": "@town/空を飛んで脱出しようとしたモンスターが、結界のようなもので弾き飛ばされていたのを見た{のだ}。",
+      "target": "날아서 탈출하려던 몬스터가 결계 같은 것에 부딪쳐 튕겨 나가는 걸 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1184"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1185",
+      "source": "@town/この大陸にもネフィアが数多く存在するの{だな}。",
+      "target": "이 대륙에도 네피아가 꽤 많네.",
+      "source_ref": [
+        "2.335:data/talk.txt:1185",
+        "2.335:data/talk.txt:1209"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1186",
+      "source": "@town/連れてこられた者の多くはこの遺跡を拠点にして活動している{のだ}。",
+      "target": "이리로 끌려온 사람들은 대개 이 유적을 거점으로 삼아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1186"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1187",
+      "source": "@town/テスカトリポカ…？そんな奴の声は誰も聞いていない{な}。",
+      "target": "테스카틀리포카…? 그런 자의 목소리를 들었다는 사람은 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1187"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1188",
+      "source": "@town/こっちに来ているのは傭兵や行商人、冒険者がほとんど{だ}。そこの癒し手やギルド員は例外なの{だろ}か。",
+      "target": "여기로 온 건 대부분 용병이나 행상, 모험자야. 저 치유사랑 길드원은 예외인가?",
+      "source_ref": [
+        "2.335:data/talk.txt:1188"
+      ],
+      "section": "SUMMON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1192",
+      "source": "@town/Were you also guided here by Norne the fairy? What is this... Lost Irva place? What are these ruins?",
+      "target": "너도 노른이라는 요정이 안내해 줬어? 이 유적은 뭘까. 로스트 이르바는 또 대체 뭐지?",
+      "source_ref": [
+        "2.335:data/talk.txt:1192"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1193",
+      "source": "@town/It's not just the people who are getting summoned. The monsters from the land below are getting transported here too.",
+      "target": "사람만이 아니야. 지상의 몬스터도 이쪽으로 소환되고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1193"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1194",
+      "source": "@town/It seems like we are on the west end of the floating continent that appeared above Eulderna.",
+      "target": "여기는 에우데르나 상공에 나타난 부유 대륙의 서쪽 끝인가 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1194"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1195",
+      "source": "@town/What's going on? Why am I here?",
+      "target": "갑자기 여기 끌려왔는데 무슨 영문인지 모르겠어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1195"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1196",
+      "source": "@town/I saw some of the monsters try to fly away and escape. They bounced right off some sort of barrier in the sky.",
+      "target": "날아서 탈출하려던 몬스터가 결계 같은 것에 부딪쳐 튕겨 나가는 걸 봤어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1196"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1197",
+      "source": "@town/Looks like there is no lack of Nefia on this continent either.",
+      "target": "이 대륙에도 네피아가 꽤 많네.",
+      "source_ref": [
+        "2.335:data/talk.txt:1197"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1198",
+      "source": "@town/Most of the people who got transported here live in these ruins.",
+      "target": "이리로 끌려온 사람들은 대개 이 유적을 거점으로 삼아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1198"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1199",
+      "source": "@town/Tezcatlipoca...? Nobody here a voice or anything like that when they were brought here.",
+      "target": "테스카틀리포카…? 그런 자의 목소리를 들었다는 사람은 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1199"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1200",
+      "source": "@town/Most of the people who were summoned here are mercenaries, traveling merchants, and adventurers. That healer over there and the guild members are probably the only exceptions.",
+      "target": "여기로 온 건 대부분 용병이나 행상, 모험자야. 저 치유사랑 길드원은 예외인가?",
+      "source_ref": [
+        "2.335:data/talk.txt:1200"
+      ],
+      "section": "SUMMON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1204",
+      "source": "@town/見世物ではない。用が済んだらさっさと{you}も立ち去れ。",
+      "target": "구경거리가 아니다. 볼일이 끝났으면 너도 얼른 떠나라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1204"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1205",
+      "source": "@town/エウダーナの魔法力を結集したこの船にかかれば、結界など意味をなさない{のだ}。",
+      "target": "에우데르나의 마법력을 한데 모은 이 배 앞에선 결계 따위 아무 의미도 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1205"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1206",
+      "source": "@town/上空に現れた浮遊大陸に、本国の人々は並々ならぬ不安と知的好奇心を抱いている{よ}。",
+      "target": "본국 사람들은 하늘에 나타난 부유 대륙을 무척 불안해하면서도 호기심을 감추지 못해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1206"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1207",
+      "source": "@town/北の山岳地帯へ調査に行った学者たちが帰ってこない{な}。きっと魔物に襲われたの{だろ}。",
+      "target": "북쪽 산악 지대로 조사 나간 학자들이 돌아오지 않아. 마물에게 습격당했나 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1207"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1208",
+      "source": "@town/魔物を軽々と蹴散らしていた{が}、あの客室添乗員は何者なの{だろ}。",
+      "target": "마물을 가볍게 쓸어버리던데, 저 객실 승무원은 대체 누구지?",
+      "source_ref": [
+        "2.335:data/talk.txt:1208"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1210",
+      "source": "@town/若かりし頃のライゼル様は、その身一つで敵対国を滅ぼしたという。",
+      "target": "라이젤 님은 젊었을 때 홀몸으로 적국 하나를 멸망시키셨다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1210"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1211",
+      "source": "@town/調べてみた{が}、この大陸の動植物は地上のものと全く同じ種類のよう{だ}。",
+      "target": "조사해 보니 이 대륙의 동식물은 지상에 사는 종과 꼭 같더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1211"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1212",
+      "source": "@town/召喚された連中を除けばエウダーナが一番乗り{だ}。当然の結果{だな}。",
+      "target": "소환돼 온 자들을 빼면 에우데르나가 제일 먼저 도착했다. 당연한 결과지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1212"
+      ],
+      "section": "MADOU,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1216",
+      "source": "@town/This isn't a zoo. If you don't have any business here, then clear off.",
+      "target": "구경거리가 아니다. 볼일이 끝났으면 너도 얼른 떠나라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1216"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1217",
+      "source": "@town/That barrier is nothing if we Eulderna focus our mana on the ship. We'll punch right through it.",
+      "target": "에우데르나의 마법력을 한데 모은 이 배 앞에선 결계 따위 아무 의미도 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1217"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1218",
+      "source": "@town/This floating continent... our countrymen find it fascinating, yet so unsettling at the same time.",
+      "target": "본국 사람들은 하늘에 나타난 부유 대륙을 무척 불안해하면서도 호기심을 감추지 못해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1218"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1219",
+      "source": "@town/The scholars who went to investigate the hills in the north have yet to return. They're probably monster food by now.",
+      "target": "북쪽 산악 지대로 조사 나간 학자들이 돌아오지 않아. 마물에게 습격당했나 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1219"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1220",
+      "source": "@town/Just who in the world is that attendant? She mowed through the monsters as if they were nothing.",
+      "target": "마물을 가볍게 쓸어버리던데, 저 객실 승무원은 대체 누구지?",
+      "source_ref": [
+        "2.335:data/talk.txt:1220"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1221",
+      "source": "@town/Seems like there's no shortage of Nefia on this continent either.",
+      "target": "이 대륙에도 네피아가 꽤 많네.",
+      "source_ref": [
+        "2.335:data/talk.txt:1221"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1222",
+      "source": "@town/It is said that Raizel demolished an enemy country all by himself when he was younger.",
+      "target": "라이젤 님은 젊었을 때 홀몸으로 적국 하나를 멸망시키셨다지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1222"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1223",
+      "source": "@town/According to our research, the species of flora and fauna on this continent are exactly the same as the ones in the land below.",
+      "target": "조사해 보니 이 대륙의 동식물은 지상에 사는 종과 꼭 같더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1223"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1224",
+      "source": "@town/Asides from those who were summoned here, the Eulderna are the first to set foot on the continent. Naturally.",
+      "target": "소환돼 온 자들을 빼면 에우데르나가 제일 먼저 도착했다. 당연한 결과지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1224"
+      ],
+      "section": "MADOU,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1229",
+      "source": "@town/どうして{me}がこの地に辿りついたのか、今ならわかる{よ}。全ては、あの方々の下僕になるためだった{のだ}。",
+      "target": "내가 왜 여기까지 오게 됐는지 이제 알겠어. 모두 그분들의 종이 되기 위해서였어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1229"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1230",
+      "source": "@town/バルコニーから飛び立つ黒天使様を眺めていると、素敵なご褒美をくださる{のだ}…。",
+      "target": "발코니에서 날아오르는 검은 천사님들을 바라보고 있으면 멋진 상을 내려 주셔…",
+      "source_ref": [
+        "2.335:data/talk.txt:1230"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1231",
+      "source": "@town/稀にルルウィ様もお忍びでこちらに遊びに来られる{のだ}。まるで風のように、長くは留まらないけれど。",
+      "target": "룰위 님도 가끔 남몰래 놀러 오셔. 바람처럼 오래 머물지는 않으시지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1231"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1232",
+      "source": "@town/砂虫も炒めるとクセが無くて結構おいしいもの{だな}。",
+      "target": "모래벌레도 볶아 먹으면 비린내 없이 제법 맛있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1232"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1233",
+      "source": "@town/塔の外、北側のオアシスにいる猫はいつもごろごろしているが機嫌を損ねると暴れ回り、不幸を呼ぶ恐ろしい存在{だ}。",
+      "target": "탑 밖 북쪽 오아시스에 사는 고양이는 늘 뒹굴거리지만 심기를 건드리면 날뛰면서 불행을 부르는 무서운 녀석이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1233"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1234",
+      "source": "@town/塔の外、南側のオアシスで変なやつにわけのわからないことを言われた{よ}。",
+      "target": "탑 밖 남쪽 오아시스에서 이상한 녀석이 영문 모를 소리를 하더라고.",
+      "source_ref": [
+        "2.335:data/talk.txt:1234"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1235",
+      "source": "@town/そうです、あの方々が{me}の畏敬する天使様たちなのです。",
+      "target": "그래요, 저분들이 바로 제가 경외하는 천사님들이랍니다.",
+      "source_ref": [
+        "2.335:data/talk.txt:1235"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1236",
+      "source": "@town/蜃気楼に惑わされたりして砂漠で何度も遭難した{が}、ここは楽園{だ}。",
+      "target": "신기루에 홀려 사막에서 몇 번이나 조난당했지만 여기는 낙원이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1236"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1237",
+      "source": "@town/この塔に永住も考えている{よ}。厳しい砂漠の気候も、もはや気にならない{よ}。",
+      "target": "이 탑에 눌러앉을까 생각 중이야. 이제 사막의 혹독한 날씨도 개의치 않아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1237"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1238",
+      "source": "@town/猫はもともと砂漠の生き物{だ}。",
+      "target": "고양이는 원래 사막에 사는 동물이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1238"
+      ],
+      "section": "SAZIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1242",
+      "source": "@town/I've realized why I was brought here. It was to serve the master here as a slave.",
+      "target": "내가 왜 여기까지 오게 됐는지 이제 알겠어. 모두 그분들의 종이 되기 위해서였어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1242"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1243",
+      "source": "@town/If you look upwards to the balcony at the Black Angel when she takes to the skies, you may just receive a reward...",
+      "target": "발코니에서 날아오르는 검은 천사님들을 바라보고 있으면 멋진 상을 내려 주셔…",
+      "source_ref": [
+        "2.335:data/talk.txt:1243"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1244",
+      "source": "@town/Once in a blue moon, Lady Lulwy Herself graces us with Her presence. But She comes and goes like the wind, and never stays for long.",
+      "target": "룰위 님도 가끔 남몰래 놀러 오셔. 바람처럼 오래 머물지는 않으시지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1244"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1245",
+      "source": "@town/Sandworms taste pretty good when fried. They don't have much of an aftertaste.",
+      "target": "모래벌레도 볶아 먹으면 비린내 없이 제법 맛있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1245"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1246",
+      "source": "@town/That cat at the northern oasis outside the tower just lazes around most of the time. But when she's in a bad mood, she goes on a rampage and curses everything with bad luck.",
+      "target": "탑 밖 북쪽 오아시스에 사는 고양이는 늘 뒹굴거리지만 심기를 건드리면 날뛰면서 불행을 부르는 무서운 녀석이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1246"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1247",
+      "source": "@town/That guy by the southern oasis says some crazy things.",
+      "target": "탑 밖 남쪽 오아시스에서 이상한 녀석이 영문 모를 소리를 하더라고.",
+      "source_ref": [
+        "2.335:data/talk.txt:1247"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1248",
+      "source": "@town/Angels, glorious angels! Truly worthy of reverence and worship!",
+      "target": "그래요, 저분들이 바로 제가 경외하는 천사님들이랍니다.",
+      "source_ref": [
+        "2.335:data/talk.txt:1248"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1249",
+      "source": "@town/For a person like me who was led astray by mirages and nearly died so many times in the desert, this is heaven.",
+      "target": "신기루에 홀려 사막에서 몇 번이나 조난당했지만 여기는 낙원이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1249"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1250",
+      "source": "@town/I think I'll live here for good. We don't have to worry about anything here, not even the blasted desert weather.",
+      "target": "이 탑에 눌러앉을까 생각 중이야. 이제 사막의 혹독한 날씨도 개의치 않아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1250"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1251",
+      "source": "@town/Cats originated from the desert.",
+      "target": "고양이는 원래 사막에 사는 동물이야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1251"
+      ],
+      "section": "SAZIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1256",
+      "source": "@town/ここからずっと北西にあるという街から遥々、仕入れに来るお客さんもいる{のだ}。",
+      "target": "한참 북서쪽에 있다는 마을에서 여기까지 물건을 떼러 오는 손님들도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1256"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1257",
+      "source": "@town/その金貨はここでも使える{よ}。北西の街の商人が使っているのと同じもの{だな}。",
+      "target": "그 금화는 여기서도 쓸 수 있어. 북서쪽 마을 상인들이 쓰는 거랑 같네.",
+      "source_ref": [
+        "2.335:data/talk.txt:1257"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1258",
+      "source": "@town/よそ者が{me}たちの土地に住みつくなど我慢ならない{のだ}…。いやいや、もちろんお客さんは歓迎{だ}。",
+      "target": "낯선 이들이 우리 땅에 눌러앉는 건 참을 수가 없어… 아니, 아니, 물론 손님은 환영하지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1258"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1259",
+      "source": "@town/{me}たちはこの丘の周辺を離れたことがない{のだ}。他の地域のことはよく知らない{よ}。",
+      "target": "우린 이 언덕 일대를 떠난 적이 없어. 다른 지역 일은 잘 몰라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1259"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1260",
+      "source": "@town/老人口調で喋ったり髭をむやみに伸ばすのはもう古いらしい{な}。",
+      "target": "노인 말투를 쓰거나 수염을 무턱대고 기르는 건 이젠 한물갔다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1260"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1261",
+      "source": "@town/伝統工芸の職人技を継ぐ者が絶えてから長い年月が過ぎた{よ}。昔は多くの職人が互いの腕を競いあっていたらしい。",
+      "target": "전통 공예의 맥이 끊긴 지도 오래됐어. 옛날에는 장인들이 서로 솜씨를 겨뤘다더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1261"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1262",
+      "source": "@town/この集落も人が減ってかなり寂しくなってきた{よ}。どんなに寂れても、{me}たちは住み慣れた丘を離れるつもりはない{が}。",
+      "target": "우리 마을도 사람이 줄어서 많이 쓸쓸해졌어. 아무리 쇠락해도 우린 정든 언덕을 떠날 생각이 없지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1262"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1263",
+      "source": "@town/遥か大昔に、外界との関わり方で揉めて丘を去って行った民もいたとされている。",
+      "target": "아득한 옛날 바깥세상과 어떻게 지낼지를 놓고 다투다가 이 언덕을 떠난 사람들도 있었다고 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1263"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1264",
+      "source": "@town/現存する最後の工房は、丘長が若いころに使っていたもの{だ}。孫娘が職人になった時のために今も手入れをしているらしい{な}。",
+      "target": "마지막 남은 공방은 언덕 어르신이 젊을 적에 쓰시던 곳이야. 손녀가 장인이 될 날을 위해 지금도 손질하신대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1264"
+      ],
+      "section": "CAVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1268",
+      "source": "@town/We have orders coming in from customers living as far as the town in the north-west.",
+      "target": "한참 북서쪽에 있다는 마을에서 여기까지 물건을 떼러 오는 손님들도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1268"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1269",
+      "source": "@town/We accept those coins here. The merchants in the town north-west of here use the same currency.",
+      "target": "그 금화는 여기서도 쓸 수 있어. 북서쪽 마을 상인들이 쓰는 거랑 같네.",
+      "source_ref": [
+        "2.335:data/talk.txt:1269"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1270",
+      "source": "@town/We don't welcome outsiders here... Guests? Oh yes, guests can stay as long as they like!",
+      "target": "낯선 이들이 우리 땅에 눌러앉는 건 참을 수가 없어… 아니, 아니, 물론 손님은 환영하지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1270"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1271",
+      "source": "@town/We never stray far from this mountain, so we're not familiar with the surrounding lands.",
+      "target": "우린 이 언덕 일대를 떠난 적이 없어. 다른 지역 일은 잘 몰라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1271"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1272",
+      "source": "@town/The younger ones talk different from the elders. They don't grow beards either.",
+      "target": "노인 말투를 쓰거나 수염을 무턱대고 기르는 건 이젠 한물갔다더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1272"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1273",
+      "source": "@town/There's no one left to pass our craftsmanship down to these days. In the olden days, craftsmen used to compete with each other to inherit techniques.",
+      "target": "전통 공예의 맥이 끊긴 지도 오래됐어. 옛날에는 장인들이 서로 솜씨를 겨뤘다더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1273"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1274",
+      "source": "@town/There aren't that many left in this colony these days. But I've lived here far too long to leave, so I'll probably breathe my last here.",
+      "target": "우리 마을도 사람이 줄어서 많이 쓸쓸해졌어. 아무리 쇠락해도 우린 정든 언덕을 떠날 생각이 없지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1274"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1275",
+      "source": "@town/There are stories of people who left the mountain a long time ago. Something about a dispute about how we should interact with people from the outside.",
+      "target": "아득한 옛날 바깥세상과 어떻게 지낼지를 놓고 다투다가 이 언덕을 떠난 사람들도 있었다고 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1275"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1276",
+      "source": "@town/The last workshop here is the one that the elder used when he was young. I heard he's still maintaining it so that his granddaughter can inherit someday.",
+      "target": "마지막 남은 공방은 언덕 어르신이 젊을 적에 쓰시던 곳이야. 손녀가 장인이 될 날을 위해 지금도 손질하신대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1276"
+      ],
+      "section": "CAVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1281",
+      "source": "@town/神の中にはかつての戦いで神徳を失い魔物と化しているものも多い{な}。",
+      "target": "옛 전쟁에서 신덕을 잃고 마물이 된 신도 많아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1281"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1282",
+      "source": "@town/テスカトリポカは神々の大戦の引き金となり、戦いの中で幾千の神を滅ぼしたとされている。",
+      "target": "테스카틀리포카는 신들의 대전에 불을 댕기고 그 전쟁에서 수천의 신을 멸했다고 전해져.",
+      "source_ref": [
+        "2.335:data/talk.txt:1282"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1283",
+      "source": "@town/このロストイルヴァも元々はイルヴァの一部だったと言われている{のだ}。",
+      "target": "로스트 이르바도 본래 이르바의 일부였다고 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1283"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1284",
+      "source": "@town/混沌の巨城内部には、力を封じられた混沌の神とその眷属が眠っているという。",
+      "target": "혼돈의 거성 안에는 힘을 봉인당한 혼돈의 신과 그 권속들이 잠들어 있다는군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1284"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1285",
+      "source": "@town/混沌の神との最終決戦は熾烈を極めた。もし再び目覚めることがあれば、数少ない今の神々ではどうすることもできない{だろ}。",
+      "target": "혼돈의 신과 벌인 마지막 결전은 이루 말할 수 없이 치열했어. 다시 깨어난다면 얼마 남지 않은 지금의 신들로는 손쓸 도리가 없을 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1285"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1286",
+      "source": "@town/文明の繁栄と衰退は信仰を力としている神々にも大きな影響を与えるよう{だ}。",
+      "target": "문명의 흥망은 신앙을 힘으로 삼는 신들에게도 큰 영향을 주나 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1286"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1287",
+      "source": "@town/信じられないような話だが、異なる世界からの干渉によって行動している者が存在するらしい。その者にはこの世の理が正常に作用しないのだとか。",
+      "target": "믿기 어렵지만 다른 세계의 간섭을 받아 움직이는 자가 있대. 그런 자에겐 이 세상의 이치가 제대로 작용하지 않는다더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1287"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1288",
+      "source": "@town/八柱の神々は捧げものを媒体にして信者の信仰の力を受け取っているらしい{よ}。",
+      "target": "여덟 신은 제물을 매개로 신자들의 신앙을 받아들인대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1288"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1289",
+      "source": "@town/この地に住んでいても、神についてはわからないことが多い{な}。永遠の盟約とやらによって情報が伏せられている{のだ}。",
+      "target": "여기서 살아도 신에 관해 모르는 게 많아. 영원의 맹약인가 하는 것 때문에 알려지지 않은 게 많거든.",
+      "source_ref": [
+        "2.335:data/talk.txt:1289"
+      ],
+      "section": "HEAVEN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1293",
+      "source": "@town/There are many Gods of old who lost their divinity in the wars they waged against each other. They fell and became monsters.",
+      "target": "옛 전쟁에서 신덕을 잃고 마물이 된 신도 많아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1293"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1294",
+      "source": "@town/Tezcatlipoca was the trigger for the Great War between the Gods. It is said that he alone massacred thousands of Gods in that battle.",
+      "target": "테스카틀리포카는 신들의 대전에 불을 댕기고 그 전쟁에서 수천의 신을 멸했다고 전해져.",
+      "source_ref": [
+        "2.335:data/talk.txt:1294"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1295",
+      "source": "@town/It is said that Lost Irva was originally a part of the rest of Irva.",
+      "target": "로스트 이르바도 본래 이르바의 일부였다고 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1295"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1296",
+      "source": "@town/According to legend, the God of Chaos and his servants are sealed deep within the Cradle of Chaos.",
+      "target": "혼돈의 거성 안에는 힘을 봉인당한 혼돈의 신과 그 권속들이 잠들어 있다는군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1296"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1297",
+      "source": "@town/The final battle with the God of Chaos was fierce battle; one that we barely won. If he awakens again, the Gods of today who are few in number will surely be unable to stand against him.",
+      "target": "혼돈의 신과 벌인 마지막 결전은 이루 말할 수 없이 치열했어. 다시 깨어난다면 얼마 남지 않은 지금의 신들로는 손쓸 도리가 없을 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1297"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1298",
+      "source": "@town/The Gods are affected by the prosperity and decline of every age, as it is from the peoples' faith that They derive Their power.",
+      "target": "문명의 흥망은 신앙을 힘으로 삼는 신들에게도 큰 영향을 주나 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1298"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1299",
+      "source": "@town/You may find this hard to believe, but it seems like there are people receive guidance from beings in another realm. These people are unbound by logic and the laws of the world.",
+      "target": "믿기 어렵지만 다른 세계의 간섭을 받아 움직이는 자가 있대. 그런 자에겐 이 세상의 이치가 제대로 작용하지 않는다더군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1299"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1300",
+      "source": "@town/Offerings are the medium through which the faith of believers is carried to the eight Gods.",
+      "target": "여덟 신은 제물을 매개로 신자들의 신앙을 받아들인대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1300"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1301",
+      "source": "@town/Even those who live in this land don't know much about the Gods. The pact of the Eternal League suppresses any information about Them.",
+      "target": "여기서 살아도 신에 관해 모르는 게 많아. 영원의 맹약인가 하는 것 때문에 알려지지 않은 게 많거든.",
+      "source_ref": [
+        "2.335:data/talk.txt:1301"
+      ],
+      "section": "HEAVEN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1306",
+      "source": "@town/遊歩道は地味に人気のあるスポット{だ}。",
+      "target": "산책로는 의외로 인기 있는 명소야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1306"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1307",
+      "source": "@town/馬屋は臭いが酷いせいで三日で潰れた{よ}。",
+      "target": "마구간은 냄새가 하도 지독해서 사흘 만에 문을 닫았어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1307"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1308",
+      "source": "@town/オルドランは富の女神が経営するアミューズメントシティ{だ}。",
+      "target": "올드란은 부의 여신이 운영하는 유흥 도시야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1308"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1309",
+      "source": "@town/ここの商店街では大抵のものが揃う{よ}。",
+      "target": "여기 상점가에선 웬만한 물건은 다 구해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1309"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1310",
+      "source": "@town/騎士団は富の女神と契約してこの街に駐留している{のだ}。",
+      "target": "기사단은 부의 여신과 계약을 맺고 이 도시에 주둔하고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1310"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1311",
+      "source": "@town/踊りながら演奏して歌うカラヴィカのコンサートは本当にすごい{な}。",
+      "target": "카라비카가 춤추며 연주하고 노래하는 공연은 정말 대단해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1311"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1312",
+      "source": "@town/月末にはカラヴィカの限定コンサートがある{のだ}。",
+      "target": "월말에는 카라비카의 한정 공연이 열려.",
+      "source_ref": [
+        "2.335:data/talk.txt:1312"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1313",
+      "source": "@town/好き勝手やっているようで、神々もこの世界のために日々戦っている{のだ}。",
+      "target": "신들이 제멋대로 구는 것 같아도 매일 이 세계를 위해 싸우고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1313"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1314",
+      "source": "@town/この街では定命の使っている貨幣が流通している{よ}。",
+      "target": "이 도시에선 필멸자들이 쓰는 돈이 통해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1314"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1315",
+      "source": "@town/北の雪原地下には、大戦時に使われた戦艦が今も眠っている{よ}。",
+      "target": "북쪽 설원 지하에는 대전 때 쓰던 전함이 아직도 잠들어 있지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1315"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1316",
+      "source": "@town/東端の洞窟から取り寄せた家具はいい出来{だ}。さすがの職人芸と言える{な}。",
+      "target": "동쪽 끝 동굴에서 들여온 가구는 만듦새가 좋아. 과연 장인의 솜씨야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1316"
+      ],
+      "section": "DRAN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1320",
+      "source": "@town/The promenade is a rather popular spot.",
+      "target": "산책로는 의외로 인기 있는 명소야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1320"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1321",
+      "source": "@town/The horse master went out of business in three days because of the smell.",
+      "target": "마구간은 냄새가 하도 지독해서 사흘 만에 문을 닫았어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1321"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1322",
+      "source": "@town/Ol-dran is a city of amusement run by Yacatect, the Goddess of Wealth.",
+      "target": "올드란은 부의 여신 야카테크트가 운영하는 유흥 도시야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1322"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1323",
+      "source": "@town/Whatever it is that you need, the shops in this city probably have it.",
+      "target": "여기 상점가에선 웬만한 물건은 다 구해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1323"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1324",
+      "source": "@town/Those knights are stationed here under contract with the Goddess of Wealth.",
+      "target": "기사단은 부의 여신과 계약을 맺고 이 도시에 주둔하고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1324"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1325",
+      "source": "@town/Karavika is really talented to be able to sing and dance like that at the same time.",
+      "target": "카라비카가 춤추며 연주하고 노래하는 공연은 정말 대단해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1325"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1326",
+      "source": "@town/End of the month there is a limited concert of Karavika.",
+      "target": "월말에는 카라비카의 한정 공연이 열려.",
+      "source_ref": [
+        "2.335:data/talk.txt:1326"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1327",
+      "source": "@town/The Gods may look like they're just doing what they like, but they are actually fighting over the world in their own way.",
+      "target": "신들이 제멋대로 구는 것 같아도 매일 이 세계를 위해 싸우고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1327"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1328",
+      "source": "@town/We use the mortals' currency in this town.",
+      "target": "이 도시에선 필멸자들이 쓰는 돈이 통해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1328"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1329",
+      "source": "@town/There is a warship stationed beneath the snowy fields in the north. It was used in the Great War.",
+      "target": "북쪽 설원 지하에는 대전 때 쓰던 전함이 아직도 잠들어 있지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1329"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1330",
+      "source": "@town/The made-to-order furniture originating from the cave in the eastern end of the continent is simply exquisite. That's traditional craftsmanship for you.",
+      "target": "동쪽 끝 동굴에서 들여온 가구는 만듦새가 좋아. 과연 장인의 솜씨야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1330"
+      ],
+      "section": "DRAN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1335",
+      "source": "@town/高名な冒険者の多くは、ここへ来るずっと昔にノルンを見たことがあるらしい{よ}。",
+      "target": "이름난 모험자 중에는 여기 오기 훨씬 전부터 노른을 본 적이 있다는 이들이 많아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1335"
+      ],
+      "section": "DEFEND,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1336",
+      "source": "@town/帰り道が確保できたおかげで、安心してロストイルヴァを回れる{な}。",
+      "target": "돌아갈 길이 생긴 덕분에 안심하고 로스트 이르바를 돌아볼 수 있겠어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1336"
+      ],
+      "section": "DEFEND,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1337",
+      "source": "@town/ノースティリスと繋がったことで、逆にこちらへ冒険にやってくる者もいる{のだ}。",
+      "target": "북부 티리스와 길이 이어지니 거꾸로 이쪽으로 모험하러 오는 사람도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1337"
+      ],
+      "section": "DEFEND,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1338",
+      "source": "@town/ここからはラーナという山頂の村に移動できる{よ}。",
+      "target": "여기서 라나라는 산꼭대기 마을로 갈 수 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1338"
+      ],
+      "section": "DEFEND,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1339",
+      "source": "@town/この神殿を守っている神様は、真面目すぎて冗談も通じない{のだ}。",
+      "target": "이 신전을 지키는 신은 어찌나 진지한지 농담도 안 통해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1339"
+      ],
+      "section": "DEFEND,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1343",
+      "source": "@town/Many renowned adventurers have met Norne even before they came here.",
+      "target": "이름난 모험자 중에는 여기 오기 훨씬 전부터 노른을 본 적이 있다는 이들이 많아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1343"
+      ],
+      "section": "DEFEND,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1344",
+      "source": "@town/We can explore Lost Irva with a peace of mind thanks to the way back down available here.",
+      "target": "돌아갈 길이 생긴 덕분에 안심하고 로스트 이르바를 돌아볼 수 있겠어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1344"
+      ],
+      "section": "DEFEND,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1345",
+      "source": "@town/There are even some adventurers making their way here now that this place is linked with North Tyris.",
+      "target": "북부 티리스와 길이 이어지니 거꾸로 이쪽으로 모험하러 오는 사람도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1345"
+      ],
+      "section": "DEFEND,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1346",
+      "source": "@town/We can get to a mountain-top village called Larna from here.",
+      "target": "여기서 라나라는 산꼭대기 마을로 갈 수 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1346"
+      ],
+      "section": "DEFEND,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1347",
+      "source": "@town/The guardian of this shrine is way too serious about everything. ",
+      "target": "이 신전을 지키는 신은 어찌나 진지한지 농담도 안 통해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1347"
+      ],
+      "section": "DEFEND,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1352",
+      "source": "@town/(舌打ちしながら仕事をしている…)",
+      "target": "(혀를 차며 일하고 있다…)",
+      "source_ref": [
+        "2.335:data/talk.txt:1352"
+      ],
+      "section": "BSHIP7R,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1353",
+      "source": "@town/(話しかけづらい雰囲気だ…)",
+      "target": "(좀처럼 말을 걸기 어려운 분위기다…)",
+      "source_ref": [
+        "2.335:data/talk.txt:1353"
+      ],
+      "section": "BSHIP7R,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1358",
+      "source": "@town/(It's a difficult atmosphere to talk to...)",
+      "target": "(좀처럼 말을 걸기 어려운 분위기다…)",
+      "source_ref": [
+        "2.335:data/talk.txt:1358"
+      ],
+      "section": "BSHIP7R,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1363",
+      "source": "@town/「ロボットのように働く」って本当に大変なことな{のだ}。",
+      "target": "‘로봇처럼 일한다’는 게 얼마나 힘든 일인지 알아?",
+      "source_ref": [
+        "2.335:data/talk.txt:1363"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1364",
+      "source": "@town/猫型ロボットのマニピュレーターでも借りたい気分{だな}。",
+      "target": "고양이형 로봇의 기계손이라도 빌리고 싶다니까.",
+      "source_ref": [
+        "2.335:data/talk.txt:1364"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1365",
+      "source": "@town/悪いけど、手が空いたらこっちを手伝ってくれない{か}？",
+      "target": "미안한데, 손이 비면 이쪽 일 좀 거들어 줄래?",
+      "source_ref": [
+        "2.335:data/talk.txt:1365"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1366",
+      "source": "@town/新入りにノウハウを教えてあげたいんだけど…そんな余裕がなくて申し訳ない{よ}。",
+      "target": "신입한테 요령을 알려 주고 싶지만… 그럴 여유조차 없어서 미안해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1366"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1367",
+      "source": "@town/ロボットの語源って強制労働のもじりだっけ？クソ{だな}。",
+      "target": "로봇이라는 단어가 강제 노동에서 나왔다던가? 빌어먹을.",
+      "source_ref": [
+        "2.335:data/talk.txt:1367"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1368",
+      "source": "@town/仕事Ｙは何度体験してもやっぱりクソ{だ}…助けてマニ様…たすけて。",
+      "target": "Y 업무는 몇 번을 해도 거지 같아… 마니 님, 살려 주세요… 살려 줘.",
+      "source_ref": [
+        "2.335:data/talk.txt:1368"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1369",
+      "source": "@town/基準通りにやっていたらこんなの終わらない！…嫌だけどもっと精度を落としまくるしかない{よ}。",
+      "target": "기준대로 했다간 절대 못 끝내! …싫어도 정밀도를 더 낮출 수밖에 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1369"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1370",
+      "source": "@town/別の部署に行きたいけど、そっちがもっと大変だったら嫌{だな}…。",
+      "target": "다른 부서로 가고 싶은데 거기가 더 힘들면 어쩌지…",
+      "source_ref": [
+        "2.335:data/talk.txt:1370"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1371",
+      "source": "@town/仕事Ｊに仕事Ｘ…片づける前に次から次に増えていく…もう駄目{だ}。",
+      "target": "J 업무에 X 업무까지… 하나 끝내기도 전에 자꾸 일이 쌓여… 이젠 틀렸어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1371"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1372",
+      "source": "@town/やり方や基準は区画ごとに微妙に違うみたいで、何が正解なのか正直よく分からないままやっている{よ}。",
+      "target": "구역마다 방법이랑 기준이 조금씩 달라. 솔직히 뭐가 맞는지도 모르고 일하고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1372"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1373",
+      "source": "@town/昔は基準を無視して適当にやっても通用していたみたい{だな}。そのやり方に問題があったせいで今は基準が滅茶苦茶厳しくなっている{が}。",
+      "target": "옛날엔 기준을 무시하고 대충 해도 넘어갔대. 그 방식이 문제였던 탓에 지금은 기준이 터무니없이 까다롭지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1373"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1374",
+      "source": "@town/みんなのボードを片っ端からぶっ壊して逃げたらスッキリする{かな}…？迷惑だからやめておく{が}…。",
+      "target": "다들 쓰는 보드를 죄다 부수고 도망치면 속이 후련할까…? 남한테 폐 끼치니까 관둘래…",
+      "source_ref": [
+        "2.335:data/talk.txt:1374"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1375",
+      "source": "@town/仕事には順序というものがある{のだ}。手当たり次第にやっても上手くいかないから困る{よ}。",
+      "target": "일에도 순서가 있어. 아무거나 잡히는 대로 한다고 풀리질 않으니 곤란해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1375"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1376",
+      "source": "@town/仕事によっては疲れていると上手くいかなかったりするし、休憩は適宜するべき{だな}。休憩する時間があればの話だけど。",
+      "target": "피곤하면 제대로 안 되는 일도 있으니 중간중간 쉬어야 해. 쉴 시간이 있다면 말이지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1376"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1377",
+      "source": "@town/整理していないと進まない仕事もある{が}、整理整頓しすぎてもその間は仕事が進んでいないから怒られる{のだ}。",
+      "target": "정리 안 하면 진행이 안 되는 일도 있는데, 정리에 너무 매달리면 그동안 일이 안 나갔다고 혼나.",
+      "source_ref": [
+        "2.335:data/talk.txt:1377"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1378",
+      "source": "@town/他部署との兼ね合いで日中しか進まない仕事もあるし、睡眠不足だとどうしても上手くいかない仕事もある{のだ}。{me}達が今やれる仕事は何か考えるべき{だ}。",
+      "target": "다른 부서와 맞춰야 해서 낮에만 할 수 있는 일도 있고 잠이 부족하면 영 안 풀리는 일도 있어. 지금 우리가 뭘 할 수 있는지 생각해야 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1378"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1379",
+      "source": "@town/ピーガガガ！電子頭脳がオーバーヒートしています。危険。きけ…ん…。",
+      "target": "삐가가각! 전자 두뇌 과열 중. 위험. 위… 험…",
+      "source_ref": [
+        "2.335:data/talk.txt:1379"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1380",
+      "source": "@town/リーダーはすぐ怒鳴るから話しづらい。いざという時に話ができるよう、媚びを売っておいた方がいいの{かな}…。",
+      "target": "대장은 툭하면 고함부터 질러서 말 걸기가 힘들어. 정작 중요한 때 말이라도 붙일 수 있게 미리 비위를 맞춰 둬야 하나…",
+      "source_ref": [
+        "2.335:data/talk.txt:1380"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1381",
+      "source": "@town/リーダーに話しかけるタイミングを間違えると、仕事を増やされたりするから気をつけて{くれ}。",
+      "target": "대장한테 말 거는 때를 잘못 고르면 일거리가 더 늘어나니까 조심해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1381"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1382",
+      "source": "@town/オーバーワークで今はどうにかなってるけど、いつ破綻するか分からない{よ}。",
+      "target": "지금이야 과로로 버티고 있지만 언제 무너질지 몰라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1382"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1383",
+      "source": "@town/昔はもっと大変だったんだぞって言う{が}、記録を見ると仕事で壊れる奴は年々増加している{のだ}。",
+      "target": "옛날엔 더 힘들었다고들 하는데 기록을 보면 일하다 망가지는 녀석은 해마다 늘어나고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1383"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1384",
+      "source": "@town/どうして全体作業量が以前より増えているのに、メンバー数が減らされている{のだ}？",
+      "target": "전체 일감은 전보다 늘었는데 왜 사람은 줄이는 거지?",
+      "source_ref": [
+        "2.335:data/talk.txt:1384"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1385",
+      "source": "@town/艦長へ相談メールを送った奴もいた{が}、リーダーに誤送信扱いされて握りつぶされていた{よ}。",
+      "target": "함장한테 상담 메일을 보낸 녀석도 있었는데 대장이 잘못 보낸 메일로 처리하고 묵살해 버렸어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1385"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1386",
+      "source": "@town/こんなところだとは思わなかった…思わなかった{のだ}。神々の関係部署なら、安全で安定した労働環境だと信じていた{よ}。",
+      "target": "이런 데일 줄은 몰랐어… 정말 몰랐다고. 신들 밑에서 일하면 안전하고 안정된 일터일 거라고 믿었는데.",
+      "source_ref": [
+        "2.335:data/talk.txt:1386"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1387",
+      "source": "@town/どうせ{me}達は社会の錆びた歯車{だ}。磨かれずに壊れるまで回り続けるだけ{だな}。",
+      "target": "어차피 우린 사회의 녹슨 톱니바퀴야. 닦아 주는 이도 없이 망가질 때까지 돌아갈 뿐이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1387"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1388",
+      "source": "@town/外から来た{you}は、帰る場所があっていい{な}。{me}達は休憩中でもここにしか居場所がない{のだ}。",
+      "target": "밖에서 온 넌 돌아갈 데가 있어서 좋겠다. 우리는 쉬는 시간에도 여기 말고는 갈 곳이 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1388"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1389",
+      "source": "@town/他の部署ではもっともっと苦しんでいる奴らがいるって話{だな}。…きっと{me}達はマシなほう{だ}。",
+      "target": "다른 부서에는 훨씬 더 고생하는 녀석들이 있대. …우린 그나마 나은 편일 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1389"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1390",
+      "source": "@town/{you}には悪い{が}、即戦力になる奴に来て欲しかった{な}。{me}達がちっとも楽になれない{よ}。",
+      "target": "너한테는 미안하지만 바로 일에 투입할 사람을 원했어. 이래선 우리가 조금도 편해지질 않잖아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1390"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1391",
+      "source": "@town/やってみせ、言って聞かせて、させてみせ、補正してやらねば、ロボは動かじ。",
+      "target": "직접 보여 주고, 말로 알려 주고, 시켜 보고, 고쳐 주지 않으면 로봇은 움직이지 않는다.",
+      "source_ref": [
+        "2.335:data/talk.txt:1391"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1392",
+      "source": "@town/話し合い、耳を傾け、承認し、任せてやらねば、AIは育たず。",
+      "target": "함께 의논하고, 귀 기울여 듣고, 인정하고, 맡겨 주지 않으면 AI는 자라지 않는다.",
+      "source_ref": [
+        "2.335:data/talk.txt:1392"
+      ],
+      "section": "BSHIP7,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1397",
+      "source": "@town/Working like a robot is harsh.",
+      "target": "‘로봇처럼 일한다’는 게 얼마나 힘든 일인지 알아?",
+      "source_ref": [
+        "2.335:data/talk.txt:1397"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1398",
+      "source": "@town/I also want to borrow a cat-shaped robot manipulator.",
+      "target": "고양이형 로봇의 기계손이라도 빌리고 싶다니까.",
+      "source_ref": [
+        "2.335:data/talk.txt:1398"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1399",
+      "source": "@town/Will you help me if you are free?",
+      "target": "미안한데, 손이 비면 이쪽 일 좀 거들어 줄래?",
+      "source_ref": [
+        "2.335:data/talk.txt:1399"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1400",
+      "source": "@town/I want to teach you my knowledge...but I can't afford it. sorry.",
+      "target": "신입한테 요령을 알려 주고 싶지만… 그럴 여유조차 없어서 미안해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1400"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1401",
+      "source": "@town/The etymology of robots is forced labor. Terrible.",
+      "target": "로봇이라는 단어가 강제 노동에서 나왔다던가? 빌어먹을.",
+      "source_ref": [
+        "2.335:data/talk.txt:1401"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1402",
+      "source": "@town/Work Y is harsh no matter how many times I experience it. Help...",
+      "target": "Y 업무는 몇 번을 해도 거지 같아… 마니 님, 살려 주세요… 살려 줘.",
+      "source_ref": [
+        "2.335:data/talk.txt:1402"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1403",
+      "source": "@town/Very busy...I hate it, but it should be less accurate.",
+      "target": "기준대로 했다간 절대 못 끝내! …싫어도 정밀도를 더 낮출 수밖에 없어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1403"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1404",
+      "source": "@town/This section seems to be in this situation for a long time. I want to go to another department, but I don't want it to be more difficult...",
+      "target": "다른 부서로 가고 싶은데 거기가 더 힘들면 어쩌지…",
+      "source_ref": [
+        "2.335:data/talk.txt:1404"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1405",
+      "source": "@town/Work J and Work X...Increase one after another before cleaning up...No more.",
+      "target": "J 업무에 X 업무까지… 하나 끝내기도 전에 자꾸 일이 쌓여… 이젠 틀렸어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1405"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1406",
+      "source": "@town/It seems that the methods and standards are slightly different for each section, and I am doing it without knowing what is the correct answer.",
+      "target": "구역마다 방법이랑 기준이 조금씩 달라. 솔직히 뭐가 맞는지도 모르고 일하고 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1406"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1407",
+      "source": "@town/Will I be refreshed if I break my desk and run away...?",
+      "target": "내 책상을 박살 내고 도망가면 좀 후련하려나…",
+      "source_ref": [
+        "2.335:data/talk.txt:1407"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1408",
+      "source": "@town/There is an order in the work. I'm in trouble because it doesn't work even if I do it randomly.",
+      "target": "일에도 순서가 있어. 아무거나 잡히는 대로 한다고 풀리질 않으니 곤란해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1408"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1409",
+      "source": "@town/Some jobs only progress during the day due to coordination with other departments, and some jobs just don't go well due to lack of sleep. We should always think about what we can do now.",
+      "target": "다른 부서와 맞춰야 해서 낮에만 할 수 있는 일도 있고 잠이 부족하면 영 안 풀리는 일도 있어. 지금 우리가 뭘 할 수 있는지 생각해야 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1409"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1410",
+      "source": "@town/Some jobs won't work if you don't organize them, but if you organize them too much, your work won't progress during that time, and leader will get angry.",
+      "target": "정리 안 하면 진행이 안 되는 일도 있는데, 정리에 너무 매달리면 그동안 일이 안 나갔다고 혼나.",
+      "source_ref": [
+        "2.335:data/talk.txt:1410"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1411",
+      "source": "@town/Pigagaga! The electronic brain is overheating. Danger. Dan...ger...",
+      "target": "삐가가각! 전자 두뇌 과열 중. 위험. 위… 험…",
+      "source_ref": [
+        "2.335:data/talk.txt:1411"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1412",
+      "source": "@town/It's hard to talk because our leader yells at once. You are going to need to raise the favorability rating.",
+      "target": "대장은 툭하면 고함부터 질러서 말 걸기가 힘들어. 정작 중요한 때 말이라도 붙일 수 있게 미리 비위를 맞춰 둬야 하나…",
+      "source_ref": [
+        "2.335:data/talk.txt:1412"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1413",
+      "source": "@town/Be aware that if you talk to our leader at the wrong time, you will get more work done.",
+      "target": "대장한테 말 거는 때를 잘못 고르면 일거리가 더 늘어나니까 조심해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1413"
+      ],
+      "section": "BSHIP7,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1419",
+      "source": "@town/前方にしか撃てない主砲は実戦では使いづらいけれどロマンがある{な}。",
+      "target": "앞쪽으로만 쏠 수 있는 주포는 실전에선 쓰기 어렵지만 낭만이 있지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1419"
+      ],
+      "section": "BSHIP,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1420",
+      "source": "@town/現在は強化改造中で、一部の機能を残して休止状態にある{よ}。",
+      "target": "지금은 성능을 높이는 개조 중이라 일부 기능을 빼고 가동을 멈췄어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1420"
+      ],
+      "section": "BSHIP,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1421",
+      "source": "@town/この船は神艦アルベデリオン。神々の戦争の最終局面では、混沌艦隊と激戦を繰り広げた{よ}。",
+      "target": "이 배는 신함 알베데리온이야. 신들의 전쟁 막바지에 혼돈의 함대와 격전을 벌였지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1421"
+      ],
+      "section": "BSHIP,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1422",
+      "source": "@town/なんと、この船は人型に変形して格闘戦もできる{のだ}。もっとも、過去の戦いでは殴り合うような巨大な相手は現れなかったけれど。",
+      "target": "놀랍게도 이 배는 사람 모습으로 변형해서 격투전도 할 수 있어. 예전 전쟁 때는 주먹을 맞댈 만큼 거대한 적이 나오진 않았지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1422"
+      ],
+      "section": "BSHIP,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1423",
+      "source": "@town/連装ミサイルの一斉発射は壮観{だ}。",
+      "target": "다연장 미사일을 일제히 쏘는 광경은 장관이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1423"
+      ],
+      "section": "BSHIP,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1424",
+      "source": "@town/艦内転送室の設定は外部転送に切り替えられている{よ}。",
+      "target": "함내 전송실은 외부 전송으로 설정되어 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1424"
+      ],
+      "section": "BSHIP,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1429",
+      "source": "@town/It's not easy fighting battles when your main cannon is a fixed forward-facing weapon, but it sure is cool.",
+      "target": "앞쪽으로만 쏠 수 있는 주포는 실전에선 쓰기 어렵지만 낭만이 있지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1429"
+      ],
+      "section": "BSHIP,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1430",
+      "source": "@town/Some of the ship's functions are offline due to ongoing equipment upgrades.",
+      "target": "지금은 성능을 높이는 개조 중이라 일부 기능을 빼고 가동을 멈췄어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1430"
+      ],
+      "section": "BSHIP,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1431",
+      "source": "@town/This is the Divine Warship Albedrion. It took part in the final battle in the War of the Gods against the fleet of the forces of Chaos.",
+      "target": "이 배는 신함 알베데리온이야. 신들의 전쟁 막바지에 혼돈의 함대와 격전을 벌였지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1431"
+      ],
+      "section": "BSHIP,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1432",
+      "source": "@town/This ship has the ability to transform and battle with its humanoid form. Not that there were any enemies of that size that it could have a fist-fight with.",
+      "target": "놀랍게도 이 배는 사람 모습으로 변형해서 격투전도 할 수 있어. 예전 전쟁 때는 주먹을 맞댈 만큼 거대한 적이 나오진 않았지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1432"
+      ],
+      "section": "BSHIP,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1433",
+      "source": "@town/You should see it when the multi-round missiles get launched. To say that it's spectacular would be an understatement.",
+      "target": "다연장 미사일을 일제히 쏘는 광경은 장관이지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1433"
+      ],
+      "section": "BSHIP,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1434",
+      "source": "@town/The teleporters inside can be configured to transfer objects outside.",
+      "target": "함내 전송기는 물건을 배 밖으로 보내도록 설정할 수도 있어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1434"
+      ],
+      "section": "BSHIP,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1440",
+      "source": "@town/ザイールへようこそ。これでも昔は鉱山で潤っていた{のだ}。",
+      "target": "자이르에 온 걸 환영해. 이래 봬도 한때는 광산 덕에 번창하던 곳이었어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1440"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1441",
+      "source": "@town/{you}みたいなトラベラーもすっかり見なくなった{よ}。",
+      "target": "너 같은 여행자도 이제 통 보이질 않아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1441"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1442",
+      "source": "@town/本土に繋がる大橋は、エーテルの風で壊れて流されてしまった{よ}。ちょっと前まで海面を漂っていたけど、もう完全に沈んだみたい{だ}。",
+      "target": "본토로 이어지던 큰 다리는 에테르 바람에 부서져 떠내려갔어. 얼마 전까진 바다 위에 떠 있었는데 이젠 완전히 가라앉았나 봐.",
+      "source_ref": [
+        "2.335:data/talk.txt:1442"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1443",
+      "source": "@town/南西にも街があったみたいだけど、街並みを思い出せない{な}。",
+      "target": "남서쪽에도 마을이 있었던 모양인데 무슨 모습이었는지 기억나지 않아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1443"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1444",
+      "source": "@town/調査隊によると、ラスキリスの谷ももう危険な状態らしい{よ}。",
+      "target": "조사대 말로는 라스킬리스 골짜기도 이제 위험하대.",
+      "source_ref": [
+        "2.335:data/talk.txt:1444"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1445",
+      "source": "@town/クリムエールはクリムの実から作られるお酒{だ}。クラムベリー…？そんなアイテムは聞いたことがない{な}。",
+      "target": "크림 에일은 크림 열매로 빚은 술이야. 크림베리…? 그런 물건은 들어 본 적이 없는데.",
+      "source_ref": [
+        "2.335:data/talk.txt:1445"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1446",
+      "source": "@town/この事態も、メシェラとかいう災厄が原因{かな}？",
+      "target": "이 사태도 메셰라라는 재앙 때문일까?",
+      "source_ref": [
+        "2.335:data/talk.txt:1446"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1447",
+      "source": "@town/運命に絶望し自殺した人も多い{よ}。伝説のノルンは一体何をやっている{のだ}。",
+      "target": "운명에 절망해 스스로 목숨을 끊은 사람도 많아. 전설의 노른은 도대체 뭘 하는 거지?",
+      "source_ref": [
+        "2.335:data/talk.txt:1447"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1448",
+      "source": "@town/今残っている人々は、なぜか死んでも生き返ってしまう{のだ}。これが噂に聞くエルシアの民の生魂の儀{か}？この状況じゃ呪いに等しい{な}。",
+      "target": "지금 남은 사람들은 어째서인지 죽어도 되살아나. 이게 소문으로 듣던 엘시아 사람들의 생혼 의식일까? 이 상황에선 저주나 다름없는데.",
+      "source_ref": [
+        "2.335:data/talk.txt:1448"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1449",
+      "source": "@town/事件の前、ラスキリス方面で怪しいエルシアの民二人組が目撃されていた{よ}。あいつらが何かしたの{かな}？",
+      "target": "사건이 터지기 전 라스킬리스 쪽에서 수상한 엘시아인 두 명을 봤대. 그 둘이 무슨 짓을 한 걸까?",
+      "source_ref": [
+        "2.335:data/talk.txt:1449"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1450",
+      "source": "@town/どうせみんないなくなる{のだ}。",
+      "target": "어차피 다들 사라질 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1450"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1451",
+      "source": "@town/いつか、誰もが忘れてしまう{だろ}。この街のことも、そこに生きた人々のことも。あの日吹いたエーテルの風のことも。",
+      "target": "언젠가는 모두 잊겠지. 이 마을도, 여기 살았던 사람들도. 그날 불었던 에테르 바람도.",
+      "source_ref": [
+        "2.335:data/talk.txt:1451"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1452",
+      "source": "@town/{me}がここにいたこと、憶えておいてくれるとうれしい{な}。",
+      "target": "내가 여기 있었다는 건 기억해 주면 좋겠어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1452"
+      ],
+      "section": "ZAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1456",
+      "source": "@town/Welcome to Zaile...",
+      "target": "자이르에 온 걸 환영해…",
+      "source_ref": [
+        "2.335:data/talk.txt:1456"
+      ],
+      "section": "ZAILE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1475",
+      "source": "@town/お客さんも悪い人間{だな}。",
+      "target": "손님도 참 못된 사람이군.",
+      "source_ref": [
+        "2.335:data/talk.txt:1475"
+      ],
+      "section": "SLAVEKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1476",
+      "source": "@town/ひひひ…旦那も好き者{だな}。",
+      "target": "히히히… 나리도 좋아하시는군요.",
+      "source_ref": [
+        "2.335:data/talk.txt:1476"
+      ],
+      "section": "SLAVEKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1480",
+      "source": "@town/He he he.  I think I have just what you need.",
+      "target": "히히히. 마침 손님이 찾으시는 게 있을 것 같은데.",
+      "source_ref": [
+        "2.335:data/talk.txt:1480"
+      ],
+      "section": "SLAVEKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1481",
+      "source": "@town/Don't look at me like that.",
+      "target": "그런 눈으로 보지 마.",
+      "source_ref": [
+        "2.335:data/talk.txt:1481"
+      ],
+      "section": "SLAVEKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1482",
+      "source": "@town/What's your problem?",
+      "target": "뭐가 불만이야?",
+      "source_ref": [
+        "2.335:data/talk.txt:1482"
+      ],
+      "section": "SLAVEKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1486",
+      "source": "@town/奴隷を買って{くれ}！ノルマを達成しないと{me}の母が助からない{のだ}！",
+      "target": "노예 좀 사 주세요! 할당량을 못 채우면 우리 어머니가 죽는단 말이에요!",
+      "source_ref": [
+        "2.335:data/talk.txt:1486"
+      ],
+      "section": "ASLAVEKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1487",
+      "source": "@town/ただ今、奴隷のバーゲンセール中{だ}。なんとお値段が半額！",
+      "target": "지금 노예 떨이 중입니다. 가격이 무려 반값!",
+      "source_ref": [
+        "2.335:data/talk.txt:1487"
+      ],
+      "section": "ASLAVEKEEPER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1491",
+      "source": "@town/Buy a slave? Please, can you buy a slave?! I... I need to make my quota this month. If I don't, m-my mother is going to die!",
+      "target": "노예 좀 사 주세요! 할당량을 못 채우면 우리 어머니가 죽는단 말이에요!",
+      "source_ref": [
+        "2.335:data/talk.txt:1491"
+      ],
+      "section": "ASLAVEKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1492",
+      "source": "@town/Sale! Sale! Sale! 50% off all slaves! While stocks last!",
+      "target": "지금 노예 떨이 중입니다. 가격이 무려 반값!",
+      "source_ref": [
+        "2.335:data/talk.txt:1492"
+      ],
+      "section": "ASLAVEKEEPER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1498",
+      "source": "@town/ラッシャイ！ラッシャイ！",
+      "target": "어서 옵쇼! 어서 옵쇼!",
+      "source_ref": [
+        "2.335:data/talk.txt:1498"
+      ],
+      "section": "CROW,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1499",
+      "source": "@town/おっとそこの格好いい冒険者さん！品揃え見ていってよ！",
+      "target": "어이, 거기 멋쟁이 모험자! 물건 좀 보고 가!",
+      "source_ref": [
+        "2.335:data/talk.txt:1499"
+      ],
+      "section": "CROW,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1500",
+      "source": "@town/安いよー安いよー！",
+      "target": "싸요, 싸! 싸다니까!",
+      "source_ref": [
+        "2.335:data/talk.txt:1500"
+      ],
+      "section": "CROW,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1504",
+      "source": "@town/Caw! Caw!",
+      "target": "까악! 까악!",
+      "source_ref": [
+        "2.335:data/talk.txt:1504"
+      ],
+      "section": "CROW,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1505",
+      "source": "@town/Hullo adventurer! Adventurer hullo! Have a look! Caw!",
+      "target": "어이, 거기 멋쟁이 모험자! 물건 좀 보고 가!",
+      "source_ref": [
+        "2.335:data/talk.txt:1505"
+      ],
+      "section": "CROW,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1506",
+      "source": "@town/Cheap! Cheep! Cheap!",
+      "target": "싸요, 싸! 싸다니까!",
+      "source_ref": [
+        "2.335:data/talk.txt:1506"
+      ],
+      "section": "CROW,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1511",
+      "source": "@town/ハトに働かせるなんてシンプルに頭がおかしい{よ}。",
+      "target": "비둘기한테 일을 시키다니 그냥 제정신이 아니야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1511"
+      ],
+      "section": "PIGEON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1512",
+      "source": "@town/方角は磁気で分かるけど、住所はガードに尋ねないと分からない{な}。",
+      "target": "자기장으로 방향은 알아도 주소는 경비병한테 물어봐야 한다고.",
+      "source_ref": [
+        "2.335:data/talk.txt:1512"
+      ],
+      "section": "PIGEON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1513",
+      "source": "@town/郵政鳥営化しやがってこんちきしょう！",
+      "target": "우편을 새한테 떠넘기다니, 젠장할!",
+      "source_ref": [
+        "2.335:data/talk.txt:1513"
+      ],
+      "section": "PIGEON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1514",
+      "source": "@town/給料の補給品はペリカンが運ぶから管轄外{だ}。",
+      "target": "급료 보급품은 펠리컨이 나르니까 내 소관이 아니야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1514"
+      ],
+      "section": "PIGEON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1515",
+      "source": "@town/コウノトリの奴が赤ちゃん配達しているって言うんだけどホント{かな}？",
+      "target": "황새 녀석이 아기를 배달한다는데 진짜일까?",
+      "source_ref": [
+        "2.335:data/talk.txt:1515"
+      ],
+      "section": "PIGEON,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1519",
+      "source": "@town/Making pigeons do the work is just plain insane.",
+      "target": "비둘기한테 일을 시키다니 그냥 제정신이 아니야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1519"
+      ],
+      "section": "PIGEON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1520",
+      "source": "@town/I can tell directions by magnetism, but I can't figure out an address without asking a guard.",
+      "target": "자기장으로 방향은 알아도 주소는 경비병한테 물어봐야 한다고.",
+      "source_ref": [
+        "2.335:data/talk.txt:1520"
+      ],
+      "section": "PIGEON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1521",
+      "source": "@town/The nerve of them, letting a bird run the postal service!",
+      "target": "우편을 새한테 떠넘기다니, 젠장할!",
+      "source_ref": [
+        "2.335:data/talk.txt:1521"
+      ],
+      "section": "PIGEON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1522",
+      "source": "@town/Pelicans handle the delivery of salary supplies, so that's outside my jurisdiction.",
+      "target": "급료 보급품은 펠리컨이 나르니까 내 소관이 아니야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1522"
+      ],
+      "section": "PIGEON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1523",
+      "source": "@town/They say storks deliver babies, but is that really true?",
+      "target": "황새 녀석이 아기를 배달한다는데 진짜일까?",
+      "source_ref": [
+        "2.335:data/talk.txt:1523"
+      ],
+      "section": "PIGEON,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1528",
+      "source": "@town/巫女様は個人の記憶だけでなく、その個人に関する他者の記憶や記録も消せる{のだ}。素晴らしい。素晴らしい。",
+      "target": "무녀님은 한 사람의 기억뿐 아니라 그 사람에 관한 남들의 기억과 기록까지 지우실 수 있어. 훌륭해. 참으로 훌륭해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1528"
+      ],
+      "section": "OBLIVION,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1529",
+      "source": "@town/記憶消去の際に余計なことを考えていると、発狂したり余計な記憶まで消えてしま{う}。",
+      "target": "기억을 지울 때 딴생각을 하면 미쳐 버리거나 엉뚱한 기억까지 사라져.",
+      "source_ref": [
+        "2.335:data/talk.txt:1529"
+      ],
+      "section": "OBLIVION,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1530",
+      "source": "@town/気を抜くと、その辺を徘徊している連中の仲間入り{だ}。",
+      "target": "정신을 놓으면 저기 돌아다니는 녀석들과 한패가 되고 말아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1530"
+      ],
+      "section": "OBLIVION,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1531",
+      "source": "@town/その昔、致命傷を負わされて巫女様は力の大部分を失っている{のだ}。本来なら対象の意志なんて関係ないという話{だ}。",
+      "target": "옛날에 무녀님은 치명상을 입고 힘을 대부분 잃으셨어. 원래대로라면 상대의 뜻 따위는 상관없다고 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1531"
+      ],
+      "section": "OBLIVION,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1532",
+      "source": "@town/巫女様は本来ならこんなところに籠っているような存在ではない{のだ}。",
+      "target": "무녀님은 원래 이런 데 틀어박혀 계실 분이 아니야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1532"
+      ],
+      "section": "OBLIVION,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1533",
+      "source": "@town/人は忘れるから生きていける{のだ}｡ 苦しいことや悲しいことを全部覚えていたのでは、辛くて仕方ない{だろ}｡",
+      "target": "사람은 잊기 때문에 살아갈 수 있어. 괴롭고 슬픈 일을 죄다 기억한다면 너무 고통스럽잖아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1533"
+      ],
+      "section": "OBLIVION,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1537",
+      "source": "@town/The Shaman can do more than just erase a person's memories. She can also erase those of every acquaintance he's ever had. Wonderful, is it not? Simply wonderful...",
+      "target": "무녀님은 한 사람의 기억뿐 아니라 그 사람에 관한 남들의 기억과 기록까지 지우실 수 있어. 훌륭해. 참으로 훌륭해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1537"
+      ],
+      "section": "OBLIVION,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1538",
+      "source": "@town/If you don't keep your mind blank when erasing memories, she might just end up accidentally erasing more than what's necessary... along with your sanity.",
+      "target": "기억을 지울 때 딴생각을 하면 미쳐 버리거나 엉뚱한 기억까지 사라져.",
+      "source_ref": [
+        "2.335:data/talk.txt:1538"
+      ],
+      "section": "OBLIVION,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1539",
+      "source": "@town/Before you realize it, you're already one of them.",
+      "target": "정신을 놓으면 저기 돌아다니는 녀석들과 한패가 되고 말아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1539"
+      ],
+      "section": "OBLIVION,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1540",
+      "source": "@town/The Shaman lost most of her power a long time ago when she was injured. She used to be able to manipulate even the free will of people.",
+      "target": "옛날에 무녀님은 치명상을 입고 힘을 대부분 잃으셨어. 원래대로라면 상대의 뜻 따위는 상관없다고 해.",
+      "source_ref": [
+        "2.335:data/talk.txt:1540"
+      ],
+      "section": "OBLIVION,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1541",
+      "source": "@town/Someone of the Shaman's status should not be cooped up here like a caged bird.",
+      "target": "무녀님은 원래 이런 데 틀어박혀 계실 분이 아니야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1541"
+      ],
+      "section": "OBLIVION,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1542",
+      "source": "@town/People live by forgetting. Memories of pain and sadness will only bring you suffering.",
+      "target": "사람은 잊기 때문에 살아갈 수 있어. 괴롭고 슬픈 일을 죄다 기억한다면 너무 고통스럽잖아.",
+      "source_ref": [
+        "2.335:data/talk.txt:1542"
+      ],
+      "section": "OBLIVION,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1546",
+      "source": "@town/ちゃんと頼めば、降臨した神々もすんなり帰ってくれるだろう。",
+      "target": "정중히 부탁하면 강림한 신들도 순순히 돌아가 주실 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1546"
+      ],
+      "section": "PRAY,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1547",
+      "source": "@town/真の姿で暴れだした神は止められない。だが送還を願えば、あるいは…。",
+      "target": "본모습을 드러내고 날뛰는 신은 막을 수 없어. 하지만 돌려보내 달라 소원을 빈다면 어쩌면…",
+      "source_ref": [
+        "2.335:data/talk.txt:1547"
+      ],
+      "section": "PRAY,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1548",
+      "source": "@town/敬虔な信者が11月に休戦地で祈る時、神はその姿を現すだろう。",
+      "target": "11월에 독실한 신자가 휴전지에서 기도를 올리면 신이 모습을 드러내실 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1548"
+      ],
+      "section": "PRAY,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1549",
+      "source": "@town/楽園と呼ばれるほどの場所ならば、神も喜んで招待に応じるだろう。",
+      "target": "낙원이라고 불릴 만한 곳이라면 신도 기꺼이 초대에 응하실 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1549"
+      ],
+      "section": "PRAY,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1553",
+      "source": "@town/If you ask nicely, I'm sure even the Gods would be willing to leave.",
+      "target": "정중히 부탁하면 강림한 신들도 순순히 돌아가 주실 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1553"
+      ],
+      "section": "PRAY,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1554",
+      "source": "@town/A God rampaging in His true form cannot be stopped. Should you truly Wish for it, however...",
+      "target": "본모습을 드러내고 날뛰는 신은 막을 수 없어. 하지만 돌려보내 달라 소원을 빈다면 어쩌면…",
+      "source_ref": [
+        "2.335:data/talk.txt:1554"
+      ],
+      "section": "PRAY,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1555",
+      "source": "@town/Gods will reveal Themselves to the most pious when they pray at the Truce Ground in the 11th month.",
+      "target": "11월에 독실한 신자가 휴전지에서 기도를 올리면 신이 모습을 드러내실 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1555"
+      ],
+      "section": "PRAY,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1556",
+      "source": "@town/Not even a God would be able to resist an invitation to visit Heaven on Irva, should there be one.",
+      "target": "낙원이라고 불릴 만한 곳이라면 신도 기꺼이 초대에 응하실 거야.",
+      "source_ref": [
+        "2.335:data/talk.txt:1556"
+      ],
+      "section": "PRAY,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1561",
+      "source": "@town/消去法は選択肢の中に完璧な正解があると確定している場合にしか使えない{のだ}。曖昧な状況で無闇に使うのは危険{だな}。",
+      "target": "소거법은 선택지 안에 정확한 답이 하나 있다는 게 확실할 때만 써야 해. 애매한 상황에서 함부로 쓰면 위험하지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1561"
+      ],
+      "section": "DETECTIVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1562",
+      "source": "@town/事実とは真実に至るための道標{だ}。特定の事実が抜け落ちていたり、虚偽が混ざっていれば、真実とは異なる結論を出しかねない{よ}。たった一つの事実では、たった一つの真実に辿り着けない{のだ}。",
+      "target": "사실은 진실로 향하는 이정표야. 중요한 사실이 빠졌거나 거짓이 섞였다면 엉뚱한 결론에 이를 수 있어. 사실 하나만으로는 단 하나뿐인 진실에 닿을 수 없지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1562"
+      ],
+      "section": "DETECTIVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1563",
+      "source": "@town/{me}たち探偵は、調査によって人に化けた魔物を見抜くことができる{よ}。ただし探偵に化ける狼や、頭のおかしい探偵も時々いる{な}。",
+      "target": "우리 탐정들은 조사해서 사람으로 둔갑한 마물을 가려낼 수 있어. 가끔은 탐정으로 둔갑한 늑대나 제정신이 아닌 탐정도 있지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1563"
+      ],
+      "section": "DETECTIVE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1567",
+      "source": "@town/Deduction by elimination should never be used unless one is perfectly sure that one of the choices available is correct. It must never be used when there is ambiguity.",
+      "target": "소거법은 선택지 안에 정확한 답이 하나 있다는 게 확실할 때만 써야 해. 애매한 상황에서 함부로 쓰면 위험하지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1567"
+      ],
+      "section": "DETECTIVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1568",
+      "source": "@town/Facts pave the way to the truth. Should you overlook a crucial fact or have falsehoods mixed in with your facts, however, then the conclusion you derive will deviate from the truth. There is but one truth and one path to it.",
+      "target": "사실은 진실로 향하는 이정표야. 중요한 사실이 빠졌거나 거짓이 섞였다면 엉뚱한 결론에 이를 수 있어. 사실 하나만으로는 단 하나뿐인 진실에 닿을 수 없지.",
+      "source_ref": [
+        "2.335:data/talk.txt:1568"
+      ],
+      "section": "DETECTIVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1569",
+      "source": "@town/Detectives like us are able to discern monsters hiding amongst people through our investigation. You need to watch out for werewolves disguising themselves as detectives, though, as well as detectives who have gone insane.",
+      "target": "우리 탐정들은 조사해서 사람으로 둔갑한 마물을 가려낼 수 있어. 가끔은 탐정으로 둔갑한 늑대나 제정신이 아닌 탐정도 있지만.",
+      "source_ref": [
+        "2.335:data/talk.txt:1569"
+      ],
+      "section": "DETECTIVE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1573",
+      "source": "@town/イルマという職人は金を払って自分のいい噂を流している…という噂を聞いた{よ}。",
+      "target": "이르마라는 장인이 돈을 주고 자기 칭찬을 퍼뜨린다더군… 그런 소문을 들었어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1573"
+      ],
+      "section": "DAIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1574",
+      "source": "@town/イルマという職人が作った武器は、少し熱にさらしただけで溶けてしまう粗悪品らしい{よ}。",
+      "target": "이르마라는 장인이 만든 무기는 열만 좀 쬐어도 녹아 버리는 싸구려라더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1574"
+      ],
+      "section": "DAIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1575",
+      "source": "@town/イルマという職人は集落唯一の跡継ぎを誘拐した極悪人らしい{よ}。",
+      "target": "이르마라는 장인이 마을의 하나뿐인 후계자를 납치한 악당이라더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1575"
+      ],
+      "section": "DAIN,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1579",
+      "source": "@town/There's a smith by the name of Irma who is paying people to spread good rumours about her... according to the rumours anyway.",
+      "target": "이르마라는 장인이 돈을 주고 자기 칭찬을 퍼뜨린다더군… 그런 소문을 들었어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1579"
+      ],
+      "section": "DAIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1580",
+      "source": "@town/There's a smith by the name of Irma. I've heard her weapons melt on sunny days.",
+      "target": "이르마라는 장인이 만든 무기는 열만 좀 쬐어도 녹아 버리는 싸구려라더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1580"
+      ],
+      "section": "DAIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1581",
+      "source": "@town/There's a smith by the name of Irma here. People say she's a villain who kidnapped the sole successor to this village.",
+      "target": "이르마라는 장인이 마을의 하나뿐인 후계자를 납치한 악당이라더라.",
+      "source_ref": [
+        "2.335:data/talk.txt:1581"
+      ],
+      "section": "DAIN,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1586",
+      "source": "@town/特別に私が愛を込めて作ったお弁当を売ってあげるのだー☆",
+      "target": "특별히 내가 사랑을 듬뿍 담아 만든 도시락을 팔아 줄게~☆",
+      "source_ref": [
+        "2.335:data/talk.txt:1586"
+      ],
+      "section": "SISTER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1587",
+      "source": "@town/込められてるのは愛だけじゃなかったりして！ふふ、冗談だよ♪",
+      "target": "들어 있는 게 사랑만은 아닐지도? 후훗, 농담이야♪",
+      "source_ref": [
+        "2.335:data/talk.txt:1587"
+      ],
+      "section": "SISTER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1591",
+      "source": "@town/Do you want a lunch made with my love?",
+      "target": "특별히 내가 사랑을 듬뿍 담아 만든 도시락을 팔아 줄게~☆",
+      "source_ref": [
+        "2.335:data/talk.txt:1591"
+      ],
+      "section": "SISTER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1592",
+      "source": "@town/This lunch has been more than just love!",
+      "target": "들어 있는 게 사랑만은 아닐지도? 후훗, 농담이야♪",
+      "source_ref": [
+        "2.335:data/talk.txt:1592"
+      ],
+      "section": "SISTER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1610",
+      "source": "@town/Hey sexy, wanna relax for a while?",
+      "target": "어머, 매력적인데? 잠깐 쉬었다 갈래?",
+      "source_ref": [
+        "2.335:data/talk.txt:1610"
+      ],
+      "section": "BITCH,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1614",
+      "source": "@town/今日は出血大サービス…鼻血が止まらなくなるようなイイコトをしてあげるわよ。",
+      "target": "오늘은 피가 철철 나는 특별 서비스야… 코피가 멎지 않을 만큼 좋은 일을 해 줄게.",
+      "source_ref": [
+        "2.335:data/talk.txt:1614"
+      ],
+      "section": "ABITCH,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1619",
+      "source": "@town/We're having a special event today. It's the do-the-deed-till-you-bleed event! Bleed through your nose, that is. How about it, baby?",
+      "target": "오늘은 피가 철철 나는 특별 서비스야… 코피가 멎지 않을 만큼 좋은 일을 해 줄게.",
+      "source_ref": [
+        "2.335:data/talk.txt:1619"
+      ],
+      "section": "ABITCH,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1624",
+      "source": "@town/当機では様々な商品の機内販売をしております。どうぞご利用ください。",
+      "target": "기내에서 다양한 상품을 판매하고 있습니다. 많은 이용 바랍니다.",
+      "source_ref": [
+        "2.335:data/talk.txt:1624"
+      ],
+      "section": "AILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1628",
+      "source": "@town/We have all sorts of items on board. Do check out our inflight shopping catalogue.",
+      "target": "기내에서 다양한 상품을 판매하고 있습니다. 많은 이용 바랍니다.",
+      "source_ref": [
+        "2.335:data/talk.txt:1628"
+      ],
+      "section": "AILE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1632",
+      "source": "@town/当機の高度が１０００フィート以下になりますと、機内に仕掛けられた爆弾が爆発いたします。地上までゆったりとおくつろぎください。",
+      "target": "본 항공기는 고도가 1,000피트 아래로 내려가면 기내에 설치된 폭탄이 폭발합니다. 지상에 도착할 때까지 편안한 여행 되십시오.",
+      "source_ref": [
+        "2.335:data/talk.txt:1632"
+      ],
+      "section": "AAILE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1636",
+      "source": "@town/This plane is rigged to blow when the altitude is below 1000 feet. Please sit back, relax, and enjoy the trip back down to the ground. It won't take long.",
+      "target": "본 항공기는 고도가 1,000피트 아래로 내려가면 기내에 설치된 폭탄이 폭발합니다. 지상에 도착할 때까지 편안한 여행 되십시오.",
+      "source_ref": [
+        "2.335:data/talk.txt:1636"
+      ],
+      "section": "AAILE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1640",
+      "source": "@town/お客さん、怯えなくても大丈夫だ。この怪物は、魔法によって身動き一つとれないんだ。さあ、見物ついでに、うちの商品も見ていってくれ。",
+      "target": "손님, 겁먹지 마세요. 이 괴물은 마법에 묶여 꼼짝도 못 합니다. 자, 구경하신 김에 저희 상품도 둘러보고 가세요.",
+      "source_ref": [
+        "2.335:data/talk.txt:1640"
+      ],
+      "section": "MOYER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1641",
+      "source": "@town/これなるは、かのネフィアの迷宮ベロンを支配した、伝説の火の巨人！今日立ち寄ったあなたは、実に運がいい！さあ、この神々しくも禍々しい怪物の雄姿を、とくとご覧あれ。商品を買ってくれれば、お触りもオッケーだよ。",
+      "target": "눈앞에 보이는 이것이 바로 네피아의 미궁 베론을 지배했던 전설의 불거인입니다! 오늘 오신 손님은 참 운도 좋으십니다. 자, 이 신성하면서도 흉흉한 괴물의 위용을 실컷 감상하세요. 물건을 사시면 만져 보셔도 됩니다.",
+      "source_ref": [
+        "2.335:data/talk.txt:1641"
+      ],
+      "section": "MOYER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1645",
+      "source": "@town/Hear hear! This monster before you is the notorious fire giant who ruled Verron of Nefia for a century. You're lucky, quite lucky to have him chained before you today! Indeed, this monster could burn the whole village if it weren't for the magical chains that bind him. Buy some goods at my shop, and I will even let you touch this fearsome giant!",
+      "target": "자, 주목! 눈앞의 이 괴물이 네피아의 베론을 한 세기나 호령했던 악명 높은 불거인이오! 이렇게 사슬에 묶인 걸 보시다니 오늘 손님은 참 운도 좋으시지! 마법 사슬이 붙들고 있지 않다면 온 마을을 태우고도 남을 놈이라오. 우리 가게 물건을 사시면 이 무시무시한 거인을 만져 보셔도 됩니다!",
+      "source_ref": [
+        "2.335:data/talk.txt:1645"
+      ],
+      "section": "MOYER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1646",
+      "source": "@town/Don't worry. He can't move a muscle while he is shackled.",
+      "target": "걱정 마시오. 저렇게 사슬에 묶여 있는 한 조금도 못 움직이오.",
+      "source_ref": [
+        "2.335:data/talk.txt:1646"
+      ],
+      "section": "MOYER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1650",
+      "source": "@town/冷やかし目的の悪い子は巨人に食べられちゃうぞ～。",
+      "target": "구경만 하러 온 나쁜 아이는 거인이 한입에 꿀꺽한다~",
+      "source_ref": [
+        "2.335:data/talk.txt:1650"
+      ],
+      "section": "AMOYER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1651",
+      "source": "@town/エボンには一人の弟がいた…その名はオボン！後に、迷宮の支配権をめぐって二体の巨人は壮絶な戦いを繰り広げることになる…。",
+      "target": "에본에게는 남동생이 하나 있었으니… 이름하여 오본! 훗날 두 거인은 미궁의 지배권을 놓고 장렬한 싸움을 벌이게 된다…",
+      "source_ref": [
+        "2.335:data/talk.txt:1651"
+      ],
+      "section": "AMOYER,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1655",
+      "source": "@town/Naughty customers who look around and don't buy anything get eaten up by the giant in one gulp.",
+      "target": "구경만 하러 온 나쁜 아이는 거인이 한입에 꿀꺽한다~",
+      "source_ref": [
+        "2.335:data/talk.txt:1655"
+      ],
+      "section": "AMOYER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1656",
+      "source": "@town/Ebon had a little brother... and his name was Obon! The two of them battled fiercely to become the rightful ruler of their dungeon.",
+      "target": "에본에게는 남동생이 하나 있었으니… 이름하여 오본! 훗날 두 거인은 미궁의 지배권을 놓고 장렬한 싸움을 벌이게 된다…",
+      "source_ref": [
+        "2.335:data/talk.txt:1656"
+      ],
+      "section": "AMOYER,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1670",
+      "source": "@town/くっ、殺せ！",
+      "target": "윽, 차라리 죽여라!",
+      "source_ref": [
+        "2.335:data/talk.txt:1670"
+      ],
+      "section": "INMATE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1671",
+      "source": "@town/家に帰りたい{よ}…。",
+      "target": "집에 가고 싶어…",
+      "source_ref": [
+        "2.335:data/talk.txt:1671"
+      ],
+      "section": "INMATE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1672",
+      "source": "@town/いつか脱走してやる{のだ}。",
+      "target": "언젠가는 꼭 탈출하고 말겠어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1672"
+      ],
+      "section": "INMATE,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1676",
+      "source": "@town/Damn, better yet, kill me!",
+      "target": "윽, 차라리 죽여라!",
+      "source_ref": [
+        "2.335:data/talk.txt:1676"
+      ],
+      "section": "INMATE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1677",
+      "source": "@town/I want to go back home...",
+      "target": "집에 가고 싶어…",
+      "source_ref": [
+        "2.335:data/talk.txt:1677"
+      ],
+      "section": "INMATE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1678",
+      "source": "@town/Someday, I'll escape.",
+      "target": "언젠가는 꼭 탈출하고 말겠어.",
+      "source_ref": [
+        "2.335:data/talk.txt:1678"
+      ],
+      "section": "INMATE,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1683",
+      "source": "@town/おきつねこんこんランド開園～！わぁい！",
+      "target": "여우 콩콩랜드 개장~! 신난다!",
+      "source_ref": [
+        "2.335:data/talk.txt:1683"
+      ],
+      "section": "YOUKO,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1684",
+      "source": "@town/今のうちに人狼の残党を殲滅するのがおすすめでフォックス。",
+      "target": "지금 남은 늑대인간을 소탕해 두는 걸 추천한다여우.",
+      "source_ref": [
+        "2.335:data/talk.txt:1684"
+      ],
+      "section": "YOUKO,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1685",
+      "source": "@town/住民に化けている間、耳と尻尾を隠すのがストレスだったコン。",
+      "target": "주민으로 둔갑해 지내는 동안 귀랑 꼬리를 감추느라 아주 죽는 줄 알았다콩.",
+      "source_ref": [
+        "2.335:data/talk.txt:1685"
+      ],
+      "section": "YOUKO,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1689",
+      "source": "@town/Okitsune Konkon Land is now open! Yay!",
+      "target": "여우 콩콩랜드 개장~! 신난다!",
+      "source_ref": [
+        "2.335:data/talk.txt:1689"
+      ],
+      "section": "YOUKO,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1690",
+      "source": "@town/I recommend eliminating the remaining werewolves while you can.",
+      "target": "지금 남은 늑대인간을 소탕해 두는 걸 추천한다여우.",
+      "source_ref": [
+        "2.335:data/talk.txt:1690"
+      ],
+      "section": "YOUKO,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1691",
+      "source": "@town/Hiddening my ears and tail while I was disguised as a citizen was stressful.",
+      "target": "주민으로 둔갑해 지내는 동안 귀랑 꼬리를 감추느라 아주 죽는 줄 알았다콩.",
+      "source_ref": [
+        "2.335:data/talk.txt:1691"
+      ],
+      "section": "YOUKO,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1696",
+      "source": "@town/(震えながらあなたを見ている)",
+      "target": "(몸을 떨며 당신을 바라본다.)",
+      "source_ref": [
+        "2.335:data/talk.txt:1696"
+      ],
+      "section": "INOTIGOI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1697",
+      "source": "@town/(あなたを一瞥すると、真っ青になった)",
+      "target": "(당신을 흘끗 보더니 얼굴이 새파래졌다.)",
+      "source_ref": [
+        "2.335:data/talk.txt:1697"
+      ],
+      "section": "INOTIGOI,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1709",
+      "source": "@town/(退屈そうにあなたを見ている)",
+      "target": "(따분하다는 듯 당신을 바라본다.)",
+      "source_ref": [
+        "2.335:data/talk.txt:1709"
+      ],
+      "section": "BORED,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1710",
+      "source": "@town/(あなたを一瞥すると、そっぽを向いた)",
+      "target": "(당신을 흘끗 보더니 고개를 돌렸다.)",
+      "source_ref": [
+        "2.335:data/talk.txt:1710"
+      ],
+      "section": "BORED,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1721",
+      "source": "@town/(あなたをじっと見ている)",
+      "target": "(당신을 물끄러미 바라본다.)",
+      "source_ref": [
+        "2.335:data/talk.txt:1721"
+      ],
+      "section": "ALLY_DEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1722",
+      "source": "@town/…？",
+      "target": "…?",
+      "source_ref": [
+        "2.335:data/talk.txt:1722"
+      ],
+      "section": "ALLY_DEFAULT,JP",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1727",
+      "source": "@town/...?",
+      "target": "…?",
+      "source_ref": [
+        "2.335:data/talk.txt:1727"
+      ],
+      "section": "ALLY_DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1728",
+      "source": "@town/Did you need something?",
+      "target": "부탁할 일이라도 있어?",
+      "source_ref": [
+        "2.335:data/talk.txt:1728"
+      ],
+      "section": "ALLY_DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1729",
+      "source": "@town/What do you want?",
+      "target": "무슨 일이야?",
+      "source_ref": [
+        "2.335:data/talk.txt:1729"
+      ],
+      "section": "ALLY_DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1730",
+      "source": "@town/What's up?",
+      "target": "왜 그래?",
+      "source_ref": [
+        "2.335:data/talk.txt:1730"
+      ],
+      "section": "ALLY_DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1731",
+      "source": "@town/Is something wrong?",
+      "target": "무슨 문제 있어?",
+      "source_ref": [
+        "2.335:data/talk.txt:1731"
+      ],
+      "section": "ALLY_DEFAULT,EN",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "people.1732",
+      "source": "@town/What is it?",
+      "target": "뭔데?",
+      "source_ref": [
+        "2.335:data/talk.txt:1732"
+      ],
+      "section": "ALLY_DEFAULT,EN",
+      "review_status": "reviewed"
+    }
+  ]
+}
