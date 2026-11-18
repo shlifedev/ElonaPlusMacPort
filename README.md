@@ -2,7 +2,7 @@
 
 ElonaPlus **2.335**의 게임 규칙과 데이터를 보존하면서 **macOS ARM64 / Windows x64**에서 네이티브로 실행하기 위한 이식 프로젝트다. Custom-GX는 코드 복원과 유지보수 방식의 참고 자료이며 초기 기능 기준은 원본 2.335다.
 
-**현재 실험용 개발 빌드다.** Mac ARM64와 Windows x64에서 실제 네이티브 타이틀 창, 자동 입력을 통한 신규게임·맵 이동·저장종료·새 프로세스에서 프로필 복사본 로드를 확인했다. Mac 음악은 실제 CoreAudio 출력 경로의 MIDI/MP3·반복·정지·효과음 동시 재생 검사를 통과했다. OS 입력기를 이용한 수동 IME 입력, 장시간 실시간 플레이 및 전체 기능 동등성은 아직 검증이 남아 있다. Wine/Rosetta는 사용하지 않는다.
+**현재 실험용 개발 빌드다.** macOS ARM64와 Windows x64에서 자동 입력으로 신규 게임, 맵 이동, 저장 후 새 프로세스에서 불러오기를 확인했다. Mac에서는 실제 SDL 창과 CoreAudio 음악·효과음 출력을 확인했다. 최근 Windows 검증에서 내부 렌더러는 타이틀을 그렸지만 외부 창 캡처에는 앞선 언어 선택 화면이 남았다. 전체 화면 설정으로 시작하면 현재 호스트가 종료된다. 장시간 수동 플레이와 OS 입력기를 통한 입력은 추가 검증이 필요하다. [Astra 6.2 검수 기록](docs/ASTRA_62_REVIEW.md)
 
 ## 에이전트와 개발자 시작점
 
@@ -19,6 +19,7 @@ Claude는 [CLAUDE.md](CLAUDE.md)에서 같은 지침으로 진입한다. 모바�
 
 ```sh
 python3 tools/prepare_game.py --game-dir elonaplus2.335 --output work/extracted/2.335
+python3 tools/normalize_legacy_ax.py work/extracted/2.335/start.ax --output work/normalized/2.335/start.ax
 python3 tools/bootstrap_borscht.py
 python3 tools/decompile_game.py
 python3 tools/audit_compatibility.py
