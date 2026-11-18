@@ -1,0 +1,405 @@
+{
+  "origin": {
+    "kind": "independent-translation",
+    "reference": "ElonaPlus 2.335 race and class definition buff = lang(), before creation-screen line wrapping",
+    "source_sha256": "c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55"
+  },
+  "entries": [
+    {
+      "id": "creation.bio.434530.ja",
+      "source": "@creation-bio/シエラ・テール西方で急速に台頭してきた新王国の人間が、イェルスです。彼らは現実的な思考を好み、エイス・テールの文明を崇拝する一方で、それが例え自らの理解を超えていても、利益になるものであれば積極的にとりいれようとする柔軟性を持っています。彼らは高い学習能力を持ち、ほぼ全ての職業に適応することができます。イェルスは機械武装の扱いにたけ、追加の成長ボーナスを受け取ります。",
+      "target": "시에라 테르 서쪽에서 급부상한 신왕국 이에르스의 국민. 옛 에이스 테르 문명을 숭상하며, 이해할 수 없는 것도 이롭다면 기꺼이 받아들인다. 배움이 빨라 거의 모든 직업에 적합하다. 기계 무장을 잘 다루며 추가 성장 보너스를 얻는다.",
+      "source_ref": [
+        "2.335:start.hsp:434530"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.434530.en",
+      "source": "@creation-bio/The young kingdom which worships the ancient scientific civilization called Eyth Terre has gained power in the west. While they are realists amd materialistic, they are also adaptable to things that are beyond their comprehension if it benefits the kingdom. Yerles fit well in every class with their outstanding learning ability. They receive extra skill points with every level that they gain.",
+      "target": "고대 과학 문명 에이스 테르를 숭상하는 서방의 신흥 왕국민. 현실과 물질을 중시하지만 왕국에 이롭다면 이해를 넘어선 것도 받아들인다. 배움이 빨라 어느 직업이든 잘 맞으며, 레벨이 오를 때마다 스킬 포인트를 추가로 받는다.",
+      "source_ref": [
+        "2.335:start.hsp:434530"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.434676.ja",
+      "source": "@creation-bio/エウダーナは最も古い国の一つで、今もなお強力な大国です。彼らは、自分たちのみが世界を動かすに値すると考える選民意識の持ち主で、エリートであり、完ぺき主義者です。エウダーナは魔法や魔法道具の扱いにたけ、キャスターや中間的な職業に向いています。彼らは高い詠唱能力と魔法への耐性をもっています。",
+      "target": "오랜 세월 강대국의 자리를 지킨 에우데르나의 국민. 자신들만이 세계를 이끌 자격이 있다고 믿는 완벽주의자들이다. 마법과 마법 도구에 능해 주문직과 마법을 겸하는 직업에 알맞다. 주문을 능숙하게 외우며 마법에 내성이 있다.",
+      "source_ref": [
+        "2.335:start.hsp:434676"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.434676.en",
+      "source": "@creation-bio/Eulderna is one of the most ancient races in Sierra Terre. Egoism and elitism dominate every thought behind actions of these perfectionists. They, are suitable to caster or hybrid classes as they are adept at magics and using magical devices. Euldernas have resistance to magic.",
+      "target": "시에라 테르에서 가장 오래된 종족 가운데 하나. 자기중심적이고 선민의식이 강한 완벽주의자들이다. 마법과 마법 도구를 잘 다뤄 주문직이나 마법을 겸하는 직업에 적합하며, 마법에 내성이 있다.",
+      "source_ref": [
+        "2.335:start.hsp:434676"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.434749.ja",
+      "source": "@creation-bio/妖精は可憐で非力で儚い生物です。彼女達は、人間族と比べて高い魔力と回避力、目にも止まらぬすばしっこさを持ち、ほぼ全ての耐性に高い抵抗力を持っています。反面、妖精は重さ2sを超える装備を身につけることができず、防御力をあげるのは困難です。その体力の低さからも、まともな物理攻撃を一度でもくらうと危機に陥るでしょう。",
+      "target": "가냘프고 사랑스러운 요정. 눈에 보이지 않을 만큼 재빠르고 마력과 회피력이 높으며 거의 모든 속성에 강하다. 무게가 2s를 넘는 장비는 착용할 수 없어 방어력을 높이기 어렵다. 체력이 낮아 제대로 한 대만 맞아도 위험하다.",
+      "source_ref": [
+        "2.335:start.hsp:434749"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.434749.en",
+      "source": "@creation-bio/Fairies are cute, mysterious, and fragile. Compared to the human race, they are gifted with superior skills of using magic and evading. In contrast, the lack of physical power makes it difficult for them to carry even the smallest of things, making it impossible for them to wear equipment weighing over 2s. Fairies have outstanding resistances to all elements.",
+      "target": "귀엽고 신비롭지만 연약한 요정. 인간보다 마법과 회피에 능하며 모든 속성에 뛰어난 내성이 있다. 힘이 약해 작은 짐도 버거워하고 무게가 2s를 넘는 장비는 착용할 수 없다.",
+      "source_ref": [
+        "2.335:start.hsp:434749"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435041.ja",
+      "source": "@creation-bio/丘の民、別名ドワーフは頑強で無骨な背の低い種族です。彼らは高い耐久力と力を持ち、幾つかの生産系の技術にも精通しています。彼らには暗黒と強い毒への耐性があります。",
+      "target": "언덕의 백성이라 불리는 드워프는 키가 작고 다부지며 무뚝뚝하다. 힘과 내구력이 뛰어나고 여러 생산 기술에 능하다. 암흑에 내성이 있으며 독에는 특히 강하다.",
+      "source_ref": [
+        "2.335:start.hsp:435041"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435041.en",
+      "source": "@creation-bio/A Dwarf is a child of the earth. As tough and unyielding as the mountains they love, most Dwarves will live their whole lives underground, mining, smelting, and smithing. Some few leave the depths to become adventurers, hoping to make enough coin to start their own clan. Good with technology, and tough against things dark and poisonous.",
+      "target": "대지의 자식 드워프는 산처럼 굳세고 끈질기다. 대개 평생 땅속에서 광석을 캐고 쇠를 녹여 벼린다. 가끔은 자기 씨족을 세울 밑천을 벌려고 모험에 나선다. 기술에 밝고 암흑과 독에 강하다.",
+      "source_ref": [
+        "2.335:start.hsp:435041"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435110.ja",
+      "source": "@creation-bio/ジューアは、元は盗賊や悪人のあつまりであり、今もならず者国家として嫌われる国です。彼らは束縛されることを嫌い、自分の意思を尊重し、自由に生きることを好みます。ジューアは手先が器用で、鋭い感覚と高い学習能力を持ち、多彩な技術に精通しています。彼らはパフォーマンスをすることで生計をたてることができ、空腹に強く、採取スポットでより長い時間採取できます。",
+      "target": "도적과 악당이 세운 나라 주아는 아직도 무법 국가라며 미움받는다. 주아인은 속박을 싫어하고 제 뜻대로 산다. 손재주와 감각이 좋고 배움이 빨라 온갖 기술에 능하다. 공연으로 먹고살 수 있고 굶주림에 강하며 채집터에서 더 오래 채집한다.",
+      "source_ref": [
+        "2.335:start.hsp:435110"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435110.en",
+      "source": "@creation-bio/The Juere are a people wild and free. Scorning the \"weaker\" laws of others, they quickly learn the tricks and technologies of others before ever moving onwards. Their pride makes them great performers, and are strong against hunger. Nimble of hand, and Bold of character, no two Juere are ever the same.",
+      "target": "자유분방한 주아인은 남들의 법을 나약하다며 비웃는다. 낯선 재주나 기술도 금세 익히고 다시 길을 떠난다. 자부심 강한 타고난 예능인이며 굶주림에 잘 견딘다. 손은 날래고 성격은 대담하되, 같은 주아인은 둘도 없다.",
+      "source_ref": [
+        "2.335:start.hsp:435110"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435266.ja",
+      "source": "@creation-bio/エレアは、幾つもの世代を生き抜いたエルフの末梢で、他の種族から姿を隠し、静かに生活しています。彼らこそが、レム・イドを滅ぼした災厄の元凶であるとするザナンの皇子のバッシングにより、彼らは他の種族から嫌われています。エレアはエーテルへの耐性と高い魔力を持ち、魔力の反動によるダメージを軽減することができます。",
+      "target": "엘레아는 숱한 세대를 살아남은 엘프의 후예로, 세상을 피해 조용히 산다. 레므 이도를 멸망시킨 재앙의 원흉이라는 자난 황자의 비난 때문에 다른 종족의 미움을 샀다. 마력이 높고 에테르에 내성이 있으며 마력의 반동으로 입는 피해가 적다.",
+      "source_ref": [
+        "2.335:start.hsp:435266"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435266.en",
+      "source": "@creation-bio/Elea, known by the other peoples of the world as \"Elf's\", live quietly in their forests, far from man. Nimble and graceful, their bows are of legend, and their wizards have forgotten more of magic than many will ever know. Still, the young ones from time to time leave and go on adventures, if only to fill their memories for their long lives.",
+      "target": "다른 민족이 엘프라 부르는 엘레아는 사람을 피해 숲에서 조용히 산다. 몸놀림이 날렵하고 우아하며 활솜씨는 전설적이다. 마법사들이 잊어버린 지식만도 남들의 평생 배움보다 많다. 긴 생에 간직할 추억을 찾아 모험을 떠나는 젊은이도 있다.",
+      "source_ref": [
+        "2.335:start.hsp:435266"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435611.ja",
+      "source": "@creation-bio/カタツムリは非常に鈍い生き物です。彼らは脆く、非力で、不器用で、学習能力がなく、塩で溶けます。",
+      "target": "달팽이는 몹시 굼뜨다. 몸은 약하고 힘도 없으며 손재주도 배울 재주도 없다. 소금을 뿌리면 녹는다.",
+      "source_ref": [
+        "2.335:start.hsp:435611"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.435611.en",
+      "source": "@creation-bio/Despite the fears that one day the rats will inherit the World, thanks to the Etherwind it seems the snails have gotten a head start. Slow and dull, even the mightiest among them fears salt, garlic and butter. Still for those seeking a true challenge, ony can harly do worse than being a snail. Can you imagine the looks of others when you inch ever so slowly towards them?",
+      "target": "언젠가 쥐가 세상을 차지하리라더니, 에테르 바람 덕에 달팽이가 한발 앞섰다. 굼뜨고 둔해 제아무리 강해도 소금과 마늘과 버터 앞에선 떤다. 진짜 고생을 원한다면 제격이다. 당신이 한 치씩 기어갈 때 사람들 표정은 어떨까?",
+      "source_ref": [
+        "2.335:start.hsp:435611"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.436025.ja",
+      "source": "@creation-bio/リッチは高い知能と魔力を備えた不朽のアンデッドです。彼らは通常の種族よりも高いマナと瞑想の技術を得ますが、肉弾戦に耐え切れるほどの体力はありません。リッチは冷気と毒と強い暗黒への耐性を持っています。",
+      "target": "리치는 지능과 마력이 높은 불멸의 언데드다. 다른 종족보다 마나가 많고 명상에 능하지만 육탄전을 견딜 체력은 없다. 냉기와 독에 내성이 있으며 암흑에는 특히 강하다.",
+      "source_ref": [
+        "2.335:start.hsp:436025"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.436025.en",
+      "source": "@creation-bio/When a powerful magus grows near death, their desire to live on makes them attempt lichdom. Of the many who try every century, barely a handful succeed. Most fail and die, but some few partially make it, though the process robs them of much of their memories and skills. Their young \"age\" is their new \"life\" beginning anew, but they are patient. After all, they have all the time in the world now.",
+      "target": "죽음을 앞둔 대마법사는 생을 붙들고자 리치가 되는 의식에 도전한다. 한 세기에 성공하는 이는 몇 되지 않는다. 대개 죽고, 가까스로 살아도 기억과 재주를 많이 잃는다. 어린 나이는 새 삶을 막 시작했다는 뜻. 이제 시간은 얼마든지 있다.",
+      "source_ref": [
+        "2.335:start.hsp:436025"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.436874.ja",
+      "source": "@creation-bio/ゴブリンは好戦的で獰猛な種族です。彼らは特筆するべき能力を持っておらず、またこれといった弱点もありません。ゴブリンははやや高い能力と、暗黒への耐性と、自然治癒の技術を持っています。また、採取スポットでより長く採取することができます。",
+      "target": "싸움을 즐기는 사나운 종족. 고블린의 능력은 대체로 조금 높은 편이며 두드러진 강점도 약점도 없다. 암흑에 내성이 있고 자연 치유에 능하다. 채집터에서 더 오래 채집할 수 있다.",
+      "source_ref": [
+        "2.335:start.hsp:436874"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.436874.en",
+      "source": "@creation-bio/If Dwarves are the people of the earth, then the Goblins are the vermin. While clumsy and ugly, there are ever so many goblins about, and more every year. Their scrawny bodies heal quickly, and they love the taste of fish. Their beady little eyes miss little in the dark, and you never want to grapple with them, who knows what diseases you might get.",
+      "target": "드워프가 대지의 백성이라면 고블린은 대지의 해충이다. 못생기고 굼뜨지만 해마다 수가 불어난다. 깡마른 몸은 금세 낫고 생선이라면 사족을 못 쓴다. 작은 눈으로 어둠 속까지 살핀다. 무슨 병이 옮을지 모르니 붙들고 뒹굴 생각은 말자.",
+      "source_ref": [
+        "2.335:start.hsp:436874"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.437630.ja",
+      "source": "@creation-bio/ゴーレムは魔力により生命を与えられた物質です。ゴーレムは他の種族に比べ遥かに高い体力を持っています。その代償としてか、彼らのマナと速度は、通常よりも劣っています。ゴーレムには毒への強い耐性があり、また朦朧状態にならないという利点があります。",
+      "target": "골렘은 마법으로 생명을 얻은 물질이다. 체력은 다른 종족을 크게 웃돌지만 마나와 속도는 평균보다 낮다. 독에 강한 내성이 있고 몽롱 상태에 빠지지 않는다.",
+      "source_ref": [
+        "2.335:start.hsp:437630"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.437630.en",
+      "source": "@creation-bio/While certainly not a natural creature, the flows of the Etherwind have ingrained into them a spark of sentience. Strong as a team of oxen, and as tough as the rock they were sculpted from, those are pretty much the only strengths of a Golem. The wizards that made them wanted only laborers, not poets. Still, a Golem can slowly get better, and thankfully they lack the wit to even beome bored doing so.",
+      "target": "마법사가 일꾼으로 빚은 골렘에게 에테르 바람이 한 줄기 의식을 불어넣었다. 소 여러 마리에 맞먹는 힘과 바위 같은 몸이 장점의 전부다. 애초에 시인을 만들 생각은 없었으니까. 그래도 더디게나마 배우며, 다행히 지루함을 느낄 머리도 없다.",
+      "source_ref": [
+        "2.335:start.hsp:437630"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.438886.ja",
+      "source": "@creation-bio/カオスシェイプについて分かっていることは、ほとんどありません。異形の人とも呼ばれる彼らは、かろうじて人の形を保っています。カオスシェイプは成長とともに新しい身体の部位を獲得しますが、何が生えてくるかは予測不可能です。",
+      "target": "이형의 인간이라고도 불리는 카오스 셰이프에 관해서는 알려진 바가 거의 없다. 간신히 사람의 모습을 유지하고, 자라면서 새로운 신체 부위가 돋아난다. 어디에 무엇이 돋을지는 누구도 알 수 없다.",
+      "source_ref": [
+        "2.335:start.hsp:438886"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.438886.en",
+      "source": "@creation-bio/A living warning of the perils of Gene-Engineering, Chaos, and why pregnant women should not be caught in the Etherwind, most mutants live short and pain-filled lives. Still, one in every thousand not only lives but thrives due to the changes wrought on them. Healing quickly due to their quickened blood, and at least starting out mostly human-like, Mutants are the proof that a third hand is always helpful.",
+      "target": "유전 공학과 혼돈, 임신 중 에테르 바람의 위험을 보여 주는 산 증거다. 대부분 고통 속에 일찍 죽지만 천에 하나는 변이 덕에 번성한다. 피가 빨리 돌아 상처가 잘 낫고 처음엔 얼추 사람 모습이다. 손이 셋이면 요긴하다는 살아 있는 증거!",
+      "source_ref": [
+        "2.335:start.hsp:438886"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439574.ja",
+      "source": "@creation-bio/戦士は己の肉体を武器に、立ちはだかるものを破壊し突き進みます。魔法の扱いには向いていませんが、その高い戦闘能力には目を見張るものがあります。＊[猛攻] 追加打撃の発生率上昇。",
+      "target": "전사는 몸을 무기 삼아 앞길을 막는 것을 부수며 나아간다. 마법에는 소질이 없어도 전투력만큼은 눈부시다. [맹공] 추가 타격이 발생할 확률이 높아진다.",
+      "source_ref": [
+        "2.335:start.hsp:439574"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439574.en",
+      "source": "@creation-bio/The Warrior. With working knowledge of all things stabby, bashy, choppy, and shooty, anything in a Warrior's hands is bad news for their enemies. No mere thug, they have knowledge of tactics to bring even the strongest down, and are trained early on to be comfortable in all kinds of armor and shields. Warriors are personifications of the adage \"If violence isn't working, you are obviously not using enough of it.\"",
+      "target": "찌르고 때리고 베고 쏘는 무기는 뭐든 전사의 손에 들리면 적에게 재앙이다. 강적을 무너뜨릴 전술에 밝고 어려서부터 온갖 갑옷과 방패를 다룬다. 좌우명은 하나다. “폭력으로 안 풀린다면 폭력이 부족한 거다.”",
+      "source_ref": [
+        "2.335:start.hsp:439574"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439632.ja",
+      "source": "@creation-bio/遺跡荒らしは、財宝を目当てに墓や遺跡から貴重品を持ち出すことで生計をたてています。彼らにはそこそこの戦闘能力と、商人と駆け引きをするために必要な才能があります。＊[奇襲] 戦闘態勢を取っていない敵対キャラクターへの攻撃が確実にクリティカル。",
+      "target": "유적 약탈자는 보물을 찾아 무덤과 유적을 털어 먹고산다. 그럭저럭 싸울 줄 알고 상인과 흥정하는 재주도 있다. [기습] 전투 태세를 취하지 않은 적을 공격하면 반드시 치명타가 터진다.",
+      "source_ref": [
+        "2.335:start.hsp:439632"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439632.en",
+      "source": "@creation-bio/The Thief. Good with swords and bows, though not a believer of a fair fight. Prefers to avoid taking hits if possible. Can dual wield if the weapons aren't too heavy. Years of dealing with fences have given the Thief skills with negotiating a better deal. A firm believer in the adage \"What's yours is mine, and what's mine is mine. See that guy over there, his stuff? Mine too.\"",
+      "target": "검과 활에 능한 유적 약탈자는 정정당당한 싸움이나 매 맞는 일을 달가워하지 않는다. 가벼운 무기는 양손에 하나씩 들고, 장물아비와 거래하며 흥정도 익혔다. “네 것도 내 것, 내 것도 내 것. 저기 저 녀석 것? 그것도 내 것.”",
+      "source_ref": [
+        "2.335:start.hsp:439632"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439687.ja",
+      "source": "@creation-bio/魔法使いは、その名のとおり魔法の知識に長けています。魔法使いの生死は、魔法書の取得と管理にかかっています。＊[魔力循環] 魔法の消費ＭＰを減少。",
+      "target": "마법사는 이름 그대로 마법 지식에 밝다. 쓸 만한 마법서를 구해 잘 관리하느냐에 생사가 달려 있다. [마력 순환] 주문에 드는 MP가 줄어든다.",
+      "source_ref": [
+        "2.335:start.hsp:439687"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439687.en",
+      "source": "@creation-bio/The Wizard. Master of the Arcane, the Eldritch, and the Esoteric. A pity all those years have left little time to build muscles or quick reflexes. Still, they do have some small skill with staff and short sword. And while they start out so feeblePurits scare them, with a few books under their belt, and a little practice, a Wizard will soon decimate legions. Their motto: \"If it's not on fire now, it will be soon\".",
+      "target": "비전과 신비를 연구하느라 근육이나 반사 신경을 단련할 틈이 없었다. 지팡이와 단검은 조금 다룬다. 처음엔 푸치조차 무섭지만 책 몇 권을 익히고 연습하면 군단도 쓸어버린다. “아직 불이 안 붙었다고? 곧 붙을 거야.”",
+      "source_ref": [
+        "2.335:start.hsp:439687"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439741.ja",
+      "source": "@creation-bio/農民は生産を得意とする職業です。彼らは我慢強く、またある程度の身体能力を持っています。＊[ハーヴェスト] 首狩りが発動しやすい。",
+      "target": "농민은 생산에 능하다. 참을성이 많고 몸도 제법 단련되어 있다. [수확] 목 베기가 발동할 확률이 높아진다.",
+      "source_ref": [
+        "2.335:start.hsp:439741"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439741.en",
+      "source": "@creation-bio/The Farmer. While not a steely-thewed Warrior or or well read Mage, the farmer is a Jack-of All-Trades. Good with a polearm from threshing grain, and good bargainers with their deals with merchants, they have working knowledge of just about every trade there is. As such, they never go hungry, as there's always something someone will pay dearly to get done. Their motto: \"Anything worth doing is best done yourself\".",
+      "target": "농민은 강철 같은 전사도 박식한 마법사도 아니지만 못 하는 일이 없다. 타작으로 장병기를 익혔고 상인과 흥정할 줄 알며 온갖 생업에 밝다. 돈 주고 일을 맡길 사람은 늘 있으니 굶을 일도 없다. “할 만한 일이면 내 손으로 해야지.”",
+      "source_ref": [
+        "2.335:start.hsp:439741"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439794.ja",
+      "source": "@creation-bio/プレデターは基本的に装備品を身に付けず、格闘のみで戦う職業です。その洗練された動きから高い近接戦闘能力を誇ります。＊[強襲] クリティカル率上昇。",
+      "target": "프레데터는 대개 장비를 걸치지 않고 맨몸으로만 싸운다. 군더더기 없이 다듬어진 몸놀림 덕에 근접전에서 강하다. [강습] 치명타 확률이 높아진다.",
+      "source_ref": [
+        "2.335:start.hsp:439794"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439846.ja",
+      "source": "@creation-bio/狩人は遠隔攻撃のスペシャリストです。多少の打撃能力もありますが、大抵は敵の接近を許さずに倒すことができるでしょう。＊[鷹の眼] 命中率上昇。",
+      "target": "사냥꾼의 특기는 원거리 공격이다. 가까이서도 제법 싸우지만 대개는 적이 다가오기도 전에 쓰러뜨린다. [매의 눈] 명중률이 높아진다.",
+      "source_ref": [
+        "2.335:start.hsp:439846"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439846.en",
+      "source": "@creation-bio/The Archer. Skilled in the ways of the forest and hunting, they are master marksmen, and don't see why one should hunt monster any different than a deer. Skilled with the Short Sword, the axe, and of course all types of bows, plus a few skills they picked up on their long trips in the woods. Firm believers that \"Anything dead over THERE will not be bothering me HERE\".",
+      "target": "숲과 사냥에 밝은 명사수. 사슴과 괴물을 굳이 다르게 사냥할 이유가 있을까? 단검과 도끼, 온갖 활을 다루고 긴 숲길에서 배운 재주도 여럿이다. “저 멀리서 죽은 놈이 여기 있는 날 귀찮게 할 리 없잖아.”",
+      "source_ref": [
+        "2.335:start.hsp:439846"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439901.ja",
+      "source": "@creation-bio/魔法戦士は戦士と魔法使いの中間的な職業で、より打撃に重点を置いています。魔法を使いこなすためにも、バランスをとり成長させることが必要でしょう。＊[精神統一] 詠唱ペナルティ緩和。",
+      "target": "마법전사는 전사와 마법사의 중간에 서되 타격에 좀 더 무게를 둔다. 마법까지 능숙하게 쓰려면 양쪽을 고루 길러야 한다. [정신 통일] 주문 시전 페널티가 줄어든다.",
+      "source_ref": [
+        "2.335:start.hsp:439901"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439901.en",
+      "source": "@creation-bio/The Warmage. Not really a Wizard, not really a Warrior, the Warmage is a believer that stabbing things that are on fire is better than just stabbing them or setting them on fire. Good with swords, armor, books and casting. Their only weakness is that without specialization, they won't truely excel in a field. Still when your motto is: \"Everything worth doing is worth overdoing\", you don't really care.",
+      "target": "불을 붙이거나 칼로 찌르는 것보다 불붙은 적을 찌르는 게 낫다는 게 마법전사의 지론이다. 검과 갑옷, 책과 주문에 두루 능하지만 한 우물만 파지 않으면 어느 쪽의 대가도 되기 어렵다. “할 만한 일이라면 지나치게 할 만도 하지.”",
+      "source_ref": [
+        "2.335:start.hsp:439901"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439956.ja",
+      "source": "@creation-bio/観光客はこの世界における伝統的な職業で、予想を裏切らないほど軟弱です。＊[不用心] スリに奪われる金額が多い。",
+      "target": "관광객은 이 세계에서 오랜 전통을 자랑하는 직업이다. 예상한 만큼이나 허약하다. [부주의] 소매치기를 만나면 더 많은 돈을 빼앗긴다.",
+      "source_ref": [
+        "2.335:start.hsp:439956"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.439956.en",
+      "source": "@creation-bio/The Tourist. They have no strengths, they have no weaknesses. They don't have anything really. Oh they can fish, I'll give you that, but if you want a real challenge to build something from the ground up, this is the way to go. After all, you have to teach them everything. Only for those who have a good amount of time to spare. You can even write your own motto if you want.",
+      "target": "장점도 단점도 없다. 사실 가진 게 없다는 편이 맞겠다. 낚시는 할 줄 안다. 모든 걸 처음부터 가르쳐야 하니 맨바닥에서 키우는 도전이라면 제격이다. 시간이 넉넉한 사람에게만 권한다. 원한다면 좌우명도 직접 지어 주시라.",
+      "source_ref": [
+        "2.335:start.hsp:439956"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.440002.ja",
+      "source": "@creation-bio/ピアニストは演奏を生業とする孤高の職業です。彼らは常にピアノを背負っているため、重荷に耐える能力があります。＊[音楽干渉] 音属性の被ダメージを中確率で無効化。",
+      "target": "피아니스트는 홀로 연주를 생업으로 삼는다. 늘 피아노를 지고 다닌 덕에 무거운 짐도 잘 견딘다. [음악 간섭] 중간 정도 확률로 소리 속성 피해를 무효화한다.",
+      "source_ref": [
+        "2.335:start.hsp:440002"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.440002.en",
+      "source": "@creation-bio/The Pianist. Where the Farmer has all the practical skills, the Pianist has all the impractical ones. Still, they can read a book, play a tune, make jewelry, and since they are expected to haul a piano around, they get real good with weight lifting. Their Motto: \"The whole world is my stage!\" And they believe it too.",
+      "target": "농민이 실용적인 재주를 다 가졌다면 피아니스트는 나머지를 다 가졌다. 글을 읽고 곡을 연주하고 보석을 세공한다. 피아노를 지고 다닌 덕에 무거운 짐 들기에도 도가 텄다. “온 세상이 내 무대!” 진심으로 그렇게 믿는다.",
+      "source_ref": [
+        "2.335:start.hsp:440002"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.440055.ja",
+      "source": "@creation-bio/機工兵は機械兵装の扱いに習熟した職業です。主に銃器を用いた遠隔戦闘を得意とします。＊[弾幕] 追加射撃の発動率上昇。",
+      "target": "기공병은 기계 무장을 능숙하게 다룬다. 주특기는 총기를 이용한 원거리 전투다. [탄막] 추가 사격이 발동할 확률이 높아진다.",
+      "source_ref": [
+        "2.335:start.hsp:440055"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.440109.ja",
+      "source": "@creation-bio/プリーストは魔法の能力と供に、若干の肉弾戦への適正を持っています。彼らは信仰する神から、最大限の恩恵を受けることができるでしょう。＊[慈愛] ＨＰの回復効果上昇。",
+      "target": "사제는 마법에 능하며 육탄전에도 약간 소질이 있다. 섬기는 신에게서 은혜를 최대한으로 끌어낼 수 있다. [자애] HP 회복 효과가 높아진다.",
+      "source_ref": [
+        "2.335:start.hsp:440109"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.440109.en",
+      "source": "@creation-bio/The Priest. The Faithful, the devout. They bring the words of their God to the world, one battered heretic at a time. Good with all armors, shields, divine magic, blunt weapons, and reading. The Priest is a handful, though depending on their God, they may have hidden pratfalls as well. If the motto: \"A hymn a day,, will keep me away, Sinner!\" appeals to you, choose this.",
+      "target": "독실한 사제는 이단자를 하나씩 두들겨 패며 신의 말씀을 전한다. 온갖 갑옷과 방패, 신성 마법과 둔기, 독서에 능하다. 만만찮은 상대지만 섬기는 신에 따라 뜻밖의 약점도 있다. “죄인아, 하루에 찬송가 한 곡이면 날 만날 일도 없지!”",
+      "source_ref": [
+        "2.335:start.hsp:440109"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.440164.ja",
+      "source": "@creation-bio/クレイモアは半人半妖の血が流れる俊敏な剣士です。銀眼の斬殺者と呼ばれる彼女達は、身の丈ほどの長さの大剣を自在に扱います。耐久力は低めですが、軽いみのこなしと敏感な目で、相手の攻撃を軽々とかわすことができます。＊[旋空剣] 稀に完全貫通攻撃を発動。",
+      "target": "클레이모어는 인간과 요마의 피가 섞인 날랜 검사다. 은안의 살육자라 불리는 이들은 제 키만 한 대검을 자유자재로 휘두른다. 내구력은 낮지만 몸이 가볍고 눈이 예리해 공격을 쉬이 피한다. [선공검] 드물게 완전 관통 공격이 발동한다.",
+      "source_ref": [
+        "2.335:start.hsp:440164"
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "creation.bio.440164.en",
+      "source": "@creation-bio/The Claymore. Half-human, with silver eyes and inhuman evasive capabilities, the Claymores are a mostly female class, as the males have… problems. Their weapon of choice is the Claymore, hence their name, and they prefer light armor, relying on their great speed and skills of evasion to protect them. They heal fast, but the healing comes at a price. Their bodies are unstable, their motto unknown.",
+      "target": "은빛 눈과 초인적인 회피력을 지닌 반인. 남자에게는 좀… 문제가 있어 대부분 여자다. 애용하는 대검 클레이모어에서 이름을 땄다. 가벼운 갑옷에 빠른 발과 회피로 몸을 지킨다. 회복은 빠르지만 대가가 따르고 몸은 불안정하다. 좌우명은 불명.",
+      "source_ref": [
+        "2.335:start.hsp:440164"
+      ],
+      "review_status": "reviewed"
+    }
+  ]
+}
