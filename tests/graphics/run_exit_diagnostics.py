@@ -31,7 +31,7 @@ def main():
     if args.unique:
         work = Path(tempfile.mkdtemp(prefix="run-", dir=work))
     compiled = {}
-    for name in ("caught_errors", "recovered_error", "close_handled", "close_cancelled"):
+    for name in ("caught_errors", "recovered_error", "close_handled", "close_cancelled", "fullscreen"):
         source, ax = work / f"{name}.hsp", work / f"{name}.ax"
         source.write_bytes((FIXTURES / f"{name}.hsp").read_text().encode("cp932"))
         cmd = [str(args.compiler.resolve()), "-d", f"--compath={args.common.resolve()}/", f"-o{ax}", str(source)]
@@ -49,6 +49,7 @@ def main():
         ("recovered_error", True, 1, 1, 0),
         ("close_handled", False, 23, 0, 1),
         ("close_cancelled", False, 7, 0, 1),
+        ("fullscreen", False, 0, 0, 0),
     ]
     results = []
     for name, strict, expected_exit, errors, closes in cases:

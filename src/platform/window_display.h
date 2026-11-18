@@ -50,6 +50,7 @@ public:
     // Read back what was actually presented (top-down RGB24) for verification.
     virtual bool capture(int wid, std::vector<std::uint8_t>& rgb, int& width, int& height, std::string& error) = 0;
     virtual bool set_fullscreen(int wid, bool on, std::string& error) = 0;
+    virtual bool is_fullscreen(int wid) const = 0;
     virtual bool desktop_size(int& w, int& h) = 0;
     virtual bool window_rect(int wid, int& x, int& y, int& w, int& h) = 0;
     virtual bool has_focus(int wid) = 0;

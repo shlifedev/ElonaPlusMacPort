@@ -135,8 +135,18 @@ public:
     bool set_fullscreen(int wid, bool on, std::string& error) override {
         auto it = windows_.find(wid);
         if (it == windows_.end() || !it->second.window) { error = "no window"; return false; }
-        if (!SDL_SetWindowFullscreen(it->second.window, on)) { error = SDL_GetError(); return false; }
+        SDL_Window* window = it->second.window;
+        if (on && !SDL_SetWindowFullscreenMode(window, nullptr)) { error = SDL_GetError(); return false; }
+        if (!SDL_SetWindowFullscreen(window, on) || !SDL_SyncWindow(window)) { error = SDL_GetError(); return false; }
+        if (is_fullscreen(wid) != on) {
+            error = "window manager did not apply fullscreen transition";
+            return false;
+        }
         return true;
+    }
+    bool is_fullscreen(int wid) const override {
+        auto it = windows_.find(wid);
+        return it != windows_.end() && it->second.window && (SDL_GetWindowFlags(it->second.window) & SDL_WINDOW_FULLSCREEN);
     }
     bool desktop_size(int& w, int& h) override {
         const SDL_DisplayMode* m = SDL_GetDesktopDisplayMode(SDL_GetPrimaryDisplay());

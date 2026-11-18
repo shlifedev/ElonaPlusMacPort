@@ -19,6 +19,7 @@ public:
         error = "headless display has no window";
         return false;
     }
+    bool is_fullscreen(int) const override { return false; }
     bool desktop_size(int& w, int& h) override {
         w = 1920;  // fixed, documented value for deterministic headless runs
         h = 1080;

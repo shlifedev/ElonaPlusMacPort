@@ -131,6 +131,7 @@ struct Host : HostServices {
     int cur_window = 0;
     std::unique_ptr<platform::Display> display;
     gfx::PolyRaster poly;
+    int fullscreen_width = 0, fullscreen_height = 0;  // logical desktop requested by chgdisp
 
     // input
     bool key[256] = {};
@@ -900,8 +901,8 @@ void handle_event(const platform::InputEvent& e) {
         break;
     case K::MouseMove:
         if (s) { s->savepos[0] = short(e.x); s->savepos[1] = short(e.y); }
-        H->mouse_screen_x = e.x + (s && s->window_x > 0 ? s->window_x : 0);
-        H->mouse_screen_y = e.y + (s && s->window_y > 0 ? s->window_y : 0);
+        H->mouse_screen_x = e.x + (s && !(H->fullscreen_width && s->wid == 0) ? std::max(0, s->window_x) : 0);
+        H->mouse_screen_y = e.y + (s && !(H->fullscreen_width && s->wid == 0) ? std::max(0, s->window_y) : 0);
         break;
     case K::MouseDown:
     case K::MouseUp: {
@@ -1195,7 +1196,11 @@ int get_ginfo(int arg) {
     Screen& b = *H->cur;
     int wxp = 0, wyp = 0, ww = b.wx, wh = b.wy;
     if (arg >= 4 && arg <= 11) {
-        if (!H->display->window_rect(b.wid, wxp, wyp, ww, wh)) {
+        if (H->fullscreen_width && b.wid == 0) {
+            // SDL input is mapped into logical client pixels at desktop origin (0,0).
+            ww = b.wx;
+            wh = b.wy;
+        } else if (!H->display->window_rect(b.wid, wxp, wyp, ww, wh)) {
             wxp = std::max(b.window_x, 0);
             wyp = std::max(b.window_y, 0);
         }
@@ -1225,6 +1230,7 @@ int get_ginfo(int arg) {
     case 19: return 0;
     case 20: case 21: {
         int w = 1920, h = 1080;
+        if (H->fullscreen_width) return arg == 20 ? H->fullscreen_width : H->fullscreen_height;
         if (!H->opt.deterministic) H->display->desktop_size(w, h);
         return arg == 20 ? w : h;
     }
@@ -1314,6 +1320,27 @@ int cmdfunc_extcmd_body(int cmd) {
         auto it = H->banks.find(p1);
         if (it == H->banks.end()) break;
         if (it->second.flag == 1) H->audio->stop();
+    case 0x01: {  // chgdisp operates on the main window even when an auxiliary screen is selected
+        const int mode = code_getdi(0);
+        const int width = code_getdi(640), height = code_getdi(480);
+        H->ctx->stat = 1;
+        if (mode == 0 && !H->fullscreen_width) break;
+        if (mode != 0 && (mode != 1 || width <= 0 || height <= 0)) {
+            H->note("chgdisp: unavailable mode " + std::to_string(mode) + " at " +
+                    std::to_string(width) + "x" + std::to_string(height));
+            break;
+        }
+        std::string error;
+        // Screen 0 is configured before the VM starts. bgscr reuses its SDL window.
+        if (H->display->has_windows() && !H->display->set_fullscreen(0, mode == 1, error)) {
+            H->note("chgdisp: " + error);
+            break;
+        }
+        H->fullscreen_width = mode ? width : 0;
+        H->fullscreen_height = mode ? height : 0;
+        H->ctx->stat = 0;
+        break;
+    }
         else if (H->curmus != -1) {
 #ifdef ELONA_HAVE_MUSIC
             H->music.stop();  // StopBank(MCI): stop/close myid only, PCM keeps playing
@@ -2032,7 +2059,8 @@ void write_report(int exit_code, int endcode, const std::string& hsp_error) {
       << "\",\n  \"first_unsupported\": \"" << json_escape(H->first_unsupported) << "\",\n  \"text_codec\": \"" << gfx::ui_text_codec_backend()
       << "\",\n  \"notes\": [";
     for (std::size_t i = 0; i < H->notes.size(); ++i) f << (i ? ", " : "") << "\"" << json_escape(H->notes[i]) << "\"";
-    f << "],\n  \"command_counts\": {";
+    f << "],\n  \"window_fullscreen\": " << (H->display->has_windows() ? (H->display->is_fullscreen(0) ? "true" : "false") : "null")
+      << ",\n  \"fullscreen_logical_size\": [" << H->fullscreen_width << ", " << H->fullscreen_height << "],\n  \"command_counts\": {";
     bool first = true;
     for (auto& [k, v] : H->command_counts) { f << (first ? "" : ", ") << "\"" << json_escape(k) << "\": " << v; first = false; }
     f << "},\n  \"observed_hsp_error_count\": " << H->observed_error_count << ",\n  \"observed_hsp_errors\": [";
