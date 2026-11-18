@@ -1,0 +1,5107 @@
+[
+  {
+    "source": "Long Distance Runner(MAX)",
+    "source_ja": "長距離走者(MAX)",
+    "target": "장거리 주자(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5080",
+      "2.335:start.hsp:5083",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 35520f50e476d48e9856; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 24
+  },
+  {
+    "source": "[Feat]You have good stamina. [Stamina+]",
+    "source_ja": "[フィート]あなたは持久力がある[スタミナ+]",
+    "target": "[특성] 지구력이 좋다 [스태미나+]",
+    "source_ref": [
+      "2.335:start.hsp:5080",
+      "2.335:start.hsp:5085",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 46c3e2f79f909d410759; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 24
+  },
+  {
+    "source": "[Feat]You have very good stamina. [Stamina++]",
+    "source_ja": "[フィート]あなたはかなり持久力がある[スタミナ++]",
+    "target": "[특성] 지구력이 상당히 좋다 [스태미나++]",
+    "source_ref": [
+      "2.335:start.hsp:5080",
+      "2.335:start.hsp:5085",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f829a1f1bc6eee049cc6; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 24
+  },
+  {
+    "source": "[Feat]You have outstanding stamina. [Stamina+++]",
+    "source_ja": "[フィート]あなたの持久力は恐ろしい[スタミナ上昇]",
+    "target": "[특성] 지구력은 무시무시하다 [스태미나 상승]",
+    "source_ref": [
+      "2.335:start.hsp:5080",
+      "2.335:start.hsp:5085",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0d69e3a9b308bf706b67; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 24
+  },
+  {
+    "source": "Vampiric Ability(MAX)",
+    "source_ja": "吸血鬼(MAX)",
+    "target": "흡혈귀(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5091",
+      "2.335:start.hsp:5094",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0a3aeac9d24a14712a83; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 3
+  },
+  {
+    "source": "[Feat]You can suck blood now.",
+    "source_ja": "[フィート]あなたは血を吸うことができる",
+    "target": "[특성] 피를 빨 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5091",
+      "2.335:start.hsp:5096",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 6378e00bb4a39dd97244; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 3
+  },
+  {
+    "source": "Natural Leader(MAX)",
+    "source_ja": "指導者(MAX)",
+    "target": "지도자(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5105",
+      "2.335:start.hsp:5108",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3bfcdd63087413b7cfc1; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 40
+  },
+  {
+    "source": "[Feat]You can temporally strengthen your allies.",
+    "source_ja": "[フィート]あなたは仲間を一時的に強くできる",
+    "target": "[특성] 동료를 일시적으로 강하게 만들 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5105",
+      "2.335:start.hsp:5110",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 6776ed78df3f22dbab31; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 40
+  },
+  {
+    "source": "Knockout(MAX)",
+    "source_ja": "手加減(MAX)",
+    "target": "힘 조절(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5119",
+      "2.335:start.hsp:5122",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 927491a546d8a473ebe3; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 45
+  },
+  {
+    "source": "[Feat]You can attack it easy on the enemy.",
+    "source_ja": "[フィート]あなたは敵に手加減して攻撃ができる",
+    "target": "[특성] 적을 공격할 때 힘을 조절할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5119",
+      "2.335:start.hsp:5124",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e3e3d8c3b73653425393; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 45
+  },
+  {
+    "source": "Knowledge of magical plants(MAX)",
+    "source_ja": "魔導植物の知識(MAX)",
+    "target": "마도 식물의 지식(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5147",
+      "2.335:start.hsp:5150",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry af57e970c92c3a12b122; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 49
+  },
+  {
+    "source": "[Feat]You can summon and manipulate magical plants.",
+    "source_ja": "[フィート]あなたは魔力を帯びた植物を呼び出し操れる",
+    "target": "[특성] 마력이 깃든 식물을 불러내 조종할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5147",
+      "2.335:start.hsp:5152",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 21128b843aa9a259603e; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 49
+  },
+  {
+    "source": "Dimensional Move(MAX)",
+    "source_ja": "空間歪曲(MAX)",
+    "target": "공간 왜곡(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5161",
+      "2.335:start.hsp:5164",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 56246758b232856f5ab9; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 13
+  },
+  {
+    "source": "[Feat]You can insta-teleport to nearby tiles.",
+    "source_ja": "[フィート]あなたは空間を曲げられる",
+    "target": "[특성] 공간을 구부릴 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5161",
+      "2.335:start.hsp:5166",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 965ec43eb89619b54292; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 13
+  },
+  {
+    "source": "Fire Breath(MAX)",
+    "source_ja": "火炎芸(MAX)",
+    "target": "불 뿜기 재주(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5175",
+      "2.335:start.hsp:5178",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 457c6730cfdd697e0c20; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 14
+  },
+  {
+    "source": "[Feat]You can breath fire.",
+    "source_ja": "[フィート]あなたは口から火を噴ける",
+    "target": "[특성] 입에서 불을 뿜을 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5175",
+      "2.335:start.hsp:5180",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 67125f5979b156b2325a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 14
+  },
+  {
+    "source": "Hypnotism(MAX)",
+    "source_ja": "催眠術師(MAX)",
+    "target": "최면술사(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5189",
+      "2.335:start.hsp:5192",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 67c3edd1b6e730be6f37; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 22
+  },
+  {
+    "source": "[Feat]You can hypnotize single target.",
+    "source_ja": "[フィート]あなたは催眠をかけることができる",
+    "target": "[특성] 최면을 걸 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5189",
+      "2.335:start.hsp:5194",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 1c9a2352fad6a6571e63; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 22
+  },
+  {
+    "source": "Poison Nail(MAX)",
+    "source_ja": "毒の知恵(MAX)",
+    "target": "독의 지혜(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5203",
+      "2.335:start.hsp:5206",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry cb37e47844dc2376804d; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 23
+  },
+  {
+    "source": "[Feat]You can poison a creature.",
+    "source_ja": "[フィート]あなたは毒を盛ることができる",
+    "target": "[특성] 독을 먹일 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5203",
+      "2.335:start.hsp:5208",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 4c030e05f151f23b79ee; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 23
+  },
+  {
+    "source": "Sexy Dance(MAX)",
+    "source_ja": "舞踏(MAX)",
+    "target": "무도(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5217",
+      "2.335:start.hsp:5220",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 8e0378713dbf0c1695f1; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 21
+  },
+  {
+    "source": "[Feat]Your dance has been refined.",
+    "source_ja": "[フィート]あなたの踊りはとても魅力的だ",
+    "target": "[특성] 춤은 매우 매혹적이다.",
+    "source_ref": [
+      "2.335:start.hsp:5217",
+      "2.335:start.hsp:5222",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry db3919b145e1e60ca541; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 21
+  },
+  {
+    "source": "Uncontrollable power(MAX)",
+    "source_ja": "力の暴走(MAX)",
+    "target": "힘의 폭주(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5231",
+      "2.335:start.hsp:5234",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c34cb1c5570071489325; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 5
+  },
+  {
+    "source": "[Feat]You have hidden something that can not be controlled.",
+    "source_ja": "[フィート]あなたは制御しきれない何かを秘めている",
+    "target": "[특성] 당신 안에는 완전히 제어할 수 없는 무언가가 잠들어 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5231",
+      "2.335:start.hsp:5236",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 4d1b94e5a303702f68eb; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 5
+  },
+  {
+    "source": "Expert Accountant(MAX)",
+    "source_ja": "熟練会計士(MAX)",
+    "target": "숙련 회계사(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5245",
+      "2.335:start.hsp:5248",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 1aa4117cb4521c295476; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 38
+  },
+  {
+    "source": "[Feat]You can set expenses off against tax. [TAX-7%]",
+    "source_ja": "[フィート]あなたは税金の計算に強い[税金7%減]",
+    "target": "[특성] 세금 계산에 능하다 [세금 7% 감소]",
+    "source_ref": [
+      "2.335:start.hsp:5245",
+      "2.335:start.hsp:5250",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 75685c676b8c0a585896; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 38
+  },
+  {
+    "source": "[Feat]You are good at setting expenses off against tax. [TAX-15%]",
+    "source_ja": "[フィート]あなたは税金の計算にとても強い[税金15%減]",
+    "target": "[특성] 세금 계산에 매우 능하다 [세금 15% 감소]",
+    "source_ref": [
+      "2.335:start.hsp:5245",
+      "2.335:start.hsp:5250",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry a446a5fc01e550e54318; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 38
+  },
+  {
+    "source": "Expert Quartermaster(MAX)",
+    "source_ja": "熟練補給係(MAX)",
+    "target": "숙련 보급관(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5256",
+      "2.335:start.hsp:5259",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry d4abf001cde9eb050de1; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 39
+  },
+  {
+    "source": "[Feat]You sometimes receive quality supplies.",
+    "source_ja": "[フィート]あなたはたまに質の高い補給品を受け取る",
+    "target": "[특성] 가끔 질 좋은 보급품을 받는다.",
+    "source_ref": [
+      "2.335:start.hsp:5256",
+      "2.335:start.hsp:5261",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 66a94def467495b251f2; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 39
+  },
+  {
+    "source": "[Feat]You frequently receive quality supplies.",
+    "source_ja": "[フィート]あなたは頻繁に質の高い補給品を受け取る",
+    "target": "[특성] 자주 질 좋은 보급품을 받는다.",
+    "source_ref": [
+      "2.335:start.hsp:5256",
+      "2.335:start.hsp:5261",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 2f10173a5ec06712947a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 39
+  },
+  {
+    "source": "Exorcist(MAX)",
+    "source_ja": "祈祷師(MAX)",
+    "target": "기도사(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5267",
+      "2.335:start.hsp:5270",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c8d0e4f04deea7592506; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 42
+  },
+  {
+    "source": "[Feat]Your prayer nullifies cursed whisperings.",
+    "source_ja": "[フィート]あなたの祈りは呪いの言葉を掻き消す",
+    "target": "[특성] 기도는 저주의 말을 지워 버린다.",
+    "source_ref": [
+      "2.335:start.hsp:5267",
+      "2.335:start.hsp:5272",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 4c3c82cc0177cfb1d2f3; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 42
+  },
+  {
+    "source": "Kokou(MAX)",
+    "source_ja": "孤高(MAX)",
+    "target": "고고한 삶(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5278",
+      "2.335:start.hsp:5281",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry beaad8b367ba185d4c07; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 46
+  },
+  {
+    "source": "[Feat]You prefer alone. [SPD+20% at the time alone]",
+    "source_ja": "[フィート]あなたは独りの方が行動しやすい[単独時に速度+20%]",
+    "target": "[특성] 홀로 다닐 때 더 민첩하다 [단독 시 속도 +20%]",
+    "source_ref": [
+      "2.335:start.hsp:5278",
+      "2.335:start.hsp:5283",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 09e6b5bc7aa8a1f6a5cd; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 46
+  },
+  {
+    "source": "Bomber(MAX)",
+    "source_ja": "爆魔(MAX)",
+    "target": "폭마(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5300",
+      "2.335:start.hsp:5303",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry b70ac81de185d6966524; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 50
+  },
+  {
+    "source": "[Feat]You can transform your magical energy into explosions.",
+    "source_ja": "[フィート]あなたは自分の魔力を爆発に変換できる",
+    "target": "[특성] 자신의 마력을 폭발로 바꿀 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5300",
+      "2.335:start.hsp:5305",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 286773e456591f5f87fb; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 50
+  },
+  {
+    "source": "Gravity Control(MAX)",
+    "source_ja": "重力制御(MAX)",
+    "target": "중력 제어(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5314",
+      "2.335:start.hsp:5317",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry a2d44afe632c500b18ea; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 9
+  },
+  {
+    "source": "[Feat]You manipulate the gravity.",
+    "source_ja": "[フィート]あなたは重力を操る",
+    "target": "[특성] 중력을 조종한다.",
+    "source_ref": [
+      "2.335:start.hsp:5314",
+      "2.335:start.hsp:5319",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 01c5ec788c1e7eb08acb; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 9
+  },
+  {
+    "source": "Jiu-jitsu(MAX)",
+    "source_ja": "柔術(MAX)",
+    "target": "유술(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5328",
+      "2.335:start.hsp:5331",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 7ddb0723e0d48bc7eeaf; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 20
+  },
+  {
+    "source": "[Feat]You mastered Jiu-jitsu.",
+    "source_ja": "[フィート]あなたは柔術を会得している",
+    "target": "[특성] 유술을 터득했다.",
+    "source_ref": [
+      "2.335:start.hsp:5328",
+      "2.335:start.hsp:5333",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry bc13f629dc2870f4199a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 20
+  },
+  {
+    "source": "[Feat]You mastered Jiu-jitsu. ",
+    "source_ja": "[フィート]あなたは柔術を会得している",
+    "target": "[특성] 유술을 터득했다.",
+    "source_ref": [
+      "2.335:start.hsp:5328",
+      "2.335:start.hsp:5333",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 8799de60b5e3fdea9ad3; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 20
+  },
+  {
+    "source": "Magnetic Manipulate(MAX)",
+    "source_ja": "磁力操作(MAX)",
+    "target": "자력 조작(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5342",
+      "2.335:start.hsp:5345",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 72d1f2b3eb7396f20ad0; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 12
+  },
+  {
+    "source": "[Feat]You manipulate magnetic force.",
+    "source_ja": "[フィート]あなたは磁力を自在に操る",
+    "target": "[특성] 자력을 자유자재로 조종한다.",
+    "source_ref": [
+      "2.335:start.hsp:5342",
+      "2.335:start.hsp:5347",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 664770121a000971a2f7; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 12
+  },
+  {
+    "source": "Shield Bash(MAX)",
+    "source_ja": "盾殴り(MAX)",
+    "target": "방패 강타(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5356",
+      "2.335:start.hsp:5359",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 6a3b9682beedf82eaa4e; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 43
+  },
+  {
+    "source": "[Feat]You can bash with your shield more effect.",
+    "source_ja": "[フィート]あなたは盾での攻撃に追加効果を得る",
+    "target": "[특성] 방패 공격에는 추가 효과가 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5356",
+      "2.335:start.hsp:5361",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0c858a96aaff1c00b079; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 43
+  },
+  {
+    "source": "Gentle Face(MAX)",
+    "source_ja": "優しい笑顔(MAX)",
+    "target": "다정한 미소(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5371",
+      "2.335:start.hsp:5374",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f273e51e685fadfb7df1; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 44
+  },
+  {
+    "source": "[Feat]Your smile puts people at ease.",
+    "source_ja": "[フィート]あなたの笑顔は相手を安心させる",
+    "target": "[특성] 미소는 상대를 안심시킨다.",
+    "source_ref": [
+      "2.335:start.hsp:5371",
+      "2.335:start.hsp:5376",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry ab41fb79704d426049c8; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 44
+  },
+  {
+    "source": "Improved Ambidextrous(MAX)",
+    "source_ja": "二刀流の達人(MAX)",
+    "target": "쌍수 무기의 달인(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5382",
+      "2.335:start.hsp:5385",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 67cd76249ce550d7d3ba; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 19
+  },
+  {
+    "source": "[Feat]You can handle multiple weapons. [Dual Wield+4]",
+    "source_ja": "[フィート]あなたは複数の武器を巧みに操る[二刀流+4]",
+    "target": "[특성] 여러 무기를 능숙하게 다룬다 [쌍수 무기 +4]",
+    "source_ref": [
+      "2.335:start.hsp:5382",
+      "2.335:start.hsp:5387",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry faa077addac8abf7d2fd; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 19
+  },
+  {
+    "source": "[Feat]You mastered multiple weapon style. [Two Wield+8]",
+    "source_ja": "[フィート]あなたは二刀流を極めている[二刀流+8]",
+    "target": "[특성] 쌍수 무기의 경지에 올랐다 [쌍수 무기 +8]",
+    "source_ref": [
+      "2.335:start.hsp:5382",
+      "2.335:start.hsp:5387",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 58cd01c96a6f5e044b56; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 19
+  },
+  {
+    "source": "Conquer Deep Darkness(MAX)",
+    "source_ja": "暗闇への強い適正(MAX)",
+    "target": "뛰어난 어둠 적응(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5397",
+      "2.335:start.hsp:5400",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry b8b95186113a29c04a4b; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 15
+  },
+  {
+    "source": "[Feat]You don't fear darkness. [RES Darkness+]",
+    "source_ja": "[フィート]あなたは暗闇に慣れている[暗黒耐性強化]",
+    "target": "[특성] 어둠에 익숙하다 [암흑 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5397",
+      "2.335:start.hsp:5402",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 74fb6792360e746c9529; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 15
+  },
+  {
+    "source": "[Feat]You can dance in darkness. [RES Darkness++]",
+    "source_ja": "[フィート]あなたは闇の中で生活できる[暗黒耐性強化]",
+    "target": "[특성] 어둠 속에서 생활할 수 있다 [암흑 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5397",
+      "2.335:start.hsp:5402",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 2a3f0af3d388d7cb885a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 15
+  },
+  {
+    "source": "More Poison Tolerance(MAX)",
+    "source_ja": "強い免疫(MAX)",
+    "target": "강한 면역(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5409",
+      "2.335:start.hsp:5412",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 07a48a593d8775d50097; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 18
+  },
+  {
+    "source": "[Feat]You have a torerance to poison. [RES Poison+]",
+    "source_ja": "[フィート]あなたは毒に免疫がある[毒耐性強化]",
+    "target": "[특성] 독에 면역이 있다 [독 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5409",
+      "2.335:start.hsp:5414",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 617b53f5fd3c2368dabe; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 18
+  },
+  {
+    "source": "[Feat]You have a strong tolerance to poison. [RES Poison++]",
+    "source_ja": "[フィート]あなたには毒に強い免疫がある[毒耐性強化]",
+    "target": "[특성] 독에 강한 면역이 있다 [독 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5409",
+      "2.335:start.hsp:5414",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 8a969141ef90d58308da; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 18
+  },
+  {
+    "source": "Empathy(MAX)",
+    "source_ja": "共感上手(MAX)",
+    "target": "능숙한 공감(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5421",
+      "2.335:start.hsp:5424",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 94b308578d20d2455f3e; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 16
+  },
+  {
+    "source": "[Feat]Your talk resonate in the mind.",
+    "source_ja": "[フィート]あなたの言葉は心に響く",
+    "target": "[특성] 말은 마음을 울린다.",
+    "source_ref": [
+      "2.335:start.hsp:5421",
+      "2.335:start.hsp:5426",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 002008efb58c87282fe5; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 16
+  },
+  {
+    "source": "Saint(MAX)",
+    "source_ja": "聖者(MAX)",
+    "target": "성자(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5438",
+      "2.335:start.hsp:5441",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c1b5f6d3cec97e0f749c; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 17
+  },
+  {
+    "source": "[Feat]You wield divine power.",
+    "source_ja": "[フィート]あなたは神聖な力を行使する",
+    "target": "[특성] 신성한 힘을 행사한다.",
+    "source_ref": [
+      "2.335:start.hsp:5438",
+      "2.335:start.hsp:5443",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 9a6b8b0dccc9630c921b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 17
+  },
+  {
+    "source": "Goddess of Luck(MAX)",
+    "source_ja": "幸運の女神の寵愛(MAX)",
+    "target": "행운의 여신의 총애(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5452",
+      "2.335:start.hsp:5455",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry b2b41b81c2d76ff62853; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 1
+  },
+  {
+    "source": "[Feat]You can rely on a good dose of luck.",
+    "source_ja": "[フィート]あなたは類稀な幸運の持ち主だ",
+    "target": "[특성] 보기 드문 행운의 소유자다.",
+    "source_ref": [
+      "2.335:start.hsp:5452",
+      "2.335:start.hsp:5457",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry ff1ba933122fda73b7f2; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 1
+  },
+  {
+    "source": "[Feat]The goddess of luck smiles on you.",
+    "source_ja": "[フィート]あなたは幸運の女神の寵愛を受けている",
+    "target": "[특성] 행운의 여신의 총애를 받고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5452",
+      "2.335:start.hsp:5457",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry d1e27e1a09fb9e3229fa; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 1
+  },
+  {
+    "source": "Legendary Ascetic(MAX)",
+    "source_ja": "伝説的苦行者(MAX)",
+    "target": "전설적인 고행자(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5464",
+      "2.335:start.hsp:5467",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry b818a0788c26ca33ac55; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 2
+  },
+  {
+    "source": "[Feat]You are an apprentice of an ascetic. [HP+5%]",
+    "source_ja": "[フィート]あなたは苦行者の見習いだ[HP+5%]",
+    "target": "[특성] 견습 고행자다 [HP +5%]",
+    "source_ref": [
+      "2.335:start.hsp:5464",
+      "2.335:start.hsp:5469",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 7bb36d1f4fdbc5e73b51; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 2
+  },
+  {
+    "source": "[Feat]You are a journeyman of an ascetic. [HP+10%]",
+    "source_ja": "[フィート]あなたは立派な苦行者だ[HP+10%]",
+    "target": "[특성] 훌륭한 고행자다 [HP +10%]",
+    "source_ref": [
+      "2.335:start.hsp:5464",
+      "2.335:start.hsp:5469",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 685aaab4d8a17aa98d4f; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 2
+  },
+  {
+    "source": "[Feat]You are an expert of an ascetic. [HP+15%]",
+    "source_ja": "[フィート]あなたは熟練した苦行者だ[HP+15%]",
+    "target": "[특성] 숙련 고행자다 [HP +15%]",
+    "source_ref": [
+      "2.335:start.hsp:5464",
+      "2.335:start.hsp:5469",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 84946a44f8737b99acfb; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 2
+  },
+  {
+    "source": "[Feat]You are a master of an ascetic. [HP+20%]",
+    "source_ja": "[フィート]あなたは苦行の達人だ[HP+20%]",
+    "target": "[특성] 고행의 달인이다 [HP +20%]",
+    "source_ref": [
+      "2.335:start.hsp:5464",
+      "2.335:start.hsp:5469",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c44b08f9df65483511e6; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 2
+  },
+  {
+    "source": "[Feat]You are an legendary ascetic. [HP+25%]",
+    "source_ja": "[フィート]あなたは伝説的名苦行者だ[HP+25%]",
+    "target": "[특성] 전설적인 고행자다 [HP +25%]",
+    "source_ref": [
+      "2.335:start.hsp:5464",
+      "2.335:start.hsp:5469",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 746066668be54db95cdd; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 2
+  },
+  {
+    "source": "Magic Being(MAX)",
+    "source_ja": "魔力の支配(MAX)",
+    "target": "마력의 지배(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5476",
+      "2.335:start.hsp:5479",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 2b4509db2ef7f33d4bb2; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 11
+  },
+  {
+    "source": "[Feat]Your genes contain magic. [MP+5%]",
+    "source_ja": "[フィート]あなたは魔力の遺伝子を持っている[MP+5%]",
+    "target": "[특성] 마력의 유전자를 지니고 있다 [MP +5%]",
+    "source_ref": [
+      "2.335:start.hsp:5476",
+      "2.335:start.hsp:5481",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f4c8f70e082809a639e8; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 11
+  },
+  {
+    "source": "[Feat]Your cells contain magica [MP+10%]",
+    "source_ja": "[フィート]あなたは魔力の細胞を持っている[MP+10%]",
+    "target": "[특성] 마력의 세포를 지니고 있다 [MP +10%]",
+    "source_ref": [
+      "2.335:start.hsp:5476",
+      "2.335:start.hsp:5481",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 35b825ece47a24704e41; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 11
+  },
+  {
+    "source": "[Feat]Your blood contain magic [MP+15%]",
+    "source_ja": "[フィート]あなたには魔力の血液が流れている[MP+15%]",
+    "target": "[특성] 당신에게는 마력의 피가 흐른다 [MP +15%]",
+    "source_ref": [
+      "2.335:start.hsp:5476",
+      "2.335:start.hsp:5481",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0abfd14334bb8ad3887b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 11
+  },
+  {
+    "source": "[Feat]Your body is made of magic. [MP+20%]",
+    "source_ja": "[フィート]あなたの肉体は魔力を帯びている[MP+20%]",
+    "target": "[특성] 육체에는 마력이 깃들어 있다 [MP +20%]",
+    "source_ref": [
+      "2.335:start.hsp:5476",
+      "2.335:start.hsp:5481",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 6c14106f8244be58f0e9; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 11
+  },
+  {
+    "source": "[Feat]Magic dominats your entire body. [MP+25%",
+    "source_ja": "[フィート]あなたは魔力を支配している[MP+25%]",
+    "target": "[특성] 마력을 지배한다 [MP +25%]",
+    "source_ref": [
+      "2.335:start.hsp:5476",
+      "2.335:start.hsp:5481",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 5cb36dabe634a003eddc; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 11
+  },
+  {
+    "source": "Strings Assassin(MAX)",
+    "source_ja": "糸使い(MAX)",
+    "target": "실술사(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5488",
+      "2.335:start.hsp:5491",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 06da88739710cfde9ada; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 6
+  },
+  {
+    "source": "[Feat]You manipulate strings freely.",
+    "source_ja": "[フィート]あなたは糸を自在に操る",
+    "target": "[특성] 실을 자유자재로 조종한다.",
+    "source_ref": [
+      "2.335:start.hsp:5488",
+      "2.335:start.hsp:5493",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry d1abe1c92604c0ab3b46; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 6
+  },
+  {
+    "source": "Super Accel(MAX)",
+    "source_ja": "超加速(MAX)",
+    "target": "초가속(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5502",
+      "2.335:start.hsp:5505",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 8c46e895ae78afae4811; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 4
+  },
+  {
+    "source": "[Feat]Your acceleration is amazing. [Speedspell+]",
+    "source_ja": "[フィート]あなたは規格外の加速力を持つ[加速効果上昇]",
+    "target": "[특성] 규격을 뛰어넘는 가속력을 지녔다 [가속 효과 상승]",
+    "source_ref": [
+      "2.335:start.hsp:5502",
+      "2.335:start.hsp:5507",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 5ffbacd9e6e088c51cea; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 4
+  },
+  {
+    "source": "Ground Manipulater(MAX)",
+    "source_ja": "地気利用(MAX)",
+    "target": "지기 활용(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5514",
+      "2.335:start.hsp:5517",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 1e3a9537c709010680b1; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 7
+  },
+  {
+    "source": "[Feat]You manipulate the ground.",
+    "source_ja": "[フィート]あなたは土地のエネルギーを操る",
+    "target": "[특성] 땅의 에너지를 조종한다.",
+    "source_ref": [
+      "2.335:start.hsp:5514",
+      "2.335:start.hsp:5519",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 795f4900716fb0b1e162; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 7
+  },
+  {
+    "source": "Discernment(MAX)",
+    "source_ja": "見極め(MAX)",
+    "target": "간별(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5528",
+      "2.335:start.hsp:5531",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 20225fdbd632f5550406; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 8
+  },
+  {
+    "source": "[Feat]You can see the other's gender, age, and religion.",
+    "source_ja": "[フィート]あなたは相手の性別年齢信仰を見抜く",
+    "target": "[특성] 상대의 성별·나이·신앙을 꿰뚫어 본다.",
+    "source_ref": [
+      "2.335:start.hsp:5528",
+      "2.335:start.hsp:5533",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry ebb8b972acef5d36f702; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 8
+  },
+  {
+    "source": "ShikiOrigami(MAX)",
+    "source_ja": "式折神(MAX)",
+    "target": "종이 식신(최대)",
+    "source_ref": [
+      "2.335:start.hsp:5539",
+      "2.335:start.hsp:5542",
+      "2.335:start.hsp:288875",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry bd842325376f36fd40c0; original player trait sheet"
+    },
+    "display_kind": "maximum trait",
+    "trait_id": 10
+  },
+  {
+    "source": "[Feat]You manipulate magic paper.",
+    "source_ja": "[フィート]あなたは魔法紙を操る",
+    "target": "[특성] 마법 종이를 조종한다.",
+    "source_ref": [
+      "2.335:start.hsp:5539",
+      "2.335:start.hsp:5544",
+      "2.335:start.hsp:288893",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 236334ad5416e8a71411; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 10
+  },
+  {
+    "source": "[Mutation]You have no trouble eating human flesh.",
+    "source_ja": "[変異]あなたは人肉を食べることに抵抗がない",
+    "target": "[변이] 인육을 먹는 데 거부감이 없다.",
+    "source_ref": [
+      "2.335:start.hsp:5553",
+      "2.335:start.hsp:5557",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c399bfe70f4ea715fac9; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 41
+  },
+  {
+    "source": "[Mutation]Your skin is hard. [PV+3]",
+    "source_ja": "[変異]あなたの皮膚は硬い[PV+3]",
+    "target": "[변이] 피부는 단단하다 [PV +3]",
+    "source_ref": [
+      "2.335:start.hsp:5564",
+      "2.335:start.hsp:5568",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 6b26862dd6ee358dde5a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 25
+  },
+  {
+    "source": "[Mutation]Your skin is very hard. [PV+6]",
+    "source_ja": "[変異]あなたの皮膚はとても硬い[PV+6]",
+    "target": "[변이] 피부는 매우 단단하다 [PV +6]",
+    "source_ref": [
+      "2.335:start.hsp:5564",
+      "2.335:start.hsp:5568",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0bad46ed4c1f34d8e3e7; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 25
+  },
+  {
+    "source": "[Mutation]Your skin is as hard as iron. [PV+9]",
+    "source_ja": "[変異]あなたは鉄のような皮膚を持っている[PV+9]",
+    "target": "[변이] 강철 같은 피부를 지녔다 [PV +9]",
+    "source_ref": [
+      "2.335:start.hsp:5564",
+      "2.335:start.hsp:5568",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 2192a6d112c149a445fb; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 25
+  },
+  {
+    "source": "[Mutation]Your skin is white. [PV-3]",
+    "source_ja": "[変異]あなたの皮膚は白い[PV-3]",
+    "target": "[변이] 피부는 하얗다 [PV -3]",
+    "source_ref": [
+      "2.335:start.hsp:5564",
+      "2.335:start.hsp:5571",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry ddd81d4c5391e0ce5696; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 25
+  },
+  {
+    "source": "[Mutation]Your skin is fragile. [PV-6]",
+    "source_ja": "[変異]あなたの皮膚は脆い[PV-6]",
+    "target": "[변이] 피부는 약하다 [PV -6]",
+    "source_ref": [
+      "2.335:start.hsp:5564",
+      "2.335:start.hsp:5571",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c2e2ac1b9e4653d63c42; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 25
+  },
+  {
+    "source": "[Mutation]Your skin is collapsing. [PV-9]",
+    "source_ja": "[変異]あなたの皮膚は崩れている[PV-9]",
+    "target": "[변이] 피부는 무너지고 있다 [PV -9]",
+    "source_ref": [
+      "2.335:start.hsp:5564",
+      "2.335:start.hsp:5571",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e31abe6023f33c697af2; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 25
+  },
+  {
+    "source": "[Mutation]Your joints are flexible. [DEX+3]",
+    "source_ja": "[変異]あなたの関節はしなやかだ[器用+3]",
+    "target": "[변이] 관절은 유연하다 [기교 +3]",
+    "source_ref": [
+      "2.335:start.hsp:5579",
+      "2.335:start.hsp:5583",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c1f822aaae139088fa0d; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 26
+  },
+  {
+    "source": "[Mutation]Your joints are very flexible. [DEX+6]",
+    "source_ja": "[変異]あなたの関節はとてもしなやかだ[器用+6]",
+    "target": "[변이] 관절은 매우 유연하다 [기교 +6]",
+    "source_ref": [
+      "2.335:start.hsp:5579",
+      "2.335:start.hsp:5583",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry bb90a0f72091798851e8; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 26
+  },
+  {
+    "source": "[Mutation]Your joints are incredibly flexible. [DEX+9]",
+    "source_ja": "[変異]あなたの関節は驚くほどしなやかだ[器用+9]",
+    "target": "[변이] 관절은 놀라울 만큼 유연하다 [기교 +9]",
+    "source_ref": [
+      "2.335:start.hsp:5579",
+      "2.335:start.hsp:5583",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 70ff6a2a81f1ef107362; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 26
+  },
+  {
+    "source": "[Mutation]Your joints creak. [DEX-3]",
+    "source_ja": "[変異]あなたの関節はきしむ[器用-3]",
+    "target": "[변이] 관절은 삐걱댄다 [기교 -3]",
+    "source_ref": [
+      "2.335:start.hsp:5579",
+      "2.335:start.hsp:5586",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry a76f58b874fe124118f6; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 26
+  },
+  {
+    "source": "[Mutation]You are worrying about your joint creakings. [DEX-6]",
+    "source_ja": "[変異]あなたは関節痛に悩んでいる[器用-6]",
+    "target": "[변이] 관절통에 시달린다 [기교 -6]",
+    "source_ref": [
+      "2.335:start.hsp:5579",
+      "2.335:start.hsp:5586",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 90bf2db8bd112cc23e2e; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 26
+  },
+  {
+    "source": "[Mutation]You have terrible joint creakings. [DEX-9]",
+    "source_ja": "[変異]あなたはひどい関節痛を抱えている[器用-9]",
+    "target": "[변이] 심한 관절통을 앓고 있다 [기교 -9]",
+    "source_ref": [
+      "2.335:start.hsp:5579",
+      "2.335:start.hsp:5586",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 33331ff09c693d49d7fe; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 26
+  },
+  {
+    "source": "[Mutation]Your wounds regenerate rapidly. [Regeneration+]",
+    "source_ja": "[変異]あなたの傷跡は再生する[自然治癒強化]",
+    "target": "[변이] 상처는 재생된다 [자연 치유 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5594",
+      "2.335:start.hsp:5598",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e2d7eaa125e78340e02b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 27
+  },
+  {
+    "source": "[Mutation]Your wounds regenerate instantly. [Regeneration++]",
+    "source_ja": "[変異]あなたの傷は瞬く間にふさがる[自然治癒強化]",
+    "target": "[변이] 상처는 눈 깜짝할 사이에 아문다 [자연 치유 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5594",
+      "2.335:start.hsp:5598",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry ff9f37cc39d48d128133; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 27
+  },
+  {
+    "source": "[Mutation]You suffer from anemia. [Regeneration-]",
+    "source_ja": "[変異]あなたは血の気が少ない[自然治癒弱化]",
+    "target": "[변이] 혈색이 좋지 않다 [자연 치유 약화]",
+    "source_ref": [
+      "2.335:start.hsp:5594",
+      "2.335:start.hsp:5601",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry a31bf08d480a2d9efca5; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 27
+  },
+  {
+    "source": "[Mutation]You constantly have an attack of anemia. [Regeneration--]",
+    "source_ja": "[変異]あなたの顔には血の気が全くない[自然治癒弱化]",
+    "target": "[변이] 얼굴에는 핏기가 전혀 없다 [자연 치유 약화]",
+    "source_ref": [
+      "2.335:start.hsp:5594",
+      "2.335:start.hsp:5601",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 649b319560aeea2f1a53; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 27
+  },
+  {
+    "source": "[Mutation]You have lithe legs. [SPD+5]",
+    "source_ja": "[変異]あなたの脚はしなやかだ[速度上昇]",
+    "target": "[변이] 다리는 유연하다 [속도 상승]",
+    "source_ref": [
+      "2.335:start.hsp:5609",
+      "2.335:start.hsp:5613",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry cb7edcffb37979e3c0b4; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 28
+  },
+  {
+    "source": "[Mutation]You have very lithe legs. [SPD+10]",
+    "source_ja": "[変異]あなたの脚はとてもしなやかだ[速度上昇]",
+    "target": "[변이] 다리는 매우 유연하다 [속도 상승]",
+    "source_ref": [
+      "2.335:start.hsp:5609",
+      "2.335:start.hsp:5613",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 5f0746555a7d562cafb2; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 28
+  },
+  {
+    "source": "[Mutation]You have ideal legs. [SPD+15]",
+    "source_ja": "[変異]あなたの脚は理想的な形をしている[速度上昇]",
+    "target": "[변이] 다리는 이상적인 형태다 [속도 상승]",
+    "source_ref": [
+      "2.335:start.hsp:5609",
+      "2.335:start.hsp:5613",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 7c4b5a816f98b2ee4c86; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 28
+  },
+  {
+    "source": "[Mutation]Your legs are twisted. [SPD-5]",
+    "source_ja": "[変異]あなたの脚はねじれている[速度下降]",
+    "target": "[변이] 다리는 뒤틀려 있다 [속도 감소]",
+    "source_ref": [
+      "2.335:start.hsp:5609",
+      "2.335:start.hsp:5616",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry db4148271bfd5541f829; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 28
+  },
+  {
+    "source": "[Mutation]Your legs are very twisted. [SPD-10]",
+    "source_ja": "[変異]あなたの脚はとてもねじれている[速度下降]",
+    "target": "[변이] 다리는 심하게 뒤틀려 있다 [속도 감소]",
+    "source_ref": [
+      "2.335:start.hsp:5609",
+      "2.335:start.hsp:5616",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 77f3225a2539d7b8a4bc; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 28
+  },
+  {
+    "source": "[Mutation]Your legs are broken. [SPD-15]",
+    "source_ja": "[変異]あなたの脚は折れている[速度下降]",
+    "target": "[변이] 다리는 부러져 있다 [속도 감소]",
+    "source_ref": [
+      "2.335:start.hsp:5609",
+      "2.335:start.hsp:5616",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 5c79bf98c2c4167ab282; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 28
+  },
+  {
+    "source": "[Mutation]You have well-knit arms. [STR+3]",
+    "source_ja": "[変異]あなたの腕はひきしまっている[筋力+3]",
+    "target": "[변이] 팔은 탄탄하다 [근력 +3]",
+    "source_ref": [
+      "2.335:start.hsp:5624",
+      "2.335:start.hsp:5628",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 4a138d9fd6975fdefeca; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 29
+  },
+  {
+    "source": "[Mutation]You have well-muscled arms. [STR+6]",
+    "source_ja": "[変異]あなたの腕は強力だ[筋力+6]",
+    "target": "[변이] 팔은 강력하다 [근력 +6]",
+    "source_ref": [
+      "2.335:start.hsp:5624",
+      "2.335:start.hsp:5628",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 1d7ca7ebcf8d5ef65fd6; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 29
+  },
+  {
+    "source": "[Mutation]You have ideal arms. [STR+9]",
+    "source_ja": "[変異]あなたの腕は筋肉の塊だ[筋力+9]",
+    "target": "[변이] 팔은 근육 덩어리다 [근력 +9]",
+    "source_ref": [
+      "2.335:start.hsp:5624",
+      "2.335:start.hsp:5628",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f5177e0be19e5c70085c; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 29
+  },
+  {
+    "source": "[Mutation]Your arms are thin. [STR-3]",
+    "source_ja": "[変異]あなたの腕はたるんでいる[筋力-3]",
+    "target": "[변이] 팔은 늘어져 있다 [근력 -3]",
+    "source_ref": [
+      "2.335:start.hsp:5624",
+      "2.335:start.hsp:5631",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 8bc266f1cdaeb4a1e793; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 29
+  },
+  {
+    "source": "[Mutation]Your arms are very thin. [STR-6]",
+    "source_ja": "[変異]あなたの腕はとてもたるんでいる[筋力-6]",
+    "target": "[변이] 팔은 심하게 늘어져 있다 [근력 -6]",
+    "source_ref": [
+      "2.335:start.hsp:5624",
+      "2.335:start.hsp:5631",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry cf2732612e6fe77ba7c0; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 29
+  },
+  {
+    "source": "[Mutation]Your arms are just decorative. [STR-9]",
+    "source_ja": "[変異]あなたの腕には筋肉がない[筋力-9]",
+    "target": "[변이] 팔에는 근육이 없다 [근력 -9]",
+    "source_ref": [
+      "2.335:start.hsp:5624",
+      "2.335:start.hsp:5631",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry ecc63eaea86bc61f7f10; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 29
+  },
+  {
+    "source": "[Mutation]Your voice is sweet.[CHR+5]",
+    "source_ja": "[変異]あなたは美声を持っている[魅力+5]",
+    "target": "[변이] 아름다운 목소리를 지녔다 [매력 +5]",
+    "source_ref": [
+      "2.335:start.hsp:5639",
+      "2.335:start.hsp:5643",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 4a271e1f695158a228f7; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 30
+  },
+  {
+    "source": "[Mutation]Your voice charms everyone.[CHR+10]",
+    "source_ja": "[変異]あなたの声は全てを魅了する[魅力+10]",
+    "target": "[변이] 목소리는 모두를 매료한다 [매력 +10]",
+    "source_ref": [
+      "2.335:start.hsp:5639",
+      "2.335:start.hsp:5643",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 64f778aaa932a5131cb5; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 30
+  },
+  {
+    "source": "[Mutation]Your voice is hasky.[CHR-5]",
+    "source_ja": "[変異]あなたの声はかれている[魅力-5]",
+    "target": "[변이] 목소리는 쉬어 있다 [매력 -5]",
+    "source_ref": [
+      "2.335:start.hsp:5639",
+      "2.335:start.hsp:5646",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry b6af72be9b3741fdfbf2; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 30
+  },
+  {
+    "source": "[Mutation]Everyone is frightened when you talk.[CHR-10]",
+    "source_ja": "[変異]あなたが喋ると皆逃げる[魅力-10]",
+    "target": "[변이] 당신이 말하면 모두 도망간다 [매력 -10]",
+    "source_ref": [
+      "2.335:start.hsp:5639",
+      "2.335:start.hsp:5646",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry bf66f927183b5da9b339; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 30
+  },
+  {
+    "source": "[Mutation]Your brain is mechanized.[Memorization+4]",
+    "source_ja": "[変異]あなたの脳は機械化している[暗記+4]",
+    "target": "[변이] 뇌는 기계화되어 있다 [암기 +4]",
+    "source_ref": [
+      "2.335:start.hsp:5654",
+      "2.335:start.hsp:5658",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3f1bc3f34ede4d5ffb6b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 31
+  },
+  {
+    "source": "[Mutation]Your brain is fully mechanized.[Memorization+8]",
+    "source_ja": "[変異]あなたの脳は完璧な機械だ[暗記+8]",
+    "target": "[변이] 뇌는 완벽한 기계다 [암기 +8]",
+    "source_ref": [
+      "2.335:start.hsp:5654",
+      "2.335:start.hsp:5658",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry cf799fc2b88e20980b4d; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 31
+  },
+  {
+    "source": "[Mutation]You are stupid.[Memorization-4]",
+    "source_ja": "[変異]あなたは少しぼけている[暗記-4]",
+    "target": "[변이] 정신이 조금 흐릿하다 [암기 -4]",
+    "source_ref": [
+      "2.335:start.hsp:5654",
+      "2.335:start.hsp:5661",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 18385a78051eedef301e; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 31
+  },
+  {
+    "source": "[Mutation]You are really stupid.[Memorization-8]",
+    "source_ja": "[変異]あなたは痴呆だ[暗記-8]",
+    "target": "[변이] 치매를 앓고 있다 [암기 -8]",
+    "source_ref": [
+      "2.335:start.hsp:5654",
+      "2.335:start.hsp:5661",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 51a6f34440e0f6e53807; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 31
+  },
+  {
+    "source": "[Mutation]You have resistance to magic.[RES Magic+]",
+    "source_ja": "[変異]あなたは魔法に耐性がある[魔法耐性強化]",
+    "target": "[변이] 마법에 내성이 있다 [마법 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5669",
+      "2.335:start.hsp:5673",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 960ca18a3510b9f00886; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 32
+  },
+  {
+    "source": "[Mutation]You have weakness to magic.[RES Magic-]",
+    "source_ja": "[変異]あなたは魔法に弱い[魔法耐性弱化]",
+    "target": "[변이] 마법에 약하다 [마법 내성 약화]",
+    "source_ref": [
+      "2.335:start.hsp:5669",
+      "2.335:start.hsp:5676",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e905a8bb3cb8e78e4e9f; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 32
+  },
+  {
+    "source": "[Mutation]Your eardrums are thick.[RES Sound+]",
+    "source_ja": "[変異]あなたの鼓膜は厚い[音耐性強化]",
+    "target": "[변이] 고막은 두껍다 [음파 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5684",
+      "2.335:start.hsp:5688",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3e9df3d9e928936e9109; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 33
+  },
+  {
+    "source": "[Mutation]Your eardrums are thin.[RES Sound-]",
+    "source_ja": "[変異]あなたの鼓膜は薄い[音耐性弱化]",
+    "target": "[변이] 고막은 얇다 [음파 내성 약화]",
+    "source_ref": [
+      "2.335:start.hsp:5684",
+      "2.335:start.hsp:5691",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry fac9bcdc88224e295113; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 33
+  },
+  {
+    "source": "[Mutation]Your blood is boiling. [RES Fire+]",
+    "source_ja": "[変異]あなたの血は滾っている[火炎耐性強化]",
+    "target": "[변이] 피는 끓어오르고 있다 [화염 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5699",
+      "2.335:start.hsp:5703",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 32c6de989ed84a9df235; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 34
+  },
+  {
+    "source": "[Mutation]Your skin gets gooseflesh.[RES Fire-]",
+    "source_ja": "[変異]あなたの腕には鳥肌がたっている[火炎耐性弱化]",
+    "target": "[변이] 팔에는 소름이 돋아 있다 [화염 내성 약화]",
+    "source_ref": [
+      "2.335:start.hsp:5699",
+      "2.335:start.hsp:5706",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 5e807fde1bb2d0ce4c7e; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 34
+  },
+  {
+    "source": "[Mutation]Your skin is covered by frost.[RES Cold+]",
+    "source_ja": "[変異]あなたの皮膚には霜が付いている[冷気耐性強化]",
+    "target": "[변이] 피부에는 서리가 끼어 있다 [냉기 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5714",
+      "2.335:start.hsp:5718",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 022d10d46b82befe44af; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 35
+  },
+  {
+    "source": "[Mutation]Your skin is sheer.[RES Cold-]",
+    "source_ja": "[変異]あなたの皮膚は寒さに弱い[冷気耐性弱化]",
+    "target": "[변이] 피부는 추위에 약하다 [냉기 내성 약화]",
+    "source_ref": [
+      "2.335:start.hsp:5714",
+      "2.335:start.hsp:5721",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 01d9a5565b32f4162d02; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 35
+  },
+  {
+    "source": "[Mutation]You have resistance to lightning.[RES Lightning+]",
+    "source_ja": "[変異]あなたは非電導体だ[電撃耐性強化]",
+    "target": "[변이] 부도체다 [전격 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:5729",
+      "2.335:start.hsp:5733",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f2467690a048d703373b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 36
+  },
+  {
+    "source": "[Mutation]You have weakness to lightning.[RES Lightning-]",
+    "source_ja": "[変異]あなたの身体は電気を良く通す[電撃耐性弱化]",
+    "target": "[변이] 몸은 전기가 잘 통한다 [전격 내성 약화]",
+    "source_ref": [
+      "2.335:start.hsp:5729",
+      "2.335:start.hsp:5736",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 14f8037b0d5b85ebd297; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 36
+  },
+  {
+    "source": "[Mutation]You have the eyes of a cat. [PER+5]",
+    "source_ja": "[変異]あなたは猫の目をしている[感覚+5]",
+    "target": "[변이] 고양이 같은 눈을 지녔다 [지각 +5]",
+    "source_ref": [
+      "2.335:start.hsp:5744",
+      "2.335:start.hsp:5748",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3b55ab852ef102191034; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 37
+  },
+  {
+    "source": "[Mutation]You have the eyes of a hawk. [PER+10]",
+    "source_ja": "[変異]あなたは鷹の目をしている[感覚+10]",
+    "target": "[변이] 매 같은 눈을 지녔다 [지각 +10]",
+    "source_ref": [
+      "2.335:start.hsp:5744",
+      "2.335:start.hsp:5748",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f160c63f35a78bee9668; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 37
+  },
+  {
+    "source": "[Mutation]You are partially color-blind. [PER-5]",
+    "source_ja": "[変異]あなたは色弱だ[感覚-5]",
+    "target": "[변이] 색약이다 [지각 -5]",
+    "source_ref": [
+      "2.335:start.hsp:5744",
+      "2.335:start.hsp:5751",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 5187210f9b2117965836; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 37
+  },
+  {
+    "source": "[Mutation]You are blind in one eye. [PER-10]",
+    "source_ja": "[変異]あなたは片目がない[感覚-10]",
+    "target": "[변이] 한쪽 눈이 없다 [지각 -10]",
+    "source_ref": [
+      "2.335:start.hsp:5744",
+      "2.335:start.hsp:5751",
+      "2.335:start.hsp:288901",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3a9d6ad2d72399ea9503; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 37
+  },
+  {
+    "source": "[Race]You have resistance to fire.",
+    "source_ja": "[先天]あなたは火炎に耐性がある",
+    "target": "[선천] 화염에 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5759",
+      "2.335:start.hsp:5763",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 45c9d3116d418b99c048; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 150
+  },
+  {
+    "source": "[Race]You have strong resistance to fire.",
+    "source_ja": "[先天]あなたは火炎にかなりの耐性がある",
+    "target": "[선천] 화염에 상당한 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5759",
+      "2.335:start.hsp:5763",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry d00c7f08620ac30fe35a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 150
+  },
+  {
+    "source": "[Race]You have weakness to fire.",
+    "source_ja": "[先天]あなたは火炎に弱い",
+    "target": "[선천] 화염에 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5759",
+      "2.335:start.hsp:5766",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 615ed5ebed5c1b426150; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 150
+  },
+  {
+    "source": "[Race]You have strong weakness to fire.",
+    "source_ja": "[先天]あなたはかなり火炎に弱い",
+    "target": "[선천] 화염에 매우 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5759",
+      "2.335:start.hsp:5766",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 12cb24a184d32153b6e4; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 150
+  },
+  {
+    "source": "[Race]You have resistance to cold.",
+    "source_ja": "[先天]あなたは冷気に耐性がある",
+    "target": "[선천] 냉기에 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5773",
+      "2.335:start.hsp:5777",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry a53f95627d69defbc722; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 151
+  },
+  {
+    "source": "[Race]You have strong resistance to cold.",
+    "source_ja": "[先天]あなたは冷気にかなりの耐性がある",
+    "target": "[선천] 냉기에 상당한 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5773",
+      "2.335:start.hsp:5777",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 9303575fbf85cdb8e80c; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 151
+  },
+  {
+    "source": "[Race]You have weakness to cold.",
+    "source_ja": "[先天]あなたは冷気に弱い",
+    "target": "[선천] 냉기에 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5773",
+      "2.335:start.hsp:5780",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3fad2d1537ab44c76d90; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 151
+  },
+  {
+    "source": "[Race]You have strong weakness to cold.",
+    "source_ja": "[先天]あなたはかなり冷気に弱い",
+    "target": "[선천] 냉기에 매우 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5773",
+      "2.335:start.hsp:5780",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c7defa6253776806a4bd; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 151
+  },
+  {
+    "source": "[Race]You have resistance to poison.",
+    "source_ja": "[先天]あなたは毒に耐性がある",
+    "target": "[선천] 독에 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5787",
+      "2.335:start.hsp:5791",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0e5d026318dd3f58124e; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 152
+  },
+  {
+    "source": "[Race]You have strong resistance to poison.",
+    "source_ja": "[先天]あなたは毒にかなりの耐性がある",
+    "target": "[선천] 독에 상당한 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5787",
+      "2.335:start.hsp:5791",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 806d5d1afd8415ca8ddc; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 152
+  },
+  {
+    "source": "[Race]You have weakness to poison.",
+    "source_ja": "[先天]あなたは毒に弱い",
+    "target": "[선천] 독에 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5787",
+      "2.335:start.hsp:5794",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 1d997721ef3069e57ad2; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 152
+  },
+  {
+    "source": "[Race]You have strong weakness to poison.",
+    "source_ja": "[先天]あなたはかなり毒に弱い",
+    "target": "[선천] 독에 매우 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5787",
+      "2.335:start.hsp:5794",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3ebdd1e374e1acb2fe73; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 152
+  },
+  {
+    "source": "[Race]You have resistance to darkness.",
+    "source_ja": "[先天]あなたは暗黒に耐性がある",
+    "target": "[선천] 암흑에 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5801",
+      "2.335:start.hsp:5805",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f37333ad4b78628768fa; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 155
+  },
+  {
+    "source": "[Race]You have strong resistance to darkness.",
+    "source_ja": "[先天]あなたは暗黒にかなりの耐性がある",
+    "target": "[선천] 암흑에 상당한 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5801",
+      "2.335:start.hsp:5805",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 53c944f3a8875e47716a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 155
+  },
+  {
+    "source": "[Race]You have weakness to darkness.",
+    "source_ja": "[先天]あなたは暗黒に弱い",
+    "target": "[선천] 암흑에 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5801",
+      "2.335:start.hsp:5808",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 4b692a5014b3fc9b79cf; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 155
+  },
+  {
+    "source": "[Race]You have strong weakness to darkness.",
+    "source_ja": "[先天]あなたはかなり暗黒に弱い",
+    "target": "[선천] 암흑에 매우 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5801",
+      "2.335:start.hsp:5808",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry df591e0cf13d78867768; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 155
+  },
+  {
+    "source": "[Race]You take less damages from the mana reaction.",
+    "source_ja": "[先天]あなたはマナの反動を軽減できる",
+    "target": "[선천] 마나의 반동을 줄일 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5815",
+      "2.335:start.hsp:5819",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 5757a0b7da363a1db352; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 156
+  },
+  {
+    "source": "[Race]You don't feel guilty. [Karma limit -20]",
+    "source_ja": "[先天]あなたは罪悪感を感じない[カルマ上限-20]",
+    "target": "[선천] 죄책감을 느끼지 않는다 [카르마 상한 -20]",
+    "source_ref": [
+      "2.335:start.hsp:5856",
+      "2.335:start.hsp:5860",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 8b6bc6e33ce048cf32e8; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 162
+  },
+  {
+    "source": "[Race]You are a good man. [Karma limit +20]",
+    "source_ja": "[先天]あなたは良い心を持っている[カルマ上限+20]",
+    "target": "[선천] 선한 마음을 지녔다 [카르마 상한 +20]",
+    "source_ref": [
+      "2.335:start.hsp:5866",
+      "2.335:start.hsp:5870",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry fcac112affaf99b543d1; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 169
+  },
+  {
+    "source": "[Race]Quality stuff are generated around you.",
+    "source_ja": "[先天]あなたの周りでは質の高いエンチャントが生成されやすい",
+    "target": "[선천] 당신 주변에서는 질 좋은 인챈트가 생성되기 쉽다.",
+    "source_ref": [
+      "2.335:start.hsp:5876",
+      "2.335:start.hsp:5880",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 76d6d0f99fdf2a033d7a; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 163
+  },
+  {
+    "source": "[Race]You are given physical damage reduction.",
+    "source_ja": "[先天]あなたが受ける物理ダメージは軽減される",
+    "target": "[선천] 당신이 받는 물리 피해는 줄어든다.",
+    "source_ref": [
+      "2.335:start.hsp:5886",
+      "2.335:start.hsp:5890",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e7cfec6d9841c0232899; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 164
+  },
+  {
+    "source": "[Race]Elemental spells you cast are empowered.",
+    "source_ja": "[先天]あなたの元素魔法は強化されている",
+    "target": "[선천] 원소 주문은 강화되어 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5896",
+      "2.335:start.hsp:5900",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e712b9295f0e84a6645f; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 165
+  },
+  {
+    "source": "[Race]You are surrounded by an aura that cures sanity.",
+    "source_ja": "[先天]あなたは周囲の狂気を緩和する",
+    "target": "[선천] 주변의 광기를 완화한다.",
+    "source_ref": [
+      "2.335:start.hsp:5906",
+      "2.335:start.hsp:5910",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 02edc85511f02a9584fb; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 166
+  },
+  {
+    "source": "[Race]You moe.",
+    "source_ja": "[先天]あなたは萌える",
+    "target": "[선천] 모에하다.",
+    "source_ref": [
+      "2.335:start.hsp:5916",
+      "2.335:start.hsp:5920",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 064e2ffec560d6016a66; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 167
+  },
+  {
+    "source": "[Race]You won't be dim.",
+    "source_ja": "[先天]あなたは朦朧状態にならない",
+    "target": "[선천] 몽롱 상태가 되지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:5926",
+      "2.335:start.hsp:5930",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 70797ab8443d71e7b78f; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 157
+  },
+  {
+    "source": "[Race]You reduce the hunger drop when you are hungry.",
+    "source_ja": "[先天]あなたは飢えている際に満腹度減少を緩和する",
+    "target": "[선천] 굶주렸을 때 포만도가 줄어드는 속도를 완화한다.",
+    "source_ref": [
+      "2.335:start.hsp:5936",
+      "2.335:start.hsp:5940",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e2ed30bc7bb3385b866c; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 158
+  },
+  {
+    "source": "[Race]You can gather more materials.",
+    "source_ja": "[先天]あなたはより多くマテリアル採取できる",
+    "target": "[선천] 더 많은 재료를 채집할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5946",
+      "2.335:start.hsp:5950",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 3b013cd863e8e8ae8c9d; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 159
+  },
+  {
+    "source": "[Race]You have resistance to magic.",
+    "source_ja": "[先天]あなたは魔法に耐性がある",
+    "target": "[선천] 마법에 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5966",
+      "2.335:start.hsp:5970",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c3b3d65bc2acaa487953; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 153
+  },
+  {
+    "source": "[Race]You have strong resistance to magic.",
+    "source_ja": "[先天]あなたは魔法にかなりの耐性がある",
+    "target": "[선천] 마법에 상당한 내성이 있다.",
+    "source_ref": [
+      "2.335:start.hsp:5966",
+      "2.335:start.hsp:5970",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry f824ad1c1327033ddaf6; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 153
+  },
+  {
+    "source": "[Race]You have weakness to magic.",
+    "source_ja": "[先天]あなたは魔法に弱い",
+    "target": "[선천] 마법에 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5966",
+      "2.335:start.hsp:5973",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 79b151ad2ef36a285b61; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 153
+  },
+  {
+    "source": "[Race]You have strong weakness to magic.",
+    "source_ja": "[先天]あなたはかなり魔法に弱い",
+    "target": "[선천] 마법에 매우 약하다.",
+    "source_ref": [
+      "2.335:start.hsp:5966",
+      "2.335:start.hsp:5973",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 1fa6c4a18ac44eb4912e; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 153
+  },
+  {
+    "source": "[Race]Your body is changing every moment.",
+    "source_ja": "[先天]あなたの肉体は刻々と変化する",
+    "target": "[선천] 육체는 시시각각 변한다.",
+    "source_ref": [
+      "2.335:start.hsp:5980",
+      "2.335:start.hsp:5984",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry ba345df12f134742cf00; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 0
+  },
+  {
+    "source": "[Race]Your body slows the Ether Disease progress.",
+    "source_ja": "[先天]あなたのエーテル病の進行は遅い",
+    "target": "[선천] 에테르병은 느리게 진행된다.",
+    "source_ref": [
+      "2.335:start.hsp:5990",
+      "2.335:start.hsp:5994",
+      "2.335:start.hsp:288909",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 6ef29f464c024c880518; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 168
+  },
+  {
+    "source": "[Ether]You generate gravity. [Weight+10%]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたは重力を生み出している[重量+10%]",
+    "target": "[에테르병] 중력을 만들어 낸다 [중량 +10%]",
+    "source_ref": [
+      "2.335:start.hsp:6000",
+      "2.335:start.hsp:6004",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e0d76d972f577022d442; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 201
+  },
+  {
+    "source": "[Ether]You generate heavy gravity. [Weight+20%]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたは大きな重力を生み出している[重量+20%]",
+    "target": "[에테르병] 큰 중력을 만들어 낸다 [중량 +20%]",
+    "source_ref": [
+      "2.335:start.hsp:6000",
+      "2.335:start.hsp:6004",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry e85e8e6824465d3b635b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 201
+  },
+  {
+    "source": "[Ether]You generate massive gravity. [Weight+30%]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたはとてつもない重力を生み出している[重量+30%]",
+    "target": "[에테르병] 엄청난 중력을 만들어 낸다 [중량 +30%]",
+    "source_ref": [
+      "2.335:start.hsp:6000",
+      "2.335:start.hsp:6004",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 21838a9cb741895364d6; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 201
+  },
+  {
+    "source": "[Ether]Clouds of rain follow you. [Chance of rain+]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたは雨を呼ぶ[雨天確率上昇]",
+    "target": "[에테르병] 비를 부른다 [비가 올 확률 상승]",
+    "source_ref": [
+      "2.335:start.hsp:6100",
+      "2.335:start.hsp:6104",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 9736134f32691536ad93; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 209
+  },
+  {
+    "source": "[Ether]You are addicted to potion. [Consume potions]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたはポーション中毒だ[定期的ポーション消費]",
+    "target": "[에테르병] 물약에 중독되어 있다 [주기적으로 물약 소모]",
+    "source_ref": [
+      "2.335:start.hsp:6111",
+      "2.335:start.hsp:6115",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0be49d37911054bd4b3f; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 210
+  },
+  {
+    "source": "[Ether]You are more sleepy during the day than at night. [Change in sleepiness]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたは夜よりも昼に眠くなる[眠気時間帯変化]",
+    "target": "[에테르병] 밤보다 낮에 졸린다 [졸린 시간대 변화]",
+    "source_ref": [
+      "2.335:start.hsp:6122",
+      "2.335:start.hsp:6126",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 9f4e60a33d256f15103b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 228
+  },
+  {
+    "source": "[Ether]You are unstablizing space around you. [Random teleporation]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたの周囲の空間は捩れている[ランダムテレポート]",
+    "target": "[에테르병] 당신 주변의 공간은 뒤틀려 있다 [무작위 순간이동]",
+    "source_ref": [
+      "2.335:start.hsp:6172",
+      "2.335:start.hsp:6176",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 815f7e6f8caebdf626b5; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 214
+  },
+  {
+    "source": "[Ether]You are a living mana battery. [Absorb mana from rods]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたは生きたマナバッテリーだ[杖から魔力抽出]",
+    "target": "[에테르병] 살아 있는 마나 배터리다 [지팡이에서 마력 추출]",
+    "source_ref": [
+      "2.335:start.hsp:6183",
+      "2.335:start.hsp:6187",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 0a65a4866e1eb67d278b; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 215
+  },
+  {
+    "source": "[Ether]Poison drips from your hands. [Poison potions RES Poison+]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたの手から毒が滴っている[ポーション毒化 毒耐性強化]",
+    "target": "[에테르병] 손에서는 독이 뚝뚝 떨어진다 [물약 독화·독 내성 강화]",
+    "source_ref": [
+      "2.335:start.hsp:6194",
+      "2.335:start.hsp:6198",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry 28197060dd93f810bbd7; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 216
+  },
+  {
+    "source": "[Ether]Your bones are popping out. [Deals cut damage to the attacker, Can't wear armors]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたの骨は飛び出している[体装備不可 切り傷反撃]",
+    "target": "[에테르병] 뼈가 튀어나와 있다 [몸통 장비 불가·베인 상처 반격]",
+    "source_ref": [
+      "2.335:start.hsp:6218",
+      "2.335:start.hsp:6222",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry de6694747bae586b2fdb; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 218
+  },
+  {
+    "source": "[Ether]Your hands are blades. [Can't wear weapons, Available Decapitation]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたの手は刃物になっている[手装備不可 首狩り攻撃会得]",
+    "target": "[에테르병] 손은 칼날이 되어 있다 [손 장비 불가·참수 습득]",
+    "source_ref": [
+      "2.335:start.hsp:6278",
+      "2.335:start.hsp:6282",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry c726dd34a32ae4972676; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 223
+  },
+  {
+    "source": "[Ether]Thin tentacles are growing from you. [Tentacles runaway during battle and interference]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたには細い触手が生えている[戦闘・干渉時に触手暴走]",
+    "target": "[에테르병] 당신에게는 가느다란 촉수가 돋아 있다 [전투·간섭 시 촉수 폭주]",
+    "source_ref": [
+      "2.335:start.hsp:6326",
+      "2.335:start.hsp:6330",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry fe27eeb37936bbfda77d; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 227
+  },
+  {
+    "source": "[Ether]Thick tentacles are growing from you. [Strong tentacles runaway during battle and interference]",
+    "source_ja": "[ｴｰﾃﾙ病]あなたには太い触手が生えている[戦闘・干渉時に強触手暴走]",
+    "target": "[에테르병] 당신에게는 굵은 촉수가 돋아 있다 [전투·간섭 시 강한 촉수 폭주]",
+    "source_ref": [
+      "2.335:start.hsp:6326",
+      "2.335:start.hsp:6330",
+      "2.335:start.hsp:288917",
+      "2.335:start.hsp:288923",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "2.335 reviewed Japanese database entry b6efb985ea46a7840cc1; original player trait sheet"
+    },
+    "display_kind": "active trait",
+    "trait_id": 227
+  },
+  {
+    "source": "[bit]You are disguising yourself.",
+    "source_ja": "[bit]あなたは変装している",
+    "target": "[체질] 변장한 상태다.",
+    "source_ref": [
+      "2.335:start.hsp:288934",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are parasitic in the belly.",
+    "source_ja": "[bit]あなたは腹に寄生されている",
+    "target": "[체질] 배 속에 기생체가 있다.",
+    "source_ref": [
+      "2.335:start.hsp:288939",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are parasitic in the brain.",
+    "source_ja": "[bit]あなたは脳髄に寄生されている",
+    "target": "[체질] 뇌에 기생체가 있다.",
+    "source_ref": [
+      "2.335:start.hsp:288944",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You have anorexia.",
+    "source_ja": "[bit]あなたは拒食症だ",
+    "target": "[체질] 거식증을 앓고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:288949",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You can float.",
+    "source_ja": "[bit]あなたは浮遊できる",
+    "target": "[체질] 공중에 뜰 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:288954",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You can be invisible.",
+    "source_ja": "[bit]あなたは透明になれる",
+    "target": "[체질] 투명해질 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:288959",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You see invisible creatures.",
+    "source_ja": "[bit]あなたは透明な存在が見える",
+    "target": "[체질] 투명한 존재를 볼 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:288964",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You negates the effect of confusion.",
+    "source_ja": "[bit]あなたには混乱が効かない",
+    "target": "[체질] 혼란에 걸리지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:288969",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You negates the effect of blindness.",
+    "source_ja": "[bit]あなたには盲目が効かない",
+    "target": "[체질] 실명하지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:288974",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You negates the effect of fear.",
+    "source_ja": "[bit]あなたには恐怖が効かない",
+    "target": "[체질] 공포에 걸리지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:288979",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You negates the effect of sleep.",
+    "source_ja": "[bit]あなたには睡眠が効かない",
+    "target": "[체질] 수면에 빠지지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:288984",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You negates the effect of paralysis.",
+    "source_ja": "[bit]あなたには麻痺が効かない",
+    "target": "[체질] 마비되지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:288989",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You negates the effect of poison.",
+    "source_ja": "[bit]あなたには毒が効かない",
+    "target": "[체질] 중독되지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:288994",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You can digest rotten foods.",
+    "source_ja": "[bit]あなたは腐ったものを難なく消化する",
+    "target": "[체질] 썩은 음식도 거뜬히 소화한다.",
+    "source_ref": [
+      "2.335:start.hsp:288999",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You will not have item stolen.",
+    "source_ja": "[bit]あなたはアイテムを盗まれない",
+    "target": "[체질] 물건을 도둑맞지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:289004",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You self-destruct.",
+    "source_ja": "[bit]あなたは自爆する",
+    "target": "[체질] 자폭한다.",
+    "source_ref": [
+      "2.335:start.hsp:289009",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You govern death word.",
+    "source_ja": "[bit]あなたは死を司る",
+    "target": "[체질] 죽음을 관장한다.",
+    "source_ref": [
+      "2.335:start.hsp:289014",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You can cast triple arrow spells.",
+    "source_ja": "[bit]あなたは連続矢魔法を使える",
+    "target": "[체질] 마법 화살을 연달아 쏠 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289019",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You can use Layhand.",
+    "source_ja": "[bit]あなたはレイハンドを使える",
+    "target": "[체질] 안수를 쓸 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289024",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are suitable for riding.",
+    "source_ja": "[bit]あなたは乗馬に適している",
+    "target": "[체질] 다른 이를 태우고 다니기에 적합하다.",
+    "source_ref": [
+      "2.335:start.hsp:289029",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You can split when attacked easily.",
+    "source_ja": "[bit]あなたは分裂できる",
+    "target": "[체질] 분열할 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289034",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are strong against curses.",
+    "source_ja": "[bit]あなたは呪いに強い",
+    "target": "[체질] 저주에 강하다.",
+    "source_ref": [
+      "2.335:start.hsp:289039",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are too weak to carry you.",
+    "source_ja": "[bit]あなたは乗馬に適さない",
+    "target": "[체질] 다른 이를 태우고 다니기에 적합하지 않다.",
+    "source_ref": [
+      "2.335:start.hsp:289044",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You neutralize each other's attribute attacks.",
+    "source_ja": "[bit]あなたはお互いの属性攻撃を中和する",
+    "target": "[체질] 서로의 속성 공격을 중화한다.",
+    "source_ref": [
+      "2.335:start.hsp:289049",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You can split when attacked.",
+    "source_ja": "[bit]あなたは元気な場合分裂する",
+    "target": "[체질] 기운이 넘칠 때 분열한다.",
+    "source_ref": [
+      "2.335:start.hsp:289054",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are made of special metal",
+    "source_ja": "[bit]あなたは特殊金属で構成されている",
+    "target": "[체질] 특수 금속으로 이루어져 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289059",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You don't bleed easily.",
+    "source_ja": "[bit]あなたは出血しにくい",
+    "target": "[체질] 쉽게 피를 흘리지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:289064",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are not sensed by land mines.",
+    "source_ja": "[bit]あなたは地雷に反応されない",
+    "target": "[체질] 지뢰에 감지되지 않는다.",
+    "source_ref": [
+      "2.335:start.hsp:289069",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You get angry when attacked.",
+    "source_ja": "[bit]あなたは攻撃されると怒る",
+    "target": "[체질] 공격받으면 분노한다.",
+    "source_ref": [
+      "2.335:start.hsp:289074",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are covered in special armor.",
+    "source_ja": "[bit]あなたは特殊装甲に覆われている",
+    "target": "[체질] 특수 장갑에 덮여 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289079",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are good at shooting fast.",
+    "source_ja": "[bit]あなたは早撃ちが得意だ",
+    "target": "[체질] 속사에 능하다.",
+    "source_ref": [
+      "2.335:start.hsp:289084",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You are ready for Jiujitsu.",
+    "source_ja": "[bit]あなたは柔術の構えをしている",
+    "target": "[체질] 유술 자세를 취하고 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289089",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[bit]You feel uplifted while casting.",
+    "source_ja": "[bit]あなたは詠唱中に気分が高揚する",
+    "target": "[체질] 주문을 외우는 동안 기분이 고양된다.",
+    "source_ref": [
+      "2.335:start.hsp:289094",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[ETC]Your Ether disease grows fast.",
+    "source_ja": "[その他]あなたのエーテル病の進行は早い。",
+    "target": "[기타] 에테르병이 빠르게 진행된다.",
+    "source_ref": [
+      "2.335:start.hsp:289105",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[ETC]Your Ether disease grows slow.",
+    "source_ja": "[その他]あなたのエーテル病の進行は遅い。",
+    "target": "[기타] 에테르병이 천천히 진행된다.",
+    "source_ref": [
+      "2.335:start.hsp:289110",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[ETC]You have given birth. [RES+ ENDattack]",
+    "source_ja": "[その他]あなたには出産経験がある[耐久属性被ﾀﾞﾒｰｼﾞ半減]",
+    "target": "[기타] 출산한 경험이 있다. [내구 속성으로 받는 피해 절반]",
+    "source_ref": [
+      "2.335:start.hsp:289121",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Attraction.",
+    "source_ja": "[覚醒]あなたの魅力は敵さえも朦朧とさせる[直接攻撃してきた敵が朦朧]",
+    "target": "[각성] 매력으로 적마저 정신을 잃게 한다. [직접 공격해 온 적에게 몽롱 부여]",
+    "source_ref": [
+      "2.335:start.hsp:289126",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Guts.",
+    "source_ja": "[覚醒]あなたの意地は窮地すらも乗り越える[HP減るほど回避軽減クリティカル上昇]",
+    "target": "[각성] 위기에 몰릴수록 오기가 살아난다. [HP가 낮을수록 회피·피해 경감·치명타 상승]",
+    "source_ref": [
+      "2.335:start.hsp:289131",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Boundless power.",
+    "source_ja": "[覚醒]あなたの底力は窮地すらも乗り越える[HP減るほど最終与ダメージ上昇]",
+    "target": "[각성] 위기에서 저력을 발휘한다. [HP가 낮을수록 최종 가하는 피해 증가]",
+    "source_ref": [
+      "2.335:start.hsp:289136",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Barrier.",
+    "source_ja": "[覚醒]あなたの障壁は如何なる攻撃でも防ぐ[ダメージ分MP消費し攻撃無効化]",
+    "target": "[각성] 어떤 공격도 막는 장벽을 펼친다. [피해량만큼 MP를 써서 공격 무효화]",
+    "source_ref": [
+      "2.335:start.hsp:289141",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Insult.",
+    "source_ja": "[覚醒]あなたは罵倒を会得している",
+    "target": "[각성] 매도를 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289146",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Crystal Spear.",
+    "source_ja": "[覚醒]あなたは魔力の集積を会得している",
+    "target": "[각성] 마력 집적을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289151",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Dimensional Move.",
+    "source_ja": "[覚醒]あなたは空間歪曲を会得している",
+    "target": "[각성] 공간 왜곡을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289156",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Tactical Heal.",
+    "source_ja": "[覚醒]あなたはタクティカルヒールを会得している",
+    "target": "[각성] 전술 치유를 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289161",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Tactical Attack.",
+    "source_ja": "[覚醒]あなたはタクティカルアタックを会得している",
+    "target": "[각성] 전술 공격을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289166",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Tactical Martial Arts.",
+    "source_ja": "[覚醒]あなたはタクティカルアーツを会得している",
+    "target": "[각성] 전술 무술을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289171",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Tactical Curse.",
+    "source_ja": "[覚醒]あなたはタクティカルカースを会得している",
+    "target": "[각성] 전술 저주를 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289176",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Charge Attack.",
+    "source_ja": "[覚醒]あなたはチャージを会得している",
+    "target": "[각성] 충전을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289181",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Provoke.",
+    "source_ja": "[覚醒]あなたは挑発を会得している",
+    "target": "[각성] 도발을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289186",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Zero shoot.",
+    "source_ja": "[覚醒]あなたは零の間撃を会得している",
+    "target": "[각성] 영거리 사격을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289191",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Tactical Throw.",
+    "source_ja": "[覚醒]あなたはタクティカルスローを会得している",
+    "target": "[각성] 전술 투척을 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289196",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Variable Breath.",
+    "source_ja": "[覚醒]あなたは可変放射を会得している",
+    "target": "[각성] 가변 방사를 익혔다.",
+    "source_ref": [
+      "2.335:start.hsp:289201",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You got Variable Storm.",
+    "source_ja": "[覚醒]あなたは範囲魔法可変術式を会得している",
+    "target": "[각성] 범위 마법의 술식을 바꿀 수 있다.",
+    "source_ref": [
+      "2.335:start.hsp:289206",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You prefer the proximity attack.",
+    "source_ja": "[覚醒]あなたは近接攻撃を好む",
+    "target": "[각성] 근접 공격을 선호한다.",
+    "source_ref": [
+      "2.335:start.hsp:289211",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You prefer the shot.",
+    "source_ja": "[覚醒]あなたは遠隔攻撃を好む",
+    "target": "[각성] 원거리 공격을 선호한다.",
+    "source_ref": [
+      "2.335:start.hsp:289216",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You prefer the magic arrows.",
+    "source_ja": "[覚醒]あなたは矢系魔法を好む",
+    "target": "[각성] 화살 계열 마법을 선호한다.",
+    "source_ref": [
+      "2.335:start.hsp:289221",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You forbid using spells.",
+    "source_ja": "[覚醒]あなたは魔法を封印している",
+    "target": "[각성] 마법을 봉인했다.",
+    "source_ref": [
+      "2.335:start.hsp:289226",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[AWAKE]You forbid using special actions.",
+    "source_ja": "[覚醒]あなたは技能を封印している",
+    "target": "[각성] 특수 기술을 봉인했다.",
+    "source_ref": [
+      "2.335:start.hsp:289231",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[SHOP]You got elegance.",
+    "source_ja": "[営業]あなたには気品がある[店の客質上昇]",
+    "target": "[영업] 기품이 있다. [상점을 찾는 손님의 수준 상승]",
+    "source_ref": [
+      "2.335:start.hsp:289236",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[SHOP]You got aesthetic sense.",
+    "source_ja": "[営業]あなたは審美眼を持っている[交換レート上昇]",
+    "target": "[영업] 보는 눈이 있다. [교환 비율 상승]",
+    "source_ref": [
+      "2.335:start.hsp:289241",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[SHOP]You got proprietary procurement route.",
+    "source_ja": "[営業]あなたは独自の商品調達ルートを持つ[独自の稼ぎ増加]",
+    "target": "[영업] 독자적인 상품 조달 경로가 있다. [스스로 벌어들이는 수입 증가]",
+    "source_ref": [
+      "2.335:start.hsp:289246",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[SHOP]You got tie-up force.",
+    "source_ja": "[営業]あなたは強い提携力を持つ[同行時に売買強化]",
+    "target": "[영업] 협력 관계를 잘 맺는다. [동행 시 거래 조건 개선]",
+    "source_ref": [
+      "2.335:start.hsp:289251",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[SHOP]You got business smile.",
+    "source_ja": "[営業]あなたの営業スマイルは完璧だ[悩殺攻撃を会得]",
+    "target": "[영업] 영업용 미소가 완벽하다. [뇌쇄 공격 습득]",
+    "source_ref": [
+      "2.335:start.hsp:289256",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[ETC]You are not in serious trouble. [Power gauge lower limit +1]",
+    "source_ja": "[その他]あなたは悩みに囚われていない[パワーゲージ下限+1]",
+    "target": "[기타] 고민에 얽매이지 않는다. [파워 게이지 하한 +1]",
+    "source_ref": [
+      "2.335:start.hsp:289271",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "[ETC]You are waking up to a dangerous hobby. [SAN lower limit +10/Power gauge lower limit +5]",
+    "source_ja": "[その他]あなたはやばい趣味に目覚めている[狂気度下限+10とパワーゲージ下限+5]",
+    "target": "[기타] 위험한 취미에 눈을 떴다. [광기 하한 +10, 파워 게이지 하한 +5]",
+    "source_ref": [
+      "2.335:start.hsp:289276",
+      "2.335:start.hsp:289462"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; active ability row"
+    },
+    "display_kind": "active ability"
+  },
+  {
+    "source": "I want to awaken my own powers.",
+    "source_ja": "自分の力を覚醒",
+    "target": "자신의 힘 각성",
+    "source_ref": [
+      "2.335:start.hsp:415199"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "I want to awaken an ally's power.",
+    "source_ja": "仲間の力を覚醒",
+    "target": "동료의 힘 각성",
+    "source_ref": [
+      "2.335:start.hsp:415202"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "There's a special kind of experience that you gain only through life-and-death battles with the strong. Most of it never takes shape and gets lost in the sea of memories. If you want, I can put that together for you to let you awaken to another power.",
+    "source_ja": "強敵との死闘の中でこそ得られる特別な経験もある。しかし大抵そのままでは形にならず、記憶の海に埋もれてしまうものだ。そんな経験を組み合わせて俺が新たな力として覚醒させてやろう。",
+    "target": "강적과 생사를 걸고 싸워야만 얻는 경험이 있지. 하지만 그 경험은 대부분 형태를 갖추지 못하고 기억 속에 묻히고 말아. 그런 경험을 엮어 새로운 힘으로 일깨워 주마.",
+    "source_ref": [
+      "2.335:start.hsp:415204"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Increase speed.",
+    "source_ja": "速度上昇",
+    "target": "속도 상승",
+    "source_ref": [
+      "2.335:start.hsp:415212"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Increase life.",
+    "source_ja": "生命力上昇",
+    "target": "생명력 상승",
+    "source_ref": [
+      "2.335:start.hsp:415215"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Acquire feats.",
+    "source_ja": "フィート取得",
+    "target": "특성 습득",
+    "source_ref": [
+      "2.335:start.hsp:415218"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Learn spells and special abilities.",
+    "source_ja": "魔法や技能の会得",
+    "target": "주문·특수 기술 습득",
+    "source_ref": [
+      "2.335:start.hsp:415221"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Change battle style/increase character quality.",
+    "source_ja": "戦闘スタイル変更・品質上昇",
+    "target": "전투 방식 변경·품질 상승",
+    "source_ref": [
+      "2.335:start.hsp:415224"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Convert into bonus points.",
+    "source_ja": "スキルボーナスの獲得",
+    "target": "기술 보너스 획득",
+    "source_ref": [
+      "2.335:start.hsp:415227"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "What form do you want your powers to take?",
+    "source_ja": "どういった力に変えるんだ？",
+    "target": "어떤 힘으로 바꾸겠나?",
+    "source_ref": [
+      "2.335:start.hsp:415229"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Alright, I can raise an ally's life by 10 by consuming AP depending on initial life and bit. Who's it gonna be?",
+    "source_ja": "よし、初期生命力・マナや資質に応じたAPを消費して、生命力を10上げるぞ。誰の生命力を上昇させるんだ？",
+    "target": "좋아. 초기 생명력과 마나, 자질에 따라 AP를 써서 생명력을 10 올려 주지. 누구의 생명력을 높일까?",
+    "source_ref": [
+      "2.335:start.hsp:415233"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "100 bonus points will cost 500AP. Who's it gonna be?",
+    "source_ja": "AP500をスキルボーナス100に変換する。誰を対象にするんだ？",
+    "target": "AP 500을 기술 보너스 100으로 바꾼다. 누구에게 쓸 거냐?",
+    "source_ref": [
+      "2.335:start.hsp:415251"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Alright, I can raise an ally's speed by 30 by consuming AP depending on initial speed. Who's it gonna be?",
+    "source_ja": "よし、初期速度に応じたAPを消費して速度を30上げるぞ。誰の速度を上昇させるんだ？",
+    "target": "좋아. 초기 속도에 따라 AP를 써서 속도를 30 올려 주지. 누구의 속도를 높일까?",
+    "source_ref": [
+      "2.335:start.hsp:415270"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Charm (1500AP) [Dim enemies attacking at close range]",
+    "source_ja": "魅惑(消費AP1500)[直接攻撃してきた敵が朦朧]",
+    "target": "매혹 (1,500 AP) [직접 공격해 온 적에게 몽롱 부여]",
+    "source_ref": [
+      "2.335:start.hsp:415288",
+      "2.335:start.hsp:416854"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Brave (1500AP) [Increase damage dealt as HP decreases]",
+    "source_ja": "底力(消費AP1500)[HP減るほど最終与ダメージ上昇]",
+    "target": "저력 (1,500 AP) [HP가 낮을수록 최종 가하는 피해 증가]",
+    "source_ref": [
+      "2.335:start.hsp:415291",
+      "2.335:start.hsp:416857"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Obstinate (1800AP) [Increase evasion, damage mitigation as HP decreases]",
+    "source_ja": "意地(消費AP1800)[HP減るほど回避・軽減率上昇]",
+    "target": "오기 (1,800 AP) [HP가 낮을수록 회피율과 피해 경감률 상승]",
+    "source_ref": [
+      "2.335:start.hsp:415294",
+      "2.335:start.hsp:416860"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Barrier (2000AP) [Negate attacks with equal amount of MP]",
+    "source_ja": "障壁(消費AP2000)[ダメージ分MP消費し攻撃無効化]",
+    "target": "장벽 (2,000 AP) [피해량만큼 MP를 써서 공격 무효화]",
+    "source_ref": [
+      "2.335:start.hsp:415297",
+      "2.335:start.hsp:416863"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Which feat do you want?",
+    "source_ja": "どのフィートを取得するんだ？",
+    "target": "어떤 특성을 익히겠나?",
+    "source_ref": [
+      "2.335:start.hsp:415299"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Insult(100AP)",
+    "source_ja": "罵倒(消費AP100)",
+    "target": "매도 (100 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415325"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Crystal Spear(600AP)",
+    "source_ja": "魔力の集積(消費AP600)",
+    "target": "마력 집적 (600 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415328"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Dimensional Move(100AP)",
+    "source_ja": "空間歪曲(消費AP100)",
+    "target": "공간 왜곡 (100 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415331"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Provoke(200AP)",
+    "source_ja": "挑発(消費AP200)",
+    "target": "도발 (200 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415334"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Charge Attack(1000AP)",
+    "source_ja": "チャージ(消費AP1000)",
+    "target": "충전 (1,000 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415337"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Tactical Martial Arts(600AP)",
+    "source_ja": "タクティカルアーツ(消費AP600)",
+    "target": "전술 무술 (600 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415340"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Tactical Attack(400AP)",
+    "source_ja": "タクティカルアタック(消費AP400)",
+    "target": "전술 공격 (400 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415343"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Tactical Heal(500AP)",
+    "source_ja": "タクティカルヒール(消費AP500)",
+    "target": "전술 치유 (500 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415346"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Tactical Curse(500AP)",
+    "source_ja": "タクティカルカース(消費AP500)",
+    "target": "전술 저주 (500 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415349"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Tactical Throw(500AP)",
+    "source_ja": "タクティカルスロー(消費AP500)",
+    "target": "전술 투척 (500 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415352"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Zero shoot(500AP)",
+    "source_ja": "零の間撃(消費AP500)",
+    "target": "영거리 사격 (500 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415355"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Variable Breath(300AP)",
+    "source_ja": "可変放射(消費AP400)",
+    "target": "가변 방사 (400 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415358"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Variable Storm(800AP)",
+    "source_ja": "範囲魔法可変術式(消費AP800)",
+    "target": "범위 마법 가변 술식 (800 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415361"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Which spells and abilities do you want your ally to learn?",
+    "source_ja": "どの魔法や技能を覚えさせるんだ？",
+    "target": "어떤 주문이나 기술을 가르치겠나?",
+    "source_ref": [
+      "2.335:start.hsp:415363"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Increased frequency of melee attack(30AP)",
+    "source_ja": "近接攻撃頻度増加(消費AP30)",
+    "target": "근접 공격 빈도 증가 (30 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415434"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Increased frequency of ranged attack(30AP)",
+    "source_ja": "遠隔攻撃頻度増加(消費AP30)",
+    "target": "원거리 공격 빈도 증가 (30 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415437"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Use dart spell instead of regular attack(200AP)",
+    "source_ja": "物理攻撃矢魔法化(消費AP200)",
+    "target": "일반 물리 공격을 화살 계열 마법으로 전환 (200 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415440"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Preferred distance +1(10AP)",
+    "source_ja": "適正距離＋1(消費AP10)",
+    "target": "적정 거리 +1 (10 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415443"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Preferred distance -1(10AP)",
+    "source_ja": "適正距離－1(消費AP10)",
+    "target": "적정 거리 -1 (10 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415446"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Movement probability -10%(5AP)",
+    "source_ja": "移動確率＋10％(消費AP5)",
+    "target": "이동 확률 +10% (5 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415449"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer",
+    "english_enabled": false
+  },
+  {
+    "source": "Movement probability -10%(5AP)",
+    "source_ja": "移動確率－10％(消費AP5)",
+    "target": "이동 확률 -10% (5 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415452"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer",
+    "english_enabled": false
+  },
+  {
+    "source": "Allow/disallow spell usage(20AP)",
+    "source_ja": "魔法の使用封印/解除(消費AP20)",
+    "target": "마법 사용 봉인·해제 (20 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415455"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Allow/disallow ability usage(20AP)",
+    "source_ja": "技能の使用封印/解除(消費AP20)",
+    "target": "특수 기술 사용 봉인·해제 (20 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415458"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Increase character quality(1000AP)",
+    "source_ja": "キャラ品質上昇(消費AP1000)",
+    "target": "캐릭터 품질 상승 (1,000 AP)",
+    "source_ref": [
+      "2.335:start.hsp:415461"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "How do you want them to change? Careful now, AP spent on these will never get refunded even if you pick the same option again.",
+    "source_ja": "どう変更させるんだ？ちなみにこれらは、後で打ち消しても前に消費したAPは戻ってこない。気をつけろ。",
+    "target": "어떻게 바꿀 거냐? 나중에 되돌려도 이미 쓴 AP는 돌아오지 않아. 명심해라.",
+    "source_ref": [
+      "2.335:start.hsp:415463"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Learn special abilities.",
+    "source_ja": "技能の会得",
+    "target": "특수 기술 습득",
+    "source_ref": [
+      "2.335:start.hsp:416741"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Gain 100 bonus points.(1500AP)",
+    "source_ja": "スキルボーナス100獲得(消費AP1500)",
+    "target": "기술 보너스 100 획득 (1,500 AP)",
+    "source_ref": [
+      "2.335:start.hsp:416744"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Continuous attacks (100AP) [Weak series of attacks]",
+    "source_ja": "高速ラッシュ(消費AP100)[弱威力連続攻撃]",
+    "target": "고속 연타 (100 AP) [약한 공격을 연달아 가한다]",
+    "source_ref": [
+      "2.335:start.hsp:416970"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Provoke (AP300) [Make enemies target self]",
+    "source_ja": "挑発(消費AP300)[自分をターゲットにさせる]",
+    "target": "도발 (300 AP) [적이 자신을 노리게 한다]",
+    "source_ref": [
+      "2.335:start.hsp:416975"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Metal Guard (500AP) [Next attack received deals 1/10 damage]",
+    "source_ja": "メタルコート(消費AP500)[一度だけ受けるダメージ1/10]",
+    "target": "금속 피막 (500 AP) [한 번만 받는 피해를 1/10로 줄인다]",
+    "source_ref": [
+      "2.335:start.hsp:416980"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Synchro hearts (800AP) [Impress-dependent ally heal/buff when low on health]",
+    "source_ja": "魂のシンクロ(消費AP800)[瀕死時、好感度依存仲間強化/回復]",
+    "target": "영혼 동조 (800 AP) [빈사 시 호감도에 따라 동료 강화·회복]",
+    "source_ref": [
+      "2.335:start.hsp:416985"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  },
+  {
+    "source": "Charge Attack(AP1000) [Buff next attack/spell/breath]",
+    "source_ja": "チャージ(消費AP1000)[一度だけ物理/魔法/放射の攻撃強化]",
+    "target": "충전 (1,000 AP) [다음 물리 공격·마법·방사 중 한 번을 강화]",
+    "source_ref": [
+      "2.335:start.hsp:416990"
+    ],
+    "review_status": "reviewed",
+    "origin": {
+      "kind": "independent-translation",
+      "reference": "user-provided ElonaPlus 2.335 Japanese original; awakening trainer menu"
+    },
+    "display_kind": "awakening trainer"
+  }
+]
