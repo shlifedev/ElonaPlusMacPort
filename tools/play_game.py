@@ -35,8 +35,11 @@ ALIAS_MANAGED_SHA256 = "3bc4bb1c30f0a31e845e2a3cf6c088028bd76e8bc9e0f533cba2518e
 ADVENTURE_MANAGED_AX = Path("work/localization/managed-korean-adventure-v12/start.ax")
 ADVENTURE_MANAGED_SHA256 = "9a2e0a842f164d52281e192f41f60be75b0803e7ad915f765ac16702ccbbf202"
 
-MANAGED_AX = Path("work/localization/managed-korean-static-v13/start.ax")
-MANAGED_SHA256 = "4ea855ff380640df4f862a5e1e08186f0572d1da2fdf95e81be80028fde8ddc8"
+STATIC_MANAGED_AX = Path("work/localization/managed-korean-static-v13/start.ax")
+STATIC_MANAGED_SHA256 = "4ea855ff380640df4f862a5e1e08186f0572d1da2fdf95e81be80028fde8ddc8"
+
+MANAGED_AX = Path("work/localization/managed-korean-static-v14/start.ax")
+MANAGED_SHA256 = "901016803ac32957fb2764c2612682d4c4a32c811f5a5d06d4c7bd52bde831ce"
 
 PREPARE_HINT = f"Prepare the current AX with python3 tools/prepare_korean_game.py --output {MANAGED_AX.parent.as_posix()} --compile"
 
@@ -45,7 +48,8 @@ def game_ax(root, language):
     original = root / "work/normalized/2.335/start.ax"
     if language == "ko":
         versions = (
-            (MANAGED_AX, MANAGED_SHA256, "fixed phrases"),
+            (MANAGED_AX, MANAGED_SHA256, "evolution names"),
+            (STATIC_MANAGED_AX, STATIC_MANAGED_SHA256, "fixed phrases"),
             (ADVENTURE_MANAGED_AX, ADVENTURE_MANAGED_SHA256, "adventure"),
             (ALIAS_MANAGED_AX, ALIAS_MANAGED_SHA256, "aliases"),
             (CREATION_MANAGED_AX, CREATION_MANAGED_SHA256, "character creation"),

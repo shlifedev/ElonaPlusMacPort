@@ -11,7 +11,7 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'tools'))
-from korean_evolution_hooks import install_evolution_hooks
+from korean_evolution_hooks import chara_default_names, install_evolution_hooks
 
 
 def inspect_source(source, rows):
@@ -48,9 +48,9 @@ def inspect_source(source, rows):
         assert source.count(anchor) == 1
         hooks[kind] = addition.decode('cp932').strip()
         assert after == (kind == 'evolution_success_end')
-    install_evolution_hooks(collect)
+    install_evolution_hooks(collect, source)
     assert len(hooks) == 3
-    return lines, routes, hooks
+    return lines, routes, hooks, chara_default_names(source)
 
 
 def main():
@@ -60,7 +60,7 @@ def main():
         ap.add_argument('--' + option, type=Path)
     a = ap.parse_args()
     rows = json.loads((ROOT / 'localization/ko-KR/original-evolution-ui.json').read_text())['entries']
-    lines, routes, hooks = inspect_source(a.source.read_bytes(), rows)
+    lines, routes, hooks, names = inspect_source(a.source.read_bytes(), rows)
     if not any((a.compiler, a.host, a.work)):
         print('167 evolution modes, 421 source references and three original hook anchors verified')
         return
@@ -68,22 +68,35 @@ def main():
     a.work.mkdir(exist_ok=True, parents=True)
     work = Path(tempfile.mkdtemp(dir=a.work, prefix='evolution-')).resolve()
     targets = {row['source']: row['target'] for row in rows}
-    cases = [(0, 1, 0, 0, '', ''), (1, 1, 0, 0, '', ''), (1, 1, 0, 0, '', 'aaaaaaa Fox'),
-             (0, 1, 0, 0, '', '妹猫の花'), (1, 3, 267, 0, '/race/267', 'Feykka the dog'),
-             (1, 101, 108, 1, '/stage/1', 'Fox'), (0, 101, 108, 2, '/stage/2', '')]
+    # An empty nickname means the companion keeps its DB name in the active
+    # language, as an unrenamed pet does. 210 is the younger cat sister.
+    cases = [(0, 1, 210, 0, '', ''), (1, 1, 210, 0, '', ''), (1, 1, 210, 0, '', 'aaaaaaa'),
+             (1, 1, 210, 0, '', 'younger cat sister Fox'), (0, 1, 210, 0, '', '妹猫の花'),
+             (1, 3, 267, 0, '/race/267', ''), (1, 3, 267, 0, '/race/267', 'Feykka the dog'),
+             (1, 101, 108, 1, '/stage/1', 'Fox'), (0, 101, 108, 2, '/stage/2', ''),
+             (1, 101, 108, 2, '/stage/2', '')]
+    # Stand-in for the original DB lookup with the real names. It also clobbers
+    # the selector globals as label_7150 does, so the restore is observed.
+    refchara = ['#defcfunc refchara int refchara_id, int refchara_spec, int refchara_text',
+                'if ( refchara_spec != 2 | refchara_text != 1 ) : end 9',
+                'dbmode = 16 : dbid = refchara_id : dbspec = refchara_spec']
+    for chara in sorted({race for _, _, race, _, _, _ in cases}):
+        ja, en = names[chara]
+        refchara.append(f'if ( refchara_id == {chara} ) : return lang("{ja}", "{en}")')
+    refchara += ['end 10', 'return ""']
     for variant in ('actual', 'expected'):
         folder = work / variant
         (folder/'game').mkdir(parents=True)
         (folder/'user/user').mkdir(parents=True)
         code = ['#regcmd 48', '#cmd native_ko_log $01', 'goto *main', *lines[214:221],
-                '#deffunc msg_write str chunk', 'mes chunk', 'return', '*main',
-                'screen 0,960,360', 'color 255,255,255 : boxf', 'color 0,0,0',
+                '#deffunc msg_write str chunk', 'mes chunk', 'return', *refchara, '*main',
+                'screen 0,960,400', 'color 255,255,255 : boxf', 'color 0,0,0',
                 'font "MS Gothic",14', 'dim cdata,440,2', 'sdim cdatan,128,4,2', 'tc = 1']
         for index, (en, mode, race, stage, selector, nick) in enumerate(cases):
             base = f'@evolution/{mode}'
             old = base + selector + '/old'
             new = base + '/new'
-            saved = nick or routes[old][1 + en]
+            saved = nick or names[race][en]
             korean = ('『' + nick + '』 진화! ') if nick else '동료 진화! '
             target = '축하합니다! ' + korean + targets[old] + ' → ' + targets[new]
             targets[f'@expected/{index}'] = target
@@ -92,7 +105,8 @@ def main():
                      hooks['evolution_prior_stage'], lines[routes[old][0]-1], lines[routes[new][0]-1]]
             if mode == 101:
                 code.append('cdata(214,tc) = 3')
-            code += [hooks['evolution_success_begin'], f'pos 8,{index*38 + 8}']
+            code += ['dbmode = 7 : dbid = 8 : dbspec = 9', hooks['evolution_success_begin'],
+                     'if ( dbmode != 7 | dbid != 8 | dbspec != 9 ) : end 8', f'pos 8,{index*38 + 8}']
             raw = lines[368751].split('txt_select ', 1)[1].split('), "",', 1)[0] + ')'
             code.append('message = ' + raw)
             if variant == 'expected':

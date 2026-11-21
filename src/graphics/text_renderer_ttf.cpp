@@ -242,10 +242,9 @@ public:
                 if (auto metric = catalog_->sheet_text(source))
                     menu_label_ = {std::string(cp932), std::move(*metric)};
             }
-            if (menu_label_.source.empty()) {
-                if (const auto* fixed = catalog_->find("@fixed/" + source))
-                    menu_label_ = {std::string(cp932), *fixed};
-            }
+            // No @fixed/ fallback here. These draws also show DB and computed
+            // values, and a short @fixed/ phrase is only valid in its own
+            // authored context. A label needed here gets a scoped key.
         }
     }
     bool draw_input_caption(Dib& dib, int x, int y) override {
@@ -359,7 +358,12 @@ public:
                     log_words_.clear();
                 }
                 if (log_word_draw_) {
-                    if (auto chunk = japanese_log_.consume(cp932)) {
+                    const localization::JapaneseLog::Metrics metrics{
+                        [&](std::string_view original) { return measure_line(spec, original).cx; },
+                        [&](std::string_view glyph) {
+                            return layout_utf8(spec, nullptr, 0, 0, std::string(glyph), 0).cx;
+                        }};
+                    if (auto chunk = japanese_log_.consume(cp932, metrics)) {
                         if (!chunk->empty()) layout_utf8(spec, &dib, x, y, *chunk, color);
                         return measure_line(spec, cp932);
                     }

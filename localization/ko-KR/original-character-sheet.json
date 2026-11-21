@@ -125,6 +125,12 @@
       "review_status": "reviewed"
     },
     {
+      "source": "@sheet/INIT",
+      "target": "행동 순서",
+      "source_ref": "2.335:start.hsp:297345-297689",
+      "review_status": "reviewed"
+    },
+    {
       "source": "@sheet/AP",
       "target": "각성점",
       "source_ref": "2.335:start.hsp:297345-297689",

@@ -37,6 +37,36 @@ int main(int argc, char** argv) {
         check(first && last && *first + *last == "녹음한 노래" && !message.consume("5678"));
         message.begin("1234", "다른 줄");
         check(!message.consume("abcd") && !message.consume("1234"));
+        // Rows split by width. Splitting 12 glyphs in half by count would put
+        // ten units on the second eight-unit row.
+        message.begin("1234567812345678", "abcdefgh가나다라");
+        first = message.consume("12345678");
+        last = message.consume("12345678");
+        check(first && last && *first == "abcdefgh" && *last == "가나다라");
+        // With font metrics, a translation no wider than the original never
+        // passes the right edge of a non-final wrapped row.
+        const elona::localization::JapaneseLog::Metrics metrics{
+            [](std::string_view s) { return static_cast<int>(s.size()) * 6; },
+            [](std::string_view g) { return static_cast<unsigned char>(g.front()) >= 0x80 ? 12 : 5; }};
+        const std::string row(40, 'x');
+        for (const std::string target : {std::string("가 나다라마 바사아자 차카타파 하가나다 라마바사 아자차카 타파하 가나다라 마바"),
+                                         std::string("Lv 12 HP 345 가나다라마바사아자차카타파하 abc def 가나다라마바사아자차카")}) {
+            message.begin(row + row + "xxxxxxxxxx", target);
+            std::string joined;
+            const std::string chunks[] = {row, row, std::string(10, 'x')};
+            for (int index = 0; index < 3; ++index) {
+                auto part = message.consume(chunks[index], metrics);
+                check(part.has_value());
+                int width = 0;
+                for (std::size_t i = 0; i < part->size(); ++i) {
+                    const auto c = static_cast<unsigned char>((*part)[i]);
+                    if ((c & 0xc0) != 0x80) width += c >= 0x80 ? 12 : 5;
+                }
+                if (index < 2) check(width <= 240);
+                joined += *part;
+            }
+            check(joined == target);
+        }
         check(!catalog.find("A Starting Menu")); // no unsafe substring substitution
         check(!catalog.find("starting menu")); // preserve intentional case/context
         check(bad("x\ta\nx\tb\n"));

@@ -23,6 +23,8 @@ std::optional<std::string> evolution_message(const Catalog& catalog, std::string
     const auto mode = field(identity, '/');
     const auto race = field(identity, '/');
     const auto stage = field(identity, '\t');
+    // The hook supplies the species' DB name in the active language. An
+    // unrenamed companion keeps exactly this name in cdatan(0, tc).
     const auto original = field(identity, '\t');
     if (!mode || !race || !stage || !original || original->empty() ||
         !number(*mode) || !number(*race) || !number(*stage)) return std::nullopt;
@@ -38,8 +40,8 @@ std::optional<std::string> evolution_message(const Catalog& catalog, std::string
     if (!old_form || !new_form) return std::nullopt;
 
     std::string message = "축하합니다! ";
-    // A nickname may start with the engine's default name. Only omit it
-    // when the full original field equals evold in the active language.
+    // A nickname may start with the default name. Only omit it when the
+    // whole saved name equals the DB name.
     if (!identity.empty() && identity != *original) {
         message += "『";
         message += identity;

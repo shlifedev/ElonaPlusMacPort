@@ -1,5 +1,6 @@
 #pragma once
 #include <filesystem>
+#include <functional>
 #include <optional>
 #include <deque>
 #include <string>
@@ -13,11 +14,19 @@ struct LogWord { std::string source, display; };
 // those chunks in order so translation never changes its counters or log.
 class JapaneseLog {
 public:
+    // Pixel widths in the active font: an original CP932 prefix and one
+    // UTF-8 glyph. The defaults count bytes and full-width glyphs.
+    struct Metrics {
+        std::function<int(std::string_view)> original;
+        std::function<int(std::string_view)> glyph;
+    };
     void begin(std::string_view original, std::string target);
-    std::optional<std::string> consume(std::string_view chunk);
+    std::optional<std::string> consume(std::string_view chunk, const Metrics& metrics = {});
 private:
     std::string original_, target_;
     std::vector<std::size_t> glyphs_;
+    std::vector<long long> advance_;
+    long long original_width_ = -1;
     std::size_t consumed_ = 0, displayed_ = 0;
 };
 // Display-only UTF-8 lookup. No pointers to VM variables or saved data.

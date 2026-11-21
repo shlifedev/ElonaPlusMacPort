@@ -112,7 +112,7 @@ def transform(source: bytes) -> tuple[bytes, list[dict]]:
        b"\t\tif ( native_manual_width > 0 ) : tx@m72 = limit(native_manual_width + 32, 10, 148)\r\n",
        "translated_selection_highlight", after=True)
     install_item_hooks(at)
-    install_evolution_hooks(at)
+    install_evolution_hooks(at, source)
     install_altar_hooks(at)
     inserts.extend(menu_inserts(source))
     inserts.extend(recipe_inserts(source))

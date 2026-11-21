@@ -2,6 +2,26 @@
 
 사용자가 제공한 ElonaPlus 2.335의 영어판과 일본어판을 기준으로 한국어 표시문을 작성했다. 게임 로직과 세이브는 원본 CP932를 사용하고, 한국어 창은 UTF-8 사전을 읽는다.
 
+## v13 검토 결함 수정 (v14)
+
+| 문제 | 수정 | 검사 |
+|---|---|---|
+| 동료 진화 | 영어판 `evold`는 모든 모드에서 `aaaaaaa`라서, 이름을 바꾸지 않은 동료도 『younger cat sister』처럼 영어 종명이 표시됐다. 훅이 원본 DB 조회 `refchara(종, 2, 1)`로 현재 언어의 기본 이름을 넘기고, 저장된 이름이 그것과 같을 때만 “동료 진화!”로 쓴다. 조회 전후의 `dbmode`·`dbid`·`dbspec`은 되돌린다. 변환 도구는 1,165종의 이름 분기가 모두 문자열 반환뿐인지 확인한다. | `run_evolution_names.py` 10개 사례. 실제 DB 이름, 이전 자리표시자와 같은 별명, 기본 이름으로 시작하는 별명, DB 전역 변수 복원 포함 |
+| 일반 메뉴 | scope 1~9 메뉴가 전용 키가 없으면 `@fixed/` 문구를 쓰던 대체 조회를 없앴다. 이 화면들은 DB 이름과 계산된 값도 그리기 때문이다. 원문 리터럴을 그리는 31곳은 모두 전용 키가 있다. 이 조회에 기대던 일본어 캐릭터 시트의 `INIT`은 `@sheet/INIT`으로 옮겼다. | `run_log_wrap.py`의 scope 8 사례. 문맥 전용 `Happy`는 원문 그대로, `INIT`은 한국어 |
+| 일본어 로그 줄바꿈 | 원본이 나눈 각 줄에 한국어를 글자 수가 아니라 실제 글꼴 폭의 비율로 배분한다. 번역 전체가 원문보다 넓지 않으면 마지막 줄 전의 줄은 원래 줄 폭을 넘지 않는다. 줄 끝은 그 줄에 들어가는 가까운 띄어쓰기 뒤를 우선한다. | 단위 검사와 `run_log_wrap.py`. 원본 `txt_conv` 일본어 줄바꿈 코드로 134개 메시지(고정 선택지 88, `@log/` 46)를 30바이트 폭에 나눠 그렸다. 줄마다 그린 글리프 픽셀의 합이 한 줄로 그린 번역과 같다. 원문보다 좁은 41개는 마지막 줄까지 로그 폭 안에 들어간다. 이전 방식에서는 1개 메시지의 마지막 줄이 10픽셀 넘쳤다. |
+
+```sh
+host=build/native-macos-arm64-legacy-cp932-release/elona_gui_host
+compiler=build/native-macos-arm64-legacy-cp932-release/elona_hspcmp
+ko=localization/ko-KR/runtime.tsv
+python3 tools/prepare_korean_game.py --output work/localization/managed-korean-static-v14 --compile
+python3 tests/localization/run_evolution_names.py --host "$host" --compiler "$compiler" --work work/localization/static-check
+python3 tests/localization/run_log_wrap.py --host "$host" --compiler "$compiler" --catalog "$ko" --work work/localization/static-check
+python3 tests/localization/run_play_audit.py --run ko-static-v14-check --ax work/localization/managed-korean-static-v14/start.ax --catalog "$ko" --fallback localization/ko-KR/draft-display.tsv --reference work/ko-broad/ko-static-v13-package
+```
+
+v14 AX를 별도 폴더에서 한 번 더 생성해 같은 SHA-256 `901016803ac32957fb2764c2612682d4c4a32c811f5a5d06d4c7bd52bde831ce`를 얻었다. v13 관리 소스와의 차이는 진화 성공 훅 한 곳이다. 8개 Mac 경로는 프레임 수, 압축 해제 세이브 154~170파일, 미번역 영문 1종(`sav_Ari`)이 v13과 같다. [Mac 경로별 결과](../work/ko-broad/ko-static-v14-check/summary.json)
+
 ## 남은 고정 문구와 모험 화면 (v13)
 
 v12에서 한국어 표시 키가 없었던 일·영 원문 2,695쌍을 모두 대조했다. 새로 2,630쌍을 연결했다. 고정 원문 12,405쌍 중 12,340쌍(99.48%)이 적어도 한 언어에서 한국어 표시에 연결된다. 그중 검수·직접 교정은 8,337쌍, 자동 초벌은 4,003쌍이다. 사전에는 화면별 이름·조합도 들어 있어 표시 키 25,910개와 원문 쌍 개수는 따로 집계한다. 키 충돌은 0건이다. [집계와 입력 지문](../localization/ko-KR/coverage.json)

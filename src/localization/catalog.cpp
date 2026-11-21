@@ -324,26 +324,63 @@ void JapaneseLog::begin(std::string_view original, std::string target) {
     original_.assign(original);
     target_ = std::move(target);
     consumed_ = displayed_ = 0;
+    original_width_ = -1;
     glyphs_.clear();
+    advance_.clear();
     for (std::size_t i = 0; i < target_.size(); ++i) {
         if ((static_cast<unsigned char>(target_[i]) & 0xc0) != 0x80) glyphs_.push_back(i);
     }
     glyphs_.push_back(target_.size());
 }
 
-std::optional<std::string> JapaneseLog::consume(std::string_view chunk) {
+// Split the translation by rendered width, not by glyph count. Each wrapped
+// row receives the share of the whole translation that its original row has
+// of the whole original. When the translation is no wider than the original,
+// no row but the last can exceed the width the VM reserved for it.
+std::optional<std::string> JapaneseLog::consume(std::string_view chunk, const Metrics& metrics) {
     if (original_.empty() || chunk.empty()) return {};
     if (original_.compare(consumed_, chunk.size(), chunk) != 0) {
         original_.clear();
         return {};
     }
+    const auto original_width = [&](std::string_view s) -> long long {
+        return metrics.original ? metrics.original(s) : static_cast<long long>(s.size());
+    };
+    if (original_width_ < 0) {
+        original_width_ = original_width(original_);
+        advance_.assign(1, 0);
+        for (std::size_t k = 0; k + 1 < glyphs_.size(); ++k) {
+            const auto glyph = std::string_view(target_).substr(glyphs_[k], glyphs_[k+1] - glyphs_[k]);
+            const long long width = metrics.glyph ? metrics.glyph(glyph)
+                                                  : (static_cast<unsigned char>(glyph.front()) >= 0x80 ? 2 : 1);
+            advance_.push_back(advance_.back() + std::max(0LL, width));
+        }
+    }
+    const auto row_start = consumed_;
     consumed_ += chunk.size();
-    auto end = glyphs_[consumed_ * (glyphs_.size() - 1) / original_.size()];
+    auto end = target_.size();
     if (consumed_ == original_.size()) {
         original_.clear();
     } else {
+        const long long total = advance_.back();
+        const long long whole = std::max(1LL, original_width_);
+        const long long done = original_width(std::string_view(original_).substr(0, consumed_));
+        const long long row = done - original_width(std::string_view(original_).substr(0, row_start));
+        const auto first = static_cast<std::size_t>(
+            std::lower_bound(glyphs_.begin(), glyphs_.end(), displayed_) - glyphs_.begin());
+        const long long budget = advance_[first] + std::max(row, row * total / whole);
+        const long long share = std::min(done * total / whole, budget);
+        const auto k = static_cast<std::size_t>(
+            std::upper_bound(advance_.begin(), advance_.end(), share) - advance_.begin()) - 1;
+        end = glyphs_[k];
+        // Break after a nearby space. Prefer one that still fits this row,
+        // so less of the translation is carried onto the final row.
+        const auto fit = static_cast<std::size_t>(
+            std::upper_bound(advance_.begin(), advance_.end(), budget) - advance_.begin()) - 1;
+        const auto ahead = target_.find(' ', end);
         const auto space = target_.rfind(' ', end);
-        if (space != target_.npos && space > displayed_ && end - space < 12) end = space + 1;
+        if (ahead != target_.npos && ahead + 1 <= glyphs_[fit] && ahead - end < 12) end = ahead + 1;
+        else if (space != target_.npos && space > displayed_ && end - space < 12) end = space + 1;
     }
     end = std::max(end, displayed_);
     auto part = target_.substr(displayed_, end - displayed_);

@@ -14641,6 +14641,7 @@
 @sheet/Hydro Bolt      Line(PVDV)	물 볼트 · PV·DV 속성 볼트
 @sheet/Hydro Fang      Target(PVDV)	물의 송곳니 · PV·DV 속성 화살
 @sheet/INI	행동 순서
+@sheet/INIT	행동 순서
 @sheet/Ice Bolt        Line(Cold)	얼음 볼트 · 냉기 속성 볼트
 @sheet/Identify        Identify one item	감정 · 아이템 감정
 @sheet/Illusion Roar   Surround(Mind)	몽환의 포효 · 환혹 속성 범위 공격

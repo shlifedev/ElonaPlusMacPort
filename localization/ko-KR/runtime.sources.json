@@ -75,7 +75,7 @@
     },
     {
       "path": "localization/ko-KR/original-character-sheet.json",
-      "sha256": "3c097aee48106643108deb405bc25e54ecd311690909d47fdc0c50dd0cd62539"
+      "sha256": "9bb9ff39d825ac125d5dd26e8827b1c9215dbaa7f7721bf57f3bb8aee253cff3"
     },
     {
       "path": "localization/ko-KR/original-town-people.json",
@@ -21345,199 +21345,199 @@
     "@appearance/Body": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 68
+        "entry_index": 69
       }
     ],
     "@appearance/Body CL": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 71
+        "entry_index": 72
       }
     ],
     "@appearance/Cloth": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 69
+        "entry_index": 70
       }
     ],
     "@appearance/Cloth CL": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 72
+        "entry_index": 73
       }
     ],
     "@appearance/Custom": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 78
+        "entry_index": 79
       }
     ],
     "@appearance/Etc1": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 74
+        "entry_index": 75
       }
     ],
     "@appearance/Etc2": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 75
+        "entry_index": 76
       }
     ],
     "@appearance/Etc3": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 76
+        "entry_index": 77
       }
     ],
     "@appearance/Eyes": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 77
+        "entry_index": 78
       }
     ],
     "@appearance/Hair": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 65
+        "entry_index": 66
       }
     ],
     "@appearance/Hair CL": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 67
+        "entry_index": 68
       }
     ],
     "@appearance/N/A": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 87
+        "entry_index": 88
       }
     ],
     "@appearance/Pants": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 70
+        "entry_index": 71
       }
     ],
     "@appearance/Pants CL": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 73
+        "entry_index": 74
       }
     ],
     "@appearance/Portrait": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 64
+        "entry_index": 65
       }
     ],
     "@appearance/Riding": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 79
+        "entry_index": 80
       }
     ],
     "@appearance/Sub Hair": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 66
+        "entry_index": 67
       }
     ],
     "@appearance/apply:Pic_": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 88
+        "entry_index": 89
       }
     ],
     "@appearance/体": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 68
+        "entry_index": 69
       }
     ],
     "@appearance/体の色": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 71
+        "entry_index": 72
       }
     ],
     "@appearance/副髪": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 66
+        "entry_index": 67
       }
     ],
     "@appearance/服": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 69
+        "entry_index": 70
       }
     ],
     "@appearance/服の色": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 72
+        "entry_index": 73
       }
     ],
     "@appearance/目": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 77
+        "entry_index": 78
       }
     ],
     "@appearance/肖像": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 64
+        "entry_index": 65
       }
     ],
     "@appearance/適用 ：Pic_": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 88
+        "entry_index": 89
       }
     ],
     "@appearance/髪": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 65
+        "entry_index": 66
       }
     ],
     "@appearance/髪の色": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 67
+        "entry_index": 68
       }
     ],
     "@appearance/ｱｸｾｻﾘ1": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 74
+        "entry_index": 75
       }
     ],
     "@appearance/ｱｸｾｻﾘ2": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 75
+        "entry_index": 76
       }
     ],
     "@appearance/ｱｸｾｻﾘ3": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 76
+        "entry_index": 77
       }
     ],
     "@appearance/ﾊﾟﾝﾂ": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 70
+        "entry_index": 71
       }
     ],
     "@appearance/ﾊﾟﾝﾂの色": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 73
+        "entry_index": 74
       }
     ],
     "@board-reward/armor": [
@@ -93624,49 +93624,49 @@
     "@metric/appearance": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 63
+        "entry_index": 64
       }
     ],
     "@metric/equipment": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 55
+        "entry_index": 56
       }
     ],
     "@metric/items": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 54
+        "entry_index": 55
       }
     ],
     "@metric/level": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 57
+        "entry_index": 58
       }
     ],
     "@metric/load": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 59
+        "entry_index": 60
       }
     ],
     "@metric/page": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 53
+        "entry_index": 54
       }
     ],
     "@metric/time": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 58
+        "entry_index": 59
       }
     ],
     "@metric/turns": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 56
+        "entry_index": 57
       }
     ],
     "@news-item/armored boots": [
@@ -98344,7 +98344,7 @@
     "@sheet/AP": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 20
+        "entry_index": 21
       }
     ],
     "@sheet/Acid Ground     Create acid grounds": [
@@ -98668,7 +98668,7 @@
     "@sheet/Done    ": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 92
+        "entry_index": 93
       }
     ],
     "@sheet/Door Creation   Create doors": [
@@ -98692,7 +98692,7 @@
     "@sheet/Ehekatl of Luck": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 44
+        "entry_index": 45
       }
     ],
     "@sheet/Evasion         Increases your chance of evading enemy att...": [
@@ -98704,7 +98704,7 @@
     "@sheet/Exp": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 33
+        "entry_index": 34
       }
     ],
     "@sheet/Eye of Mind     Increases power of critical hits.": [
@@ -98716,7 +98716,7 @@
     "@sheet/Eyth of Infidel": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 35
+        "entry_index": 36
       }
     ],
     "@sheet/Faith           Gets you closer to god/resist to curses": [
@@ -98728,7 +98728,7 @@
     "@sheet/Fame": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 26
+        "entry_index": 27
       }
     ],
     "@sheet/Fire Bolt       Line(Fire)": [
@@ -98782,7 +98782,7 @@
     "@sheet/God": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 81
+        "entry_index": 82
       }
     ],
     "@sheet/Good": [
@@ -98812,19 +98812,19 @@
     "@sheet/Grow Rate": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 82
+        "entry_index": 83
       }
     ],
     "@sheet/Guild": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 32
+        "entry_index": 33
       }
     ],
     "@sheet/HP/MP": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 34
+        "entry_index": 35
       }
     ],
     "@sheet/Heal Critical   Heal self": [
@@ -98905,6 +98905,12 @@
         "entry_index": 19
       }
     ],
+    "@sheet/INIT": [
+      {
+        "path": "localization/ko-KR/original-character-sheet.json",
+        "entry_index": 20
+      }
+    ],
     "@sheet/Ice Bolt        Line(Cold)": [
       {
         "path": "localization/ko-KR/original-creation-skills.json",
@@ -98926,7 +98932,7 @@
     "@sheet/InSAN": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 24
+        "entry_index": 25
       }
     ],
     "@sheet/Investing       Lowers the money needed to invest in shops.": [
@@ -98938,7 +98944,7 @@
     "@sheet/Itzpalt of Element": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 42
+        "entry_index": 43
       }
     ],
     "@sheet/Jeweler         Skill to process jewels and manufucture pr...": [
@@ -98950,13 +98956,13 @@
     "@sheet/Jure of Healing": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 48
+        "entry_index": 49
       }
     ],
     "@sheet/Karma": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 27
+        "entry_index": 28
       }
     ],
     "@sheet/Knockout": [
@@ -98968,7 +98974,7 @@
     "@sheet/Kumiromi of Harvest": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 49
+        "entry_index": 50
       }
     ],
     "@sheet/Lea: Best": [
@@ -99022,13 +99028,13 @@
     "@sheet/Level": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 21
+        "entry_index": 22
       }
     ],
     "@sheet/Life": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 22
+        "entry_index": 23
       }
     ],
     "@sheet/Light Armor     Skill to effectively act while wearing lig...": [
@@ -99064,7 +99070,7 @@
     "@sheet/Lulwy of Wind": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 39
+        "entry_index": 40
       }
     ],
     "@sheet/Mag: Best": [
@@ -99160,13 +99166,13 @@
     "@sheet/Mana": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 23
+        "entry_index": 24
       }
     ],
     "@sheet/Mani of Machine": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 37
+        "entry_index": 38
       }
     ],
     "@sheet/Marksman        Increases shooting damage.": [
@@ -99190,7 +99196,7 @@
     "@sheet/Melee": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 29
+        "entry_index": 30
       }
     ],
     "@sheet/Memorization    Memorize spells and analysis, Enhance scro...": [
@@ -99286,13 +99292,13 @@
     "@sheet/Next Lv": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 80
+        "entry_index": 81
       }
     ],
     "@sheet/Opatos of Earth": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 45
+        "entry_index": 46
       }
     ],
     "@sheet/Oracle          Reveal artifacts": [
@@ -99304,7 +99310,7 @@
     "@sheet/Original": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 89
+        "entry_index": 90
       }
     ],
     "@sheet/Per: Best": [
@@ -99394,13 +99400,13 @@
     "@sheet/Rating": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 28
+        "entry_index": 29
       }
     ],
     "@sheet/Religion": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 31
+        "entry_index": 32
       }
     ],
     "@sheet/Restore Body    Restore phisical": [
@@ -99442,13 +99448,13 @@
     "@sheet/Set Basic": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 91
+        "entry_index": 92
       }
     ],
     "@sheet/Set Detail": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 90
+        "entry_index": 91
       }
     ],
     "@sheet/Sex": [
@@ -99466,7 +99472,7 @@
     "@sheet/Shoot": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 30
+        "entry_index": 31
       }
     ],
     "@sheet/Short Teleport  Teleport self": [
@@ -99496,7 +99502,7 @@
     "@sheet/Speed": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 25
+        "entry_index": 26
       }
     ],
     "@sheet/Stealth         Allows you to move quietly.": [
@@ -99730,7 +99736,7 @@
     "@sheet/Yacatect of Wealth": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 52
+        "entry_index": 53
       }
     ],
     "@sheet/extra": [
@@ -101052,13 +101058,13 @@
     "@sheet/元々の姿にする": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 89
+        "entry_index": 90
       }
     ],
     "@sheet/元素のイツパロトル": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 41
+        "entry_index": 42
       }
     ],
     "@sheet/光の霧      眩い霧の発生": [
@@ -101094,7 +101100,7 @@
     "@sheet/収穫のクミロミ": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 50
+        "entry_index": 51
       }
     ],
     "@sheet/器用: やや高い": [
@@ -101160,7 +101166,7 @@
     "@sheet/地のオパートス": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 46
+        "entry_index": 47
       }
     ],
     "@sheet/地獄の吐息  地獄属性の矢": [
@@ -101172,7 +101178,7 @@
     "@sheet/基本設定": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 91
+        "entry_index": 92
       }
     ],
     "@sheet/壁生成      壁の生成": [
@@ -101196,7 +101202,7 @@
     "@sheet/富のヤカテクト": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 51
+        "entry_index": 52
       }
     ],
     "@sheet/射撃        射撃の威力をあげる": [
@@ -101220,7 +101226,7 @@
     "@sheet/幸運のエヘカトル": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 43
+        "entry_index": 44
       }
     ],
     "@sheet/幻惑の棘    幻惑属性の矢": [
@@ -101412,7 +101418,7 @@
     "@sheet/機械のマニ": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 38
+        "entry_index": 39
       }
     ],
     "@sheet/毒の粘液    毒属性の矢": [
@@ -101436,7 +101442,7 @@
     "@sheet/決定    ": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 92
+        "entry_index": 93
       }
     ],
     "@sheet/沈黙の霧    魔法使用不可": [
@@ -101508,7 +101514,7 @@
     "@sheet/無のエイス": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 36
+        "entry_index": 37
       }
     ],
     "@sheet/物質感知    周囲の物質感知": [
@@ -101532,7 +101538,7 @@
     "@sheet/癒しのジュア": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 47
+        "entry_index": 48
       }
     ],
     "@sheet/癒しの手    体力回復": [
@@ -101808,7 +101814,7 @@
     "@sheet/詳細設定": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 90
+        "entry_index": 91
       }
     ],
     "@sheet/読書        難解な本の解読を可能にする": [
@@ -101922,7 +101928,7 @@
     "@sheet/風のルルウィ": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 40
+        "entry_index": 41
       }
     ],
     "@sheet/魅力: やや高い": [
@@ -102066,7 +102072,7 @@
     "@sheet/ＡＰ": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 20
+        "entry_index": 21
       }
     ],
     "@sprite-menu/Appearence": [
@@ -108040,19 +108046,19 @@
     "@weight/Heavy": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 62
+        "entry_index": 63
       }
     ],
     "@weight/Light": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 60
+        "entry_index": 61
       }
     ],
     "@weight/Medium": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 61
+        "entry_index": 62
       }
     ],
     "A Dwarf is a child of the earth. As tough and unyielding as the mountains they love, most Dwarves will live their whole lives underground, mining, smelting, and smithing. Some few leave the depths to become adventurers, hoping to make enough coin to start their own clan. Good with technology, and tough against things dark and poisonous.": [
@@ -117213,7 +117219,7 @@
     "I wish you were still here...": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 85
+        "entry_index": 86
       }
     ],
     "I wll have a conversation with someone.": [
@@ -128929,7 +128935,7 @@
     "Which save game do you want to continue?": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 83
+        "entry_index": 84
       }
     ],
     "Which scrolls?": [
@@ -147981,7 +147987,7 @@
     "どの冒険を再開するんだい？": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 84
+        "entry_index": 85
       }
     ],
     "どの場所に帰還する？": [
@@ -149125,7 +149131,7 @@
     "まだお礼もできていないのに！": [
       {
         "path": "localization/ko-KR/original-character-sheet.json",
-        "entry_index": 86
+        "entry_index": 87
       }
     ],
     "まだぜんぶ未実装だけどね。": [
