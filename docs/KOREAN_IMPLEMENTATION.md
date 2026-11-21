@@ -20,6 +20,8 @@ python3 tests/localization/run_log_wrap.py --host "$host" --compiler "$compiler"
 python3 tests/localization/run_play_audit.py --run ko-static-v14-check --ax work/localization/managed-korean-static-v14/start.ax --catalog "$ko" --fallback localization/ko-KR/draft-display.tsv --reference work/ko-broad/ko-static-v13-package
 ```
 
+v14 DMG(SHA-256 `8e9fb6be211fb56fa11a56580ec9a32638475b0fe1970fefdb7f137f67378816`)에 든 실행 파일로도 위 진화·줄바꿈 검사와 8개 경로를 통과했다. Windows 헤드리스 검사는 검사 기기가 응답하지 않아 실행하지 못했다. [패키지 경로별 결과](../work/ko-broad/ko-static-v14-package/summary.json) · [v14 Mac 설치 이미지](../build/package/korean-2.335-v14/ElonaPlus-0.1.0-macos-arm64.dmg)
+
 v14 AX를 별도 폴더에서 한 번 더 생성해 같은 SHA-256 `901016803ac32957fb2764c2612682d4c4a32c811f5a5d06d4c7bd52bde831ce`를 얻었다. v13 관리 소스와의 차이는 진화 성공 훅 한 곳이다. 8개 Mac 경로는 프레임 수, 압축 해제 세이브 154~170파일, 미번역 영문 1종(`sav_Ari`)이 v13과 같다. [Mac 경로별 결과](../work/ko-broad/ko-static-v14-check/summary.json)
 
 ## 남은 고정 문구와 모험 화면 (v13)
