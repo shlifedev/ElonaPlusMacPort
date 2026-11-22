@@ -9,7 +9,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT/'tools'))
+sys.path.insert(0, str(ROOT/'scripts'))
 from korean_altar_hooks import install_altar_hooks
 
 ap = argparse.ArgumentParser(description=__doc__)
@@ -22,7 +22,7 @@ work = Path(tempfile.mkdtemp(dir=a.work, prefix='altar-')).resolve()
 source = (ROOT/'work/decompiled/2.335-reference/start.hsp').read_bytes()
 assert hashlib.sha256(source).hexdigest() == 'c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55'
 lines = source.decode('cp932').splitlines()
-rows = json.loads((ROOT/'localization/ko-KR/original-altar-display.json').read_text())['entries']
+rows = json.loads((ROOT/'src/localization/ko-KR/original-altar-display.json').read_text())['entries']
 by_line = {}
 entries = {}
 for row in rows:

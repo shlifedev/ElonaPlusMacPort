@@ -6,7 +6,7 @@ import sys
 import tempfile
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from elona_extract import ExtractError, decrypt_ax, extract, inspect_ax, read_dpm, write_outputs
 
 

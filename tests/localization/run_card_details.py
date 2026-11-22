@@ -17,7 +17,7 @@ a = ap.parse_args()
 raw = a.source.read_bytes()
 assert hashlib.sha256(raw).hexdigest() == 'c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55'
 original = raw.decode('cp932').splitlines()
-entries = json.loads((ROOT / 'localization/ko-KR/original-card-game-extra.json').read_text())['entries']
+entries = json.loads((ROOT / 'src/localization/ko-KR/original-card-game-extra.json').read_text())['entries']
 headers = {r['card_id']: r for r in entries if r['display_kind'] == 'card heading'}
 bodies = {r['card_id']: r for r in entries if r['display_kind'] in ('card biography', 'card detail')}
 assert headers.keys() == bodies.keys()

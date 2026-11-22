@@ -13,7 +13,7 @@ for name in ('host', 'compiler', 'catalog', 'work'):
 a = ap.parse_args()
 a.work.mkdir(parents=True, exist_ok=True)
 work = Path(tempfile.mkdtemp(dir=a.work, prefix='log-render-')).resolve()
-resource = ROOT / 'localization/ko-KR/original-magic-combat-extra.json'
+resource = ROOT / 'src/localization/ko-KR/original-magic-combat-extra.json'
 rows = json.loads(resource.read_text(encoding='utf-8'))['entries']
 cases = []
 for row in rows:

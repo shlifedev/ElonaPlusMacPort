@@ -41,19 +41,19 @@ Mac→Mac·Windows→Mac·Mac→Windows 모두 동일한 변화다. `cdata.s1` �
 
 ```sh
 # 저장 배열 읽기 전용 검사
-python3 tools/inspect_save_state.py work/game-run/run27/user/save/sav_Ari
+python3 scripts/inspect_save_state.py work/game-run/run27/user/save/sav_Ari
 
 # 기존 실행 폴더 이름은 재사용할 수 없다.
-python3 tools/check_save_roundtrip.py \
+python3 scripts/check_save_roundtrip.py \
   --profile work/game-run/run27/user \
   --run save-state-reopen-NEW --restart-same-profile
 
-python3 tools/check_save_roundtrip.py \
+python3 scripts/check_save_roundtrip.py \
   --profile work/windows/reference-build/gui-native-02/evidence/game-newgame/user \
   --run save-win-to-mac-NEW
 
 # home/windows의 검증 완료 호스트를 재사용하며 새 전용 폴더에서 headless 실행
-python3 tools/reference/save_roundtrip_windows.py \
+python3 scripts/reference/save_roundtrip_windows.py \
   --profile work/game-run/run27/user \
   --run platform-save-cross-NEW --reference-run gui-native-02
 ```

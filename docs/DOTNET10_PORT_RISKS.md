@@ -16,7 +16,7 @@
 | 시드 12345, 범위 32768, 기본 난수 첫 세 번 | `7584,19164,25795` | `new Random(12345).Next(32768)` 순서는 `2187,2298,25387` | 첫 추첨부터 갈라진다. 전투 재생에는 알고리즘과 호출 순서가 모두 필요하다. |
 | 기존 비압축 입력 `plain.bin`을 압축 읽기 함수에 전달 | 동봉 `z.hpi`가 원문 40,000바이트를 반환 | `GZipStream.CopyTo`가 `InvalidDataException` 발생 | 정상 gzip을 읽을 수 있어도 구형 로더의 일반 파일·EOF·오류 처리는 별도 구현 대상이다. |
 
-**테스트 세이브에서 배열 차이가 실제 아이템 개수에 영향을 줬다.** 자동 생성한 첫 집 세이브의 `inv.s1`은 압축 해제하면 369,600바이트다. 한 슬롯에 70개 필드가 연속하고 각 필드는 4바이트 little-endian 정수다. 같은 파일에서 플레이어용 200슬롯의 첫 필드를 검사하면 기존 검사기와 C#의 명시적 오프셋 방식은 점유 슬롯 **11개**를 읽는다. 같은 바이트를 `int[70,1320]`에 그대로 복사해 `[0, slot]`을 검사하면 **51개**다. 인벤토리 창을 열 수 있다는 사실만으로 잡아내기 어려운 오류다. [저장 레이아웃과 교환 결과](SAVE_COMPATIBILITY.md) · [독립 세이브 검사기](../tools/inspect_save_state.py)
+**테스트 세이브에서 배열 차이가 실제 아이템 개수에 영향을 줬다.** 자동 생성한 첫 집 세이브의 `inv.s1`은 압축 해제하면 369,600바이트다. 한 슬롯에 70개 필드가 연속하고 각 필드는 4바이트 little-endian 정수다. 같은 파일에서 플레이어용 200슬롯의 첫 필드를 검사하면 기존 검사기와 C#의 명시적 오프셋 방식은 점유 슬롯 **11개**를 읽는다. 같은 바이트를 `int[70,1320]`에 그대로 복사해 `[0, slot]`을 검사하면 **51개**다. 인벤토리 창을 열 수 있다는 사실만으로 잡아내기 어려운 오류다. [저장 레이아웃과 교환 결과](SAVE_COMPATIBILITY.md) · [독립 세이브 검사기](../scripts/inspect_save_state.py)
 
 **CP932 공급자를 등록해도 디코딩 규칙이 다르다.** `CodePagesEncodingProvider`와 엄격한 예외 폴백으로 Win32 참조표를 대조했다. Win32의 변환 오류·기본 문자 대체와 .NET의 변환 예외는 모두 거부로 집계했다. 1·2바이트 입력 33,024건 중 **1,442건**에서 두 결과가 달랐다. BMP 인코딩 63,488건에서는 차이가 0건이었다. 예를 들어 Win32는 `87 90`과 `81 E0`을 모두 `≒`(U+2252)로 읽는다. 두 OS의 .NET 10은 앞의 입력에서 예외를 내고 뒤의 것만 읽었다. 이 수치는 검사한 입력 조합에 관한 값이고, 게임 대사에서의 발생 빈도는 미측정이다. 세이브·VM 식별자·바이트 단위 문자열은 원본 바이트를 보존하고 한국어와 Unicode는 표시 경계에서 처리할 수 있다. [Win32 참조표와 옵션](PLATFORM_IMPLEMENTATION.md) · [Microsoft 인코딩 공급자](https://learn.microsoft.com/en-us/dotnet/api/system.text.codepagesencodingprovider?view=net-10.0)
 
@@ -42,12 +42,12 @@
 저장소 루트에서 .NET SDK 10.0.401을 사용했다. 아래 `dotnet`은 이 Mac의 `/usr/local/share/dotnet/dotnet`에 해당한다. 인벤토리 인수를 생략하면 개인 데이터나 게임 없이 기본 실험을 실행할 수 있다.
 
 ```sh
-dotnet run --file tools/reference/dotnet10/PortProbe.cs -c Release --artifacts-path build/dotnet10-port-probe -- tests/plugins/reference/gz_inputs/plain.bin work/game-run/run27/user/save/sav_Ari/inv.s1
-dotnet run --file tools/reference/dotnet10/CompareCp932.cs -c Release --artifacts-path build/dotnet10-cp932-probe -- work/windows/reference-build/platform-cp932-02/out
-python3 tools/inspect_save_state.py work/game-run/run27/user/save/sav_Ari
+dotnet run --file scripts/reference/dotnet10/PortProbe.cs -c Release --artifacts-path build/dotnet10-port-probe -- tests/plugins/reference/gz_inputs/plain.bin work/game-run/run27/user/save/sav_Ari/inv.s1
+dotnet run --file scripts/reference/dotnet10/CompareCp932.cs -c Release --artifacts-path build/dotnet10-cp932-probe -- work/windows/reference-build/platform-cp932-02/out
+python3 scripts/inspect_save_state.py work/game-run/run27/user/save/sav_Ari
 ```
 
-Windows에서는 같은 소스·입력의 SHA-256을 확인하고 전용 디렉터리 `reference-build/platform-dotnet10-port-01`에서 두 C# 파일을 실행했다. 공식 x86 HSP는 그 디렉터리 아래 별도 `hsp34`에 런타임과 ASCII 입력 `semantics.hsp`를 복사해 실행했다. 게임 DLL을 요구하지 않는 작은 산술·배열·문자열·난수 프로그램이다. 아래 명령의 `$case`는 새 검사 디렉터리, `$sdk`는 해시를 확인한 HSP 3.4 SDK, 두 도우미는 저장소 소스를 x86으로 빌드한 실행 파일이다. [컴파일·실행 도우미 사용법](WINDOWS_REFERENCE.md) · [HSP 입력](../tools/reference/dotnet10/semantics.hsp)
+Windows에서는 같은 소스·입력의 SHA-256을 확인하고 전용 디렉터리 `reference-build/platform-dotnet10-port-01`에서 두 C# 파일을 실행했다. 공식 x86 HSP는 그 디렉터리 아래 별도 `hsp34`에 런타임과 ASCII 입력 `semantics.hsp`를 복사해 실행했다. 게임 DLL을 요구하지 않는 작은 산술·배열·문자열·난수 프로그램이다. 아래 명령의 `$case`는 새 검사 디렉터리, `$sdk`는 해시를 확인한 HSP 3.4 SDK, 두 도우미는 저장소 소스를 x86으로 빌드한 실행 파일이다. [컴파일·실행 도우미 사용법](WINDOWS_REFERENCE.md) · [HSP 입력](../scripts/reference/dotnet10/semantics.hsp)
 
 ```powershell
 & $compiler "$sdk\hspcmp.dll" "$case\semantics.hsp" "$case\semantics.ax" "$sdk\common" "$case\compile"

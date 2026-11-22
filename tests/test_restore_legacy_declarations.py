@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from restore_legacy_declarations import decode_flags, encode_flags, restore
 
 

@@ -87,7 +87,7 @@ def main():
         if '\t' in line and not line.startswith('#'):
             key, value = line.split('\t', 1)
             catalog[key] = value
-    resource = json.loads((ROOT / 'localization/ko-KR/original-fixed-adventure.json').read_text(encoding='utf-8'))
+    resource = json.loads((ROOT / 'src/localization/ko-KR/original-fixed-adventure.json').read_text(encoding='utf-8'))
     def wraps(text):
         # Japanese literals that need at least two log rows and carry no markup.
         if not re.search(r'[぀-ヿ一-鿿]', text) or re.search(r'["\\\n\t♪{}]', text):

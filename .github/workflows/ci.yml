@@ -47,11 +47,11 @@ jobs:
           path: |
             .cache/upstream/OpenHSP
             .cache/audio
-          key: upstream-macos-${{ hashFiles('tools/bootstrap_openhsp.py', 'tools/bootstrap_audio.py', 'patches/**') }}
+          key: upstream-macos-${{ hashFiles('scripts/bootstrap_openhsp.py', 'scripts/bootstrap_audio.py', 'scripts/patches/**') }}
       - name: Bootstrap OpenHSP and audio inputs
         run: |
-          python3 tools/bootstrap_openhsp.py
-          python3 tools/bootstrap_audio.py
+          python3 scripts/bootstrap_openhsp.py
+          python3 scripts/bootstrap_audio.py
       - name: Configure
         run: cmake --preset macos-arm64-legacy-cp932-debug
       - name: Build
@@ -73,12 +73,12 @@ jobs:
           path: |
             .cache/upstream/OpenHSP
             .cache/audio
-          key: upstream-windows-${{ hashFiles('tools/bootstrap_openhsp.py', 'tools/bootstrap_audio.py', 'patches/**') }}
+          key: upstream-windows-${{ hashFiles('scripts/bootstrap_openhsp.py', 'scripts/bootstrap_audio.py', 'scripts/patches/**') }}
       - name: Bootstrap OpenHSP and audio inputs
         run: |
-          python tools/bootstrap_openhsp.py
-          python tools/bootstrap_audio.py
-      # Mirrors tools/windows_build.ps1, the configuration verified on a real
+          python scripts/bootstrap_openhsp.py
+          python scripts/bootstrap_audio.py
+      # Mirrors scripts/windows_build.ps1, the configuration verified on a real
       # Windows PC: Python-driven fixtures are disabled on Windows.
       - name: Configure
         run: cmake --preset windows-x64-legacy-cp932-debug -DBUILD_TESTING=ON -DCMAKE_DISABLE_FIND_PACKAGE_Python3=TRUE

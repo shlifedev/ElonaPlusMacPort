@@ -16,8 +16,8 @@ session 1 실행 전에 중단됐다. 이를 게임 실행 실패와 구분한�
 2026-11-18 Codex 병렬 작업자가 팝업/종료 진단과 `--auxiliary-close-hide`를 포함한 C++ 소스를 Windows MSVC x64에서 다시 빌드했다. `04` 소스는 이후 root의 한국어 문단 helper/변환 AX 작업 전 스냅샷이다. `05`는 동시 소스 편집을 피하려고 같은 `04` 스냅샷을 명시적으로 재사용했다.
 
 ```sh
-python3 tools/reference/windows_gui_run.py --run gui-native-04
-python3 tools/reference/windows_gui_run.py --run gui-native-05 --snapshot-from gui-native-04
+python3 scripts/reference/windows_gui_run.py --run gui-native-04
+python3 scripts/reference/windows_gui_run.py --run gui-native-05 --snapshot-from gui-native-04
 ```
 
 - 두 실행 모두 Release 빌드 성공, fixture 11개×headless/SDL 창의 22개 기대 결과 통과. x86 BMP 기준과 renderer readback 일치 유지.
@@ -27,14 +27,14 @@ python3 tools/reference/windows_gui_run.py --run gui-native-05 --snapshot-from g
 - 동일 프로세스의 CPU frame400와 종료 시 SDL renderer readback에는 정상 타이틀이 있다. 캡처 API/합성 문제인지 실제 표시 갱신 문제인지 구분할 증거가 부족하다. 둘 다 `all_automated_checks_passed=false`를 그대로 보존했다. `session_and_integrity_ok=false`는 타이틀 캡처 조건도 포함한 판정이며 작업 정리나 해시 불변 검사가 실패했다는 뜻은 아니다.
 - 최신 사용자 지시가 화면/팝업 **조사만**으로 바뀌어 여기서 추가 Windows 표시 수정·실행은 보류했다. 실제 사용자 창과 설정은 건드리지 않았다.
 
-증거: `work/windows/reference-build/gui-native-{04,05}/verify.json`, `window-results/probe.log`, `window-results/window-startup-window0-pw.png`, `png/window-startup-f0400.png`, `png/window-startup-window.png`. `tools/reference/WindowsGuiProbe.cs`의 ready-file marker, 실행기의 `--snapshot-from`이 재현을 지원한다.
+증거: `work/windows/reference-build/gui-native-{04,05}/verify.json`, `window-results/probe.log`, `window-results/window-startup-window0-pw.png`, `png/window-startup-f0400.png`, `png/window-startup-window.png`. `scripts/reference/WindowsGuiProbe.cs`의 ready-file marker, 실행기의 `--snapshot-from`이 재현을 지원한다.
 
 ## Windows 한국어 표시와 팝업 경계 fixture: 통과
 
 위 전체 타이틀 캡처 실패와 별도로, `04` 실행물에 고정된 한국어 catalog를 주어 작은 전용 fixture를 실제 session1 창에서 확인했다.
 
 ```sh
-python3 tools/reference/windows_localization_check.py --run gui-native-04
+python3 scripts/reference/windows_localization_check.py --run gui-native-04
 ```
 
 - `localization-check/verify.json`의 `passed=true`. 실제 PrintWindow 이미지에서 **모험의 이정표**를 확인했고, 입력 오버레이는 원문 **Starting Menu**를 유지했다. VM/저장 원문 바이트 불변, 한국어 표시 픽셀 변화, renderer readback 오버레이 외 불일치0(오버레이758픽셀).
@@ -43,18 +43,18 @@ python3 tools/reference/windows_localization_check.py --run gui-native-04
 - 결정적 modal fixture의 1/6/7/1 결과와 안내 창 fixture의 기본 종료/옵션 적용 후 계속 실행→메인 창 닫기 분기를 확인했다. Windows의 실제 OS 모달 버튼을 수동 클릭한 검사는 아니다.
 - 실제 창은 probe가 시작한 자기 프로세스만 캡처했고 일회성 작업 삭제·잔여0. 증거 `work/windows/reference-build/gui-native-04/localization-check/{verify.json,window-with-edit.png,window-results/korean-window-window0-pw.png}`.
 
-이 검사는 **표시 catalog/VM 분리와 팝업 경계**에 대한 것이다. 이후 추가된 한국어 문단 helper/type48, 변환된 전체 AX, 최신 한국어 신규게임 전체 경로의 Windows 검증으로 확대 해석하지 않는다. 도구는 `tools/reference/windows_localization_check.py`와 `.ps1`이다.
+이 검사는 **표시 catalog/VM 분리와 팝업 경계**에 대한 것이다. 이후 추가된 한국어 문단 helper/type48, 변환된 전체 AX, 최신 한국어 신규게임 전체 경로의 Windows 검증으로 확대 해석하지 않는다. 도구는 `scripts/reference/windows_localization_check.py`와 `.ps1`이다.
 
 ## 최신 관리 AX·문단 렌더러: gui-native-ko-managed-03 통과
 
 2026-11-18 후속 Codex 검사. 최신 `native_ko_gmes` type48/$00와 `rich_text`를 포함한 Windows MSVC x64 호스트를 새 private 소스/빌드 디렉터리에서 만들었다. 기존 `gui-native-04/05`를 덮어쓰지 않았고, 그 실행의 외부 창 캡처 실패도 해결됐다고 기록하지 않는다. 이번 검사는 **Windows의 headless TTF/게임 버퍼 렌더링**이며 OS 창 표시·전체 화면·실제 IME 조작 검사가 아니다. 해상도/OS 팝업 동작이나 개인 설정은 바꾸지 않았다.
 
-재현 도구는 `tools/reference/windows_managed_check.py`, `.ps1`이다. 고정 catalog/AX와 새 실행 이름을 사용한다.
+재현 도구는 `scripts/reference/windows_managed_check.py`, `.ps1`이다. 고정 catalog/AX와 새 실행 이름을 사용한다.
 
 ```sh
-python3 tools/reference/windows_managed_check.py \
+python3 scripts/reference/windows_managed_check.py \
   --run gui-native-ko-managed-03 \
-  --catalog localization/ko-KR/runtime.tsv
+  --catalog src/localization/ko-KR/runtime.tsv
 ```
 
 완료된 이름은 재사용할 수 없으므로 재실행 때는 새 이름을 지정한다. 기본 관리 AX 입력은 `work/localization/managed-gmes-v1-01/start.ax`, 비교 입력은 `work/localization/cp932-full-reference-01/start.ax`다. 후자는 원문을 native로 재컴파일한 기준이며 원본 Windows EXE의 직접 실행이 아니다.
@@ -89,7 +89,7 @@ python3 tools/reference/windows_managed_check.py \
 
 앞선 `gui-native-ko-managed-02`의 전체 catalog smoke는 첫 `U+30FB` 일본어 가운데점에서 명시적 exit3을 냈다. 예를 들어 노동 에너지 상품의 한국어 번역문에 원문의 점선 구분자 `・・・・`가 남아 있었다. 단순 한글 fixture와 문단 fixture는 통과했으므로 전체 키 실제 렌더가 추가 결함을 발견한 것이다.
 
-`tools/reference/WindowsFontGlyphProbe.cs`로 동일 SDL3_ttf의 `TTF_FontHasGlyph`를 사용해 번역 대상에 포함된 고유 코드포인트984개를 읽기 전용 검사했다. 설치된 맑은 고딕과 굴림은 각각 U+30FB 하나가 없었고, MS Gothic은 이 글자를 제공하지만 한글879개가 없었다. 글꼴은 읽기만 했고 복사/설치하지 않았다. 근거는 `gui-native-ko-managed-02/glyph-audit/`다.
+`scripts/reference/WindowsFontGlyphProbe.cs`로 동일 SDL3_ttf의 `TTF_FontHasGlyph`를 사용해 번역 대상에 포함된 고유 코드포인트984개를 읽기 전용 검사했다. 설치된 맑은 고딕과 굴림은 각각 U+30FB 하나가 없었고, MS Gothic은 이 글자를 제공하지만 한글879개가 없었다. 글꼴은 읽기만 했고 복사/설치하지 않았다. 근거는 `gui-native-ko-managed-02/glyph-audit/`다.
 
 root는 한국어 글꼴에 없는 글자를 기존 원문용 글꼴에서 찾는 **글자 단위 fallback**을 `src/graphics/text_renderer_ttf.cpp`에 추가했다. 두 글꼴 모두 없으면 여전히 명시적으로 실패하고, 문장 내용·논리 셀 폭·배율은 바꾸지 않는다. 번역의 구두점을 지우는 방식으로 실패를 피하지 않았다. 이 수정이 들어간 `03`에서 같은 5,058키가 모두 통과했다. 맑은 고딕 SHA는 위 한국어 fixture와 동일하다.
 
@@ -97,7 +97,7 @@ root는 한국어 글꼴에 없는 글자를 기존 원문용 글꼴에서 찾�
 
 ## 확인한 결과: gui-native-02
 
-재현: `python3 tools/reference/windows_gui_run.py --run gui-native-<새이름>`.
+재현: `python3 scripts/reference/windows_gui_run.py --run gui-native-<새이름>`.
 음악 의존성 및 renderer 소스도 스냅샷에 포함한다. 기존 실행 폴더는 재사용하지 않는다.
 
 - Release MSVC x64 + SDL3/SDL3_ttf 빌드 성공. Unicode 인수/AX 패치와 CRLF 코어 수정 포함.
@@ -129,17 +129,17 @@ Windows에서 실제 일본어 후보 선택이나 장치 오디오를 검증했
 | SDL3-devel-3.4.20-VC.zip | https://github.com/libsdl-org/SDL/releases/download/release-3.4.20/SDL3-devel-3.4.20-VC.zip | `1ec3009655ee37b1f73e52b3b120acc5afd8abaf9532f3303b1bf1dfe91b5969` | GitHub release asset digest |
 | SDL3_ttf-devel-3.2.2-VC.zip | https://github.com/libsdl-org/SDL_ttf/releases/download/release-3.2.2/SDL3_ttf-devel-3.2.2-VC.zip | `67805c5babfc49ca0c56882dc9b8cabbcdd1e6f9edde10ddac91ddb38f3afb8c` | 최초 다운로드 시 고정(업스트림 digest·서명 없음; 서명은 소스 아카이브만) |
 
-Mac과 같은 버전(SDL3 3.4.20 / SDL3_ttf 3.2.2). 로컬 `.cache/downloads/windows-gui/`, 잠금 `tools/reference/windows_gui_deps.lock.json`.
-고지: 각 패키지의 LICENSE.txt(zlib), SDL3_ttf에 포함된 FreeType/HarfBuzz/PlutoSVG/PlutoVG의 고정 소스 고지를 `licenses/`와 `THIRD_PARTY_NOTICES.md`에 보존했다. 배포 시 이 고지들도 포함해야 한다.
+Mac과 같은 버전(SDL3 3.4.20 / SDL3_ttf 3.2.2). 로컬 `.cache/downloads/windows-gui/`, 잠금 `scripts/reference/windows_gui_deps.lock.json`.
+고지: 각 패키지의 LICENSE.txt(zlib), SDL3_ttf에 포함된 FreeType/HarfBuzz/PlutoSVG/PlutoVG의 고정 소스 고지를 `docs/licenses/`와 `docs/THIRD_PARTY_NOTICES.md`에 보존했다. 배포 시 이 고지들도 포함해야 한다.
 
 글꼴: 원격 Windows에 `C:\Windows\Fonts\msgothic.ttc`(MS Gothic)와 Yu Gothic이 설치되어 있어 호스트 기본 후보를 그대로 읽는다. 복사·재배포하지 않으므로 Noto CJK는 준비하지 않았다. `meiryo.ttc`는 없음, 일본어 보충 글꼴 기능은 NotPresent.
 
 ## 도구
 
-- `tools/reference/windows_gui_deps.py`: 다운로드·SHA 검증·잠금.
-- `tools/reference/windows_gui_run.py`: 비공개 소스 스냅샷(`work/orchestration/windows-gui/<run>/`; Unicode 패치는 이미 공유 소스에 있음 확인) → 전용 `reference-build/gui-native-NN` 업로드 → 원격 실행 → 회수 → 판정.
-- `tools/reference/windows_gui_build.ps1`: Release/Ninja/MSVC, `ELONA_GUI=ON ELONA_TEXT_TTF=ON`, `CMAKE_PREFIX_PATH`는 run 폴더의 SDL 패키지만. session 0 headless: tests/graphics fixture 전부 + 원본 AX(언어→타이틀, newgame 저장, 프로필 복사 후 load). session 1: 일회성 Interactive/Limited 예약 작업으로 `WindowsGuiProbe.exe`가 직접 시작한 PID의 창만 PrintWindow/DC 캡처, finally에서 작업 삭제·잔여 프로세스 확인. 원본은 원격 ZIP 신규 추출 private 사본(해시 전후 비교).
-- `tools/reference/windows_gui_verify.py`: fixture 기대값·x86 기준 BMP 바이트 비교·창 캡처 비교·게임 저장/로드 요약.
+- `scripts/reference/windows_gui_deps.py`: 다운로드·SHA 검증·잠금.
+- `scripts/reference/windows_gui_run.py`: 비공개 소스 스냅샷(`work/orchestration/windows-gui/<run>/`; Unicode 패치는 이미 공유 소스에 있음 확인) → 전용 `reference-build/gui-native-NN` 업로드 → 원격 실행 → 회수 → 판정.
+- `scripts/reference/windows_gui_build.ps1`: Release/Ninja/MSVC, `ELONA_GUI=ON ELONA_TEXT_TTF=ON`, `CMAKE_PREFIX_PATH`는 run 폴더의 SDL 패키지만. session 0 headless: tests/graphics fixture 전부 + 원본 AX(언어→타이틀, newgame 저장, 프로필 복사 후 load). session 1: 일회성 Interactive/Limited 예약 작업으로 `WindowsGuiProbe.exe`가 직접 시작한 PID의 창만 PrintWindow/DC 캡처, finally에서 작업 삭제·잔여 프로세스 확인. 원본은 원격 ZIP 신규 추출 private 사본(해시 전후 비교).
+- `scripts/reference/windows_gui_verify.py`: fixture 기대값·x86 기준 BMP 바이트 비교·창 캡처 비교·게임 저장/로드 요약.
 
 ## 남은 검증
 

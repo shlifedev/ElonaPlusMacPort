@@ -72,7 +72,7 @@ static void test_pget() {
 }
 
 static void test_reference_pattern() {
-    // Mirrors tools/reference/gui_fixtures/gui_pattern_dump.hsp observed on Windows.
+    // Mirrors scripts/reference/gui_fixtures/gui_pattern_dump.hsp observed on Windows.
     ScreenTable t(nullptr);
     Screen& src = t.make(1, kTypeBuffer, 16, 16, 0);
     for (int y = 0; y < 16; ++y)

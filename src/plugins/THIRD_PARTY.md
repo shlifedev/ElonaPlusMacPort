@@ -1,8 +1,7 @@
 # src/plugins 제3자 고지
 
 이 파일은 플러그인 대체 모듈이 사용하거나 참고한 제3자 구성 요소의 고지다.
-루트 `THIRD_PARTY_NOTICES.md`와 `licenses/`는 통합 담당자가 소유하므로, 아래 표의
-행과 `licenses/zlib.txt`(아래 원문)를 그쪽에 병합해 주기를 요청한다.
+전체 구성 요소 목록은 [제3자 고지](../../docs/THIRD_PARTY_NOTICES.md)에, zlib 원문은 [라이선스 파일](../../docs/licenses/zlib.txt)에 있다.
 
 | 구성 요소 | 고정 버전 | 사용 범위 | 고지 |
 |---|---|---|---|

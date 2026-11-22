@@ -1,8 +1,8 @@
 # 2.335 한국어 DB 번역 진행 기록
 
-- 담당 파일: `localization/ko-KR/original-database.json`, `original-races-classes.json`. 원본·VM·세이브를 변경하지 않는 독자 번역 자원이다.
+- 담당 파일: `src/localization/ko-KR/original-database.json`, `original-races-classes.json`. 원본·VM·세이브를 변경하지 않는 독자 번역 자원이다.
 - 입력: 비공개 `work/localization/2.335/static-pairs.json` 중 일본어 복원 소스 1..23800행에 등장하는 2,406개 고유 쌍. 작업 인덱스는 `work/localization/2.335/database-scope.json`이다.
-- 문체·용어 기준: `localization/ko-KR/style-guide.md`, `glossary.tsv`. 일본어 DB 정의를 우선하고 영어는 대조한다. 옛 비공개 번역 메모리 문장을 가져오지 않는다.
+- 문체·용어 기준: `src/localization/ko-KR/style-guide.md`, `glossary.tsv`. 일본어 DB 정의를 우선하고 영어는 대조한다. 옛 비공개 번역 메모리 문장을 가져오지 않는다.
 - 전체 범위 및 정적 QA 완료: 2,406/2,406개 저장, `reviewed` 2,263개, `context_required` 143개. 원문 범위의 모든 항목을 읽고 번역/문맥 보류/기술 값 제외를 구분했다. 첫 패스(2,267/139) 이후 미확정 장소명 `陽牢の塔`를 포함한 의뢰 문장 4개도 함께 보류했다. **전체 게임 번역 완료나 실제 화면 번역률을 뜻하지 않는다.**
 - 후속 이름 자원: 종족 76개·직업 12개, 총 88개 `reviewed`. 원본의 `racename` 및 `classname` 정의를 확인하고 용어집 표기를 적용했다. 기본 종족 11개·직업 12개에 대해 **목록 정의→`cnven` 변환→선택 목록 표시 경로**와 `ko-newgame-01/missing.tsv` 관측이 일치하는 대문자 표기 23개만 명시적인 `source_aliases`로 추가했다. 단순 문자열 관측이나 임의의 대소문자·부분 문자열 치환은 근거로 삼지 않는다.
 
@@ -28,13 +28,13 @@
 - private 재현·근거: `work/localization/2.335/database-qa.py`, `database-qa.json`, `database-qa-runtime.report.json`, `database-qa-runtime.sources.json`. 결과 JSON에는 입력 해시와 수치 표기 예외가 들어 있다. `db-batch-001.tsv`부터 `025.tsv`까지가 첫 패스 체크포인트다.
 
 ```sh
-python3 tools/compile_localization.py \
-  localization/ko-KR/original-ui.json \
-  localization/ko-KR/original-database.json \
-  localization/ko-KR/original-races-classes.json \
-  localization/ko-KR/original-tutorial.json \
-  localization/ko-KR/original-controls.json \
-  localization/ko-KR/community-reviewed.json \
+python3 scripts/compile_localization.py \
+  src/localization/ko-KR/original-ui.json \
+  src/localization/ko-KR/original-database.json \
+  src/localization/ko-KR/original-races-classes.json \
+  src/localization/ko-KR/original-tutorial.json \
+  src/localization/ko-KR/original-controls.json \
+  src/localization/ko-KR/community-reviewed.json \
   --output work/localization/2.335/database-qa-runtime.tsv
 python3 work/localization/2.335/database-qa.py
 ```

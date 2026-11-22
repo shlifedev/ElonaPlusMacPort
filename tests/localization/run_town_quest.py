@@ -11,7 +11,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT/'tools'))
+sys.path.insert(0, str(ROOT/'scripts'))
 from inspect_save_state import digest, payload
 from play_game import MANAGED_AX
 
@@ -46,7 +46,7 @@ def main():
     ap.add_argument('--profile', required=True, type=Path, help='profile produced by the English Vernis replay')
     ap.add_argument('--host', type=Path, default=ROOT/'build/native-macos-arm64-legacy-cp932-release/elona_gui_host')
     ap.add_argument('--ax', type=Path, default=ROOT/MANAGED_AX)
-    ap.add_argument('--catalog', type=Path, default=ROOT/'localization/ko-KR/runtime.tsv')
+    ap.add_argument('--catalog', type=Path, default=ROOT/'src/localization/ko-KR/runtime.tsv')
     args = ap.parse_args()
     evidence = ROOT/'work/ko-town-quest'
     evidence.mkdir(parents=True, exist_ok=True)
@@ -66,7 +66,7 @@ def main():
 
     # Remove only keys owned by this conversation to isolate the actual text
     # area. The managed AX, source data, font and all other labels stay equal.
-    reviewed = json.loads((ROOT/'localization/ko-KR/original-quest-dialogue.json').read_text())
+    reviewed = json.loads((ROOT/'src/localization/ko-KR/original-quest-dialogue.json').read_text())
     rows = [row for row in reviewed if '2.335:start.hsp:385777' in row['source_ref']]
     if len(rows) != 1:
         raise ValueError('expected one reviewed introduction for dialogue 369')

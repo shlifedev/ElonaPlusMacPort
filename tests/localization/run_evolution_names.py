@@ -10,7 +10,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / 'tools'))
+sys.path.insert(0, str(ROOT / 'scripts'))
 from korean_evolution_hooks import chara_default_names, install_evolution_hooks
 
 
@@ -59,7 +59,7 @@ def main():
     for option in ('compiler', 'host', 'work'):
         ap.add_argument('--' + option, type=Path)
     a = ap.parse_args()
-    rows = json.loads((ROOT / 'localization/ko-KR/original-evolution-ui.json').read_text())['entries']
+    rows = json.loads((ROOT / 'src/localization/ko-KR/original-evolution-ui.json').read_text())['entries']
     lines, routes, hooks, names = inspect_source(a.source.read_bytes(), rows)
     if not any((a.compiler, a.host, a.work)):
         print('167 evolution modes, 421 source references and three original hook anchors verified')

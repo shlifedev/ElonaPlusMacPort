@@ -30,7 +30,7 @@ SDK의 CP932 파일명을 PowerShell `Expand-Archive`가 처리하지 못했다.
 스크립트는 `.NET ZipFile.ExtractToDirectory(..., Encoding.GetEncoding(932))`로
 추출하며 SDK 문서와 라이선스 파일을 함께 보존한다.
 
-`tools/reference/Hsp34Compile.cs`는 SDK의 `doclib/hspcmp.txt`,
+`scripts/reference/Hsp34Compile.cs`는 SDK의 `doclib/hspcmp.txt`,
 `common/hspcmp.as`와 실제 DLL exports에 맞춘 32비트 stdcall 래퍼다.
 시스템 .NET Framework의 C# 컴파일러에 `/platform:x86`을 지정한다.
 `hsc_ini`, `hsc_objname`, `hsc_compath`, `hsc_comp(0,0,0,0)`, 메시지 조회,
@@ -80,7 +80,7 @@ borscht 내부의 `token_offset + extra` 값은 그대로 VM의 최종 점프 �
 첫 오류에서 `else@3507204, extra=111`은 `3507432`로,
 `else@3507426, extra=710`은 `3508852`로 간다.
 
-`tools/fix_decompiled_control_flow.py`는 정확한 raw 해시를 확인한 뒤 두 번째 else를
+`scripts/fix_decompiled_control_flow.py`는 정확한 raw 해시를 확인한 뒤 두 번째 else를
 원래 순서에 다시 넣고 중복 goto를 제거한다. 원시 파일은 보존하며 출력은
 `work/decompiled/2.335-hsp34/start.hsp`다. CP932 문자열을 재인코딩하지 않는다.
 
@@ -98,7 +98,7 @@ borscht 내부의 `token_offset + extra` 값은 그대로 VM의 최종 점프 �
 `stop_ghost` fixture는 원본·복원본·수정본 모두 `done`을 출력했다.
 이 fixture는 `if 0` 안의 stop을 실행하지 않는다. goto 중복의 도달불가능성은
 opcode와 target을 확인한 정적 판단이다.
-소스 생성 도구는 `tools/reference/prepare_control_flow_fixture.py`, 결과는
+소스 생성 도구는 `scripts/reference/prepare_control_flow_fixture.py`, 결과는
 `work/windows/reference-build/fixtures-control-01`, `fixtures-control-02`다.
 
 ### 별도로 확인한 DLL 선언 오류
@@ -107,7 +107,7 @@ borscht의 모든 외부 선언을 현대식 타입 목록으로 재출력하면
 (old DLL)였던 54개 선언이 `-3`으로 바뀐다. old DLL 반환값의 부호를 바꾸어 `stat`에
 전달하는 원본 규약까지 달라질 수 있다. 이는 제어 흐름 수정과 별도로 고쳐야 한다.
 `docs/PLUGIN_FINDINGS.md`와 `legacy-dll-declarations.json`에 세부 근거를 기록한다.
-`tools/restore_legacy_declarations.py`는 원본 AX의 정확한 인수 타입으로부터 구형
+`scripts/restore_legacy_declarations.py`는 원본 AX의 정확한 인수 타입으로부터 구형
 숫자 flags 선언을 재생성한다. 제어 흐름 수정본에서 ASCII 선언 54줄만 바꾸며
 전체 CP932 텍스트를 디코딩/재인코딩하지 않는다.
 
@@ -127,7 +127,7 @@ borscht의 모든 외부 선언을 현대식 타입 목록으로 재출력하면
 | 토큰 값·실제 분기/라벨 대상·line/argument 플래그 차이 | 0 |
 | 함수 선언 722개 차이 | 0; old DLL 54개 포함 |
 
-`tools/compare_ax_roundtrip.py`는 문자열을 원시 바이트로, double을 64비트 패턴으로,
+`scripts/compare_ax_roundtrip.py`는 문자열을 원시 바이트로, double을 64비트 패턴으로,
 라벨/분기를 대상 토큰 번호로, 함수/매개변수 참조를 선언 이름과 owner 정체로
 해석하여 비교한다. 외부 함수 subid, target/flags, 인수 타입·owner·offset,
 stack bytes와 function flags도 비교한다. 선언 재배치에 따른 ID 변화는 그대로
@@ -178,7 +178,7 @@ fixture 4개를 컴파일/실행 exit 0으로 통과했다. 이어 독립 입력
 `varsize` 미지원 차이(0 대 24)다. 증거: `work/windows/case-local-runtime-02.json`,
 `work/reports/case-local-runtime-comparison.json`, `work/reports/plugin-reference-validity.json`.
 
-`tools/reference/prepare_hsp34_fixtures.py`가 `tests/native`의 검토된 작은 사례를
+`scripts/reference/prepare_hsp34_fixtures.py`가 `tests/native`의 검토된 작은 사례를
 CP932 파일로 복사한다. `Hsp34Run.cs`는 `hsp3cl.exe`의 stdout/stderr BaseStream을
 원시 바이트로 저장한다. PowerShell의 문자 디코딩/재인코딩을 거치지 않는다.
 각 프로세스는 15초 제한이 있으며 제한 초과 시 그 fixture 프로세스만 종료한다.
@@ -228,16 +228,16 @@ HSP 3.4에는 `varsize` 함수가 없다. 이 이름을 미초기화 변수로 �
 로컬에서는 먼저 추출·decode와 SDK 다운로드 해시를 확인한다.
 
 ```sh
-python3 tools/bootstrap_borscht.py
-python3 tools/decompile_game.py --verify-repeat
-python3 tools/fix_decompiled_control_flow.py
-python3 tools/restore_legacy_declarations.py
-python3 tools/reference/prepare_hsp34_fixtures.py --extended-rng
+python3 scripts/bootstrap_borscht.py
+python3 scripts/decompile_game.py --verify-repeat
+python3 scripts/fix_decompiled_control_flow.py
+python3 scripts/restore_legacy_declarations.py
+python3 scripts/reference/prepare_hsp34_fixtures.py --extended-rng
 ```
 
 이미 생성된 출력은 덮어쓰지 않는다. 새 출력 경로를 지정하거나 기존 해시를 검증한다.
 SSH의 `/` 포함 별칭 때문에 일반 scp는 실패했으므로 SFTP batch를 사용했다.
-전송 전 `tools/windows_probe.py`의 `run_powershell`로 전용 `reference-build/input`을
+전송 전 `scripts/windows_probe.py`의 `run_powershell`로 전용 `reference-build/input`을
 만든 뒤 아래와 같이 전송한다. 파일명은 전용 ASCII 상대 경로로 고정했다.
 
 ```text
@@ -245,10 +245,10 @@ put .cache/downloads/hsp34a.zip ElonaPlusNative-2.335/inputs/hsp34a.zip
 put work/decompiled/2.335/start.hsp ElonaPlusNative-2.335/reference-build/input/start.hsp
 put work/decompiled/2.335-hsp34/start.hsp ElonaPlusNative-2.335/reference-build/input/start-control-flow-fixed.hsp
 put work/decompiled/2.335-reference/start.hsp ElonaPlusNative-2.335/reference-build/input/start-reference-fixed.hsp
-put tools/reference/Hsp34Compile.cs ElonaPlusNative-2.335/reference-build/Hsp34Compile.cs
-put tools/reference/Hsp34Run.cs ElonaPlusNative-2.335/reference-build/Hsp34Run.cs
-put tools/windows_hsp34.ps1 ElonaPlusNative-2.335/reference-build/windows_hsp34.ps1
-put tools/reference/RunHsp34Fixtures.ps1 ElonaPlusNative-2.335/reference-build/RunHsp34Fixtures.ps1
+put scripts/reference/Hsp34Compile.cs ElonaPlusNative-2.335/reference-build/Hsp34Compile.cs
+put scripts/reference/Hsp34Run.cs ElonaPlusNative-2.335/reference-build/Hsp34Run.cs
+put scripts/windows_hsp34.ps1 ElonaPlusNative-2.335/reference-build/windows_hsp34.ps1
+put scripts/reference/RunHsp34Fixtures.ps1 ElonaPlusNative-2.335/reference-build/RunHsp34Fixtures.ps1
 ```
 
 위 텍스트를 `subprocess.run(['sftp','-o','BatchMode=yes','-b','-','home/windows'],
@@ -275,7 +275,7 @@ $fixtures = [scriptblock]::Create([IO.File]::ReadAllText((Join-Path $root 'RunHs
 호출 인수, 종료 코드와 실행 범위를 기록하며 로그와 AX는 Git에서 제외한다.
 
 ```sh
-python3 tools/compare_ax_roundtrip.py \
+python3 scripts/compare_ax_roundtrip.py \
   work/extracted/2.335/start.ax \
   work/windows/reference-build/reference-fixed-01/start.ax \
   --output work/reports/ax-roundtrip-2.335/reference-final.json

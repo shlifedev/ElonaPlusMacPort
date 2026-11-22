@@ -5,7 +5,7 @@ resulting user-root files, and that the synthetic game root is byte-identical.
 No original game data is used.
 
 --export DIR writes the same fixtures/expectations for hosts without Python
-(tools/reference/platform_build_x64.ps1 consumes them on Windows)."""
+(scripts/reference/platform_build_x64.ps1 consumes them on Windows)."""
 import argparse
 import hashlib
 import json

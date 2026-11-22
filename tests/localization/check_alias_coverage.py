@@ -11,10 +11,10 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[2]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--runner', type=Path, required=True)
-parser.add_argument('--catalog', type=Path, default=ROOT / 'localization/ko-KR/runtime.tsv')
+parser.add_argument('--catalog', type=Path, default=ROOT / 'src/localization/ko-KR/runtime.tsv')
 parser.add_argument('--data', type=Path, default=ROOT / 'elonaplus2.335/data')
 args = parser.parse_args()
-ko = ROOT / 'localization/ko-KR'
+ko = ROOT / 'src/localization/ko-KR'
 entries = json.loads((ko/'original-alias-words.json').read_text(encoding='utf-8'))['entries']
 published = {entry['source']: entry['target'] for entry in entries}
 all_keys = set()

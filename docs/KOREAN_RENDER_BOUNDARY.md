@@ -28,7 +28,7 @@ build/native-macos-arm64-legacy-cp932-release/elona_hspcmp \
 
 ### 정적 차이는 숨기지 않는다
 
-기존 `tools/compare_ax_roundtrip.py`는 0x301/96바이트 AX만 받는다. 새 compiler의 0x360/112바이트 헤더를 직접 넣으면 명시적으로 거부한다. 비교용 사본에서 선택적 추가 섹션이 비어 있음을 확인하고 헤더 길이/섹션 위치만 매핑했다. 코드·데이터 본문은 그대로다. 이 사본은 **분석 전용이며 실행하지 않았다.** 기록은 `analysis-header-adapter.json`, `analysis-only-legacy-header.ax`다. 실제 게임 실행에는 변환하지 않은 native `start.ax`를 사용했다.
+기존 `scripts/compare_ax_roundtrip.py`는 0x301/96바이트 AX만 받는다. 새 compiler의 0x360/112바이트 헤더를 직접 넣으면 명시적으로 거부한다. 비교용 사본에서 선택적 추가 섹션이 비어 있음을 확인하고 헤더 길이/섹션 위치만 매핑했다. 코드·데이터 본문은 그대로다. 이 사본은 **분석 전용이며 실행하지 않았다.** 기록은 `analysis-header-adapter.json`, `analysis-only-legacy-header.ax`다. 실제 게임 실행에는 변환하지 않은 native `start.ax`를 사용했다.
 
 원본 2,805,612 토큰과 native 2,805,607 토큰은 1:1로 같지 않다. 첫 차이는 `onerror goto`의 선택적 `goto` 토큰 생략이다. 그 뒤 인덱스가 밀려 기존 비교기가 2,668,030개 차이를 보고하지만, 이를 266만 개의 의미 오류로 해석하면 안 된다. 다음 다섯 토큰을 정확히 식별한 뒤 원본→신규 토큰 번호를 매핑해 다시 비교했다.
 
@@ -62,7 +62,7 @@ build/native-macos-arm64-legacy-cp932-release/elona_hspcmp \
 
 ## 관문 2: CP932 바이트를 유지하는 표시 훅 생성
 
-도구: [prepare_korean_game.py](../tools/prepare_korean_game.py). 입력 SHA와 유일한 gmes 문맥을 확인하고 원본 바이트에 ASCII 두 구간만 삽입한다. 생성물은 새 `work/` 하위 디렉터리만 허용한다. 기존 출력, 심볼릭링크 경로, 원본 폴더로의 출력은 거부한다. 원본 소스의 혼합 CRLF/LF와 CP932 중복 매핑 바이트를 재인코딩하지 않는다.
+도구: [prepare_korean_game.py](../scripts/prepare_korean_game.py). 입력 SHA와 유일한 gmes 문맥을 확인하고 원본 바이트에 ASCII 두 구간만 삽입한다. 생성물은 새 `work/` 하위 디렉터리만 허용한다. 기존 출력, 심볼릭링크 경로, 원본 폴더로의 출력은 거부한다. 원본 소스의 혼합 CRLF/LF와 CP932 중복 매핑 바이트를 재인코딩하지 않는다.
 
 선언은 다음과 같다.
 
@@ -89,7 +89,7 @@ if ( stat >= 0 ) {
 - 명령 내부에서 `refstr`, `strsize`, RNG, 게임 문자열, 대기/입력 상태를 바꾸지 않는다. 원본과 대응되는 폰트·색·커서의 표시 상태는 호스트가 정의·검증해야 한다.
 
 ```sh
-python3 tools/prepare_korean_game.py \
+python3 scripts/prepare_korean_game.py \
   --output work/localization/managed-gmes-v1-01 --compile
 python3 -m unittest discover -s tests/localization/source_transform -p 'test_*.py' -v
 ```
@@ -139,7 +139,7 @@ python3 tests/localization/source_transform/run_game_gate.py \
   --host build/localization-check/elona_gui_host \
   --reference-ax work/localization/cp932-full-reference-01/start.ax \
   --managed-ax work/localization/managed-gmes-v1-01/start.ax \
-  --catalog localization/ko-KR/runtime.tsv \
+  --catalog src/localization/ko-KR/runtime.tsv \
   --work work/localization/japanese-gate-final-01
 ```
 

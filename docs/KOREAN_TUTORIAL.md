@@ -11,7 +11,7 @@
 | 노른 도움말 제목 | 1개 | static `lang` 표시 문자열 |
 | 합계 | 171개 JSON 항목 | 번역 완료 범위이며, 화면 적용 완료 수치가 아님 |
 
-산출물은 [original-tutorial.json](../localization/ko-KR/original-tutorial.json), 비공개 작업본 `work/localization/exhelp-ko.txt`, 원문 행별 번역표 `work/localization/home-ko.tsv`다. 입력별 해시와 수량은 `work/localization/tutorial-stats.json`에 있다. 원본 `elonaplus2.335/data/exhelp.txt`와 원시 HSP 소스는 수정하지 않았다.
+산출물은 [original-tutorial.json](../src/localization/ko-KR/original-tutorial.json), 비공개 작업본 `work/localization/exhelp-ko.txt`, 원문 행별 번역표 `work/localization/home-ko.tsv`다. 입력별 해시와 수량은 `work/localization/tutorial-stats.json`에 있다. 원본 `elonaplus2.335/data/exhelp.txt`와 원시 HSP 소스는 수정하지 않았다.
 
 ## 조사한 문맥과 화자
 
@@ -114,7 +114,7 @@ ko_gmes_try(
 
 ### 소스 재컴파일 근거와 추가 검증 관문
 
-전체 원본 소스를 재컴파일할 수 있다는 기존 근거는 있다. [WINDOWS_REFERENCE.md](WINDOWS_REFERENCE.md)의 최종 복원본은 `fix_decompiled_control_flow.py`와 `restore_legacy_declarations.py`가 생성했으며, `tools/windows_hsp34.ps1` + `tools/reference/Hsp34Compile.cs`로 공식 HSP 3.4에서 컴파일했다. 결과 AX SHA-256은 `cec8809573ed8172033ac86d94709c40289b65398dad1fcc778c394108cf3b72`이다. `work/reports/ax-roundtrip-2.335/reference-final.json`에는 **2,805,612 정규화 토큰, 실제 분기/라벨 대상, 함수 선언 722개의 차이 0**이 기록돼 있다. 이는 기존 검증 기록을 확인한 것이며 이번 번역 조사에서 재실행한 결과는 아니다.
+전체 원본 소스를 재컴파일할 수 있다는 기존 근거는 있다. [WINDOWS_REFERENCE.md](WINDOWS_REFERENCE.md)의 최종 복원본은 `fix_decompiled_control_flow.py`와 `restore_legacy_declarations.py`가 생성했으며, `scripts/windows_hsp34.ps1` + `scripts/reference/Hsp34Compile.cs`로 공식 HSP 3.4에서 컴파일했다. 결과 AX SHA-256은 `cec8809573ed8172033ac86d94709c40289b65398dad1fcc778c394108cf3b72`이다. `work/reports/ax-roundtrip-2.335/reference-final.json`에는 **2,805,612 정규화 토큰, 실제 분기/라벨 대상, 함수 선언 722개의 차이 0**이 기록돼 있다. 이는 기존 검증 기록을 확인한 것이며 이번 번역 조사에서 재실행한 결과는 아니다.
 
 반면 [DECOMPILATION.md](DECOMPILATION.md)의 초기 Mac 전체 소스 probe는 UTF-8 설정의 컴파일러로 구문 수용만 확인했다. 그것을 현재 CP932 네이티브 전체 게임의 의미 일치 근거로 쓰면 안 된다. 현재 `macos-arm64-legacy-cp932-*` 프리셋의 `elona_hspcmp`는 존재하나, 이 표시 훅을 넣은 전체 게임을 빌드·실행한 기록은 아직 없다.
 
@@ -123,7 +123,7 @@ ko_gmes_try(
 1. 검증된 reference 소스의 전체 해시와 gmes/대화 구간 문맥 해시를 확인한다. 입력 원문을 편집하지 않는다.
 2. ASCII hook 선언·호출만 삽입한 CP932 소스를 새 `work/localization/` 하위 디렉터리에 생성한다. 원문↔출력 행/토큰 매핑, 변경 구간, 입력·컴파일러·출력 해시를 기록한다. 단순 전역 문자열 치환은 하지 않는다.
 3. 먼저 훅 없는 reference를 현재 legacy-CP932 컴파일러로 재컴파일하고 기준 AX와 비교한다. 전체 게임 의미 비교가 실패하면 그 차이를 해결하기 전 번역 훅을 진행하지 않는다.
-4. 표시 훅을 넣은 opt-in AX를 컴파일한다. `tools/compare_ax_roundtrip.py`의 기존 1:1 토큰 비교는 의도된 삽입 때문에 바로 같아지지 않으므로, 명시된 변경 블록에 대한 원본↔신규 토큰 매핑을 추가해 **그 밖의 문자열 바이트·분기 실제 대상·DLL 선언**이 그대로인지 검사한다. 차이를 통째로 무시하지 않는다.
+4. 표시 훅을 넣은 opt-in AX를 컴파일한다. `scripts/compare_ax_roundtrip.py`의 기존 1:1 토큰 비교는 의도된 삽입 때문에 바로 같아지지 않으므로, 명시된 변경 블록에 대한 원본↔신규 토큰 매핑을 추가해 **그 밖의 문자열 바이트·분기 실제 대상·DLL 선언**이 그대로인지 검사한다. 차이를 통째로 무시하지 않는다.
 5. locale off와 catalog miss에서 원본 픽셀/입력/상태를 비교한다. locale on에서는 허용된 문자 영역만 달라지는지, 동일 seed의 신규 게임→행동→저장→불러오기 상태가 유지되는지 검사한다. 기존 원본 AX 실행 경로는 독립된 기준으로 유지한다.
 6. 네이티브 전용 표시 opcode가 들어간 AX는 공식 원본 런타임에서 그대로 실행할 수 있다고 가정하지 않는다. 작은 명령 ABI fixture, Mac/Windows 네이티브 GUI, 실제 긴 대사·노른 모든 페이지의 경계와 입력을 별도로 검증한다.
 
@@ -131,6 +131,6 @@ ko_gmes_try(
 
 다음 문안은 `THIRD_PARTY_NOTICES` 통합용이며, 해당 루트 파일은 이 작업자가 수정하지 않았다.
 
-> **Elona Wiki Korean translation contributions.** `localization/ko-KR/community-reviewed.json` and the records derived from it in generated localization catalogs contain adapted contributions from [Elona Wiki, 한글패치 모음](https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C), by the wiki contributors, including the named contribution sections of 카파 and 노힐부득 and corrections attributed to Evildragon. These contributions and their adaptations are available under [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/). They have been checked against ElonaPlus 2.335 and edited for terminology, meaning, and style; ambiguous entries are excluded from global matching. Per-record origins, source snapshots, and changes are documented in `source-manifest.json` and `community-reviewed.json`. This notice applies to those translation records, not to the host source code, independently authored translation records, or original game assets.
+> **Elona Wiki Korean translation contributions.** `src/localization/ko-KR/community-reviewed.json` and the records derived from it in generated localization catalogs contain adapted contributions from [Elona Wiki, 한글패치 모음](https://elona.fandom.com/ko/wiki/%ED%95%9C%EA%B8%80%ED%8C%A8%EC%B9%98_%EB%AA%A8%EC%9D%8C), by the wiki contributors, including the named contribution sections of 카파 and 노힐부득 and corrections attributed to Evildragon. These contributions and their adaptations are available under [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/). They have been checked against ElonaPlus 2.335 and edited for terminology, meaning, and style; ambiguous entries are excluded from global matching. Per-record origins, source snapshots, and changes are documented in `source-manifest.json` and `community-reviewed.json`. This notice applies to those translation records, not to the host source code, independently authored translation records, or original game assets.
 
 생성된 `runtime.tsv`에서 원문 출처 열이 사라진다면 생성 보고서/명세에서 해당 키의 출처를 추적할 수 있게 해야 한다. 독립 번역 파일 전체에 위키의 CC 라이선스를 임의로 붙이거나, 반대로 위키 파생 행의 라이선스를 제거하지 않는다.

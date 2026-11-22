@@ -4,7 +4,7 @@ from pathlib import Path
 import unittest
 
 
-DATA = Path(__file__).resolve().parents[3] / 'localization/ko-KR'
+DATA = Path(__file__).resolve().parents[3] / 'src/localization/ko-KR'
 
 
 class EarlyScreenTests(unittest.TestCase):

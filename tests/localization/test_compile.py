@@ -23,7 +23,7 @@ with tempfile.TemporaryDirectory(prefix='elona-catalog-') as directory:
         {'source': 'page', 'target': '첫 줄\n둘째 줄', 'review_status': 'reviewed'},
     ]
     (work / 'source.json').write_text(json.dumps(rows, ensure_ascii=False), encoding='utf-8')
-    subprocess.run([sys.executable, str(ROOT / 'tools/compile_localization.py'), str(work / 'source.json'),
+    subprocess.run([sys.executable, str(ROOT / 'scripts/compile_localization.py'), str(work / 'source.json'),
                     '--output', str(work / 'out.tsv')], check=True)
     text = (work / 'out.tsv').read_text(encoding='utf-8')
     entries = dict(line.split('\t') for line in text.splitlines() if not line.startswith('#'))
@@ -36,9 +36,9 @@ print('PASS: catalog aliases, ambiguity, conflicts, review, marker order, multil
 
 with tempfile.TemporaryDirectory(prefix='elona-policy-') as directory:
     output = Path(directory) / 'runtime.tsv'
-    base = ROOT / 'localization/ko-KR'
+    base = ROOT / 'src/localization/ko-KR'
     manifest = json.loads((base / 'runtime.sources.json').read_text(encoding='utf-8'))
-    command = [sys.executable, str(ROOT / 'tools/compile_localization.py'),
+    command = [sys.executable, str(ROOT / 'scripts/compile_localization.py'),
                *(str(ROOT / entry['path']) for entry in manifest['inputs']), '--output', str(output)]
     missing = subprocess.run(command + ['--ambiguities', str(output.with_suffix('.missing'))], capture_output=True)
     assert missing.returncode and b'invalid ambiguity policy' in missing.stderr and not output.exists()

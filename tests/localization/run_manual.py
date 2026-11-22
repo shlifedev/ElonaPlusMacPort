@@ -75,7 +75,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--compiler', type=Path, default=BIN / 'elona_hspcmp')
     parser.add_argument('--host', type=Path, default=BIN / 'elona_gui_host')
-    parser.add_argument('--catalog', type=Path, default=ROOT / 'localization/ko-KR/runtime.tsv')
+    parser.add_argument('--catalog', type=Path, default=ROOT / 'src/localization/ko-KR/runtime.tsv')
     parser.add_argument('--ax', type=Path, help='Also open all topics in the real game and compare their glyph pixels.')
     parser.add_argument('--work', type=Path, default=ROOT / 'work/ko-manual')
     args = parser.parse_args()

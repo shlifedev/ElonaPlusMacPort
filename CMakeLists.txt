@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(OPENHSP_ROOT "${CMAKE_SOURCE_DIR}/.cache/upstream/OpenHSP" CACHE PATH "Pinned OpenHSP checkout")
 if(NOT EXISTS "${OPENHSP_ROOT}/src/hsp3/hsp3.cpp")
-  message(FATAL_ERROR "Run python3 tools/bootstrap_openhsp.py first")
+  message(FATAL_ERROR "Run python3 scripts/bootstrap_openhsp.py first")
 endif()
 set(HSP3 "${OPENHSP_ROOT}/src/hsp3")
 set(HSPCMP "${OPENHSP_ROOT}/src/hspcmp")
@@ -100,8 +100,8 @@ if(BUILD_TESTING)
 endif()
 
 # Optional shared modules from other workers (included only when present).
-if(EXISTS "${CMAKE_SOURCE_DIR}/cmake/ElonaPlatform.cmake")
-  include(cmake/ElonaPlatform.cmake)
+if(EXISTS "${CMAKE_SOURCE_DIR}/src/cmake/ElonaPlatform.cmake")
+  include(src/cmake/ElonaPlatform.cmake)
   if(BUILD_TESTING)
     find_package(Threads REQUIRED)
     add_executable(elona_game_files_tests tests/platform/test_game_files.cpp)
@@ -112,17 +112,17 @@ if(EXISTS "${CMAKE_SOURCE_DIR}/cmake/ElonaPlatform.cmake")
     add_test(NAME platform_game_files COMMAND elona_game_files_tests "${CMAKE_BINARY_DIR}/game-files-test-scratch")
   endif()
 endif()
-if(EXISTS "${CMAKE_SOURCE_DIR}/cmake/ElonaPlugins.cmake")
-  include(cmake/ElonaPlugins.cmake)
+if(EXISTS "${CMAKE_SOURCE_DIR}/src/cmake/ElonaPlugins.cmake")
+  include(src/cmake/ElonaPlugins.cmake)
   elona_add_plugins(TESTS ${BUILD_TESTING})
 endif()
 # Music renderer (MIDI/MP3) when its pinned inputs were fetched with
-# tools/bootstrap_audio.py; otherwise the host keeps the documented silent MCI path.
+# scripts/bootstrap_audio.py; otherwise the host keeps the documented silent MCI path.
 option(ELONA_MUSIC "Build src/audio music renderer when inputs are present" ON)
-if(ELONA_MUSIC AND EXISTS "${CMAKE_SOURCE_DIR}/cmake/ElonaAudio.cmake"
+if(ELONA_MUSIC AND EXISTS "${CMAKE_SOURCE_DIR}/src/cmake/ElonaAudio.cmake"
    AND EXISTS "${CMAKE_SOURCE_DIR}/.cache/audio/TinySoundFont/tsf.h")
-  include(cmake/ElonaAudio.cmake)
+  include(src/cmake/ElonaAudio.cmake)
   elona_add_audio(TESTS ${BUILD_TESTING})
 endif()
 # Native pixel model, SDL3 window backend and GUI host.
-include(cmake/ElonaGraphics.cmake)
+include(src/cmake/ElonaGraphics.cmake)

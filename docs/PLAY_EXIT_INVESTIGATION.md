@@ -102,7 +102,7 @@ python3 tests/graphics/run_exit_diagnostics.py \
 새 이름을 지정하는 원본 게임 진단 실행 예:
 
 ```sh
-ELONA_BUILD=build/exit-investigation tools/run_game_trace.sh exit-check-next \
+ELONA_BUILD=build/exit-investigation scripts/run_game_trace.sh exit-check-next \
   --deterministic --headless --max-waits 3050 --timeout-ms 60000 \
   --script tests/game/newgame_english.script --fail-on-hsp-error
 ```

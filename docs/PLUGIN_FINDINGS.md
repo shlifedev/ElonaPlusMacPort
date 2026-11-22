@@ -111,7 +111,7 @@ legacy 속성을 함께 표현한다.
 재현 가능한 변환은 다음과 같다.
 
 ```sh
-python3 tools/restore_legacy_declarations.py
+python3 scripts/restore_legacy_declarations.py
 python3 -m unittest discover -s tests -p 'test_restore_legacy_declarations.py' -v
 ```
 

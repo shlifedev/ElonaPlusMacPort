@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'tools'))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'scripts'))
 from build_draft_display import build, sha
 
 

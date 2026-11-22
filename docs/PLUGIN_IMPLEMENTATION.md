@@ -22,7 +22,7 @@ Mac ARM64 / Windows x64 호스트는 타입이 있는 API만 호출한다.
 ## 통합 방법 (루트 CMake 담당자용)
 
 ```cmake
-include("${CMAKE_SOURCE_DIR}/cmake/ElonaPlugins.cmake")
+include("${CMAKE_SOURCE_DIR}/src/cmake/ElonaPlugins.cmake")
 elona_add_plugins(TESTS ${BUILD_TESTING})          # elona_plugins, elona_zlib, (elona_plugins_tests)
 target_link_libraries(<host target> PRIVATE elona_plugins)
 target_compile_definitions(<host target> PRIVATE ELONA_HAVE_PLUGINS)  # src/app/dll_bindings_plugins.cpp 사용 시
@@ -172,4 +172,4 @@ python3 tests/plugins/fixtures/plugin_fixtures.py winbuild --run plugins-claude-
 - 게임 통합: GUI 작업자의 디스패처가 실제 원본 AX에서 이 바인딩을 호출하는 경로의 실행 확인(저장/로드 포함)은 통합 담당이다.
 - 원본 2.335 세이브 파일(복사본)을 zRead로 읽어 배열 바이트가 맞는지는 아직 확인하지 않았다(개인 세이브 미사용 원칙상 별도 복사본 필요).
 - lstrcmpA 비ASCII(CP932) 순서, double sortval, 게임 프로세스의 x87 정밀도는 미구현/미검증으로 남는다.
-- 루트 `THIRD_PARTY_NOTICES.md`·`licenses/`에 zlib 고지 병합(`src/plugins/THIRD_PARTY.md` 참조).
+- `docs/THIRD_PARTY_NOTICES.md`·`docs/licenses/`에 zlib 고지 병합(`src/plugins/THIRD_PARTY.md` 참조).

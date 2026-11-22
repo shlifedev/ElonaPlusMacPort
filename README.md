@@ -25,4 +25,4 @@ If a rights holder asks, the packages will be taken down.
 
 - Elona official site: http://ylvania.style.coocan.jp/
 
-Third-party notices: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
+Third-party notices: [THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md)

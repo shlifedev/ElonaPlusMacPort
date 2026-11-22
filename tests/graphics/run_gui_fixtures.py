@@ -28,10 +28,10 @@ FIXTURES = {
     # covered by this automatic check.
     "input_control": {"exit": 0, "overlay": (0, 0, 240, 26)},
 }
-# Windows HSP 3.4 x86 observation fixtures (tools/reference/gui_fixtures, read only).
+# Windows HSP 3.4 x86 observation fixtures (scripts/reference/gui_fixtures, read only).
 # Every .bmp/.txt the Windows run produced is compared byte-for-byte when
 # --windows-reference is given; the pattern is also checked analytically.
-REFERENCE = ROOT / "tools/reference/gui_fixtures"
+REFERENCE = ROOT / "scripts/reference/gui_fixtures"
 REFERENCE_FIXTURES = {
     "gui_pattern_dump": {"exit": 0, "bmp": ("pt-screen0.bmp", 48, 48, None)},
     "gui_colorkey_dump": {"exit": 0},

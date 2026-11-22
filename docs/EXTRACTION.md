@@ -2,7 +2,7 @@
 
 ## 상태
 
-`tools/prepare_game.py`는 원본 실행 파일을 실행하지 않고 PE32 말미의 DPMX
+`scripts/prepare_game.py`는 원본 실행 파일을 실행하지 않고 PE32 말미의 DPMX
 패키지를 검증·추출한다. 원본 폴더를 수정하지 않으며 추출 디렉터리가 이미
 있으면 모든 산출물이 동일한 경우에만 재사용한다. 다른 파일이 있거나 내용이
 변경되었으면 덮어쓰지 않고 실패한다.
@@ -16,7 +16,7 @@
 저장소 루트에서 Python 3.10 이상으로 실행한다. 외부 Python 패키지는 필요 없다.
 
 ```sh
-python3 tools/prepare_game.py --game-dir elonaplus2.335 --output work/extracted/2.335
+python3 scripts/prepare_game.py --game-dir elonaplus2.335 --output work/extracted/2.335
 python3 -m unittest discover -s tests -p 'test_extract.py' -v
 ```
 

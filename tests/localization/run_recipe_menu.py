@@ -12,7 +12,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / 'tools'))
+sys.path.insert(0, str(ROOT / 'scripts'))
 from inspect_save_state import payload
 from play_game import MANAGED_AX
 
@@ -122,7 +122,7 @@ def main():
     ap.add_argument('--host', type=Path, default=ROOT / 'build/native-macos-arm64-legacy-cp932-release/elona_gui_host')
     ap.add_argument('--ax', type=Path, default=ROOT / MANAGED_AX)
     ap.add_argument('--compiler', type=Path, default=ROOT / 'build/native-macos-arm64-legacy-cp932-release/elona_hspcmp')
-    ap.add_argument('--catalog', type=Path, default=ROOT / 'localization/ko-KR/runtime.tsv')
+    ap.add_argument('--catalog', type=Path, default=ROOT / 'src/localization/ko-KR/runtime.tsv')
     ap.add_argument('--work', type=Path, default=ROOT / 'work/ko-recipe')
     args = ap.parse_args()
     args.work.mkdir(parents=True, exist_ok=True)

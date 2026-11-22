@@ -15,7 +15,7 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / "tools"))
+sys.path.insert(0, str(ROOT / "scripts"))
 from inspect_save_state import compare, inspect, manifest
 
 
@@ -121,7 +121,7 @@ def main():
                 source = runs / env["REUSE_USER_FROM"] / "user"
                 before = manifest(source)
             script_path = ROOT / "tests/game" / script
-            cmd = [str(ROOT / "tools/run_game_trace.sh"), run_name,
+            cmd = [str(ROOT / "scripts/run_game_trace.sh"), run_name,
                    "--deterministic", "--headless", "--max-waits", str(waits),
                    "--timeout-ms", "60000", "--script", str(script_path)]
             print(f"Running {run_name}", flush=True)

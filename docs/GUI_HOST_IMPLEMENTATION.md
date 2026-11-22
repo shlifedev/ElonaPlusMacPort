@@ -1,15 +1,15 @@
 # 네이티브 GUI 호스트 구현 보고 (Claude 작업분)
 
-작성: 2026-11-18. 소유 범위: `CMakeLists.txt`/`CMakePresets.json`(통합 부분), `cmake/ElonaGraphics.cmake`,
+작성: 2026-11-18. 소유 범위: `CMakeLists.txt`/`CMakePresets.json`(통합 부분), `src/cmake/ElonaGraphics.cmake`,
 `src/graphics/*`, `src/app/*`, `src/platform/window*`·`keymap_vk*`·`audio_*`, `tests/graphics/*`, `tests/game/*`,
-`tools/run_game_trace.sh`. 다른 작업자 소유(`src/plugins/*`, `src/platform/encoding*`·`game_files*`)는 호출만 한다.
+`scripts/run_game_trace.sh`. 다른 작업자 소유(`src/plugins/*`, `src/platform/encoding*`·`game_files*`)는 호출만 한다.
 
 **이 보고는 "게임 전체 이식 완료"가 아니다.** 아래 표의 "실측"은 실제로 실행한 결과이고, 그 외는 정적 분석·근사다.
 
 ## 최신 통합 후속 (root)
 
 - 최신 Mac Release CTest7/7(의미24개 + IME), Windows GUI `gui-native-03`의 headless/창11개씩·원본 신규게임/저장/로드·실제 타이틀 캡처 통과.
-- Mac 실시간 시계/오디오와 스크립트 입력을 결합한 `root-realtime-load-01`에서 불러오기→인벤토리→저장종료 exit0. 음악 장치 출력 position913408 frames 확인. 일반 사용자 플레이는 `Play ElonaPlus.command`.
+- Mac 실시간 시계/오디오와 스크립트 입력을 결합한 `root-realtime-load-01`에서 불러오기→인벤토리→저장종료 exit0. 음악 장치 출력 position913408 frames 확인. 일반 사용자 플레이는 `scripts/Play ElonaPlus.command`.
 - 음악·IME·양 플랫폼 저장 데이터의 후속 근거는 [AUDIO_IMPLEMENTATION.md](AUDIO_IMPLEMENTATION.md), [IME_IMPLEMENTATION.md](IME_IMPLEMENTATION.md), [SAVE_COMPATIBILITY.md](SAVE_COMPATIBILITY.md), [WINDOWS_GUI.md](WINDOWS_GUI.md)에 있다.
 - 아래 최초 Claude 체크포인트의 5/5·20개는 당시 검사 수이며 최신 검사 수와 구분한다.
 
@@ -37,10 +37,10 @@ B=$PWD/build/native-macos-arm64-legacy-cp932-release
 python3 tests/graphics/run_gui_fixtures.py --compiler $B/elona_hspcmp --host $B/elona_gui_host \
   --common $PWD/.cache/upstream/OpenHSP/common --work $B/gui-fixtures-window \
   --windows-reference $PWD/work/windows/reference-build/gui-fixtures-02/cases     # --headless 가능
-# 원본 게임(정규화 AX 필요: tools/normalize_legacy_ax.py → work/normalized/2.335/start.ax)
-ELONA_BUILD=$B tools/run_game_trace.sh run27 --deterministic --headless --max-waits 5000 \
+# 원본 게임(정규화 AX 필요: scripts/normalize_legacy_ax.py → work/normalized/2.335/start.ax)
+ELONA_BUILD=$B scripts/run_game_trace.sh run27 --deterministic --headless --max-waits 5000 \
   --script tests/game/newgame_english.script
-REUSE_USER_FROM=run27 ELONA_BUILD=$B tools/run_game_trace.sh run28 --deterministic --headless \
+REUSE_USER_FROM=run27 ELONA_BUILD=$B scripts/run_game_trace.sh run28 --deterministic --headless \
   --max-waits 1100 --script tests/game/load_continue.script
 # 실시간 창(사용자 조작): $B/elona_gui_host --game work/normalized/2.335/start.ax --game-root elonaplus2.335 \
 #   --user-root <비공개 dir> --work-dir <비공개 dir> --packed-dir work/extracted/2.335
@@ -89,4 +89,4 @@ REUSE_USER_FROM=run27 ELONA_BUILD=$B tools/run_game_trace.sh run28 --determinist
 6. Windows: wide argv와 native-path AX 로딩 적용, x64 SDL/TTF 실제 창·신규게임/저장/로드 검증 완료. 장시간 실시간 플레이·실제 IME는 남음.
 7. 진단 위치: 원본 AX에는 디버그 정보가 없어 `line=-1`. DLL은 이름으로, 명령은 명령명으로 식별.
 8. 배포: Homebrew SDL3는 macOS 26+ 대상 빌드라 deployment target 13.0 경고. 배포 전 고정 SDL3 소스 빌드 필요.
-9. THIRD_PARTY_NOTICES와 licenses/: OpenHSP 그래픽 이식, stb_image, SDL/TTF·관련 정적 라이브러리, 음악 의존성 고지 병합 완료. 실제 배포물의 동적 라이브러리/최소 OS 검사는 별도 필요.
+9. `docs/THIRD_PARTY_NOTICES.md`와 `docs/licenses/`에 OpenHSP 그래픽 이식, stb_image, SDL/TTF·관련 정적 라이브러리, 음악 의존성 고지 병합 완료. 실제 배포물의 동적 라이브러리/최소 OS 검사는 별도 필요.

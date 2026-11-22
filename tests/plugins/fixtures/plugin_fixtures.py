@@ -674,7 +674,7 @@ def sftp(batch):
 
 
 def powershell(script, timeout=900):
-    sys.path.insert(0, str(ROOT / "tools"))
+    sys.path.insert(0, str(ROOT / "scripts"))
     from windows_probe import run_powershell
     result = run_powershell(HOST, script, timeout=timeout)
     out = result.stdout.decode("utf-8", "replace") if isinstance(result.stdout, bytes) else result.stdout
@@ -826,7 +826,7 @@ def winbuild(args):
         sys.exit("run must start with plugins-claude-x64-")
     STAGE.mkdir(parents=True, exist_ok=True)
     archive = STAGE / (args.run + ".zip")
-    members = [ROOT / "cmake/ElonaPlugins.cmake", ROOT / ".cache/downloads/zlib-1.3.1.tar.gz"]
+    members = [ROOT / "src/cmake/ElonaPlugins.cmake", ROOT / ".cache/downloads/zlib-1.3.1.tar.gz"]
     for base in (ROOT / "src/plugins", ROOT / "tests/plugins"):
         members += [p for p in sorted(base.rglob("*")) if p.is_file() and "__pycache__" not in p.parts
                     and "fixtures" not in p.relative_to(base).parts[:1]]

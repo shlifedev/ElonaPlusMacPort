@@ -1,8 +1,10 @@
 # ElonaPlus Native — 개발 계획 및 인수인계
 
-## 현재 상태 (2026-11-19)
+## 현재 상태 (2026-11-22)
 
 사용자는 macOS에서 정상 동작할 때까지 진행하고, 게임 진입 후 종료 조사와 한국어 번역을 병행하도록 요청했다. 현재 기준은 2.335이며 Codex 작업과 검수에는 Astra 6.2를 사용한다.
+
+Mac 개발용 실행기 두 개와 도구는 `scripts/`에 있다. 저장소 루트에서 CMake 프리셋을 실행하며, 빌드와 패키징 명령은 [개발 안내](DEVELOPMENT.md)에 있다. 경로 이동 후 Mac Release에서 두 언어 모드의 새 게임과 저장 종료를 확인했다. Windows용 소스 스냅샷은 로컬에서 구성했고 Windows 실기 검증은 남아 있다. [검사 기록](WORK_LOG.md)
 
 ### v13 검토 결함 수정 (2.335 v14, 현재)
 
@@ -12,7 +14,7 @@
 
 v12의 미연결 고정 원문 2,695쌍을 모두 대조했다. 한국어 표시가 연결된 원문은 12,405쌍 중 12,340쌍(99.48%)이고 65쌍이 남았다. 남은 원문에는 언어별 파일명, 장비 모델 문자, 카드 번호 범위, 조합용 관사와 기호, 실행되지 않는 중복 정의가 있다. 원문별 근거는 번역 자원에 기록했다. 동적으로 이름·수량을 붙이는 표현식 후보 4,785개와 이미지에 들어간 글자는 별도 표시 검수 대상이다.
 
-베르니스 조합 화면과 재료 로그, 무신앙 및 8개 제단, NPC 선택지 497곳, 상태 효과 71종, 진화 167모드를 보완했다. 카드 1,165종은 기본 한국어 모드에서 제목과 설명을 모두 읽을 수 있다. 8개 Mac 플레이 경로의 프레임·압축 해제 세이브가 v12와 일치했다. Windows x64의 헤드리스 검사는 42개를 통과했다. 번역 현황을 다시 뽑으려면 `python3 tools/korean_coverage.py --remaining work/localization/2.335/unbound-v13.json`을 실행한다. [재현과 화면](KOREAN_IMPLEMENTATION.md)
+베르니스 조합 화면과 재료 로그, 무신앙 및 8개 제단, NPC 선택지 497곳, 상태 효과 71종, 진화 167모드를 보완했다. 카드 1,165종은 기본 한국어 모드에서 제목과 설명을 모두 읽을 수 있다. 8개 Mac 플레이 경로의 프레임·압축 해제 세이브가 v12와 일치했다. Windows x64의 헤드리스 검사는 42개를 통과했다. 번역 현황을 다시 뽑으려면 `python3 scripts/korean_coverage.py --remaining work/localization/2.335/unbound-v13.json`을 실행한다. [재현과 화면](KOREAN_IMPLEMENTATION.md)
 
 ### 모험 중 한국어 표시 (2.335 v12 기록)
 
@@ -73,7 +75,7 @@ v11 한국어 런처와 로컬 배포 패키지는 `work/localization/managed-al
 
 Claude Opus 5.5 담당자들이 사용량 한도로 멈춘 뒤 root와 후속 Codex 작업자들이 남은 통합을 이어받았다. 실패/부분 완료 보고를 성공으로 바꾸지 않고 추가 실행으로 확인했다.
 
-- **당시 Mac Release 빌드 CTest 7/7**, VM 의미 24개 포함. 근거 `work/root-final-build.log`. `Play ElonaPlus.command` / `tools/play_game.py`는 준비된 Release를 실시간 입력·시간 제한 없이 시작한다. 기본 저장 폴더는 `work/player/2.335/user`, 실행 로그는 `sessions/play-*`다. 같은 프로필을 런처로 중복 실행하는 것을 OS 잠금으로 막는다.
+- **당시 Mac Release 빌드 CTest 7/7**, VM 의미 24개 포함. 근거 `work/root-final-build.log`. `scripts/Play ElonaPlus.command` / `scripts/play_game.py`는 준비된 Release를 실시간 입력·시간 제한 없이 시작한다. 기본 저장 폴더는 `work/player/2.335/user`, 실행 로그는 `sessions/play-*`다. 같은 프로필을 런처로 중복 실행하는 것을 OS 잠금으로 막는다.
 - **Windows 실제 SDL 창 및 게임 경로:** `gui-native-02`와 최신 IME/오디오 수명 수정 후 `gui-native-03` 모두 fixture 11개×headless/창, 신규게임·저장·로드, 실제 session 1 타이틀 캡처 통과. 각 실행의 예약 작업 삭제·잔여 프로세스0·원본 트리/ZIP 불변 확인. Unicode 패치도 공유 소스에 적용돼 있다. [WINDOWS_GUI.md](WINDOWS_GUI.md).
 - **음악:** MIDI83곡/MP3 1곡 양 OS 오프라인 검사 및 Mac CoreAudio 실제 출력 콜백 검사 통과. 반복·정지·재시작·WAV 동시 재생, Mac/Win 렌더 수치 대조, 고지 병합 완료. `root-realtime-load-01`은 원본 AX를 **실시간 시계/오디오 + 스크립트 입력**으로 불러오기→인벤토리→저장종료(exit0,1158프레임)했고 `music at exit ... position_frames=913408 ... output=device`를 기록했다. 키보드 실사용/장시간 청취 검사로 확대 해석하지 않는다. [AUDIO_IMPLEMENTATION.md](AUDIO_IMPLEMENTATION.md).
 - **IME:** 조합·확정·취소·표시, 창별 전달, CP932 한도/삭제, 변환 실패 표시 구현. Mac 합성 SDL 15개 및 HSP headless/숨긴 창 검사 통과. 실제 OS 후보 선택과 원본 ANSI Edit 전체 동등성은 별도 검증 필요. [IME_IMPLEMENTATION.md](IME_IMPLEMENTATION.md).
@@ -92,7 +94,7 @@ Claude Opus 5.5 담당자들이 사용량 한도로 멈춘 뒤 root와 후속 Co
 ### 캐릭터 생성·첫 맵 진입 체크포인트
 
 - GUI 담당의 Release `run26`은 원본 AX를 영어 선택 → 타이틀 → 캐릭터 설정/특성/외형 → 이름 `Ari` → packed `scene1.hsp` 오프닝 → 로미아스 대화 → `Your Home` 맵/HUD/미니맵/로그까지 실행했다. root가 맵 캡처(`work/reports/mac-original-home-run26.png`)와 report, arm64 실행물, 원본 ZIP/EXE 해시 전후 일치를 확인했다.
-- 재현: `ELONA_BUILD=build/native-macos-arm64-legacy-cp932-release tools/run_game_trace.sh run26-new --deterministic --headless --max-waits 4300 --script tests/game/newgame_english.script`. 기존 run26은 덮어쓰지 않는다. 이 체크포인트 report는 frames=4301, exit124/max-waits이며 first_unsupported/hsp_error는 비어 있다.
+- 재현: `ELONA_BUILD=build/native-macos-arm64-legacy-cp932-release scripts/run_game_trace.sh run26-new --deterministic --headless --max-waits 4300 --script tests/game/newgame_english.script`. 기존 run26은 덮어쓰지 않는다. 이 체크포인트 report는 frames=4301, exit124/max-waits이며 first_unsupported/hsp_error는 비어 있다.
 - 이 결과는 자동 입력 기반이며 실제 키보드·IME의 전체 입력 검증이 아니다. 음악 구현은 별도 작업 중이고 현재 run26의 MIDI는 무음이다. 다음 필수 검증은 이동·인벤토리·저장 후 프로세스 재시작·같은 사용자 폴더에서 로드된 상태 비교다.
 - Windows Unicode 수정안 `work/orchestration/windows-unicode-host.patch`는 독립 Windows snapshot에서 비ASCII/ASCII 10개, Mac에서 5개 파일 회귀를 통과했다. root가 코드 검토와 현재 소스의 `git apply --check`를 통과시켰다. 공유 GUI 파일의 동시 편집을 피하려고 GUI 담당자에게 적용을 맡겼으며 **공유 소스 적용 완료는 아직 확인하지 않았다**. VM 코어 수정 없이 native path로 AX 바이트를 읽어 `dpm_memfile`/`MEM:start.ax`로 전달한다. 이 snapshot은 note CRLF 수정 이전이었다.
 - 플랫폼 담당 후속은 Windows SDL3/SDL3_ttf와 글꼴을 private 의존성으로 준비해 실제 native 창을 검증하는 것이다. 전역 설치·사용자 창 조작·기존 원본 수정은 하지 않는다.
@@ -107,7 +109,7 @@ Claude Opus 5.5 담당자들이 사용량 한도로 멈춘 뒤 root와 후속 Co
 
 ### 플러그인 완료·파일 통합·note 수정 후속
 
-- 플러그인 담당 완료 보고: Mac ARM64/Windows x64에서 188,307개 검사 통과. 원본 DLL 비교(run `plugins-claude-07`)의 실제 로드 경로·SHA-256 관측 8개를 root가 확인했다. SDK hspda 혼입 문제의 현재 기준은 `07`이다. 계약·범위·비ASCII 정렬 등 남은 제한은 [PLUGIN_IMPLEMENTATION.md](PLUGIN_IMPLEMENTATION.md)에 있다. zlib 원문 고지는 루트 문서와 `licenses/zlib.txt`에 병합했다.
+- 플러그인 담당 완료 보고: Mac ARM64/Windows x64에서 188,307개 검사 통과. 원본 DLL 비교(run `plugins-claude-07`)의 실제 로드 경로·SHA-256 관측 8개를 root가 확인했다. SDK hspda 혼입 문제의 현재 기준은 `07`이다. 계약·범위·비ASCII 정렬 등 남은 제한은 [PLUGIN_IMPLEMENTATION.md](PLUGIN_IMPLEMENTATION.md)에 있다. zlib 원문 고지는 제3자 고지와 `docs/licenses/zlib.txt`에 병합했다.
 - HMM 원본 비교에서 `DSRELEASE`는 초기화 여부와 무관하게 stat 1, `DSEND`/`DMEND`도 stat 1이다. DirectX INIT 실패 시 cfg_music/cfg_sound=2는 **기본 mm* 오디오 경로로 전환**을 뜻한다. 기존 GUI의 반환값 및 “오디오 끔” 주석 정정을 요청했다. 음악 담당 후속은 portable MIDI/MP3 렌더러 구현이다.
 - 통합 파일 회귀에서 Mac 비ASCII game/user/work/AX 경로, 기본 파일 복사, COW/int32/CP932/tombstone/picload와 bmpsave/zOpen 스트림 쓰기가 통과했다. Windows full headless 호스트는 빌드·ASCII 파일 회귀 통과, 비ASCII 시작 경로와 폰트 없는 구성은 실패가 명시됐다. DPM 옵션은 그 관측 후 GUI에 추가됐으므로 현재 옵션을 사용한 재검증 대상으로 남겼다.
 - 플랫폼 담당자는 독립 소스 스냅샷에서 Windows Unicode 인수/AX 읽기 최소 수정안을 작성·검증하고 root에게 패치로 제출한다. 공유 GUI/core 소스를 동시에 편집하지 않는다.

@@ -33,10 +33,10 @@ OpenHSP의 실제 컴파일러와 VM 코어를 CMake로 빌드하여 macOS ARM64
 
 ## 재현
 
-입력 OpenHSP: `https://github.com/onitama/OpenHSP.git` @ `3dbb8729dad53ee876fc681696c8fe542698860b`. 원본 라이선스는 `.cache/upstream/OpenHSP/LICENSE`에 보존된다. 프로젝트가 관리하는 패치는 `patches/openhsp/`에 있다.
+입력 OpenHSP: `https://github.com/onitama/OpenHSP.git` @ `3dbb8729dad53ee876fc681696c8fe542698860b`. 원본 라이선스는 `.cache/upstream/OpenHSP/LICENSE`에 보존된다. 프로젝트가 관리하는 패치는 `scripts/patches/openhsp/`에 있다.
 
 ```sh
-python3 tools/bootstrap_openhsp.py
+python3 scripts/bootstrap_openhsp.py
 cmake --preset macos-arm64-debug
 cmake --build --preset macos-arm64-debug -j 6
 ctest --preset macos-arm64-debug
@@ -52,12 +52,12 @@ Windows는 Visual Studio x64 개발 환경(`vcvars64.bat`)에서 대응하는 `w
 
 최종 Windows 20-fixture 검증 스냅샷은 `19bb9c16737af38d`이며 `work/windows/native-semantics-results.json`이 실행물 해시와 개별 결과를 기록한다. Windows의 Python 실행 환경 대신 PowerShell에서 Mac 생성 AX를 실행하고 원시 stdout bytes를 비교했다. 빈 테스트 목록·중복 case·스냅샷 무결성을 검사하며, 거부 fixture도 stdout이 비어 있는지 확인한다.
 
-공식 3.4에서 실제 실행한 AX를 그대로 사용하는 비교는 소스 재컴파일 검증과 별도다. `tools/normalize_legacy_ax.py`가 16-byte 추가 헤더와 section offset만 조정하고 코드·데이터 payload를 유지한다. `tools/compare_reference_native.py`는 플러그인 fixture를 제외한 15개를 실행하고 실제 x86 stdout과 비교했다. 결과는 `work/reference-native/fixtures-01/results.json`에 있다.
+공식 3.4에서 실제 실행한 AX를 그대로 사용하는 비교는 소스 재컴파일 검증과 별도다. `scripts/normalize_legacy_ax.py`가 16-byte 추가 헤더와 section offset만 조정하고 코드·데이터 payload를 유지한다. `scripts/compare_reference_native.py`는 플러그인 fixture를 제외한 15개를 실행하고 실제 x86 stdout과 비교했다. 결과는 `work/reference-native/fixtures-01/results.json`에 있다.
 
 같은 normalized AX의 Windows x64 실행 비교도 스냅샷 `9f395dc06e965b17`에서 15개 통과했다. 결과는 `work/windows/reference-native-results.json`에 있다. GUI 확장 관문과 재사용 범위는 [GUI_FEASIBILITY.md](GUI_FEASIBILITY.md)를 참조한다.
 
 ```sh
-python3 tools/compare_reference_native.py \
+python3 scripts/compare_reference_native.py \
   --reference work/windows/reference-build/fixtures-01 \
   --runtime build/native-macos-arm64-legacy-cp932-debug/elona_hsp_probe \
   --output work/reference-native/fixtures-01

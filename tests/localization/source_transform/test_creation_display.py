@@ -7,14 +7,14 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[3]
 SOURCE = ROOT / 'work/decompiled/2.335-reference/start.hsp'
-sys.path.insert(0, str(ROOT / 'tools'))
+sys.path.insert(0, str(ROOT / 'scripts'))
 from korean_creation_hooks import authored_creation_inserts
 from korean_menu_hooks import menu_inserts
 
 
 class ProfileLayoutTests(unittest.TestCase):
     def test_history_fits_before_combat_column(self):
-        path = ROOT / 'localization/ko-KR/original-creation-prompts.json'
+        path = ROOT / 'src/localization/ko-KR/original-creation-prompts.json'
         histories = [row for row in json.loads(path.read_text(encoding='utf-8'))
                      if row.get('id', '').startswith('creation.prompt.29')
                      and 296390 <= int(row['id'].split('.')[2]) <= 297080]
@@ -30,7 +30,7 @@ class ProfileLayoutTests(unittest.TestCase):
 @unittest.skipUnless(SOURCE.is_file(), 'requires the local ElonaPlus 2.335 source')
 class CreationDisplayTests(unittest.TestCase):
     def test_all_mode_and_ambiguous_history_draws_have_reviewed_keys(self):
-        data = ROOT / 'localization/ko-KR'
+        data = ROOT / 'src/localization/ko-KR'
         catalog = {}
         for name in ('original-creation-prompts.json', 'original-ui.json'):
             for row in json.loads((data / name).read_text(encoding='utf-8')):

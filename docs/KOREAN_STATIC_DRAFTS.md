@@ -4,7 +4,7 @@
 
 ## 입력과 생성
 
-`tools/extract_localization.py`가 만든 12,405개 고유 쌍에서 조사했다. 원본 스크립트 SHA-256은 `c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55`다. `draft-static.tsv`의 첫 필드는 일본어, NUL, 영어를 이어 붙인 UTF-8 바이트의 SHA-256 앞 20자리다. 둘째 필드는 한국어다. `draft-static-edits.tsv`에는 문맥을 대조해 직접 작성하거나 고친 항목을 같은 형식으로 기록했다. 별도 검수자가 대조한 장문 73쌍을 담은 `draft-linguistic-edits.tsv`를 마지막으로 적용한다. 두 교정 파일 모두 정적 ID와 원문의 숫자를 확인한다.
+`scripts/extract_localization.py`가 만든 12,405개 고유 쌍에서 조사했다. 원본 스크립트 SHA-256은 `c3b02e2d2d3b1e5ffb659c8412b017a20a20e9b25e88b2f1a7cedfe986069f55`다. `draft-static.tsv`의 첫 필드는 일본어, NUL, 영어를 이어 붙인 UTF-8 바이트의 SHA-256 앞 20자리다. 둘째 필드는 한국어다. `draft-static-edits.tsv`에는 문맥을 대조해 직접 작성하거나 고친 항목을 같은 형식으로 기록했다. 별도 검수자가 대조한 장문 73쌍을 담은 `draft-linguistic-edits.tsv`를 마지막으로 적용한다. 두 교정 파일 모두 정적 ID와 원문의 숫자를 확인한다.
 
 개발 Mac의 MLX에서 Google TranslateGemma 12B를 4비트로 실행했다. 게임 텍스트는 로컬에서만 처리했다. Japanese→Korean 템플릿, greedy decoding, 행별 토큰 상한을 사용했다. 앞서 시험한 M2M100 418M은 개구리를 거북이로, 금화를 달러로 옮긴 사례가 있어 채택하지 않았다. [TranslateGemma 모델 카드](https://huggingface.co/google/translategemma-12b-it) · [MLX 변환본](https://huggingface.co/mlx-community/translategemma-12b-it-4bit)
 
@@ -21,13 +21,13 @@ uv venv --python 3.12 .cache/ko-model/venv
 uv pip install --python .cache/ko-model/venv/bin/python mlx==0.32.4 mlx-lm==0.32.2 transformers==5.23.0 torch==2.15.0
 .cache/ko-model/venv/bin/hf download mlx-community/translategemma-12b-it-4bit --revision f3dcfd54df14672fbcf0731086fb47a797a943ae --local-dir .cache/ko-model/translategemma
 .cache/ko-model/venv/bin/hf download sentence-transformers/LaBSE --revision 836121a0533e5664b21c7aacc5d22951f2b8b25b --include config.json tokenizer.json tokenizer_config.json model.safetensors '2_Dense/*.safetensors' --local-dir .cache/ko-model/labse
-python3 tools/extract_localization.py
-.cache/ko-model/venv/bin/python tools/generate_korean_drafts.py
-.cache/ko-model/venv/bin/python tools/score_korean_drafts.py
-.cache/ko-model/venv/bin/python tools/score_korean_drafts.py --english
-python3 tools/generate_korean_drafts.py --export-only
-python3 tools/build_draft_display.py --reviewed-output localization/ko-KR/reviewed-display.tsv
-python3 tools/korean_coverage.py
+python3 scripts/extract_localization.py
+.cache/ko-model/venv/bin/python scripts/generate_korean_drafts.py
+.cache/ko-model/venv/bin/python scripts/score_korean_drafts.py
+.cache/ko-model/venv/bin/python scripts/score_korean_drafts.py --english
+python3 scripts/generate_korean_drafts.py --export-only
+python3 scripts/build_draft_display.py --reviewed-output src/localization/ko-KR/reviewed-display.tsv
+python3 scripts/korean_coverage.py
 ```
 
 | 가중치 | SHA-256 |

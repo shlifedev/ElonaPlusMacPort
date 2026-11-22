@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "game_version": "2.335",
+  "release_tag": "game-data-2.335",
+  "note": "Prebuilt game code bundled into packages (no graphics, sound or maps). Built locally from the user's own ElonaPlus 2.335; see docs/DEVELOPMENT.md. Keep in sync with src/launcher/src/main.rs and scripts/play_game.py.",
+  "original_exe_sha256": "7d372ac439788de5288cacf200d46d4352d036aa74ae5715f654aaeab56a1e4e",
+  "files": [
+    {"name": "start.ax", "source": "work/normalized/2.335/start.ax",
+     "sha256": "5c941a6728066a439f4397e21431b3b3fb579d49e397eb7425665d88ddddf4bc"},
+    {"name": "start-ko.ax", "source": "work/localization/managed-korean-static-v14/start.ax",
+     "sha256": "901016803ac32957fb2764c2612682d4c4a32c811f5a5d06d4c7bd52bde831ce"},
+    {"name": "scene1.hsp", "source": "work/extracted/2.335/scene1.hsp",
+     "sha256": "94cdd2828a23afc703f73d05c9897ef53cceb8eaad9b95e2f8c73a18880c7f6d"},
+    {"name": "scene2.hsp", "source": "work/extracted/2.335/scene2.hsp",
+     "sha256": "685f1c3360830922304a9deff60a998a194f3611c3d435242d90431ad6d1b792"}
+  ]
+}

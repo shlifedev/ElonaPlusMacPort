@@ -4,10 +4,10 @@
 
 현재 산출물:
 
-- [용어집](../localization/ko-KR/glossary.tsv): 일본어·영어·한국어, 구판 표기, 문맥, 원문 행, 선택 이유를 갖춘 **235개 용어**.
-- [기존 번역 검수 데이터](../localization/ko-KR/community-reviewed.json): 위키 번역의 현행 리터럴 일치 **111개**를 검토. DB 화자 충돌까지 반영한 현재 상태는 **105개 reviewed**, **6개 context_required**다. 실제 static `lang` 호출에서 일본어가 한 가지로 대응하는 **76개**에는 `source_ja`도 기록. `source_ja` 기록과 전역 적용 허용은 별개다.
-- [스타일 가이드](../localization/ko-KR/style-guide.md): 세계관·화자·게임 기능의 번역 원칙, 용어 구별, 표시 계층 경계.
-- [출처 명세](../localization/ko-KR/source-manifest.json): URL, 권리 근거와 한계, 파일 해시, 코퍼스 수량, 적용 결정.
+- [용어집](../src/localization/ko-KR/glossary.tsv): 일본어·영어·한국어, 구판 표기, 문맥, 원문 행, 선택 이유를 갖춘 **235개 용어**.
+- [기존 번역 검수 데이터](../src/localization/ko-KR/community-reviewed.json): 위키 번역의 현행 리터럴 일치 **111개**를 검토. DB 화자 충돌까지 반영한 현재 상태는 **105개 reviewed**, **6개 context_required**다. 실제 static `lang` 호출에서 일본어가 한 가지로 대응하는 **76개**에는 `source_ja`도 기록. `source_ja` 기록과 전역 적용 허용은 별개다.
+- [스타일 가이드](../src/localization/ko-KR/style-guide.md): 세계관·화자·게임 기능의 번역 원칙, 용어 구별, 표시 계층 경계.
+- [출처 명세](../src/localization/ko-KR/source-manifest.json): URL, 권리 근거와 한계, 파일 해시, 코퍼스 수량, 적용 결정.
 
 이 수치는 **화면 번역률이나 전체 게임 번역 완료율이 아니다**. 조립된 문장, 원문 외부 파일, 장문의 대사, 화면 폭 검수는 별도로 남아 있다.
 

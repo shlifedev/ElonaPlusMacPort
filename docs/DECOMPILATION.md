@@ -34,10 +34,10 @@ raw HSP 소스 출력을 얻었다. 두 번의 독립 decode 출력은 바이트
 저장소 루트에서 Python 3.10+, Git, 기존 Rust/Cargo 도구체인을 사용한다.
 
 ```sh
-python3 tools/prepare_game.py --game-dir elonaplus2.335 --output work/extracted/2.335
-python3 tools/bootstrap_borscht.py
-python3 tools/decompile_game.py
-python3 tools/decompile_game.py --verify-repeat
+python3 scripts/prepare_game.py --game-dir elonaplus2.335 --output work/extracted/2.335
+python3 scripts/bootstrap_borscht.py
+python3 scripts/decompile_game.py
+python3 scripts/decompile_game.py --verify-repeat
 python3 -m unittest discover -s tests -p test_decompile.py -v
 ```
 

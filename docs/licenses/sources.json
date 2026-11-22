@@ -1,0 +1,88 @@
+{
+  "note": "Attribution inputs added for native graphics/audio; prior licenses remain recorded in THIRD_PARTY_NOTICES.md. SDL_ttf dependency commits come from the release-3.2.2 source tree; binary reproducibility is not asserted.",
+  "sdl_ttf_source_tree": "a1ce3670aec736ecbf0936c43f2f0cc53aa61e5b",
+  "file_path_base": "Parent of the licenses directory containing this manifest.",
+  "files": [
+    {
+      "file": "licenses/TinySoundFont.txt",
+      "sha256": "ef10cb839de73fb6d5d32ea7151979e87809a6df70dc7e7ee8457ae1c9e7aa7e",
+      "source": ".cache/audio/TinySoundFont/LICENSE"
+    },
+    {
+      "file": "licenses/GeneralUser-GS.txt",
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be",
+      "source": ".cache/audio/GeneralUser-GS/LICENSE.txt"
+    },
+    {
+      "file": "licenses/dr_mp3.txt",
+      "sha256": "afc552192c7dc7346483573ef0d11d835486158cde68608690599ebbc3f7509f",
+      "source": ".cache/audio/dr_libs/dr_mp3.h",
+      "note": "Unchanged license blocks extracted from pinned header, including minimp3 CC0 notice"
+    },
+    {
+      "file": "licenses/stb_image.txt",
+      "sha256": "00040ac2d982a9a643b007d01effadc66f97aae28b60fee5d8bec3230f726608",
+      "source": ".cache/upstream/OpenHSP/src/hsp3/win32gui/stb_image.h",
+      "note": "Unchanged license block from OpenHSP pinned stb_image v2.23"
+    },
+    {
+      "file": "licenses/SDL3.txt",
+      "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+      "source": "SDL3-devel-3.4.20-VC.zip/SDL3-3.4.20/LICENSE.txt"
+    },
+    {
+      "file": "licenses/SDL3_ttf.txt",
+      "sha256": "7826eca0a0f7e591f38dd844e207a200aac81a59b20d8a30c3af8c6282af13e6",
+      "source": "SDL3_ttf-devel-3.2.2-VC.zip/SDL3_ttf-3.2.2/LICENSE.txt"
+    },
+    {
+      "file": "licenses/FreeType-FTL.txt",
+      "sha256": "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1",
+      "source": "https://raw.githubusercontent.com/libsdl-org/freetype/9973564cfa63763a3e4ac67c09147899539b1e07/docs/FTL.TXT",
+      "component_commit": "9973564cfa63763a3e4ac67c09147899539b1e07",
+      "dependency_of": "SDL3_ttf 3.2.2 VC package source"
+    },
+    {
+      "file": "licenses/FreeType-LICENSE.txt",
+      "sha256": "2e3bbb7d7c5c396368dd0853a790ec29ce5b8647163dde42a0493fb0d6556b2b",
+      "source": "https://raw.githubusercontent.com/libsdl-org/freetype/9973564cfa63763a3e4ac67c09147899539b1e07/LICENSE.TXT",
+      "component_commit": "9973564cfa63763a3e4ac67c09147899539b1e07",
+      "dependency_of": "SDL3_ttf 3.2.2 VC package source"
+    },
+    {
+      "file": "licenses/FreeType-BDF.txt",
+      "sha256": "7984455e7e5a9faba3797c8bf095fbe10cc846316b7320aff8c58402e22b82fe",
+      "source": "https://raw.githubusercontent.com/libsdl-org/freetype/9973564cfa63763a3e4ac67c09147899539b1e07/src/bdf/README",
+      "component_commit": "9973564cfa63763a3e4ac67c09147899539b1e07",
+      "dependency_of": "SDL3_ttf 3.2.2 VC package source"
+    },
+    {
+      "file": "licenses/FreeType-PCF.txt",
+      "sha256": "18d9782898d9eac04476e2f744678137b2a889689ed3e923e052fc396a86f86b",
+      "source": "https://raw.githubusercontent.com/libsdl-org/freetype/9973564cfa63763a3e4ac67c09147899539b1e07/src/pcf/README",
+      "component_commit": "9973564cfa63763a3e4ac67c09147899539b1e07",
+      "dependency_of": "SDL3_ttf 3.2.2 VC package source"
+    },
+    {
+      "file": "licenses/HarfBuzz.txt",
+      "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64",
+      "source": "https://raw.githubusercontent.com/libsdl-org/harfbuzz/564bf9818a18709776856533829c0c04950773d6/COPYING",
+      "component_commit": "564bf9818a18709776856533829c0c04950773d6",
+      "dependency_of": "SDL3_ttf 3.2.2 VC package source"
+    },
+    {
+      "file": "licenses/PlutoSVG.txt",
+      "sha256": "e008ab9f8b36ec517cc47be20e776e68d69f5ba75f8f774d506ae4696d0e50c4",
+      "source": "https://raw.githubusercontent.com/libsdl-org/plutosvg/2983eb6919feea272d793bc386384e3f5b97b03c/LICENSE",
+      "component_commit": "2983eb6919feea272d793bc386384e3f5b97b03c",
+      "dependency_of": "SDL3_ttf 3.2.2 VC package source"
+    },
+    {
+      "file": "licenses/PlutoVG.txt",
+      "sha256": "308647f12c8111159e299a0aa50161c8b4309c59e58accd52a5f3a0c53702c05",
+      "source": "https://raw.githubusercontent.com/libsdl-org/plutovg/3e6f922f453da1c9e7d1d7f66cac1d9724a18b47/LICENSE",
+      "component_commit": "3e6f922f453da1c9e7d1d7f66cac1d9724a18b47",
+      "dependency_of": "SDL3_ttf 3.2.2 VC package source"
+    }
+  ]
+}

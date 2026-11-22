@@ -1797,7 +1797,7 @@ int cmdfunc_extcmd(int cmd) {
     }
 }
 
-// Type 48 is reserved by tools/prepare_korean_game.py for managed display
+// Type 48 is reserved by scripts/prepare_korean_game.py for managed display
 // boundaries. Original 2.335 bytecode does not contain this extension.
 int cmdfunc_localization(int cmd) {
     code_next();
@@ -2102,7 +2102,7 @@ std::string validate_ax(const std::filesystem::path& file, bool fixture) {
     if (!read_bytes(file, d)) return "cannot read AX";
     if (d.size() < sizeof(HSPHED) || std::memcmp(d.data(), "HSP3", 4) != 0) return "not an HSP3 object";
     if (le32(d, 12) != d.size()) return "AX size mismatch";
-    if (le32(d, 16) < sizeof(HSPHED)) return "legacy 96-byte AX header: normalise with tools/normalize_legacy_ax.py first";
+    if (le32(d, 16) < sizeof(HSPHED)) return "legacy 96-byte AX header: normalise with scripts/normalize_legacy_ax.py first";
     for (std::size_t o = 16; o < 80; o += 8) {
         auto begin = le32(d, o), size = le32(d, o + 4);
         if (begin > d.size() || size > d.size() - begin) return "AX section exceeds file bounds";
@@ -2343,7 +2343,7 @@ int run_host(const HostOptions& options) {
         cfg.user_root = options.user_root;
         if (!options.packed_dir.empty()) {
             // Members of the EXE's DPM archive (scene1.hsp, scene2.hsp), extracted
-            // by tools/elona_extract.py; the game reads them by bare name.
+            // by scripts/elona_extract.py; the game reads them by bare name.
             for (const char* name : {"scene1.hsp", "scene2.hsp"}) {
                 std::vector<std::uint8_t> bytes;
                 if (!read_bytes(options.packed_dir / name, bytes)) {

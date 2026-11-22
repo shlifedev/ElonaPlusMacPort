@@ -2,7 +2,7 @@
 //
 // Expected values come from three sources and are labelled as such:
 //   [x86]    observed from the original DLL in the official HSP 3.4 x86 runtime
-//            (tests/plugins/reference/*, recorded by tools/reference plugin fixtures)
+//            (tests/plugins/reference/*, recorded by scripts/reference plugin fixtures)
 //   [static] derived from the shipped DLL instructions / public algorithm
 //   [self]   native round-trip properties
 #include <array>

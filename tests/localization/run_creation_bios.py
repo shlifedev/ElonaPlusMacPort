@@ -15,7 +15,7 @@ args.work.mkdir(exist_ok=True, parents=True)
 work = Path(tempfile.mkdtemp(prefix='creation-', dir=args.work)).resolve()
 for folder in ('game','user/user'):
     (work/folder).mkdir(parents=True)
-entries = json.loads((root/'localization/ko-KR/original-creation-bios.json').read_text(encoding='utf-8'))
+entries = json.loads((root/'src/localization/ko-KR/original-creation-bios.json').read_text(encoding='utf-8'))
 if isinstance(entries, dict):
     entries = entries['entries']
 source = ['#regcmd 48', '#cmd native_ko_gmes $00', 'screen 0,450,120', 'redraw 0', 'heights=""']
@@ -28,7 +28,7 @@ subprocess.run([args.compiler.resolve(), '-d','--compath='+str(root/'.cache/upst
                 '-o'+str(work/'bios.ax'),work/'bios.hsp'],check=True,capture_output=True)
 run = subprocess.run([args.host.resolve(),'--game',work/'bios.ax','--game-root',work/'game','--user-root',work/'user',
                       '--work-dir',work,'--headless','--deterministic','--report',work/'report.json','--translation',
-                      root/'localization/ko-KR/runtime.tsv'],capture_output=True)
+                      root/'src/localization/ko-KR/runtime.tsv'],capture_output=True)
 (work/'stderr.log').write_bytes(run.stderr)
 report = json.loads((work/'report.json').read_text())
 heights = [int(s) for s in (work/'user/user/heights.txt').read_text().splitlines()]

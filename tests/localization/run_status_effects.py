@@ -18,7 +18,7 @@ original = args.source.read_bytes().decode('cp932', errors='replace')
 assert 'name(addbuff_prm0) + " " + bufftxt(0, addbuff_prm1) + _s(addbuff_prm0) + bufftxt(1, addbuff_prm1)' in original
 buffs = re.findall(r'bufftxt\(0, (\d+)\) = lang\("([^"]+)", "([^"]+)"\), "([^"]*)"', original)
 assert len(buffs) == 71 and len({row[0] for row in buffs}) == 71
-resource = ROOT / 'localization/ko-KR/original-static-status.json'
+resource = ROOT / 'src/localization/ko-KR/original-static-status.json'
 rows = json.loads(resource.read_text(encoding='utf-8'))['entries']
 targets = {row['source'][5:]: row['target'] for row in rows}
 cases = {}

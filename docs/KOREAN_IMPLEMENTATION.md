@@ -13,11 +13,11 @@
 ```sh
 host=build/native-macos-arm64-legacy-cp932-release/elona_gui_host
 compiler=build/native-macos-arm64-legacy-cp932-release/elona_hspcmp
-ko=localization/ko-KR/runtime.tsv
-python3 tools/prepare_korean_game.py --output work/localization/managed-korean-static-v14 --compile
+ko=src/localization/ko-KR/runtime.tsv
+python3 scripts/prepare_korean_game.py --output work/localization/managed-korean-static-v14 --compile
 python3 tests/localization/run_evolution_names.py --host "$host" --compiler "$compiler" --work work/localization/static-check
 python3 tests/localization/run_log_wrap.py --host "$host" --compiler "$compiler" --catalog "$ko" --work work/localization/static-check
-python3 tests/localization/run_play_audit.py --run ko-static-v14-check --ax work/localization/managed-korean-static-v14/start.ax --catalog "$ko" --fallback localization/ko-KR/draft-display.tsv --reference work/ko-broad/ko-static-v13-package
+python3 tests/localization/run_play_audit.py --run ko-static-v14-check --ax work/localization/managed-korean-static-v14/start.ax --catalog "$ko" --fallback src/localization/ko-KR/draft-display.tsv --reference work/ko-broad/ko-static-v13-package
 ```
 
 v14 DMG(SHA-256 `8e9fb6be211fb56fa11a56580ec9a32638475b0fe1970fefdb7f137f67378816`)에 든 실행 파일로도 위 진화·줄바꿈 검사와 8개 경로를 통과했다. Windows 헤드리스 검사는 검사 기기가 응답하지 않아 실행하지 못했다. [패키지 경로별 결과](../work/ko-broad/ko-static-v14-package/summary.json) · [v14 Mac 설치 이미지](../build/package/korean-2.335-v14/ElonaPlus-0.1.0-macos-arm64.dmg)
@@ -26,7 +26,7 @@ v14 AX를 별도 폴더에서 한 번 더 생성해 같은 SHA-256 `901016803ac3
 
 ## 남은 고정 문구와 모험 화면 (v13)
 
-v12에서 한국어 표시 키가 없었던 일·영 원문 2,695쌍을 모두 대조했다. 새로 2,630쌍을 연결했다. 고정 원문 12,405쌍 중 12,340쌍(99.48%)이 적어도 한 언어에서 한국어 표시에 연결된다. 그중 검수·직접 교정은 8,337쌍, 자동 초벌은 4,003쌍이다. 사전에는 화면별 이름·조합도 들어 있어 표시 키 25,910개와 원문 쌍 개수는 따로 집계한다. 키 충돌은 0건이다. [집계와 입력 지문](../localization/ko-KR/coverage.json)
+v12에서 한국어 표시 키가 없었던 일·영 원문 2,695쌍을 모두 대조했다. 새로 2,630쌍을 연결했다. 고정 원문 12,405쌍 중 12,340쌍(99.48%)이 적어도 한 언어에서 한국어 표시에 연결된다. 그중 검수·직접 교정은 8,337쌍, 자동 초벌은 4,003쌍이다. 사전에는 화면별 이름·조합도 들어 있어 표시 키 25,910개와 원문 쌍 개수는 따로 집계한다. 키 충돌은 0건이다. [집계와 입력 지문](../src/localization/ko-KR/coverage.json)
 
 | 화면 | 바뀐 표시와 검증 |
 |---|---|
@@ -36,22 +36,22 @@ v12에서 한국어 표시 키가 없었던 일·영 원문 2,695쌍을 모두 �
 | 조합 | 조합법·재료·보유량, 선택한 아이템 이름, 성공률·소요 시간, 재료를 넣는 로그와 수량 선택을 번역했다. 영문으로 똑같은 `any bait`가 표시돼도 재료 ID로 낚시 미끼와 나무통을 구분한다. 복제한 베르니스 세이브로 조합 도구를 열어 재료 다섯 개를 선택했다. 수량 창까지 조작 안내를 포함한 17개 화면 영역과 추가 표시 8건을 검사했다. |
 | 신앙 제단 | 무신앙과 여덟 신의 소개·제물·보너스·특수 능력, 귀의·개종·취소 선택지를 옮겼다. 신에 대한 피해 +40%, 주는 물리 피해 +20%, 받는 피해 -10% 등 원래 수치를 유지했다. 원본 제단 메뉴의 일·영 18개 화면에서 본문과 선택지가 겹치지 않았다. |
 
-남은 65쌍에는 언어별 파일명과 모델 문자, 카드 번호 범위와 기호, 이름을 만들 때 붙이는 관사·전치사, 실행되지 않는 중복 카드 분기가 포함된다. 각 ID의 판단 근거를 기록했다. 게임 도중 조합되는 표현식 후보 4,785개, 외부 파일·이미지 속 글자는 위 고정 원문 통계 밖에 있다. [표기 유지 및 문맥 메모](../localization/ko-KR/original-fixed-adventure.json)
+남은 65쌍에는 언어별 파일명과 모델 문자, 카드 번호 범위와 기호, 이름을 만들 때 붙이는 관사·전치사, 실행되지 않는 중복 카드 분기가 포함된다. 각 ID의 판단 근거를 기록했다. 게임 도중 조합되는 표현식 후보 4,785개, 외부 파일·이미지 속 글자는 위 고정 원문 통계 밖에 있다. [표기 유지 및 문맥 메모](../src/localization/ko-KR/original-fixed-adventure.json)
 
 한국어 AX는 원본이 사용한 선택 번호, 이름과 대사를 보존한다. 고정 문구의 짧은 단어는 원래 게임 문구임을 확인한 표시 위치에서 조회하고, 플레이어 이름에는 이 조회를 적용하지 않는다. 양 언어 로그는 원본이 기록한 문자열과 줄 경계에 한국어를 그린다.
 
 ```sh
-python3 tools/prepare_korean_game.py --output work/localization/managed-korean-static-v13 --compile
-python3 tools/compile_localization.py --from-manifest localization/ko-KR/runtime.sources.json --output localization/ko-KR/runtime.tsv
-python3 tools/korean_coverage.py --remaining work/localization/2.335/unbound-v13.json
+python3 scripts/prepare_korean_game.py --output work/localization/managed-korean-static-v13 --compile
+python3 scripts/compile_localization.py --from-manifest src/localization/ko-KR/runtime.sources.json --output src/localization/ko-KR/runtime.tsv
+python3 scripts/korean_coverage.py --remaining work/localization/2.335/unbound-v13.json
 host=build/native-macos-arm64-legacy-cp932-release/elona_gui_host
 compiler=build/native-macos-arm64-legacy-cp932-release/elona_hspcmp
-ko=localization/ko-KR/runtime.tsv
+ko=src/localization/ko-KR/runtime.tsv
 src=work/localization/managed-korean-static-v13
 python3 tests/localization/run_fixed_messages.py --host "$host" --compiler "$compiler" --catalog "$ko" --ax-source "$src/start.hsp" --work work/localization/static-check
 python3 tests/localization/run_card_names.py --host "$host" --compiler "$compiler" --catalog "$ko" --work work/localization/static-check
 python3 tests/localization/run_altar.py --host "$host" --compiler "$compiler" --catalog "$ko" --work work/localization/static-check
-python3 tests/localization/run_play_audit.py --run ko-static-check --ax "$src/start.ax" --catalog "$ko" --fallback localization/ko-KR/draft-display.tsv
+python3 tests/localization/run_play_audit.py --run ko-static-check --ax "$src/start.ax" --catalog "$ko" --fallback src/localization/ko-KR/draft-display.tsv
 python3 tests/localization/run_recipe_menu.py --profile work/ko-broad/ko-static-check/vernis/profile
 ```
 
@@ -70,7 +70,7 @@ Mac의 신규 게임·출발·세계 지도·베르니스·장비·전투·다�
 | 채집·낚시 | 재료 이름과 수량·설명, 조리된 생선 이름과 획득 알림이 조합된 뒤 원문으로 표시됐다. | 게임에서 재료 59종 네 쪽과 ‘금붕어 초밥 (등급 9)’의 소지품 행과 상세 제목을 확인했다. 원본 어종 112종, 조리 가능한 어종 76종 × 9등급을 양 언어로 그린 1,592건에서 누락이 없었다. 실제 낚싯대를 던져 낚기까지의 과정은 이 검사에 포함하지 않았다. |
 | 카드 덱 | 영문 설명이 비어 있는 카드가 있었다. 덱·생명력·마나 등은 숫자와 나눠 그려 단어가 남았다. | 카드 161종의 제목·설명 322개를 원본 창 폭으로 그렸다. 세 장을 넣은 테스트용 덱에서는 커서를 옮길 때 카드별 설명이 바뀌고 장수와 시작 수치가 보존됐다. |
 
-검수 사전은 v11의 15,253키에서 18,132키로 늘었다. 고정 일·영 원문 12,405쌍 중 9,710쌍(78.27%)에 표시 키가 있다. 검수 사전 4,649쌍, 추가 직접 교정 998쌍, 추가 자동 초벌 4,063쌍이다. 미연결 원문은 3,069쌍에서 2,695쌍으로 줄었다. 파일에서 읽는 책·도움말, 동적 표현식 후보 4,785개와 이미지 속 글자는 이 집계 밖에 있다. [원본과 사전 해시·집계](../localization/ko-KR/coverage.json)
+검수 사전은 v11의 15,253키에서 18,132키로 늘었다. 고정 일·영 원문 12,405쌍 중 9,710쌍(78.27%)에 표시 키가 있다. 검수 사전 4,649쌍, 추가 직접 교정 998쌍, 추가 자동 초벌 4,063쌍이다. 미연결 원문은 3,069쌍에서 2,695쌍으로 줄었다. 파일에서 읽는 책·도움말, 동적 표현식 후보 4,785개와 이미지 속 글자는 이 집계 밖에 있다. [원본과 사전 해시·집계](../src/localization/ko-KR/coverage.json)
 
 ### 재현
 
@@ -78,19 +78,19 @@ Mac의 신규 게임·출발·세계 지도·베르니스·장비·전투·다�
 
 ```sh
 cmake --build --preset macos-arm64-legacy-cp932-release
-python3 tools/prepare_korean_game.py --output work/localization/managed-korean-adventure-v12 --compile
-python3 tools/compile_localization.py --from-manifest localization/ko-KR/runtime.sources.json --output localization/ko-KR/runtime.tsv
+python3 scripts/prepare_korean_game.py --output work/localization/managed-korean-adventure-v12 --compile
+python3 scripts/compile_localization.py --from-manifest src/localization/ko-KR/runtime.sources.json --output src/localization/ko-KR/runtime.tsv
 ctest --test-dir build/native-macos-arm64-legacy-cp932-release --output-on-failure
 ax=work/localization/managed-korean-adventure-v12/start.ax
 bin=build/native-macos-arm64-legacy-cp932-release
-ko=localization/ko-KR/runtime.tsv
+ko=src/localization/ko-KR/runtime.tsv
 python3 tests/localization/run_manual.py --ax "$ax"
 for test in run_books run_quest_board run_card_details run_magic_training run_catalog_smoke; do
   python3 "tests/localization/$test.py" --host "$bin/elona_gui_host" --compiler "$bin/elona_hspcmp" --catalog "$ko" --work work/localization/adventure-check
 done
-python3 tests/localization/run_play_audit.py --run adventure-check --ax "$ax" --catalog "$ko" --fallback localization/ko-KR/draft-display.tsv
+python3 tests/localization/run_play_audit.py --run adventure-check --ax "$ax" --catalog "$ko" --fallback src/localization/ko-KR/draft-display.tsv
 python3 tests/localization/run_town_quest.py --profile work/ko-broad/adventure-check/vernis/profile --ax "$ax" --catalog "$ko"
-python3 tools/reference/windows_managed_check.py --run gui-native-ko-adventure-check --managed-ax "$ax" --catalog "$ko" --fallback localization/ko-KR/draft-display.tsv
+python3 scripts/reference/windows_managed_check.py --run gui-native-ko-adventure-check --managed-ax "$ax" --catalog "$ko" --fallback src/localization/ko-KR/draft-display.tsv
 ```
 
 준비 명령은 새 출력 폴더를 사용한다. 기존 v12 입력이 있으면 그대로 검사를 실행할 수 있다. 도움말 검사 `work/localization/guide-v12-final/tmprtzgdcop/summary.json`은 배포 앱 안의 호스트와 AX로 얻었다. 별도 1,000프레임 비교에서 도움말의 단축키 화면과 세 쪽의 목차를 열었다. v11은 영어판과 일본어판 각각에서 미번역 88종을 기록했고, 같은 입력의 v12에서는 0종이었다(연속 영문자 3자 또는 일본어 문자가 있는 미조회 값 기준). 패키지 실제 창은 `work/localization/adventure-v12-release-window/manual-window.png`, 마을 대사는 `work/ko-late-story/norne-final/ocr.txt`, 카드 덱은 `work/card-game-coverage/editor-final/evidence.png`, 조리·채집물은 `work/fishing-expansion/game4/cwd/shots`에 있다.
@@ -109,15 +109,15 @@ python3 tools/reference/windows_managed_check.py --run gui-native-ko-adventure-c
 | Mac 실제 플레이 8경로 | 전사·마법사 생성, 첫 집, 세계 지도, 베르니스, 장비, 전투 및 재시작. 기본판과 검수 전용판 모두 v8 기준과 최종 프레임 및 압축 해제 세이브 154~170파일이 단계마다 같았다. 집 출발 시나리오는 예정된 1,851프레임 대기 상한, 나머지 7개는 정상 종료했다. 영문자 3자 이상인 미번역 조회는 77종·4,599회에서 저장 폴더명 `sav_Ari` 1종·600회로 줄었다. 사용자가 입력한 이름과 단축키는 계속 원래 표기로 나온다. |
 | Windows x64 Release | 일본어 기반 새 게임·불러오기·세계 지도, 원본·무번역·한국어 저장 대조, 폰트와 원본 보존을 포함한 헤드리스 검사 42/42 통과. 이명 화면의 16개 일본어 기반 후보가 모두 한글인 것을 렌더 결과로 확인했다. |
 
-고정 일·영 문장 12,405쌍 중 9,336쌍(75.26%)에 한국어 표시 키가 있다. 검수 사전 4,050쌍, 추가 직접 교정 1,044쌍, 추가 자동 초벌 4,242쌍이다. 남은 3,069쌍, 동적 표현식 후보 4,785개와 외부 대화·책·그림 속 글자는 별도 검수 대상이다. 실게임 누락 건수는 위 입력에서 실제 조회한 값에 한정된다. [집계와 입력 해시](../localization/ko-KR/coverage.json)
+고정 일·영 문장 12,405쌍 중 9,336쌍(75.26%)에 한국어 표시 키가 있다. 검수 사전 4,050쌍, 추가 직접 교정 1,044쌍, 추가 자동 초벌 4,242쌍이다. 남은 3,069쌍, 동적 표현식 후보 4,785개와 외부 대화·책·그림 속 글자는 별도 검수 대상이다. 실게임 누락 건수는 위 입력에서 실제 조회한 값에 한정된다. [집계와 입력 해시](../src/localization/ko-KR/coverage.json)
 
 Mac Release CTest 13/13, 관리 소스·번역 키 검사 17/17, 전체 검수 키 15,253개에 대한 폰트 렌더 검사도 통과했다. 원본 어휘 파일의 SHA-256은 영문 `524efbec365434a311ae8e295f89c717e1c516a9d3aea3c2ff352a8b0e403e75`, 일문 `e1b6fc96ab3dac574c6eeda230261a4564e5b1a119df8103389049f6c9d7c0f7`이다. 이명 번역의 `id`는 이 두 파일의 행·열을 가리킨다.
 
 ```sh
 python3 tests/localization/check_alias_coverage.py --runner build/native-macos-arm64-legacy-cp932-release/elona_alias_tests
 python3 tests/localization/run_alias_selection.py
-python3 tests/localization/run_play_audit.py --run ko-recheck --ax work/localization/managed-alias-v11/start.ax --catalog localization/ko-KR/runtime.tsv --fallback localization/ko-KR/draft-display.tsv --reference work/ko-broad/final-default
-python3 tools/reference/windows_managed_check.py --run gui-native-ko-recheck --catalog localization/ko-KR/runtime.tsv --fallback localization/ko-KR/draft-display.tsv
+python3 tests/localization/run_play_audit.py --run ko-recheck --ax work/localization/managed-alias-v11/start.ax --catalog src/localization/ko-KR/runtime.tsv --fallback src/localization/ko-KR/draft-display.tsv --reference work/ko-broad/final-default
+python3 scripts/reference/windows_managed_check.py --run gui-native-ko-recheck --catalog src/localization/ko-KR/runtime.tsv --fallback src/localization/ko-KR/draft-display.tsv
 ```
 
 이명 회귀 검사는 새 프로필로 생성·재추첨·로드·커서 이동을 실행한다. 두 번 재추첨한 생성 경로는 4,701프레임 대기 상한에서 저장을 회수한다. Mac SDL 창 캡처는 `work/localization/alias-v11-package-final/alias-window.png`, 이명 비교는 `work/ko-alias-selection/tmpg4xs5053/summary.json`, 8경로 비교는 `work/ko-broad/alias-v11-final`과 `work/ko-broad/alias-v11-final-reviewed`, 설정 화면은 `work/localization/alias-v11-settings-final`에 있다. Windows 결과는 `work/windows/reference-build/gui-native-ko-alias-v11-02/verify.json`이다. 새 작업공간에서 8경로를 처음 실행할 때는 위 명령의 `--reference`를 생략할 수 있다.
@@ -174,9 +174,9 @@ python3 tools/reference/windows_managed_check.py --run gui-native-ko-recheck --c
 검수 번역은 추적 파일에 기록한 순서로, 초벌은 2.335 비공개 추출물과 재사용 가능한 키 목록으로 다시 생성한다.
 
 ```sh
-python3 tools/compile_localization.py --from-manifest localization/ko-KR/runtime.sources.json --output localization/ko-KR/runtime.tsv
-python3 tools/build_draft_display.py --reviewed-output localization/ko-KR/reviewed-display.tsv
-python3 tools/korean_coverage.py --output localization/ko-KR/coverage.json
+python3 scripts/compile_localization.py --from-manifest src/localization/ko-KR/runtime.sources.json --output src/localization/ko-KR/runtime.tsv
+python3 scripts/build_draft_display.py --reviewed-output src/localization/ko-KR/reviewed-display.tsv
+python3 scripts/korean_coverage.py --output src/localization/ko-KR/coverage.json
 ```
 
 `reviewed`만 후보로 사용하고 `context_required`/`template_reviewed`는 그대로 넣지 않는다. JP/EN 별칭을 개별로 비활성화할 수 있으며 충돌한 키는 제외한다. 수치·서식·강조 태그 순서도 점검한다. 옛 `ko.txt` 전체 사전은 공개 재사용 조건 미확인이라 런타임에 일괄 가져오지 않았다. [출처 조사](KOREAN_SOURCES.md)를 참조한다.

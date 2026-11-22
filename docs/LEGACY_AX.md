@@ -4,7 +4,7 @@
 
 2.335 원본과 공식 Windows HSP 3.4의 작은 fixture는 96-byte 헤더를 사용한다. 고정한 최신 OpenHSP의 `HSPHED`는 112 bytes다. 구형 파일을 그대로 구조체로 읽으면 코드의 앞 16 bytes를 `pt_sr/max_sr/pt_exopt/max_exopt`로 잘못 해석할 수 있다.
 
-`tools/normalize_legacy_ax.py`는 이미 검사한 구형 레이아웃에만 다음 변환을 수행한다.
+`scripts/normalize_legacy_ax.py`는 이미 검사한 구형 레이아웃에만 다음 변환을 수행한다.
 
 - 96번째 위치에 16개의 0 byte를 삽입해 새 두 옵션 영역을 없는 것으로 명시한다.
 - 전체 파일 크기와 각 파일 절대 section offset을 16씩 늘린다. 미사용 0 offset은 유지한다.
@@ -14,7 +14,7 @@
 `HSPHED.runtime`은 DS 상대 offset이 아닌 파일 절대 offset이다. 이번 입력에서는 0이며 runtime-name 옵션이 있는 다른 레이아웃을 추측해서 처리하지 않는다. 참조 소스는 OpenHSP `src/hsp3/hsp3struct.h`, `hsp3.cpp`, `src/hspcmp/codegen.cpp`다.
 
 ```sh
-python3 tools/normalize_legacy_ax.py work/extracted/2.335/start.ax \
+python3 scripts/normalize_legacy_ax.py work/extracted/2.335/start.ax \
   --output work/normalized/2.335/start.ax > work/normalize-report.json
 python3 -m unittest discover -s tests -p test_normalize_ax.py -v
 ```
@@ -26,11 +26,11 @@ python3 -m unittest discover -s tests -p test_normalize_ax.py -v
 공식 HSP 3.4로 컴파일하고 Windows x86 `hsp3cl.exe`에서 실행한 작은 AX를 가져와 헤더만 변환했다. CP932/기본 난수 호환 옵션을 켠 Mac ARM64와 Windows x64 진단 VM에서 같은 AX를 실행했으며 **15개 모두 stdout·종료 코드가 일치하고 stderr가 없었다**. 비교에서 CRLF만 LF로 정규화했다. exrand DLL fixture는 구현되지 않은 외부 어댑터이므로 제외했다.
 
 ```sh
-python3 tools/compare_reference_native.py \
+python3 scripts/compare_reference_native.py \
   --reference work/windows/reference-build/fixtures-01 \
   --runtime build/native-macos-arm64-legacy-cp932-debug/elona_hsp_probe \
   --output work/reference-native/fixtures-01
-python3 tools/windows_stage.py --legacy-cp932 \
+python3 scripts/windows_stage.py --legacy-cp932 \
   --fixtures-dir work/reference-native/fixtures-01
 ```
 

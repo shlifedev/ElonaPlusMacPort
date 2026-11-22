@@ -15,14 +15,14 @@
 | Python | WindowsApps 별칭 발견; 실제 인터프리터는 검증하지 않음 |
 | Rust | 경로는 존재하지만 실행 시 신뢰되지 않은 mount point 오류. Windows C++ 빌드에는 사용하지 않음 |
 
-`tools/windows_probe.py`는 환경을 읽어 `work/windows/environment.json`에 기록한다. `ssh home/windows` 별칭에는 `/`가 있으므로 파일 전송에 `scp` 대신 SFTP를 사용한다. PowerShell 명령은 UTF-16LE `-EncodedCommand`로 전달한다.
+`scripts/windows_probe.py`는 환경을 읽어 `work/windows/environment.json`에 기록한다. `ssh home/windows` 별칭에는 `/`가 있으므로 파일 전송에 `scp` 대신 SFTP를 사용한다. PowerShell 명령은 UTF-16LE `-EncodedCommand`로 전달한다.
 
 ## 네이티브 빌드와 검증
 
-`tools/windows_stage.py`는 CMake·소스·고정한 OpenHSP·검토한 fixture를 ZIP으로 만들고 전용 경로에 전송한다. ZIP 및 파일별 SHA-256을 검사한 뒤 `tools/windows_build.ps1`로 x64 빌드한다. 기존 스냅샷을 재사용해도 manifest와 파일 해시를 확인한다.
+`scripts/windows_stage.py`는 CMake·소스·고정한 OpenHSP·검토한 fixture를 ZIP으로 만들고 전용 경로에 전송한다. ZIP 및 파일별 SHA-256을 검사한 뒤 `scripts/windows_build.ps1`로 x64 빌드한다. 기존 스냅샷을 재사용해도 manifest와 파일 해시를 확인한다.
 
 ```sh
-python3 tools/windows_stage.py --legacy-cp932
+python3 scripts/windows_stage.py --legacy-cp932
 ```
 
 원격 Python에 의존하지 않고 C++ 문자열 테스트와 Mac에서 검증한 AX fixture를 실행한다. .NET `BaseStream`으로 stdout/stderr 원시 바이트를 수집하며 CRLF만 LF로 정규화한다. 빈 fixture 묶음·중복 이름·입력 해시 불일치는 실패한다.
@@ -37,7 +37,7 @@ python3 tools/windows_stage.py --legacy-cp932
 
 ## 원본 게임의 실제 GUI 관측
 
-별도 `reference-game\run-001\elonaplus2.335`에 원본 ZIP을 CP932 파일명으로 풀고 EXE 해시를 확인했다. `tools/reference/ProbeGameWindow.cs`는 정확히 자신이 시작한 PID의 창만 관측하고 10초 뒤 캡처한다. 사용자 바탕화면·다른 창은 캡처하지 않으며 키 입력도 보내지 않는다. 끝나면 해당 프로세스를 닫고 종료가 지연되면 그 PID만 정리한다.
+별도 `reference-game\run-001\elonaplus2.335`에 원본 ZIP을 CP932 파일명으로 풀고 EXE 해시를 확인했다. `scripts/reference/ProbeGameWindow.cs`는 정확히 자신이 시작한 PID의 창만 관측하고 10초 뒤 캡처한다. 사용자 바탕화면·다른 창은 캡처하지 않으며 키 입력도 보내지 않는다. 끝나면 해당 프로세스를 닫고 종료가 지연되면 그 PID만 정리한다.
 
 1. SSH의 session 0에서는 프로세스가 살아 있으나 visible window가 0개였다. 이 결과를 GUI 성공으로 처리하지 않았다.
 2. 동일 사용자·`Interactive` logon·`Limited` 권한의 일회성 예약 작업으로 session 1에서 같은 helper를 실행했다. 추가 자격 증명이나 관리자 권한 상승은 사용하지 않았다.

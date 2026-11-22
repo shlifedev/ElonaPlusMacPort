@@ -7,7 +7,7 @@
 - 신시: TinySoundFont `tsf.h` @ `a3621a19…` (MIT, SHA-256 `70d55963…d197`).
 - MP3: dr_mp3 v0.7.4 @ `aec2dd20…` (퍼블릭 도메인 또는 MIT-0, SHA-256 `f5c8020e…e915`).
 - SoundFont: GeneralUser GS v2.0.3 @ `684543d5…` (GeneralUser GS License v2.0, SHA-256 `9575028c…8cfe`).
-- 위 셋은 `python3 tools/bootstrap_audio.py`가 공식 GitHub 고정 커밋에서 받아 `.cache/audio`에 둔다. 전역 설치와 런타임 DLL은 없다. 원문 고지는 `licenses/`와 루트 `THIRD_PARTY_NOTICES.md`에 병합했다.
+- 위 셋은 `python3 scripts/bootstrap_audio.py`가 공식 GitHub 고정 커밋에서 받아 `.cache/audio`에 둔다. 전역 설치와 런타임 DLL은 없다. 원문 고지는 `docs/licenses/`와 `docs/THIRD_PARTY_NOTICES.md`에 병합했다.
 - FluidSynth는 Windows에서 의존 DLL이 많아 1차 구현에서 제외했다. 신시 계층은 교체할 수 있다.
 
 ## API (출력 44100 Hz · 2ch · interleaved float32)
@@ -31,7 +31,7 @@
   - sustain, notes off, 꼬리, 반복, rewind, 플레이어 상태
 - 원본 오프라인 렌더: 83개 MIDI + 1개 MP3 전부 열림·종료, 유한한 값, 무음 아님. `gm_on.mid`는 노트가 없는 GM 리셋 파일이라 무음이 정상이다. 반복 동작도 확인했다.
   - macOS ARM64: 448개 검사 통과(`work/audio/render-report-macos.json`).
-  - Windows x64(MSVC): 448개 검사 통과(`work/audio/audio-claude-x64-01/`, `tools/audio_windows_check.py`).
+  - Windows x64(MSVC): 448개 검사 통과(`work/audio/audio-claude-x64-01/`, `scripts/audio_windows_check.py`).
   - 두 플랫폼 모두 **오프라인 PCM 검증**이다. 실제 오디오 장치 출력은 GUI 연결 뒤 따로 확인해야 한다.
 - 단독 빌드: `cmake -S tests/audio -B build/audio-macos -G Ninja && cmake --build build/audio-macos`. 원본 렌더는 `build/audio-macos/elona_audio_tests --game-dir elonaplus2.335`로 한다.
 

@@ -46,7 +46,7 @@ def main():
     run = Path(tempfile.mkdtemp(prefix='fixed-log-', dir=args.work)).resolve()
     selected = set(re.findall(rb'native_log_identity = "@fixed-id/([0-9a-f]{20})"', args.ax_source.read_bytes()))
     pairs = json.loads((ROOT / 'work/localization/2.335/static-pairs.json').read_text())
-    targets = {r['id']: r['target'] for r in json.loads((ROOT / 'localization/ko-KR/original-fixed-adventure.json').read_text())['entries']}
+    targets = {r['id']: r['target'] for r in json.loads((ROOT / 'src/localization/ko-KR/original-fixed-adventure.json').read_text())['entries']}
     actual, expected, keys = [], [], []
     captions = {}
     for row in pairs:

@@ -1,5 +1,12 @@
 # 작업 기록
 
+## 2026-11-22 · GitHub 프로젝트 루트 정리
+
+- Git이 추적하는 루트 항목을 20개에서 11개로 줄였다. 실행기·도구·패치를 `scripts/`에, 런처·패키징 자료·번역 자료·CMake 모듈을 `src/`에, 제3자 고지와 라이선스를 `docs/`에 모았다. 이전 기록의 명령에 등장하는 `tools/`는 현재 `scripts/`에 해당한다. [현재 경로와 명령](DEVELOPMENT.md)
+- `cmake --preset macos-arm64-legacy-cp932-release`와 같은 프리셋의 빌드·CTest 14개를 통과했다. `python3 -m unittest discover -s tests`의 56개와 `python3 -m unittest discover -s tests/localization/source_transform`의 17개도 통과했다.
+- 저장소 밖에서 두 `.command`의 `--dry-run --profile`을 실행했다. 각 실행기가 선택한 호스트와 게임 데이터를 별도 프로필에서 `tests/game/newgame_english.script`로 구동해 원어·한국어 모두 4,358프레임에 정상 저장 종료했고 각각 154개 세이브 파일을 확인했다. 근거는 `build/layout-play-gdj6xc_2/report.json`과 `build/layout-play-yeg65eum/report.json`에 있다.
+- `scripts/package_release.py`로 새 런처 경로에서 Mac DMG를 만들고 앱 서명, 번들 내 호스트 기동, `hdiutil verify`를 확인했다. Windows 검사용 스냅샷 네 종류는 Mac에서 입력 파일 목록과 CMake 구성을 확인했다. Windows 실기 빌드와 GitHub Actions 실행은 이번 검사 범위에 포함되지 않았다.
+
 ## 2026-11-22 · v13 검토 결함 세 건 수정 (v14)
 
 - v13 리뷰에서 찾은 세 가지를 고쳤다. (1) 영어판 진화 메시지에 영어 종명이 섞이던 문제: 원본 `evold` 대신 DB 기본 이름 `refchara(종, 2, 1)`과 비교한다. (2) scope 1~9 메뉴의 `@fixed/` 대체 조회를 제거하고, 이 조회에 기대던 `@sheet/INIT`만 추가했다. (3) 일본어 로그 줄바꿈 분할을 글꼴 폭 비율로 바꿨다. [변경과 재현](KOREAN_IMPLEMENTATION.md)
@@ -43,7 +50,7 @@
 
 ## 2026-11-18 · 2.335 한국어판 v8 통합 결과
 
-- 한국어 고정 문구 9,309/12,405쌍(75.04%). 직접 검수·교정 5,044쌍, 추가 자동 초벌 4,265쌍, 미결합 3,096쌍. 235개였던 용어집에 에리스테아·카람·혼돈의 거성 등 9개 표제어를 더했다. `--reviewed-only`는 검수 사전과 수동 교정 해시만 사용한다. 원본/중간/최종 생성 파일별 SHA-256은 [coverage.json](../localization/ko-KR/coverage.json)에 있다.
+- 한국어 고정 문구 9,309/12,405쌍(75.04%). 직접 검수·교정 5,044쌍, 추가 자동 초벌 4,265쌍, 미결합 3,096쌍. 235개였던 용어집에 에리스테아·카람·혼돈의 거성 등 9개 표제어를 더했다. `--reviewed-only`는 검수 사전과 수동 교정 해시만 사용한다. 원본/중간/최종 생성 파일별 SHA-256은 [coverage.json](../src/localization/ko-KR/coverage.json)에 있다.
 - `work/ko-broad/final-default/summary.json`의 실게임 8경로 모두 원본 세이브 payload 및 프레임 일치(154, 154, 162, 162, 162, 170, 170, 154파일). 비교 기준은 이전 한국어판 체크포인트 `3c07a10`으로 같은 입력을 실행한 `work/ko-broad/base`다. 영문 미번역 고유 표시값 437→77종. 검수 전용 데이터만 적용한 경우와도 대조했다. Mac SDL3 실제 창 렌더 표면에서 1,600×1,200 종족 선택 캡처, CTest 12/12, 별도 단위 검사 12/12, 문단·글꼴 검사 및 의뢰 게시판·책 검사를 통과했다.
 - 원격 Windows x64 `gui-native-ko-broad-final01`에서 전체 데이터의 해시·폰트 조회, 실제 신규게임·로드/소지품·세계지도, 비교 세이브 및 임시 프로세스 정리를 포함해 42/42 통과했다. 원본 ZIP SHA-256 `06b3fd7d523bcc75ff5c3805d9ae6d5a3056e179b815f27698e8923b1ea21391` 일치. Windows 화면 검사는 headless였다. 후반 퀘스트 완주와 전체 자동 초벌의 문장별 검수는 남아 있다. [구체적 재현과 범위](KOREAN_IMPLEMENTATION.md)
 

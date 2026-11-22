@@ -15,7 +15,7 @@
 아래의 줄 번호는 이 소스 해시에만 해당한다. 원시 소스는 변경하지 않았다.
 
 ```sh
-python3 tools/audit_compatibility.py
+python3 scripts/audit_compatibility.py
 ```
 
 산출물:

@@ -3,7 +3,7 @@ from pathlib import Path
 import struct
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from elona_extract import ExtractError
 from normalize_legacy_ax import normalize
 

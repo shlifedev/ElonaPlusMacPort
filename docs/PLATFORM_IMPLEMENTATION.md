@@ -17,11 +17,11 @@
 | `src/platform/encoding.{h,cpp}` | CP932↔UTF-8 엄격 변환, NFC 정규화, Win32 wide 변환 |
 | `src/platform/game_files.{h,cpp}` | 원본 불변 + 사용자 root overlay 파일시스템, tombstone, 외부 grant, 세이브 가져오기, SHA-256 |
 | `src/platform/game_files_hsp.{h,cpp}` | HSP 코어 파일 이벤트 어댑터(코어 수정 없음) |
-| `cmake/ElonaPlatform.cmake` | `elona_platform`, `elona_platform_hsp` target |
+| `src/cmake/ElonaPlatform.cmake` | `elona_platform`, `elona_platform_hsp` target |
 | `tests/platform/*` | 단위 테스트, 실제 VM E2E 호스트·fixture·runner(독립 CMake 프로젝트) |
-| `tools/reference/platform_*`, `gui_*`, `GuiFixtureProbe.cs` | Windows 참조 실행 도구 |
+| `scripts/reference/platform_*`, `gui_*`, `GuiFixtureProbe.cs` | Windows 참조 실행 도구 |
 
-루트 `CMakeLists.txt`는 소유하지 않는다. 통합 측은 `include(cmake/ElonaPlatform.cmake)` 후
+루트 `CMakeLists.txt`는 소유하지 않는다. 통합 측은 `include(src/cmake/ElonaPlatform.cmake)` 후
 `target_link_libraries(<host> PRIVATE elona_platform elona_platform_hsp)`만 추가한다.
 
 ## 2. CP932 ↔ UTF-8 (`encoding.h`)
@@ -36,7 +36,7 @@
 
 ### 근거: Windows 전체 표와 전수 비교 (observed)
 
-`tools/reference/platform_cp932_table.py`가 home/windows에서 Win32 API로 표를 덤프했다
+`scripts/reference/platform_cp932_table.py`가 home/windows에서 Win32 API로 표를 덤프했다
 (Windows 11 Pro 10.0.26200, 시스템 ACP 949). 첫 실행 `platform-cp932-01`은 C# `char[]` P/Invoke가
 ANSI로 마샬링된 **무효 데이터**라 폐기했고, `ushort[]`로 고친 `platform-cp932-02`를 사용한다.
 
@@ -133,7 +133,7 @@ picload/getpicsize(PICLOAD 이벤트·이미지 로더), mmload/오디오, z.hpi
 
 ## 5. 원본 HSP 3.4 x86 파일 명령 기준값 (observed)
 
-`tools/reference/platform_hsp34_files.py` → `work/windows/reference-build/platform-files-03`
+`scripts/reference/platform_hsp34_files.py` → `work/windows/reference-build/platform-files-03`
 (`hsp3cl.exe` SHA `29f90169…`, 각 case 전용 폴더). hsp3cl은 오류 시 콘솔 키 입력을 기다려 출력이
 사라지므로 각 fixture에 `onerror` 처리기를 넣었다(`platform-files-01`은 전부 timeout, 기록 보존).
 
@@ -171,7 +171,7 @@ cmake --build build/platform-tests && ctest --test-dir build/platform-tests --ou
 
 ### Windows 11 x64, MSVC 19.51 / Ninja (observed)
 
-`python3 tools/reference/platform_windows_x64.py --run platform-x64-NN` — 소스·고정 OpenHSP·Win32 표·
+`python3 scripts/reference/platform_windows_x64.py --run platform-x64-NN` — 소스·고정 OpenHSP·Win32 표·
 E2E 기대값(`run_hsp_e2e.py --export`)을 ZIP(과거 고정 timestamp)으로 전용 `reference-build/platform-x64-NN`에
 보내 빌드한다. 원격 Python이 없어 E2E는 `platform_build_x64.ps1`이 같은 기대값으로 비교한다.
 
@@ -187,7 +187,7 @@ E2E 기대값(`run_hsp_e2e.py --export`)을 ZIP(과거 고정 timestamp)으로 �
 
 ## 7. Windows HSP 3.4 x86 GUI fixture 기준선 (observed)
 
-도구: `tools/reference/gui_run_windows.py`(스테이징·SFTP·회수), `gui_run_fixtures.ps1`(원격, 일회성
+도구: `scripts/reference/gui_run_windows.py`(스테이징·SFTP·회수), `gui_run_fixtures.ps1`(원격, 일회성
 Interactive/Limited 예약 작업, `finally` 삭제, 명령줄에 run 경로가 있는 잔여 프로세스만 정리),
 `GuiFixtureProbe.cs`(x86, 직접 시작한 PID의 창만 열거·캡처), `gui_verify.py`(BMP 디코딩 비교).
 `hsp3.exe` SHA `2d55f188b65e67172adc7f24f4a457bb40fb846c971c1279a3bac5126b426ecf`. 세 실행 모두
@@ -216,8 +216,8 @@ backspace, 키보드 입력 바이트 제한은 미검증**이다(수동 실행 
 
 ## 8. 통합 `elona_gui_host` 파일 경계 회귀 (2026-11-18, observed)
 
-도구: `tools/reference/host_regression.py`(Mac, fixture + 원본 AX 단계), `tests/platform/host/*.hsp`,
-`tools/reference/host_windows_x64.py` + `host_windows_x64.ps1`(루트 `windows_stage.py`와 별개의 스냅샷,
+도구: `scripts/reference/host_regression.py`(Mac, fixture + 원본 AX 단계), `tests/platform/host/*.hsp`,
+`scripts/reference/host_windows_x64.py` + `host_windows_x64.ps1`(루트 `windows_stage.py`와 별개의 스냅샷,
 `reference-build/platform-host-NN`). 호스트 바이너리는 공유 빌드가 아닌 전용 `build/host-regression-macos`
 (`ELONA_GUI=OFF`, legacy CP932/RNG)와 원격 전용 run 폴더에서 빌드했다. 사용자 live preview(PID 30060,
 `work/game-run/user-preview-711v_2uc`)와 그 바이너리는 건드리지 않았다.
@@ -318,4 +318,4 @@ VM 내부 경로(`exedir + "..."`, CP932)는 GameFileSystem이 해석하고, OS 
 각 호출은 사용자 save 폴더 아래에 새 임시 디렉터리를 배타적으로 만들고, 그 디렉터리만 정리한다. 마지막 이름 변경은 macOS의 `RENAME_EXCL`, Windows의 덮어쓰기 없는 `MoveFileExW`를 사용한다. 서로 다른 두 슬롯 동시 가져오기, 빈 세이브와 일반 세이브의 같은 슬롯 경쟁, 기존 `.elonaplus-import-tmp` 안의 표식 보존을 검사했다.
 
 - Mac ARM64에서 `cmake --build build/platform-tests -j8` 후 `ctest --test-dir build/platform-tests --output-on-failure` 4/4 통과.
-- Windows x64에서 `python3 tools/reference/platform_windows_x64.py --run platform-astra-saves-20261118-b` 실행. CTest 3/3, 파일 계층 단언 189/189, VM 파일 작업 검사 통과. 실행 기록은 `work/windows/reference-build/platform-astra-saves-20261118-b/report.json`에 있다. 합성 입력만 사용했다.
+- Windows x64에서 `python3 scripts/reference/platform_windows_x64.py --run platform-astra-saves-20261118-b` 실행. CTest 3/3, 파일 계층 단언 189/189, VM 파일 작업 검사 통과. 실행 기록은 `work/windows/reference-build/platform-astra-saves-20261118-b/report.json`에 있다. 합성 입력만 사용했다.

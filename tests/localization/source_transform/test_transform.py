@@ -10,8 +10,8 @@ import unittest
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[3]
-sys.path.insert(0, str(ROOT / "tools"))
-spec = importlib.util.spec_from_file_location("prepare_korean_game", ROOT / "tools/prepare_korean_game.py")
+sys.path.insert(0, str(ROOT / "scripts"))
+spec = importlib.util.spec_from_file_location("prepare_korean_game", ROOT / "scripts/prepare_korean_game.py")
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
@@ -110,7 +110,7 @@ class TransformTests(unittest.TestCase):
 
     def test_output_cannot_escape_work_or_overwrite_existing(self):
         with self.assertRaisesRegex(ValueError, "below work"):
-            module.check_output_path(ROOT / "localization/generated-game")
+            module.check_output_path(ROOT / "src/localization/generated-game")
         # A fresh checkout has no work/ yet; make a throwaway directory below it.
         (ROOT / "work").mkdir(exist_ok=True)
         with tempfile.TemporaryDirectory(dir=ROOT / "work") as existing:

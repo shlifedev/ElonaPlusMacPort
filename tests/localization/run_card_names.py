@@ -11,7 +11,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / 'tools'))
+sys.path.insert(0, str(ROOT / 'scripts'))
 from korean_card_hooks import card_inserts, card_lore_table
 
 
@@ -26,7 +26,7 @@ def main():
     lines = raw.decode('cp932').splitlines()
     entries = {}
     for name in ('original-card-game-extra.json', 'original-card-names.json'):
-        for row in json.loads((ROOT/'localization/ko-KR'/name).read_text())['entries']:
+        for row in json.loads((ROOT/'src/localization/ko-KR'/name).read_text())['entries']:
             if row['source'].startswith('@card/header/'):
                 assert row['card_id'] not in entries
                 entries[row['card_id']] = row
@@ -125,7 +125,7 @@ def main():
         with (work/f'{mode}-host.log').open('wb') as log:
             subprocess.run([args.host.resolve(), '--game', ax, '--game-root', work/'game', '--user-root', work/'user',
                             '--work-dir', work, '--translation', args.catalog.resolve(), '--translation-fallback',
-                            ROOT/'localization/ko-KR'/fallback, '--headless', '--deterministic',
+                            ROOT/'src/localization/ko-KR'/fallback, '--headless', '--deterministic',
                             '--report', work/f'{mode}.json'], check=True, stdout=log, stderr=subprocess.STDOUT)
         matched = next(work.rglob(f'{mode}.txt')).read_text().strip()
         print(f'{mode}: {matched} complete Korean biographies')

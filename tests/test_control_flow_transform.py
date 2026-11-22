@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-MODULE = Path(__file__).resolve().parents[1] / "tools/fix_decompiled_control_flow.py"
+MODULE = Path(__file__).resolve().parents[1] / "scripts/fix_decompiled_control_flow.py"
 spec = importlib.util.spec_from_file_location("flow_transform", MODULE)
 flow = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(flow)

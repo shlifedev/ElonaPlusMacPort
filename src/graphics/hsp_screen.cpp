@@ -1,7 +1,7 @@
 // Port of the Win32 HSP3 Bmscr pixel semantics onto a CPU DIB.
 // Reference: OpenHSP 3dbb8729 src/hsp3/win32gui/hspwnd_win.cpp
 // (Copyright onion software/onitama, BSD-style license; see
-// THIRD_PARTY_NOTICES.md). Functions marked "literal port" keep the original
+// docs/THIRD_PARTY_NOTICES.md). Functions marked "literal port" keep the original
 // integer arithmetic, clipping order and in-place scan order, including the
 // behaviour for overlapping source/destination rectangles in the same buffer.
 // Functions marked "GDI approximation" emulate a Windows GDI call whose exact

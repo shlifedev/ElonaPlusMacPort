@@ -1,5 +1,5 @@
 # Standalone build of the music renderer and its tests:
-#   python3 tools/bootstrap_audio.py
+#   python3 scripts/bootstrap_audio.py
 #   cmake -S tests/audio -B build/audio-macos -G Ninja && cmake --build build/audio-macos
 #   ctest --test-dir build/audio-macos --output-on-failure
 #   build/audio-macos/elona_audio_tests --game-dir elonaplus2.335 --report work/audio/render-report.json
@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 get_filename_component(ELONA_REPO_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../.." ABSOLUTE)
 include(CTest)
-include("${ELONA_REPO_ROOT}/cmake/ElonaAudio.cmake")
+include("${ELONA_REPO_ROOT}/src/cmake/ElonaAudio.cmake")
 elona_add_audio(TESTS ON)
 
 # Explicit opt-in: this probe opens the real default playback device and is
